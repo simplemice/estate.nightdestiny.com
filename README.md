@@ -7,7 +7,7 @@ Web: https://estate.nightdestiny.com
 A real estate rental platform specializing in condos and villas for short-term and long-term stays in Phuket.
 
 Key Features:
-- Condo and villa listings
+- 1000+ Condo and villas
 - Vacation and long-stay rentals
 - Property presentation and details
 - Rental inquiries and booking communication
