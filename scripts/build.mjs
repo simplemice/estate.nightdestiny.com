@@ -577,6 +577,12 @@ function heroPreload() {
 
 function homePage() {
   const feat = (l) => { const f = l.filter((p) => p.featured); return (f.length ? f : l).slice(0, 3); };
+  // SALE on the home page = normal sale properties + developments listed on SALE; featured first, else newest
+  const featSale = () => {
+    const all = [...saleL, ...saleProjects].sort((a, b) => Date.parse((b._saleEntry || b).publishedAt || 0) - Date.parse((a._saleEntry || a).publishedAt || 0));
+    const f = all.filter((x) => (x._saleEntry || x).featured);
+    return (f.length ? f : all).slice(0, 3);
+  };
   const locs = {};
   const L = (l) => (locs[l] ||= { rent: 0, sale: 0 });
   rentL.forEach((p) => L(p.location).rent++);
@@ -600,7 +606,7 @@ function homePage() {
 		</div>
 	</section>
 	${section('Featured Rentals', 'For rent', feat(rentL).map((p) => propCard(p)), '/rent/', 'View all rentals')}
-	${section('Featured Properties for Sale', 'For sale', feat(saleL).map((p) => propCard(p)), '/sale/', 'View all for sale')}
+	${section('Featured Properties for Sale', 'For sale', featSale().map((x) => (x._saleEntry ? projSaleCard(x) : propCard(x))), '/sale/', 'View all for sale')}
 	${section('New Developments', 'New projects', feat(projL).map(projCard), '/projects/', 'View all projects')}
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>Browse by area</span><h2>Popular Locations</h2></div><div class="loc-grid">${locCards}</div></div></section>
 	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>About us</span><h2>Your local real estate partner</h2></div><p>${esc(settings.aboutText)}</p><a class="primary-btn" href="/about/">About our agency</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', 'Chat on WhatsApp')}</div></div></div></section>`;
