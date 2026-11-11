@@ -578,10 +578,12 @@ function heroPreload() {
 function homePage() {
   const feat = (l) => { const f = l.filter((p) => p.featured); return (f.length ? f : l).slice(0, 3); };
   const locs = {};
-  [...rentL, ...saleL].forEach((p) => { (locs[p.location] ||= { rent: 0, sale: 0 })[p.category]++; });
-  projL.forEach((p) => { (locs[p.location] ||= { rent: 0, sale: 0 }); });
-  const locCards = Object.entries(locs).sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale).slice(0, 6)
-    .map(([l, c]) => `<a class="loc-chip" href="/${c.sale && !c.rent ? 'sale' : 'rent'}/?location=${encodeURIComponent(l)}"><strong>${esc(l)}</strong><span>${c.rent} rent &middot; ${c.sale} sale</span></a>`).join('');
+  const L = (l) => (locs[l] ||= { rent: 0, sale: 0 });
+  rentL.forEach((p) => L(p.location).rent++);
+  saleL.forEach((p) => L(p.location).sale++);
+  saleProjects.forEach((p) => L(p._saleEntry?.location || p.location).sale++); // developments listed on SALE
+  const locCards = Object.entries(locs).sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0])).slice(0, 12)
+    .map(([l, c]) => `<a class="loc-chip" href="/${c.sale && !c.rent ? 'sale' : 'rent'}/?location=${encodeURIComponent(l)}"><strong>${esc(l)}</strong><span>${[c.rent ? `${c.rent} for rent` : '', c.sale ? `${c.sale} for sale` : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
   const body = `
 	<section class="estate-hero">
 		${img(settings.heroImage, '', { lazy: false, sizes: '100vw', cls: 'hero-img', priority: true })}
