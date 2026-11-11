@@ -89,7 +89,34 @@ content:
     subfolders: false
     filename: "{primary}.json"
     view: { primary: title, fields: [location, price, ownership, availability, published], sort: publishedAt, order: desc }
-    fields: *property_fields
+    fields:
+      - { name: project, label: Linked new project (optional), type: reference, description: "Pick a project to list it on the Sale page. Its details come from New Projects; you only need Title, Published and Publication date here. Leave empty for a normal property and fill in the fields below.", options: { collection: projects, search: name, value: "{path}", label: "{name}" } }
+      - { name: title, label: Title, type: string, required: true, description: "The filename (URL slug) is created from the title and cannot be changed later." }
+      - { name: published, label: Published (visible on website), type: boolean, default: true }
+      - { name: featured, label: Featured on homepage, type: boolean, default: false }
+      - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
+      - { name: propertyType, label: Property type, type: select, options: { values: [Condo, Villa, House, Townhouse, Apartment, Land, Commercial] } }
+      - { name: location, label: Location / area, type: string, description: "e.g. Kata, Rawai, Patong. Used by the Location filter, keep spelling consistent." }
+      - { name: address, label: Address, type: string }
+      - { name: price, label: Price, type: number }
+      - { name: currency, label: Currency, type: select, default: THB, options: { values: [THB, USD] } }
+      - { name: pricePeriod, label: Rent price period (rent only), type: select, default: month, options: { values: [month, night, year] } }
+      - { name: bedrooms, label: Bedrooms, type: number }
+      - { name: bathrooms, label: Bathrooms, type: number }
+      - { name: livingArea, label: Living area (sqm), type: number }
+      - { name: landArea, label: Land area (sqm), type: number }
+      - { name: floor, label: Floor, type: string }
+      - { name: ownership, label: Ownership (sale only), type: select, options: { values: [Freehold, Leasehold] } }
+      - { name: furnishing, label: Furnishing, type: select, options: { values: [Furnished, Partly furnished, Unfurnished] } }
+      - { name: yearBuilt, label: Year built, type: number }
+      - { name: shortDescription, label: Short description (card text), type: string }
+      - { name: description, label: Full description, type: text, description: "Plain text. Blank line = new paragraph. HTML is not allowed (escaped on build)." }
+      - { name: facilities, label: Facilities & amenities, type: string, list: true }
+      - { name: nearby, label: Nearby attractions, component: nearby }
+      - { name: coordinates, label: Map coordinates, component: coordinates }
+      - { name: cover, label: Cover image, type: image, options: { path: assets/images/properties, extensions: [jpg, jpeg, png, webp] } }
+      - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/properties, extensions: [jpg, jpeg, png, webp] } }
+      - { name: availability, label: Availability, component: availability }
 
   - name: projects
     label: New Projects

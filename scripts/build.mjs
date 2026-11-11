@@ -80,6 +80,12 @@ const checkImages = (d, list) => list.forEach((p) => { if (p && !exists(p)) err(
 
 function validateProperty(p, category) {
   const f = p._file;
+  if (p.project) { // sale entry that points at a project (shown on the SALE page, details live on the project page)
+    p.projectSlug = slugify(String(p.project).replace(/^.*\//, '').replace(/\.json$/, ''));
+    if (!p.title) err(f, 'missing required field "title"');
+    if (p.availability && !AVAIL.includes(p.availability)) err(f, `bad availability "${p.availability}"`);
+    return;
+  }
   ['title', 'propertyType', 'location'].forEach((k) => { if (!p[k]) err(f, `missing required field "${k}"`); });
   if (!(num(p.price) > 0)) err(f, 'price must be a number > 0');
   if (!p.cover) err(f, 'missing cover image');
@@ -117,12 +123,19 @@ if (errors.length) {
   console.error('CONTENT VALIDATION FAILED:\n  ' + errors.join('\n  '));
   process.exit(1);
 }
+const projBySlug = new Map(projectsAll.map((x) => [x.slug, x]));
+sale.filter((p) => p.projectSlug && !projBySlug.has(p.projectSlug)).forEach((p) => err(p._file, `linked project "${p.projectSlug}" not found`));
+if (errors.length) { console.error('CONTENT VALIDATION FAILED:\n  ' + errors.join('\n  ')); process.exit(1); }
 const byNewest = (a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0);
 const live = (a) => a.filter((p) => p.published !== false);
 const rentL = live(rent).sort(byNewest);
-const saleL = live(sale).sort(byNewest);
-const projL = live(projectsAll).sort(byNewest);
-console.log(`Content OK: ${rentL.length} rent, ${saleL.length} sale, ${projL.length} projects (${rent.length + sale.length + projectsAll.length - rentL.length - saleL.length - projL.length} unpublished)`);
+const projL0 = live(projectsAll).sort(byNewest);
+const saleAll = live(sale).sort(byNewest);
+const saleL = saleAll.filter((p) => !p.projectSlug);                       // normal sale properties (own detail pages)
+const saleProjects = saleAll.filter((p) => p.projectSlug && projBySlug.get(p.projectSlug)?.published !== false)
+  .map((e) => ({ ...projBySlug.get(e.projectSlug), _saleEntry: e }));      // projects listed on SALE
+const projL = projL0;
+console.log(`Content OK: ${rentL.length} rent, ${saleL.length} sale (+${saleProjects.length} linked projects), ${projL.length} projects (${rent.length + sale.length + projectsAll.length - rentL.length - saleAll.length - projL.length} unpublished)`);
 if (CHECK) process.exit(0);
 
 /* ---------- formatting ---------- */
@@ -319,7 +332,8 @@ function projSaleCard(p) {
   const t = p.name;
   const beds = maxNum(p.unitTypes.map((u) => u.bedrooms));
   const area = maxNum(p.unitTypes.map((u) => u.size));
-  const sp = num(p.startingPrice);
+  const e = p._saleEntry || {};
+  const sp = num(e.price ?? p.startingPrice);
   const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="0" data-area="${area}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType)}" data-ownership="" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`;
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
@@ -595,7 +609,7 @@ for (const d of OUT_DIRS) {
 
 write('index.html', homePage());
 write('rent/index.html', listingPage('rent', rentL));
-write('sale/index.html', listingPage('sale', saleL, projL));
+write('sale/index.html', listingPage('sale', saleL, saleProjects));
 write('projects/index.html', projectsPage(projL));
 write('about/index.html', aboutPage());
 write('contact/index.html', contactPage());
