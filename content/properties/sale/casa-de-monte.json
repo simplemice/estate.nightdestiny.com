@@ -4,5 +4,28 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/casa-de-monte.json",
+  "propertyType": "Villa",
+  "location": "Ko Kaeo",
+  "address": "Ko Kaeo, Phuket",
+  "currency": "THB",
+  "shortDescription": "Pool villas with classic European elegance set among greenery in Ko Kaeo.",
+  "description": "Villa community in Ko Kaeo with a greenery theme and classic European elegance. Facilities include a clubhouse and children's play park, with a gated entrance.\nFive house types are offered: Aurellia (A2), Sylvia (S), Silvora (S2), Montara (M) and Lavera (L). Aurellia has a land plot of about 280-584 sqm.\nPrices and availability on request via WhatsApp.",
+  "facilities": [
+    "Clubhouse",
+    "Children's play park",
+    "Gated community",
+    "Garden"
+  ],
+  "nearby": [],
+  "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
+  "images": [
+    "/assets/images/projects/casa-de-monte/monte-drone.jpg",
+    "/assets/images/projects/casa-de-monte/monte-entrance.jpg",
+    "/assets/images/projects/casa-de-monte/monte-clubhouse.jpg",
+    "/assets/images/projects/casa-de-monte/monte-playpark-1.jpg",
+    "/assets/images/projects/casa-de-monte/monte-interior-1.jpg",
+    "/assets/images/projects/casa-de-monte/monte-interior-2.jpg",
+    "/assets/images/projects/casa-de-monte/monte-interior-3.jpg"
+  ],
   "availability": "Available"
 }

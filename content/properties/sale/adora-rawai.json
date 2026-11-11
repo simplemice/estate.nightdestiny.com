@@ -4,5 +4,26 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/adora-rawai.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Rawai",
+  "address": "Rawai, Phuket",
+  "currency": "THB",
+  "shortDescription": "Mediterranean-inspired sea-view condominium on Phuket's west coast in Rawai.",
+  "description": "Coastal condominium in Rawai on Phuket's west coast, designed around sea views and a Mediterranean-inspired concept.\nUnits range from 30 sqm one-bedroom layouts to 87 sqm two-bedroom layouts. Construction progress was reported at about 69% in October 2026.\nPrices, availability and the full facilities list are provided on request: message us on WhatsApp.",
+  "facilities": [],
+  "nearby": [],
+  "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
+  "images": [
+    "/assets/images/projects/adora-rawai/adora-exterior-2.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-3.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-4.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-5.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-6.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-1.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-2.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-3.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-4.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 2
 }

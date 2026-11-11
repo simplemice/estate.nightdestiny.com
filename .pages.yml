@@ -90,7 +90,7 @@ content:
     filename: "{primary}.json"
     view: { primary: title, fields: [location, price, ownership, availability, published], sort: publishedAt, order: desc }
     fields:
-      - { name: project, label: Linked new project (optional), type: reference, description: "Pick a project to list it on the Sale page. Its details come from New Projects; you only need Title, Published and Publication date here. Leave empty for a normal property and fill in the fields below.", options: { collection: projects, search: name, value: "{path}", label: "{name}" } }
+      - { name: project, label: Linked new project (optional), type: reference, description: "Links this Sale entry to its project page (View Project button). The fields below are shown on the Sale card; any left empty fall back to the project data. Floor plans and unit types are edited under New Projects.", options: { collection: projects, search: name, value: "{path}", label: "{name}" } }
       - { name: title, label: Title, type: string, required: true, description: "The filename (URL slug) is created from the title and cannot be changed later." }
       - { name: published, label: Published (visible on website), type: boolean, default: true }
       - { name: featured, label: Featured on homepage, type: boolean, default: false }

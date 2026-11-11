@@ -4,5 +4,22 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/biancana.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Surin",
+  "address": "Surin, Phuket",
+  "currency": "THB",
+  "shortDescription": "Five-storey low-rise condominium between Surin and Bang Tao, 343 units.",
+  "description": "Four five-storey residential buildings between Surin and Bang Tao beaches, with 343 units on about 12,300 sqm. Construction was reported at about 3% in October 2026.\nUnits range from 1-bedroom to 3-bedroom penthouses. Prices and availability on request via WhatsApp.",
+  "facilities": [],
+  "nearby": [],
+  "cover": "/assets/images/projects/biancana/g1.jpg",
+  "images": [
+    "/assets/images/projects/biancana/g2.jpg",
+    "/assets/images/projects/biancana/g3.jpg",
+    "/assets/images/projects/biancana/g4.jpg",
+    "/assets/images/projects/biancana/g5.jpg",
+    "/assets/images/projects/biancana/g6.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 3
 }

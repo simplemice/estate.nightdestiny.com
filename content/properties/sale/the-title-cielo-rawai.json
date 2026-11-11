@@ -4,5 +4,33 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/the-title-cielo-rawai.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Rawai",
+  "address": "Rawai, Phuket",
+  "currency": "THB",
+  "shortDescription": "Sea-view condominium in Rawai with sky pool, rooftop and clubhouse.",
+  "description": "Coastal condominium in Rawai with a Mediterranean-inspired concept and sea views. Shared spaces include a sky pool, rooftop, clubhouse, lobby, fitness room and kids zone.\nThe project was reported about 99% complete in October 2026. Prices and current availability on request via WhatsApp.",
+  "facilities": [
+    "Swimming pool",
+    "Sky pool",
+    "Sky rooftop",
+    "Clubhouse",
+    "Lobby",
+    "Fitness center",
+    "Kids zone"
+  ],
+  "nearby": [],
+  "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
+  "images": [
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-club-house.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-sky-pool.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-sky-rooftop.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-lobby.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-fitness.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-kidszone.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-1-bedroom-1.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-2-bedroom-1.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 2
 }

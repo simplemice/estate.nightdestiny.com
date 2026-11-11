@@ -4,5 +4,43 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/coralina-kamala.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "currency": "THB",
+  "shortDescription": "Low-rise tropical-garden condominium 300 m from Kamala Beach, 564 units.",
+  "description": "\"The Hidden Gem\": eight seven-storey residential buildings plus a facilities building on about 18,100 sqm in Kamala, with modern-soft architecture and a tropical garden.\n564 units plus 5 shops. Kamala Beach is about 300 m away.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "300 m"
+    },
+    {
+      "place": "Wattanapat Hospital",
+      "distance": "450 m"
+    },
+    {
+      "place": "Phuket FantaSea",
+      "distance": "500 m"
+    },
+    {
+      "place": "Big C",
+      "distance": "1 km"
+    },
+    {
+      "place": "Cafe del Mar",
+      "distance": "1.2 km"
+    }
+  ],
+  "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
+  "images": [
+    "/assets/images/projects/coralina-kamala/g2.jpg",
+    "/assets/images/projects/coralina-kamala/g3.jpg",
+    "/assets/images/projects/coralina-kamala/g4.jpg",
+    "/assets/images/projects/coralina-kamala/g5.jpg",
+    "/assets/images/projects/coralina-kamala/g6.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 3
 }

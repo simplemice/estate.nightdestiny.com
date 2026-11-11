@@ -4,5 +4,29 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/the-title-heritage-bang-tao.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "Neo-classic luxury condominium in Bang Tao with sky pool and rooftop onsen.",
+  "description": "Neo-classic condominium in Bang Tao blending Phuket heritage charm with luxury and relaxation. Construction was reported about 99% complete in October 2026; ready to move.\nFacilities include a beach pool, sky pool, fitness, onsen and rooftop onsen.",
+  "facilities": [
+    "Beach pool",
+    "Sky pool",
+    "Fitness center",
+    "Onsen",
+    "Rooftop onsen",
+    "Lobby"
+  ],
+  "nearby": [],
+  "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-heritage-bang-tao/g2.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g3.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g4.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g5.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g6.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 3
 }

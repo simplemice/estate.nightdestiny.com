@@ -4,5 +4,22 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/the-title-serenity-naiyang.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Naiyang",
+  "address": "Naiyang, Phuket",
+  "currency": "THB",
+  "shortDescription": "Ready-to-move condominium in Naiyang, 814 units across six buildings.",
+  "description": "Six seven-storey residential buildings in Naiyang with 814 units on about 22,000 sqm. Ready to move in.\nUnits range from studios to 2-bedroom layouts. Prices and availability on request via WhatsApp.",
+  "facilities": [],
+  "nearby": [],
+  "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-serenity-naiyang/g2.jpg",
+    "/assets/images/projects/the-title-serenity-naiyang/g3.jpg",
+    "/assets/images/projects/the-title-serenity-naiyang/g4.jpg",
+    "/assets/images/projects/the-title-serenity-naiyang/g5.jpg",
+    "/assets/images/projects/the-title-serenity-naiyang/g6.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 2
 }

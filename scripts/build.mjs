@@ -328,23 +328,35 @@ function propCard(p, { filterable = false } = {}) {
 
 const maxNum = (arr) => { const v = arr.flatMap((x) => String(x ?? '').match(/[\d.]+/g) || []).map(Number).filter((n) => !isNaN(n)); return v.length ? Math.max(...v) : 0; };
 // Project shown inside the SALE listing: same card look, links to the project page, filterable.
-function projSaleCard(p) {
-  const t = p.name;
-  const beds = maxNum(p.unitTypes.map((u) => u.bedrooms));
-  const area = maxNum(p.unitTypes.map((u) => u.size));
-  const e = p._saleEntry || {};
+function projSaleCard(proj) {
+  const e = proj._saleEntry || {};
+  // Sale entry fields win; anything left empty falls back to the linked project.
+  const p = { ...proj, location: e.location || proj.location, projectType: e.propertyType || proj.projectType, shortDescription: e.shortDescription || proj.shortDescription, cover: e.cover || proj.cover, currency: e.currency || proj.currency };
+  const t = e.title || p.name;
+  const beds = num(e.bedrooms) ?? maxNum(p.unitTypes.map((u) => u.bedrooms));
+  const baths = num(e.bathrooms) ?? 0;
+  const area = num(e.livingArea) ?? maxNum(p.unitTypes.map((u) => u.size));
   const sp = num(e.price ?? p.startingPrice);
-  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="0" data-area="${area}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType)}" data-ownership="" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`;
+  const own = e.ownership || '';
+  const avail = e.availability || '';
+  const specs = [
+    beds ? `<li title="Bedrooms"><i class="fa fa-bed"></i> ${num(e.bedrooms) !== null ? beds : 'up to ' + beds}</li>` : '',
+    baths ? `<li title="Bathrooms"><i class="fa fa-bath"></i> ${baths}</li>` : '',
+    area ? `<li title="Size"><i class="fa fa-arrows-alt"></i> ${num(e.livingArea) !== null ? area : 'up to ' + area} sqm</li>` : '',
+    p.developer ? `<li>${esc(p.developer)}</li>` : '',
+    p.completionDate ? `<li><i class="fa fa-calendar"></i> ${esc(p.completionDate)}</li>` : '',
+  ].join('');
+  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.address, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
-		<a class="ec-img" href="${url(p)}">${img(p.cover, `${t} - ${p.projectType} development in ${p.location}`)}<span class="status status-proj">${esc(p.constructionStatus)}</span><span class="own">New project</span></a>
+		<a class="ec-img" href="${url(proj)}">${img(p.cover, `${t} - ${p.projectType} development in ${p.location}`)}${badge(avail && avail !== 'Available' ? avail : '') || `<span class="status status-proj">${esc(p.constructionStatus)}</span>`}${own ? `<span class="own">${esc(own)}</span>` : '<span class="own">New project</span>'}</a>
 		<div class="ec-body">
 			<span class="ec-type">${esc(p.projectType)} &middot; ${esc(p.location)}</span>
-			<h3><a href="${url(p)}">${esc(t)}</a></h3>
+			<h3><a href="${url(proj)}">${esc(t)}</a></h3>
 			<div class="ec-price">${sp ? `<small>From</small> ${money(sp, p.currency || 'THB')}` : '<small>Price on request</small>'}</div>
-			<ul class="ec-specs">${p.developer ? `<li>${esc(p.developer)}</li>` : ''}${p.completionDate ? `<li><i class="fa fa-calendar"></i> ${esc(p.completionDate)}</li>` : ''}</ul>
+			<ul class="ec-specs">${specs}</ul>
 			${p.shortDescription ? `<p class="ec-desc">${esc(p.shortDescription)}</p>` : ''}
-			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View Project</a>${waBtn(waMsg.project(t))}</div>
+			<div class="ec-actions"><a class="primary-btn" href="${url(proj)}">View Project</a>${waBtn(waMsg.project(t))}</div>
 		</div>
 	</article>
 </div>`;
@@ -378,8 +390,8 @@ function filterForm(list, category) {
   return `<form id="filters" class="filters" autocomplete="off" onsubmit="return false">
 	<div class="form-row">
 		<div class="form-group col-lg-3 col-md-6"><label for="f-q">Keyword</label><input id="f-q" name="q" class="form-control" type="search" placeholder="Name, area, facility..."></div>
-		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.location))}</select></div>
-		<div class="form-group col-lg-3 col-md-6"><label for="f-type">Property type</label><select id="f-type" name="type" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.propertyType || p.projectType))}</select></div>
+		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => p._saleEntry?.location || p.location))}</select></div>
+		<div class="form-group col-lg-3 col-md-6"><label for="f-type">Property type</label><select id="f-type" name="type" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.propertyType || p._saleEntry?.propertyType || (p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)))}</select></div>
 		${sale_ ? `<div class="form-group col-lg-3 col-md-6"><label for="f-ownership">Ownership</label><select id="f-ownership" name="ownership" class="form-control"><option value="">Any</option><option>Freehold</option><option>Leasehold</option></select></div>` : '<div class="form-group col-lg-3 col-md-6"><label for="f-sort-r">Sort by</label><select id="f-sort-r" name="sort" class="form-control js-sort"><option value="new">Newest first</option><option value="low">Lowest price</option><option value="high">Highest price</option></select></div>'}
 	</div>
 	<div class="form-row">

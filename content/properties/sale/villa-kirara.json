@@ -4,5 +4,21 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/villa-kirara.json",
+  "propertyType": "Villa",
+  "location": "Cherngtalay",
+  "address": "Cherngtalay, Phuket",
+  "currency": "THB",
+  "shortDescription": "Pool villa community in Cherngtalay blending into nature.",
+  "description": "Villa community in Cherngtalay designed to blend into nature, with five house types: Aura, Selene, Lyra, Myrrah and Xenia. Construction was reported at about 15% in October 2026.\nPrices and availability on request via WhatsApp.",
+  "facilities": [],
+  "nearby": [],
+  "cover": "/assets/images/projects/villa-kirara/g1.jpg",
+  "images": [
+    "/assets/images/projects/villa-kirara/g2.jpg",
+    "/assets/images/projects/villa-kirara/g3.jpg",
+    "/assets/images/projects/villa-kirara/g4.jpg",
+    "/assets/images/projects/villa-kirara/g5.jpg",
+    "/assets/images/projects/villa-kirara/g6.jpg"
+  ],
   "availability": "Available"
 }

@@ -4,5 +4,31 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/the-balcony.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Naiyang",
+  "address": "Naiyang, Phuket",
+  "currency": "THB",
+  "shortDescription": "Beachfront condominium at Naiyang Beach with 542 units and 50+ facilities.",
+  "description": "Nine residential buildings (4 to 5 storeys) on about 22,000 sqm beside Naiyang Beach, opposite Pine Tree Park and next to Salute Beach Club.\n542 units with swimming pools, a kids park and more than 50 indoor and outdoor facilities. Construction was reported at about 42% in October 2026.",
+  "facilities": [
+    "Swimming pools",
+    "Kids' park",
+    "Steam room",
+    "Sauna",
+    "Fitness center"
+  ],
+  "nearby": [
+    {
+      "place": "Naiyang Beach",
+      "distance": "Beachfront"
+    },
+    {
+      "place": "TOPS and 7-Eleven",
+      "distance": "250 m"
+    }
+  ],
+  "cover": "/assets/images/projects/the-balcony/g1.jpg",
+  "images": [],
+  "availability": "Available",
+  "bedrooms": 2
 }

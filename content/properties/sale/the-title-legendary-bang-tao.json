@@ -4,5 +4,27 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "project": "content/projects/the-title-legendary-bang-tao.json",
-  "availability": "Available"
+  "propertyType": "Condo",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "Ready-to-move classic-luxury condominium about 700 m from Bang Tao Beach.",
+  "description": "Nine seven-storey residential buildings about 700 m from Bang Tao Beach, 637 units on about 24,500 sqm, with a classic design and modern luxury finish. Ready to move.\nPrices and availability on request via WhatsApp.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "700 m"
+    }
+  ],
+  "cover": "/assets/images/projects/the-title-legendary-bang-tao/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-legendary-bang-tao/g2.jpg",
+    "/assets/images/projects/the-title-legendary-bang-tao/g3.jpg",
+    "/assets/images/projects/the-title-legendary-bang-tao/g4.jpg",
+    "/assets/images/projects/the-title-legendary-bang-tao/g5.jpg",
+    "/assets/images/projects/the-title-legendary-bang-tao/g6.jpg"
+  ],
+  "availability": "Available",
+  "bedrooms": 2
 }
