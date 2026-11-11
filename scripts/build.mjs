@@ -276,7 +276,6 @@ ${GENERATED_MARK}
 	<a class="wa-float" href="${esc(waLink(waMsg.general()))}" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><i class="fa fa-whatsapp"></i></a>
 
 	<script src="/js/jquery-3.3.1.min.js" defer></script>
-	<script src="/js/bootstrap.min.js" defer></script>
 	${lightbox ? '<script src="/js/jquery.magnific-popup.min.js" defer></script>' : ''}
 	<script src="/js/jquery.slicknav.js" defer></script>
 	<script src="/js/main.js" defer></script>
@@ -570,6 +569,12 @@ function section(titleTxt, sub, cards, href, more) {
   return `<section class="spad-2 home-section"><div class="container"><div class="section-title"><span>${esc(sub)}</span><h2>${esc(titleTxt)}</h2></div><div class="row">${cards.join('')}</div><div class="text-center mt-3"><a class="primary-btn" href="${href}">${esc(more)}</a></div></div></section>`;
 }
 
+function heroPreload() {
+  const { base, found } = variants(settings.heroImage);
+  if (!found.length) return `<link rel="preload" as="image" href="${esc(settings.heroImage)}" fetchpriority="high">`;
+  return `<link rel="preload" as="image" type="image/webp" fetchpriority="high" imagesrcset="${esc(found.map((w) => `${base}-${w}.webp ${w}w`).join(', '))}" imagesizes="100vw">`;
+}
+
 function homePage() {
   const feat = (l) => { const f = l.filter((p) => p.featured); return (f.length ? f : l).slice(0, 3); };
   const locs = {};
@@ -596,12 +601,12 @@ function homePage() {
 	${section('Featured Properties for Sale', 'For sale', feat(saleL).map((p) => propCard(p)), '/sale/', 'View all for sale')}
 	${section('New Developments', 'New projects', feat(projL).map(projCard), '/projects/', 'View all projects')}
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>Browse by area</span><h2>Popular Locations</h2></div><div class="loc-grid">${locCards}</div></div></section>
-	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>About us</span><h2>Your local real estate partner</h2></div><p>${esc(settings.aboutText)}</p><a class="primary-btn" href="/about/">Read more</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', 'Chat on WhatsApp')}</div></div></div></section>`;
+	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>About us</span><h2>Your local real estate partner</h2></div><p>${esc(settings.aboutText)}</p><a class="primary-btn" href="/about/">About our agency</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', 'Chat on WhatsApp')}</div></div></div></section>`;
   return layout({
     title: 'Phuket Condo & Villa Rental, Property for Sale & New Projects | Nightdestiny Estate',
     description: 'Condos and villas for rent, properties for sale and new development projects in Phuket, Thailand. Contact us directly on WhatsApp.',
     pathname: '/', active: 'home', body, ogImage: settings.heroImage,
-    extraHead: '',
+    preload: heroPreload(),
   });
 }
 
