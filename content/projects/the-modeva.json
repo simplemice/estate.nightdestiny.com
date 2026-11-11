@@ -1,0 +1,64 @@
+{
+  "name": "The Modeva",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Bang Tao condominium with lobby lounge, gym, onsen and co-working space.",
+  "description": "Condominium in Bang Tao with units from 1-bedroom to 3-bedroom duplexes. Construction was reported at about 91% in October 2026.\nPrices and availability on request via WhatsApp.",
+  "currency": "THB",
+  "constructionStatus": "Under construction",
+  "cover": "/assets/images/projects/the-modeva/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-modeva/g2.jpg",
+    "/assets/images/projects/the-modeva/g3.jpg",
+    "/assets/images/projects/the-modeva/g4.jpg",
+    "/assets/images/projects/the-modeva/g5.jpg",
+    "/assets/images/projects/the-modeva/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-modeva/plan1.jpg",
+    "/assets/images/floorplans/the-modeva/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "size": "29-43",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "55-58",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom",
+      "size": "65-68",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Plus",
+      "size": "93-105",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Duplex",
+      "size": "96-138",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "3 Bedroom Duplex",
+      "size": "146-148",
+      "bedrooms": 3,
+      "availability": "Available"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

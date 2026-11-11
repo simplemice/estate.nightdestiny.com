@@ -1,0 +1,51 @@
+{
+  "name": "The Title Halo 1",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "address": "Naiyang, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Ready-to-move condominium 350 m from Naiyang Beach, 5 minutes from the airport.",
+  "description": "Six seven-floor buildings with 329 units, 350 m from Naiyang Beach (Sirinat National Park) and about 5 minutes from Phuket International Airport. Ready to move.\nUnits are 1-bedroom (36-51 sqm) and 2-bedroom (59-64 sqm).",
+  "currency": "THB",
+  "constructionStatus": "Completed",
+  "totalUnits": 329,
+  "cover": "/assets/images/projects/the-title-halo-1/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-halo-1/g2.jpg",
+    "/assets/images/projects/the-title-halo-1/g3.jpg",
+    "/assets/images/projects/the-title-halo-1/g4.jpg",
+    "/assets/images/projects/the-title-halo-1/g5.jpg",
+    "/assets/images/projects/the-title-halo-1/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-title-halo-1/plan1.jpg",
+    "/assets/images/floorplans/the-title-halo-1/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "size": "36-51",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom",
+      "size": "59-64",
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Naiyang Beach",
+      "distance": "350 m"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "5 min"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

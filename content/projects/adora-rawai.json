@@ -1,0 +1,149 @@
+{
+  "name": "The Title Adora Rawai",
+  "location": "Rawai",
+  "address": "Rawai, Phuket",
+  "projectType": "Condominium",
+  "constructionStatus": "Under construction",
+  "completionDate": "2027-03",
+  "shortDescription": "Mediterranean-inspired sea-view condominium on Phuket's west coast in Rawai.",
+  "description": "Coastal condominium in Rawai on Phuket's west coast, designed around sea views and a Mediterranean-inspired concept.\nUnits range from 30 sqm one-bedroom layouts to 87 sqm two-bedroom layouts. Construction progress was reported at about 69% in October 2026.\nPrices, availability and the full facilities list are provided on request: message us on WhatsApp.",
+  "unitTypes": [
+    {
+      "name": "1BS",
+      "size": 30,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BSA",
+      "size": 35,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BM",
+      "size": 37,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BMC",
+      "size": 37,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BMA",
+      "size": 42,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BMX",
+      "size": 42,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BL",
+      "size": 43,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BLC",
+      "size": 43,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BLA",
+      "size": 48,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BLX",
+      "size": 48,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BPM",
+      "size": 49,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BPL",
+      "size": 57,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BPLC",
+      "size": 57,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BPLC1",
+      "size": 57,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1BPLA",
+      "size": 60,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2BM",
+      "size": 67,
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2BMA",
+      "size": 74,
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2BL",
+      "size": 81,
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2BLA",
+      "size": 87,
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [],
+  "coordinates": null,
+  "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
+  "images": [
+    "/assets/images/projects/adora-rawai/adora-exterior-2.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-3.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-4.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-5.jpg",
+    "/assets/images/projects/adora-rawai/adora-exterior-6.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-1.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-2.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-3.jpg",
+    "/assets/images/projects/adora-rawai/adora-interior-4.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/adora-rawai/adora-1st-floor.jpg",
+    "/assets/images/floorplans/adora-rawai/1bs-1.jpg"
+  ],
+  "currency": "THB",
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-11-12",
+  "developer": "Rhom Bho Property PLC (The Title)"
+}

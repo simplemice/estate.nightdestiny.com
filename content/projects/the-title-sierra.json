@@ -1,0 +1,63 @@
+{
+  "name": "The Title Sierra",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Mountain-view condominium in Bang Tao, \"the flow of living\", 452 units.",
+  "description": "Three eight-storey residential buildings in Bang Tao, 452 units on about 6,950 sqm, with mountain views and a nature-balanced design.\nBang Tao Beach and beach clubs are 2.4 to 4 km away. Prices and availability on request via WhatsApp.",
+  "currency": "THB",
+  "constructionStatus": "Pre-sale",
+  "totalUnits": 452,
+  "cover": "/assets/images/projects/the-title-sierra/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-sierra/g2.jpg",
+    "/assets/images/projects/the-title-sierra/g3.jpg",
+    "/assets/images/projects/the-title-sierra/g4.jpg",
+    "/assets/images/projects/the-title-sierra/g5.jpg",
+    "/assets/images/projects/the-title-sierra/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-title-sierra/plan1.jpg",
+    "/assets/images/floorplans/the-title-sierra/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom S",
+      "size": "28.26",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom M",
+      "size": "30.23",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "44.04",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom",
+      "size": "56.20",
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "2.4-4 km"
+    },
+    {
+      "place": "Retail and wellness",
+      "distance": "50-800 m"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "The Title Villa Kirara",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Cherngtalay",
+  "address": "Cherngtalay, Phuket",
+  "projectType": "Villas",
+  "shortDescription": "Pool villa community in Cherngtalay blending into nature.",
+  "description": "Villa community in Cherngtalay designed to blend into nature, with five house types: Aura, Selene, Lyra, Myrrah and Xenia. Construction was reported at about 15% in October 2026.\nPrices and availability on request via WhatsApp.",
+  "currency": "THB",
+  "constructionStatus": "Under construction",
+  "cover": "/assets/images/projects/villa-kirara/g1.jpg",
+  "images": [
+    "/assets/images/projects/villa-kirara/g2.jpg",
+    "/assets/images/projects/villa-kirara/g3.jpg",
+    "/assets/images/projects/villa-kirara/g4.jpg",
+    "/assets/images/projects/villa-kirara/g5.jpg",
+    "/assets/images/projects/villa-kirara/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/villa-kirara/plan1.jpg",
+    "/assets/images/floorplans/villa-kirara/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "Aura",
+      "availability": "Available"
+    },
+    {
+      "name": "Selene",
+      "availability": "Available"
+    },
+    {
+      "name": "Lyra",
+      "availability": "Available"
+    },
+    {
+      "name": "Myrrah",
+      "availability": "Available"
+    },
+    {
+      "name": "Xenia",
+      "availability": "Available"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

@@ -125,7 +125,7 @@ content:
         list: { collapsible: { collapsed: true, summary: "{name}" } }
         fields:
           - { name: name, label: Unit type, type: string, required: true, description: "Studio, 1 Bedroom, Penthouse..." }
-          - { name: size, label: Size (sqm), type: number }
+          - { name: size, label: Size (sqm, e.g. 30 or 30-36), type: string }
           - { name: bedrooms, label: Bedrooms, type: number }
           - { name: bathrooms, label: Bathrooms, type: number }
           - { name: price, label: Starting price, type: number }

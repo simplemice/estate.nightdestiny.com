@@ -1,0 +1,93 @@
+{
+  "name": "The Title Heritage Bang Tao",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Neo-classic luxury condominium in Bang Tao with sky pool and rooftop onsen.",
+  "description": "Neo-classic condominium in Bang Tao blending Phuket heritage charm with luxury and relaxation. Construction was reported about 99% complete in October 2026; ready to move.\nFacilities include a beach pool, sky pool, fitness, onsen and rooftop onsen.",
+  "currency": "THB",
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Beach pool",
+    "Sky pool",
+    "Fitness center",
+    "Onsen",
+    "Rooftop onsen",
+    "Lobby"
+  ],
+  "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-heritage-bang-tao/g2.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g3.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g4.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g5.jpg",
+    "/assets/images/projects/the-title-heritage-bang-tao/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-title-heritage-bang-tao/plan1.jpg",
+    "/assets/images/floorplans/the-title-heritage-bang-tao/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom XS",
+      "size": "32-38",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom S",
+      "size": "36-42",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom M",
+      "size": "42-49",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom L",
+      "size": "49-57",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "56-64",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom",
+      "size": "66-106",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "3 Bedroom",
+      "size": "122-132",
+      "bedrooms": 3,
+      "availability": "Available"
+    },
+    {
+      "name": "Super Luxury",
+      "size": "103",
+      "availability": "Available"
+    },
+    {
+      "name": "Ultra Luxury",
+      "size": "145",
+      "availability": "Available"
+    },
+    {
+      "name": "Ultimate Luxury",
+      "size": "174",
+      "availability": "Available"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

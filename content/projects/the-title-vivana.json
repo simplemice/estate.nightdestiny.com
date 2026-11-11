@@ -1,0 +1,83 @@
+{
+  "name": "The Title Vivana",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Italian-coastal condominium in Kamala with 306 units across four buildings.",
+  "description": "Four seven-storey residential buildings in Kamala with an Italian coastal style, 306 units in total and a shuttle to Kamala Beach.\nUnits range from 30 sqm 1-bedroom layouts up to 3-bedroom penthouses. Prices and availability on request via WhatsApp.",
+  "currency": "THB",
+  "constructionStatus": "Pre-sale",
+  "totalUnits": 306,
+  "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-title-vivana/g2.jpg",
+    "/assets/images/projects/the-title-vivana/g3.jpg",
+    "/assets/images/projects/the-title-vivana/g4.jpg",
+    "/assets/images/projects/the-title-vivana/g5.jpg",
+    "/assets/images/projects/the-title-vivana/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-title-vivana/plan1.jpg",
+    "/assets/images/floorplans/the-title-vivana/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom S",
+      "size": "30",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom M",
+      "size": "32.5-36",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom L",
+      "size": "40.5-43.5",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "50-56",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom M",
+      "size": "60-66",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom L",
+      "size": "80-100",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom XL",
+      "size": "120.5-128.5",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "Penthouse 2 Bedroom",
+      "size": "81-105",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "Penthouse 3 Bedroom",
+      "size": "113.5-123",
+      "bedrooms": 3,
+      "availability": "Available"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

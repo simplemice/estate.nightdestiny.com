@@ -1,0 +1,76 @@
+{
+  "name": "The Balcony",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "address": "Naiyang, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Beachfront condominium at Naiyang Beach with 542 units and 50+ facilities.",
+  "description": "Nine residential buildings (4 to 5 storeys) on about 22,000 sqm beside Naiyang Beach, opposite Pine Tree Park and next to Salute Beach Club.\n542 units with swimming pools, a kids park and more than 50 indoor and outdoor facilities. Construction was reported at about 42% in October 2026.",
+  "currency": "THB",
+  "constructionStatus": "Under construction",
+  "totalUnits": 542,
+  "facilities": [
+    "Swimming pools",
+    "Kids' park",
+    "Steam room",
+    "Sauna",
+    "Fitness center"
+  ],
+  "cover": "/assets/images/projects/the-balcony/g1.jpg",
+  "images": [],
+  "floorPlans": [
+    "/assets/images/floorplans/the-balcony/plan1.jpg",
+    "/assets/images/floorplans/the-balcony/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom M",
+      "size": "33-35",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom L",
+      "size": "37-49",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "44-47",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom S",
+      "size": "50-55",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom M",
+      "size": "62-75",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "Penthouse",
+      "size": "134-139",
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Naiyang Beach",
+      "distance": "Beachfront"
+    },
+    {
+      "place": "TOPS and 7-Eleven",
+      "distance": "250 m"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

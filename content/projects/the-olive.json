@@ -1,0 +1,83 @@
+{
+  "name": "The Olive",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "address": "Naiyang, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Beachside condominium near Naiyang Beach with 29 indoor and outdoor facilities.",
+  "description": "Two residential buildings and one facilities building of up to eight storeys, 450 m from Naiyang Beach and about 5 minutes from Phuket airport.\n287 residential units plus 4 shops. Outdoor facilities include a lap pool, kids pool, pet park and yoga lawn; indoor facilities include steam and sauna, fitness, co-working and a kids club.",
+  "currency": "THB",
+  "constructionStatus": "Under construction",
+  "totalUnits": 291,
+  "facilities": [
+    "Lap pool",
+    "Kids pool",
+    "Pet's park",
+    "Yoga lawn",
+    "Garden",
+    "Steam and sauna",
+    "Fitness center",
+    "Co-working space",
+    "Kids' club",
+    "Lobby"
+  ],
+  "cover": "/assets/images/projects/the-olive/g1.jpg",
+  "images": [
+    "/assets/images/projects/the-olive/g2.jpg",
+    "/assets/images/projects/the-olive/g3.jpg",
+    "/assets/images/projects/the-olive/g4.jpg",
+    "/assets/images/projects/the-olive/g5.jpg",
+    "/assets/images/projects/the-olive/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-olive/plan1.jpg",
+    "/assets/images/floorplans/the-olive/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom S",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom M",
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Naiyang Beach and National Park",
+      "distance": "450 m"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "5 min"
+    },
+    {
+      "place": "7-Eleven and TOPS",
+      "distance": "200 m"
+    },
+    {
+      "place": "Bumrungrad International Hospital Phuket",
+      "distance": "8 min"
+    },
+    {
+      "place": "International school",
+      "distance": "5 min"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

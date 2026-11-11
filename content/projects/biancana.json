@@ -1,0 +1,77 @@
+{
+  "name": "Biancana",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Surin",
+  "address": "Surin, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Five-storey low-rise condominium between Surin and Bang Tao, 343 units.",
+  "description": "Four five-storey residential buildings between Surin and Bang Tao beaches, with 343 units on about 12,300 sqm. Construction was reported at about 3% in October 2026.\nUnits range from 1-bedroom to 3-bedroom penthouses. Prices and availability on request via WhatsApp.",
+  "currency": "THB",
+  "constructionStatus": "Under construction",
+  "totalUnits": 343,
+  "cover": "/assets/images/projects/biancana/g1.jpg",
+  "images": [
+    "/assets/images/projects/biancana/g2.jpg",
+    "/assets/images/projects/biancana/g3.jpg",
+    "/assets/images/projects/biancana/g4.jpg",
+    "/assets/images/projects/biancana/g5.jpg",
+    "/assets/images/projects/biancana/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/biancana/plan1.jpg",
+    "/assets/images/floorplans/biancana/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom M",
+      "size": "31-36",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom L",
+      "size": "39-43",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "49-62",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom M",
+      "size": "62-73",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom L",
+      "size": "75-86",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Plus M",
+      "size": "90-100",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Plus L",
+      "size": "107-110",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "3 Bedroom Penthouse",
+      "size": "131",
+      "bedrooms": 3,
+      "availability": "Available"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}

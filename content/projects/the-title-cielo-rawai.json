@@ -1,0 +1,56 @@
+{
+  "name": "The Title Cielo Rawai",
+  "location": "Rawai",
+  "address": "Rawai, Phuket",
+  "projectType": "Condominium",
+  "constructionStatus": "Under construction",
+  "shortDescription": "Sea-view condominium in Rawai with sky pool, rooftop and clubhouse.",
+  "description": "Coastal condominium in Rawai with a Mediterranean-inspired concept and sea views. Shared spaces include a sky pool, rooftop, clubhouse, lobby, fitness room and kids zone.\nThe project was reported about 99% complete in October 2026. Prices and current availability on request via WhatsApp.",
+  "facilities": [
+    "Swimming pool",
+    "Sky pool",
+    "Sky rooftop",
+    "Clubhouse",
+    "Lobby",
+    "Fitness center",
+    "Kids zone"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom L",
+      "size": 41,
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus M",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom L",
+      "bedrooms": 2,
+      "availability": "Available"
+    }
+  ],
+  "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
+  "images": [
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-club-house.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-sky-pool.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-sky-rooftop.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-lobby.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-fitness.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-kidszone.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-1-bedroom-1.jpg",
+    "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-2-bedroom-1.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-title-cielo-rawai/the-title-cielo-master-plan-16-9-size-02-1st-floor.jpg",
+    "/assets/images/floorplans/the-title-cielo-rawai/website-the-title-cielo-unitplan-1-bed-l.jpg"
+  ],
+  "currency": "THB",
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-11-12",
+  "developer": "Rhom Bho Property PLC (The Title)"
+}

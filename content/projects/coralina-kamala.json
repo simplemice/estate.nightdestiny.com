@@ -1,0 +1,93 @@
+{
+  "name": "Coralina Kamala",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "Low-rise tropical-garden condominium 300 m from Kamala Beach, 564 units.",
+  "description": "\"The Hidden Gem\": eight seven-storey residential buildings plus a facilities building on about 18,100 sqm in Kamala, with modern-soft architecture and a tropical garden.\n564 units plus 5 shops. Kamala Beach is about 300 m away.",
+  "currency": "THB",
+  "constructionStatus": "Pre-sale",
+  "totalUnits": 564,
+  "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
+  "images": [
+    "/assets/images/projects/coralina-kamala/g2.jpg",
+    "/assets/images/projects/coralina-kamala/g3.jpg",
+    "/assets/images/projects/coralina-kamala/g4.jpg",
+    "/assets/images/projects/coralina-kamala/g5.jpg",
+    "/assets/images/projects/coralina-kamala/g6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/coralina-kamala/plan1.jpg",
+    "/assets/images/floorplans/coralina-kamala/plan2.jpg"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "size": "26-44",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom Plus",
+      "size": "46-49",
+      "bedrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom",
+      "size": "64-68",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Plus",
+      "size": "98-107",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Penthouse",
+      "size": "71-72",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedroom Penthouse Plus",
+      "size": "91-122",
+      "bedrooms": 2,
+      "availability": "Available"
+    },
+    {
+      "name": "3 Bedroom Penthouse",
+      "size": "128",
+      "bedrooms": 3,
+      "availability": "Available"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "300 m"
+    },
+    {
+      "place": "Wattanapat Hospital",
+      "distance": "450 m"
+    },
+    {
+      "place": "Phuket FantaSea",
+      "distance": "500 m"
+    },
+    {
+      "place": "Big C",
+      "distance": "1 km"
+    },
+    {
+      "place": "Cafe del Mar",
+      "distance": "1.2 km"
+    }
+  ],
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-11-12"
+}
