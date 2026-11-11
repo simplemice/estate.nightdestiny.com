@@ -1,0 +1,26 @@
+{
+  "title": "One Bedroom Condo",
+  "propertyType": "Condo",
+  "location": "Phuket",
+  "price": 29,
+  "currency": "USD",
+  "pricePeriod": "night",
+  "bedrooms": 1,
+  "livingArea": 26,
+  "furnishing": "Furnished",
+  "shortDescription": "King bed, max 2 guests.",
+  "description": "One Bedroom Condo for rent in Phuket, Thailand. King bed, max 2 guests.",
+  "facilities": [
+    "Wifi",
+    "Television",
+    "Air conditioning"
+  ],
+  "cover": "/img/room/room-5.jpg",
+  "images": [
+    "/img/room/room-5.jpg"
+  ],
+  "availability": "Available",
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-04-01"
+}

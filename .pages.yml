@@ -1,0 +1,136 @@
+# Pages CMS configuration - https://pagescms.org/docs/
+# Content lives in /content (JSON). Uploaded images go to /assets/images. The static pages are generated from it by scripts/build.mjs.
+media:
+  input: assets/images
+  output: /assets/images
+  rename: safe
+  extensions: [jpg, jpeg, png, webp]
+
+components:
+  nearby:
+    type: object
+    label: Nearby place
+    list: true
+    fields:
+      - { name: place, label: Place, type: string, required: true }
+      - { name: distance, label: Distance / time, type: string, description: "e.g. 600 m, 5 min drive" }
+  coordinates:
+    type: object
+    label: Map coordinates (optional)
+    fields:
+      - { name: lat, label: Latitude, type: number, description: "e.g. 7.8804" }
+      - { name: lng, label: Longitude, type: number, description: "e.g. 98.3923" }
+  availability:
+    type: select
+    label: Availability
+    default: Available
+    options: { values: [Available, Reserved, Rented, Sold] }
+
+content:
+  - name: settings
+    label: Site settings & WhatsApp number
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: siteName, label: Site name, type: string, required: true }
+      - { name: siteUrl, label: Site URL, type: string, required: true }
+      - { name: whatsappNumber, label: WhatsApp number, type: string, required: true, description: "Digits only, with country code, no + (e.g. 66942654121). Used everywhere.", pattern: { regex: "^[0-9]{8,15}$", message: "Digits only, no + or spaces" } }
+      - { name: phoneDisplay, label: Phone (display), type: string }
+      - { name: email, label: Email, type: string }
+      - { name: address, label: Address, type: string }
+      - { name: instagram, label: Instagram URL, type: string }
+      - { name: heroImage, label: Home hero image, type: image }
+      - { name: heroTitle, label: Home hero title, type: string }
+      - { name: heroSubtitle, label: Home hero subtitle, type: text }
+      - { name: aboutText, label: About text, type: text }
+
+  - name: rent
+    label: Rent
+    type: collection
+    path: content/properties/rent
+    format: json
+    subfolders: false
+    filename: "{primary}.json"
+    view: { primary: title, fields: [location, price, availability, published], sort: publishedAt, order: desc }
+    fields: &property_fields
+      - { name: title, label: Title, type: string, required: true, description: "The filename (URL slug) is created from the title and cannot be changed later." }
+      - { name: published, label: Published (visible on website), type: boolean, default: true }
+      - { name: featured, label: Featured on homepage, type: boolean, default: false }
+      - { name: publishedAt, label: Publication date, type: date, required: true, options: { format: yyyy-MM-dd } }
+      - { name: propertyType, label: Property type, type: select, required: true, options: { values: [Condo, Villa, House, Townhouse, Apartment, Land, Commercial] } }
+      - { name: location, label: Location / area, type: string, required: true, description: "e.g. Kata, Rawai, Patong. Used by the Location filter, keep spelling consistent." }
+      - { name: address, label: Address, type: string }
+      - { name: price, label: Price, type: number, required: true }
+      - { name: currency, label: Currency, type: select, default: THB, options: { values: [THB, USD] } }
+      - { name: pricePeriod, label: Rent price period (rent only), type: select, default: month, options: { values: [month, night, year] } }
+      - { name: bedrooms, label: Bedrooms, type: number }
+      - { name: bathrooms, label: Bathrooms, type: number }
+      - { name: livingArea, label: Living area (sqm), type: number }
+      - { name: landArea, label: Land area (sqm), type: number }
+      - { name: floor, label: Floor, type: string }
+      - { name: ownership, label: Ownership (sale only), type: select, options: { values: [Freehold, Leasehold] } }
+      - { name: furnishing, label: Furnishing, type: select, options: { values: [Furnished, Partly furnished, Unfurnished] } }
+      - { name: yearBuilt, label: Year built, type: number }
+      - { name: shortDescription, label: Short description (card text), type: string }
+      - { name: description, label: Full description, type: text, description: "Plain text. Blank line = new paragraph. HTML is not allowed (escaped on build)." }
+      - { name: facilities, label: Facilities & amenities, type: string, list: true }
+      - { name: nearby, label: Nearby attractions, component: nearby }
+      - { name: coordinates, label: Map coordinates, component: coordinates }
+      - { name: cover, label: Cover image, type: image, required: true, options: { path: assets/images/properties, extensions: [jpg, jpeg, png, webp] } }
+      - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/properties, extensions: [jpg, jpeg, png, webp] } }
+      - { name: availability, label: Availability, component: availability }
+
+  - name: sale
+    label: Sale
+    type: collection
+    path: content/properties/sale
+    format: json
+    subfolders: false
+    filename: "{primary}.json"
+    view: { primary: title, fields: [location, price, ownership, availability, published], sort: publishedAt, order: desc }
+    fields: *property_fields
+
+  - name: projects
+    label: New Projects
+    type: collection
+    path: content/projects
+    format: json
+    subfolders: false
+    filename: "{primary}.json"
+    view: { primary: name, fields: [location, developer, constructionStatus, published], sort: publishedAt, order: desc }
+    fields:
+      - { name: name, label: Project name, type: string, required: true }
+      - { name: published, label: Published (visible on website), type: boolean, default: true }
+      - { name: featured, label: Featured on homepage, type: boolean, default: false }
+      - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
+      - { name: developer, label: Developer, type: string }
+      - { name: projectType, label: Project type, type: select, required: true, options: { values: [Condominium, Villas, Residential, Townhouses, Mixed-use] } }
+      - { name: location, label: Location / area, type: string, required: true }
+      - { name: address, label: Address, type: string }
+      - { name: constructionStatus, label: Construction status, type: select, required: true, options: { values: [Pre-sale, Under construction, Completed] } }
+      - { name: completionDate, label: Completion date, type: string, description: "e.g. 2027-12 or Q4 2027" }
+      - { name: totalUnits, label: Total units, type: number }
+      - { name: startingPrice, label: Starting price, type: number }
+      - { name: currency, label: Currency, type: select, default: THB, options: { values: [THB, USD] } }
+      - { name: shortDescription, label: Short description (card text), type: string }
+      - { name: description, label: Full description, type: text }
+      - { name: facilities, label: Facilities & amenities, type: string, list: true }
+      - { name: cover, label: Cover image, type: image, required: true, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
+      - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
+      - { name: floorPlans, label: Floor plans, type: image, list: true, options: { path: assets/images/floorplans, extensions: [jpg, jpeg, png, webp] } }
+      - name: unitTypes
+        label: Available unit types
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Unit type, type: string, required: true, description: "Studio, 1 Bedroom, Penthouse..." }
+          - { name: size, label: Size (sqm), type: number }
+          - { name: bedrooms, label: Bedrooms, type: number }
+          - { name: bathrooms, label: Bathrooms, type: number }
+          - { name: price, label: Starting price, type: number }
+          - { name: availability, label: Availability, type: select, options: { values: [Available, Limited, Sold] } }
+          - { name: floorPlan, label: Floor plan, type: image, options: { path: assets/images/floorplans } }
+      - { name: videoUrl, label: YouTube video URL (optional), type: string }
+      - { name: nearby, label: Nearby attractions & distances, component: nearby }
+      - { name: coordinates, label: Map coordinates, component: coordinates }

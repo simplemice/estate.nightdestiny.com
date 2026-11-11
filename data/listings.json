@@ -1,0 +1,152 @@
+{
+ "generatedFrom": "content/",
+ "rent": [
+  {
+   "slug": "luxury-pool-villa",
+   "url": "/rent/luxury-pool-villa/",
+   "kind": "rent",
+   "title": "Luxury Pool Villa",
+   "location": "Phuket",
+   "type": "Villa",
+   "price": 449,
+   "currency": "USD",
+   "cover": "/img/room/room-6.jpg",
+   "publishedAt": "2026-04-06",
+   "featured": true
+  },
+  {
+   "slug": "small-pool-villa",
+   "url": "/rent/small-pool-villa/",
+   "kind": "rent",
+   "title": "Small Pool Villa",
+   "location": "Phuket",
+   "type": "Villa",
+   "price": 219,
+   "currency": "USD",
+   "cover": "/img/room/room-1.jpg",
+   "publishedAt": "2026-04-05",
+   "featured": true
+  },
+  {
+   "slug": "two-bedroom-luxury-condo",
+   "url": "/rent/two-bedroom-luxury-condo/",
+   "kind": "rent",
+   "title": "Two Bedroom Luxury Condo",
+   "location": "Phuket",
+   "type": "Condo",
+   "price": 119,
+   "currency": "USD",
+   "cover": "/img/room/room-4.jpg",
+   "publishedAt": "2026-04-04",
+   "featured": false
+  },
+  {
+   "slug": "two-bedroom-condo",
+   "url": "/rent/two-bedroom-condo/",
+   "kind": "rent",
+   "title": "Two Bedroom Condo",
+   "location": "Phuket",
+   "type": "Condo",
+   "price": 89,
+   "currency": "USD",
+   "cover": "/img/room/room-3.jpg",
+   "publishedAt": "2026-04-03",
+   "featured": true
+  },
+  {
+   "slug": "one-bedroom-plus-condo",
+   "url": "/rent/one-bedroom-plus-condo/",
+   "kind": "rent",
+   "title": "One Bedroom Plus Condo",
+   "location": "Phuket",
+   "type": "Condo",
+   "price": 59,
+   "currency": "USD",
+   "cover": "/img/room/room-2.jpg",
+   "publishedAt": "2026-04-02",
+   "featured": true
+  },
+  {
+   "slug": "one-bedroom-condo",
+   "url": "/rent/one-bedroom-condo/",
+   "kind": "rent",
+   "title": "One Bedroom Condo",
+   "location": "Phuket",
+   "type": "Condo",
+   "price": 29,
+   "currency": "USD",
+   "cover": "/img/room/room-5.jpg",
+   "publishedAt": "2026-04-01",
+   "featured": true
+  }
+ ],
+ "sale": [
+  {
+   "slug": "sample-sea-view-condo-kata",
+   "url": "/sale/sample-sea-view-condo-kata/",
+   "kind": "sale",
+   "title": "Sample: Sea View Condo, Kata",
+   "location": "Kata",
+   "type": "Condo",
+   "price": 6500000,
+   "currency": "THB",
+   "cover": "/img/room/room-b1.jpg",
+   "publishedAt": "2026-04-20",
+   "featured": true
+  },
+  {
+   "slug": "sample-two-bed-condo-rawai",
+   "url": "/sale/sample-two-bed-condo-rawai/",
+   "kind": "sale",
+   "title": "Sample: Two Bedroom Condo, Rawai",
+   "location": "Rawai",
+   "type": "Condo",
+   "price": 9800000,
+   "currency": "THB",
+   "cover": "/img/room/room-b3.jpg",
+   "publishedAt": "2026-04-18",
+   "featured": true
+  },
+  {
+   "slug": "sample-private-pool-villa-chalong",
+   "url": "/sale/sample-private-pool-villa-chalong/",
+   "kind": "sale",
+   "title": "Sample: Private Pool Villa, Chalong",
+   "location": "Chalong",
+   "type": "Villa",
+   "price": 24900000,
+   "currency": "THB",
+   "cover": "/img/room/room-b2.jpg",
+   "publishedAt": "2026-04-15",
+   "featured": true
+  }
+ ],
+ "projects": [
+  {
+   "slug": "sample-azure-residences",
+   "url": "/projects/sample-azure-residences/",
+   "kind": "project",
+   "title": "Sample: Azure Residences",
+   "location": "Kamala",
+   "type": "Condominium",
+   "price": 4200000,
+   "currency": "THB",
+   "cover": "/img/hero/hero-2.jpg",
+   "publishedAt": "2026-04-10",
+   "featured": true
+  },
+  {
+   "slug": "sample-palm-villas",
+   "url": "/projects/sample-palm-villas/",
+   "kind": "project",
+   "title": "Sample: Palm Villas",
+   "location": "Rawai",
+   "type": "Villas",
+   "price": 12500000,
+   "currency": "THB",
+   "cover": "/img/hero/hero-3.jpg",
+   "publishedAt": "2026-04-10",
+   "featured": true
+  }
+ ]
+}

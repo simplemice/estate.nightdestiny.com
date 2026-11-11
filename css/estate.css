@@ -1,0 +1,118 @@
+/* Estate expansion styles - builds on css/style.css (Sona template). Accent #dfa974 */
+.site-wordmark{font-family:"Lora",serif;font-weight:700;font-size:22px;color:#19191a;display:inline-block;line-height:1.2}
+.footer-section .site-wordmark{color:#fff}
+.menu-item .logo{padding:22px 0}
+.menu-item .nav-menu .mainmenu li a{margin-right:30px}
+.mainmenu li.active>a:after{opacity:1}
+.page-h1{font-size:44px;color:#19191a;margin-bottom:12px}
+.crumbs span{font-size:18px;color:#707079}
+.crumbs a{margin-right:14px}
+.breadcrumb-section{padding-top:50px;padding-bottom:50px}
+
+/* hero */
+.estate-hero{background-size:cover;background-position:center;position:relative;padding:150px 0 130px}
+.estate-hero:before{content:"";position:absolute;inset:0;background:rgba(15,15,20,.55)}
+.estate-hero .container{position:relative;z-index:2}
+.hero-text-wrap{max-width:760px}
+.hero-text-wrap h1{color:#fff;font-size:56px;line-height:1.15;margin-bottom:18px}
+.hero-text-wrap p{color:#fff;font-size:18px;line-height:1.6;margin-bottom:34px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-cta{background:#dfa974;color:#fff;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:13px;padding:15px 24px;border-radius:2px;transition:.2s}
+.hero-cta i{margin-right:8px}
+.hero-cta:hover{background:#fff;color:#19191a;text-decoration:none}
+
+/* cards */
+.estate-card{background:#fff;border:1px solid #ebebeb;margin-bottom:30px;display:flex;flex-direction:column;height:calc(100% - 30px);transition:box-shadow .25s}
+.estate-card:hover{box-shadow:0 8px 28px rgba(0,0,0,.1)}
+.ec-img{position:relative;display:block;aspect-ratio:3/2;overflow:hidden;background:#eee}
+.ec-img-lg{aspect-ratio:16/10}
+.ec-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.estate-card:hover .ec-img img{transform:scale(1.04)}
+.ec-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
+.ec-type{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:#707079}
+.ec-body h3{font-size:22px;margin:6px 0 8px;line-height:1.25}
+.ec-body h3 a{color:#19191a}
+.ec-price{font-family:"Lora",serif;font-size:24px;font-weight:700;color:#dfa974;margin-bottom:10px}
+.ec-price small{font-family:"Cabin",sans-serif;font-size:13px;color:#707079;font-weight:400}
+.ec-dev{color:#707079;margin-bottom:8px}
+.ec-specs{list-style:none;padding:0;margin:0 0 10px;display:flex;flex-wrap:wrap;gap:6px 18px;color:#444}
+.ec-specs i{color:#dfa974;margin-right:4px}
+.ec-desc{color:#707079;font-size:15px;line-height:1.5;margin-bottom:14px}
+.ec-actions{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:6px}
+.ec-actions .primary-btn{color:#19191a}
+.status{position:absolute;top:12px;left:12px;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:2px;text-transform:uppercase;letter-spacing:1px}
+.ds-meta .status{position:static;display:inline-block;margin-left:6px}
+.status-ok{background:#2e9e5b}.status-warn{background:#d9902f}.status-off{background:#8a8a92}.status-proj{background:#19191a}
+.own{position:absolute;top:12px;right:12px;background:#fff;color:#19191a;font-size:12px;font-weight:700;padding:4px 10px;border-radius:2px}
+
+/* whatsapp */
+.wa-btn{display:inline-block;background:#25d366;color:#fff;font-weight:700;font-size:13px;padding:9px 16px;border-radius:2px;white-space:nowrap;transition:.2s}
+.wa-btn:hover{background:#1ebe5b;color:#fff;text-decoration:none}
+.wa-btn i{margin-right:6px;font-size:16px;vertical-align:-1px}
+.wa-block{display:block;text-align:center;padding:14px 16px;font-size:15px}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:99;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;font-size:30px;line-height:56px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.wa-float:hover{color:#fff;background:#1ebe5b;text-decoration:none}
+
+/* filters + listing */
+.filters{background:#f8f6f3;padding:22px 24px 8px;margin-bottom:24px;border-radius:2px}
+.filters label{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#707079;margin-bottom:4px}
+.filters .form-control{border-radius:0;height:42px}
+.btn-reset{background:none;border:1px solid #ccc;height:42px;padding:0 20px;margin-bottom:1rem;cursor:pointer;width:100%}
+.result-count{color:#707079;margin-bottom:18px}
+.no-results{text-align:center;padding:40px 0;color:#707079}
+[hidden]{display:none!important}
+
+/* detail */
+.estate-gallery .g-main{display:block;aspect-ratio:16/10;overflow:hidden;background:#eee}
+.estate-gallery .g-main img{width:100%;height:100%;object-fit:cover}
+.g-thumbs{display:flex;gap:8px;margin-top:8px;overflow-x:auto;padding-bottom:4px}
+.g-thumb{flex:0 0 110px;aspect-ratio:3/2;opacity:.65;border:2px solid transparent;overflow:hidden}
+.g-thumb.active,.g-thumb:hover{opacity:1;border-color:#dfa974}
+.g-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.sec-h{margin:34px 0 14px}
+h2.sec-h{font-size:28px}
+.desc p{color:#707079;line-height:1.8}
+.check-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px 18px}
+.check-list i{color:#dfa974;margin-right:6px}
+.nearby-list{list-style:none;padding:0}
+.nearby-list li{display:flex;justify-content:space-between;border-bottom:1px solid #ebebeb;padding:8px 0}
+.map-wrap iframe,.video-wrap iframe{width:100%;height:340px;border:0}
+.video-wrap{position:relative}
+.video-wrap iframe{aspect-ratio:16/9;height:auto}
+.map-link{font-size:13px;margin-top:6px}
+.detail-side{border:1px solid #ebebeb;padding:26px;position:sticky;top:20px}
+.ds-price{font-family:"Lora",serif;font-size:32px;font-weight:700;color:#dfa974;line-height:1.2}
+.ds-price small{font-family:"Cabin",sans-serif;font-size:14px;color:#707079;font-weight:400}
+.ds-meta{margin:8px 0 18px;color:#707079}
+.spec-table{width:100%;margin-bottom:20px}
+.spec-table td{padding:7px 0;border-bottom:1px solid #f0f0f0;vertical-align:top}
+.spec-table td.r-o{color:#707079;width:42%}
+.unit-table th{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#707079}
+.plans img{width:100%;border:1px solid #ebebeb}
+.related{background:#f8f6f3}
+.related .estate-card{background:#fff}
+
+/* home */
+.home-section .section-title{margin-bottom:34px}
+.loc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.loc-chip{display:block;border:1px solid #ebebeb;padding:18px 20px;color:#19191a;transition:.2s}
+.loc-chip:hover{border-color:#dfa974;text-decoration:none;color:#19191a}
+.loc-chip span{display:block;color:#707079;font-size:13px;margin-top:3px}
+.about-teaser{background:#f8f6f3;margin-top:40px}
+.contact-list{list-style:none;padding:0;font-size:18px;line-height:2.2}
+.contact-list i{color:#dfa974;width:24px}
+.text-left.section-title{text-align:left}
+
+@media (max-width:991px){
+ .hero-text-wrap h1{font-size:38px}
+ .estate-hero{padding:90px 0 80px}
+ .page-h1{font-size:32px}
+ .detail-side{position:static;margin-top:30px}
+ .menu-item .logo{padding:14px 0}
+}
+@media (max-width:575px){.ec-actions{flex-wrap:wrap}.hero-cta{flex:1 1 100%;text-align:center}}
+
+/* neutralise template's tinted text colours on new components */
+.spec-table td,.check-list li,.nearby-list li,.nearby-list li span,.ec-specs li,.ec-type,.ec-dev,.unit-table td,.contact-list li,.breadcrumb-text span,.crumbs span{color:#444}
+.spec-table td.r-o,.ec-type,.ec-dev,.crumbs span{color:#707079}
+.breadcrumb-text>span{display:block;margin-bottom:8px}

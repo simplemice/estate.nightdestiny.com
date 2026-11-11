@@ -1,0 +1,74 @@
+{
+  "name": "Sample: Azure Residences",
+  "developer": "Sample Developer Co., Ltd.",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "projectType": "Condominium",
+  "shortDescription": "SAMPLE PROJECT - replace or delete in the CMS.",
+  "description": "SAMPLE PROJECT used to demonstrate the NEW PROJECTS section. Replace or delete this entry in the CMS before publishing.",
+  "startingPrice": 4200000,
+  "currency": "THB",
+  "completionDate": "2027-12",
+  "constructionStatus": "Under construction",
+  "totalUnits": 180,
+  "facilities": [
+    "Swimming pool",
+    "Fitness center",
+    "Security",
+    "CCTV",
+    "Parking",
+    "Reception",
+    "Garden"
+  ],
+  "cover": "/img/hero/hero-2.jpg",
+  "images": [
+    "/img/hero/hero-2.jpg",
+    "/img/gallery/gallery-1.jpg",
+    "/img/gallery/gallery-2.jpg",
+    "/img/gallery/gallery-3.jpg"
+  ],
+  "floorPlans": [],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "size": 30,
+      "price": 4200000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom",
+      "size": 45,
+      "price": 5880000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedrooms",
+      "size": 80,
+      "price": 9240000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "availability": "Limited"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Beach",
+      "distance": "600 m"
+    },
+    {
+      "place": "Phuket Airport",
+      "distance": "50 min"
+    }
+  ],
+  "coordinates": {
+    "lat": 7.95,
+    "lng": 98.28
+  },
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-04-10"
+}

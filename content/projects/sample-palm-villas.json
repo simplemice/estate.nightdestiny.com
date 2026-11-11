@@ -1,0 +1,73 @@
+{
+  "name": "Sample: Palm Villas",
+  "developer": "Sample Developer Co., Ltd.",
+  "location": "Rawai",
+  "address": "Rawai, Phuket",
+  "projectType": "Villas",
+  "shortDescription": "SAMPLE PROJECT - replace or delete in the CMS.",
+  "description": "SAMPLE PROJECT used to demonstrate the NEW PROJECTS section. Replace or delete this entry in the CMS before publishing.",
+  "startingPrice": 12500000,
+  "currency": "THB",
+  "completionDate": "2026-11",
+  "constructionStatus": "Completed",
+  "totalUnits": 24,
+  "facilities": [
+    "Swimming pool",
+    "Fitness center",
+    "Security",
+    "CCTV",
+    "Parking",
+    "Reception",
+    "Garden"
+  ],
+  "cover": "/img/hero/hero-3.jpg",
+  "images": [
+    "/img/hero/hero-3.jpg",
+    "/img/gallery/gallery-4.jpg",
+    "/img/gallery/gallery-1.jpg"
+  ],
+  "floorPlans": [],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "size": 30,
+      "price": 12500000,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "1 Bedroom",
+      "size": 45,
+      "price": 17500000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "availability": "Available"
+    },
+    {
+      "name": "2 Bedrooms",
+      "size": 80,
+      "price": 27500000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "availability": "Limited"
+    }
+  ],
+  "nearby": [
+    {
+      "place": "Beach",
+      "distance": "600 m"
+    },
+    {
+      "place": "Phuket Airport",
+      "distance": "50 min"
+    }
+  ],
+  "coordinates": {
+    "lat": 7.78,
+    "lng": 98.32
+  },
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-04-10"
+}

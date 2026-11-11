@@ -1,0 +1,28 @@
+{
+  "title": "Luxury Pool Villa",
+  "propertyType": "Villa",
+  "location": "Phuket",
+  "price": 449,
+  "currency": "USD",
+  "pricePeriod": "night",
+  "bedrooms": 3,
+  "livingArea": 200,
+  "furnishing": "Furnished",
+  "shortDescription": "Three king beds, max 6+ guests.",
+  "description": "Luxury Pool Villa for rent in Phuket, Thailand. Three king beds, max 6+ guests.",
+  "facilities": [
+    "Wifi",
+    "Television",
+    "Air conditioning",
+    "Private pool",
+    "BBQ"
+  ],
+  "cover": "/img/room/room-6.jpg",
+  "images": [
+    "/img/room/room-6.jpg"
+  ],
+  "availability": "Available",
+  "featured": true,
+  "published": true,
+  "publishedAt": "2026-04-06"
+}

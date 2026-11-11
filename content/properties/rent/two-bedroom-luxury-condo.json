@@ -1,0 +1,26 @@
+{
+  "title": "Two Bedroom Luxury Condo",
+  "propertyType": "Condo",
+  "location": "Phuket",
+  "price": 119,
+  "currency": "USD",
+  "pricePeriod": "night",
+  "bedrooms": 2,
+  "livingArea": 66,
+  "furnishing": "Furnished",
+  "shortDescription": "Two king beds, max 4 guests.",
+  "description": "Two Bedroom Luxury Condo for rent in Phuket, Thailand. Two king beds, max 4 guests.",
+  "facilities": [
+    "Wifi",
+    "Television",
+    "Air conditioning"
+  ],
+  "cover": "/img/room/room-4.jpg",
+  "images": [
+    "/img/room/room-4.jpg"
+  ],
+  "availability": "Available",
+  "featured": false,
+  "published": true,
+  "publishedAt": "2026-04-04"
+}

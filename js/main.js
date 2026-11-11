@@ -60,7 +60,7 @@
     /*------------------
         Hero Slider
     --------------------*/
-   $(".hero-slider").owlCarousel({
+   if ($.fn.owlCarousel) $(".hero-slider").owlCarousel({
         loop: true,
         margin: 0,
         items: 1,
@@ -76,7 +76,7 @@
     /*------------------------
 		Testimonial Slider
     ----------------------- */
-    $(".testimonial-slider").owlCarousel({
+    if ($.fn.owlCarousel) $(".testimonial-slider").owlCarousel({
         items: 1,
         dots: false,
         autoplay: true,
@@ -96,7 +96,7 @@
     /*------------------
 		Date Picker
 	--------------------*/
-    $(".date-input").datepicker({
+    if ($.fn.datepicker) $(".date-input").datepicker({
         minDate: 0,
         dateFormat: 'dd MM, yy'
     });
@@ -104,6 +104,6 @@
     /*------------------
 		Nice Select
 	--------------------*/
-    $("select").niceSelect();
+    if ($.fn.niceSelect) $("select").niceSelect();
 
 })(jQuery);
