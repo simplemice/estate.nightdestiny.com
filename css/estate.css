@@ -116,3 +116,55 @@ h2.sec-h{font-size:28px}
 .spec-table td,.check-list li,.nearby-list li,.nearby-list li span,.ec-specs li,.ec-type,.ec-dev,.unit-table td,.contact-list li,.breadcrumb-text span,.crumbs span{color:#444}
 .spec-table td.r-o,.ec-type,.ec-dev,.crumbs span{color:#707079}
 .breadcrumb-text>span{display:block;margin-bottom:8px}
+
+/* ---- fixes from review ---- */
+/* template makes .primary-btn text white (invisible on light backgrounds) */
+.primary-btn{color:#19191a}
+.primary-btn:hover{color:#946025;text-decoration:none}
+/* logo wordmark must not change colour on hover (template a:hover) */
+.site-wordmark,.site-wordmark:hover,.site-wordmark:focus{color:#19191a;text-decoration:none}
+.footer-section .site-wordmark,.footer-section .site-wordmark:hover{color:#fff}
+/* phone / email links keep the surrounding look */
+.top-nav .tn-left li a,.footer-section .ft-contact li a,.contact-list a,.about-teaser a:not(.wa-btn):not(.primary-btn),.top-widget a{color:inherit}
+.top-nav .tn-left li a:hover,.footer-section .ft-contact li a:hover,.contact-list a:hover,.top-widget a:hover{color:#946025;text-decoration:none}
+.footer-section .ft-contact li a:hover{color:#dfa974}
+/* contrast (PageSpeed/Lighthouse accessibility): darker accent for text on white, darker green for white-on-green */
+.ec-price,.section-title span,.ec-specs i,.ds-price,.check-list i,.contact-list i{color:#946025}
+.hero-cta{background:#946025}
+.hero-cta:hover{background:#fff;color:#19191a}
+.wa-btn,.wa-float{background:#14803f}
+.wa-btn:hover,.wa-float:hover{background:#0f6a34}
+.top-nav .tn-right .bk-btn{background:#946025}
+.status-ok{background:#1f7a45}.status-warn{background:#8a5a12}
+.ec-desc,.ec-type,.ec-dev,.result-count,.no-results,.desc p,.spec-table td.r-o,.filters label{color:#5f5f68}
+/* hero image replaces the JS background (faster LCP) */
+.estate-hero{overflow:hidden;background:#19191a}
+.estate-hero .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.estate-hero picture{position:absolute;inset:0;display:block}
+.estate-hero:before{z-index:1}
+/* mobile header: wordmark left, hamburger vertically centred right */
+button.canvas-open,button.canvas-close{background:none;padding:0;font-family:inherit}
+@media (max-width:991px){
+  .site-wordmark{font-size:20px}
+  .menu-item .logo{padding:14px 0}
+  .canvas-open{right:16px;top:12px}
+  .canvas-open i{line-height:inherit}
+  .header-section.header-normal .menu-item{min-height:56px}
+}
+/* filter row: Reset button aligned with inputs */
+.filters .form-row{align-items:flex-end}
+.filters .form-group{margin-bottom:1rem}
+.filters .btn-reset{margin:0;height:42px}
+.filters .form-control{height:42px;box-sizing:border-box}
+/* size: keep layout stable while images load */
+.ec-img img,.g-main img,.g-thumb img{background:#eee}
+
+/* footer heading is a <p> now (heading order) - same look as the template h6 */
+.footer-section .footer-text .ft-contact .ft-title{font-size:14px;color:#dfa974;text-transform:uppercase;font-weight:700;letter-spacing:3px;font-family:"Cabin",sans-serif;margin-bottom:20px}
+/* contrast + non-colour link cue */
+.footer-section .copyright-option .co-text,.footer-section .ft-about p,.footer-section .ft-contact li{color:#b4b4bd}
+.footer-section .copyright-option .co-text a,.footer-section .ft-contact li a,.contact-list a,.about-text p a{text-decoration:underline;text-underline-offset:3px}
+.footer-section .copyright-option .co-text a{color:#fff}
+.crumbs a{color:#19191a;text-decoration:underline;text-underline-offset:3px}
+.breadcrumb-text .crumbs span,.breadcrumb-text .bt-option span{color:#5f5f68}
+.footer-section .copyright-option .co-text p,.footer-section .copyright-option .co-text{color:#b4b4bd}

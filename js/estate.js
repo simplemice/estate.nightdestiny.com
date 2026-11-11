@@ -87,10 +87,11 @@
     });
     $main.on('click', function (e) {
       e.preventDefault();
+      if (!$.magnificPopup) return;
       $.magnificPopup.open({ items: items, gallery: { enabled: true }, type: 'image', mainClass: 'mfp-fade' }, $main.data('index') || 0);
     });
   });
 
   // plan images open in lightbox
-  $('.plan-link').magnificPopup({ type: 'image' });
+  if ($.fn.magnificPopup) $('.plan-link').magnificPopup({ type: 'image' });
 })(jQuery);
