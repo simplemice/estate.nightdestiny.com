@@ -313,6 +313,29 @@ function propCard(p, { filterable = false } = {}) {
 </div>`;
 }
 
+const maxNum = (arr) => { const v = arr.flatMap((x) => String(x ?? '').match(/[\d.]+/g) || []).map(Number).filter((n) => !isNaN(n)); return v.length ? Math.max(...v) : 0; };
+// Project shown inside the SALE listing: same card look, links to the project page, filterable.
+function projSaleCard(p) {
+  const t = p.name;
+  const beds = maxNum(p.unitTypes.map((u) => u.bedrooms));
+  const area = maxNum(p.unitTypes.map((u) => u.size));
+  const sp = num(p.startingPrice);
+  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="0" data-area="${area}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType)}" data-ownership="" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`;
+  return `<div class="col-lg-4 col-md-6 js-card"${data}>
+	<article class="estate-card">
+		<a class="ec-img" href="${url(p)}">${img(p.cover, `${t} - ${p.projectType} development in ${p.location}`)}<span class="status status-proj">${esc(p.constructionStatus)}</span><span class="own">New project</span></a>
+		<div class="ec-body">
+			<span class="ec-type">${esc(p.projectType)} &middot; ${esc(p.location)}</span>
+			<h3><a href="${url(p)}">${esc(t)}</a></h3>
+			<div class="ec-price">${sp ? `<small>From</small> ${money(sp, p.currency || 'THB')}` : '<small>Price on request</small>'}</div>
+			<ul class="ec-specs">${p.developer ? `<li>${esc(p.developer)}</li>` : ''}${p.completionDate ? `<li><i class="fa fa-calendar"></i> ${esc(p.completionDate)}</li>` : ''}</ul>
+			${p.shortDescription ? `<p class="ec-desc">${esc(p.shortDescription)}</p>` : ''}
+			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View Project</a>${waBtn(waMsg.project(t))}</div>
+		</div>
+	</article>
+</div>`;
+}
+
 function projCard(p) {
   const t = p.name;
   return `<div class="col-lg-6 js-card">
@@ -337,12 +360,12 @@ function projCard(p) {
 function filterForm(list, category) {
   const opts = (arr) => [...new Set(arr.filter(Boolean))].sort().map((v) => `<option value="${esc(v)}">${esc(v)}</option>`).join('');
   const sale_ = category === 'sale';
-  const cur = list[0]?.currency || 'THB';
+  const cur = list.find((p) => p.currency === 'THB')?.currency || list[0]?.currency || 'THB';
   return `<form id="filters" class="filters" autocomplete="off" onsubmit="return false">
 	<div class="form-row">
 		<div class="form-group col-lg-3 col-md-6"><label for="f-q">Keyword</label><input id="f-q" name="q" class="form-control" type="search" placeholder="Name, area, facility..."></div>
 		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.location))}</select></div>
-		<div class="form-group col-lg-3 col-md-6"><label for="f-type">Property type</label><select id="f-type" name="type" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.propertyType))}</select></div>
+		<div class="form-group col-lg-3 col-md-6"><label for="f-type">Property type</label><select id="f-type" name="type" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.propertyType || p.projectType))}</select></div>
 		${sale_ ? `<div class="form-group col-lg-3 col-md-6"><label for="f-ownership">Ownership</label><select id="f-ownership" name="ownership" class="form-control"><option value="">Any</option><option>Freehold</option><option>Leasehold</option></select></div>` : '<div class="form-group col-lg-3 col-md-6"><label for="f-sort-r">Sort by</label><select id="f-sort-r" name="sort" class="form-control js-sort"><option value="new">Newest first</option><option value="low">Lowest price</option><option value="high">Highest price</option></select></div>'}
 	</div>
 	<div class="form-row">
@@ -357,23 +380,24 @@ function filterForm(list, category) {
 </form>`;
 }
 
-function listingPage(category, list) {
+function listingPage(category, list, extra = []) {
   const rentC = category === 'rent';
+  const total = list.length + extra.length;
   const h1 = rentC ? 'Properties for Rent in Phuket' : 'Properties for Sale in Phuket';
   const desc = rentC ? 'Browse condos and villas for rent in Phuket, Thailand. Filter by location, price and bedrooms and contact us directly on WhatsApp.' : 'Condos and villas for sale in Phuket, Thailand. Freehold and leasehold properties with direct WhatsApp contact.';
   const body = `${pageHead(h1, rentC ? 'Condos and villas available to rent' : 'Condos and villas available to buy', [['/', 'Home'], ['', rentC ? 'Rent' : 'Sale']])}
 	<section class="rooms-section spad estate-listing" data-listing="${category}">
 		<div class="container">
-			${filterForm(list, category)}
-			<p class="result-count" id="result-count" aria-live="polite">${list.length} ${list.length === 1 ? 'property' : 'properties'}</p>
+			${filterForm(list.concat(extra), category)}
+			<p class="result-count" id="result-count" aria-live="polite">${total} ${total === 1 ? 'listing' : 'listings'}</p>
 			<div class="row" id="listing">
-				${list.map((p) => propCard(p, { filterable: true })).join('\n')}
+				${list.map((p) => propCard(p, { filterable: true })).concat(extra.map(projSaleCard)).join('\n')}
 			</div>
 			<p class="no-results" id="no-results" hidden>No properties match your filters. <a href="#" id="f-reset-2">Reset filters</a></p>
-			${list.length === 0 ? `<p class="no-results">No listings available right now. ${waBtn(waMsg.general(), 'wa-btn', 'Ask us on WhatsApp')}</p>` : ''}
+			${total === 0 ? `<p class="no-results">No listings available right now. ${waBtn(waMsg.general(), 'wa-btn', 'Ask us on WhatsApp')}</p>` : ''}
 		</div>
 	</section>`;
-  return layout({ title: `${h1} | ${settings.siteName}`, description: desc, pathname: `/${category}/`, active: category, body, ogImage: list[0]?.cover });
+  return layout({ title: `${h1} | ${settings.siteName}`, description: desc, pathname: `/${category}/`, active: category, body, ogImage: (list[0] || extra[0])?.cover });
 }
 
 function projectsPage(list) {
@@ -571,7 +595,7 @@ for (const d of OUT_DIRS) {
 
 write('index.html', homePage());
 write('rent/index.html', listingPage('rent', rentL));
-write('sale/index.html', listingPage('sale', saleL));
+write('sale/index.html', listingPage('sale', saleL, projL));
 write('projects/index.html', projectsPage(projL));
 write('about/index.html', aboutPage());
 write('contact/index.html', contactPage());

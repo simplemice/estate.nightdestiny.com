@@ -28,7 +28,7 @@
         var d = $(this).data();
         var ok = (!q || String(d.search).indexOf(q) > -1) &&
           (!loc || d.location === loc) && (!type || d.type === type) && (!own || d.ownership === own) &&
-          (min === null || d.price >= min) && (max === null || d.price <= max) &&
+          (min === null || (d.price !== '' && d.price >= min)) && (max === null || (d.price !== '' && d.price <= max)) &&
           (beds === null || d.beds >= beds) && (baths === null || d.baths >= baths) &&
           (area === null || d.area >= area);
         $(this).prop('hidden', !ok);
@@ -37,12 +37,18 @@
 
       var sorted = $cards.get().sort(function (a, b) {
         var da = $(a).data(), db = $(b).data();
-        if (sort === 'low') return da.price - db.price;
-        if (sort === 'high') return db.price - da.price;
+        // listings without a price ("price on request") always go last for price sorts
+        var pa = da.price === '' ? null : da.price, pb = db.price === '' ? null : db.price;
+        if (sort === 'low' || sort === 'high') {
+          if (pa === null && pb === null) return db.date - da.date;
+          if (pa === null) return 1;
+          if (pb === null) return -1;
+          return sort === 'low' ? pa - pb : pb - pa;
+        }
         return db.date - da.date;
       });
       $list.append(sorted);
-      $count.text(shown + (shown === 1 ? ' property' : ' properties'));
+      $count.text(shown + (shown === 1 ? ' listing' : ' listings'));
       $none.prop('hidden', shown !== 0 || !$cards.length);
 
       // keep state in URL so filtered views are shareable
