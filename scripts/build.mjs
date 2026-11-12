@@ -704,15 +704,15 @@ function homePage() {
 				<h1>${esc(settings.heroTitle)}</h1>
 				<p>${esc(settings.heroSubtitle)}</p>
 				<div class="hero-ctas">
-					<a class="hero-cta" href="/rent/"><i class="fa fa-key"></i> Find a property to rent</a>
 					<a class="hero-cta" href="/sale/"><i class="fa fa-home"></i> Find a property to buy</a>
+					<a class="hero-cta" href="/rent/"><i class="fa fa-key"></i> Find a property to rent</a>
 					<a class="hero-cta" href="/projects/"><i class="fa fa-building"></i> Discover new projects</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	${section('Featured Rentals', 'For rent', feat(rentL).map((p) => propCard(p)), '/rent/', 'View all rentals')}
 	${section('Featured Properties for Sale', 'For sale', featSale().map((x) => (x._saleEntry ? projSaleCard(x) : propCard(x))), '/sale/', 'View all for sale')}
+	${section('Featured Rentals', 'For rent', feat(rentL).map((p) => propCard(p)), '/rent/', 'View all rentals')}
 	${section('New Developments', 'New projects', feat(projL).map(projCard), '/projects/', 'View all projects')}
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>Browse by area</span><h2>Popular Locations</h2></div><div class="loc-grid">${locCards}</div></div></section>
 	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>About us</span><h2>Your local real estate partner</h2></div><p>${esc(settings.aboutText)}</p><a class="primary-btn" href="/about/">About our agency</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', 'Chat on WhatsApp')}</div></div></div></section>`;
