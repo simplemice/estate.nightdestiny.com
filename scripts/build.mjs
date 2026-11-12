@@ -779,8 +779,26 @@ write('data/projects.json', JSON.stringify(projL.map(pubProject), null, 1));
 write('data/developers.json', JSON.stringify([...new Set(projL.map((p) => p.developer).filter(Boolean))].sort().map((d) => ({ name: d, projects: projL.filter((p) => p.developer === d).map((p) => p.slug) })), null, 1));
 write('data/locations.json', JSON.stringify([...new Set(projL.map((p) => p.location))].sort().map((l) => ({ name: l, projects: projL.filter((p) => p.location === l).map((p) => p.slug) })), null, 1));
 
-// sitemap
+// sitemap: real lastmod from content dates, image entries, change frequency. ?page=N and filter URLs are intentionally excluded.
+const xesc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
+const dOf = (p) => dateFmt(p.lastVerified) || dateFmt(p.publishedAt) || today;
+const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
-const urls = [['/', 1], ['/rent/', 0.9], ['/sale/', 0.9], ['/projects/', 0.9], ['/properties/', 0.9], ['/properties/villas/', 0.8], ['/properties/townhouses/', 0.8], ['/about/', 0.5], ['/contact/', 0.5], ...rentL.concat(saleL, projL).map((p) => [url(p), 0.7])];
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(([u, pr]) => `<url><loc>${SITE}${u}</loc><lastmod>${today}</lastmod><priority>${pr}</priority></url>`).join('\n')}\n</urlset>\n`);
+const allListings = rentL.concat(saleL, projL);
+const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
+const entry = (loc, lastmod, changefreq, priority, p) => `<url><loc>${SITE}${loc}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`;
+const urls = [
+  ['/', latest(allListings), 'weekly', '1.0'],
+  ['/rent/', latest(rentL), 'weekly', '0.9'],
+  ['/sale/', latest(saleAll.length ? saleAll.concat(saleL) : saleL), 'weekly', '0.9'],
+  ['/properties/', latest(projL), 'weekly', '0.9'],
+  ['/properties/villas/', latest(projL.filter((x) => x.category === 'Villa')), 'weekly', '0.8'],
+  ['/properties/townhouses/', latest(projL.filter((x) => x.category === 'Townhouse')), 'weekly', '0.8'],
+  ['/projects/', latest(projL), 'weekly', '0.9'],
+  ['/about/', latest(allListings), 'yearly', '0.4'],
+  ['/contact/', latest(allListings), 'yearly', '0.5'],
+  ...rentL.concat(saleL).map((x) => [url(x), dOf(x), 'weekly', '0.7', x]),
+  ...projL.map((x) => [url(x), dOf(x), 'weekly', '0.8', x]),
+];
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map(([u, lm, cf, pr, p]) => entry(u, lm, cf, pr, p)).join('\n')}\n</urlset>\n`);
 console.log(`Built ${urls.length} pages.`);
