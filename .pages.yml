@@ -199,3 +199,19 @@ content:
       - { name: videoUrl, label: YouTube video URL (optional), type: string }
       - { name: nearby, label: Nearby attractions & distances, component: nearby }
       - { name: coordinates, label: Map coordinates, component: coordinates }
+
+  - name: locations
+    label: Location pages (SEO text)
+    type: collection
+    path: content/locations
+    format: json
+    subfolders: false
+    filename: "{primary}.json"
+    view:
+      fields: [ name ]
+      primary: name
+    fields:
+      - { name: name, label: "Location name (for your reference; filename must match the URL slug, e.g. bang-tao)", type: string }
+      - { name: overview, label: "Area overview (verified, original text)", type: text }
+      - { name: market, label: "Property market overview (verified)", type: text }
+      - { name: transport, label: "Transport and airport access (verified)", type: text }

@@ -1,2 +1,6 @@
 node_modules/
 .DS_Store
+
+# internal docs / reports - not part of the published site
+docs/
+SEO_*.md

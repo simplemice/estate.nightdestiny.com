@@ -1,5 +1,11 @@
+# Nightdestiny Estate - https://estate.nightdestiny.com
 User-agent: *
-Disallow: 
-Crawl-delay: 5
-Disallow: /cgi-bin/
+Allow: /
+# Source/content folders and internal docs are not meant for search results
+Disallow: /scripts/
+Disallow: /content/
+Disallow: /SEO_AUDIT_REPORT.md
+Disallow: /SEO_SETUP_GUIDE.md
+Disallow: /docs/
+
 Sitemap: https://estate.nightdestiny.com/sitemap.xml

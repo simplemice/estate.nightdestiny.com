@@ -26,10 +26,12 @@ const refs = new Set();
 for (const f of walk(path.join(ROOT, 'content'))) for (const s of strings(JSON.parse(fs.readFileSync(f, 'utf8')))) if (IMG_RE.test(s)) refs.add(s);
 
 let made = 0;
+const dims = {};
 for (const ref of refs) {
   const src = path.join(ROOT, ref);
   if (!fs.existsSync(src)) { console.warn('missing:', ref); continue; }
   const meta = await sharp(src).metadata();
+  { const sw = (meta.orientation || 1) > 4; dims[ref] = [sw ? meta.height : meta.width, sw ? meta.width : meta.height]; }
   const base = '/assets/optimized/' + ref.slice(1).replace(/\.[a-z0-9]+$/i, '');
   const widths = WIDTHS.filter((w) => w <= meta.width);
   if (!widths.length || meta.width < WIDTHS[0]) widths.push(meta.width); // small source: one webp at native width
@@ -41,4 +43,6 @@ for (const ref of refs) {
     made++;
   }
 }
+fs.mkdirSync(path.join(ROOT, 'assets/optimized'), { recursive: true });
+fs.writeFileSync(path.join(ROOT, 'assets/optimized/dims.json'), JSON.stringify(dims));
 console.log(`Optimized ${refs.size} images, wrote ${made} files.`);

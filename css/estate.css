@@ -198,3 +198,6 @@ button.canvas-open,button.canvas-close{background:none;padding:0;font-family:inh
 .type-tabs a{border:1px solid #d9d4cc;padding:8px 16px;color:#19191a;font-weight:600;font-size:14px}
 .type-tabs a:hover{border-color:#946025;color:#946025;text-decoration:none}
 .type-tabs a.active{background:#946025;border-color:#946025;color:#fff}
+
+/* keep intrinsic aspect ratio now that <img> carries width/height attributes */
+img{height:auto}
