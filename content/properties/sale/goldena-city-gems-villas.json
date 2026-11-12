@@ -1,0 +1,34 @@
+{
+  "title": "Goldena City Gems Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/goldena-city-gems-villas.json",
+  "propertyType": "Villa",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "currency": "THB",
+  "shortDescription": "A small Goldena Group development of two-storey villas in Kamala on Phuket's west coast, each with a private pool.",
+  "description": "A small Goldena Group development of two-storey villas in Kamala on Phuket's west coast, each with a private pool. Units found are three-bedroom homes of about 150 sqm built on compact plots of roughly 140-170 sqm. Still under construction with a handover expected between 2027 and early 2028.",
+  "facilities": [
+    "Swimming pool (private, per unit)",
+    "24-hour security",
+    "Security cameras",
+    "Garden area",
+    "Balcony",
+    "Pet-friendly"
+  ],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "600 m (Aster of Asia listing) vs about 1 km (Aster of Asia text)",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 12900000,
+  "bedrooms": 3,
+  "ownership": "Freehold",
+  "cover": "/assets/images/projects/goldena-city-gems-villas/photo-2.jpg"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Naturale Cherng Talay",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Cherng Talay, Phuket",
+  "developer": "AAG Development Co., Ltd.",
+  "shortDescription": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development.",
+  "description": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development. Villas come in 3 and 4 bedroom layouts of roughly 357 to 511 sqm built-up on plots of 423 to 693 sqm. The 4BR plan has two master suites and a 4.5 m living-room ceiling.",
+  "startingPrice": 34371200,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 357.4,
+  "builtUpMax": 511.2,
+  "landMin": 423,
+  "landMax": 693,
+  "totalUnits": 13,
+  "floors": "1",
+  "parking": "Covered parking",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Booking fee 200,000 THB",
+    "Down payment 30%",
+    "On completion 70%"
+  ],
+  "facilities": [
+    "24/7 security and monitoring",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Private saltwater swimming pool",
+    "Jacuzzi",
+    "Sun lounges"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "~7 minutes",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (Cherngtalay)",
+      "distance": "1.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wattanapat Phuket Hospital",
+      "distance": "4.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "1.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "~30 minutes",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Luxury Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "357.4",
+      "landSqm": "423",
+      "price": 34371200
+    },
+    {
+      "name": "4BR Luxury Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "511.2",
+      "landSqm": "587-693",
+      "price": 56500000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/naturale-cherng-talay/photo-5.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-2.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-3.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-4.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/naturale-cherng-talay/plan-7.jpg",
+    "/assets/images/floorplans/naturale-cherng-talay/plan-8.jpg",
+    "/assets/images/floorplans/naturale-cherng-talay/plan-9.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/naturale-cherng-talay"
+    },
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/aag-development/naturale-phuket-cherng-talay"
+    },
+    {
+      "label": "Phuket Prime (address)",
+      "url": "https://phuketprime.com/?p=25570"
+    }
+  ],
+  "researchNotes": "Official name appears to be 'Naturale', not 'Naturalle'. Not able to find official developer site. Render vs photo status of images not verified (esennio images unverified). Ownership: Papaya says Freehold; Keller Henson says freehold for Thai nationals/companies, 30+30+30 leasehold for foreigners. Image 'source' labelled agent (Papaya CDN / Keller Henson). | Keller Henson shows 3BR from THB 34,371,200 (matches client ~34.4M); Papaya Property shows last-unit 3BR at 37,360,000 (range 37.4M-56.5M). Keller Henson says only 2 units still listed for sale. Price may be stale. | claimed price 34400000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
+  "imageCaptions": [
+    "Exterior",
+    "4BR villa",
+    "4BR villa",
+    "4BR villa",
+    "3BR villa"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson and Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

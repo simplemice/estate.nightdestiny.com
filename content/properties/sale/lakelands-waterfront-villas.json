@@ -1,0 +1,43 @@
+{
+  "title": "Lakelands Waterfront Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/lakelands-waterfront-villas.json",
+  "propertyType": "Villa",
+  "location": "Laguna",
+  "address": "Laguna, Phuket",
+  "currency": "THB",
+  "shortDescription": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate.",
+  "description": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate. The project is described as 14 exclusive units, with lagoon and hill views and access to the estate's trails and private beach club.",
+  "facilities": [
+    "Hillside, Orchard, Forest and Lakeside precincts",
+    "15 km trail network",
+    "Private beachfront club",
+    "Hillside adventure park",
+    "Sports and aquatic complex",
+    "Town center",
+    "24-hour concierge",
+    "Security",
+    "Car park"
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-2.jpg",
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-3.jpg",
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-4.jpg",
+    "/assets/images/projects/lakelands-waterfront-villas/photo-1.jpg",
+    "/assets/images/projects/lakelands-waterfront-villas/photo-2.jpg"
+  ],
+  "availability": "Available",
+  "price": 72100000,
+  "bedrooms": 4,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg"
+}

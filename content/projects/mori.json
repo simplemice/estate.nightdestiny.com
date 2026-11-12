@@ -1,0 +1,121 @@
+{
+  "name": "Mori",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Bang Jo",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Bang Jo, Phuket",
+  "shortDescription": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area.",
+  "description": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area. The 3BR plan has parking, living, dining and kitchen downstairs, with a master suite, two bedrooms and a multi-purpose room upstairs.",
+  "startingPrice": 13048000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 229,
+  "builtUpMax": 260.28,
+  "floors": "2",
+  "commonAreaFee": "THB 15 per sqm",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Clubhouse",
+    "Fitness center",
+    "Swimming pool",
+    "Private garden",
+    "CCTV",
+    "24-hour security",
+    "Children's playground",
+    "Coworking space",
+    "Cafe",
+    "Covered parking",
+    "Restaurant",
+    "Convenience shop"
+  ],
+  "nearby": [
+    {
+      "place": "Boat Avenue Mall",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Greenhouse Kindergarten Phuket",
+      "distance": "2.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (Cherngtalay)",
+      "distance": "3.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "about 17 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Pool Villa (Papaya)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "229",
+      "price": 13048000
+    },
+    {
+      "name": "Mori 2 The Valley 3BR Type A",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "234.47",
+      "price": 16670000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mori/photo-4.jpg",
+    "/assets/images/projects/mori/photo-6.jpg",
+    "/assets/images/projects/mori/photo-7.jpg",
+    "/assets/images/projects/mori/photo-5.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/mori/plan-1.jpg",
+    "/assets/images/floorplans/mori/plan-2.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property Mori",
+      "url": "https://papayaproperty.com/en/jm-group/mori"
+    },
+    {
+      "label": "Keller Henson Mori 2 The Valley unit",
+      "url": "https://kellerhenson.com/unit/mori-2-the-valley-3br-pool-villa-type-a-plot-a2"
+    }
+  ],
+  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; FazWaz says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/mori/photo-3.jpg",
+  "imageCaptions": [
+    "Scene E (render likely)",
+    "Mori 2 The Valley exterior",
+    "Mori 2 The Valley interior",
+    "Brochure page 11"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson and Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

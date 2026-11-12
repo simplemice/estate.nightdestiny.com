@@ -1,0 +1,53 @@
+{
+  "title": "Pavara Vhana Collection",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/pavara-vhana-collection.json",
+  "propertyType": "Villa",
+  "location": "Layan",
+  "address": "Layan, Phuket",
+  "currency": "THB",
+  "shortDescription": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens.",
+  "description": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens. Every villa has its own pool, with sizes and layouts varying by type A to F.",
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Swimming pool with poolside",
+    "Private pool in each villa",
+    "Maid's room and study in every villa"
+  ],
+  "nearby": [
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "4.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "5.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "5.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bumrungrad Hospital Phuket",
+      "distance": "8.5 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/pavara-vhana-collection/photo-2.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-3.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-4.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-5.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-6.jpg"
+  ],
+  "availability": "Available",
+  "price": 110000000,
+  "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg"
+}

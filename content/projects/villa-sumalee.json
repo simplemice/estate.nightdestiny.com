@@ -1,0 +1,57 @@
+{
+  "name": "Villa Sumalee",
+  "category": "Townhouse",
+  "projectType": "2-storey townhouse with communal pool",
+  "location": "Rawai",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "20/136, Soi King Suksan 4, Rawai, Muang Phuket",
+  "shortDescription": "Villa Sumalee is a small completed complex of two-storey townhouses in Rawai, southern Phuket, built in 2017.",
+  "description": "Villa Sumalee is a small completed complex of two-storey townhouses in Rawai, southern Phuket, built in 2017. The roughly 144 sqm homes have two bedrooms and three bathrooms and share a communal pool.",
+  "startingPrice": 8949999,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 2,
+  "bedroomsMax": 2,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 144,
+  "builtUpMax": 144,
+  "totalUnits": 13,
+  "floors": "2",
+  "completionDate": "2017",
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Communal swimming pool",
+    "24-hour security",
+    "CCTV",
+    "Car park"
+  ],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "6.1 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "2-storey townhouse",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "144"
+    }
+  ],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/22527/villa-sumalee"
+    }
+  ],
+  "researchNotes": "Search snippet says developer Happy Construction Company (single listing, unconfirmed); unit count varies 5/13/19 across portals. Ownership: one listing says foreigners can own building not land (unconfirmed). | Thailand-Property shows resale listings from THB 8,949,999 to 9,889,999 (4 units for sale). Claimed 'on request' differs. | claimed price on request",
+  "imagesStatus": "unavailable"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Sunny Moon Village",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/sunny-moon-village.json",
+  "propertyType": "Villa",
+  "location": "Nai Harn",
+  "address": "Nai Harn, Phuket",
+  "currency": "THB",
+  "shortDescription": "A gated community of single-storey villas in Nai Harn from Sunny Development Group, with 2, 3 and 4 bedroom homes of about 149 to 215 sqm.",
+  "description": "A gated community of single-storey villas in Nai Harn from Sunny Development Group, with 2, 3 and 4 bedroom homes of about 149 to 215 sqm. Each villa has its own pool and sunrise-facing orientation, and residents share the wellness and sports amenities of the neighbouring Sunny Moon project.",
+  "facilities": [
+    "Private pools and sunbathing terraces",
+    "Smart home technology",
+    "Gym",
+    "Spa",
+    "Padel court",
+    "Co-working space",
+    "Kids play areas",
+    "Concierge lobby",
+    "Cafes",
+    "Shuttle service"
+  ],
+  "nearby": [
+    {
+      "place": "Nai Harn Beach",
+      "distance": "2.2 km (3-4 min by car per developer presentation)",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sunny-moon-village/photo-2.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-3.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-4.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-5.jpg"
+  ],
+  "availability": "Available",
+  "price": 12243000,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/sunny-moon-village/photo-1.jpg"
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Banyan Tree Beach Residences Varuna",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/banyan-tree-beach-residences-varuna.json",
+  "propertyType": "Townhouse",
+  "location": "Laguna",
+  "address": "Laguna, Phuket",
+  "currency": "THB",
+  "shortDescription": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026.",
+  "description": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026. Each four-level home pairs a private lift and garden terrace with a west-facing rooftop infinity pool, and the master suite occupies its own floor. Owners get membership perks across Laguna and Banyan Group.",
+  "facilities": [
+    "Private rooftop infinity pool and terrace",
+    "Private lift",
+    "Ground-floor garden terrace",
+    "Floor-to-ceiling glazing with Andaman Sea views",
+    "24-hour concierge",
+    "RAVA Beach Club access",
+    "Laguna Golf access",
+    "Laguna Phuket resort facilities"
+  ],
+  "nearby": [],
+  "images": [
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-2.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-3.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-5.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-4.jpg"
+  ],
+  "availability": "Available",
+  "price": 109900000,
+  "ownership": "Freehold",
+  "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg"
+}

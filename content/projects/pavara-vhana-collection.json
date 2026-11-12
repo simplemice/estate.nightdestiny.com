@@ -1,0 +1,140 @@
+{
+  "name": "Pavara Vhana Collection",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Layan",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Layan, Phuket",
+  "developer": "Pavara Development Co., Ltd",
+  "shortDescription": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens.",
+  "description": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens. Every villa has its own pool, with sizes and layouts varying by type A to F.",
+  "startingPrice": 110000000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 5,
+  "bathroomsMin": 4,
+  "bathroomsMax": 8,
+  "builtUpMin": 812.79,
+  "builtUpMax": 1717.65,
+  "landMin": 607.58,
+  "landMax": 2070.84,
+  "totalUnits": 22,
+  "floors": "2",
+  "reservationFee": "THB 1,020,000",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Sales team selects plot and villa type",
+    "Reservation agreement with booking fee",
+    "28% deposit on contract signing",
+    "Installments by construction progress",
+    "Transfer and lease registration at completion"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Swimming pool with poolside",
+    "Private pool in each villa",
+    "Maid's room and study in every villa"
+  ],
+  "nearby": [
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "4.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "5.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "5.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bumrungrad Hospital Phuket",
+      "distance": "8.5 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type D 3BR",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "812.79",
+      "price": 110000000
+    },
+    {
+      "name": "Type F 3BR",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "1143.66",
+      "price": 136000000
+    },
+    {
+      "name": "Type B 4BR",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "1017.76",
+      "price": 162000000
+    },
+    {
+      "name": "Type E 4BR",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "1379.92",
+      "price": 206000000
+    },
+    {
+      "name": "Type C 4BR",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "1529.95",
+      "price": 235000000
+    },
+    {
+      "name": "Type A 5BR",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "1717.65",
+      "price": 273000000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/pavara-vhana-collection/photo-2.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-3.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-4.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-5.jpg",
+    "/assets/images/projects/pavara-vhana-collection/photo-6.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson project page (agent)",
+      "url": "https://kellerhenson.com/project/pavara-vhana-collection"
+    }
+  ],
+  "researchNotes": "Official Pavara site not checked/found. Page inconsistent on built-up (546-1138 vs 812-1717 sqm), plots (345-899 vs 607-2070 sqm), types. Bathrooms 6-8 per description vs 4-6 in unit list. Images probably renders (not stated). Claimed 98M likely wrong or a past/unlisted price. | Keller Henson range THB 110.0M-273.0M (cheapest 3BR Type D 110M). Claimed 98M not found in any source. | claimed price 98000000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
+  "imageCaptions": [
+    "Type A",
+    "Type D",
+    "Type C",
+    "Type B",
+    "Type A"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

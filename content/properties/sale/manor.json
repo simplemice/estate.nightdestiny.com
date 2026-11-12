@@ -1,0 +1,64 @@
+{
+  "title": "Manor",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/manor.json",
+  "propertyType": "Villa",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori.",
+  "description": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori. Ownership for foreigners is by 30-year leasehold, renewable.",
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Swimming pool",
+    "Shuttle service (Papaya)"
+  ],
+  "nearby": [
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "3.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Robinson Lifestyle Thalang",
+      "distance": "3.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Bangtao Beach and Porto de Phuket",
+      "distance": "about 12 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket Town",
+      "distance": "about 20 minutes",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/manor-phuket/photo-2.jpg",
+    "/assets/images/projects/manor-phuket/photo-3.jpg",
+    "/assets/images/projects/manor-phuket/photo-4.jpg",
+    "/assets/images/projects/manor/photo-1.jpg",
+    "/assets/images/projects/manor/photo-2.jpg",
+    "/assets/images/projects/manor/photo-3.jpg"
+  ],
+  "availability": "Available",
+  "price": 17200000,
+  "cover": "/assets/images/projects/manor-phuket/photo-1.jpg"
+}

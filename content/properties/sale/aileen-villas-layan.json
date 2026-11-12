@@ -1,0 +1,33 @@
+{
+  "title": "Aileen Villas Layan",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/aileen-villas-layan.json",
+  "propertyType": "Villa",
+  "location": "Layan",
+  "address": "Layan, Phuket",
+  "currency": "THB",
+  "shortDescription": "Phase 5 of the Aileen Villas Layan community by Trinity Property, offering 3 and 4 bedroom private-pool villas of roughly 270 to 470 sqm.",
+  "description": "Phase 5 of the Aileen Villas Layan community by Trinity Property, offering 3 and 4 bedroom private-pool villas of roughly 270 to 470 sqm. Larger types add a terrace pool or extra laundry and storage rooms. Sources disagree on whether the phase is finished or still to be completed.",
+  "facilities": [
+    "Private pool in each villa",
+    "Parking"
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "about 5 minutes",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/aileen-villas-layan/photo-2.jpg",
+    "/assets/images/projects/aileen-villas-layan/photo-3.jpg",
+    "/assets/images/projects/aileen-villas-layan/photo-4.jpg"
+  ],
+  "availability": "Available",
+  "price": 17500000,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/aileen-villas-layan/photo-1.jpg"
+}

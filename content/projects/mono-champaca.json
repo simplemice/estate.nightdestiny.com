@@ -1,0 +1,133 @@
+{
+  "name": "MONO Champaca",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Thalang",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Thalang, Phuket",
+  "developer": "The Attitude Club Co., Ltd.",
+  "shortDescription": "A gated development of 3 and 4 bedroom pool villas by The Attitude Club in Thalang, inland in northern Phuket, inspired by modern rural Asian and Japanese-minimal design.",
+  "description": "A gated development of 3 and 4 bedroom pool villas by The Attitude Club in Thalang, inland in northern Phuket, inspired by modern rural Asian and Japanese-minimal design. Villas offer roughly 237-425 sqm built area on plots of about 400-740 sqm, each with a saltwater pool and smart-home system. Units are sold made-to-order.",
+  "startingPrice": 17800000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 236.7,
+  "builtUpMax": 425.2,
+  "landMin": 402,
+  "landMax": 744.2,
+  "totalUnits": 65,
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Private saltwater pool, pool lounge, sundeck",
+    "Garden",
+    "Smart home system",
+    "Fully equipped kitchen",
+    "24-hour security and CCTV",
+    "Gated community",
+    "Pets allowed",
+    "BBQ/picnic area",
+    "Storage room"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "9.0 km, 15 min (FazWaz) / 10.2 km, 17 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Victory Monument",
+      "distance": "2.8 km, 6 min",
+      "mode": "driving"
+    },
+    {
+      "place": "7-Eleven",
+      "distance": "3.6 km, 8 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Clinic",
+      "distance": "3.3 km, 7 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Ban Phru Champa School",
+      "distance": "600 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "5.2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "236.7"
+    },
+    {
+      "name": "4BR villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "366"
+    },
+    {
+      "name": "3BR Type E",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "255.74",
+      "price": 16000000
+    },
+    {
+      "name": "4BR Type B",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "425.2",
+      "price": 29900000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mono-champaca/photo-5.jpg",
+    "/assets/images/projects/mono-champaca/photo-6.jpg",
+    "/assets/images/projects/mono-champaca/photo-7.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "FazWaz Mono Champaca",
+      "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/thalang/thep-krasattri/mono-champaca"
+    },
+    {
+      "label": "Keller Henson Mono Champaca",
+      "url": "https://kellerhenson.com/project/mono-champaca"
+    }
+  ],
+  "researchNotes": "Heavily conflicting data between sources (units 5/15/65, completion, price, size). FazWaz 'second area' ranges (303-744 sqm) assumed to be land but not labelled. Official developer site not found. Captions inferred. | Differs from claim. FazWaz header: from 17,800,000 (listing 17,900,000, range 17.9M-32M). Keller Henson shows 16.0M for 3BR Type E, 19.5M for 3BR Type A (promotion), up to 29.9M. Prices conflict between agents; no developer-official price found. | claimed price 18500000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/mono-champaca/photo-4.jpg",
+  "imageCaptions": [
+    "Exterior",
+    "Interior",
+    "Interior"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

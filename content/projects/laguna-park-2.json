@@ -1,0 +1,94 @@
+{
+  "name": "Laguna Park 2",
+  "category": "Townhouse",
+  "projectType": "townhouses and villas",
+  "location": "Laguna",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Tambon Choeng Thale, Thalang, Phuket",
+  "developer": "Laguna Property",
+  "shortDescription": "Laguna Park 2 is a three-storey townhouse and villa enclave by Laguna Property beside the Laguna resort complex in Choeng Thale, completed in 2023.",
+  "description": "Laguna Park 2 is a three-storey townhouse and villa enclave by Laguna Property beside the Laguna resort complex in Choeng Thale, completed in 2023. Owners get Laguna resort privileges such as club membership and shuttle access.",
+  "startingPrice": 20800000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 2,
+  "bedroomsMax": 5,
+  "bathroomsMin": 3,
+  "bathroomsMax": 5,
+  "builtUpMin": 318,
+  "builtUpMax": 550,
+  "totalUnits": 53,
+  "floors": "3",
+  "commonAreaFee": "from 400 baht per sq. wah per year",
+  "completionDate": "2023",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Swimming pool",
+    "Fitness centre",
+    "Rest area",
+    "Parking",
+    "24-hour security",
+    "CCTV",
+    "Restaurants and bar",
+    "XANA Beach Club",
+    "Free shuttle bus and ferry between Laguna resorts",
+    "Sanctuary Club membership",
+    "5 years free Laguna Phuket Golf Club membership"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Patong Beach",
+      "distance": "about 30 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Townhouse Standard",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "318"
+    },
+    {
+      "name": "Townhouse Deluxe",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "318"
+    },
+    {
+      "name": "Villa Standard",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "550"
+    },
+    {
+      "name": "Villa Deluxe",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "550"
+    }
+  ],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Thailand-Property (listing provided by Laguna Property)",
+      "url": "https://thailand-property.com/townhouse/13759/laguna-park-2"
+    }
+  ],
+  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB",
+  "imagesStatus": "unavailable"
+}

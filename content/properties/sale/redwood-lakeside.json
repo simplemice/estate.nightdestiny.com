@@ -1,0 +1,39 @@
+{
+  "title": "Redwood Lakeside",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/redwood-lakeside.json",
+  "propertyType": "Villa",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "A lakeside villa enclave by Redwood Luxury near Bang Tao, with 3 and 4 bedroom villas on plots of 400 to 902 sqm.",
+  "description": "A lakeside villa enclave by Redwood Luxury near Bang Tao, with 3 and 4 bedroom villas on plots of 400 to 902 sqm. Four villa types (Palm, Orchid, Lotus, Lily) include single-storey and two-storey designs, each with a private pool. Heavy landscaping and a shuttle to local beach and shopping hubs are part of the offer.",
+  "facilities": [
+    "Community center and event spaces",
+    "Lakeside parks, lawns, walking trails",
+    "Playgrounds",
+    "Cafes and restaurant areas",
+    "Free shuttle to Bang Tao Beach, Boat Avenue, Porto de Phuket",
+    "Double-wall construction with thermal insulation",
+    "Optional hybrid solar system",
+    "Smart home integration"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 30 minutes",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/redwood-lakeside/photo-2.jpg",
+    "/assets/images/projects/redwood-lakeside/photo-3.jpg",
+    "/assets/images/projects/redwood-lakeside/photo-4.jpg"
+  ],
+  "availability": "Available",
+  "price": 37400000,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg"
+}

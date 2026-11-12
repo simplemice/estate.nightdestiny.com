@@ -1,0 +1,150 @@
+{
+  "name": "The Harmony by Wallaya Villas",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Thalang",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Thalang, Phuket",
+  "developer": "Wallaya Villas",
+  "shortDescription": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A…",
+  "description": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A 'super villas' with a man cave. Located close to Porto de Phuket and the Bang Tao and Layan beaches.",
+  "startingPrice": 23900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 5,
+  "bathroomsMin": 3,
+  "bathroomsMax": 5,
+  "builtUpMin": 271,
+  "builtUpMax": 897,
+  "landMin": 258,
+  "landMax": 816,
+  "totalUnits": 37,
+  "floors": "3",
+  "parking": "Covered resident parking",
+  "reservationFee": "200,000 THB",
+  "commonAreaFee": "25 THB/sqm",
+  "sinkingFund": "500 THB/sqm",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Status on request",
+  "paymentPlan": [
+    "Reservation agreement with booking fee",
+    "Contract signature with 30% deposit",
+    "Instalments tied to construction progress (70%)",
+    "Ownership transfer and lease registration on completion"
+  ],
+  "facilities": [
+    "24/7 security",
+    "Covered parking",
+    "CCTV",
+    "Fitness facilities",
+    "Landscaped gardens",
+    "Swimming pool with poolside facilities"
+  ],
+  "nearby": [
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "3.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "3.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "REBEL Rock Climbing",
+      "distance": "3.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Niran Equestrian Center",
+      "distance": "3.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket and Boat Avenue",
+      "distance": "about 5 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Bang Tao and Layan Beaches",
+      "distance": "about 5-7 min",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Pool Villa Type B",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "272",
+      "price": 23900000
+    },
+    {
+      "name": "3BR Pool Villa Type B (large plot)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "271",
+      "price": 25900000
+    },
+    {
+      "name": "5BR Pool Villa Type A",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "897",
+      "price": 74900000
+    },
+    {
+      "name": "5BR Pool Villa Type A (large plot)",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "897",
+      "price": 78200000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-2.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-7.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-10.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-11.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-3.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-4.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-5.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-6.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-8.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-9.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-harmony-by-wallaya-villas/plan-12.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson (agent)",
+      "url": "https://kellerhenson.com/project/the-harmony-by-wallaya-villas"
+    }
+  ],
+  "researchNotes": "No official developer page found/fetched. Image captions/kind are not verified (render vs photo unknown). Land: Type A 627-816, Type B 258-407 sqm per agent. Completion conflicts between sources. Distances mode not stated by source. | Keller Henson (agent) shows 3BR Type B from 23.9M, large plot 25.9M; 5BR Type A 74.9M-78.2M. Claimed 25.2M not shown; lowest advertised is 23.9M. | claimed price 25200000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
+  "imageCaptions": [
+    "Type B",
+    "Villa overview",
+    "Bedroom 02",
+    "2nd bedroom",
+    "Type A",
+    "Type B",
+    "Type B",
+    "Type A",
+    "Living 01",
+    "Living 02"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson and Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

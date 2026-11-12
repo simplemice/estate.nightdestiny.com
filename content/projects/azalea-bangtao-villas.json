@@ -1,0 +1,41 @@
+{
+  "name": "Azalea Bangtao Villas",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Cherng Talay, Phuket",
+  "shortDescription": "A small boutique pool-villa development in the Bang Jo area of Cherng Talay/Si Sunthon.",
+  "description": "A small boutique pool-villa development in the Bang Jo area of Cherng Talay/Si Sunthon. Portal sources describe it as a few minutes from Bang Tao Beach, Laguna and Boat Avenue-area attractions, with only a handful of villas left for sale.",
+  "startingPrice": 23000000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "privatePool": "yes",
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [
+    {
+      "place": "HeadStart International School",
+      "distance": "1.6 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/48645/azalea-bangtao-villas"
+    }
+  ],
+  "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000",
+  "imagesStatus": "unavailable"
+}

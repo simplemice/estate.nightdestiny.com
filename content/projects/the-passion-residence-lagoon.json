@@ -1,0 +1,69 @@
+{
+  "name": "The Passion Residence Lagoon",
+  "category": "Townhouse",
+  "projectType": "townhouse",
+  "location": "Phuket",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Phuket, Phuket",
+  "shortDescription": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025.",
+  "description": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025. Each home has its own layout, with parking, a garden and security on site.",
+  "startingPrice": 4700000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "totalUnits": 7,
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [
+    {
+      "place": "Royal Phuket Marina",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Siam Niramit Phuket",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Surin Beach",
+      "distance": "25 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "28 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Thailand-Property",
+      "url": "https://thailand-property.com/townhouse/27333/the-passion-residence-lagoon"
+    },
+    {
+      "label": "FazWaz (403; snippets)",
+      "url": "https://fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
+    },
+    {
+      "label": "Hipflat (snippets)",
+      "url": "https://www.hipflat.com/projects/the-passion-residence-lagoon-n41utc3a1e0tcun0cc992t9e1e932hna"
+    }
+  ],
+  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB",
+  "imagesStatus": "unavailable"
+}

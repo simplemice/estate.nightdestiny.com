@@ -1,0 +1,30 @@
+{
+  "title": "Mono Oxygen Bangtao Beach",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/mono-oxygen-bangtao-beach.json",
+  "propertyType": "Villa",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "A small gated enclave of six villas in the Bang Tao beach area, sold by the Mono brand.",
+  "description": "A small gated enclave of six villas in the Bang Tao beach area, sold by the Mono brand. Per portal listings the three-bedroom units each have a private pool, and only one remained on sale at the time of the portal check.",
+  "facilities": [
+    "Security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [],
+  "images": [
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-10.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-14.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-11.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-12.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-13.jpg"
+  ],
+  "availability": "Available",
+  "price": 22989000,
+  "bedrooms": 3,
+  "cover": "/assets/images/projects/mono-oxygen-bangtao-beach/photo-9.jpg"
+}

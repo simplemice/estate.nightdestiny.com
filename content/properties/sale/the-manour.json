@@ -1,0 +1,18 @@
+{
+  "title": "The Manour",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/the-manour.json",
+  "propertyType": "Villa",
+  "location": "Si Sunthon",
+  "address": "139/40 2014, Thep Krasattri, Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "A small off-plan villa project of six units in Thep Krasattri, Thalang, reported by FazWaz as 3-bedroom, 3-bathroom villas of about 262 sqm.",
+  "description": "A small off-plan villa project of six units in Thep Krasattri, Thalang, reported by FazWaz as 3-bedroom, 3-bathroom villas of about 262 sqm. Very little verified detail is available.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "bedrooms": 3
+}

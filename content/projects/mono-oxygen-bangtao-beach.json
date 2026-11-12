@@ -1,0 +1,62 @@
+{
+  "name": "Mono Oxygen Bangtao Beach",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Bang Tao, Phuket",
+  "shortDescription": "A small gated enclave of six villas in the Bang Tao beach area, sold by the Mono brand.",
+  "description": "A small gated enclave of six villas in the Bang Tao beach area, sold by the Mono brand. Per portal listings the three-bedroom units each have a private pool, and only one remained on sale at the time of the portal check.",
+  "startingPrice": 22989000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "totalUnits": 6,
+  "completionDate": "Listed as January 2024 / completed 2024",
+  "privatePool": "yes",
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Security",
+    "Car park",
+    "Garden"
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR pool villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "281.7",
+      "price": 22990000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-10.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-14.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-11.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-12.jpg",
+    "/assets/images/projects/mono-oxygen-bangtao-beach/photo-13.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/mono-oxygen-bangtao-beach/plan-15.jpg",
+    "/assets/images/floorplans/mono-oxygen-bangtao-beach/plan-16.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/22773/mono-oxygen-bangtao-beach"
+    }
+  ],
+  "researchNotes": "No official developer site found; developer not named (brand Mono). Keller Henson/Hipflat pages blocked or 404 when fetched, only search snippets: sinking fund 250 THB/sqm, freehold for Thai company proposed (unverified, not stored). Image is only a low-res portal thumbnail. Sold out almost entirely; the claimed price likely stale. Separate Phase 2 project exists nearby (23.5-24.0M per Lazudi). | Thailand-Property shows 1 unit from 22,989,000 THB (page also says 'Contact for price'). Search snippets show ~22.99M for 281.7 sqm 3BR. Does not match the claimed 21.5M. | claimed price 21500000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/mono-oxygen-bangtao-beach/photo-9.jpg",
+  "imageCaptions": [
+    "MONO Oxygen",
+    "MONO Oxygen",
+    "MONO Oxygen",
+    "MONO Oxygen",
+    "MONO Oxygen"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Phuket.pro. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

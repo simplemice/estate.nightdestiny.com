@@ -1,0 +1,114 @@
+{
+  "name": "Clover Residence",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Si Sunthon, Thalang, Phuket",
+  "developer": "GOOD TEAM 888 Co., Ltd.",
+  "shortDescription": "A gated community of 33 large villas in Si Sunthon, right beside HeadStart International School, completed in 2024 by GOOD TEAM 888.",
+  "description": "A gated community of 33 large villas in Si Sunthon, right beside HeadStart International School, completed in 2024 by GOOD TEAM 888. Three layouts with 3 to 5 bedrooms are offered, many with private pools, and listings show built areas of roughly 340-470 sqm. Later phases (The Valley Phase II, Luxe Zone Phase III) are separate nearby projects.",
+  "startingPrice": 27900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 5,
+  "bathroomsMin": 4,
+  "bathroomsMax": 6,
+  "builtUpMin": 343,
+  "builtUpMax": 470,
+  "landMin": 445,
+  "landMax": 613.12,
+  "totalUnits": 33,
+  "furniture": "Varies by listing: fully, partly or unfurnished",
+  "parking": "Parking ratio 200%, conventional, no EV charging",
+  "reservationFee": "2%",
+  "commonAreaFee": "30 THB/sqm per month",
+  "privatePool": "some",
+  "constructionStatus": "Completed",
+  "paymentPlan": [
+    "2% reservation",
+    "33% contract signing",
+    "15% foundation posts",
+    "15% concrete structure",
+    "15% walls and roof tiles",
+    "15% floor tiles and interior",
+    "5% handover"
+  ],
+  "facilities": [
+    "24-hour security",
+    "CCTV",
+    "Car parking",
+    "Private pools in some units",
+    "Pets allowed"
+  ],
+  "nearby": [
+    {
+      "place": "HeadStart International School",
+      "distance": "20 m (1 min walk)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Villa Market Laguna",
+      "distance": "1.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Hassamon physical therapy clinic",
+      "distance": "1.7 km (about 5 min)",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "32.6-33.2 km (about 40 min)",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A",
+      "bedrooms": 5,
+      "bathrooms": 6
+    },
+    {
+      "name": "Type B",
+      "bedrooms": 4,
+      "bathrooms": 4
+    },
+    {
+      "name": "Type C",
+      "bedrooms": 3,
+      "bathrooms": 4
+    }
+  ],
+  "images": [
+    "/assets/images/projects/clover-residence/photo-6.jpg",
+    "/assets/images/projects/clover-residence/photo-7.jpg",
+    "/assets/images/projects/clover-residence/photo-8.jpg",
+    "/assets/images/projects/clover-residence/photo-9.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/clover-residence/plan-10.jpg",
+    "/assets/images/floorplans/clover-residence/plan-11.jpg",
+    "/assets/images/floorplans/clover-residence/plan-12.jpg"
+  ],
+  "sources": [
+    {
+      "label": "FazWaz Clover Residence",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence?eq=rent"
+    }
+  ],
+  "researchNotes": "FazWaz size pairs per listing not labelled; assumed built/land (e.g. 352 / 445). Ownership not project-specific (generic FAQ only). Official developer site not found. Image URLs 'project photo' is a brochure page scan. | Differs strongly from claim. FazWaz: 27 units for sale from 27,900,000 (header 27,700,000), range up to 93,880,000; sample listings 29.9M (3BR) to 50M (4BR); a 4BR at 46,000,000 and 36,800,000 exist, no listing at exactly 46.8M seen. Resale/agent listings, not developer-official. | claimed price 46800000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
+  "imageCaptions": [
+    "Clover villa 23",
+    "Clover villa 1",
+    "Clover villa 3",
+    "Clover villa 21"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property and Phuket.pro. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

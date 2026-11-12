@@ -1,0 +1,48 @@
+{
+  "title": "The Passion Residence Lagoon",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/the-passion-residence-lagoon.json",
+  "propertyType": "Townhouse",
+  "location": "Phuket",
+  "address": "Phuket, Phuket",
+  "currency": "THB",
+  "shortDescription": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025.",
+  "description": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025. Each home has its own layout, with parking, a garden and security on site.",
+  "facilities": [
+    "Security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [
+    {
+      "place": "Royal Phuket Marina",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Siam Niramit Phuket",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Surin Beach",
+      "distance": "25 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "28 minutes",
+      "mode": "driving"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 4700000
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Goldena Twin",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/goldena-twin.json",
+  "propertyType": "Villa",
+  "location": "Kamala",
+  "address": "Kamala, Phuket",
+  "currency": "THB",
+  "shortDescription": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach.",
+  "description": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach. The 3-bedroom, 3-bathroom homes have around 150 sqm of built area, a private pool and a small garden, with mountain views. Shared services include security, a gym and an estate manager.",
+  "facilities": [
+    "Private pool",
+    "Small private garden",
+    "24-hour security",
+    "CCTV",
+    "Gym",
+    "Estate manager",
+    "Car parking",
+    "Pets allowed"
+  ],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "800 m (description) / 1.3 km (FAQ)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bang Wan Waterfall",
+      "distance": "1.7 km (about 4 min)",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "27.8 km (about 45 min)",
+      "mode": "driving"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 10900000,
+  "bedrooms": 3
+}

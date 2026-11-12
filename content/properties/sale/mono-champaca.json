@@ -1,0 +1,69 @@
+{
+  "title": "MONO Champaca",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/mono-champaca.json",
+  "propertyType": "Villa",
+  "location": "Thalang",
+  "address": "Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "A gated development of 3 and 4 bedroom pool villas by The Attitude Club in Thalang, inland in northern Phuket, inspired by modern rural Asian and Japanese-minimal design.",
+  "description": "A gated development of 3 and 4 bedroom pool villas by The Attitude Club in Thalang, inland in northern Phuket, inspired by modern rural Asian and Japanese-minimal design. Villas offer roughly 237-425 sqm built area on plots of about 400-740 sqm, each with a saltwater pool and smart-home system. Units are sold made-to-order.",
+  "facilities": [
+    "Private saltwater pool, pool lounge, sundeck",
+    "Garden",
+    "Smart home system",
+    "Fully equipped kitchen",
+    "24-hour security and CCTV",
+    "Gated community",
+    "Pets allowed",
+    "BBQ/picnic area",
+    "Storage room"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "9.0 km, 15 min (FazWaz) / 10.2 km, 17 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Victory Monument",
+      "distance": "2.8 km, 6 min",
+      "mode": "driving"
+    },
+    {
+      "place": "7-Eleven",
+      "distance": "3.6 km, 8 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Clinic",
+      "distance": "3.3 km, 7 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Ban Phru Champa School",
+      "distance": "600 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "5.2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mono-champaca/photo-5.jpg",
+    "/assets/images/projects/mono-champaca/photo-6.jpg",
+    "/assets/images/projects/mono-champaca/photo-7.jpg"
+  ],
+  "availability": "Available",
+  "price": 17800000,
+  "cover": "/assets/images/projects/mono-champaca/photo-4.jpg"
+}

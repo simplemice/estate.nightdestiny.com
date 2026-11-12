@@ -1,0 +1,90 @@
+{
+  "name": "Banyan Tree Beach Residences Varuna",
+  "category": "Townhouse",
+  "projectType": "beachfront townhome with rooftop pool",
+  "location": "Laguna",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Laguna, Phuket",
+  "developer": "Laguna Property / Banyan Group Residences",
+  "shortDescription": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026.",
+  "description": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026. Each four-level home pairs a private lift and garden terrace with a west-facing rooftop infinity pool, and the master suite occupies its own floor. Owners get membership perks across Laguna and Banyan Group.",
+  "startingPrice": 109900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "builtUpMin": 292,
+  "builtUpMax": 298,
+  "totalUnits": 8,
+  "floors": "4",
+  "parking": "Yes",
+  "promotions": "Ownership benefits (official): Sanctuary Club membership, complimentary RAVA Beach Club and Laguna Golf membership, 24h concierge, one year free property management and insurance (Laguna Advantage), Banyan Living rental platform enrollment",
+  "website": "https://www.banyangroupresidences.com",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Private rooftop infinity pool and terrace",
+    "Private lift",
+    "Ground-floor garden terrace",
+    "Floor-to-ceiling glazing with Andaman Sea views",
+    "24-hour concierge",
+    "RAVA Beach Club access",
+    "Laguna Golf access",
+    "Laguna Phuket resort facilities"
+  ],
+  "unitTypes": [
+    {
+      "name": "Unit 945 (Papaya)",
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "size": "292",
+      "price": 109900000
+    },
+    {
+      "name": "Unit 946 (Papaya, 880 sqm - likely a larger/penthouse unit)",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": "880",
+      "price": 245000000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-2.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-3.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-5.jpg",
+    "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-4.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/banyan-tree-beach-residences-varuna/plan-6.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences press release",
+      "url": "https://www.banyangroupresidences.com/cn/node/309"
+    },
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/laguna-property/banyan-tree-beach-residences-varuna"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/25325/banyan-tree-beach-residences-varuna"
+    }
+  ],
+  "researchNotes": "Official release: 8 units, 4 bedrooms each, 4 levels. Agent listings say 3BR 292 sqm and give conflicting prices; bedroom count unresolved. Press page lists no price, size or completion. Official images on banyangroupresidences.com were relative paths (/sites/bgr/files/inline-images/2_1.png and 4.png); not fetched as absolute URLs. Papaya freehold claim is not stated by the official release. | Papaya Property lists from 109,900,000 (3BR 292 sqm; range up to 245M); Thailand-Property lists 129,899,999 (and 'contact for price'). Client 136.4M not found. Official Banyan Group press page states no price. | claimed price 136400000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
+  "imageCaptions": [
+    "Aerial (appears to be a render)",
+    "Aerial (appears to be a render)",
+    "Pool (appears to be a render)",
+    "Bedroom (appears to be a render)"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

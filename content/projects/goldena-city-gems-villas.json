@@ -1,0 +1,85 @@
+{
+  "name": "Goldena City Gems Villas",
+  "category": "Villa",
+  "projectType": "Duplex villa",
+  "location": "Kamala",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Kamala, Phuket",
+  "shortDescription": "A small Goldena Group development of two-storey villas in Kamala on Phuket's west coast, each with a private pool.",
+  "description": "A small Goldena Group development of two-storey villas in Kamala on Phuket's west coast, each with a private pool. Units found are three-bedroom homes of about 150 sqm built on compact plots of roughly 140-170 sqm. Still under construction with a handover expected between 2027 and early 2028.",
+  "startingPrice": 12900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 150,
+  "builtUpMax": 150,
+  "landMin": 140,
+  "landMax": 170,
+  "totalUnits": 22,
+  "floors": "2",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Swimming pool (private, per unit)",
+    "24-hour security",
+    "Security cameras",
+    "Garden area",
+    "Balcony",
+    "Pet-friendly"
+  ],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "600 m (Aster of Asia listing) vs about 1 km (Aster of Asia text)",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR villa (listing 2899131)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "150",
+      "landSqm": "140",
+      "price": 12900000
+    },
+    {
+      "name": "3BR villa (listing 2899116)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "150",
+      "landSqm": "170",
+      "price": 13500000
+    }
+  ],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "PropertyScout listing 2899131",
+      "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899131/"
+    },
+    {
+      "label": "PropertyScout listing 2899116",
+      "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899116/"
+    },
+    {
+      "label": "Aster of Asia project page",
+      "url": "https://asterofasia.com/property/thailand/phuket/city-gems-villas"
+    }
+  ],
+  "researchNotes": "No official developer site found. Images exist on PropertyScout (img2.propertyscout.co.th, only partial hash paths returned) but no full direct URLs obtained, so images left empty. Aster of Asia page flagged as AI-generated/not reviewed. Do not confuse with Golden Hillside Villas or Goldena Twin Private Villas hotel listings. | Matches claimed figure. Resale/agent listings on PropertyScout: 12,900,000 (150 sqm built, 140 sqm plot) and 13,500,000 (150 sqm built, 170 sqm plot). Aster of Asia range 12.9M-13.5M. No developer-official price found; agent/portal prices only. | claimed price 12900000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/goldena-city-gems-villas/photo-2.jpg",
+  "imageCaptions": [],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Phuket.pro. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

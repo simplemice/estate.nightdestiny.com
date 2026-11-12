@@ -1,0 +1,64 @@
+{
+  "title": "Botanica Four Seasons",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/botanica-four-seasons.json",
+  "propertyType": "Villa",
+  "location": "Pru Jampa",
+  "address": "Pru Jampa, Phuket",
+  "currency": "THB",
+  "shortDescription": "A large low-density villa community of single-storey pool homes in the Pru Jampa area of Thalang, split into Spring, Summer, Autumn and Winter zones…",
+  "description": "A large low-density villa community of single-storey pool homes in the Pru Jampa area of Thalang, split into Spring, Summer, Autumn and Winter zones with Modern Zen, Modern Loft and Tropical Balinese styles. The masterplan covers over 231,000 sqm and has a central Seasons Change clubhouse. Foreign buyers hold the land via leasehold.",
+  "facilities": [
+    "Seasons Change Clubhouse",
+    "Fitness center",
+    "Co-working space",
+    "Cafe and lounge",
+    "Tennis court and mini golf",
+    "Jogging and walking paths",
+    "Children's playground",
+    "24/7 security",
+    "Landscaped gardens"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "10-15 minutes",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "4.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bumrungrad Hospital Phuket",
+      "distance": "6.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "8.9 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/botanica-four-seasons/photo-5.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-6.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-2.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-3.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-7.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-8.jpg",
+    "/assets/images/projects/botanica-four-seasons/photo-9.jpg"
+  ],
+  "availability": "Available",
+  "price": 19900000,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/botanica-four-seasons/photo-1.jpg"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Sunrise Valley",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/sunrise-valley.json",
+  "propertyType": "Villa",
+  "location": "Cherng Talay",
+  "address": "Cherng Talay, Phuket",
+  "currency": "THB",
+  "shortDescription": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna.",
+  "description": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna. Layouts range from two-bedroom Palas to larger Grande villas, with indoor-outdoor living and design customisation during build.",
+  "facilities": [
+    "Private pool",
+    "Parking",
+    "Security"
+  ],
+  "nearby": [
+    {
+      "place": "Mini Mart",
+      "distance": "700 m",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sunrise-valley/photo-2.jpg",
+    "/assets/images/projects/sunrise-valley/photo-7.jpg",
+    "/assets/images/projects/sunrise-valley/photo-3.jpg",
+    "/assets/images/projects/sunrise-valley/photo-4.jpg",
+    "/assets/images/projects/sunrise-valley/photo-8.jpg",
+    "/assets/images/projects/sunrise-valley/photo-9.jpg"
+  ],
+  "availability": "Available",
+  "price": 13990000,
+  "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg"
+}

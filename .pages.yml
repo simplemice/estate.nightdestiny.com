@@ -14,6 +14,7 @@ components:
     fields:
       - { name: place, label: Place, type: string, required: true }
       - { name: distance, label: Distance / time, type: string, description: "e.g. 600 m, 5 min drive" }
+      - { name: mode, label: Measured how, type: select, default: unspecified, options: { values: [driving, straight-line, unspecified] } }
   coordinates:
     type: object
     label: Map coordinates (optional)
@@ -133,6 +134,42 @@ content:
       - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
       - { name: developer, label: Developer, type: string }
       - { name: projectType, label: Project type, type: select, required: true, options: { values: [Condominium, Villas, Residential, Townhouses, Mixed-use] } }
+      - { name: imagesStatus, label: Photo status, type: select, description: "Set to unavailable when no rights-cleared photos exist; the site then shows a 'Photos on request' placeholder.", options: { values: [available, unavailable] } }
+      - { name: imageCredit, label: Image credit / disclaimer shown under the gallery, type: text }
+      - { name: imageCaptions, label: Gallery image descriptions (alt text, same order as gallery), type: string, list: true }
+      - { name: researchNotes, label: Internal research notes (not shown on the website), type: text }
+      - { name: category, label: Category, type: select, required: true, default: Condominium, options: { values: [Villa, Townhouse, Condominium] } }
+      - { name: priceStatus, label: Price status, type: select, options: { values: [advertised, on-request] } }
+      - { name: priceNote, label: Price note (e.g. which unit the starting price is for), type: string }
+      - { name: lastVerified, label: Date prices/data were last verified, type: date, options: { format: yyyy-MM-dd } }
+      - { name: bedroomsMin, label: Bedrooms (min), type: number }
+      - { name: bedroomsMax, label: Bedrooms (max), type: number }
+      - { name: bathroomsMin, label: Bathrooms (min), type: number }
+      - { name: bathroomsMax, label: Bathrooms (max), type: number }
+      - { name: builtUpMin, label: Built-up area min (sqm), type: number }
+      - { name: builtUpMax, label: Built-up area max (sqm), type: number }
+      - { name: landMin, label: Land area min (sqm), type: number }
+      - { name: landMax, label: Land area max (sqm), type: number }
+      - { name: floors, label: Floors, type: string }
+      - { name: privatePool, label: Private pool, type: select, options: { values: ["yes", "some", "no"] } }
+      - { name: parking, label: Parking, type: string }
+      - { name: furniture, label: Furniture package, type: string }
+      - { name: ownership, label: Ownership (only if verified), type: select, options: { values: [Freehold, Leasehold], multiple: true } }
+      - { name: constructionStart, label: Construction start, type: string }
+      - { name: paymentPlan, label: Payment plan (one step per line), type: string, list: true }
+      - { name: reservationFee, label: Reservation fee, type: string }
+      - { name: promotions, label: Promotions, type: string }
+      - { name: commonAreaFee, label: Common area fee, type: string }
+      - { name: sinkingFund, label: Sinking fund, type: string }
+      - { name: website, label: Project / developer website, type: string }
+      - { name: googleMapsUrl, label: Google Maps URL, type: string }
+      - name: sources
+        label: Sources
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{label}" } }
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: url, label: URL, type: string }
       - { name: location, label: Location / area, type: string, required: true }
       - { name: address, label: Address, type: string }
       - { name: constructionStatus, label: Construction status, type: select, required: true, options: { values: [Pre-sale, Under construction, Completed] } }
@@ -143,7 +180,7 @@ content:
       - { name: shortDescription, label: Short description (card text), type: string }
       - { name: description, label: Full description, type: text }
       - { name: facilities, label: Facilities & amenities, type: string, list: true }
-      - { name: cover, label: Cover image, type: image, required: true, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
+      - { name: cover, label: Cover image (leave empty if you have no rights-cleared photos), type: image, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
       - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
       - { name: floorPlans, label: Floor plans, type: image, list: true, options: { path: assets/images/floorplans, extensions: [jpg, jpeg, png, webp] } }
       - name: unitTypes
@@ -152,7 +189,8 @@ content:
         list: { collapsible: { collapsed: true, summary: "{name}" } }
         fields:
           - { name: name, label: Unit type, type: string, required: true, description: "Studio, 1 Bedroom, Penthouse..." }
-          - { name: size, label: Size (sqm, e.g. 30 or 30-36), type: string }
+          - { name: size, label: Built-up size (sqm, e.g. 30 or 30-36), type: string }
+          - { name: landSqm, label: Land (sqm), type: string }
           - { name: bedrooms, label: Bedrooms, type: number }
           - { name: bathrooms, label: Bathrooms, type: number }
           - { name: price, label: Starting price, type: number }

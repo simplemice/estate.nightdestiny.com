@@ -1,0 +1,144 @@
+{
+  "name": "Sri Panwa Lagoon",
+  "category": "Villa",
+  "projectType": "pool villa and Multi-Flex house",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Bang Tao, Phuket",
+  "developer": "Charn Issara",
+  "shortDescription": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells.",
+  "description": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells. Architecture is by Habita Architects with interiors by Studio Chemistri, and the project is limited to 28 homes.",
+  "startingPrice": 41000000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 6,
+  "bathroomsMin": 3,
+  "bathroomsMax": 7,
+  "builtUpMin": 307,
+  "builtUpMax": 857,
+  "landMin": 234,
+  "landMax": 928,
+  "totalUnits": 28,
+  "floors": "3",
+  "parking": "Covered parking",
+  "reservationFee": "THB 500,000",
+  "commonAreaFee": "THB 50 per sqm",
+  "sinkingFund": "THB 300 per sqm",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Reservation agreement with booking fee",
+    "30% deposit on contract signing",
+    "Installments by construction progress",
+    "Balance 70% / transfer and lease registration on completion"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Fitness center",
+    "Landscaped gardens",
+    "Swimming pool",
+    "Rooftop terrace",
+    "Multi-purpose clubhouse",
+    "Baba Lake Club (fitness, lap pools, hydrotherapy, lounges)",
+    "Food and beverage complex"
+  ],
+  "nearby": [
+    {
+      "place": "Greenhouse Kindergarten Phuket",
+      "distance": "1.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wattanapat Phuket Hospital",
+      "distance": "4.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (City Campus)",
+      "distance": "11.4 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Multi-Flex House Type A",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "457",
+      "price": 41000000
+    },
+    {
+      "name": "4BR Multi-Flex House Type B",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "461",
+      "price": 41000000
+    },
+    {
+      "name": "3BR Pool Villa Moonlit Whisper",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "307",
+      "price": 45700000
+    },
+    {
+      "name": "4BR Pool Villa Copper Glow",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "381",
+      "price": 54500000
+    },
+    {
+      "name": "5BR Pool Villa Golden Aura",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "670",
+      "price": 105200000
+    },
+    {
+      "name": "6BR Pool Villa Diamond Radiance",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "size": "857",
+      "price": 151300000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sri-panwa-lagoon/photo-2.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-4.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-5.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-3.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson project page (agent)",
+      "url": "https://kellerhenson.com/project/sri-panwa-lagoon"
+    }
+  ],
+  "researchNotes": "Official developer site not found/fetched. Images may be renders (not stated). Keller Henson page has internal inconsistencies (price/sqm, FAQ built-up 565-572 sqm). Papaya range 45.5M-126M. Ownership: freehold via Thai company/national, 30+30+30 lease for foreigners. | Keller Henson (agent) header shows from THB 41.0M (3BR/4BR Multi-Flex House); its FAQ says 49.3M. FazWaz and Asterofasia (via search snippets, pages not readable) show 39.8M, which matches the claim but could not be verified on-page. Cheapest pool villa 45.7M. | claimed price 39800000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
+  "imageCaptions": [
+    "Golden Aura villa",
+    "Copper Glow villa",
+    "Diamond Radiance villa",
+    "Facilities"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

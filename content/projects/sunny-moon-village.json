@@ -1,0 +1,101 @@
+{
+  "name": "Sunny Moon Village",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Nai Harn",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Nai Harn, Phuket",
+  "developer": "Sunny Development Group",
+  "shortDescription": "A gated community of single-storey villas in Nai Harn from Sunny Development Group, with 2, 3 and 4 bedroom homes of about 149 to 215 sqm.",
+  "description": "A gated community of single-storey villas in Nai Harn from Sunny Development Group, with 2, 3 and 4 bedroom homes of about 149 to 215 sqm. Each villa has its own pool and sunrise-facing orientation, and residents share the wellness and sports amenities of the neighbouring Sunny Moon project.",
+  "startingPrice": 12243000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 2,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 5,
+  "builtUpMin": 149,
+  "builtUpMax": 215,
+  "totalUnits": 35,
+  "floors": "1",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Private pools and sunbathing terraces",
+    "Smart home technology",
+    "Gym",
+    "Spa",
+    "Padel court",
+    "Co-working space",
+    "Kids play areas",
+    "Concierge lobby",
+    "Cafes",
+    "Shuttle service"
+  ],
+  "nearby": [
+    {
+      "place": "Nai Harn Beach",
+      "distance": "2.2 km (3-4 min by car per developer presentation)",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "2BR",
+      "bedrooms": 2,
+      "size": "149",
+      "price": 12243000
+    },
+    {
+      "name": "3BR",
+      "bedrooms": 3,
+      "size": "162",
+      "price": 24257000
+    },
+    {
+      "name": "4BR",
+      "bedrooms": 4,
+      "size": "215",
+      "price": 31835000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sunny-moon-village/photo-2.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-3.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-4.jpg",
+    "/assets/images/projects/sunny-moon-village/photo-5.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/sunny-moon-village/plan-6.jpg",
+    "/assets/images/floorplans/sunny-moon-village/plan-7.jpg",
+    "/assets/images/floorplans/sunny-moon-village/plan-8.jpg",
+    "/assets/images/floorplans/sunny-moon-village/plan-9.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/sunny-development-group/sunny-moon-village"
+    },
+    {
+      "label": "PropertyScout (conflicting completion/tenure)",
+      "url": "https://propertyscout.co.th/en/2-br-villa-sunny-moon-village-rawai-3243273/"
+    }
+  ],
+  "researchNotes": "Only one page fetched in full; no official site found. Tenure/completion conflict between sources. 750 m to 2.2 km beach distance conflict. Render vs photo not verified. | Papaya Property shows 2BR from 12,243,000, 3BR 24,257,000, 4BR 31,835,000 (range 12.2M-31.8M; search snippet also mentioned 'from 19.2M'). Differs from client's 20.6M, which was not found. Papaya shows installment figures that are unclear. | claimed price 20600000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/sunny-moon-village/photo-1.jpg",
+  "imageCaptions": [
+    "Project",
+    "Project",
+    "Project",
+    "Project"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

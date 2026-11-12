@@ -1,0 +1,41 @@
+{
+  "name": "The Manour",
+  "category": "Villa",
+  "projectType": "villa",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "139/40 2014, Thep Krasattri, Thalang, Phuket",
+  "shortDescription": "A small off-plan villa project of six units in Thep Krasattri, Thalang, reported by FazWaz as 3-bedroom, 3-bathroom villas of about 262 sqm.",
+  "description": "A small off-plan villa project of six units in Thep Krasattri, Thalang, reported by FazWaz as 3-bedroom, 3-bathroom villas of about 262 sqm. Very little verified detail is available.",
+  "priceStatus": "on-request",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 262,
+  "builtUpMax": 262,
+  "totalUnits": 6,
+  "constructionStatus": "Pre-sale",
+  "unitTypes": [
+    {
+      "name": "3BR villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "262",
+      "price": 25780000
+    }
+  ],
+  "images": [],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Hipflat project (403; summary only)",
+      "url": "https://www.hipflat.co.th/en/projects/-0282t44u1nl3t114lua7a17et380hec3"
+    }
+  ],
+  "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | FazWaz base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000",
+  "imagesStatus": "unavailable"
+}

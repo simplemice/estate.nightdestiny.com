@@ -1,0 +1,68 @@
+{
+  "title": "The Harmony by Wallaya Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/the-harmony-by-wallaya-villas.json",
+  "propertyType": "Villa",
+  "location": "Thalang",
+  "address": "Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A…",
+  "description": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A 'super villas' with a man cave. Located close to Porto de Phuket and the Bang Tao and Layan beaches.",
+  "facilities": [
+    "24/7 security",
+    "Covered parking",
+    "CCTV",
+    "Fitness facilities",
+    "Landscaped gardens",
+    "Swimming pool with poolside facilities"
+  ],
+  "nearby": [
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "3.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "3.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "REBEL Rock Climbing",
+      "distance": "3.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Niran Equestrian Center",
+      "distance": "3.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket and Boat Avenue",
+      "distance": "about 5 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Bang Tao and Layan Beaches",
+      "distance": "about 5-7 min",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-2.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-7.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-10.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-11.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-3.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-4.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-5.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-6.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-8.jpg",
+    "/assets/images/projects/the-harmony-by-wallaya-villas/photo-9.jpg"
+  ],
+  "availability": "Available",
+  "price": 23900000,
+  "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg"
+}

@@ -1,0 +1,1639 @@
+[
+ {
+  "id": "adora-rawai",
+  "name": "The Title Adora Rawai",
+  "url": "/projects/adora-rawai/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Rawai",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   30,
+   87
+  ],
+  "status": "Under construction",
+  "completionDate": "2027-03",
+  "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
+  "imageCount": 10,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "aileen-villas-layan",
+  "name": "Aileen Villas Layan",
+  "url": "/projects/aileen-villas-layan/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Trinity Property Co., Ltd.",
+  "location": "Layan",
+  "startingPrice": 17500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   270,
+   470
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/aileen-villas-layan/photo-1.jpg",
+  "imageCount": 4,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/trinity-property-coltd/aileen-villas-layan-phase-5"
+   }
+  ]
+ },
+ {
+  "id": "azalea-bangtao-villas",
+  "name": "Azalea Bangtao Villas",
+  "url": "/projects/azalea-bangtao-villas/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": null,
+  "location": "Cherng Talay",
+  "startingPrice": 23000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/48645/azalea-bangtao-villas"
+   }
+  ]
+ },
+ {
+  "id": "banyan-tree-beach-residences-varuna",
+  "name": "Banyan Tree Beach Residences Varuna",
+  "url": "/projects/banyan-tree-beach-residences-varuna/",
+  "category": "Townhouse",
+  "propertyType": "beachfront townhome with rooftop pool",
+  "developer": "Laguna Property / Banyan Group Residences",
+  "location": "Laguna",
+  "startingPrice": 109900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   292,
+   298
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Banyan Group Residences press release",
+    "url": "https://www.banyangroupresidences.com/cn/node/309"
+   },
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/laguna-property/banyan-tree-beach-residences-varuna"
+   },
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/25325/banyan-tree-beach-residences-varuna"
+   }
+  ]
+ },
+ {
+  "id": "biancana",
+  "name": "Biancana",
+  "url": "/projects/biancana/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Surin",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   31,
+   131
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/biancana/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "botanica-four-seasons",
+  "name": "Botanica Four Seasons",
+  "url": "/projects/botanica-four-seasons/",
+  "category": "Villa",
+  "propertyType": "single-storey pool villa",
+  "developer": null,
+  "location": "Pru Jampa",
+  "startingPrice": 19900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   275,
+   590
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/botanica-four-seasons/photo-1.jpg",
+  "imageCount": 8,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property project page",
+    "url": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-four-seasons"
+   },
+   {
+    "label": "Keller Henson project page",
+    "url": "https://kellerhenson.com/project/botanica-four-seasons"
+   },
+   {
+    "label": "Developer brochure PDF (not fetched, connection refused)",
+    "url": "https://api.papayaproperty.com/uploads/BROCHURE_BOTANICA_fourseasons_JAN_26_compressed_a7741f5999.pdf"
+   }
+  ]
+ },
+ {
+  "id": "casa-curve-phuket",
+  "name": "Casa Curve Phuket",
+  "url": "/projects/casa-curve-phuket/",
+  "category": "Townhouse",
+  "propertyType": "townhouse",
+  "developer": "Asset Pearl Co., Ltd",
+  "location": "Phuket Town",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": null,
+  "sources": [
+   {
+    "label": "Lazudi developer page Asset Pearl",
+    "url": "https://lazudi.com/th-en/property-developers/asset-pearl-co-ltd-1899"
+   }
+  ]
+ },
+ {
+  "id": "casa-de-monte",
+  "name": "Casa De Monte",
+  "url": "/projects/casa-de-monte/",
+  "category": "Villa",
+  "propertyType": "Villas",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Ko Kaeo",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
+  "imageCount": 8,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "clover-residence",
+  "name": "Clover Residence",
+  "url": "/projects/clover-residence/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "GOOD TEAM 888 Co., Ltd.",
+  "location": "Si Sunthon",
+  "startingPrice": 27900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   4,
+   6
+  ],
+  "builtUpArea": [
+   343,
+   470
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "FazWaz Clover Residence",
+    "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence?eq=rent"
+   }
+  ]
+ },
+ {
+  "id": "coralina-kamala",
+  "name": "Coralina Kamala",
+  "url": "/projects/coralina-kamala/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kamala",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   26,
+   128
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "fizz",
+  "name": "The Title Fizz",
+  "url": "/projects/fizz/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kata",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/fizz/the-fizz-banner-d.jpg",
+  "imageCount": 1,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "goldena-city-gems-villas",
+  "name": "Goldena City Gems Villas",
+  "url": "/projects/goldena-city-gems-villas/",
+  "category": "Villa",
+  "propertyType": "Duplex villa",
+  "developer": null,
+  "location": "Kamala",
+  "startingPrice": 12900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   150,
+   150
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/goldena-city-gems-villas/photo-2.jpg",
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "PropertyScout listing 2899131",
+    "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899131/"
+   },
+   {
+    "label": "PropertyScout listing 2899116",
+    "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899116/"
+   },
+   {
+    "label": "Aster of Asia project page",
+    "url": "https://asterofasia.com/property/thailand/phuket/city-gems-villas"
+   }
+  ]
+ },
+ {
+  "id": "goldena-twin",
+  "name": "Goldena Twin",
+  "url": "/projects/goldena-twin/",
+  "category": "Villa",
+  "propertyType": "Duplex villa",
+  "developer": null,
+  "location": "Kamala",
+  "startingPrice": 10900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   150,
+   153
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "FazWaz project page (co.th)",
+    "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/kathu/kamala/goldena-twin"
+   },
+   {
+    "label": "Thailand-Property project page",
+    "url": "https://thailand-property.com/house/28167/goldena-twin"
+   },
+   {
+    "label": "FazWaz 3BR listing",
+    "url": "https://www.fazwaz.com/property-sales/3-bedroom-villa-for-sale-at-goldena-twin-in-kamala-phuket-u6598336"
+   }
+  ]
+ },
+ {
+  "id": "kahli-terraces",
+  "name": "Kahli Terraces",
+  "url": "/projects/kahli-terraces/",
+  "category": "Townhouse",
+  "propertyType": "townhouse / terrace house",
+  "developer": null,
+  "location": "Thalang",
+  "startingPrice": 11970000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   2
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   219,
+   219
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/48614/kahli-terraces"
+   },
+   {
+    "label": "Lazudi (snippets)",
+    "url": "https://lip.lazudi.com/phuket/project/kahli-terraces-15982"
+   }
+  ]
+ },
+ {
+  "id": "laguna-park-2",
+  "name": "Laguna Park 2",
+  "url": "/projects/laguna-park-2/",
+  "category": "Townhouse",
+  "propertyType": "townhouses and villas",
+  "developer": "Laguna Property",
+  "location": "Laguna",
+  "startingPrice": 20800000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   5
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   318,
+   550
+  ],
+  "status": "Completed",
+  "completionDate": "2023",
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property (listing provided by Laguna Property)",
+    "url": "https://thailand-property.com/townhouse/13759/laguna-park-2"
+   }
+  ]
+ },
+ {
+  "id": "lakelands-waterfront-villas",
+  "name": "Lakelands Waterfront Villas",
+  "url": "/projects/lakelands-waterfront-villas/",
+  "category": "Villa",
+  "propertyType": "waterfront pool villa",
+  "developer": null,
+  "location": "Laguna",
+  "startingPrice": 72100000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   556,
+   558
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/banyan-group-residences/laguna-lakelands-waterfront-villas"
+   },
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/25460/laguna-lakelands-waterfront-villas"
+   }
+  ]
+ },
+ {
+  "id": "manor",
+  "name": "Manor",
+  "url": "/projects/manor/",
+  "category": "Villa",
+  "propertyType": "single-storey pool villa",
+  "developer": null,
+  "location": "Bang Tao",
+  "startingPrice": 17200000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   345,
+   359
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson",
+    "url": "https://kellerhenson.com/project/manor-phuket"
+   },
+   {
+    "label": "Papaya Property (JM Group)",
+    "url": "https://papayaproperty.com/jm-group/manor-villas-phuket"
+   },
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/26269/manor-phuket"
+   }
+  ]
+ },
+ {
+  "id": "mono-champaca",
+  "name": "MONO Champaca",
+  "url": "/projects/mono-champaca/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "The Attitude Club Co., Ltd.",
+  "location": "Thalang",
+  "startingPrice": 17800000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   236.7,
+   425.2
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/mono-champaca/photo-4.jpg",
+  "imageCount": 4,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "FazWaz Mono Champaca",
+    "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/thalang/thep-krasattri/mono-champaca"
+   },
+   {
+    "label": "Keller Henson Mono Champaca",
+    "url": "https://kellerhenson.com/project/mono-champaca"
+   }
+  ]
+ },
+ {
+  "id": "mono-oxygen-bangtao-beach",
+  "name": "Mono Oxygen Bangtao Beach",
+  "url": "/projects/mono-oxygen-bangtao-beach/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": null,
+  "location": "Bang Tao",
+  "startingPrice": 22989000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   281.7,
+   281.7
+  ],
+  "status": "Completed",
+  "completionDate": "Listed as January 2024 / completed 2024",
+  "cover": "/assets/images/projects/mono-oxygen-bangtao-beach/photo-9.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/22773/mono-oxygen-bangtao-beach"
+   }
+  ]
+ },
+ {
+  "id": "mori",
+  "name": "Mori",
+  "url": "/projects/mori/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": null,
+  "location": "Bang Jo",
+  "startingPrice": 13048000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   229,
+   260.28
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/mori/photo-3.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property Mori",
+    "url": "https://papayaproperty.com/en/jm-group/mori"
+   },
+   {
+    "label": "Keller Henson Mori 2 The Valley unit",
+    "url": "https://kellerhenson.com/unit/mori-2-the-valley-3br-pool-villa-type-a-plot-a2"
+   }
+  ]
+ },
+ {
+  "id": "mouana-serenity-cherng-talay",
+  "name": "Mouana Serenity Cherng Talay",
+  "url": "/projects/mouana-serenity-cherng-talay/",
+  "category": "Villa",
+  "propertyType": "single-storey pool villa",
+  "developer": null,
+  "location": "Cherng Talay",
+  "startingPrice": 26700000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   360,
+   413
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/mouana-serenity-cherng-talay/photo-1.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson (agent)",
+    "url": "https://kellerhenson.com/project/mouana-serenity-cherng-talay"
+   }
+  ]
+ },
+ {
+  "id": "mount-mono",
+  "name": "Mount Mono",
+  "url": "/projects/mount-mono/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "The Attitude Club Co., Ltd.",
+  "location": "Si Sunthon",
+  "startingPrice": 36900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   460.2,
+   476.9
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/mount-mono/photo-6.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson (agent) Mount Mono",
+    "url": "https://kellerhenson.com/project/mount-mono"
+   }
+  ]
+ },
+ {
+  "id": "naturale-cherng-talay",
+  "name": "Naturale Cherng Talay",
+  "url": "/projects/naturale-cherng-talay/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "AAG Development Co., Ltd.",
+  "location": "Cherng Talay",
+  "startingPrice": 34371200,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   357.4,
+   511.2
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson",
+    "url": "https://kellerhenson.com/project/naturale-cherng-talay"
+   },
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/aag-development/naturale-phuket-cherng-talay"
+   },
+   {
+    "label": "Phuket Prime (address)",
+    "url": "https://phuketprime.com/?p=25570"
+   }
+  ]
+ },
+ {
+  "id": "pavara-vhana-collection",
+  "name": "Pavara Vhana Collection",
+  "url": "/projects/pavara-vhana-collection/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Pavara Development Co., Ltd",
+  "location": "Layan",
+  "startingPrice": 110000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   4,
+   8
+  ],
+  "builtUpArea": [
+   812.79,
+   1717.65
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson project page (agent)",
+    "url": "https://kellerhenson.com/project/pavara-vhana-collection"
+   }
+  ]
+ },
+ {
+  "id": "redwood-lakeside",
+  "name": "Redwood Lakeside",
+  "url": "/projects/redwood-lakeside/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Redwood Luxury",
+  "location": "Bang Tao",
+  "startingPrice": 37400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   175,
+   272
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
+  "imageCount": 4,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/redwood-luxury/redwood-lakeside"
+   }
+  ]
+ },
+ {
+  "id": "sinara-pool-villas",
+  "name": "Sinara Pool Villas",
+  "url": "/projects/sinara-pool-villas/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": null,
+  "location": "Thalang",
+  "startingPrice": 26900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   478.8,
+   479.6
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson project page (agent)",
+    "url": "https://kellerhenson.com/project/sinara-pool-villas"
+   }
+  ]
+ },
+ {
+  "id": "sri-panwa-lagoon",
+  "name": "Sri Panwa Lagoon",
+  "url": "/projects/sri-panwa-lagoon/",
+  "category": "Villa",
+  "propertyType": "pool villa and Multi-Flex house",
+  "developer": "Charn Issara",
+  "location": "Bang Tao",
+  "startingPrice": 41000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   6
+  ],
+  "bathrooms": [
+   3,
+   7
+  ],
+  "builtUpArea": [
+   307,
+   857
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson project page (agent)",
+    "url": "https://kellerhenson.com/project/sri-panwa-lagoon"
+   }
+  ]
+ },
+ {
+  "id": "sunny-moon-village",
+  "name": "Sunny Moon Village",
+  "url": "/projects/sunny-moon-village/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Sunny Development Group",
+  "location": "Nai Harn",
+  "startingPrice": 12243000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   4
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   149,
+   215
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/sunny-moon-village/photo-1.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/sunny-development-group/sunny-moon-village"
+   },
+   {
+    "label": "PropertyScout (conflicting completion/tenure)",
+    "url": "https://propertyscout.co.th/en/2-br-villa-sunny-moon-village-rawai-3243273/"
+   }
+  ]
+ },
+ {
+  "id": "sunrise-valley",
+  "name": "Sunrise Valley",
+  "url": "/projects/sunrise-valley/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": null,
+  "location": "Cherng Talay",
+  "startingPrice": 13990000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   4
+  ],
+  "bathrooms": [
+   2,
+   3
+  ],
+  "builtUpArea": [
+   152,
+   226
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Papaya Property",
+    "url": "https://papayaproperty.com/skhai-development-co-ltd/sunrise-valley-phuket"
+   },
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/25971/sunrise-valley"
+   },
+   {
+    "label": "Hipflat (403 on fetch, snippet only)",
+    "url": "https://www.hipflat.co.th/en/projects/sunrise-valley-9e32thua13e3u8a3nll3lt41hne2812e"
+   }
+  ]
+ },
+ {
+  "id": "the-balcony",
+  "name": "The Balcony",
+  "url": "/projects/the-balcony/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   33,
+   139
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-balcony/g1.jpg",
+  "imageCount": 1,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-harmony-by-wallaya-villas",
+  "name": "The Harmony by Wallaya Villas",
+  "url": "/projects/the-harmony-by-wallaya-villas/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Wallaya Villas",
+  "location": "Thalang",
+  "startingPrice": 23900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   3,
+   5
+  ],
+  "builtUpArea": [
+   271,
+   897
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
+  "imageCount": 11,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson (agent)",
+    "url": "https://kellerhenson.com/project/the-harmony-by-wallaya-villas"
+   }
+  ]
+ },
+ {
+  "id": "the-katabello",
+  "name": "The Katabello",
+  "url": "/projects/the-katabello/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kata",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-katabello/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-kuartz",
+  "name": "The Kuartz",
+  "url": "/projects/the-kuartz/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Karon",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-kuartz/g1.jpg",
+  "imageCount": 4,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-manour",
+  "name": "The Manour",
+  "url": "/projects/the-manour/",
+  "category": "Villa",
+  "propertyType": "villa",
+  "developer": null,
+  "location": "Si Sunthon",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   262,
+   262
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": null,
+  "sources": [
+   {
+    "label": "Hipflat project (403; summary only)",
+    "url": "https://www.hipflat.co.th/en/projects/-0282t44u1nl3t114lua7a17et380hec3"
+   }
+  ]
+ },
+ {
+  "id": "the-modeva",
+  "name": "The Modeva",
+  "url": "/projects/the-modeva/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   29,
+   148
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-modeva/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-olive",
+  "name": "The Olive",
+  "url": "/projects/the-olive/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-olive/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-passion-residence-lagoon",
+  "name": "The Passion Residence Lagoon",
+  "url": "/projects/the-passion-residence-lagoon/",
+  "category": "Townhouse",
+  "propertyType": "townhouse",
+  "developer": null,
+  "location": "Phuket",
+  "startingPrice": 4700000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property",
+    "url": "https://thailand-property.com/townhouse/27333/the-passion-residence-lagoon"
+   },
+   {
+    "label": "FazWaz (403; snippets)",
+    "url": "https://fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
+   },
+   {
+    "label": "Hipflat (snippets)",
+    "url": "https://www.hipflat.com/projects/the-passion-residence-lagoon-n41utc3a1e0tcun0cc992t9e1e932hna"
+   }
+  ]
+ },
+ {
+  "id": "the-title-cielo-rawai",
+  "name": "The Title Cielo Rawai",
+  "url": "/projects/the-title-cielo-rawai/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Rawai",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   41,
+   41
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
+  "imageCount": 9,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-halo-1",
+  "name": "The Title Halo 1",
+  "url": "/projects/the-title-halo-1/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   36,
+   64
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-halo-1/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-heritage-bang-tao",
+  "name": "The Title Heritage Bang Tao",
+  "url": "/projects/the-title-heritage-bang-tao/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   32,
+   174
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-legendary-bang-tao",
+  "name": "The Title Legendary Bang Tao",
+  "url": "/projects/the-title-legendary-bang-tao/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   31,
+   94
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-legendary-bang-tao/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-serenity-naiyang",
+  "name": "The Title Serenity Naiyang",
+  "url": "/projects/the-title-serenity-naiyang/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Naiyang",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   31,
+   94
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-sierra",
+  "name": "The Title Sierra",
+  "url": "/projects/the-title-sierra/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Bang Tao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   28.26,
+   56.2
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-sierra/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "the-title-vivana",
+  "name": "The Title Vivana",
+  "url": "/projects/the-title-vivana/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kamala",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   30,
+   128.5
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": []
+ },
+ {
+  "id": "villa-kirara",
+  "name": "The Title Villa Kirara",
+  "url": "/projects/villa-kirara/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Rhom Bho Property PLC",
+  "location": "Cherng Talay",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/villa-kirara/g1.jpg",
+  "imageCount": 6,
+  "lastVerified": null,
+  "sources": [
+   {
+    "label": "Official Villa Kirara page",
+    "url": "https://thetitleresidence.com/villa/villa-kirara/"
+   }
+  ]
+ },
+ {
+  "id": "villa-sumalee",
+  "name": "Villa Sumalee",
+  "url": "/projects/villa-sumalee/",
+  "category": "Townhouse",
+  "propertyType": "2-storey townhouse with communal pool",
+  "developer": null,
+  "location": "Rawai",
+  "startingPrice": 8949999,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   2
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   144,
+   144
+  ],
+  "status": "Completed",
+  "completionDate": "2017",
+  "imageCount": 1,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Thailand-Property",
+    "url": "https://www.thailand-property.com/house/22527/villa-sumalee"
+   }
+  ]
+ },
+ {
+  "id": "zenithy-la-ville",
+  "name": "Zenithy La Ville",
+  "url": "/projects/zenithy-la-ville/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Zenithy Development",
+  "location": "Koh Kaew",
+  "startingPrice": 20900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   342,
+   357.4
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
+  "imageCount": 8,
+  "lastVerified": "2026-11-12",
+  "sources": [
+   {
+    "label": "Keller Henson project page (agent)",
+    "url": "https://kellerhenson.com/project/zenithy-la-ville"
+   }
+  ]
+ }
+]

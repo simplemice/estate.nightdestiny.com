@@ -1,0 +1,91 @@
+{
+  "name": "Lakelands Waterfront Villas",
+  "category": "Villa",
+  "projectType": "waterfront pool villa",
+  "location": "Laguna",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Laguna, Phuket",
+  "shortDescription": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate.",
+  "description": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate. The project is described as 14 exclusive units, with lagoon and hill views and access to the estate's trails and private beach club.",
+  "startingPrice": 72100000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 556,
+  "builtUpMax": 558,
+  "landMin": 700,
+  "landMax": 700,
+  "totalUnits": 14,
+  "parking": "Parking listed",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Hillside, Orchard, Forest and Lakeside precincts",
+    "15 km trail network",
+    "Private beachfront club",
+    "Hillside adventure park",
+    "Sports and aquatic complex",
+    "Town center",
+    "24-hour concierge",
+    "Security",
+    "Car park"
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "4BR Waterfront Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "556",
+      "landSqm": "700",
+      "price": 72100000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-2.jpg",
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-3.jpg",
+    "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-4.jpg",
+    "/assets/images/projects/lakelands-waterfront-villas/photo-1.jpg",
+    "/assets/images/projects/lakelands-waterfront-villas/photo-2.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/laguna-lakelands-waterfront-villas/plan-5.jpg",
+    "/assets/images/floorplans/laguna-lakelands-waterfront-villas/plan-6.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/banyan-group-residences/laguna-lakelands-waterfront-villas"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/25460/laguna-lakelands-waterfront-villas"
+    }
+  ],
+  "researchNotes": "Gallery captions unknown (images may be renders). Official Banyan Group Residences page not fetched. Ownership leasehold per one Papaya page; another Papaya page reportedly says freehold. | Differs strongly from claimed 54.8M. Papaya: 4BR 556 sqm at 72,100,000. Lazudi snippet: 4BR 558 sqm 60,600,000. Thailand-Property/FazWaz range 8.1M-67.8M (likely erroneous low end). 54.8M not found. | claimed price 54800000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg",
+  "imageCaptions": [
+    "Gallery",
+    "Gallery",
+    "Gallery",
+    "Waterfront Villas gallery 5",
+    "Waterfront Villas gallery 6"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

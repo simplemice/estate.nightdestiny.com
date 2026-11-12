@@ -1,0 +1,141 @@
+{
+  "name": "Mount Mono",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Si Sunthon, Phuket",
+  "developer": "The Attitude Club Co., Ltd.",
+  "shortDescription": "A boutique collection of eight single-storey four-bedroom pool villas in Thalang, northern Phuket, developed by The Attitude Club.",
+  "description": "A boutique collection of eight single-storey four-bedroom pool villas in Thalang, northern Phuket, developed by The Attitude Club. Each villa has its own saltwater pool, smart-home features and ensuite bedrooms, with about 460-477 sqm of built area. Non-Thai buyers acquire via a 30-year renewable lease, per the agent.",
+  "startingPrice": 36900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 460.2,
+  "builtUpMax": 476.9,
+  "totalUnits": 8,
+  "floors": "1",
+  "parking": "Covered residents' parking",
+  "reservationFee": "200,000 THB",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Booking fee 200,000 THB",
+    "25% down payment",
+    "75% in installments tied to construction progress, balance at completion"
+  ],
+  "facilities": [
+    "Private saltwater pool with lounge and sun deck per villa",
+    "24/7 security and monitoring",
+    "Covered parking",
+    "Landscaped gardens",
+    "Smart home system",
+    "Fully equipped built-in kitchen",
+    "Ensuite bathrooms",
+    "Digital door lock"
+  ],
+  "nearby": [
+    {
+      "place": "Bangtao Beach",
+      "distance": "15 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "12 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Porto De Phuket",
+      "distance": "12 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Robinson Lifestyle",
+      "distance": "14 min",
+      "mode": "driving"
+    },
+    {
+      "place": "British International School",
+      "distance": "20 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket Airport",
+      "distance": "40 min",
+      "mode": "driving"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "0.7 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Robinson Lifestyle Thalang",
+      "distance": "2.6 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Finnway International School",
+      "distance": "5.1 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Songklanagarind Hospital",
+      "distance": "5.7 km",
+      "mode": "straight-line"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "4BR Pool Villa Type A",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "460.2",
+      "price": 36900000
+    },
+    {
+      "name": "4BR Pool Villa Large Plot",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "476.9",
+      "price": 44900000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mount-mono/photo-1.jpg",
+    "/assets/images/projects/mount-mono/photo-2.jpg",
+    "/assets/images/projects/mount-mono/photo-4.jpg",
+    "/assets/images/projects/mount-mono/photo-3.jpg",
+    "/assets/images/projects/mount-mono/photo-5.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson (agent) Mount Mono",
+      "url": "https://kellerhenson.com/project/mount-mono"
+    }
+  ],
+  "researchNotes": "Captions inferred from filenames; render vs photo unknown. Sources conflict on completion, bathrooms (4 vs 5), area name, ownership. Land plot sizes 649-991 sqm appear only in a search snippet (not verified on a fetched page). Official developer site not found. | Matches claim per Keller Henson (authorized agent): 4BR Type A 36.9M, Large Plot 44.9M. Another listing showed a 3BR at 33.5M, so unit mix/prices vary by source. | claimed price 36900000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/mount-mono/photo-6.jpg",
+  "imageCaptions": [
+    "Pool",
+    "Pool",
+    "Living",
+    "Master bedroom",
+    "Bedroom 3"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

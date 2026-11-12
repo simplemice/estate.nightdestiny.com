@@ -1,0 +1,56 @@
+{
+  "title": "Sri Panwa Lagoon",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/sri-panwa-lagoon.json",
+  "propertyType": "Villa",
+  "location": "Bang Tao",
+  "address": "Bang Tao, Phuket",
+  "currency": "THB",
+  "shortDescription": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells.",
+  "description": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells. Architecture is by Habita Architects with interiors by Studio Chemistri, and the project is limited to 28 homes.",
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Fitness center",
+    "Landscaped gardens",
+    "Swimming pool",
+    "Rooftop terrace",
+    "Multi-purpose clubhouse",
+    "Baba Lake Club (fitness, lap pools, hydrotherapy, lounges)",
+    "Food and beverage complex"
+  ],
+  "nearby": [
+    {
+      "place": "Greenhouse Kindergarten Phuket",
+      "distance": "1.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wattanapat Phuket Hospital",
+      "distance": "4.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (City Campus)",
+      "distance": "11.4 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sri-panwa-lagoon/photo-2.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-4.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-5.jpg",
+    "/assets/images/projects/sri-panwa-lagoon/photo-3.jpg"
+  ],
+  "availability": "Available",
+  "price": 41000000,
+  "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg"
+}

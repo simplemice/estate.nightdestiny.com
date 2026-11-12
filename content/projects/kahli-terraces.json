@@ -1,0 +1,97 @@
+{
+  "name": "Kahli Terraces",
+  "category": "Townhouse",
+  "projectType": "townhouse / terrace house",
+  "location": "Thalang",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Si Sunthon, Thalang, Phuket",
+  "shortDescription": "Kahli Terraces is an off-plan terrace-house project in the Si Sunthon area of Thalang, sitting next to Kahli Hillside Villas and a short drive from Bang Tao.",
+  "description": "Kahli Terraces is an off-plan terrace-house project in the Si Sunthon area of Thalang, sitting next to Kahli Hillside Villas and a short drive from Bang Tao. Listed units are around 219 sqm with two bedrooms, with handover expected in 2027.",
+  "startingPrice": 11970000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 2,
+  "bedroomsMax": 2,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 219,
+  "builtUpMax": 219,
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Gym",
+    "24-hour security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Layan beach / national park",
+      "distance": "6 km north",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Surin Beach",
+      "distance": "7 km south",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Cherngtalay centre",
+      "distance": "3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "18 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Townhouse (portal listing)",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "219"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/kahli-terraces/photo-10.jpg",
+    "/assets/images/projects/kahli-terraces/photo-11.jpg",
+    "/assets/images/projects/kahli-terraces/photo-15.jpg",
+    "/assets/images/projects/kahli-terraces/photo-12.jpg",
+    "/assets/images/projects/kahli-terraces/photo-13.jpg",
+    "/assets/images/projects/kahli-terraces/photo-14.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/kahli-terraces/plan-16.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/48614/kahli-terraces"
+    },
+    {
+      "label": "Lazudi (snippets)",
+      "url": "https://lip.lazudi.com/phuket/project/kahli-terraces-15982"
+    }
+  ],
+  "researchNotes": "Total units conflicting (1 for sale; snippet says 8 units over 3 floors). Official developer site not found. Fetched image URL is a resized portal thumbnail. | Thailand-Property shows from THB 11,970,000 for the 1 unit for sale. Search snippets show other portals at 15.9M-18.4M (219 sqm, 2 bed, 3 bath listing) and FazWaz 12M-13.8M. Claimed 15.91M matches a resale/agent listing, not the project minimum. Unverified. | claimed price from 15,910,000 THB",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg",
+  "imageCaptions": [
+    "Front view at night",
+    "Back view",
+    "Third floor terrace",
+    "Ground floor living area",
+    "Kitchen and dining",
+    "Master bedroom"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

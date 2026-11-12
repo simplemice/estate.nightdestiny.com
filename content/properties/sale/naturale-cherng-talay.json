@@ -1,0 +1,64 @@
+{
+  "title": "Naturale Cherng Talay",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/naturale-cherng-talay.json",
+  "propertyType": "Villa",
+  "location": "Cherng Talay",
+  "address": "Cherng Talay, Phuket",
+  "currency": "THB",
+  "shortDescription": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development.",
+  "description": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development. Villas come in 3 and 4 bedroom layouts of roughly 357 to 511 sqm built-up on plots of 423 to 693 sqm. The 4BR plan has two master suites and a 4.5 m living-room ceiling.",
+  "facilities": [
+    "24/7 security and monitoring",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Private saltwater swimming pool",
+    "Jacuzzi",
+    "Sun lounges"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "~7 minutes",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (Cherngtalay)",
+      "distance": "1.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wattanapat Phuket Hospital",
+      "distance": "4.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "1.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "~30 minutes",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/naturale-cherng-talay/photo-5.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-2.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-3.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-4.jpg",
+    "/assets/images/projects/naturale-cherng-talay/photo-6.jpg"
+  ],
+  "availability": "Available",
+  "price": 34371200,
+  "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg"
+}

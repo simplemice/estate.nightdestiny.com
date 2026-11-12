@@ -1,0 +1,147 @@
+{
+  "name": "Manor",
+  "category": "Villa",
+  "projectType": "single-storey pool villa",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Bang Tao, Phuket",
+  "shortDescription": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori.",
+  "description": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori. Ownership for foreigners is by 30-year leasehold, renewable.",
+  "startingPrice": 17200000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 5,
+  "builtUpMin": 345,
+  "builtUpMax": 359,
+  "landMin": 472,
+  "landMax": 1969,
+  "floors": "1",
+  "parking": "Covered resident parking",
+  "reservationFee": "THB 200,000",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Status on request",
+  "paymentPlan": [
+    "65% in installments per construction progress"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Swimming pool",
+    "Shuttle service (Papaya)"
+  ],
+  "nearby": [
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "3.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Robinson Lifestyle Thalang",
+      "distance": "3.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Bangtao Beach and Porto de Phuket",
+      "distance": "about 12 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket Town",
+      "distance": "about 20 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "345.02",
+      "landSqm": "472",
+      "price": 27800000
+    },
+    {
+      "name": "4BR Pool Villa (Luxe Zone)",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "359.08",
+      "price": 28900000
+    },
+    {
+      "name": "4BR Pool Villa Large Plot (Luxe)",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "359.08",
+      "price": 29400000
+    },
+    {
+      "name": "Manor Mori Phase 5 3BR",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "229",
+      "price": 17200000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/manor-phuket/photo-2.jpg",
+    "/assets/images/projects/manor-phuket/photo-3.jpg",
+    "/assets/images/projects/manor-phuket/photo-4.jpg",
+    "/assets/images/projects/manor/photo-1.jpg",
+    "/assets/images/projects/manor/photo-2.jpg",
+    "/assets/images/projects/manor/photo-3.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/manor-phuket/plan-5.jpg",
+    "/assets/images/floorplans/manor-phuket/plan-6.jpg",
+    "/assets/images/floorplans/manor-phuket/plan-7.jpg",
+    "/assets/images/floorplans/manor/plan-4.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/manor-phuket"
+    },
+    {
+      "label": "Papaya Property (JM Group)",
+      "url": "https://papayaproperty.com/jm-group/manor-villas-phuket"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/26269/manor-phuket"
+    }
+  ],
+  "researchNotes": "Location is Si Sunthon, not Bang Tao proper (portals say ~12 min to Bang Tao). Data inconsistent between portals (built-up 345-359 vs 456-487, developer name). Official site not found. May overlap with item 19 only by name similarity; item 19 'The Manour' is a different, separate project. | Differs from claimed 28.5M: Keller Henson range 17.2M (Manor Mori Phase 5 3BR) to 51.8M; main Manor 3BR 27.8M, 4BR Luxe 28.9M; Papaya from 23,933,000 for 3BR. Thailand-Property from 23.0M. 28.5M not seen exactly. | claimed price 28500000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
+  "imageCaptions": [
+    "Exterior",
+    "Exterior",
+    "Interior",
+    "Brochure page 14 (unverified content; may include text)",
+    "Brochure page 15",
+    "Brochure page 16"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson and Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

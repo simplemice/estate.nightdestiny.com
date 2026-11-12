@@ -1,0 +1,138 @@
+{
+  "name": "Sinara Pool Villas",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Thalang",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Thalang, Phuket",
+  "shortDescription": "A six-villa low-density pool villa development of about 3,500 sqm in Khao Phra Thaeo, with large plots, floor-to-ceiling glazing and a greenery and stream setting.",
+  "description": "A six-villa low-density pool villa development of about 3,500 sqm in Khao Phra Thaeo, with large plots, floor-to-ceiling glazing and a greenery and stream setting. Villas come as 3BR or 4BR, each with a private pool and two parking spaces.",
+  "startingPrice": 26900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 478.8,
+  "builtUpMax": 479.6,
+  "landMin": 464,
+  "landMax": 674,
+  "totalUnits": 6,
+  "floors": "2",
+  "furniture": "Fully fitted kitchens, built-in furniture, custom wardrobes",
+  "parking": "Covered parking, 2 cars per villa",
+  "reservationFee": "THB 200,000",
+  "commonAreaFee": "THB 22 per sqm",
+  "sinkingFund": "THB 250 per sqm",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Reservation 2%",
+    "Contract signing within 30 days 33%",
+    "Structure 15%",
+    "External walls and partitions 20%",
+    "Doors and windows 20%",
+    "Completion and transfer 10%"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Swimming pool with poolside",
+    "Private 4x9 m pool per villa",
+    "EV charger readiness",
+    "Water filtration"
+  ],
+  "nearby": [
+    {
+      "place": "UWC Thailand Phuket",
+      "distance": "0.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bumrungrad Hospital Phuket",
+      "distance": "7.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "7.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach and Layan Beach",
+      "distance": "about 27 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 24 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A 3BR",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "479.6",
+      "landSqm": "480",
+      "price": 26900000
+    },
+    {
+      "name": "Type B 4BR",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "478.8",
+      "price": 28900000
+    },
+    {
+      "name": "Type B 4BR large plot",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "478.8",
+      "price": 29900000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sinara-pool-villas/photo-2.jpg",
+    "/assets/images/projects/sinara-pool-villas/photo-3.jpg",
+    "/assets/images/projects/sinara-pool-villas/photo-4.jpg",
+    "/assets/images/projects/sinara-pool-villas/photo-5.jpg",
+    "/assets/images/projects/sinara-pool-villas/photo-6.jpg",
+    "/assets/images/projects/sinara-pool-villas/photo-7.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson project page (agent)",
+      "url": "https://kellerhenson.com/project/sinara-pool-villas"
+    }
+  ],
+  "researchNotes": "Official site not found. Images likely renders (not stated). Keller Henson quotes rental ROI 7.4-7.7% (promotional, omitted). Payment plan conflicts within page. Brochure PDF not read - could provide more detail. | Keller Henson range THB 26.9M-29.9M (Type A 3BR 26.9M), matches claim. | claimed price 26900000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
+  "imageCaptions": [
+    "Exterior",
+    "Exterior",
+    "Exterior",
+    "Interior",
+    "Interior",
+    "Interior"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

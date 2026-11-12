@@ -1,0 +1,154 @@
+{
+  "name": "Zenithy La Ville",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Koh Kaew",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Koh Kaew, Phuket",
+  "developer": "Zenithy Development",
+  "shortDescription": "A gated boutique community of 22 two-storey pool villas in Koh Kaew, aimed at families and long-term investors who want schools and marinas close by.",
+  "description": "A gated boutique community of 22 two-storey pool villas in Koh Kaew, aimed at families and long-term investors who want schools and marinas close by. Each villa has three en-suite bedrooms, a mezzanine and a private pool with Jacuzzi, and the site is not within walking distance of a beach.",
+  "startingPrice": 20900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 342,
+  "builtUpMax": 357.4,
+  "landMin": 259,
+  "landMax": 472.35,
+  "totalUnits": 22,
+  "floors": "2",
+  "parking": "Double carport",
+  "reservationFee": "THB 388,000",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Reservation 2%",
+    "SPA signing 28% within 30 days",
+    "Main structure 20%",
+    "Roof and walls 20%",
+    "Windows and doors 20%",
+    "Completion and transfer 10%"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Swimming pool with poolside",
+    "Private pool with Jacuzzi per villa",
+    "Automatic gate with video intercom",
+    "Landscaping and pool maintenance services"
+  ],
+  "nearby": [
+    {
+      "place": "British International School Phuket",
+      "distance": "1.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Finnway International School",
+      "distance": "3.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Lagoon Marina",
+      "distance": "4.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Royal Phuket Marina",
+      "distance": "4.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Songklanagarind Hospital",
+      "distance": "5.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Mission Hospital Phuket",
+      "distance": "6.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Siriroj",
+      "distance": "7.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "10.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Central Phuket Floresta",
+      "distance": "11.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "13.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "22.4 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A 3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "357.4",
+      "price": 26900000
+    },
+    {
+      "name": "Type B 3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "351.61",
+      "price": 20900000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/zenithy-la-ville/photo-1.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-2.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-3.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-5.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-6.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-7.jpg",
+    "/assets/images/projects/zenithy-la-ville/photo-8.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson project page (agent)",
+      "url": "https://kellerhenson.com/project/zenithy-la-ville"
+    }
+  ],
+  "researchNotes": "Official site not found. Images likely renders (not stated). Page has inconsistencies (completion vs 12-month build, price/sqm). | Keller Henson header range THB 20.9M-40.3M (Type B 20.9M), while its pricing section/FAQ says 19.4M-41.3M. Claim of 19.9M not matched on any page. | claimed price 19900000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
+  "imageCaptions": [
+    "Pool exterior",
+    "Pool exterior",
+    "Pool exterior",
+    "Living area",
+    "Living area",
+    "Living area",
+    "Living area"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Keller Henson. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

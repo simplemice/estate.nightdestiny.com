@@ -1,0 +1,99 @@
+{
+  "name": "Sunrise Valley",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Cherng Talay, Phuket",
+  "shortDescription": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna.",
+  "description": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna. Layouts range from two-bedroom Palas to larger Grande villas, with indoor-outdoor living and design customisation during build.",
+  "startingPrice": 13990000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 2,
+  "bedroomsMax": 4,
+  "bathroomsMin": 2,
+  "bathroomsMax": 3,
+  "builtUpMin": 152,
+  "builtUpMax": 226,
+  "parking": "Parking listed",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Status on request",
+  "facilities": [
+    "Private pool",
+    "Parking",
+    "Security"
+  ],
+  "nearby": [
+    {
+      "place": "Mini Mart",
+      "distance": "700 m",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "2BR (Palas)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "152",
+      "price": 13990000
+    },
+    {
+      "name": "3BR",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "226",
+      "price": 18990000
+    },
+    {
+      "name": "Grande 4BR",
+      "bedrooms": 4
+    }
+  ],
+  "images": [
+    "/assets/images/projects/sunrise-valley/photo-2.jpg",
+    "/assets/images/projects/sunrise-valley/photo-7.jpg",
+    "/assets/images/projects/sunrise-valley/photo-3.jpg",
+    "/assets/images/projects/sunrise-valley/photo-4.jpg",
+    "/assets/images/projects/sunrise-valley/photo-8.jpg",
+    "/assets/images/projects/sunrise-valley/photo-9.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/sunrise-valley/plan-5.jpg",
+    "/assets/images/floorplans/sunrise-valley/plan-6.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/skhai-development-co-ltd/sunrise-valley-phuket"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/25971/sunrise-valley"
+    },
+    {
+      "label": "Hipflat (403 on fetch, snippet only)",
+      "url": "https://www.hipflat.co.th/en/projects/sunrise-valley-9e32thua13e3u8a3nll3lt41hne2812e"
+    }
+  ],
+  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
+  "imageCaptions": [
+    "Palas exterior",
+    "Palas entrance",
+    "Palas living",
+    "Palas bedroom",
+    "Lobby",
+    "Project entrance"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

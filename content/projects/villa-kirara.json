@@ -1,11 +1,11 @@
 {
   "name": "The Title Villa Kirara",
-  "developer": "Rhom Bho Property PLC (The Title)",
-  "location": "Cherngtalay",
+  "developer": "Rhom Bho Property PLC",
+  "location": "Cherng Talay",
   "address": "Cherngtalay, Phuket",
-  "projectType": "Villas",
-  "shortDescription": "Pool villa community in Cherngtalay blending into nature.",
-  "description": "Villa community in Cherngtalay designed to blend into nature, with five house types: Aura, Selene, Lyra, Myrrah and Xenia. Construction was reported at about 15% in October 2026.\nPrices and availability on request via WhatsApp.",
+  "projectType": "pool villa",
+  "shortDescription": "Villa Kirara is a pool-villa enclave by The Title Residence, offered in five plan types (Aura, Selene, Lyra, Myrrah, Xenia) with 360-degree virtual tours.",
+  "description": "Villa Kirara is a pool-villa enclave by The Title Residence, offered in five plan types (Aura, Selene, Lyra, Myrrah, Xenia) with 360-degree virtual tours. The developer's site reports construction progress at 15.03% as of October 2026, with piling complete.",
   "currency": "THB",
   "constructionStatus": "Under construction",
   "cover": "/assets/images/projects/villa-kirara/g1.jpg",
@@ -22,27 +22,34 @@
   ],
   "unitTypes": [
     {
-      "name": "Aura",
-      "availability": "Available"
+      "name": "AURA"
     },
     {
-      "name": "Selene",
-      "availability": "Available"
+      "name": "SELENE"
     },
     {
-      "name": "Lyra",
-      "availability": "Available"
+      "name": "LYRA"
     },
     {
-      "name": "Myrrah",
-      "availability": "Available"
+      "name": "MYRRAH"
     },
     {
-      "name": "Xenia",
-      "availability": "Available"
+      "name": "XENIA"
     }
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "category": "Villa",
+  "priceStatus": "on-request",
+  "totalUnits": 37,
+  "website": "https://thetitleresidence.com/villa/villa-kirara/",
+  "googleMapsUrl": "https://maps.app.goo.gl/WhJr8shQoFF3nTek6",
+  "sources": [
+    {
+      "label": "Official Villa Kirara page",
+      "url": "https://thetitleresidence.com/villa/villa-kirara/"
+    }
+  ],
+  "researchNotes": "Official page has no price, sizes, bedrooms, facilities. Unit counts disagree (37 per Lazudi/Hipflat, 75 per one DDProperty text). Completion dates in portals conflict (2026-01-01 Lazudi vs Jun 2026 Hipflat) and contradict the official 15% progress, so completionDate left null. Portal location Si Sunthon vs client Cherng Talay. Lazudi listings seen in search: 2BR/3BA 305 sqm, 3BR/4BA 395 sqm, 4BR/6BA 646 sqm (not opened). | Official page shows no price. Portal snippets (Lazudi, Thailand-Property; search results only, pages not opened) show range from 29,020,000 THB; a DDProperty listing shows a 3BR unit at 36,100,000, so the claimed 36.1M is a specific unit price, not the minimum. Verify with sales. | claimed price 36100000"
 }

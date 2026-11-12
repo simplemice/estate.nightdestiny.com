@@ -1,0 +1,94 @@
+{
+  "name": "Redwood Lakeside",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "address": "Bang Tao, Phuket",
+  "developer": "Redwood Luxury",
+  "shortDescription": "A lakeside villa enclave by Redwood Luxury near Bang Tao, with 3 and 4 bedroom villas on plots of 400 to 902 sqm.",
+  "description": "A lakeside villa enclave by Redwood Luxury near Bang Tao, with 3 and 4 bedroom villas on plots of 400 to 902 sqm. Four villa types (Palm, Orchid, Lotus, Lily) include single-storey and two-storey designs, each with a private pool. Heavy landscaping and a shuttle to local beach and shopping hubs are part of the offer.",
+  "startingPrice": 37400000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-12",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 175,
+  "builtUpMax": 272,
+  "landMin": 400,
+  "landMax": 902,
+  "parking": "Private parking",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Community center and event spaces",
+    "Lakeside parks, lawns, walking trails",
+    "Playgrounds",
+    "Cafes and restaurant areas",
+    "Free shuttle to Bang Tao Beach, Boat Avenue, Porto de Phuket",
+    "Double-wall construction with thermal insulation",
+    "Optional hybrid solar system",
+    "Smart home integration"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 30 minutes",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Type B (Orchid)",
+      "bedrooms": 3,
+      "size": "175",
+      "price": 37400000
+    },
+    {
+      "name": "4BR Type C (Lotus)",
+      "bedrooms": 4,
+      "size": "269",
+      "price": 64400000
+    },
+    {
+      "name": "4BR Type A (Palm)",
+      "bedrooms": 4,
+      "size": "272",
+      "price": 82000000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/redwood-lakeside/photo-2.jpg",
+    "/assets/images/projects/redwood-lakeside/photo-3.jpg",
+    "/assets/images/projects/redwood-lakeside/photo-4.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/redwood-lakeside/plan-5.jpg",
+    "/assets/images/floorplans/redwood-lakeside/plan-6.jpg",
+    "/assets/images/floorplans/redwood-lakeside/plan-7.jpg",
+    "/assets/images/floorplans/redwood-lakeside/plan-8.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/redwood-luxury/redwood-lakeside"
+    }
+  ],
+  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
+  "imageCaptions": [
+    "Project",
+    "Project",
+    "Project"
+  ],
+  "imageCredit": "Marketing images (mostly artist renders) supplied via Papaya Property. Images belong to their respective owners; layouts and finishes may differ from the final product."
+}

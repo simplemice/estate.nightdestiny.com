@@ -1,0 +1,51 @@
+{
+  "title": "Clover Residence",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/clover-residence.json",
+  "propertyType": "Villa",
+  "location": "Si Sunthon",
+  "address": "Si Sunthon, Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "A gated community of 33 large villas in Si Sunthon, right beside HeadStart International School, completed in 2024 by GOOD TEAM 888.",
+  "description": "A gated community of 33 large villas in Si Sunthon, right beside HeadStart International School, completed in 2024 by GOOD TEAM 888. Three layouts with 3 to 5 bedrooms are offered, many with private pools, and listings show built areas of roughly 340-470 sqm. Later phases (The Valley Phase II, Luxe Zone Phase III) are separate nearby projects.",
+  "facilities": [
+    "24-hour security",
+    "CCTV",
+    "Car parking",
+    "Private pools in some units",
+    "Pets allowed"
+  ],
+  "nearby": [
+    {
+      "place": "HeadStart International School",
+      "distance": "20 m (1 min walk)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Villa Market Laguna",
+      "distance": "1.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Hassamon physical therapy clinic",
+      "distance": "1.7 km (about 5 min)",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "32.6-33.2 km (about 40 min)",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/clover-residence/photo-6.jpg",
+    "/assets/images/projects/clover-residence/photo-7.jpg",
+    "/assets/images/projects/clover-residence/photo-8.jpg",
+    "/assets/images/projects/clover-residence/photo-9.jpg"
+  ],
+  "availability": "Available",
+  "price": 27900000,
+  "cover": "/assets/images/projects/clover-residence/photo-5.jpg"
+}

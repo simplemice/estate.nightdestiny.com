@@ -1,0 +1,58 @@
+{
+  "title": "Kahli Terraces",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/kahli-terraces.json",
+  "propertyType": "Townhouse",
+  "location": "Thalang",
+  "address": "Si Sunthon, Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "Kahli Terraces is an off-plan terrace-house project in the Si Sunthon area of Thalang, sitting next to Kahli Hillside Villas and a short drive from Bang Tao.",
+  "description": "Kahli Terraces is an off-plan terrace-house project in the Si Sunthon area of Thalang, sitting next to Kahli Hillside Villas and a short drive from Bang Tao. Listed units are around 219 sqm with two bedrooms, with handover expected in 2027.",
+  "facilities": [
+    "Gym",
+    "24-hour security",
+    "Car park",
+    "Garden"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Layan beach / national park",
+      "distance": "6 km north",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Surin Beach",
+      "distance": "7 km south",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Cherngtalay centre",
+      "distance": "3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "18 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/kahli-terraces/photo-10.jpg",
+    "/assets/images/projects/kahli-terraces/photo-11.jpg",
+    "/assets/images/projects/kahli-terraces/photo-15.jpg",
+    "/assets/images/projects/kahli-terraces/photo-12.jpg",
+    "/assets/images/projects/kahli-terraces/photo-13.jpg",
+    "/assets/images/projects/kahli-terraces/photo-14.jpg"
+  ],
+  "availability": "Available",
+  "price": 11970000,
+  "bedrooms": 2,
+  "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg"
+}

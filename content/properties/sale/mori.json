@@ -1,0 +1,70 @@
+{
+  "title": "Mori",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/mori.json",
+  "propertyType": "Villa",
+  "location": "Bang Jo",
+  "address": "Bang Jo, Phuket",
+  "currency": "THB",
+  "shortDescription": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area.",
+  "description": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area. The 3BR plan has parking, living, dining and kitchen downstairs, with a master suite, two bedrooms and a multi-purpose room upstairs.",
+  "facilities": [
+    "Clubhouse",
+    "Fitness center",
+    "Swimming pool",
+    "Private garden",
+    "CCTV",
+    "24-hour security",
+    "Children's playground",
+    "Coworking space",
+    "Cafe",
+    "Covered parking",
+    "Restaurant",
+    "Convenience shop"
+  ],
+  "nearby": [
+    {
+      "place": "Boat Avenue Mall",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Greenhouse Kindergarten Phuket",
+      "distance": "2.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "4.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School (Cherngtalay)",
+      "distance": "3.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "about 17 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/mori/photo-4.jpg",
+    "/assets/images/projects/mori/photo-6.jpg",
+    "/assets/images/projects/mori/photo-7.jpg",
+    "/assets/images/projects/mori/photo-5.jpg"
+  ],
+  "availability": "Available",
+  "price": 13048000,
+  "bedrooms": 3,
+  "ownership": "Leasehold",
+  "cover": "/assets/images/projects/mori/photo-3.jpg"
+}
