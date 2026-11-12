@@ -83,6 +83,7 @@
       $cards.prop('hidden', true);
       $(matched.slice(from, to)).prop('hidden', false);
       renderPager(pages);
+      $('.type-tabs a').each(function () { $(this).toggleClass('active', ($(this).data('type') || '') === (type || '')); });
       $count.text(shown ? 'Showing ' + (from + 1) + '\u2013' + Math.min(to, shown) + ' of ' + shown + ' ' + (shown === 1 ? noun[0] : noun[1]) : '0 ' + noun[1]);
       $none.prop('hidden', shown !== 0 || !$cards.length);
 
@@ -100,6 +101,11 @@
       new URLSearchParams(location.search).forEach(function (v, k) { $form.find('[name="' + k + '"]').val(v); });
     } catch (e) { /* ignore */ }
 
+    $('.type-tabs a').on('click', function (e) {
+      e.preventDefault();
+      $form.find('[name=type]').val($(this).data('type') || '');
+      apply();
+    });
     $form.on('input change', function () { apply(); });
     $('#f-reset').on('click', function () { setTimeout(apply, 0); });
     $('#f-reset-2').on('click', function (e) { e.preventDefault(); $form[0].reset(); apply(); });

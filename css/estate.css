@@ -193,3 +193,8 @@ button.canvas-open,button.canvas-close{background:none;padding:0;font-family:inh
 .pagination .page-item.active .page-link{background:#946025;border-color:#946025;color:#fff}
 .pagination .page-item.disabled .page-link{color:#8a8a92}
 .pagination .page-link:hover{color:#946025}
+
+.type-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.type-tabs a{border:1px solid #d9d4cc;padding:8px 16px;color:#19191a;font-weight:600;font-size:14px}
+.type-tabs a:hover{border-color:#946025;color:#946025;text-decoration:none}
+.type-tabs a.active{background:#946025;border-color:#946025;color:#fff}

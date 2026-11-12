@@ -456,6 +456,15 @@ function filterForm(list, category) {
 </form>`;
 }
 
+function typeTabs(all) {
+  const typeOf = (p) => p.propertyType || p._saleEntry?.propertyType || (p.category === 'Villa' ? 'Villa' : p.category === 'Townhouse' ? 'Townhouse' : 'Condo');
+  const counts = {};
+  all.forEach((p) => { const t = typeOf(p); counts[t] = (counts[t] || 0) + 1; });
+  const order = ['Villa', 'Townhouse', 'Condo'].filter((t) => counts[t]).concat(Object.keys(counts).filter((t) => !['Villa', 'Townhouse', 'Condo'].includes(t)));
+  const label = { Villa: 'Villas', Townhouse: 'Townhouses', Condo: 'Condos' };
+  return `<div class="type-tabs" role="navigation" aria-label="Property type"><a href="/sale/" data-type="" class="active">All (${all.length})</a>${order.map((t) => `<a href="/sale/?type=${encodeURIComponent(t)}" data-type="${esc(t)}">${esc(label[t] || t)} (${counts[t]})</a>`).join('')}</div>`;
+}
+
 function listingPage(category, list, extra = []) {
   const rentC = category === 'rent';
   const total = list.length + extra.length;
@@ -464,6 +473,7 @@ function listingPage(category, list, extra = []) {
   const body = `${pageHead(h1, rentC ? 'Condos and villas available to rent' : 'Condos and villas available to buy', [['/', 'Home'], ['', rentC ? 'Rent' : 'Sale']])}
 	<section class="rooms-section spad estate-listing" data-listing="${category}">
 		<div class="container">
+			${category === 'sale' ? typeTabs(list.concat(extra)) : ''}
 			${filterForm(list.concat(extra), category)}
 			<p class="result-count" id="result-count" aria-live="polite">${total} ${total === 1 ? 'listing' : 'listings'}</p>
 			<div class="row" id="listing" data-page-size="6">
@@ -633,7 +643,6 @@ function projectPage(p) {
 					${p.facilities?.length ? `<h4 class="sec-h">Facilities &amp; amenities</h4>${list_(p.facilities)}` : ''}
 					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}
 					${p.googleMapsUrl ? `<p class="map-link"><a href="${esc(p.googleMapsUrl)}" target="_blank" rel="noopener">Open in Google Maps</a></p>` : ''}
-					${srcs}
 				</div>
 				<div class="col-lg-4">
 					<aside class="detail-side">
@@ -774,7 +783,7 @@ const pub = (p) => ({ slug: p.slug, url: url(p), kind: p._kind === 'project' ? '
 write('data/listings.json', JSON.stringify({ generatedFrom: 'content/', rent: rentL.map(pub), sale: saleL.map(pub), projects: projL.map(pub) }, null, 1));
 
 // full static catalogue data for the projects (public fields only)
-const pubProject = (p) => { const f = facts(p); return { id: p.slug, name: p.name, url: url(p), category: p.category, propertyType: p.projectType, developer: p.developer ?? null, location: p.location, startingPrice: f.price, currency: p.currency || 'THB', priceStatus: f.price ? (p.priceStatus || 'advertised') : 'on-request', bedrooms: [f.bedMin, f.bedMax], bathrooms: [f.bathMin, f.bathMax], builtUpArea: [f.sizeMin, f.sizeMax], status: p.constructionStatus, completionDate: p.completionDate ?? null, cover: p.cover, imageCount: 1 + p.images.length, lastVerified: p.lastVerified ?? null, sources: p.sources }; };
+const pubProject = (p) => { const f = facts(p); return { id: p.slug, name: p.name, url: url(p), category: p.category, propertyType: p.projectType, developer: p.developer ?? null, location: p.location, startingPrice: f.price, currency: p.currency || 'THB', priceStatus: f.price ? (p.priceStatus || 'advertised') : 'on-request', bedrooms: [f.bedMin, f.bedMax], bathrooms: [f.bathMin, f.bathMax], builtUpArea: [f.sizeMin, f.sizeMax], status: p.constructionStatus, completionDate: p.completionDate ?? null, cover: p.cover, imageCount: 1 + p.images.length, lastVerified: p.lastVerified ?? null }; };
 write('data/projects.json', JSON.stringify(projL.map(pubProject), null, 1));
 write('data/developers.json', JSON.stringify([...new Set(projL.map((p) => p.developer).filter(Boolean))].sort().map((d) => ({ name: d, projects: projL.filter((p) => p.developer === d).map((p) => p.slug) })), null, 1));
 write('data/locations.json', JSON.stringify([...new Set(projL.map((p) => p.location))].sort().map((l) => ({ name: l, projects: projL.filter((p) => p.location === l).map((p) => p.slug) })), null, 1));

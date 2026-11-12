@@ -26,8 +26,7 @@
   "completionDate": "2027-03",
   "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
   "imageCount": 10,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "aileen-villas-layan",
@@ -56,13 +55,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/aileen-villas-layan/photo-1.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/trinity-property-coltd/aileen-villas-layan-phase-5"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "azalea-bangtao-villas",
@@ -90,13 +83,7 @@
   "status": "Completed",
   "completionDate": null,
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/48645/azalea-bangtao-villas"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "banyan-tree-beach-residences-varuna",
@@ -125,21 +112,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Banyan Group Residences press release",
-    "url": "https://www.banyangroupresidences.com/cn/node/309"
-   },
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/laguna-property/banyan-tree-beach-residences-varuna"
-   },
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/25325/banyan-tree-beach-residences-varuna"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "biancana",
@@ -168,8 +141,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/biancana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "botanica-four-seasons",
@@ -198,21 +170,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/botanica-four-seasons/photo-1.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property project page",
-    "url": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-four-seasons"
-   },
-   {
-    "label": "Keller Henson project page",
-    "url": "https://kellerhenson.com/project/botanica-four-seasons"
-   },
-   {
-    "label": "Developer brochure PDF (not fetched, connection refused)",
-    "url": "https://api.papayaproperty.com/uploads/BROCHURE_BOTANICA_fourseasons_JAN_26_compressed_a7741f5999.pdf"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "casa-curve-phuket",
@@ -240,13 +198,7 @@
   "status": "Status on request",
   "completionDate": null,
   "imageCount": 1,
-  "lastVerified": null,
-  "sources": [
-   {
-    "label": "Lazudi developer page Asset Pearl",
-    "url": "https://lazudi.com/th-en/property-developers/asset-pearl-co-ltd-1899"
-   }
-  ]
+  "lastVerified": null
  },
  {
   "id": "casa-de-monte",
@@ -275,8 +227,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
   "imageCount": 8,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "clover-residence",
@@ -305,13 +256,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "FazWaz Clover Residence",
-    "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence?eq=rent"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "coralina-kamala",
@@ -340,8 +285,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "fizz",
@@ -370,8 +314,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/fizz/the-fizz-banner-d.jpg",
   "imageCount": 1,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "goldena-city-gems-villas",
@@ -400,21 +343,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/goldena-city-gems-villas/photo-2.jpg",
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "PropertyScout listing 2899131",
-    "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899131/"
-   },
-   {
-    "label": "PropertyScout listing 2899116",
-    "url": "https://propertyscout.co.th/en/3-br-villa-goldena-city-gems-villas-close-kamala-2899116/"
-   },
-   {
-    "label": "Aster of Asia project page",
-    "url": "https://asterofasia.com/property/thailand/phuket/city-gems-villas"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "goldena-twin",
@@ -442,21 +371,7 @@
   "status": "Completed",
   "completionDate": null,
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "FazWaz project page (co.th)",
-    "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/kathu/kamala/goldena-twin"
-   },
-   {
-    "label": "Thailand-Property project page",
-    "url": "https://thailand-property.com/house/28167/goldena-twin"
-   },
-   {
-    "label": "FazWaz 3BR listing",
-    "url": "https://www.fazwaz.com/property-sales/3-bedroom-villa-for-sale-at-goldena-twin-in-kamala-phuket-u6598336"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "kahli-terraces",
@@ -485,17 +400,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/48614/kahli-terraces"
-   },
-   {
-    "label": "Lazudi (snippets)",
-    "url": "https://lip.lazudi.com/phuket/project/kahli-terraces-15982"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "laguna-park-2",
@@ -523,13 +428,7 @@
   "status": "Completed",
   "completionDate": "2023",
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property (listing provided by Laguna Property)",
-    "url": "https://thailand-property.com/townhouse/13759/laguna-park-2"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "lakelands-waterfront-villas",
@@ -558,17 +457,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/banyan-group-residences/laguna-lakelands-waterfront-villas"
-   },
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/25460/laguna-lakelands-waterfront-villas"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "manor",
@@ -597,21 +486,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson",
-    "url": "https://kellerhenson.com/project/manor-phuket"
-   },
-   {
-    "label": "Papaya Property (JM Group)",
-    "url": "https://papayaproperty.com/jm-group/manor-villas-phuket"
-   },
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/26269/manor-phuket"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "mono-champaca",
@@ -640,17 +515,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/mono-champaca/photo-4.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "FazWaz Mono Champaca",
-    "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/thalang/thep-krasattri/mono-champaca"
-   },
-   {
-    "label": "Keller Henson Mono Champaca",
-    "url": "https://kellerhenson.com/project/mono-champaca"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "mono-oxygen-bangtao-beach",
@@ -679,13 +544,7 @@
   "completionDate": "Listed as January 2024 / completed 2024",
   "cover": "/assets/images/projects/mono-oxygen-bangtao-beach/photo-9.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/22773/mono-oxygen-bangtao-beach"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "mori",
@@ -714,17 +573,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/mori/photo-3.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property Mori",
-    "url": "https://papayaproperty.com/en/jm-group/mori"
-   },
-   {
-    "label": "Keller Henson Mori 2 The Valley unit",
-    "url": "https://kellerhenson.com/unit/mori-2-the-valley-3br-pool-villa-type-a-plot-a2"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "mouana-serenity-cherng-talay",
@@ -753,13 +602,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/mouana-serenity-cherng-talay/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson (agent)",
-    "url": "https://kellerhenson.com/project/mouana-serenity-cherng-talay"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "mount-mono",
@@ -788,13 +631,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/mount-mono/photo-6.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson (agent) Mount Mono",
-    "url": "https://kellerhenson.com/project/mount-mono"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "naturale-cherng-talay",
@@ -823,21 +660,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson",
-    "url": "https://kellerhenson.com/project/naturale-cherng-talay"
-   },
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/aag-development/naturale-phuket-cherng-talay"
-   },
-   {
-    "label": "Phuket Prime (address)",
-    "url": "https://phuketprime.com/?p=25570"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "pavara-vhana-collection",
@@ -866,13 +689,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson project page (agent)",
-    "url": "https://kellerhenson.com/project/pavara-vhana-collection"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "redwood-lakeside",
@@ -901,13 +718,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/redwood-luxury/redwood-lakeside"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "sinara-pool-villas",
@@ -936,13 +747,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson project page (agent)",
-    "url": "https://kellerhenson.com/project/sinara-pool-villas"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "sri-panwa-lagoon",
@@ -971,13 +776,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson project page (agent)",
-    "url": "https://kellerhenson.com/project/sri-panwa-lagoon"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "sunny-moon-village",
@@ -1006,17 +805,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sunny-moon-village/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/sunny-development-group/sunny-moon-village"
-   },
-   {
-    "label": "PropertyScout (conflicting completion/tenure)",
-    "url": "https://propertyscout.co.th/en/2-br-villa-sunny-moon-village-rawai-3243273/"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "sunrise-valley",
@@ -1045,21 +834,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Papaya Property",
-    "url": "https://papayaproperty.com/skhai-development-co-ltd/sunrise-valley-phuket"
-   },
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/25971/sunrise-valley"
-   },
-   {
-    "label": "Hipflat (403 on fetch, snippet only)",
-    "url": "https://www.hipflat.co.th/en/projects/sunrise-valley-9e32thua13e3u8a3nll3lt41hne2812e"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "the-balcony",
@@ -1088,8 +863,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-balcony/g1.jpg",
   "imageCount": 1,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-harmony-by-wallaya-villas",
@@ -1118,13 +892,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
   "imageCount": 11,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson (agent)",
-    "url": "https://kellerhenson.com/project/the-harmony-by-wallaya-villas"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "the-katabello",
@@ -1153,8 +921,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-katabello/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-kuartz",
@@ -1183,8 +950,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-kuartz/g1.jpg",
   "imageCount": 4,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-manour",
@@ -1212,13 +978,7 @@
   "status": "Pre-sale",
   "completionDate": null,
   "imageCount": 1,
-  "lastVerified": null,
-  "sources": [
-   {
-    "label": "Hipflat project (403; summary only)",
-    "url": "https://www.hipflat.co.th/en/projects/-0282t44u1nl3t114lua7a17et380hec3"
-   }
-  ]
+  "lastVerified": null
  },
  {
   "id": "the-modeva",
@@ -1247,8 +1007,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-modeva/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-olive",
@@ -1277,8 +1036,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-olive/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-passion-residence-lagoon",
@@ -1306,21 +1064,7 @@
   "status": "Completed",
   "completionDate": null,
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property",
-    "url": "https://thailand-property.com/townhouse/27333/the-passion-residence-lagoon"
-   },
-   {
-    "label": "FazWaz (403; snippets)",
-    "url": "https://fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
-   },
-   {
-    "label": "Hipflat (snippets)",
-    "url": "https://www.hipflat.com/projects/the-passion-residence-lagoon-n41utc3a1e0tcun0cc992t9e1e932hna"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "the-title-cielo-rawai",
@@ -1349,8 +1093,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
   "imageCount": 9,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-halo-1",
@@ -1379,8 +1122,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-halo-1/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-heritage-bang-tao",
@@ -1409,8 +1151,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-legendary-bang-tao",
@@ -1439,8 +1180,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-legendary-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-serenity-naiyang",
@@ -1469,8 +1209,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-sierra",
@@ -1499,8 +1238,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-sierra/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "the-title-vivana",
@@ -1529,8 +1267,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": []
+  "lastVerified": null
  },
  {
   "id": "villa-kirara",
@@ -1559,13 +1296,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/villa-kirara/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null,
-  "sources": [
-   {
-    "label": "Official Villa Kirara page",
-    "url": "https://thetitleresidence.com/villa/villa-kirara/"
-   }
-  ]
+  "lastVerified": null
  },
  {
   "id": "villa-sumalee",
@@ -1593,13 +1324,7 @@
   "status": "Completed",
   "completionDate": "2017",
   "imageCount": 1,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Thailand-Property",
-    "url": "https://www.thailand-property.com/house/22527/villa-sumalee"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  },
  {
   "id": "zenithy-la-ville",
@@ -1628,12 +1353,6 @@
   "completionDate": null,
   "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-12",
-  "sources": [
-   {
-    "label": "Keller Henson project page (agent)",
-    "url": "https://kellerhenson.com/project/zenithy-la-ville"
-   }
-  ]
+  "lastVerified": "2026-11-12"
  }
 ]
