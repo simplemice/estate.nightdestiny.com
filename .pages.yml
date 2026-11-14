@@ -61,7 +61,6 @@ content:
       - { name: publishedAt, label: Publication date, type: date, required: true, options: { format: yyyy-MM-dd } }
       - { name: propertyType, label: Property type, type: select, required: true, options: { values: [Condo, Villa, House, Townhouse, Apartment, Land, Commercial] } }
       - { name: location, label: Location / area, type: string, required: true, description: "e.g. Kata, Rawai, Patong. Used by the Location filter, keep spelling consistent." }
-      - { name: address, label: Address, type: string }
       - { name: price, label: Price, type: number, required: true }
       - { name: currency, label: Currency, type: select, default: THB, options: { values: [THB, USD] } }
       - { name: pricePeriod, label: Rent price period (rent only), type: select, default: month, options: { values: [month, night, year] } }
@@ -98,7 +97,6 @@ content:
       - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
       - { name: propertyType, label: Property type, type: select, options: { values: [Condo, Villa, House, Townhouse, Apartment, Land, Commercial] } }
       - { name: location, label: Location / area, type: string, description: "e.g. Kata, Rawai, Patong. Used by the Location filter, keep spelling consistent." }
-      - { name: address, label: Address, type: string }
       - { name: price, label: Price, type: number }
       - { name: currency, label: Currency, type: select, default: THB, options: { values: [THB, USD] } }
       - { name: pricePeriod, label: Rent price period (rent only), type: select, default: month, options: { values: [month, night, year] } }
@@ -173,7 +171,6 @@ content:
           - { name: label, label: Label, type: string }
           - { name: url, label: URL, type: string }
       - { name: location, label: Location / area, type: string, required: true }
-      - { name: address, label: Address, type: string }
       - { name: constructionStatus, label: Construction status, type: select, required: true, options: { values: [Pre-sale, Under construction, Completed, Status on request] } }
       - { name: completionDate, label: Completion date, type: string, description: "e.g. 2027-12 or Q4 2027" }
       - { name: totalUnits, label: Total units, type: number }

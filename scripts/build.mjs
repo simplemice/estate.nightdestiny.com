@@ -389,7 +389,7 @@ function propCard(p, { filterable = false } = {}) {
     num(p.livingArea) !== null ? `<li title="Living area"><i class="fa fa-arrows-alt"></i> ${p.livingArea} sqm</li>` : '',
   ].join('');
   const data = filterable
-    ? ` data-price="${num(p.price)}" data-beds="${num(p.bedrooms) ?? 0}" data-baths="${num(p.bathrooms) ?? 0}" data-area="${num(p.livingArea) ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.propertyType)}" data-ownership="${esc(p.ownership || '')}" data-search="${esc([t, p.location, p.address, p.propertyType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`
+    ? ` data-price="${num(p.price)}" data-beds="${num(p.bedrooms) ?? 0}" data-baths="${num(p.bathrooms) ?? 0}" data-area="${num(p.livingArea) ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.propertyType)}" data-ownership="${esc(p.ownership || '')}" data-search="${esc([t, p.location, p.propertyType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`
     : '';
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
@@ -426,7 +426,7 @@ function projSaleCard(proj) {
     p.developer ? `<li>${esc(p.developer)}</li>` : '',
     p.completionDate ? `<li><i class="fa fa-calendar"></i> ${esc(p.completionDate)}</li>` : '',
   ].join('');
-  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.address, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
+  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
 		<a class="ec-img" href="${url(proj)}">${p.cover ? img(p.cover, `${t} - ${p.projectType} development in ${p.location}`) : NOPHOTO}${badge(avail && avail !== 'Available' ? avail : '') || `<span class="status status-proj">${esc(p.constructionStatus)}</span>`}${own ? `<span class="own">${esc(own)}</span>` : '<span class="own">New project</span>'}</a>
@@ -696,7 +696,7 @@ function propertyPage(p) {
 						<div class="ds-price">${price(p)}</div>
 						<div class="ds-meta">${esc(cat === 'rent' ? 'For rent' : 'For sale')} ${badge(p.availability)}</div>
 						<table class="spec-table"><tbody>
-							${spec('Type', p.propertyType)}${spec('Location', p.location)}${spec('Address', p.address)}
+							${spec('Type', p.propertyType)}${spec('Location', p.location)}
 							${spec('Bedrooms', p.bedrooms)}${spec('Bathrooms', p.bathrooms)}
 							${spec('Living area', num(p.livingArea) !== null ? p.livingArea + ' sqm' : '')}${spec('Land area', num(p.landArea) !== null ? p.landArea + ' sqm' : '')}
 							${spec('Floor', p.floor)}${spec('Ownership', p.ownership)}${spec('Furnishing', p.furnishing)}${spec('Year built', p.yearBuilt)}
@@ -733,7 +733,7 @@ function projectPage(p) {
   const srcs = p.sources.length ? `<h4 class="sec-h">Sources</h4><ul class="src-list">${p.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.label || x.url)}</a></li>`).join('')}</ul>` : '';
   const verified = dateFmt(p.lastVerified);
   const faqItems = (Array.isArray(p.faq) && p.faq.some((x) => x.question && x.answer)) ? p.faq.filter((x) => x.question && x.answer).map((x) => [x.question, x.answer]) : [
-    [`Where is ${t}?`, `${t} is a ${String(p.projectType).toLowerCase()} project in ${p.location}, Phuket${p.developer ? `, developed by ${p.developer}` : ''}.${p.address && p.address !== `${p.location}, Phuket` ? ` Address: ${p.address}.` : ''}`],
+    [`Where is ${t}?`, `${t} is a ${String(p.projectType).toLowerCase()} project in ${p.location}, Phuket${p.developer ? `, developed by ${p.developer}` : ''}.`],
     [`What is the starting price of ${t}?`, f.price ? `${p.priceType || 'The advertised starting price'} is ${money(f.price, cur)}${verified ? `, last checked ${verified}` : ''}. Prices and availability change, so ask us on WhatsApp for the current figures.` : `No public price is available for ${t}. Message us on WhatsApp and we will ask for the current price list.`],
     ...(p.ownership.length ? [[`What ownership is offered at ${t}?`, `Sources list ${p.ownership.join(' and ').toLowerCase()} ownership. Always confirm the exact title and conditions with a Thai lawyer before buying; this is general information, not legal advice.`]] : []),
     [`When will ${t} be ready?`, `Current status: ${String(p.constructionStatus).toLowerCase()}${p.completionDate ? `; completion date listed as ${p.completionDate}` : ''}. Dates can change, so please confirm with us.`],
@@ -761,7 +761,7 @@ function projectPage(p) {
 						${priceBlock}
 						<div class="ds-meta"><span class="status status-proj">${esc(p.constructionStatus)}</span></div>
 						<table class="spec-table"><tbody>
-							${spec('Category', p.category)}${spec('Type', p.projectType)}${spec('Developer', p.developer)}${spec('Location', p.location)}${spec('Address', p.address)}
+							${spec('Category', p.category)}${spec('Type', p.projectType)}${spec('Developer', p.developer)}${spec('Location', p.location)}
 							${spec('Bedrooms', rng(f.bedMin, f.bedMax))}${spec('Bathrooms', rng(f.bathMin, f.bathMax))}
 							${spec('Built-up area', rng(f.sizeMin, f.sizeMax, ' sqm'))}${spec('Land area', rng(p.landMin, p.landMax, ' sqm'))}
 							${spec('Floors', p.floors)}${spec('Units in project', p.totalUnits)}
