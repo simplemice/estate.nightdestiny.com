@@ -51,5 +51,8 @@
       "url": "https://thetitleresidence.com/villa/villa-kirara/"
     }
   ],
-  "researchNotes": "Official page has no price, sizes, bedrooms, facilities. Unit counts disagree (37 per Lazudi/Hipflat, 75 per one DDProperty text). Completion dates in portals conflict (2026-01-01 Lazudi vs Jun 2026 Hipflat) and contradict the official 15% progress, so completionDate left null. Portal location Si Sunthon vs client Cherng Talay. Lazudi listings seen in search: 2BR/3BA 305 sqm, 3BR/4BA 395 sqm, 4BR/6BA 646 sqm (not opened). | Official page shows no price. Portal snippets (Lazudi, Thailand-Property; search results only, pages not opened) show range from 29,020,000 THB; a DDProperty listing shows a 3BR unit at 36,100,000, so the claimed 36.1M is a specific unit price, not the minimum. Verify with sales. | claimed price 36100000"
+  "researchNotes": "Official page has no price, sizes, bedrooms, facilities. Unit counts disagree (37 per Lazudi/Hipflat, 75 per one DDProperty text). Completion dates in portals conflict (2026-01-01 Lazudi vs Jun 2026 Hipflat) and contradict the official 15% progress, so completionDate left null. Portal location Si Sunthon vs client Cherng Talay. Lazudi listings seen in search: 2BR/3BA 305 sqm, 3BR/4BA 395 sqm, 4BR/6BA 646 sqm (not opened). | Official page shows no price. Portal snippets (Lazudi, Thailand-Property; search results only, pages not opened) show range from 29,020,000 THB; a DDProperty listing shows a 3BR unit at 36,100,000, so the claimed 36.1M is a specific unit price, not the minimum. Verify with sales. | claimed price 36100000",
+  "ownership": [
+    "Leasehold"
+  ]
 }

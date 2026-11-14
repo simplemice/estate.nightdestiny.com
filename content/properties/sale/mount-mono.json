@@ -82,5 +82,6 @@
   "availability": "Available",
   "price": 36900000,
   "bedrooms": 4,
-  "cover": "/assets/images/projects/mount-mono/photo-6.jpg"
+  "cover": "/assets/images/projects/mount-mono/photo-6.jpg",
+  "ownership": "Leasehold"
 }

@@ -10,7 +10,7 @@
   "address": "Cherng Talay, Phuket",
   "developer": "Capital City Realestate Co., Ltd.",
   "shortDescription": "A small gated collection of single-storey pool villas in the Pasak area of Cherng Talay.",
-  "description": "The Wynn Phuket is a small gated collection of single-storey tropical-modern pool villas in the Pasak area of Cherng Talay, with villas on plots of roughly 478 to 732 sqm. The advertised 3-bedroom, 4-bathroom villas have around 435 sqm of built-up area, vaulted timber ceilings and open-plan living leading to a private pool and garden. Boat Avenue, Porto De Phuket and the Bang Tao and Layan beaches are in the surrounding area. Foreign buyers can hold via a 30-year renewable lease; freehold is for Thai buyers or companies.",
+  "description": "The Wynn Phuket is a small gated collection of single-storey tropical-modern pool villas in the Pasak area of Cherng Talay, with villas on plots of roughly 478 to 732 sqm. The advertised 3-bedroom, 4-bathroom villas have around 435 sqm of built-up area, vaulted timber ceilings and open-plan living leading to a private pool and garden. Boat Avenue, Porto De Phuket and the Bang Tao and Layan beaches are in the surrounding area.",
   "startingPrice": 29890000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-14",
@@ -27,7 +27,6 @@
   "reservationFee": "THB 500,000",
   "privatePool": "yes",
   "ownership": [
-    "Freehold",
     "Leasehold"
   ],
   "constructionStatus": "Status on request",

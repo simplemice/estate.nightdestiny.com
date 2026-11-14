@@ -76,5 +76,8 @@
     }
   ],
   "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. FazWaz project header: from 10,900,000; Thailand-Property: from 10,999,999; FazWaz single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Agent/portal prices only, not developer-official. | claimed price 11490000",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "unavailable",
+  "ownership": [
+    "Leasehold"
+  ]
 }

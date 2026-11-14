@@ -57,5 +57,8 @@
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-halo-1-naiyang-beach",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20. Unit prices on the source are rounded to the nearest 0.1M."
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20. Unit prices on the source are rounded to the nearest 0.1M.",
+  "ownership": [
+    "Freehold"
+  ]
 }

@@ -94,5 +94,8 @@
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-serenity-naiyang-phuket",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20."
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20.",
+  "ownership": [
+    "Freehold"
+  ]
 }

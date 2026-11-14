@@ -88,5 +88,6 @@
   "availability": "Available",
   "price": 20900000,
   "bedrooms": 3,
-  "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg"
+  "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
+  "ownership": "Leasehold"
 }

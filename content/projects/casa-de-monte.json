@@ -57,5 +57,8 @@
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/casa-de-monte",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent."
+  "priceNote": "Lowest advertised price listed by an agent.",
+  "ownership": [
+    "Freehold"
+  ]
 }

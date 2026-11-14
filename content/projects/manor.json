@@ -26,7 +26,6 @@
   "reservationFee": "THB 200,000",
   "privatePool": "yes",
   "ownership": [
-    "Freehold",
     "Leasehold"
   ],
   "constructionStatus": "Status on request",

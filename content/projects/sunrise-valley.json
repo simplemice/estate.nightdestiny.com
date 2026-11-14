@@ -22,7 +22,6 @@
   "parking": "Parking listed",
   "privatePool": "yes",
   "ownership": [
-    "Freehold",
     "Leasehold"
   ],
   "constructionStatus": "Status on request",

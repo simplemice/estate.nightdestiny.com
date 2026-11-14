@@ -37,5 +37,8 @@
     }
   ],
   "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | FazWaz base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "unavailable",
+  "ownership": [
+    "Leasehold"
+  ]
 }

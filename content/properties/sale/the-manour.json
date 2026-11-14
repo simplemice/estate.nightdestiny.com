@@ -14,5 +14,6 @@
   "nearby": [],
   "images": [],
   "availability": "Available",
-  "bedrooms": 3
+  "bedrooms": 3,
+  "ownership": "Leasehold"
 }
