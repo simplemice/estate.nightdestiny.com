@@ -1,8 +1,11 @@
 {
   "title": "Two Bedroom Condo",
+  "published": true,
+  "featured": true,
+  "publishedAt": "2026-04-03",
   "propertyType": "Condo",
   "location": "Phuket",
-  "price": 89,
+  "price": 129,
   "currency": "USD",
   "pricePeriod": "night",
   "bedrooms": 2,
@@ -19,8 +22,5 @@
   "images": [
     "/img/room/room-3.jpg"
   ],
-  "availability": "Available",
-  "featured": true,
-  "published": true,
-  "publishedAt": "2026-04-03"
+  "availability": "Available"
 }
