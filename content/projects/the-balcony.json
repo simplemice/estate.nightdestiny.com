@@ -33,7 +33,9 @@
       "name": "1 Bedroom L",
       "size": "37-49",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 4960000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom Plus",
@@ -51,7 +53,9 @@
       "name": "2 Bedroom M",
       "size": "62-75",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 7700000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "Penthouse",
@@ -72,5 +76,11 @@
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 4960000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-balcony",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent."
 }

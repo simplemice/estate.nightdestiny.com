@@ -39,7 +39,9 @@
       "name": "1 Bedroom S",
       "size": "36-42",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 5300000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom M",
@@ -51,25 +53,33 @@
       "name": "1 Bedroom L",
       "size": "49-57",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 9300000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom Plus",
       "size": "56-64",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 9000000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom",
       "size": "66-106",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 10700000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "3 Bedroom",
       "size": "122-132",
       "bedrooms": 3,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 19900000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "Super Luxury",
@@ -79,15 +89,25 @@
     {
       "name": "Ultra Luxury",
       "size": "145",
-      "availability": "Available"
+      "availability": "Available",
+      "price": 25800000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "Ultimate Luxury",
       "size": "174",
-      "availability": "Available"
+      "availability": "Available",
+      "price": 29800000,
+      "priceType": "Agent advertised price"
     }
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 5360000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-title-heritage-bangtao/",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16."
 }

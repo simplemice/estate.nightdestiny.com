@@ -23,55 +23,76 @@
   ],
   "unitTypes": [
     {
-      "name": "Studio",
-      "size": "31-36",
-      "bedrooms": 0,
-      "availability": "Available"
-    },
-    {
-      "name": "1 Bedroom",
-      "size": "40-44",
+      "name": "1BR Type S",
       "bedrooms": 1,
-      "availability": "Available"
+      "size": "26",
+      "price": 2900000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "1 Bedroom Max",
-      "size": "44-49",
+      "name": "1BR Type L",
       "bedrooms": 1,
-      "availability": "Available"
+      "size": "37",
+      "price": 4100000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "1 Bedroom Legend",
-      "size": "51-60",
+      "name": "1BR Pool Access",
       "bedrooms": 1,
-      "availability": "Available"
+      "size": "33",
+      "price": 4200000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "1 Bedroom Plus",
-      "size": "52-61",
+      "name": "Pool Access Studio",
       "bedrooms": 1,
-      "availability": "Available"
+      "size": "28",
+      "price": 3600000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "2 Bedroom",
-      "size": "65-70",
+      "name": "2BR",
       "bedrooms": 2,
-      "availability": "Available"
+      "size": "61",
+      "price": 7400000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "2 Bedroom Legend",
-      "size": "87-94",
+      "name": "2BR Type S",
       "bedrooms": 2,
-      "availability": "Available"
+      "size": "57",
+      "price": 7200000,
+      "priceType": "Agent advertised price"
     },
     {
-      "name": "2 Bedroom Plus",
-      "size": "85-89",
+      "name": "2BR Pool Access",
       "bedrooms": 2,
-      "availability": "Available"
+      "size": "63",
+      "price": 8600000,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "3BR Type L",
+      "bedrooms": 3,
+      "size": "119",
+      "price": 14300000,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "3BR Pool Access",
+      "bedrooms": 3,
+      "size": "123",
+      "price": 16600000,
+      "priceType": "Agent advertised price"
     }
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 2900000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-title-serenity-naiyang-phuket",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20."
 }

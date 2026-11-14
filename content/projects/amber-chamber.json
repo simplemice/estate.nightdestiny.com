@@ -1,0 +1,113 @@
+{
+  "name": "Amber Chamber",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Bang Jo hills, Si Sunthon, Thalang, Phuket",
+  "shortDescription": "A small hillside collection of private-pool villas in Bang Jo, Si Sunthon, with 3 and 4-bedroom homes.",
+  "description": "Amber Chamber is a small hillside collection of private-pool villas in the Bang Jo area of Si Sunthon, Thalang, in northwest Phuket. The project comprises 3 and 4-bedroom homes of roughly 428 to 620 sqm built-up across the Essence, Serenity and Bliss designs. Listings describe it as under construction, with shared co-working, fitness and pet areas plus round-the-clock security. Unit counts, prices and handover timing differ between marketing sources.",
+  "startingPrice": 35100000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 428,
+  "builtUpMax": 620,
+  "totalUnits": 18,
+  "floors": "2",
+  "parking": "Yes",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Private pools",
+    "Co-working space",
+    "Fitness center",
+    "Kids area",
+    "Pets area",
+    "24/7 security",
+    "Juristic office",
+    "CCTV",
+    "Garden",
+    "Function room"
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Essence",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "428",
+      "price": 35100000,
+      "floorPlan": "/assets/images/floorplans/amber-chamber/plan-7.jpg",
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "4BR Serenity",
+      "bedrooms": 4,
+      "size": "516",
+      "price": 42299999,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "4BR Bliss",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "620",
+      "price": 51900000,
+      "priceType": "Agent advertised price"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/amber-chamber/photo-2.jpg",
+    "/assets/images/projects/amber-chamber/photo-3.jpg",
+    "/assets/images/projects/amber-chamber/photo-4.jpg",
+    "/assets/images/projects/amber-chamber/photo-5.jpg",
+    "/assets/images/projects/amber-chamber/photo-6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/amber-chamber/plan-10.jpg",
+    "/assets/images/floorplans/amber-chamber/plan-7.jpg",
+    "/assets/images/floorplans/amber-chamber/plan-8.jpg",
+    "/assets/images/floorplans/amber-chamber/plan-9.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/vera-visio-property/amber-chamber"
+    },
+    {
+      "label": "Papaya 4BR Bliss",
+      "url": "https://papayaproperty.com/vera-visio-property/amber-chamber/4br-bliss-amber-chamber"
+    },
+    {
+      "label": "PropertyScout project page",
+      "url": "https://propertyscout.co.th/en/phuket/villa/amber-chamber/"
+    },
+    {
+      "label": "Lazudi",
+      "url": "https://lip.lazudi.com/phuket/project/amber-chamber-15962"
+    }
+  ],
+  "researchNotes": "Completion conflict: Papaya says Q3 2026, PropertyScout says 2028 (still under construction as of 2026-11-14 check). Ownership conflict: Papaya says Leasehold, PropertyScout says Freehold; only Papaya recorded. Unit count conflict: 18 (Papaya) vs 16 (PropertyScout). Keller Henson not found. Developer 2 Thanwa Property per Papaya/PropertyScout/Realting; Vera Visio appears only as the agency brand. 4BR Bliss page mentions terrace 722 sqm, not confirmed as land. Serenity bathrooms not given. | From THB 35.1M for 3BR Essence per Papaya Property; PropertyScout shows THB 34.4M-51.3M and Lazudi 32.5M-49.3M, so prices vary by source.",
+  "imagesStatus": "available",
+  "developer": "2 Thanwa Property Co., Ltd.",
+  "cover": "/assets/images/projects/amber-chamber/photo-1.jpg",
+  "imageCaptions": [
+    "Courtyard facade and pool",
+    "Living area opening to the pool",
+    "Living and dining area",
+    "Bedroom",
+    "Bedroom with dressing area"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/vera-visio-property/amber-chamber"
+}

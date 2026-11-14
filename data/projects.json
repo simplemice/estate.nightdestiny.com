@@ -1,5 +1,92 @@
 [
  {
+  "id": "amber-chamber",
+  "name": "Amber Chamber",
+  "url": "/projects/amber-chamber/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "2 Thanwa Property Co., Ltd.",
+  "location": "Si Sunthon",
+  "startingPrice": 35100000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   428,
+   620
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/amber-chamber/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "monetaria",
+  "name": "Monetaria Villas",
+  "url": "/projects/monetaria/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "ABC Developer Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 18900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   274.1,
+   374.9
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/monetaria/photo-1.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "wynn",
+  "name": "The Wynn Phuket",
+  "url": "/projects/wynn/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Capital City Realestate Co., Ltd.",
+  "location": "Cherng Talay",
+  "startingPrice": 29890000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   435,
+   435
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/wynn/photo-7.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
   "id": "adora-rawai",
   "name": "The Title Adora Rawai",
   "url": "/projects/adora-rawai/",
@@ -7,9 +94,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Rawai",
-  "startingPrice": null,
+  "startingPrice": 5698000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -26,7 +113,7 @@
   "completionDate": "2027-03",
   "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
   "imageCount": 10,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "aileen-villas-layan",
@@ -122,9 +209,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Surin",
-  "startingPrice": null,
+  "startingPrice": 5664000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    3
@@ -141,7 +228,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/biancana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "botanica-four-seasons",
@@ -208,9 +295,9 @@
   "propertyType": "Villas",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Ko Kaeo",
-  "startingPrice": null,
+  "startingPrice": 30563000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    null,
    null
@@ -227,7 +314,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
   "imageCount": 8,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "clover-residence",
@@ -266,9 +353,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kamala",
-  "startingPrice": null,
+  "startingPrice": 5108000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    3
@@ -285,7 +372,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "fizz",
@@ -295,26 +382,26 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kata",
-  "startingPrice": null,
+  "startingPrice": 5154707,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
-   null,
-   null
+   1,
+   3
   ],
   "bathrooms": [
    null,
    null
   ],
   "builtUpArea": [
-   null,
-   null
+   32,
+   105
   ],
   "status": "Pre-sale",
   "completionDate": null,
   "cover": "/assets/images/projects/fizz/the-fizz-banner-d.jpg",
   "imageCount": 1,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "goldena-city-gems-villas",
@@ -844,9 +931,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": null,
+  "startingPrice": 4960000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -863,7 +950,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-balcony/g1.jpg",
   "imageCount": 1,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-harmony-by-wallaya-villas",
@@ -902,9 +989,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kata",
-  "startingPrice": null,
+  "startingPrice": 3200000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -921,7 +1008,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-katabello/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-kuartz",
@@ -931,9 +1018,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Karon",
-  "startingPrice": null,
+  "startingPrice": 5768000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    null,
    null
@@ -950,7 +1037,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-kuartz/g1.jpg",
   "imageCount": 4,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-manour",
@@ -988,9 +1075,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": null,
+  "startingPrice": 4466000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    3
@@ -1007,7 +1094,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-modeva/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-olive",
@@ -1017,9 +1104,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": null,
+  "startingPrice": 3961000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -1036,7 +1123,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-olive/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-passion-residence-lagoon",
@@ -1074,9 +1161,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Rawai",
-  "startingPrice": null,
+  "startingPrice": 3875000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -1093,7 +1180,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
   "imageCount": 9,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-halo-1",
@@ -1103,9 +1190,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": null,
+  "startingPrice": 4320000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -1122,7 +1209,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-halo-1/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-heritage-bang-tao",
@@ -1132,9 +1219,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": null,
+  "startingPrice": 5360000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    3
@@ -1151,7 +1238,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-legendary-bang-tao",
@@ -1161,9 +1248,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": null,
+  "startingPrice": 7200000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    0,
    2
@@ -1180,7 +1267,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-legendary-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-serenity-naiyang",
@@ -1190,26 +1277,26 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": null,
+  "startingPrice": 2900000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
-   0,
-   2
+   1,
+   3
   ],
   "bathrooms": [
    null,
    null
   ],
   "builtUpArea": [
-   31,
-   94
+   26,
+   123
   ],
   "status": "Completed",
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-sierra",
@@ -1219,9 +1306,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": null,
+  "startingPrice": 2870000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    2
@@ -1238,7 +1325,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-sierra/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "the-title-vivana",
@@ -1248,9 +1335,9 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kamala",
-  "startingPrice": null,
+  "startingPrice": 4124985,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    1,
    3
@@ -1267,7 +1354,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-14"
  },
  {
   "id": "villa-kirara",

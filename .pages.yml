@@ -133,7 +133,7 @@ content:
       - { name: featured, label: Featured on homepage, type: boolean, default: false }
       - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
       - { name: developer, label: Developer, type: string }
-      - { name: projectType, label: Project type, type: select, required: true, options: { values: [Condominium, Villas, Residential, Townhouses, Mixed-use] } }
+      - { name: projectType, label: Project type (free text, e.g. Condominium, pool villa, townhouse), type: string, required: true }
       - { name: imagesStatus, label: Photo status, type: select, description: "Set to unavailable when no rights-cleared photos exist; the site then shows a 'Photos on request' placeholder.", options: { values: [available, unavailable] } }
       - { name: imageCredit, label: Image credit / disclaimer shown under the gallery, type: text }
       - { name: imageCaptions, label: Gallery image descriptions (alt text, same order as gallery), type: string, list: true }
@@ -141,6 +141,8 @@ content:
       - { name: category, label: Category, type: select, required: true, default: Condominium, options: { values: [Villa, Townhouse, Condominium] } }
       - { name: priceStatus, label: Price status, type: select, options: { values: [advertised, on-request] } }
       - { name: priceNote, label: Price note (e.g. which unit the starting price is for), type: string }
+      - { name: priceType, label: Price type, type: select, description: "Who published the starting price", options: { values: [Developer price, Agent advertised price, Resale price] } }
+      - { name: priceSourceUrl, label: Price source URL, type: string }
       - { name: lastVerified, label: Date prices/data were last verified, type: date, options: { format: yyyy-MM-dd } }
       - { name: bedroomsMin, label: Bedrooms (min), type: number }
       - { name: bedroomsMax, label: Bedrooms (max), type: number }
@@ -172,7 +174,7 @@ content:
           - { name: url, label: URL, type: string }
       - { name: location, label: Location / area, type: string, required: true }
       - { name: address, label: Address, type: string }
-      - { name: constructionStatus, label: Construction status, type: select, required: true, options: { values: [Pre-sale, Under construction, Completed] } }
+      - { name: constructionStatus, label: Construction status, type: select, required: true, options: { values: [Pre-sale, Under construction, Completed, Status on request] } }
       - { name: completionDate, label: Completion date, type: string, description: "e.g. 2027-12 or Q4 2027" }
       - { name: totalUnits, label: Total units, type: number }
       - { name: startingPrice, label: Starting price, type: number }
@@ -194,8 +196,17 @@ content:
           - { name: bedrooms, label: Bedrooms, type: number }
           - { name: bathrooms, label: Bathrooms, type: number }
           - { name: price, label: Starting price, type: number }
+          - { name: floor, label: Floor / level (condos, e.g. 3-5), type: string }
+          - { name: priceType, label: Unit price type, type: select, options: { values: [Developer price, Agent advertised price, Resale price] } }
           - { name: availability, label: Availability, type: select, options: { values: [Available, Limited, Sold] } }
           - { name: floorPlan, label: Floor plan, type: image, options: { path: assets/images/floorplans } }
+      - name: faq
+        label: FAQ (optional; shown on the page. If empty, factual answers are generated from the project data)
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{question}" } }
+        fields:
+          - { name: question, label: Question, type: string }
+          - { name: answer, label: Answer, type: text }
       - { name: videoUrl, label: YouTube video URL (optional), type: string }
       - { name: nearby, label: Nearby attractions & distances, component: nearby }
       - { name: coordinates, label: Map coordinates, component: coordinates }

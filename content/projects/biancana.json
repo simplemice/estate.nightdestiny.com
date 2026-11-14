@@ -32,7 +32,9 @@
       "name": "1 Bedroom L",
       "size": "39-43",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 7028000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom Plus",
@@ -44,13 +46,17 @@
       "name": "2 Bedroom M",
       "size": "62-73",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 10718000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom L",
       "size": "75-86",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 12130000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom Plus M",
@@ -73,5 +79,11 @@
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 5664000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-biancana",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent."
 }

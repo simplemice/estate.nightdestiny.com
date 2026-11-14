@@ -26,31 +26,41 @@
       "name": "1 Bedroom S",
       "size": "30",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 4100000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom M",
       "size": "32.5-36",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 4200000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom L",
       "size": "40.5-43.5",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 5400000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom Plus",
       "size": "50-56",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 6600000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom M",
       "size": "60-66",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 8500000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom L",
@@ -62,13 +72,17 @@
       "name": "2 Bedroom XL",
       "size": "120.5-128.5",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 16000000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "Penthouse 2 Bedroom",
       "size": "81-105",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 11900000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "Penthouse 3 Bedroom",
@@ -79,5 +93,11 @@
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 4124985,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-title-vivana",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-06-16."
 }

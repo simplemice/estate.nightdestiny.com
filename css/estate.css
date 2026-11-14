@@ -201,3 +201,9 @@ button.canvas-open,button.canvas-close{background:none;padding:0;font-family:inh
 
 /* keep intrinsic aspect ratio now that <img> carries width/height attributes */
 img{height:auto}
+
+/* project FAQ */
+.faq-list details{border:1px solid #e6e6e6;border-radius:4px;margin-bottom:8px;background:#fff}
+.faq-list summary{cursor:pointer;padding:12px 16px;font-weight:600;color:#19191a}
+.faq-list details[open] summary{border-bottom:1px solid #eee}
+.faq-list p{margin:0;padding:12px 16px;color:#444}

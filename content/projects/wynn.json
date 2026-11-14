@@ -1,0 +1,133 @@
+{
+  "name": "The Wynn Phuket",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Cherng Talay, Phuket",
+  "developer": "Capital City Realestate Co., Ltd.",
+  "shortDescription": "A small gated collection of single-storey pool villas in the Pasak area of Cherng Talay.",
+  "description": "The Wynn Phuket is a small gated collection of single-storey tropical-modern pool villas in the Pasak area of Cherng Talay, with villas on plots of roughly 478 to 732 sqm. The advertised 3-bedroom, 4-bathroom villas have around 435 sqm of built-up area, vaulted timber ceilings and open-plan living leading to a private pool and garden. Boat Avenue, Porto De Phuket and the Bang Tao and Layan beaches are in the surrounding area. Foreign buyers can hold via a 30-year renewable lease; freehold is for Thai buyers or companies.",
+  "startingPrice": 29890000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 435,
+  "builtUpMax": 435,
+  "landMin": 478,
+  "landMax": 732,
+  "floors": "1",
+  "parking": "Covered parking",
+  "reservationFee": "THB 500,000",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Status on request",
+  "paymentPlan": [
+    "Reservation agreement with THB 500,000 booking fee",
+    "Contract signing with 30% deposit",
+    "Construction-linked installments for the remaining 70%",
+    "Ownership transfer / lease registration on completion"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Private swimming pool"
+  ],
+  "nearby": [
+    {
+      "place": "Thalang Hospital",
+      "distance": "3.2 km straight-line (about 12 min)",
+      "mode": "driving"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "5.0 km straight-line",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 20 min",
+      "mode": "driving"
+    },
+    {
+      "place": "REBEL Rock Climbing",
+      "distance": "4.3 km straight-line",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Niran Equestrian Center",
+      "distance": "4.9 km straight-line",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "435",
+      "price": 29890000,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "3BR Pool Villa (Large Plot)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "435",
+      "price": 39850000,
+      "priceType": "Agent advertised price"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/wynn/photo-1.jpg",
+    "/assets/images/projects/wynn/photo-2.jpg",
+    "/assets/images/projects/wynn/photo-3.jpg",
+    "/assets/images/projects/wynn/photo-4.jpg",
+    "/assets/images/projects/wynn/photo-5.jpg",
+    "/assets/images/projects/wynn/photo-6.jpg",
+    "/assets/images/projects/wynn/photo-8.jpg",
+    "/assets/images/projects/wynn/photo-9.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/the-wynn-phuket"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/25551/the-wynn-phuket"
+    },
+    {
+      "label": "FazWaz (developer name)",
+      "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket"
+    }
+  ],
+  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (FazWaz); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, FazWaz 35.9-49.9M) and are not used.",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/wynn/photo-7.jpg",
+  "imageCaptions": [
+    "Pool and bedroom pavilion",
+    "Living and dining area",
+    "Kitchen and breakfast bar",
+    "Dining area",
+    "Open-plan living and dining",
+    "Living room with vaulted ceiling",
+    "Dining and living area",
+    "Living area opening to the garden"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-wynn-phuket"
+}

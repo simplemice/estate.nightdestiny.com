@@ -1,0 +1,78 @@
+{
+  "title": "Monetaria Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/monetaria.json",
+  "propertyType": "Villa",
+  "location": "Rawai",
+  "address": "Soi Werachod, Rawai, Mueang Phuket District, Phuket 83130",
+  "currency": "THB",
+  "shortDescription": "35 single-storey private pool villas near Rawai Beach, in 3 and 4-bedroom layouts.",
+  "description": "Monetaria Villas is a development of 35 single-storey private pool villas near Rawai Beach on Phuket's southern tip, off Soi Werachod. Two layouts are offered: a 3-bedroom Type A of about 274 sqm and a 4-bedroom Type B of about 375 sqm, on plots of roughly 320 to 520 sqm. The project includes a clubhouse, fitness center, coworking space and cafe, with Thai-company freehold or foreign 30-year leasehold structures advertised.",
+  "availability": "Available",
+  "price": 18900000,
+  "cover": "/assets/images/projects/monetaria/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/monetaria/photo-12.jpg",
+    "/assets/images/projects/monetaria/photo-2.jpg",
+    "/assets/images/projects/monetaria/photo-3.jpg",
+    "/assets/images/projects/monetaria/photo-4.jpg",
+    "/assets/images/projects/monetaria/photo-5.jpg",
+    "/assets/images/projects/monetaria/photo-6.jpg",
+    "/assets/images/projects/monetaria/photo-7.jpg",
+    "/assets/images/projects/monetaria/photo-8.jpg"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Fitness center",
+    "Landscaped tropical gardens",
+    "Coworking space",
+    "Cafe",
+    "Clubhouse",
+    "Restaurant",
+    "Pickleball court",
+    "Pet-friendly",
+    "Underground utilities",
+    "Property management"
+  ],
+  "nearby": [
+    {
+      "place": "Lighthouse Phuket school",
+      "distance": "0.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "BCIS Phuket International School",
+      "distance": "7.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "10.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "15 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Rawai Beach and Pier",
+      "distance": "walking distance",
+      "mode": "walk"
+    },
+    {
+      "place": "Nai Harn and Ya Nui beaches",
+      "distance": "within 5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 45 minutes",
+      "mode": "drive"
+    }
+  ]
+}

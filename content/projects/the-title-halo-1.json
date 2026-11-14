@@ -26,13 +26,17 @@
       "name": "1 Bedroom",
       "size": "36-51",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 4300000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom",
       "size": "59-64",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 7100000,
+      "priceType": "Agent advertised price"
     }
   ],
   "nearby": [
@@ -47,5 +51,11 @@
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 4320000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-title-halo-1-naiyang-beach",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20. Unit prices on the source are rounded to the nearest 0.1M."
 }

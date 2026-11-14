@@ -13,5 +13,34 @@
   "featured": true,
   "published": true,
   "publishedAt": "2026-11-12",
-  "developer": "Rhom Bho Property PLC (The Title)"
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "startingPrice": 5154707,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/fizz",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent.",
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "size": "32",
+      "price": 5154707,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "size": "58",
+      "price": 10358818,
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "size": "105",
+      "price": 20028931,
+      "priceType": "Agent advertised price"
+    }
+  ]
 }

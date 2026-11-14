@@ -54,10 +54,18 @@
     {
       "name": "2B",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 7700000,
+      "priceType": "Agent advertised price"
     }
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 3200000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/katabello",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M."
 }

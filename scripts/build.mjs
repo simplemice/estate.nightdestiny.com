@@ -35,7 +35,7 @@ function waLink(message) {
 const waMsg = {
   rent: (n) => `Hello! I am interested in renting ${n}. Could you please provide more information?`,
   sale: (n) => `Hello! I am interested in purchasing ${n}. Could you please provide more information?`,
-  project: (n, loc) => `Hello, I am interested in ${n}${loc ? ' in ' + loc : ''}. Could you please provide more information, current availability, prices, and brochures?`,
+  project: (n, loc) => `Hello, I am interested in ${n}${loc ? ' in ' + loc : ''}. Could you please send me the latest prices, available units, floor plans and project brochure?`,
   unit: (u, n, loc) => `Hello, I am interested in the ${u} at ${n}${loc ? ', ' + loc : ''}. Could you please confirm current availability and price?`,
   general: () => 'Hello! I would like to receive more information about your properties.',
 };
@@ -199,8 +199,9 @@ const fitTitle = (...opts) => opts.find((o) => o.length <= 62) || opts[opts.leng
 function projDesc(p) {
   const f = facts(p);
   const lead = p.shortDescription ? p.shortDescription.replace(/\s+/g, ' ').trim().replace(/[.\s]+$/, '') + '.' : `${p.projectType} project in ${p.location}, Phuket.`;
-  const bits = [rng(f.bedMin, f.bedMax) ? `${rng(f.bedMin, f.bedMax)} bedrooms` : '', f.price ? `from ${money(f.price, p.currency || 'THB')}` : '', p.constructionStatus || ''].filter(Boolean).join(', ');
-  const d = lead.length >= 110 ? lead : `${lead} ${p.name} in ${p.location}, Phuket${bits ? ': ' + bits : ''}. Enquire on WhatsApp.`;
+  const bits = [rng(f.bedMin, f.bedMax) ? `${rng(f.bedMin, f.bedMax)} bedrooms` : '', f.price ? `from ${money(f.price, p.currency || 'THB')}` : '', p.constructionStatus && p.constructionStatus !== 'Status on request' ? p.constructionStatus : ''].filter(Boolean).join(', ');
+  const where = new RegExp(p.location, 'i').test(lead) ? '' : `${p.location}, Phuket. `;
+  const d = lead.length >= 120 ? lead : `${lead} ${where}${bits ? bits[0].toUpperCase() + bits.slice(1) + '. ' : ''}Enquire on WhatsApp.`;
   return clip(d);
 }
 function propDesc(p) {
@@ -716,7 +717,9 @@ function projectPage(p) {
   const crumbs = [['/', 'Home'], ['/projects/', 'New Projects'], ['', t]];
   const desc = projDesc(p);
   const wa = (u) => waBtn(waMsg.unit(u, t, p.location), 'wa-btn wa-sm', 'Ask');
-  const units = p.unitTypes.length ? `<h4 class="sec-h">Available units</h4><div class="table-responsive"><table class="table unit-table"><thead><tr><th>Type</th><th>Beds</th><th>Baths</th><th>Built-up</th><th>Land</th><th>Price</th><th>Status</th><th></th></tr></thead><tbody>${p.unitTypes.map((u) => `<tr><td><strong>${esc(u.name)}</strong></td><td>${esc(u.bedrooms ?? '-')}</td><td>${esc(u.bathrooms ?? '-')}</td><td>${u.size || u.builtUpSqm ? esc(u.size ?? u.builtUpSqm) + ' sqm' : '-'}</td><td>${u.landSqm ? esc(u.landSqm) + ' sqm' : '-'}</td><td>${num(u.price) ? money(u.price, cur) : 'On request'}</td><td>${esc(u.availability || 'Ask')}</td><td>${wa(u.name)}${u.floorPlan ? ` <a class="plan-link" href="${esc(bigSrc(u.floorPlan))}">Plan</a>` : ''}</td></tr>`).join('')}</tbody></table></div>` : '';
+  const hasFloor = p.unitTypes.some((u) => u.floor);
+  const unitPT = [...new Set(p.unitTypes.map((u) => u.priceType).filter(Boolean))];
+  const units = p.unitTypes.length ? `<h4 class="sec-h">Available units</h4><div class="table-responsive"><table class="table unit-table"><thead><tr><th>Type</th>${hasFloor ? '<th>Floor</th>' : ''}<th>Beds</th><th>Baths</th><th>Built-up</th><th>Land</th><th>Price</th><th>Status</th><th></th></tr></thead><tbody>${p.unitTypes.map((u) => `<tr><td><strong>${esc(u.name)}</strong></td>${hasFloor ? `<td>${esc(u.floor ?? '-')}</td>` : ''}<td>${esc(u.bedrooms ?? '-')}</td><td>${esc(u.bathrooms ?? '-')}</td><td>${u.size || u.builtUpSqm ? esc(u.size ?? u.builtUpSqm) + ' sqm' : '-'}</td><td>${u.landSqm ? esc(u.landSqm) + ' sqm' : '-'}</td><td>${num(u.price) ? money(u.price, cur) : 'On request'}</td><td>${esc(u.availability || 'Ask')}</td><td>${wa(u.name)}${u.floorPlan ? ` <a class="plan-link" href="${esc(bigSrc(u.floorPlan))}">Plan</a>` : ''}</td></tr>`).join('')}</tbody></table></div>${unitPT.length ? `<p class="ds-note">Unit price type: ${esc(unitPT.join(' / '))}.</p>` : ''}` : '';
   const plans = p.floorPlans.length ? `<h4 class="sec-h">Floor plans &amp; site plan</h4><div class="plans row">${p.floorPlans.map((fp, i) => `<div class="col-6 col-md-4"><a class="plan-link" href="${esc(bigSrc(fp))}">${img(fp, `${t} floor plan ${i + 1}`, { sizes: '(min-width: 768px) 25vw, 50vw' })}</a></div>`).join('')}</div>` : '';
   const pay = [
     p.paymentPlan.length ? `<ul class="check-list pay-list">${p.paymentPlan.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '',
@@ -729,8 +732,15 @@ function projectPage(p) {
   const near = p.nearby?.length ? `<h4 class="sec-h">Nearby</h4><ul class="nearby-list">${p.nearby.map((n) => `<li><span>${esc(n.place)}</span><span>${esc(n.distance || '')}${n.mode && n.mode !== 'unspecified' ? ` <small>(${esc(n.mode)})</small>` : ''}</span></li>`).join('')}</ul>` : '';
   const srcs = p.sources.length ? `<h4 class="sec-h">Sources</h4><ul class="src-list">${p.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.label || x.url)}</a></li>`).join('')}</ul>` : '';
   const verified = dateFmt(p.lastVerified);
+  const faqItems = (Array.isArray(p.faq) && p.faq.some((x) => x.question && x.answer)) ? p.faq.filter((x) => x.question && x.answer).map((x) => [x.question, x.answer]) : [
+    [`Where is ${t}?`, `${t} is a ${String(p.projectType).toLowerCase()} project in ${p.location}, Phuket${p.developer ? `, developed by ${p.developer}` : ''}.${p.address && p.address !== `${p.location}, Phuket` ? ` Address: ${p.address}.` : ''}`],
+    [`What is the starting price of ${t}?`, f.price ? `${p.priceType || 'The advertised starting price'} is ${money(f.price, cur)}${verified ? `, last checked ${verified}` : ''}. Prices and availability change, so ask us on WhatsApp for the current figures.` : `No public price is available for ${t}. Message us on WhatsApp and we will ask for the current price list.`],
+    ...(p.ownership.length ? [[`What ownership is offered at ${t}?`, `Sources list ${p.ownership.join(' and ').toLowerCase()} ownership. Always confirm the exact title and conditions with a Thai lawyer before buying; this is general information, not legal advice.`]] : []),
+    [`When will ${t} be ready?`, `Current status: ${String(p.constructionStatus).toLowerCase()}${p.completionDate ? `; completion date listed as ${p.completionDate}` : ''}. Dates can change, so please confirm with us.`],
+  ];
+  const faqBlock = `<h4 class="sec-h">Frequently asked questions</h4><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
   const priceBlock = f.price
-    ? `<div class="ds-price"><small>Starting from</small><br>${money(f.price, cur)}</div><p class="ds-note">${p.priceNote ? esc(p.priceNote) + ' ' : ''}Advertised starting price${verified ? `, last checked ${verified}` : ''}. Confirm current availability with our team.</p>`
+    ? `<div class="ds-price"><small>Starting from</small><br>${money(f.price, cur)}</div><p class="ds-note">${p.priceNote ? esc(p.priceNote) + ' ' : ''}${p.priceType ? esc(p.priceType) + ' (starting price)' : 'Advertised starting price'}${verified ? `, last checked ${verified}` : ''}. Confirm current availability with our team.</p>`
     : `<div class="ds-price"><small>Price on request</small></div><p class="ds-note">No public price is published for this project. Ask us for current prices.</p>`;
   const ld = { '@context': 'https://schema.org', '@type': 'RealEstateListing', name: t, url: SITE + url(p), description: desc, image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), datePosted: p.publishedAt, ...(f.price ? { offers: { '@type': 'Offer', price: f.price, priceCurrency: cur } } : {}), about: { '@type': 'Residence', name: t, address: { '@type': 'PostalAddress', addressLocality: p.location, addressRegion: 'Phuket', addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
   const body = `${pageHead(t, `${p.category} in ${p.location}`, crumbs)}
@@ -743,7 +753,7 @@ function projectPage(p) {
 					<h2 class="sec-h">Project overview</h2>
 					<div class="desc">${paras(p.description)}</div>
 					${p.facilities?.length ? `<h4 class="sec-h">Facilities &amp; amenities</h4>${list_(p.facilities)}` : ''}
-					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}
+					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}${faqBlock}
 					${p.googleMapsUrl ? `<p class="map-link"><a href="${esc(p.googleMapsUrl)}" target="_blank" rel="noopener">Open in Google Maps</a></p>` : ''}
 				</div>
 				<div class="col-lg-4">

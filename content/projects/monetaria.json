@@ -1,0 +1,158 @@
+{
+  "name": "Monetaria Villas",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Rawai",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Soi Werachod, Rawai, Mueang Phuket District, Phuket 83130",
+  "shortDescription": "35 single-storey private pool villas near Rawai Beach, in 3 and 4-bedroom layouts.",
+  "description": "Monetaria Villas is a development of 35 single-storey private pool villas near Rawai Beach on Phuket's southern tip, off Soi Werachod. Two layouts are offered: a 3-bedroom Type A of about 274 sqm and a 4-bedroom Type B of about 375 sqm, on plots of roughly 320 to 520 sqm. The project includes a clubhouse, fitness center, coworking space and cafe, with Thai-company freehold or foreign 30-year leasehold structures advertised.",
+  "startingPrice": 18900000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 274.1,
+  "builtUpMax": 374.9,
+  "landMin": 320,
+  "landMax": 520.46,
+  "totalUnits": 35,
+  "floors": "1",
+  "parking": "Covered parking",
+  "privatePool": "yes",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "constructionStatus": "Status on request",
+  "paymentPlan": [
+    "Booking fee THB 200,000",
+    "30% deposit on contract signing",
+    "70% in construction-linked installments until completion"
+  ],
+  "facilities": [
+    "24/7 security",
+    "CCTV",
+    "Covered parking",
+    "Fitness center",
+    "Landscaped tropical gardens",
+    "Coworking space",
+    "Cafe",
+    "Clubhouse",
+    "Restaurant",
+    "Pickleball court",
+    "Pet-friendly",
+    "Underground utilities",
+    "Property management"
+  ],
+  "nearby": [
+    {
+      "place": "Lighthouse Phuket school",
+      "distance": "0.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "BCIS Phuket International School",
+      "distance": "7.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "10.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "15 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Rawai Beach and Pier",
+      "distance": "walking distance",
+      "mode": "walk"
+    },
+    {
+      "place": "Nai Harn and Ya Nui beaches",
+      "distance": "within 5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 45 minutes",
+      "mode": "drive"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A 3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "274.1",
+      "price": 18900000,
+      "floorPlan": "/assets/images/floorplans/monetaria/plan-9.jpg",
+      "priceType": "Agent advertised price"
+    },
+    {
+      "name": "Type B 4BR Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "374.9",
+      "price": 25900000,
+      "floorPlan": "/assets/images/floorplans/monetaria/plan-10.jpg",
+      "priceType": "Agent advertised price"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/monetaria/photo-12.jpg",
+    "/assets/images/projects/monetaria/photo-2.jpg",
+    "/assets/images/projects/monetaria/photo-3.jpg",
+    "/assets/images/projects/monetaria/photo-4.jpg",
+    "/assets/images/projects/monetaria/photo-5.jpg",
+    "/assets/images/projects/monetaria/photo-6.jpg",
+    "/assets/images/projects/monetaria/photo-7.jpg",
+    "/assets/images/projects/monetaria/photo-8.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/monetaria/plan-9.jpg",
+    "/assets/images/floorplans/monetaria/plan-10.jpg",
+    "/assets/images/floorplans/monetaria/plan-11.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/monetaria-villas"
+    },
+    {
+      "label": "phuket.pro",
+      "url": "https://phuket.pro/project/monetaria-villas"
+    },
+    {
+      "label": "FazWaz project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/monetaria-villas"
+    }
+  ],
+  "researchNotes": "Completion conflict: Keller Henson says 2026 Q3; phuket.pro, FazWaz and another page say April 2025 / Q2 2025 (completed). Not confirmed completed, status set to Under construction. No official developer website or brochure found. Ownership: Keller Henson says Thai freehold, foreign 30+30+30 leasehold. Gallery images not individually inspected; kinds/captions are generic. | THB 18.9M presales promo for 3BR Type A per Keller Henson. phuket.pro lists a higher 'from' price of THB 22.25M (conflict; may reflect different availability).",
+  "imagesStatus": "available",
+  "developer": "ABC Developer Co., Ltd.",
+  "reservationFee": "THB 200,000",
+  "promotions": "Presales promotion price for the 3-bedroom Type A",
+  "cover": "/assets/images/projects/monetaria/photo-1.jpg",
+  "imageCaptions": [
+    "Street-side facade with carport",
+    "Entrance facade with covered parking",
+    "Rear terrace, pool and living area",
+    "Pool terrace and living area",
+    "Pool terrace at the rear of the villa",
+    "Villa and garden side view",
+    "Pool terrace and open living area",
+    "Swimming pool and glazed living area"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/monetaria-villas"
+}

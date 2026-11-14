@@ -37,22 +37,30 @@
     {
       "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 3961000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "1 Bedroom Plus",
       "bedrooms": 1,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 6100000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom S",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 7300000,
+      "priceType": "Agent advertised price"
     },
     {
       "name": "2 Bedroom M",
       "bedrooms": 2,
-      "availability": "Available"
+      "availability": "Available",
+      "price": 8200000,
+      "priceType": "Agent advertised price"
     }
   ],
   "nearby": [
@@ -79,5 +87,11 @@
   ],
   "featured": false,
   "published": true,
-  "publishedAt": "2026-11-12"
+  "publishedAt": "2026-11-12",
+  "startingPrice": 3961000,
+  "priceStatus": "advertised",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/unit/the-olive-1br",
+  "lastVerified": "2026-11-14",
+  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-06-21. Unit prices on the source are rounded to the nearest 0.1M."
 }
