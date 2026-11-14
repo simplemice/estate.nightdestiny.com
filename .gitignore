@@ -1,8 +1,32 @@
+# dependencies
 node_modules/
-.DS_Store
 
-# internal docs / reports - not part of the published site
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log
+npm-debug.log*
+
+# local tooling
+.claude/
+.env
+.env.*
+
+# internal docs, SEO reports and research - not part of the published site
 docs/
 SEO_*.md
 NEW_PHUKET_PROJECTS_RESEARCH_REPORT.md
 PAGES_CMS_IMPLEMENTATION_REPORT.md
+*_REPORT.md
+
+# template source archives (zips) - the site uses the compiled files in css/ js/ fonts/
+Source/
+
+# scratch / backups
+*.bak
+*.orig
+*.tmp
+tmp/
