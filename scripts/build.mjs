@@ -39,6 +39,7 @@ const waMsg = {
   unit: (u, n, loc) => `Hello, I am interested in the ${u} at ${n}${loc ? ', ' + loc : ''}. Could you please confirm current availability and price?`,
   general: () => 'Hello! I would like to receive more information about your properties.',
 };
+const addrLink = () => (settings.mapUrl && /^https:\/\//.test(settings.mapUrl) ? `<a href="${esc(settings.mapUrl)}" target="_blank" rel="noopener">${esc(settings.address)}</a>` : esc(settings.address));
 const telLink = () => `<a href="tel:+${WA_TEL}">${esc(settings.phoneDisplay)}</a>`;
 const mailLink = () => `<a href="mailto:${esc(settings.email)}">${esc(settings.email)}</a>`;
 const waBtn = (msg, cls = 'wa-btn', label = 'WhatsApp') =>
@@ -341,7 +342,7 @@ ${GENERATED_MARK}
 					<div class="col-lg-3 offset-lg-1">
 						<div class="ft-contact">
 							<p class="ft-title">Contact Us</p>
-							<ul><li>${telLink()}</li><li>${mailLink()}</li><li>${esc(settings.address)}</li></ul>
+							<ul><li>${telLink()}</li><li>${mailLink()}</li><li>${addrLink()}</li></ul>
 						</div>
 					</div>
 					<div class="col-lg-3 offset-lg-1">
@@ -882,7 +883,7 @@ function contactPage() {
   const body = `${pageHead('Contact Us', 'We reply fastest on WhatsApp', [['/', 'Home'], ['', 'Contact']])}
 	<section class="spad-2"><div class="container"><div class="row"><div class="col-lg-6 offset-lg-3 text-center contact-box">
 		<p>${waBtn(waMsg.general(), 'wa-btn wa-block', 'Chat with us on WhatsApp')}</p>
-		<ul class="contact-list"><li><i class="fa fa-phone"></i> ${telLink()}</li><li><i class="fa fa-envelope"></i> ${mailLink()}</li><li><i class="fa fa-map-marker"></i> ${esc(settings.address)}</li></ul>
+		<ul class="contact-list"><li><i class="fa fa-phone"></i> ${telLink()}</li><li><i class="fa fa-envelope"></i> ${mailLink()}</li><li><i class="fa fa-map-marker"></i> ${addrLink()}</li></ul>
 	</div></div></div></section>`;
   return layout({ title: `Contact | ${settings.siteName}`, description: 'Contact Nightdestiny Estate on WhatsApp, phone or email for rentals, sales and new projects in Phuket.', pathname: '/contact/', active: 'contact', body });
 }

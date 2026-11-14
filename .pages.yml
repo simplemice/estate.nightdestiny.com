@@ -39,7 +39,8 @@ content:
       - { name: whatsappNumber, label: WhatsApp number, type: string, required: true, description: "Digits only, with country code, no + (e.g. 66942654121). Used everywhere.", pattern: { regex: "^[0-9]{8,15}$", message: "Digits only, no + or spaces" } }
       - { name: phoneDisplay, label: Phone (display), type: string }
       - { name: email, label: Email, type: string }
-      - { name: address, label: Address, type: string }
+      - { name: address, label: Office address (text shown in footer and Contact page), type: string }
+      - { name: mapUrl, label: Office map link (Google Maps), type: string, description: "Makes the address a link. Leave empty for plain text." }
       - { name: instagram, label: Instagram URL, type: string }
       - { name: heroImage, label: Home hero image, type: image }
       - { name: heroTitle, label: Home hero title, type: string }
