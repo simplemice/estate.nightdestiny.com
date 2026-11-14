@@ -1,8 +1,11 @@
 {
   "title": "One Bedroom Plus Condo",
+  "published": true,
+  "featured": true,
+  "publishedAt": "2026-04-02",
   "propertyType": "Condo",
   "location": "Phuket",
-  "price": 59,
+  "price": 79,
   "currency": "USD",
   "pricePeriod": "night",
   "bedrooms": 1,
@@ -19,8 +22,5 @@
   "images": [
     "/img/room/room-2.jpg"
   ],
-  "availability": "Available",
-  "featured": true,
-  "published": true,
-  "publishedAt": "2026-04-02"
+  "availability": "Available"
 }
