@@ -6,6 +6,12 @@
   ]
  },
  {
+  "name": "Bang Jo (Si Sunthon / Cherngtalay area)",
+  "projects": [
+   "the-tales-story-one-bangjo"
+  ]
+ },
+ {
   "name": "Bang Tao",
   "projects": [
    "manor",
@@ -19,6 +25,24 @@
   ]
  },
  {
+  "name": "Bang Tao (Cherngtalay)",
+  "projects": [
+   "purita-phuket-bangtao"
+  ]
+ },
+ {
+  "name": "Bang Tao (Pa Sak / Choeng Thale, Thalang)",
+  "projects": [
+   "gardens-of-eden-park-residences"
+  ]
+ },
+ {
+  "name": "Bang Tao / Choeng Thale (Laguna Phuket)",
+  "projects": [
+   "bellaguna-golf-residences-hibiscus"
+  ]
+ },
+ {
   "name": "Cherng Talay",
   "projects": [
    "wynn",
@@ -27,6 +51,36 @@
    "naturale-cherng-talay",
    "sunrise-valley",
    "villa-kirara"
+  ]
+ },
+ {
+  "name": "Cherng Talay (Choeng Thale), Thalang",
+  "projects": [
+   "the-base-cherngtalay"
+  ]
+ },
+ {
+  "name": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
+  "projects": [
+   "surfhouse-residences"
+  ]
+ },
+ {
+  "name": "Cherngtalay (Choeng Thale), near Layan Beach",
+  "projects": [
+   "layan-green-park-phase-2"
+  ]
+ },
+ {
+  "name": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
+  "projects": [
+   "hythe-by-botanica"
+  ]
+ },
+ {
+  "name": "Choeng Thale (Laguna Lakelands)",
+  "projects": [
+   "skypark-elara-lakelands"
   ]
  },
  {
@@ -47,6 +101,7 @@
  {
   "name": "Kata",
   "projects": [
+   "so-origin-kata-phuket",
    "fizz",
    "the-katabello"
   ]
@@ -72,10 +127,28 @@
   ]
  },
  {
+  "name": "Laguna Phuket (near Bang Tao)",
+  "projects": [
+   "angsana-golf-residences-topaz"
+  ]
+ },
+ {
+  "name": "Laguna Phuket, Bang Tao / Cherng Talay",
+  "projects": [
+   "laguna-lake-residences-aster"
+  ]
+ },
+ {
   "name": "Layan",
   "projects": [
    "aileen-villas-layan",
    "pavara-vhana-collection"
+  ]
+ },
+ {
+  "name": "Layan Beach / Layan Bay, Cherng Talay",
+  "projects": [
+   "kiara-reserve-residences"
   ]
  },
  {
@@ -91,6 +164,12 @@
    "the-olive",
    "the-title-halo-1",
    "the-title-serenity-naiyang"
+  ]
+ },
+ {
+  "name": "Patong",
+  "projects": [
+   "brisa-patong"
   ]
  },
  {
@@ -115,6 +194,7 @@
   "name": "Rawai",
   "projects": [
    "monetaria",
+   "next-point-rawai",
    "adora-rawai",
    "the-title-cielo-rawai",
    "villa-sumalee"

@@ -1,0 +1,181 @@
+{
+  "name": "PURITA Phuket Bangtao",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Bang Tao (Cherngtalay)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Pasak-Koktanod Road, Cherngtalay, Thalang, Phuket, Thailand",
+  "shortDescription": "PURITA Phuket Bangtao is a new condominium by CG Capital, the investment arm of the family behind Central Group, on a 10-rai plot in Cherngtalay.",
+  "description": "PURITA Phuket Bangtao is a new condominium by CG Capital, the investment arm of the family behind Central Group, on a 10-rai plot in Cherngtalay. It has four six-storey buildings and one villa around a courtyard garden with a 50-metre pool, with 258 furnished units in total. Apartments are one-bedroom, two-bedroom and two-bedroom-plus types from 56.4 to 136 sqm. Completion is announced for November 2028.",
+  "startingPrice": 7997000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "builtUpMin": 56.4,
+  "builtUpMax": 136,
+  "totalUnits": 258,
+  "floors": "6",
+  "furniture": "Fully furnished with kitchen, built-in wardrobes, furniture and appliances",
+  "parking": "125 car spaces",
+  "reservationFee": "THB 100,000 (1BR), 200,000 (2BR), 300,000",
+  "commonAreaFee": "THB 80 per sqm per month",
+  "sinkingFund": "THB 600 per sqm, one-time",
+  "completionDate": "November 2028",
+  "website": "https://puritaphuket.com/",
+  "privatePool": "no",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Pre-sale",
+  "paymentPlan": [
+    "Reservation fee THB 100,000 (1BR) / 200,000 (2BR) / 300,000 (2BR+ and villa)",
+    "20% at contract (from 1 December 2026)",
+    "30% in instalments December 2026 - October 2028",
+    "50% on transfer at completion, November 2028"
+  ],
+  "facilities": [
+    "50-metre swimming pool",
+    "3-rai courtyard garden",
+    "Lobby with lounge and patio",
+    "Co-working space and meeting rooms",
+    "Fitness centre",
+    "Changing rooms with private steam rooms",
+    "Drop-off area",
+    "Parking for 125 cars",
+    "One year of concierge service included"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "1.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "POP Phuket mall",
+      "distance": "next door",
+      "mode": "unspecified"
+    },
+    {
+      "place": "The Standard Residences Phuket Bang Tao",
+      "distance": "120 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "500 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "900 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Laguna Golf",
+      "distance": "2.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "25 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1BR",
+      "bedrooms": 1,
+      "size": "56.4",
+      "price": 7997000
+    },
+    {
+      "name": "1BR courtyard-facing",
+      "bedrooms": 1,
+      "size": "58.4",
+      "price": 9634000
+    },
+    {
+      "name": "2BR",
+      "bedrooms": 2,
+      "size": "93",
+      "price": 14871000
+    },
+    {
+      "name": "2BR with garden access (ground floor)",
+      "bedrooms": 2,
+      "size": "103.5",
+      "price": 16795000
+    },
+    {
+      "name": "2BR Plus",
+      "bedrooms": 2,
+      "size": "124.5",
+      "price": 19899000
+    },
+    {
+      "name": "2BR Plus with garden access (ground floor)",
+      "bedrooms": 2,
+      "size": "136",
+      "price": 22929000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/purita-phuket-bangtao/photo-2.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-3.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-4.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-5.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-6.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-7.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-8.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-9.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/purita-phuket-bangtao/plan-10.jpg",
+    "/assets/images/floorplans/purita-phuket-bangtao/plan-11.jpg",
+    "/assets/images/floorplans/purita-phuket-bangtao/plan-12.jpg"
+  ],
+  "sources": [
+    {
+      "label": "PURITA Phuket Bangtao project site",
+      "url": "https://puritaphuket.com/"
+    },
+    {
+      "label": "BURO",
+      "url": "https://buro.co.th/en/p/purita-phuket-bangtao"
+    },
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/purita-phuket-bangtao"
+    },
+    {
+      "label": "Thai PR press release",
+      "url": "https://www.thaipr.net/en/estate_en/3773881"
+    },
+    {
+      "label": "Malay Mail press release",
+      "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/11/10/cg-capital-targets-phukets-premium-residences-market-with-usd-90-million-purita-phuket-bangtao-a-new-residential-development-on-a-rare-landholding-in-bang-tao-cherng-talay/499872"
+    }
+  ],
+  "researchNotes": "Identity: official name is PURITA Phuket Bangtao (supplied 'PURITA Phuket'). Developer CG Capital confirmed by press release coverage. puritaphuket.com appears to be a sales/marketing site (price list, 3D model) rather than the developer's own site; price list data attributed there to the developer. Only buildings A and C are in the first price list (79 units, 19 shown available); buildings B, D and the 708 sqm villa (built-up vs land area not stated) are not yet priced. 1BR units are leasehold except 6th floor of building C (freehold); 2BR and 2BR+ freehold, 93 sqm 2BR under foreign quota. Bathrooms, exact coordinates and bedroom count of villa not found. Launch press release gives THB 7.29M start and a VIP event on 29 Nov; BURO/Keller Henson built-up ranges differ (Keller Henson 58-124 sqm). Land title: 10-0-72.3 rai (16,289 sqm). Images are developer visualisations; final design may differ. Beach distance is 1.5 km (site) vs 1.3 km / 2.3 km on portals. | Lowest unit price in the 12 Nov 2026 price list shown at puritaphuket.com is THB 7,997,000 (56.4 sqm 1BR, leasehold). The same page also quotes 'from THB 7.87 million' and 'from 8M'; a launch press release says from THB 7.29 million; BURO says from 7.87M; Keller Henson 10.65M. Per-unit discounts of THB 300,000 (1BR) to 800,000 (2BR+) are shown. Launch prices valid until 28 Nov 2026.",
+  "cover": "/assets/images/projects/purita-phuket-bangtao/photo-1.jpg",
+  "imageCaptions": [
+    "Buildings around the courtyard, developer visualisation",
+    "Courtyard garden and 50 m pool from above",
+    "50-metre swimming pool",
+    "Courtyard garden and pool",
+    "Facade with wood balcony accents",
+    "Lobby and lounge",
+    "Fitness centre",
+    "One-bedroom living and dining area",
+    "One-bedroom bedroom"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://puritaphuket.com/",
+  "developer": "CG Capital"
+}

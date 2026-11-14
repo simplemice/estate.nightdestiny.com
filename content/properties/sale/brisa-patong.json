@@ -1,0 +1,28 @@
+{
+  "title": "BRISA Patong by Sansiri",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/brisa-patong.json",
+  "propertyType": "Condo",
+  "location": "Patong",
+  "address": "Patong Sai 3 Road, Patong, Kathu, Phuket",
+  "currency": "THB",
+  "shortDescription": "BRISA Patong is a Sansiri condominium of 389 homes in three eight-storey buildings on about 4 rai in central Patong.",
+  "description": "BRISA Patong is a Sansiri condominium of 389 homes in three eight-storey buildings on about 4 rai in central Patong. Homes are one- and two-bedroom units of roughly 30 to 71 sqm, with about 70 percent being one-bedroom units. Units are handed over furnished. Planned facilities include a pool, gym, sauna, cold plunge and a garden.",
+  "availability": "Available",
+  "price": 3899999,
+  "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/brisa-patong/photo-2.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Swimming pool",
+    "Gym",
+    "Sauna",
+    "Cold plunge",
+    "Sansiri Backyard garden",
+    "Security"
+  ]
+}

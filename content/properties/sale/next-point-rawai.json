@@ -1,0 +1,35 @@
+{
+  "title": "Next Point Condominium Rawai",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/next-point-rawai.json",
+  "propertyType": "Condo",
+  "location": "Rawai",
+  "address": "Rawai, Mueang Phuket, Phuket, Thailand",
+  "currency": "THB",
+  "shortDescription": "Next Point Condominium is an off-plan low-rise condominium in Rawai, southern Phuket, made up of four seven-storey buildings on a site of roughly 8,000 sqm.",
+  "description": "Next Point Condominium is an off-plan low-rise condominium in Rawai, southern Phuket, made up of four seven-storey buildings on a site of roughly 8,000 sqm. Units range from about 35 sqm studios to larger two- and three-bedroom apartments and duplex penthouses, with a pool, rooftop terrace, garden and fitness facilities. The developer is reported as AE Phuket Co., Ltd., a construction company.",
+  "availability": "Available",
+  "price": 3150000,
+  "cover": "/assets/images/projects/next-point-rawai/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/next-point-rawai/photo-2.jpg",
+    "/assets/images/projects/next-point-rawai/photo-3.jpg",
+    "/assets/images/projects/next-point-rawai/photo-4.jpg",
+    "/assets/images/projects/next-point-rawai/photo-5.jpg",
+    "/assets/images/projects/next-point-rawai/photo-7.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Communal swimming pool(s); one listing cites four pools including a rooftop infinity pool",
+    "Rooftop terrace with barbecue area and sun loungers",
+    "Landscaped courtyard garden",
+    "Fitness room",
+    "Lobby with reception",
+    "Recreation room",
+    "Elevators",
+    "Covered / underground parking",
+    "CCTV and 24/7 security"
+  ]
+}

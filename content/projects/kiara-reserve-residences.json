@@ -1,0 +1,114 @@
+{
+  "name": "Kiara Reserve Residences",
+  "category": "Condominium",
+  "projectType": "Branded beachfront condominium",
+  "location": "Layan Beach / Layan Bay, Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Layan Beach / Layan Bay, Cherng Talay, Phuket",
+  "developer": "Minor International",
+  "shortDescription": "Kiara Reserve Residences is a branded beachfront condominium by Minor International at Layan Beach in Phuket, adjacent to the Anantara Layan resort and managed ",
+  "description": "Kiara Reserve Residences is a branded beachfront condominium by Minor International at Layan Beach in Phuket, adjacent to the Anantara Layan resort and managed with Anantara. The condominium building has 5 floors and 25 units in three- and four-bedroom layouts, including duplexes and penthouses. Built-up areas run from about 251 sqm upward, with owners able to join a rental programme.",
+  "startingPrice": 44500000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "builtUpMin": 251,
+  "builtUpMax": 829,
+  "totalUnits": 25,
+  "floors": "5",
+  "reservationFee": "THB 1,000,000",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Completed",
+  "paymentPlan": [
+    "THB 1,000,000 booking fee",
+    "30% deposit on contract"
+  ],
+  "facilities": [
+    "BBQ area",
+    "24/7 security and CCTV",
+    "Covered parking",
+    "Fitness center",
+    "Landscaped gardens",
+    "Lobby with reception",
+    "Sky lounge",
+    "On-site restaurant",
+    "Jacuzzi",
+    "Rooftop terrace",
+    "24/7 concierge",
+    "Direct beachfront access"
+  ],
+  "nearby": [
+    {
+      "place": "Bumrungrad Hospital Phuket",
+      "distance": "9.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Mingle Mall Naiyang",
+      "distance": "5.3 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "3BR Typical",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "251",
+      "price": 44500000,
+      "availability": "Limited"
+    },
+    {
+      "name": "3BR Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "382",
+      "price": 67500000
+    },
+    {
+      "name": "4BR Penthouse",
+      "bedrooms": 4
+    }
+  ],
+  "images": [
+    "/assets/images/projects/kiara-reserve-residences/photo-2.jpg",
+    "/assets/images/projects/kiara-reserve-residences/photo-3.jpg",
+    "/assets/images/projects/kiara-reserve-residences/photo-4.jpg",
+    "/assets/images/projects/kiara-reserve-residences/photo-5.jpg",
+    "/assets/images/projects/kiara-reserve-residences/photo-6.jpg",
+    "/assets/images/projects/kiara-reserve-residences/photo-7.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson - condominium",
+      "url": "https://kellerhenson.com/project/kiara-reserve-residences-condominium"
+    },
+    {
+      "label": "EdgeProp launch article",
+      "url": "https://edgeprop.sg/property-news/minor-international-unveils-latest-phuket-branded-residence-kiara-reserve"
+    }
+  ],
+  "researchNotes": "Project has two products: a condominium (25 units, used here) and villas (17 per EdgeProp, sold separately); supplied name 'Residences' matches the condominium listing. Developer: Minor International; EdgeProp also names Kajima Corporation as partner. Ownership conflict: Keller Henson says freehold (foreign quota 49%) but also mentions 'lease registration' and Papaya reportedly lists leasehold - verify with lawyer. Papaya page was 404. Completion dates conflict (2025/Dec 2025/2026 Q1). Unit count 25 here vs 29 in another source. Address (Layan Beach Soi 4 per a Sotheby's listing) not verified. Distances unspecified mode. | Keller Henson: 3BR typical THB 44.5M, 3BR duplex 67.5M, range up to 115.5M. Separate villa product (Keller Henson villa page) is listed from about THB 75M and is not included. EdgeProp (launch article) quoted US$1-3M.",
+  "cover": "/assets/images/projects/kiara-reserve-residences/photo-1.jpg",
+  "imageCaptions": [
+    "Kiara Reserve Residences photo 1",
+    "Kiara Reserve Residences photo 2",
+    "Kiara Reserve Residences photo 3",
+    "Kiara Reserve Residences photo 4",
+    "Kiara Reserve Residences photo 5",
+    "Kiara Reserve Residences photo 6",
+    "Kiara Reserve Residences photo 7"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/kiara-reserve-residences-condominium"
+}

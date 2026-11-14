@@ -1,0 +1,87 @@
+{
+  "name": "BRISA Patong by Sansiri",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Patong",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Patong Sai 3 Road, Patong, Kathu, Phuket",
+  "developer": "Sansiri PCL",
+  "shortDescription": "BRISA Patong is a Sansiri condominium of 389 homes in three eight-storey buildings on about 4 rai in central Patong.",
+  "description": "BRISA Patong is a Sansiri condominium of 389 homes in three eight-storey buildings on about 4 rai in central Patong. Homes are one- and two-bedroom units of roughly 30 to 71 sqm, with about 70 percent being one-bedroom units. Units are handed over furnished. Planned facilities include a pool, gym, sauna, cold plunge and a garden.",
+  "startingPrice": 3899999,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "builtUpMin": 30,
+  "builtUpMax": 71,
+  "totalUnits": 389,
+  "floors": "8",
+  "furniture": "Furnished, handed over with six appliances",
+  "parking": "198 spaces",
+  "website": "https://www.thailand-property.com/condo/50310/brisa-patong-by-sansiri",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Pre-sale",
+  "facilities": [
+    "Swimming pool",
+    "Gym",
+    "Sauna",
+    "Cold plunge",
+    "Sansiri Backyard garden",
+    "Security"
+  ],
+  "nearby": [
+    {
+      "place": "Jungceylon mall",
+      "distance": "350 m",
+      "mode": "walking"
+    },
+    {
+      "place": "Patong Beach",
+      "distance": "900 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangla Road",
+      "distance": "900 m",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1 bedroom",
+      "bedrooms": 1,
+      "size": "30-34"
+    },
+    {
+      "name": "2 bedroom",
+      "bedrooms": 2,
+      "size": "up to 70.75"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/brisa-patong/photo-2.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Thailand-Property project page",
+      "url": "https://www.thailand-property.com/condo/50310/brisa-patong-by-sansiri"
+    }
+  ],
+  "researchNotes": "Identity clear (Sansiri). Official Sansiri page not found. Launch dates conflict: booking 25 Nov 2026 vs public grand opening 7 Dec 2026 (FazWaz). Completion not announced. Freehold assumed from search summary (condo); not read on an official page. No fees or payment plan found. Unit builtUp ranges given as strings in unitTypes. Only portal page was read directly; FazWaz and Kaohoon returned 403. Land ~4 rai from search summary. | Portal shows 3,899,999-7,275,000 THB (2 units listed); Thai news reports 3.9-13.9M THB range. Starting price consistent at about 3.9M.",
+  "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
+  "imageCaptions": [
+    "BRISA Patong exterior render (three 8-storey buildings)",
+    "Entrance drop-off and ground-floor fitness render"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://www.thailand-property.com/condo/50310/brisa-patong-by-sansiri"
+}

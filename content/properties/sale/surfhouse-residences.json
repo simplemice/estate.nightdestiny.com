@@ -1,0 +1,36 @@
+{
+  "title": "Surfhouse Residences",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/surfhouse-residences.json",
+  "propertyType": "Condo",
+  "location": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
+  "address": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna, Phuket",
+  "currency": "THB",
+  "shortDescription": "Surfhouse Residences is a boutique seven-storey condominium of 34 residences in Cherngtalay, Thalang, Phuket, developed and managed by SALA Hospitality Group.",
+  "description": "Surfhouse Residences is a boutique seven-storey condominium of 34 residences in Cherngtalay, Thalang, Phuket, developed and managed by SALA Hospitality Group. Units range from one to three bedrooms. Facilities include an 18-metre saltwater pool, gym, lobby lounge and concierge service.",
+  "availability": "Available",
+  "price": 8400000,
+  "cover": "/assets/images/projects/surfhouse-residences/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/surfhouse-residences/photo-2.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-3.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-4.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-5.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "18 m saltwater swimming pool",
+    "Gym / fitness centre",
+    "Laundry room",
+    "Lobby social area",
+    "Covered parking",
+    "24/7 security and CCTV",
+    "24/7 concierge",
+    "Landscaped gardens",
+    "Pet-friendly",
+    "Rental management and housekeeping by SALA"
+  ]
+}

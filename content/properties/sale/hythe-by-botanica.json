@@ -1,0 +1,37 @@
+{
+  "title": "HYTHE by Botanica",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/hythe-by-botanica.json",
+  "propertyType": "Condo",
+  "location": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
+  "address": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area, Phuket",
+  "currency": "THB",
+  "shortDescription": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development.",
+  "description": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development. It is the first condominium project by Botanica Luxury Villas and is marketed as a vertical villa. The project comprises four six-storey buildings and a clubhouse, with one- to three-bedroom units, duplexes with private pools and penthouses.",
+  "availability": "Available",
+  "price": 11475000,
+  "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/hythe-by-botanica/photo-2.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-3.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-4.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-5.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Clubhouse",
+    "Central garden",
+    "Swimming pool",
+    "Fitness center",
+    "Children's zone",
+    "Jogging track",
+    "Steam room",
+    "Lobby with reception",
+    "24/7 security and CCTV",
+    "Covered parking",
+    "Duplexes and penthouses: private pools"
+  ]
+}

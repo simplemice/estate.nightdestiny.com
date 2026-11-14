@@ -29,6 +29,238 @@
   "lastVerified": "2026-11-14"
  },
  {
+  "id": "angsana-golf-residences-topaz",
+  "name": "Angsana Golf Residences Topaz",
+  "url": "/projects/angsana-golf-residences-topaz/",
+  "category": "Condominium",
+  "propertyType": "Low-rise branded residences",
+  "developer": "Banyan Group Residences (Banyan Group)",
+  "location": "Laguna Phuket (near Bang Tao)",
+  "startingPrice": 22840000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   3
+  ],
+  "bathrooms": [
+   2,
+   3
+  ],
+  "builtUpArea": [
+   128,
+   194
+  ],
+  "status": "Under construction",
+  "completionDate": "Q4 2027 (advertised, not confirmed by developer)",
+  "cover": "/assets/images/projects/angsana-golf-residences-topaz/photo-1.jpg",
+  "imageCount": 8,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "bellaguna-golf-residences-hibiscus",
+  "name": "Bellaguna Golf Residences Hibiscus",
+  "url": "/projects/bellaguna-golf-residences-hibiscus/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Laguna Property (Banyan Group)",
+  "location": "Bang Tao / Choeng Thale (Laguna Phuket)",
+  "startingPrice": 13200000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   67,
+   297
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-1.jpg",
+  "imageCount": 8,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "brisa-patong",
+  "name": "BRISA Patong by Sansiri",
+  "url": "/projects/brisa-patong/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Sansiri PCL",
+  "location": "Patong",
+  "startingPrice": 3899999,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   30,
+   71
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
+  "imageCount": 2,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "gardens-of-eden-park-residences",
+  "name": "Gardens of Eden - Park Residences",
+  "url": "/projects/gardens-of-eden-park-residences/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Amal Development Company Limited",
+  "location": "Bang Tao (Pa Sak / Choeng Thale, Thalang)",
+  "startingPrice": 13908240,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   56,
+   122
+  ],
+  "status": "Under construction",
+  "completionDate": "Q4 2027",
+  "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "hythe-by-botanica",
+  "name": "HYTHE by Botanica",
+  "url": "/projects/hythe-by-botanica/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Botanica Luxury Phuket Co., Ltd",
+  "location": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
+  "startingPrice": 11475000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   4
+  ],
+  "bathrooms": [
+   1,
+   4
+  ],
+  "builtUpArea": [
+   57,
+   716
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "kiara-reserve-residences",
+  "name": "Kiara Reserve Residences",
+  "url": "/projects/kiara-reserve-residences/",
+  "category": "Condominium",
+  "propertyType": "Branded beachfront condominium",
+  "developer": "Minor International",
+  "location": "Layan Beach / Layan Bay, Cherng Talay",
+  "startingPrice": 44500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   251,
+   829
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/kiara-reserve-residences/photo-1.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "laguna-lake-residences-aster",
+  "name": "Laguna Lake Residences Aster",
+  "url": "/projects/laguna-lake-residences-aster/",
+  "category": "Condominium",
+  "propertyType": "Lakeside low-rise condominium",
+  "developer": "Laguna Property",
+  "location": "Laguna Phuket, Bang Tao / Cherng Talay",
+  "startingPrice": 11630000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   56,
+   113
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "layan-green-park-phase-2",
+  "name": "Layan Green Park Phase 2",
+  "url": "/projects/layan-green-park-phase-2/",
+  "category": "Condominium",
+  "propertyType": "Eco condominium / aparthotel-style resort condo",
+  "developer": "VillaCarte Group",
+  "location": "Cherngtalay (Choeng Thale), near Layan Beach",
+  "startingPrice": 7500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   34.4,
+   220.3
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
+  "imageCount": 12,
+  "lastVerified": "2026-11-14"
+ },
+ {
   "id": "monetaria",
   "name": "Monetaria Villas",
   "url": "/projects/monetaria/",
@@ -55,6 +287,209 @@
   "completionDate": null,
   "cover": "/assets/images/projects/monetaria/photo-1.jpg",
   "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "next-point-rawai",
+  "name": "Next Point Condominium Rawai",
+  "url": "/projects/next-point-rawai/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "AE Phuket Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 3150000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   35,
+   269
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/next-point-rawai/photo-1.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "purita-phuket-bangtao",
+  "name": "PURITA Phuket Bangtao",
+  "url": "/projects/purita-phuket-bangtao/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "CG Capital",
+  "location": "Bang Tao (Cherngtalay)",
+  "startingPrice": 7997000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   56.4,
+   136
+  ],
+  "status": "Pre-sale",
+  "completionDate": "November 2028",
+  "cover": "/assets/images/projects/purita-phuket-bangtao/photo-1.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "skypark-elara-lakelands",
+  "name": "Skypark Elara Lakelands",
+  "url": "/projects/skypark-elara-lakelands/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Banyan Group Residences (Banyan Group)",
+  "location": "Choeng Thale (Laguna Lakelands)",
+  "startingPrice": 9120000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   54,
+   186
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/skypark-elara-lakelands/photo-1.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "so-origin-kata-phuket",
+  "name": "So Origin Kata Phuket",
+  "url": "/projects/so-origin-kata-phuket/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Origin Property PCL",
+  "location": "Kata",
+  "startingPrice": 3980000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   26,
+   65
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "surfhouse-residences",
+  "name": "Surfhouse Residences",
+  "url": "/projects/surfhouse-residences/",
+  "category": "Condominium",
+  "propertyType": "Boutique low-rise condominium",
+  "developer": "SALA Hospitality Group",
+  "location": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
+  "startingPrice": 8400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   60.26,
+   171.87
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "cover": "/assets/images/projects/surfhouse-residences/photo-1.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "the-base-cherngtalay",
+  "name": "The Base Cherngtalay",
+  "url": "/projects/the-base-cherngtalay/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Sansiri",
+  "location": "Cherng Talay (Choeng Thale), Thalang",
+  "startingPrice": 7690000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   2,
+   2
+  ],
+  "builtUpArea": [
+   27,
+   63
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-14"
+ },
+ {
+  "id": "the-tales-story-one-bangjo",
+  "name": "The Tales Story One - Bangjo",
+  "url": "/projects/the-tales-story-one-bangjo/",
+  "category": "Villa",
+  "propertyType": "Single-storey pool villa",
+  "developer": "Sansiri",
+  "location": "Bang Jo (Si Sunthon / Cherngtalay area)",
+  "startingPrice": 45000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   329,
+   401
+  ],
+  "status": "Completed",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-tales-story-one-bangjo/photo-1.jpg",
+  "imageCount": 8,
   "lastVerified": "2026-11-14"
  },
  {

@@ -1,0 +1,36 @@
+{
+  "title": "The Base Cherngtalay",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/the-base-cherngtalay.json",
+  "propertyType": "Condo",
+  "location": "Cherng Talay (Choeng Thale), Thalang",
+  "address": "Cherng Talay (Choeng Thale), Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "The Base Cherngtalay is a low-rise condominium by Sansiri in Cherng Talay, Phuket, on a site of about 4 rai.",
+  "description": "The Base Cherngtalay is a low-rise condominium by Sansiri in Cherng Talay, Phuket, on a site of about 4 rai. It comprises two 8-storey buildings with 341 one- and two-bedroom apartments of roughly 27 to 63 sqm. Units are sold furnished, and the project offers a pool, fitness center, co-working lounge, co-kitchen, organic farm and onsen.",
+  "availability": "Available",
+  "price": 7690000,
+  "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/the-base-cherngtalay/photo-2.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-3.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-4.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-5.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Swimming pool",
+    "Fitness center",
+    "Co-working lounge",
+    "Lobby",
+    "Community co-kitchen",
+    "Organic vegetable farm",
+    "Pet park",
+    "Communal gardens",
+    "Onsen",
+    "24-hour security (LIV-24 monitoring)"
+  ]
+}

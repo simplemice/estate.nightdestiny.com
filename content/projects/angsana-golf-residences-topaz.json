@@ -1,0 +1,111 @@
+{
+  "name": "Angsana Golf Residences Topaz",
+  "category": "Condominium",
+  "projectType": "Low-rise branded residences",
+  "location": "Laguna Phuket (near Bang Tao)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Laguna Phuket, Choeng Thale, Thalang, Phuket",
+  "shortDescription": "Angsana Golf Residences Topaz is a branded residential development by Banyan Group Residences inside the Laguna Phuket integrated resort.",
+  "description": "Angsana Golf Residences Topaz is a branded residential development by Banyan Group Residences inside the Laguna Phuket integrated resort. It consists of three curved low-rise buildings, each divided into two interconnected blocks, with two- and three-bedroom residences and penthouses. The ring-shaped rooftop pool offers views over the golf course, mountains and coast. Owners receive Laguna Golf Phuket membership and RAVA Beach Club access.",
+  "startingPrice": 22840000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 2,
+  "bedroomsMax": 3,
+  "builtUpMin": 128,
+  "builtUpMax": 194,
+  "furniture": "Furnished",
+  "parking": "Yes",
+  "completionDate": "Q4 2027 (advertised, not confirmed by developer)",
+  "website": "https://www.banyangroupresidences.com/thailand/phuket/angsana-golf-residences-topaz",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Ring-shaped rooftop pool with 360-degree views",
+    "Ground-floor BBQ area in tropical gardens",
+    "Penthouses with private rooftop pools",
+    "Direct garden access for ground-floor units",
+    "Community: Laguna Golf Phuket membership",
+    "Community: RAVA Beach Club Prestige Zone access",
+    "Community: Sanctuary Club",
+    "Community: Laguna Wellness by BDMS"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "30 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "2 bedroom (unit 1064)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "128",
+      "price": 22840000
+    },
+    {
+      "name": "3 bedroom (unit 1065)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "194",
+      "price": 43390000
+    },
+    {
+      "name": "Penthouse"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-2.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-3.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-4.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-5.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-6.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-7.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-11.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/angsana-golf-residences-topaz/plan-8.jpg",
+    "/assets/images/floorplans/angsana-golf-residences-topaz/plan-9.jpg",
+    "/assets/images/floorplans/angsana-golf-residences-topaz/plan-10.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences project page",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/angsana-golf-residences-topaz"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/banyan-group-residences/angsana-golf-residences-topaz"
+    },
+    {
+      "label": "Banyan press release via Hospitality Net",
+      "url": "https://www.hospitalitynet.org/announcement/41013953/banyan-group-residences-introduces-angsana-golf-residences-topaz-at-laguna-phuket"
+    }
+  ],
+  "researchNotes": "Official page presents Topaz as a standalone development and does not mention a wider Angsana Golf Residences phase structure; Topaz is the launched project (Feb 2026). Price conflict between sources (22.8M vs 37.5M start). Floors, total units, sizes and completion not on official page. Penthouse unit details unknown. Unit builtUp are agent listing examples only. Freehold per agent page. | Agent page shows from 22,840,000 THB (2-bed 128 sqm), range 22.8-43.4M. Another listing aggregator shows 37.5-95M THB. Official page lists no price.",
+  "cover": "/assets/images/projects/angsana-golf-residences-topaz/photo-1.jpg",
+  "imageCaptions": [
+    "Aerial view",
+    "Aerial view",
+    "Rooftop sky pool",
+    "Rooftop sky pool",
+    "Penthouse rooftop terrace",
+    "Two-bedroom residence interior",
+    "Two-bedroom residence interior",
+    "Aerial map of Topaz site"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/banyan-group-residences/angsana-golf-residences-topaz",
+  "priceNote": "Agent page shows from 22,840,000 THB (2-bed 128 sqm), range 22.8-43.4M. Another listing aggregator shows 37.5-95M THB. Official page lists no price.",
+  "developer": "Banyan Group Residences (Banyan Group)"
+}

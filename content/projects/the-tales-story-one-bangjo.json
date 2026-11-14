@@ -1,0 +1,131 @@
+{
+  "name": "The Tales Story One - Bangjo",
+  "category": "Villa",
+  "projectType": "Single-storey pool villa",
+  "location": "Bang Jo (Si Sunthon / Cherngtalay area)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Bang Jo (Si Sunthon / Cherngtalay area), Phuket",
+  "developer": "Sansiri",
+  "shortDescription": "The Tales Story One - Bangjo is Sansiri's first pool villa collection in Phuket, comprising 13 single-storey villas on about 11,200 sqm.",
+  "description": "The Tales Story One - Bangjo is Sansiri's first pool villa collection in Phuket, comprising 13 single-storey villas on about 11,200 sqm. Each house has three bedrooms, four bathrooms, a private pool and two parking spaces. Plot sizes run from about 532 to 747 sqm. Architecture is credited to the Edward Tuttle team.",
+  "startingPrice": 45000000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 329,
+  "builtUpMax": 401,
+  "landMin": 532.4,
+  "landMax": 747.2,
+  "totalUnits": 13,
+  "floors": "1",
+  "parking": "2 cars per house",
+  "website": "https://www.sansiri.com/singlehouse/thetales-bangjo-phuket/en",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "constructionStatus": "Completed",
+  "facilities": [
+    "Private pool",
+    "Digital fence with intruder alerts",
+    "LIV-24 24-hour security and building management",
+    "Visitor management system",
+    "Community garden",
+    "Children's playground",
+    "Centralised hot water (agent)"
+  ],
+  "nearby": [
+    {
+      "place": "Bangtao Beach",
+      "distance": "5.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "16.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School",
+      "distance": "1.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Blue Tree Phuket",
+      "distance": "2.1 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Chapter One / 3BR",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "329",
+      "price": 45000000
+    },
+    {
+      "name": "Chapter Two / 3BR Type 2",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "353",
+      "price": 47900000
+    },
+    {
+      "name": "Chapter Three",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "401"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-2.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-3.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-4.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-5.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-6.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-7.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-8.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-tales-story-one-bangjo/plan-9.jpg",
+    "/assets/images/floorplans/the-tales-story-one-bangjo/plan-10.jpg",
+    "/assets/images/floorplans/the-tales-story-one-bangjo/plan-11.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Sansiri project page",
+      "url": "https://www.sansiri.com/singlehouse/thetales-bangjo-phuket/en"
+    },
+    {
+      "label": "Agent listing",
+      "url": "https://papayaproperty.com/sansiri/the-tales-story-one-bangjo-phuket"
+    },
+    {
+      "label": "Window on Phuket",
+      "url": "https://windowonphuket.com/?p=1041"
+    }
+  ],
+  "researchNotes": "Developer Sansiri confirmed. 'The Tales' is Sansiri's single-house brand/collection; 'Story One' is the first project of it, located in Bang Jo (a named project rather than a phase of a shared site). Sansiri's built-up sizes are inconsistent (329-532 vs plan titles 317-413); used plan areas 329/353/401. Agent lists Leasehold; Sansiri page does not state tenure, verify. Chapter Three price and completion date not confirmed. | Agent page shows 45,000,000 (329 sqm) and 47,900,000 (353 sqm); a search snippet cited up to 57M, unverified. Sansiri page itself says only 'starting at 45 mb*' (unexplained).",
+  "cover": "/assets/images/projects/the-tales-story-one-bangjo/photo-1.jpg",
+  "imageCaptions": [
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image",
+    "Villa gallery image"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/sansiri/the-tales-story-one-bangjo-phuket"
+}

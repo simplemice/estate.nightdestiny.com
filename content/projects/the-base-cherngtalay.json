@@ -1,0 +1,110 @@
+{
+  "name": "The Base Cherngtalay",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Cherng Talay (Choeng Thale), Thalang",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Cherng Talay (Choeng Thale), Thalang, Phuket",
+  "developer": "Sansiri",
+  "shortDescription": "The Base Cherngtalay is a low-rise condominium by Sansiri in Cherng Talay, Phuket, on a site of about 4 rai.",
+  "description": "The Base Cherngtalay is a low-rise condominium by Sansiri in Cherng Talay, Phuket, on a site of about 4 rai. It comprises two 8-storey buildings with 341 one- and two-bedroom apartments of roughly 27 to 63 sqm. Units are sold furnished, and the project offers a pool, fitness center, co-working lounge, co-kitchen, organic farm and onsen.",
+  "startingPrice": 7690000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "builtUpMin": 27,
+  "builtUpMax": 63,
+  "totalUnits": 341,
+  "floors": "2 buildings, 8 storeys each",
+  "furniture": "Furnished units",
+  "parking": "Yes",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Status on request",
+  "facilities": [
+    "Swimming pool",
+    "Fitness center",
+    "Co-working lounge",
+    "Lobby",
+    "Community co-kitchen",
+    "Organic vegetable farm",
+    "Pet park",
+    "Communal gardens",
+    "Onsen",
+    "24-hour security (LIV-24 monitoring)"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "8 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Laguna Golf Club and Blue Tree Phuket",
+      "distance": "10 min",
+      "mode": "driving"
+    },
+    {
+      "place": "International schools",
+      "distance": "7 min",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "30 min",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Sunrise (listing ID 870)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "60",
+      "price": 7690000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/the-base-cherngtalay/photo-2.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-3.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-4.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-5.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-6.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-7.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-8.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-9.jpg",
+    "/assets/images/projects/the-base-cherngtalay/photo-10.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-base-cherngtalay/plan-11.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property - The Base Cherngtalay",
+      "url": "https://papayaproperty.com/sansiri/the-base-cherngtalay-1"
+    }
+  ],
+  "researchNotes": "Developer Sansiri confirmed by agent page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the agent's URL slug). Distances are travel times from the agent page. | Single listed unit (2 bed, 60 sqm, 1st floor). FazWaz/Hipflat resale listings vary; not reconciled.",
+  "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
+  "imageCaptions": [
+    "The Base Cherngtalay gallery 1",
+    "The Base Cherngtalay gallery 2",
+    "The Base Cherngtalay gallery 3",
+    "The Base Cherngtalay gallery 4",
+    "The Base Cherngtalay gallery 5",
+    "The Base Cherngtalay gallery 6",
+    "The Base Cherngtalay gallery 7",
+    "The Base Cherngtalay gallery 8",
+    "The Base Cherngtalay gallery 9",
+    "The Base Cherngtalay gallery 10"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/sansiri/the-base-cherngtalay-1"
+}

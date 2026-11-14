@@ -1,0 +1,140 @@
+{
+  "name": "Laguna Lake Residences Aster",
+  "category": "Condominium",
+  "projectType": "Lakeside low-rise condominium",
+  "location": "Laguna Phuket, Bang Tao / Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Laguna Phuket, Bang Tao / Cherng Talay, Phuket",
+  "developer": "Laguna Property",
+  "shortDescription": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community.",
+  "description": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community. It offers 1- to 3-bedroom units of about 56 to 113 sqm, with a rooftop infinity pool overlooking the lake. The project is a short walk from the Boat Avenue and Porto de Phuket dining and retail area.",
+  "startingPrice": 11630000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 56,
+  "builtUpMax": 113,
+  "totalUnits": 180,
+  "reservationFee": "THB 100,000",
+  "website": "https://www.banyangroupresidences.com/thailand/phuket/laguna-lakeside-residences",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "20% deposit on contract",
+    "80% installments by construction progress / on completion"
+  ],
+  "facilities": [
+    "60 m rooftop infinity pool overlooking the lake",
+    "Covered parking",
+    "Landscaped gardens",
+    "Sky garden",
+    "Kids' play area",
+    "Convenience shop",
+    "24/7 security and concierge",
+    "Community: 18-hole golf course",
+    "Community: 24-hour medical clinic",
+    "Community: beach club",
+    "Community: SILK International Kindergarten",
+    "Community: inter-resort shuttle",
+    "Community: Sanctuary Club membership"
+  ],
+  "nearby": [
+    {
+      "place": "Boat Avenue / Porto de Phuket",
+      "distance": "short walk",
+      "mode": "walking"
+    },
+    {
+      "place": "Greenhouse Kindergarten",
+      "distance": "1.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HeadStart International School",
+      "distance": "2.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.1 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "57",
+      "price": 11630000
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "85",
+      "price": 16810000
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "113",
+      "price": 33180000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/laguna-lake-residences-aster/photo-2.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-3.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-4.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-5.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-6.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-7.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-8.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-9.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Banyan Group Residences - Aster",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/laguna-lakeside-residences"
+    },
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/laguna-property/laguna-lake-residences-aster"
+    },
+    {
+      "label": "Keller Henson (listed as Laguna Lakeside Residences 2)",
+      "url": "https://kellerhenson.com/project/laguna-lakeside-residences-2"
+    },
+    {
+      "label": "Banyan Group news release",
+      "url": "https://www.banyangroupresidences.com/news/banyan-group-launches-new-look-eco-friendly-laguna-lakeside-residences"
+    }
+  ],
+  "researchNotes": "Relationship: Banyan's official URL slug is 'laguna-lakeside-residences' and Keller Henson calls it 'Laguna Lakeside Residences 2'; a July 2025 Banyan release (search summary) calls Aster an extension of the sell-out Laguna Lakeside Residences. It is a separate, newer building, not the earlier Lakeside phase. 'Laguna Lakelands' is a different Banyan listing; no link to Aster found. Official page gives no units, price, completion or ownership; those come from agents and conflict (completion Q3 2026 vs Q4 2027; floors 7 vs 8; prices differ). Brochure PDFs exist (r2.dev, Jul/Dec 2025) but exceeded fetch size, not read. Distances unspecified mode; Banyan nearby labels have no distances. | Papaya: 1BR 11.63M, 2BR 16.81M, 3BR 33.18M (1st-floor units). Keller Henson: 1BR 12.0M, 2BR 18.7M, 3BR 29.1M (FAQ 11.99M-27.67M). Sources differ; lowest from Papaya (read today) used.",
+  "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
+  "imageCaptions": [
+    "Rooftop pool",
+    "Aerial view",
+    "Aerial view 2",
+    "Rooftop",
+    "Landscape",
+    "1BR living",
+    "2BR living",
+    "2BR master bedroom",
+    "3BR interior"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/laguna-property/laguna-lake-residences-aster"
+}

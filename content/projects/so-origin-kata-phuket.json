@@ -1,0 +1,107 @@
+{
+  "name": "So Origin Kata Phuket",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Kata",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Kata, Phuket",
+  "developer": "Origin Property PCL",
+  "shortDescription": "So Origin Kata is a low-rise condominium by Origin Property in Kata, Phuket.",
+  "description": "So Origin Kata is a low-rise condominium by Origin Property in Kata, Phuket. Per the developer's page it has four low-rise buildings of eight storeys on about 5 rai, with 686 units. Units range from compact one-bedroom layouts to two-bedroom layouts, furnished with balconies. Shared facilities include pools, an inner courtyard, fitness and co-working areas.",
+  "startingPrice": 3980000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "builtUpMin": 26,
+  "builtUpMax": 65,
+  "totalUnits": 686,
+  "furniture": "Fully furnished",
+  "website": "https://origin.co.th/condominium/so-origin-kata/",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "About 2,700 sqm of lifestyle facilities",
+    "Landscaped inner courtyard",
+    "Multi-zone swimming pools",
+    "Lounge and relaxation areas",
+    "Fitness and wellness spaces",
+    "Co-working zones",
+    "Sunset terraces",
+    "Parking"
+  ],
+  "nearby": [
+    {
+      "place": "Kata Beach",
+      "distance": "short walk (about 800 m per one portal)",
+      "mode": "walking"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1BR (unit 1058)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "26",
+      "price": 3980000
+    },
+    {
+      "name": "1BR (unit 991)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "30",
+      "price": 4410000
+    },
+    {
+      "name": "2BR (unit 992)",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "65",
+      "price": 7510000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/so-origin-kata-phuket/photo-2.jpg",
+    "/assets/images/projects/so-origin-kata-phuket/photo-3.jpg",
+    "/assets/images/projects/so-origin-kata-phuket/photo-4.jpg",
+    "/assets/images/projects/so-origin-kata-phuket/photo-5.jpg",
+    "/assets/images/projects/so-origin-kata-phuket/photo-6.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/so-origin-kata-phuket/plan-7.jpg",
+    "/assets/images/floorplans/so-origin-kata-phuket/plan-8.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Origin Property - So Origin Kata",
+      "url": "https://origin.co.th/condominium/so-origin-kata/"
+    },
+    {
+      "label": "Agent listing",
+      "url": "https://papayaproperty.com/origin-property/so-origin-kata-1"
+    },
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/so-origin-kata-phuket"
+    }
+  ],
+  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | Agent page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch.",
+  "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
+  "imageCaptions": [
+    "Project gallery image",
+    "Project gallery image",
+    "Project gallery image",
+    "Project gallery image",
+    "Project gallery image",
+    "Project gallery image"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/origin-property/so-origin-kata-1"
+}

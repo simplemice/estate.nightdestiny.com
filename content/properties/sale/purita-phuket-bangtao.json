@@ -1,0 +1,35 @@
+{
+  "title": "PURITA Phuket Bangtao",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/purita-phuket-bangtao.json",
+  "propertyType": "Condo",
+  "location": "Bang Tao (Cherngtalay)",
+  "address": "Pasak-Koktanod Road, Cherngtalay, Thalang, Phuket, Thailand",
+  "currency": "THB",
+  "shortDescription": "PURITA Phuket Bangtao is a new condominium by CG Capital, the investment arm of the family behind Central Group, on a 10-rai plot in Cherngtalay.",
+  "description": "PURITA Phuket Bangtao is a new condominium by CG Capital, the investment arm of the family behind Central Group, on a 10-rai plot in Cherngtalay. It has four six-storey buildings and one villa around a courtyard garden with a 50-metre pool, with 258 furnished units in total. Apartments are one-bedroom, two-bedroom and two-bedroom-plus types from 56.4 to 136 sqm. Completion is announced for November 2028.",
+  "availability": "Available",
+  "price": 7997000,
+  "cover": "/assets/images/projects/purita-phuket-bangtao/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/purita-phuket-bangtao/photo-2.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-3.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-4.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-5.jpg",
+    "/assets/images/projects/purita-phuket-bangtao/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "50-metre swimming pool",
+    "3-rai courtyard garden",
+    "Lobby with lounge and patio",
+    "Co-working space and meeting rooms",
+    "Fitness centre",
+    "Changing rooms with private steam rooms",
+    "Drop-off area",
+    "Parking for 125 cars",
+    "One year of concierge service included"
+  ]
+}

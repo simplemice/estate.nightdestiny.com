@@ -1,0 +1,33 @@
+{
+  "title": "The Tales Story One - Bangjo",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/the-tales-story-one-bangjo.json",
+  "propertyType": "Villa",
+  "location": "Bang Jo (Si Sunthon / Cherngtalay area)",
+  "address": "Bang Jo (Si Sunthon / Cherngtalay area), Phuket",
+  "currency": "THB",
+  "shortDescription": "The Tales Story One - Bangjo is Sansiri's first pool villa collection in Phuket, comprising 13 single-storey villas on about 11,200 sqm.",
+  "description": "The Tales Story One - Bangjo is Sansiri's first pool villa collection in Phuket, comprising 13 single-storey villas on about 11,200 sqm. Each house has three bedrooms, four bathrooms, a private pool and two parking spaces. Plot sizes run from about 532 to 747 sqm. Architecture is credited to the Edward Tuttle team.",
+  "availability": "Available",
+  "price": 45000000,
+  "cover": "/assets/images/projects/the-tales-story-one-bangjo/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-2.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-3.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-4.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-5.jpg",
+    "/assets/images/projects/the-tales-story-one-bangjo/photo-6.jpg"
+  ],
+  "ownership": "Leasehold",
+  "facilities": [
+    "Private pool",
+    "Digital fence with intruder alerts",
+    "LIV-24 24-hour security and building management",
+    "Visitor management system",
+    "Community garden",
+    "Children's playground",
+    "Centralised hot water (agent)"
+  ]
+}

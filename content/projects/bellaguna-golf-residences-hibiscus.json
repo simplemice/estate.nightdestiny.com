@@ -1,0 +1,103 @@
+{
+  "name": "Bellaguna Golf Residences Hibiscus",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Bang Tao / Choeng Thale (Laguna Phuket)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Within Laguna Phuket, Choeng Thale, Thalang, Phuket",
+  "shortDescription": "Hibiscus is a low-rise condominium within Laguna Phuket, overlooking the Laguna Golf Phuket course near Bang Tao Beach.",
+  "description": "Hibiscus is a low-rise condominium within Laguna Phuket, overlooking the Laguna Golf Phuket course near Bang Tao Beach. It forms part of Bellaguna Golf Residences, which comprises five interconnected finger-shaped low-rise buildings. Layouts range from one to three bedrooms plus two- and three-bedroom penthouses, with four shared pools. Select ground-floor residences have private pools or gardens.",
+  "startingPrice": 13200000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "builtUpMin": 67,
+  "builtUpMax": 297,
+  "furniture": "Furnished",
+  "website": "https://www.banyangroupresidences.com/thailand/phuket/laguna-golf-residences-hibiscus",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Four free-form swimming pools with terraces",
+    "Sundecks and alfresco BBQ areas",
+    "Lounge/social areas",
+    "Landscaped gardens",
+    "Select ground-floor units with private pool or garden",
+    "Community: Laguna Golf Phuket membership (Laguna Advantage)",
+    "Community: RAVA Beach Club access",
+    "Community: Sanctuary Club membership"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 25 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1BR (unit 1023)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "67",
+      "price": 13200000
+    },
+    {
+      "name": "2BR (unit 1230)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "100",
+      "price": 19190000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-2.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-3.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-4.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-5.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-6.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-7.jpg",
+    "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-8.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/bellaguna-golf-residences-hibiscus/plan-9.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences - Bellaguna Golf Residences Hibiscus",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/laguna-golf-residences-hibiscus"
+    },
+    {
+      "label": "Banyan Group Residences - Bellaguna Golf Residences",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/bellaguna-golf-residences"
+    },
+    {
+      "label": "Agent listing",
+      "url": "https://papayaproperty.com/laguna-property/bellaguna-golf-residences-hibiscus"
+    }
+  ],
+  "researchNotes": "Relationship: Bellaguna is Banyan Group's residential brand launched January 2026; 'Bellaguna Golf Residences' is the golf-course residence collection (five finger-shaped buildings); Hibiscus appears to be the name of this release/building group within it, though the developer page never defines 'Hibiscus' explicitly (inference). Developer page gives no price, size, floors, unit count or completion. Size max 297 sqm and ~100 units come from search-snippet portal text, unverified. Floors, unit total, parking, fees not found. Area given as both Bang Tao and Choeng Thale (same locality, Laguna). | Agent page shows from 13,200,000 (1BR 67 sqm) to 19,190,000 (2BR 100 sqm). Search-snippet portal listings show other figures (about 10.56M and 11.81M for 1BR; 17.89M for 2BR) that were not verified; 10,560,000 appears on the agent page as an instalment figure, i.e. 80% of 13.2M.",
+  "cover": "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-1.jpg",
+  "imageCaptions": [
+    "Main pool",
+    "Private pool residence exterior",
+    "Reception and pool",
+    "Building D",
+    "Interior",
+    "Interior",
+    "Interior",
+    "Interior"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/laguna-property/bellaguna-golf-residences-hibiscus",
+  "developer": "Laguna Property (Banyan Group)"
+}

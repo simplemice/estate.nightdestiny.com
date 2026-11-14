@@ -1,0 +1,34 @@
+{
+  "title": "Angsana Golf Residences Topaz",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/angsana-golf-residences-topaz.json",
+  "propertyType": "Condo",
+  "location": "Laguna Phuket (near Bang Tao)",
+  "address": "Laguna Phuket, Choeng Thale, Thalang, Phuket",
+  "currency": "THB",
+  "shortDescription": "Angsana Golf Residences Topaz is a branded residential development by Banyan Group Residences inside the Laguna Phuket integrated resort.",
+  "description": "Angsana Golf Residences Topaz is a branded residential development by Banyan Group Residences inside the Laguna Phuket integrated resort. It consists of three curved low-rise buildings, each divided into two interconnected blocks, with two- and three-bedroom residences and penthouses. The ring-shaped rooftop pool offers views over the golf course, mountains and coast. Owners receive Laguna Golf Phuket membership and RAVA Beach Club access.",
+  "availability": "Available",
+  "price": 22840000,
+  "cover": "/assets/images/projects/angsana-golf-residences-topaz/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-2.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-3.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-4.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-5.jpg",
+    "/assets/images/projects/angsana-golf-residences-topaz/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Ring-shaped rooftop pool with 360-degree views",
+    "Ground-floor BBQ area in tropical gardens",
+    "Penthouses with private rooftop pools",
+    "Direct garden access for ground-floor units",
+    "Community: Laguna Golf Phuket membership",
+    "Community: RAVA Beach Club Prestige Zone access",
+    "Community: Sanctuary Club",
+    "Community: Laguna Wellness by BDMS"
+  ]
+}

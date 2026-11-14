@@ -1,0 +1,39 @@
+{
+  "title": "Laguna Lake Residences Aster",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/laguna-lake-residences-aster.json",
+  "propertyType": "Condo",
+  "location": "Laguna Phuket, Bang Tao / Cherng Talay",
+  "address": "Laguna Phuket, Bang Tao / Cherng Talay, Phuket",
+  "currency": "THB",
+  "shortDescription": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community.",
+  "description": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community. It offers 1- to 3-bedroom units of about 56 to 113 sqm, with a rooftop infinity pool overlooking the lake. The project is a short walk from the Boat Avenue and Porto de Phuket dining and retail area.",
+  "availability": "Available",
+  "price": 11630000,
+  "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/laguna-lake-residences-aster/photo-2.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-3.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-4.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-5.jpg",
+    "/assets/images/projects/laguna-lake-residences-aster/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "60 m rooftop infinity pool overlooking the lake",
+    "Covered parking",
+    "Landscaped gardens",
+    "Sky garden",
+    "Kids' play area",
+    "Convenience shop",
+    "24/7 security and concierge",
+    "Community: 18-hole golf course",
+    "Community: 24-hour medical clinic",
+    "Community: beach club",
+    "Community: SILK International Kindergarten",
+    "Community: inter-resort shuttle",
+    "Community: Sanctuary Club membership"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Layan Green Park Phase 2",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "project": "content/projects/layan-green-park-phase-2.json",
+  "propertyType": "Condo",
+  "location": "Cherngtalay (Choeng Thale), near Layan Beach",
+  "address": "Cherngtalay (Choeng Thale), near Layan Beach, Phuket",
+  "currency": "THB",
+  "shortDescription": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach.",
+  "description": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach. It comprises five buildings with 377 units, ranging from studios to three-bedroom units and duplexes, some with private pools. The project advertises EDGE Advanced green certification and extensive resort-style facilities.",
+  "availability": "Available",
+  "price": 7500000,
+  "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/layan-green-park-phase-2/photo-2.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-3.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-4.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-5.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-6.jpg"
+  ],
+  "ownership": "Freehold",
+  "facilities": [
+    "Five swimming pools",
+    "Restaurants and bars",
+    "Wellness center and spa",
+    "Yoga terrace",
+    "Technogym fitness club",
+    "Kids club and playgrounds",
+    "Coworking and event spaces",
+    "BBQ area",
+    "24/7 security and CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Vertical gardens on facades"
+  ]
+}

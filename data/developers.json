@@ -18,9 +18,40 @@
   ]
  },
  {
+  "name": "AE Phuket Co., Ltd.",
+  "projects": [
+   "next-point-rawai"
+  ]
+ },
+ {
+  "name": "Amal Development Company Limited",
+  "projects": [
+   "gardens-of-eden-park-residences"
+  ]
+ },
+ {
   "name": "Asset Pearl Co., Ltd",
   "projects": [
    "casa-curve-phuket"
+  ]
+ },
+ {
+  "name": "Banyan Group Residences (Banyan Group)",
+  "projects": [
+   "angsana-golf-residences-topaz",
+   "skypark-elara-lakelands"
+  ]
+ },
+ {
+  "name": "Botanica Luxury Phuket Co., Ltd",
+  "projects": [
+   "hythe-by-botanica"
+  ]
+ },
+ {
+  "name": "CG Capital",
+  "projects": [
+   "purita-phuket-bangtao"
   ]
  },
  {
@@ -44,13 +75,32 @@
  {
   "name": "Laguna Property",
   "projects": [
+   "laguna-lake-residences-aster",
    "laguna-park-2"
+  ]
+ },
+ {
+  "name": "Laguna Property (Banyan Group)",
+  "projects": [
+   "bellaguna-golf-residences-hibiscus"
   ]
  },
  {
   "name": "Laguna Property / Banyan Group Residences",
   "projects": [
    "banyan-tree-beach-residences-varuna"
+  ]
+ },
+ {
+  "name": "Minor International",
+  "projects": [
+   "kiara-reserve-residences"
+  ]
+ },
+ {
+  "name": "Origin Property PCL",
+  "projects": [
+   "so-origin-kata-phuket"
   ]
  },
  {
@@ -94,6 +144,25 @@
   ]
  },
  {
+  "name": "SALA Hospitality Group",
+  "projects": [
+   "surfhouse-residences"
+  ]
+ },
+ {
+  "name": "Sansiri",
+  "projects": [
+   "the-base-cherngtalay",
+   "the-tales-story-one-bangjo"
+  ]
+ },
+ {
+  "name": "Sansiri PCL",
+  "projects": [
+   "brisa-patong"
+  ]
+ },
+ {
   "name": "Sunny Development Group",
   "projects": [
    "sunny-moon-village"
@@ -110,6 +179,12 @@
   "name": "Trinity Property Co., Ltd.",
   "projects": [
    "aileen-villas-layan"
+  ]
+ },
+ {
+  "name": "VillaCarte Group",
+  "projects": [
+   "layan-green-park-phase-2"
   ]
  },
  {

@@ -1,0 +1,101 @@
+{
+  "name": "Skypark Elara Lakelands",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Choeng Thale (Laguna Lakelands)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Laguna Lakelands, Choeng Thale, Thalang, Phuket",
+  "shortDescription": "Skypark Elara Lakelands is a low-rise seven-storey condominium within Laguna Lakelands, a residential community beside the Laguna Phuket resort.",
+  "description": "Skypark Elara Lakelands is a low-rise seven-storey condominium within Laguna Lakelands, a residential community beside the Laguna Phuket resort. The first phase comprises three blocks with around 220 one-, two- and three-bedroom units. Facilities include a rooftop infinity-edge pool and a terrace with barbecue area. Owners can access Laguna Lakelands and Laguna Phuket community facilities.",
+  "startingPrice": 9120000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 54,
+  "builtUpMax": 186,
+  "totalUnits": 220,
+  "floors": "7",
+  "furniture": "Furnished",
+  "parking": "Yes",
+  "privatePool": "no",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Rooftop infinity-edge pool",
+    "Outdoor terrace with BBQ and sitting areas",
+    "Private balcony per unit",
+    "Foldable work closets",
+    "Walking paths overlooking forest and lagoons",
+    "Community: Laguna Lakelands trail network (15 km), adventure park, sports complex, beachfront club",
+    "Community: Laguna Phuket resort facilities access"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 bedroom (unit 1012)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "57",
+      "price": 9120000
+    },
+    {
+      "name": "2 bedroom (unit 1013)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "85",
+      "price": 17630000
+    },
+    {
+      "name": "3 bedroom (unit 1014)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "181",
+      "price": 34040000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/skypark-elara-lakelands/photo-2.jpg",
+    "/assets/images/projects/skypark-elara-lakelands/photo-3.jpg",
+    "/assets/images/projects/skypark-elara-lakelands/photo-4.jpg",
+    "/assets/images/projects/skypark-elara-lakelands/photo-5.jpg",
+    "/assets/images/projects/skypark-elara-lakelands/photo-6.jpg",
+    "/assets/images/projects/skypark-elara-lakelands/photo-8.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/skypark-elara-lakelands/plan-7.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences press release",
+      "url": "https://www.banyangroupresidences.com/news/banyan-group-launches-stylish-skypark-elara-lakelands-visionary-new-laguna-lakelands-phuket"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/banyan-group-residences/skypark-elara"
+    }
+  ],
+  "researchNotes": "Identity: Skypark Elara Lakelands is a Banyan Group Residences project located within Laguna Lakelands (next to Laguna Lakeview Residences phase one and the Laguna Phuket resort). Developer attribution inconsistent: Banyan press release says Banyan Group; Papaya/Phuket.pro list Laguna Property. Size upper bound 186 vs 183 sqm in press release; 181 sqm for the largest listed unit. Completion conflicts (Q1 2027 vs ~2028). Unit IDs/prices are individual agent listings, not full price list. Official site page not fetched for price. Unverified: fees, totalUnits beyond first phase, distances. | Agent page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit.",
+  "cover": "/assets/images/projects/skypark-elara-lakelands/photo-1.jpg",
+  "imageCaptions": [
+    "Skypark Elara project render",
+    "Skypark Elara project render",
+    "Skypark Elara project render",
+    "Skypark Elara project render",
+    "Skypark Elara project render",
+    "Skypark Elara project render",
+    "Skypark Elara Lakelands render in natural landscape"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/banyan-group-residences/skypark-elara",
+  "priceNote": "Agent page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit.",
+  "developer": "Banyan Group Residences (Banyan Group)"
+}

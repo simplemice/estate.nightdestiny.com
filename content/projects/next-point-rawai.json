@@ -1,0 +1,190 @@
+{
+  "name": "Next Point Condominium Rawai",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Rawai",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Rawai, Mueang Phuket, Phuket, Thailand",
+  "developer": "AE Phuket Co., Ltd.",
+  "shortDescription": "Next Point Condominium is an off-plan low-rise condominium in Rawai, southern Phuket, made up of four seven-storey buildings on a site of roughly 8,000 sqm.",
+  "description": "Next Point Condominium is an off-plan low-rise condominium in Rawai, southern Phuket, made up of four seven-storey buildings on a site of roughly 8,000 sqm. Units range from about 35 sqm studios to larger two- and three-bedroom apartments and duplex penthouses, with a pool, rooftop terrace, garden and fitness facilities. The developer is reported as AE Phuket Co., Ltd., a construction company.",
+  "startingPrice": 3150000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 0,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 35,
+  "builtUpMax": 269,
+  "totalUnits": 372,
+  "floors": "7",
+  "parking": "Underground parking reported at about 140 spaces with EV charging",
+  "reservationFee": "THB 100,000",
+  "constructionStart": "2025",
+  "website": "https://next-point-condominium.com/",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Reservation deposit THB 100,000 on booking",
+    "30% down payment on signing the SPA",
+    "Remaining 70% in installments (1st-3rd) until handover"
+  ],
+  "facilities": [
+    "Communal swimming pool(s); one listing cites four pools including a rooftop infinity pool",
+    "Rooftop terrace with barbecue area and sun loungers",
+    "Landscaped courtyard garden",
+    "Fitness room",
+    "Lobby with reception",
+    "Recreation room",
+    "Elevators",
+    "Covered / underground parking",
+    "CCTV and 24/7 security"
+  ],
+  "nearby": [
+    {
+      "place": "Sea / Rawai coast",
+      "distance": "800 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Rawai Beach",
+      "distance": "3.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wat Chalong",
+      "distance": "5.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "International School of Phuket (ISP)",
+      "distance": "1.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "BCIS Phuket International School",
+      "distance": "4.8 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio (Building A)",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "35",
+      "price": 3150000
+    },
+    {
+      "name": "Studio (Building B)",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "39.6",
+      "price": 5148000
+    },
+    {
+      "name": "1 bedroom (Building B)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "48.7",
+      "price": 6818000
+    },
+    {
+      "name": "1 bedroom (Building A)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "55.08",
+      "price": 5397840
+    },
+    {
+      "name": "1 bedroom (Building B)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "67.6",
+      "price": 8788000
+    },
+    {
+      "name": "2 bedroom (Building A)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "70",
+      "price": 6230000
+    },
+    {
+      "name": "2 bedroom (Building D)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "99",
+      "price": 14355000
+    },
+    {
+      "name": "3 bedroom penthouse (Building A)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "131.85",
+      "price": 15162750
+    }
+  ],
+  "images": [
+    "/assets/images/projects/next-point-rawai/photo-2.jpg",
+    "/assets/images/projects/next-point-rawai/photo-3.jpg",
+    "/assets/images/projects/next-point-rawai/photo-4.jpg",
+    "/assets/images/projects/next-point-rawai/photo-5.jpg",
+    "/assets/images/projects/next-point-rawai/photo-7.jpg",
+    "/assets/images/projects/next-point-rawai/photo-8.jpg",
+    "/assets/images/projects/next-point-rawai/photo-9.jpg",
+    "/assets/images/projects/next-point-rawai/photo-10.jpg",
+    "/assets/images/projects/next-point-rawai/photo-12.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/next-point-rawai/plan-6.jpg",
+    "/assets/images/floorplans/next-point-rawai/plan-11.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Next Point Condominium (reseller project site)",
+      "url": "https://next-point-condominium.com/"
+    },
+    {
+      "label": "Global Property Thailand",
+      "url": "https://www.globalpropertythailand.com/en/project/3901/Next-Point-Condominium-Phuket-Rawai"
+    },
+    {
+      "label": "LivePhuket (FazWaz network)",
+      "url": "https://www.livephuket.com/projects/thailand/phuket/phuket-town/rawai/next-point-condominium"
+    },
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/unit/next-point-condominium-1br-corner"
+    },
+    {
+      "label": "Rumavi",
+      "url": "https://rumavi.com/en/new-developments/thailand/rawai/next-point-condominium"
+    }
+  ],
+  "researchNotes": "Identity: the project is marketed as 'Next Point Condominium' in Rawai; 'Next Point Rawai' is only a location-qualified shorthand. No developer-owned website or brochure was found; next-point-condominium.com is a reseller/marketing site. Developer attribution conflicts (AE Phuket Co., Ltd. on Global Property Thailand and Rumavi; South Point Group on Keller Henson; Next Point Phuket on FazWaz). Unit count 372 (FazWaz, Keller Henson) vs 378 (Global Property Thailand, Rumavi). Completion date conflicts across sources. Distances to landmarks conflict between sources (Big Buddha, Promthep Cape, Chalong Bay swapped), so only consistent ones are listed. Unit price list is the reseller's 'min price' per layout, not a verified developer price list. Common fee, sinking fund, exact address, coordinates and brochure not found. Images are developer renders as republished by the reseller; no master plan found. Yield claims (6-7%) are unverified marketing. | Lowest figure is the 35 sqm Building A studio shown as 'Min. price' on next-point-condominium.com (read 2026-11-14). Other sources differ: FazWaz/LivePhuket studio from THB 3,734,500 (foreign quota) and 4,046,000; Global Property Thailand 3,955,000 (Thai quota) / 4,305,000 (foreign quota); Keller Henson range 4.0M-17.8M; Rumavi 3.22M-35.07M; next-point-condominium.com headline range 4,025,000-22,387,500. Prices vary by building, view and quota.",
+  "cover": "/assets/images/projects/next-point-rawai/photo-1.jpg",
+  "imageCaptions": [
+    "Building exterior render",
+    "Aerial render over Rawai",
+    "Courtyard with lagoon-style pool render",
+    "Pool garden render, daytime",
+    "Rooftop infinity pool aerial render",
+    "Building lobby render",
+    "Living area render",
+    "Bedroom render",
+    "Private terrace with sea view render",
+    "Rooftop lounge and cinema area at night render"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://next-point-condominium.com/"
+}

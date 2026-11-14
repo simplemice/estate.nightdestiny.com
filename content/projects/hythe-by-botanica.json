@@ -1,0 +1,160 @@
+{
+  "name": "HYTHE by Botanica",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area, Phuket",
+  "developer": "Botanica Luxury Phuket Co., Ltd",
+  "shortDescription": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development.",
+  "description": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development. It is the first condominium project by Botanica Luxury Villas and is marketed as a vertical villa. The project comprises four six-storey buildings and a clubhouse, with one- to three-bedroom units, duplexes with private pools and penthouses.",
+  "startingPrice": 11475000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 4,
+  "bathroomsMin": 1,
+  "bathroomsMax": 4,
+  "builtUpMin": 57,
+  "builtUpMax": 716,
+  "totalUnits": 276,
+  "floors": "6",
+  "furniture": "Turnkey / furnished",
+  "parking": "Covered parking",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Clubhouse",
+    "Central garden",
+    "Swimming pool",
+    "Fitness center",
+    "Children's zone",
+    "Jogging track",
+    "Steam room",
+    "Lobby with reception",
+    "24/7 security and CCTV",
+    "Covered parking",
+    "Duplexes and penthouses: private pools"
+  ],
+  "nearby": [
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "1.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "2.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital Phuket",
+      "distance": "4.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "6.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Layan Beach",
+      "distance": "6 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "20 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1BR (unit 974, floor 1)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "58",
+      "price": 11475000
+    },
+    {
+      "name": "2BR (unit 975, floor 1)",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "85",
+      "price": 19305000
+    },
+    {
+      "name": "3BR (unit 976, floor 1)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "127",
+      "price": 24288750
+    },
+    {
+      "name": "3BR duplex (unit 1886, leasehold)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "363",
+      "price": 56970000
+    },
+    {
+      "name": "4BR penthouse (unit 1885)",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "694",
+      "price": 140925000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/hythe-by-botanica/photo-2.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-3.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-4.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-5.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-6.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-7.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-8.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-9.jpg",
+    "/assets/images/projects/hythe-by-botanica/photo-10.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/hythe-by-botanica/plan-11.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property listing",
+      "url": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-hythe"
+    },
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/botanica-hythe"
+    },
+    {
+      "label": "Launch press release",
+      "url": "https://europeanbusinessmagazine.com/botanica-luxury-villas-rides-phukets-rise-as-global-luxury-property-hub-with-hythe-by-botanica/"
+    }
+  ],
+  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Agent listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ.",
+  "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
+  "imageCaptions": [
+    "HYTHE by Botanica",
+    "HYTHE by Botanica",
+    "Common area",
+    "Common area",
+    "HYTHE by Botanica",
+    "HYTHE by Botanica",
+    "HYTHE by Botanica",
+    "HYTHE by Botanica",
+    "HYTHE by Botanica",
+    "HYTHE by Botanica"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-hythe"
+}

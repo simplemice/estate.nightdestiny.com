@@ -1,0 +1,185 @@
+{
+  "name": "Layan Green Park Phase 2",
+  "category": "Condominium",
+  "projectType": "Eco condominium / aparthotel-style resort condo",
+  "location": "Cherngtalay (Choeng Thale), near Layan Beach",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Cherngtalay (Choeng Thale), near Layan Beach, Phuket",
+  "developer": "VillaCarte Group",
+  "shortDescription": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach.",
+  "description": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach. It comprises five buildings with 377 units, ranging from studios to three-bedroom units and duplexes, some with private pools. The project advertises EDGE Advanced green certification and extensive resort-style facilities.",
+  "startingPrice": 7500000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 0,
+  "bedroomsMax": 3,
+  "builtUpMin": 34.4,
+  "builtUpMax": 220.3,
+  "landMin": 9490,
+  "landMax": 9490,
+  "totalUnits": 377,
+  "floors": "7",
+  "reservationFee": "THB 100,000",
+  "commonAreaFee": "THB 75/sqm",
+  "sinkingFund": "THB 650/sqm",
+  "privatePool": "some",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "Five swimming pools",
+    "Restaurants and bars",
+    "Wellness center and spa",
+    "Yoga terrace",
+    "Technogym fitness club",
+    "Kids club and playgrounds",
+    "Coworking and event spaces",
+    "BBQ area",
+    "24/7 security and CCTV",
+    "Covered parking",
+    "Landscaped gardens",
+    "Vertical gardens on facades"
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "700 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "0.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.8 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "HEI Schools Phuket",
+      "distance": "8.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "20 minutes",
+      "mode": "driving"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio garden/pool view",
+      "bedrooms": 0,
+      "size": "36.72",
+      "price": 7500000
+    },
+    {
+      "name": "1BR garden/pool view",
+      "bedrooms": 1,
+      "size": "63.05",
+      "price": 12300000
+    },
+    {
+      "name": "1BR mountain view",
+      "bedrooms": 1,
+      "size": "74.55",
+      "price": 13400000
+    },
+    {
+      "name": "1BR private pool",
+      "bedrooms": 1,
+      "size": "102.99",
+      "price": 18000000
+    },
+    {
+      "name": "2BR garden/pool view",
+      "bedrooms": 2,
+      "size": "74.55",
+      "price": 13200000
+    },
+    {
+      "name": "2BR private pool",
+      "bedrooms": 2,
+      "size": "93.1",
+      "price": 16800000
+    },
+    {
+      "name": "2BR mountain view",
+      "bedrooms": 2,
+      "size": "106.8",
+      "price": 18700000
+    },
+    {
+      "name": "2BR duplex pool view",
+      "bedrooms": 2,
+      "size": "172.78",
+      "price": 30900000
+    },
+    {
+      "name": "2BR duplex private pool",
+      "bedrooms": 2,
+      "size": "207.89",
+      "price": 38200000
+    },
+    {
+      "name": "3BR garden view",
+      "bedrooms": 3,
+      "size": "148.2",
+      "price": 26600000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/layan-green-park-phase-2/photo-2.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-3.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-4.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-5.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-6.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-7.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-8.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-9.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-10.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-11.jpg",
+    "/assets/images/projects/layan-green-park-phase-2/photo-12.jpg"
+  ],
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/layan-green-park-phase-2"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/condo/24154/layan-green-park-phase-2"
+    }
+  ],
+  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (FazWaz page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+.",
+  "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
+  "imageCaptions": [
+    "Aerial / showcase",
+    "Exterior",
+    "Buildings",
+    "Buildings",
+    "Buildings",
+    "Buildings",
+    "Exterior",
+    "Exterior",
+    "Exterior",
+    "1BR interior",
+    "Studio interior",
+    "2BR interior"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/layan-green-park-phase-2"
+}

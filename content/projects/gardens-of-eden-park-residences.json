@@ -1,0 +1,138 @@
+{
+  "name": "Gardens of Eden - Park Residences",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Bang Tao (Pa Sak / Choeng Thale, Thalang)",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Pa Sak, Thalang District, Phuket 83110, Thailand",
+  "developer": "Amal Development Company Limited",
+  "shortDescription": "Park Residences is the second residential phase of the Gardens of Eden master development by Amal Group, a large low-density resort community in Bang Tao on Phu",
+  "description": "Park Residences is the second residential phase of the Gardens of Eden master development by Amal Group, a large low-density resort community in Bang Tao on Phuket's west coast. It is described as 455 condominium units in seven-storey buildings, from one to three bedrooms, set within a landscaped community with parks and lakes. The development is marketed in collaboration with Etro, and residents share the master community's wellness, pool and leisure facilities.",
+  "startingPrice": 13908240,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 56,
+  "builtUpMax": 122,
+  "totalUnits": 455,
+  "floors": "7",
+  "parking": "Surface and underground",
+  "completionDate": "Q4 2027",
+  "website": "https://gardens-eden.com/",
+  "privatePool": "no",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "paymentPlan": [
+    "Agent listing shows 35% payable over 1 year, remainder on completion (unit-level terms to be confirmed with the developer)",
+    "For reference only, Phase 1 Eden Residences schedule: THB 100,000 reservation, 35% on contract, 15% building permit, 10% foundation, 15% structure, 15% interior finishing, 10% on transfer"
+  ],
+  "facilities": [
+    "Park Residences club and pool (shown in developer renders)",
+    "Community: Wellness centre with 1,000 sqm gym",
+    "Community: Six swimming pools including a Blue Lagoon pool",
+    "Community: Eight restaurants and two kids' clubs",
+    "Community: Open-air cinema",
+    "Community: Planned 100-room 5-star hotel",
+    "Community: 6,000 sqm business centre",
+    "Community: Adventure Gardens, parks and walking paths (about 70% open space)"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "50 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Sirinat National Park and Laguna",
+      "distance": "1 minute",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "5 minutes",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "1 bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "56",
+      "price": 13908240
+    },
+    {
+      "name": "2 bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "99",
+      "price": 22910000
+    },
+    {
+      "name": "3 bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "122",
+      "price": 26654099
+    }
+  ],
+  "images": [
+    "/assets/images/projects/gardens-of-eden-park-residences/photo-2.jpg",
+    "/assets/images/projects/gardens-of-eden-park-residences/photo-3.jpg",
+    "/assets/images/projects/gardens-of-eden-park-residences/photo-6.jpg",
+    "/assets/images/projects/gardens-of-eden-park-residences/photo-7.jpg",
+    "/assets/images/projects/gardens-of-eden-park-residences/photo-8.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/gardens-of-eden-park-residences/plan-9.jpg",
+    "/assets/images/floorplans/gardens-of-eden-park-residences/plan-10.jpg",
+    "/assets/images/floorplans/gardens-of-eden-park-residences/plan-11.jpg",
+    "/assets/images/floorplans/gardens-of-eden-park-residences/plan-12.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property - Park Residences",
+      "url": "https://papayaproperty.com/amal-group/gardens-of-eden-park-residences"
+    },
+    {
+      "label": "Papaya Property - Eden Residences",
+      "url": "https://papayaproperty.com/amal-group/gardens-of-eden-eden-residences"
+    },
+    {
+      "label": "Papaya Property - Lake Residences 1BR",
+      "url": "https://papayaproperty.com/amal-group/gardens-of-eden-lake-residences/1br-gardens-of-eden-lake-residences"
+    },
+    {
+      "label": "Gardens of Eden official site",
+      "url": "https://gardens-eden.com/"
+    },
+    {
+      "label": "Phuket.Pro - Eden Residences",
+      "url": "https://phuket.pro/en/project/gardens-of-eden"
+    }
+  ],
+  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/agents; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per agent; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them.",
+  "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
+  "imageCaptions": [
+    "Park Residences pool view render",
+    "Park Residences club and pool render",
+    "Park Residences exterior and pool render",
+    "Lagoon pool render (development)",
+    "Pool view render (development)",
+    "Aerial render of residential buildings (development)",
+    "Apartment living room render",
+    "Master bedroom render"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/amal-group/gardens-of-eden-park-residences"
+}

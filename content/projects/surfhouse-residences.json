@@ -1,0 +1,164 @@
+{
+  "name": "Surfhouse Residences",
+  "category": "Condominium",
+  "projectType": "Boutique low-rise condominium",
+  "location": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-14",
+  "address": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna, Phuket",
+  "developer": "SALA Hospitality Group",
+  "shortDescription": "Surfhouse Residences is a boutique seven-storey condominium of 34 residences in Cherngtalay, Thalang, Phuket, developed and managed by SALA Hospitality Group.",
+  "description": "Surfhouse Residences is a boutique seven-storey condominium of 34 residences in Cherngtalay, Thalang, Phuket, developed and managed by SALA Hospitality Group. Units range from one to three bedrooms. Facilities include an 18-metre saltwater pool, gym, lobby lounge and concierge service.",
+  "startingPrice": 8400000,
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-14",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 60.26,
+  "builtUpMax": 171.87,
+  "landMin": 1757,
+  "landMax": 1757,
+  "totalUnits": 34,
+  "floors": "7",
+  "furniture": "Furnished",
+  "reservationFee": "THB 100,000",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [
+    "18 m saltwater swimming pool",
+    "Gym / fitness centre",
+    "Laundry room",
+    "Lobby social area",
+    "Covered parking",
+    "24/7 security and CCTV",
+    "24/7 concierge",
+    "Landscaped gardens",
+    "Pet-friendly",
+    "Rental management and housekeeping by SALA"
+  ],
+  "nearby": [
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "1.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Padel Bay Indoor Club",
+      "distance": "1.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "3.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "3.1 km",
+      "mode": "unspecified"
+    }
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A1",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "60.26",
+      "price": 8400000
+    },
+    {
+      "name": "Type A2",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "70",
+      "price": 10100000
+    },
+    {
+      "name": "Type B2",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "117",
+      "price": 15600000
+    },
+    {
+      "name": "Type B3",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "138.95",
+      "price": 17300000
+    },
+    {
+      "name": "Type C1",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "138.9",
+      "price": 21200000
+    },
+    {
+      "name": "Type D1",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "164.85",
+      "price": 23800000
+    },
+    {
+      "name": "Type D3",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "171.87",
+      "price": 26100000
+    }
+  ],
+  "images": [
+    "/assets/images/projects/surfhouse-residences/photo-2.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-3.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-4.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-5.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-6.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-7.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-8.jpg",
+    "/assets/images/projects/surfhouse-residences/photo-9.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/surfhouse-residences/plan-10.jpg",
+    "/assets/images/floorplans/surfhouse-residences/plan-11.jpg",
+    "/assets/images/floorplans/surfhouse-residences/plan-12.jpg"
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property listing",
+      "url": "https://papayaproperty.com/sala-hospitality-group/surfhouse"
+    },
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/surfhouse-residences"
+    },
+    {
+      "label": "Bangkok Post",
+      "url": "https://www.bangkokpost.com/property/2905222/sala-hospitality-group-enters-phuket-condo-market"
+    }
+  ],
+  "researchNotes": "Identity: developer SALA Hospitality Group confirmed by two sources; Bang Tao/Choeng Thale area (Soi Khok Tanot 3 per a search result, not verified on a page read). Ownership: Keller Henson says freehold for Thai companies/nationals and 30+30+30 leasehold for foreigners; Papaya says Freehold. Completion and deposit figures conflict. Nestopa claims completed - unverified and contradicted. Papaya price 16.06M was read for the 2BR unit only; priceVerifiedDate applies to Keller Henson page. Exact address and coordinates not found. | Keller Henson shows from 8.4M (1BR 60.26 sqm, range to 26.1M); Papaya lists only 2BR/3BR from 16,061,571. Listing sites differ on size range (60-172 vs 117-166 sqm).",
+  "cover": "/assets/images/projects/surfhouse-residences/photo-1.jpg",
+  "imageCaptions": [
+    "Drone artist's impression",
+    "Exterior day",
+    "Night view",
+    "Swimming pool",
+    "Lobby",
+    "Fitness centre",
+    "B1 mock-up living room",
+    "B1 mock-up bedroom",
+    "D2 mock-up living room"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/surfhouse-residences"
+}
