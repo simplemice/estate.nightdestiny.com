@@ -135,6 +135,17 @@ content:
       - { name: imagesStatus, label: Photo status, type: select, description: "Set to unavailable when no rights-cleared photos exist; the site then shows a 'Photos on request' placeholder.", options: { values: [available, unavailable] } }
       - { name: imageCredit, label: Image credit / disclaimer shown under the gallery, type: text }
       - { name: imageCaptions, label: Gallery image descriptions (alt text, same order as gallery), type: string, list: true }
+      - { name: cardDescription, label: Card description (project cards; falls back to Short description), type: text, description: "1-2 plain sentences. Do not repeat the project name several times." }
+      - { name: cardImageAlt, label: Card image alt text, type: string, description: "Describe the picture, e.g. 'Exterior of X condominium in Rawai'. Leave empty for an automatic alt." }
+      - { name: seoTitle, label: SEO title (browser/Google title), type: string, description: "Leave empty for an automatic title: Name + area + type for Sale. Keep it natural, about 50-60 characters." }
+      - { name: seoDescription, label: SEO meta description, type: text, description: "Leave empty for an automatic description built from verified fields. Facts only: no invented prices or availability." }
+      - { name: primaryKeyword, label: Primary keyword (planning note), type: string, description: "One phrase per project, e.g. 'Next Point Condominium Rawai'. Listed in the keyword map, not shown on the page." }
+      - { name: secondaryKeywords, label: Secondary / long-tail keywords (planning note), type: string, list: true }
+      - { name: ogTitle, label: Social share title (Open Graph), type: string, description: "Empty = SEO title." }
+      - { name: ogDescription, label: Social share description (Open Graph), type: text, description: "Empty = SEO description." }
+      - { name: ogImage, label: Social share image (Open Graph), type: image, description: "Empty = cover image." }
+      - { name: breadcrumbLabel, label: Breadcrumb label, type: string, description: "Empty = project name." }
+      - { name: noindex, label: Hide from search engines (noindex, also removed from sitemap), type: boolean, default: false }
       - { name: researchNotes, label: Internal research notes (not shown on the website), type: text }
       - { name: category, label: Category, type: select, required: true, default: Condominium, options: { values: [Villa, Townhouse, Condominium] } }
       - { name: priceStatus, label: Price status, type: select, options: { values: [advertised, on-request] } }

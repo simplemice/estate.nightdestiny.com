@@ -207,3 +207,5 @@ img{height:auto}
 .faq-list summary{cursor:pointer;padding:12px 16px;font-weight:600;color:#19191a}
 .faq-list details[open] summary{border-bottom:1px solid #eee}
 .faq-list p{margin:0;padding:12px 16px;color:#444}
+
+.ec-actions .primary-btn{white-space:normal;line-height:1.35;text-align:center}

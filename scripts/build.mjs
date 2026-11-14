@@ -196,13 +196,31 @@ const dateFmt = (d) => (d && !isNaN(Date.parse(d)) ? new Date(d).toISOString().s
 /* ---------- SEO text helpers (facts only; nothing invented) ---------- */
 const clip = (t, n = 158) => { t = String(t).replace(/\s+/g, ' ').trim(); if (t.length <= n) return t; const c = t.slice(0, n - 1); return c.slice(0, c.lastIndexOf(' ')).replace(/[,;:.\-\s]+$/, '') + '…'; };
 const fitTitle = (...opts) => opts.find((o) => o.length <= 62) || opts[opts.length - 1];
+const areaOf = (loc) => String(loc || 'Phuket').replace(/\s*\([^)]*\)/g, '').split('/')[0].split(',')[0].trim();
+const withPhuket = (a) => (/phuket/i.test(a) ? a : `${a}, Phuket`);
+const NOUN = { Villa: ['Villas', 'villa'], Townhouse: ['Townhouses', 'townhouse'], Condominium: ['Condos', 'condo'] };
+const nounOf = (p) => NOUN[p.category] || NOUN.Condominium;
+const devShort = (d) => String(d || '').replace(/\s*\([^)]*\)/g, '').replace(/\s+(Co\.?,? ?Ltd\.?|PCL|PLC|Company Limited)$/i, '').trim();
+// CMS field seoTitle wins; otherwise a unique, facts-only title (no brand suffix; Google adds the site name where it wants to).
+function projTitle(p) {
+  if (p.seoTitle) return p.seoTitle;
+  const t = p.name, a = areaOf(p.location), n = nounOf(p)[0];
+  const inName = (x) => t.toLowerCase().includes(x.toLowerCase().replace(/\s+phuket$/, ''));
+  const place = inName(a) ? 'Phuket' : /phuket/i.test(a) ? a : a + ' Phuket';
+  return fitTitle(`${t} ${place} | ${n} for Sale`, `${t} ${inName(a) ? '' : a} | ${n} for Sale`.replace('  ', ' '), `${t} | ${n} for Sale in Phuket`, `${t} | ${n} for Sale`, t);
+}
+// CMS field seoDescription wins; otherwise built from verified fields only.
 function projDesc(p) {
-  const f = facts(p);
-  const lead = p.shortDescription ? p.shortDescription.replace(/\s+/g, ' ').trim().replace(/[.\s]+$/, '') + '.' : `${p.projectType} project in ${p.location}, Phuket.`;
-  const bits = [rng(f.bedMin, f.bedMax) ? `${rng(f.bedMin, f.bedMax)} bedrooms` : '', f.price ? `from ${money(f.price, p.currency || 'THB')}` : '', p.constructionStatus && p.constructionStatus !== 'Status on request' ? p.constructionStatus : ''].filter(Boolean).join(', ');
-  const where = new RegExp(p.location, 'i').test(lead) ? '' : `${p.location}, Phuket. `;
-  const d = lead.length >= 120 ? lead : `${lead} ${where}${bits ? bits[0].toUpperCase() + bits.slice(1) + '. ' : ''}Enquire on WhatsApp.`;
-  return clip(d);
+  if (p.seoDescription) return p.seoDescription;
+  const f = facts(p), t = p.name, a = areaOf(p.location), noun = nounOf(p)[1];
+  const dev = devShort(p.developer);
+  const lead = `${t} is a ${noun} project in ${withPhuket(a)}${dev ? ` by ${dev}` : ''}.`;
+  const st = p.constructionStatus && p.constructionStatus !== 'Status on request' ? p.constructionStatus.toLowerCase() : '';
+  const beds = rng(f.bedMin, f.bedMax);
+  const facts_ = [beds ? `${beds} bedrooms` : '', st, f.price ? `from ${money(f.price, p.currency || 'THB')}` : ''].filter(Boolean).join(', ');
+  const cta = 'See unit types, facilities and enquire on WhatsApp.';
+  const opts = [`${lead} ${facts_ ? facts_[0].toUpperCase() + facts_.slice(1) + '. ' : ''}${cta}`, `${lead} ${facts_ ? facts_[0].toUpperCase() + facts_.slice(1) + '. ' : ''}Enquire on WhatsApp.`, `${lead} ${cta}`, lead];
+  return opts.find((o) => o.length <= 160) || clip(opts[opts.length - 1], 160);
 }
 function propDesc(p) {
   const verb = p.category === 'rent' ? 'for rent' : 'for sale';
@@ -216,7 +234,7 @@ const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.ma
 
 let CRUMBS = []; // set by pageHead(); turned into BreadcrumbList JSON-LD by layout()
 const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + '/', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: 'Phuket, Thailand' }, sameAs: [settings.instagram].filter(Boolean) });
-function layout({ title: t, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false }) {
+function layout({ title: t, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '' }) {
   const canonical = SITE + pathname;
   const crumbs = CRUMBS; CRUMBS = [];
   const graph = [];
@@ -233,8 +251,8 @@ ${GENERATED_MARK}
 	<meta name="description" content="${esc(description)}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="${esc(canonical)}">
-	<meta property="og:title" content="${esc(t)}">
-	<meta property="og:description" content="${esc(description)}">
+	<meta property="og:title" content="${esc(ogTitle || t)}">
+	<meta property="og:description" content="${esc(ogDescription || description)}">
 	<meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 	<meta property="og:site_name" content="${esc(settings.siteName)}">
 	<meta property="og:locale" content="en_US">
@@ -243,8 +261,8 @@ ${GENERATED_MARK}
 	<meta property="og:image" content="${esc(og)}">
 	<meta property="og:image:alt" content="${esc(t)}">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="${esc(t)}">
-	<meta name="twitter:description" content="${esc(description)}">
+	<meta name="twitter:title" content="${esc(ogTitle || t)}">
+	<meta name="twitter:description" content="${esc(ogDescription || description)}">
 	<meta name="twitter:image" content="${esc(og)}">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -399,8 +417,8 @@ function propCard(p, { filterable = false } = {}) {
 			<h3><a href="${url(p)}">${esc(t)}</a></h3>
 			<div class="ec-price">${price(p)}</div>
 			<ul class="ec-specs">${specs}</ul>
-			${p.shortDescription ? `<p class="ec-desc">${esc(p.shortDescription)}</p>` : ''}
-			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View Details</a>${waBtn(waMsg[p.category](t))}</div>
+			${p.cardDescription || p.shortDescription ? `<p class="ec-desc">${esc(p.cardDescription || p.shortDescription)}</p>` : ''}
+			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View ${esc(t)}</a>${waBtn(waMsg[p.category](t))}</div>
 		</div>
 	</article>
 </div>`;
@@ -429,14 +447,14 @@ function projSaleCard(proj) {
   const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
-		<a class="ec-img" href="${url(proj)}">${p.cover ? img(p.cover, `${t} - ${p.projectType} development in ${p.location}`) : NOPHOTO}${badge(avail && avail !== 'Available' ? avail : '') || `<span class="status status-proj">${esc(p.constructionStatus)}</span>`}${own ? `<span class="own">${esc(own)}</span>` : '<span class="own">New project</span>'}</a>
+		<a class="ec-img" href="${url(proj)}">${p.cover ? img(p.cover, proj.cardImageAlt || `${t} - ${nounOf(proj)[1]} project in ${withPhuket(areaOf(p.location))}`) : NOPHOTO}${badge(avail && avail !== 'Available' ? avail : '') || `<span class="status status-proj">${esc(p.constructionStatus)}</span>`}${own ? `<span class="own">${esc(own)}</span>` : '<span class="own">New project</span>'}</a>
 		<div class="ec-body">
 			<span class="ec-type">${esc(p.projectType)} &middot; ${esc(p.location)}</span>
 			<h3><a href="${url(proj)}">${esc(t)}</a></h3>
 			<div class="ec-price">${sp ? `<small>From</small> ${money(sp, p.currency || 'THB')}` : '<small>Price on request</small>'}</div>
 			<ul class="ec-specs">${specs}</ul>
-			${p.shortDescription ? `<p class="ec-desc">${esc(p.shortDescription)}</p>` : ''}
-			<div class="ec-actions"><a class="primary-btn" href="${url(proj)}">View Project</a>${waBtn(waMsg.project(t))}</div>
+			${proj.cardDescription || p.shortDescription ? `<p class="ec-desc">${esc(proj.cardDescription || p.shortDescription)}</p>` : ''}
+			<div class="ec-actions"><a class="primary-btn" href="${url(proj)}">View ${esc(t)}</a>${waBtn(waMsg.project(t))}</div>
 		</div>
 	</article>
 </div>`;
@@ -450,7 +468,7 @@ function projCard(p, { filterable = false } = {}) {
     : '';
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card project-card">
-		<a class="ec-img" href="${url(p)}">${p.cover ? img(p.cover, `${t} - ${p.category.toLowerCase()} project in ${p.location}`) : NOPHOTO}<span class="status status-proj">${esc(p.constructionStatus)}</span><span class="own">${esc(p.category)}</span></a>
+		<a class="ec-img" href="${url(p)}">${p.cover ? img(p.cover, p.cardImageAlt || `${t} - ${nounOf(p)[1]} project in ${withPhuket(areaOf(p.location))}`) : NOPHOTO}<span class="status status-proj">${esc(p.constructionStatus)}</span><span class="own">${esc(p.category)}</span></a>
 		<div class="ec-body">
 			<span class="ec-type">${esc(p.projectType)} &middot; ${esc(p.location)}</span>
 			<h3><a href="${url(p)}">${esc(t)}</a></h3>
@@ -460,8 +478,8 @@ function projCard(p, { filterable = false } = {}) {
 				${size ? `<li title="Built-up area"><i class="fa fa-arrows-alt"></i> ${size} sqm</li>` : ''}
 				${p.developer ? `<li>${esc(p.developer)}</li>` : ''}
 			</ul>
-			${p.shortDescription ? `<p class="ec-desc">${esc(p.shortDescription)}</p>` : ''}
-			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View Details</a>${waBtn(waMsg.project(t, p.location), 'wa-btn', 'Contact Us')}</div>
+			${p.cardDescription || p.shortDescription ? `<p class="ec-desc">${esc(p.cardDescription || p.shortDescription)}</p>` : ''}
+			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View ${esc(t)}</a>${waBtn(waMsg.project(t, p.location), 'wa-btn', 'Contact Us')}</div>
 		</div>
 	</article>
 </div>`;
@@ -633,6 +651,11 @@ function notFoundPage() {
 	<section class="spad-2"><div class="container text-center"><p>Try one of these instead:</p><p><a class="primary-btn" href="/sale/">Property for sale</a> &nbsp; <a class="primary-btn" href="/rent/">Rent</a> &nbsp; <a class="primary-btn" href="/projects/">New projects</a> &nbsp; <a class="primary-btn" href="/locations/">Locations</a></p><p class="mt-4">${waBtn(waMsg.general(), 'wa-btn', 'Ask us on WhatsApp')}</p></div></section>`;
   return layout({ title: `Page not found | ${settings.siteName}`, description: 'This page could not be found. Browse property for sale, rentals and new projects in Phuket.', pathname: '/404.html', active: '', body, noindex: true });
 }
+function serverErrorPage() {
+  const body = `<div class="breadcrumb-section"><div class="container"><div class="breadcrumb-text"><h1 class="page-h1">Something went wrong</h1><span>The server could not complete your request. Please try again in a few minutes.</span></div></div></div>
+	<section class="spad-2"><div class="container text-center"><p>You can also go to:</p><p><a class="primary-btn" href="/">Home</a> &nbsp; <a class="primary-btn" href="/sale/">Property for sale</a> &nbsp; <a class="primary-btn" href="/rent/">Rent</a> &nbsp; <a class="primary-btn" href="/projects/">New projects</a></p><p class="mt-4">${waBtn(waMsg.general(), 'wa-btn', 'Ask us on WhatsApp')}</p></div></section>`;
+  return layout({ title: `Server error | ${settings.siteName}`, description: 'The server could not complete your request. Please try again shortly or browse property for sale and rent in Phuket.', pathname: '/5xx.html', active: '', body, noindex: true });
+}
 
 /* ---------- detail pages ---------- */
 const spec = (k, v) => (v === undefined || v === null || v === '' ? '' : `<tr><td class="r-o">${esc(k)}</td><td>${esc(v)}</td></tr>`);
@@ -649,11 +672,23 @@ function gallery(p, alt) {
   const all = [p.cover, ...p.images].filter((v, i, a) => v && a.indexOf(v) === i);
   const main = all[0];
   if (!main) return `<div class="estate-gallery"><div class="g-main g-none">${NOPHOTO}<p>Photos for this project are not published yet. Ask us on WhatsApp for brochures and images.</p></div></div>`;
+  // Captions are written one per gallery image; older content lists them for the extra images only.
+  const caps = p.imageCaptions || [];
+  const capOf = (i) => (caps.length >= all.length ? caps[i] : i > 0 ? caps[i - 1] : '');
+  const seen = {};
+  const altOf = (i) => {
+    const c = String(capOf(i) || '').trim();
+    if (!c) return i === 0 ? alt : `${p.name || ''} ${areaOf(p.location)} project image ${i + 1}`.trim();
+    let a = new RegExp(String(p.name || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(c) ? c : `${c} at ${p.name || alt}`;
+    seen[a] = (seen[a] || 0) + 1;
+    return seen[a] > 1 ? `${a} (${seen[a]})` : a;
+  };
   return `<div class="estate-gallery" data-gallery>
-	<a class="g-main" href="${esc(bigSrc(main))}" data-full="${esc(bigSrc(main))}">${img(main, alt, { lazy: false, sizes: '(min-width: 992px) 66vw, 100vw' })}</a>
-	${all.length > 1 ? `<div class="g-thumbs">${all.map((s, i) => `<a href="${esc(bigSrc(s))}" class="g-thumb${i === 0 ? ' active' : ''}" data-full="${esc(bigSrc(s))}" aria-label="Image ${i + 1}">${img(s, `${alt} - ${(i > 0 && p.imageCaptions?.[i - 1]) || 'photo ' + (i + 1)}`, { sizes: '120px' })}</a>`).join('')}</div>` : ''}
+	<a class="g-main" href="${esc(bigSrc(main))}" data-full="${esc(bigSrc(main))}">${img(main, i0alt(p, alt, capOf(0)), { lazy: false, sizes: '(min-width: 992px) 66vw, 100vw' })}</a>
+	${all.length > 1 ? `<div class="g-thumbs">${all.map((s, i) => `<a href="${esc(bigSrc(s))}" class="g-thumb${i === 0 ? ' active' : ''}" data-full="${esc(bigSrc(s))}" aria-label="Image ${i + 1}">${img(s, i === 0 ? i0alt(p, alt, capOf(0)) : altOf(i), { sizes: '120px' })}</a>`).join('')}</div>` : ''}
 </div>`;
 }
+const i0alt = (p, alt, cap) => (p.name && cap ? `${alt}: ${String(cap).trim()}` : alt);
 const youtube = (u) => {
   const m = String(u || '').match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/);
   return m ? `<h4 class="sec-h">Video</h4><div class="video-wrap"><iframe title="Video presentation" loading="lazy" src="https://www.youtube-nocookie.com/embed/${m[1]}" allowfullscreen></iframe></div>` : '';
@@ -714,7 +749,7 @@ function propertyPage(p) {
 
 function projectPage(p) {
   const t = p.name, f = facts(p), cur = p.currency || 'THB';
-  const crumbs = [['/', 'Home'], ['/projects/', 'New Projects'], ['', t]];
+  const crumbs = [['/', 'Home'], ['/projects/', 'New Projects'], ['', p.breadcrumbLabel || t]];
   const desc = projDesc(p);
   const wa = (u) => waBtn(waMsg.unit(u, t, p.location), 'wa-btn wa-sm', 'Ask');
   const hasFloor = p.unitTypes.some((u) => u.floor);
@@ -748,7 +783,7 @@ function projectPage(p) {
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
-					${gallery(p, `${t} - ${p.category.toLowerCase()} project in ${p.location}`)}
+					${gallery(p, `${t} - ${nounOf(p)[1]} project in ${withPhuket(areaOf(p.location))}`)}
 					${p.imageCredit ? `<p class="img-credit">${esc(p.imageCredit)}</p>` : ''}
 					<h2 class="sec-h">Project overview</h2>
 					<div class="desc">${paras(p.description)}</div>
@@ -779,7 +814,7 @@ function projectPage(p) {
 	</section>
 	${related(p, projL)}
 	${jsonLd(ld)}`;
-  return layout({ title: fitTitle(`${t} - ${p.category} in ${p.location} | ${settings.siteName}`, `${t} in ${p.location} | ${settings.siteName}`, `${t} | ${settings.siteName}`), description: desc, pathname: url(p), active: 'projects', body, ogImage: p.cover, lightbox: true });
+  return layout({ title: projTitle(p), description: desc, pathname: url(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: p.ogTitle, ogDescription: p.ogDescription, noindex: p.noindex === true, lightbox: true });
 }
 
 /* ---------- home / about / contact ---------- */
@@ -890,6 +925,7 @@ write('properties/condos/index.html', catalogPage({ pathname: '/properties/condo
 write('locations/index.html', locationsHub());
 LOCS.forEach((g) => write(`locations/${g.slug}/index.html`, locationPage(g)));
 write('404.html', notFoundPage());
+write('5xx.html', serverErrorPage());
 write('about/index.html', aboutPage());
 write('contact/index.html', contactPage());
 rentL.concat(saleL).forEach((p) => write(`${url(p).slice(1)}index.html`, propertyPage(p)));
@@ -927,7 +963,7 @@ const urls = [
   ['/about/', latest(allListings), 'yearly', '0.4'],
   ['/contact/', latest(allListings), 'yearly', '0.5'],
   ...rentL.concat(saleL).map((x) => [url(x), dOf(x), 'weekly', '0.7', x]),
-  ...projL.map((x) => [url(x), dOf(x), 'weekly', '0.8', x]),
+  ...projL.filter((x) => x.noindex !== true).map((x) => [url(x), dOf(x), 'weekly', '0.8', x]),
 ];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.map(([u, lm, cf, pr, p]) => entry(u, lm, cf, pr, p)).join('\n')}\n</urlset>\n`);
 console.log(`Built ${urls.length} pages.`);
