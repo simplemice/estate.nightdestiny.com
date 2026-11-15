@@ -249,7 +249,10 @@ ${GENERATED_MARK}
 <head>
 	<meta charset="UTF-8">
 	<title>${esc(t)}</title>
-	<meta name="description" content="${esc(description)}">
+${/^G-[A-Z0-9]+$/.test(settings.gaMeasurementId || '') ? `	<!-- Google tag (gtag.js): hits are only sent from the production hostname -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=${settings.gaMeasurementId}"></script>
+	<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());if(location.hostname==='${new URL(SITE).hostname}'){gtag('config','${settings.gaMeasurementId}')}</script>
+` : ''}	<meta name="description" content="${esc(description)}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="canonical" href="${esc(canonical)}">
 	<meta property="og:title" content="${esc(ogTitle || t)}">
@@ -369,7 +372,7 @@ ${GENERATED_MARK}
 	<script src="/js/main.js?v=${JS_V.main}" defer></script>
 	<script src="/js/estate.js?v=${JS_V.estate}" defer></script>
 	${scripts}
-	<script src="/js/analytics.js?v=${JS_V.analytics}" defer data-ga="${esc(settings.gaMeasurementId || '')}" data-host="${esc(new URL(SITE).hostname)}" data-chat="${esc(settings.chatWidgetCode || '')}"></script>
+	<script src="/js/analytics.js?v=${JS_V.analytics}" defer data-host="${esc(new URL(SITE).hostname)}" data-chat="${esc(settings.chatWidgetCode || '')}"></script>
 </body>
 </html>
 `;
