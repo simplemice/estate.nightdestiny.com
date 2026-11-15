@@ -39,6 +39,8 @@ content:
       - { name: whatsappNumber, label: WhatsApp number, type: string, required: true, description: "Digits only, with country code, no + (e.g. 66942654121). Used everywhere.", pattern: { regex: "^[0-9]{8,15}$", message: "Digits only, no + or spaces" } }
       - { name: phoneDisplay, label: Phone (display), type: string }
       - { name: email, label: Email, type: string }
+      - { name: gaMeasurementId, label: Google Analytics 4 measurement ID, type: string, description: "Looks like G-XXXXXXXXXX. Leave empty to disable analytics.", pattern: { regex: "^(G-[A-Z0-9]+)?$", message: "Must look like G-XXXXXXXXXX" } }
+      - { name: chatWidgetCode, label: Zoho SalesIQ chat widget code (empty = no chat), type: string }
       - { name: address, label: Office address (text shown in footer and Contact page), type: string }
       - { name: mapUrl, label: Office map link (Google Maps), type: string, description: "Makes the address a link. Leave empty for plain text." }
       - { name: instagram, label: Instagram URL, type: string }

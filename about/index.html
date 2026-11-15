@@ -134,16 +134,6 @@
 	<script src="/js/main.js?v=20f48c01" defer></script>
 	<script src="/js/estate.js?v=38a4dbe0" defer></script>
 	
-	<script>
-	// Third-party widgets load after first interaction (or 5s idle) so they do not block rendering.
-	(function(){var ga=false,chat=false;
-	function loadGA(){if(ga)return;ga=true;var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id=G-D4T71GM5YB';document.body.appendChild(g);
-	window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-D4T71GM5YB');}
-	function loadChat(){if(chat)return;chat=true;window.$zoho=window.$zoho||{};$zoho.salesiq=$zoho.salesiq||{ready:function(){}};
-	var z=document.createElement('script');z.id='zsiqscript';z.defer=true;z.src='https://salesiq.zohopublic.com/widget?wc=siq789fbb681f7e363ccc62b2645d135dfdaf349e73cb0e15866964644100fa6c28';document.body.appendChild(z);}
-	function onInteract(){loadGA();loadChat();}
-	['scroll','pointerdown','keydown','touchstart','mousemove'].forEach(function(e){addEventListener(e,onInteract,{once:true,passive:true})});
-	setTimeout(loadGA,3000);setTimeout(loadChat,20000);})();
-	</script>
+	<script src="/js/analytics.js?v=c33cbc31" defer data-ga="G-MKGM10XNQV" data-host="estate.nightdestiny.com" data-chat="siq789fbb681f7e363ccc62b2645d135dfdaf349e73cb0e15866964644100fa6c28"></script>
 </body>
 </html>
