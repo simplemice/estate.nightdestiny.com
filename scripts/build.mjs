@@ -416,7 +416,7 @@ function propCard(p, { filterable = false } = {}) {
 		<div class="ec-body">
 			<span class="ec-type">${esc(p.propertyType)} &middot; ${esc(p.location)}</span>
 			<h3><a href="${url(p)}">${esc(t)}</a></h3>
-			<div class="ec-price">${price(p)}</div>
+			<div class="ec-price">${p.category === 'rent' ? '<small>From</small> ' : ''}${price(p)}</div>
 			<ul class="ec-specs">${specs}</ul>
 			${p.cardDescription || p.shortDescription ? `<p class="ec-desc">${esc(p.cardDescription || p.shortDescription)}</p>` : ''}
 			<div class="ec-actions"><a class="primary-btn" href="${url(p)}">View ${esc(t)}</a>${waBtn(waMsg[p.category](t))}</div>
