@@ -234,13 +234,17 @@ const NAV = [['/', 'Home', 'home'], ['/rent/', 'Rent', 'rent'], ['/sale/', 'Sale
 const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.map(([h, l, k, kids]) => `<li${k === active ? ' class="active"' : ''}><a href="${h}">${l}</a>${kids ? `<ul class="dropdown">${kids.map(([kh, kl]) => `<li><a href="${kh}">${kl}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul></nav>`;
 
 let CRUMBS = []; // set by pageHead(); turned into BreadcrumbList JSON-LD by layout()
-const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + '/', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: 'Phuket, Thailand' }, sameAs: [settings.instagram].filter(Boolean) });
-function layout({ title: t, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '' }) {
-  const canonical = SITE + pathname;
+const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, ...(settings.alternateName ? { alternateName: settings.alternateName } : {}), url: SITE + '/', logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 621, height: 401 }, image: SITE + '/img/logo.png', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: 'Phuket, Thailand' }, sameAs: [settings.instagram].filter(Boolean) });
+function layout({ title: t0, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '' }) {
+  let t = t0;
+  // Brand suffix only on home/about/contact/error pages; elsewhere Google adds the site name itself.
+  if (!['/', '/about/', '/contact/', '/404.html', '/5xx.html'].includes(pathname) && t.endsWith(' | ' + settings.siteName)) t = t.slice(0, -(settings.siteName.length + 3));
+  const canonical = canonicalUrl && canonicalUrl.startsWith(SITE + '/') ? canonicalUrl : SITE + pathname;
   const crumbs = CRUMBS; CRUMBS = [];
   const graph = [];
-  if (home) graph.push(AGENT(), { '@type': 'WebSite', '@id': SITE + '/#website', url: SITE + '/', name: settings.siteName, inLanguage: 'en', publisher: { '@id': SITE + '/#agent' } });
-  if (crumbs.length > 1) graph.push({ '@type': 'BreadcrumbList', itemListElement: crumbs.map(([h, l], i) => ({ '@type': 'ListItem', position: i + 1, name: l, ...(h ? { item: SITE + h } : { item: canonical }) })) });
+  if (home) graph.push(AGENT(), { '@type': 'WebSite', '@id': SITE + '/#website', url: SITE + '/', name: settings.siteName, ...(settings.alternateName ? { alternateName: settings.alternateName } : {}), inLanguage: 'en', publisher: { '@id': SITE + '/#agent' } });
+  if (crumbs.length > 1) graph.push({ '@type': 'BreadcrumbList', '@id': canonical + '#breadcrumb', itemListElement: crumbs.map(([h, l], i) => ({ '@type': 'ListItem', position: i + 1, name: l, ...(h ? { item: SITE + h } : { item: canonical }) })) });
+  entities.forEach((e) => { const { '@context': _c, ...rest } = e; graph.push(rest); });
   const ldAll = graph.length ? jsonLd({ '@context': 'https://schema.org', '@graph': graph }) : '';
   const og = ogImage ? (ogImage.startsWith('http') ? ogImage : SITE + ogImage) : SITE + '/img/hero/hero-1.jpg';
   return `<!DOCTYPE html>
@@ -531,7 +535,7 @@ function listingPage(category, list, extra = []) {
 			${total === 0 ? `<p class="no-results">No listings available right now. ${waBtn(waMsg.general(), 'wa-btn', 'Ask us on WhatsApp')}</p>` : ''}
 		</div>
 	</section>`;
-  return layout({ title: rentC ? `Phuket Condos & Villas for Rent | ${settings.siteName}` : `Property for Sale in Phuket | ${settings.siteName}`, description: desc, pathname: `/${category}/`, active: category, body, ogImage: (list[0] || extra[0])?.cover });
+  return layout({ title: rentC ? `Phuket Condos & Villas for Rent | ${settings.siteName}` : `Property for Sale in Phuket | ${settings.siteName}`, description: desc, pathname: `/${category}/`, active: category, body, ogImage: (list[0] || extra[0])?.cover, entities: [{ '@type': 'ItemList', name: h1, itemListElement: list.concat(extra).slice(0, 50).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(x), name: x.name || title(x) })) }] });
 }
 
 function catalogFilter(list, lock) {
@@ -738,12 +742,13 @@ function propertyPage(p) {
 	</section>
 	${related(p, pool)}
 	${jsonLd(ld)}`;
-  return layout({ title: fitTitle(`${t} - ${cat === 'rent' ? 'For Rent' : 'For Sale'} in ${p.location} | ${settings.siteName}`, `${t} in ${p.location} | ${settings.siteName}`), description: desc, pathname: url(p), active: cat, body, ogImage: p.cover, lightbox: true });
+  return layout({ title: fitTitle(`${t} for ${cat === 'rent' ? 'Rent' : 'Sale'} in ${withPhuket(areaOf(p.location))}`, `${t} for ${cat === 'rent' ? 'Rent' : 'Sale'} in Phuket`, `${t} for ${cat === 'rent' ? 'Rent' : 'Sale'}`), description: desc, pathname: url(p), active: cat, body, ogImage: p.cover, lightbox: true });
 }
 
 function projectPage(p) {
   const t = p.name, f = facts(p), cur = p.currency || 'THB';
-  const crumbs = [['/', 'Home'], ['/projects/', 'New Projects'], ['', p.breadcrumbLabel || t]];
+  const CAT_CRUMB = { Villa: ['/properties/villas/', 'Villas for Sale'], Townhouse: ['/properties/townhouses/', 'Townhouses for Sale'], Condominium: ['/properties/condos/', 'Condos for Sale'] };
+  const crumbs = [['/', 'Home'], ['/properties/', 'Phuket Property'], CAT_CRUMB[p.category] || CAT_CRUMB.Condominium, ['', p.breadcrumbLabel || t]];
   const desc = projDesc(p);
   const wa = (u) => waBtn(waMsg.unit(u, t, p.location), 'wa-btn wa-sm', 'Ask');
   const hasFloor = p.unitTypes.some((u) => u.floor);
@@ -771,7 +776,11 @@ function projectPage(p) {
   const priceBlock = f.price
     ? `<div class="ds-price"><small>Starting from</small><br>${money(f.price, cur)}</div><p class="ds-note">${p.priceNote ? esc(p.priceNote) + ' ' : ''}${p.priceType ? esc(p.priceType) + ' (starting price)' : 'Advertised starting price'}${verified ? `, last checked ${verified}` : ''}. Confirm current availability with our team.</p>`
     : `<div class="ds-price"><small>Price on request</small></div><p class="ds-note">No public price is published for this project. Ask us for current prices.</p>`;
-  const ld = { '@context': 'https://schema.org', '@type': 'RealEstateListing', name: t, url: SITE + url(p), description: desc, image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), datePosted: p.publishedAt, ...(f.price ? { offers: { '@type': 'Offer', price: f.price, priceCurrency: cur } } : {}), about: { '@type': 'Residence', name: t, address: { '@type': 'PostalAddress', addressLocality: p.location, addressRegion: 'Phuket', addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
+  // WebPage + main entity. No datePosted / offers: the page is not a dated listing and the starting price is an advertised "from" figure, not an offer on a specific unit.
+  const pageUrl = SITE + url(p);
+  const ld = { '@context': 'https://schema.org', '@type': 'WebPage', '@id': pageUrl + '#webpage', url: pageUrl, name: projTitle(p), description: desc, inLanguage: 'en', isPartOf: { '@id': SITE + '/#website' }, breadcrumb: { '@id': pageUrl + '#breadcrumb' },
+    ...(p.cover ? { primaryImageOfPage: { '@type': 'ImageObject', url: SITE + p.cover } } : {}),
+    mainEntity: { '@type': p.category === 'Condominium' ? 'ApartmentComplex' : 'Residence', '@id': pageUrl + '#project', name: t, url: pageUrl, image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), address: { '@type': 'PostalAddress', addressLocality: areaOf(p.location), addressRegion: 'Phuket', addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
   const body = `${pageHead(t, `${p.category} in ${p.location}`, crumbs)}
 	<section class="spad-2 detail-section">
 		<div class="container">
@@ -807,8 +816,8 @@ function projectPage(p) {
 		</div>
 	</section>
 	${related(p, projL)}
-	${jsonLd(ld)}`;
-  return layout({ title: projTitle(p), description: desc, pathname: url(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: p.ogTitle, ogDescription: p.ogDescription, noindex: p.noindex === true, lightbox: true });
+`;
+  return layout({ title: projTitle(p), description: desc, pathname: url(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: p.ogTitle, ogDescription: p.ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true });
 }
 
 /* ---------- home / about / contact ---------- */
@@ -859,7 +868,7 @@ function homePage() {
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>Browse by area</span><h2>Popular Locations</h2></div><div class="loc-grid">${locCards}</div></div></section>
 	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>About us</span><h2>Your local real estate partner</h2></div><p>${esc(settings.aboutText)}</p><a class="primary-btn" href="/about/">About our agency</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', 'Chat on WhatsApp')}</div></div></div></section>`;
   return layout({
-    title: 'Phuket Real Estate & Villas for Sale | Nightdestiny Estate',
+    title: `Phuket Real Estate & Villas for Sale | ${settings.siteName}`,
     description: 'Phuket real estate: villas, townhouses and condos for sale, new development projects and rentals in Thailand. Talk to us directly on WhatsApp.',
     pathname: '/', active: 'home', home: true, body, ogImage: settings.heroImage,
     preload: heroPreload(),
@@ -869,7 +878,7 @@ function homePage() {
 function aboutPage() {
   const body = `${pageHead('About Us', 'Real estate in Phuket', [['/', 'Home'], ['', 'About Us']])}
 	<section class="spad-2"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text"><p>${esc(settings.aboutText)}</p><p>Whether you are looking for a long-term rental, a place to buy or an off-plan investment, message us on WhatsApp and we will respond with options that match your budget.</p><p class="mt-4"><a class="primary-btn" href="/rent/">Rent</a> &nbsp; <a class="primary-btn" href="/sale/">Sale</a> &nbsp; <a class="primary-btn" href="/projects/">New projects</a></p></div></div></div></section>`;
-  return layout({ title: `About Us | ${settings.siteName}`, description: 'About Nightdestiny Estate: condos, villas and new developments in Phuket, Thailand.', pathname: '/about/', active: 'about', body });
+  return layout({ title: `About Us | ${settings.siteName}`, description: `About ${settings.siteName}: condos, villas and new developments in Phuket, Thailand.`, pathname: '/about/', active: 'about', body });
 }
 
 function contactPage() {
@@ -878,7 +887,7 @@ function contactPage() {
 		<p>${waBtn(waMsg.general(), 'wa-btn wa-block', 'Chat with us on WhatsApp')}</p>
 		<ul class="contact-list"><li><i class="fa fa-phone"></i> ${telLink()}</li><li><i class="fa fa-envelope"></i> ${mailLink()}</li><li><i class="fa fa-map-marker"></i> ${addrLink()}</li></ul>
 	</div></div></div></section>`;
-  return layout({ title: `Contact | ${settings.siteName}`, description: 'Contact Nightdestiny Estate on WhatsApp, phone or email for rentals, sales and new projects in Phuket.', pathname: '/contact/', active: 'contact', body });
+  return layout({ title: `Contact | ${settings.siteName}`, description: `Contact ${settings.siteName} on WhatsApp, phone or email for rentals, sales and new projects in Phuket.`, pathname: '/contact/', active: 'contact', body });
 }
 
 /* ---------- css bundle (one render-blocking request instead of seven) ---------- */
@@ -911,7 +920,7 @@ write('index.html', homePage());
 write('rent/index.html', listingPage('rent', rentL));
 write('sale/index.html', listingPage('sale', saleL, saleProjects));
 write('projects/index.html', projectsPage(projL));
-const propCrumbs = (l) => [['/', 'Home'], ...(l ? [['/properties/', 'Properties'], ['', l]] : [['', 'Properties']])];
+const propCrumbs = (l) => [['/', 'Home'], ...(l ? [['/properties/', 'Phuket Property'], ['', `${l} for Sale`]] : [['', 'Phuket Property']])];
 write('properties/index.html', catalogPage({ pathname: '/properties/', ttl: 'Phuket Villas, Townhouses & Condos', h1: 'Phuket Villas, Townhouses & New Developments', sub: 'Browse every development project in our catalogue', desc: 'Browse villa, townhouse and condominium projects in Phuket, Thailand with starting prices, locations and construction status. Enquire directly on WhatsApp.', list: projL, active: 'properties', crumbs: propCrumbs() }));
 write('properties/villas/index.html', catalogPage({ pathname: '/properties/villas/', ttl: 'Villas for Sale in Phuket', h1: 'Villas for Sale in Phuket', sub: 'Pool villas and villa communities', desc: 'Villa development projects for sale in Phuket, Thailand: Kamala, Bang Tao, Cherng Talay, Layan, Laguna and more. Starting prices and WhatsApp enquiries.', list: projL.filter((p) => p.category === 'Villa'), lock: 'Villa', active: 'properties', crumbs: propCrumbs('Villas') }));
 write('properties/townhouses/index.html', catalogPage({ pathname: '/properties/townhouses/', h1: 'Townhouses for Sale in Phuket', sub: 'Townhouse and terrace developments', desc: 'Townhouse development projects for sale in Phuket, Thailand, with starting prices, locations and WhatsApp enquiries.', list: projL.filter((p) => p.category === 'Townhouse'), lock: 'Townhouse', active: 'properties', crumbs: propCrumbs('Townhouses') }));

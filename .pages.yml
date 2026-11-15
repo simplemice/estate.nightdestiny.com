@@ -39,6 +39,7 @@ content:
       - { name: whatsappNumber, label: WhatsApp number, type: string, required: true, description: "Digits only, with country code, no + (e.g. 66942654121). Used everywhere.", pattern: { regex: "^[0-9]{8,15}$", message: "Digits only, no + or spaces" } }
       - { name: phoneDisplay, label: Phone (display), type: string }
       - { name: email, label: Email, type: string }
+      - { name: alternateName, label: Alternate site name(s) for Google (the previous brand name), type: string, list: true, description: "Helps Google recognise the site name. Leave the old name here for a while after a rename." }
       - { name: gaMeasurementId, label: Google Analytics 4 measurement ID, type: string, description: "Looks like G-XXXXXXXXXX. Leave empty to disable analytics.", pattern: { regex: "^(G-[A-Z0-9]+)?$", message: "Must look like G-XXXXXXXXXX" } }
       - { name: chatWidgetCode, label: Zoho SalesIQ chat widget code (empty = no chat), type: string }
       - { name: address, label: Office address (text shown in footer and Contact page), type: string }
@@ -147,6 +148,7 @@ content:
       - { name: ogTitle, label: Social share title (Open Graph), type: string, description: "Empty = SEO title." }
       - { name: ogDescription, label: Social share description (Open Graph), type: text, description: "Empty = SEO description." }
       - { name: ogImage, label: Social share image (Open Graph), type: image, description: "Empty = cover image." }
+      - { name: canonicalUrl, label: Canonical URL override (only when needed), type: string, description: "Leave EMPTY normally: the page canonical is automatic. Must start with https://estate.nightdestiny.com/ or it is ignored." }
       - { name: breadcrumbLabel, label: Breadcrumb label, type: string, description: "Empty = project name." }
       - { name: noindex, label: Hide from search engines (noindex, also removed from sitemap), type: boolean, default: false }
       - { name: researchNotes, label: Internal research notes (not shown on the website), type: text }
