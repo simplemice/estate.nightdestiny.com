@@ -712,7 +712,7 @@ function propertyPage(p) {
   const ld = {
     '@context': 'https://schema.org', '@type': 'RealEstateListing', name: t, url: SITE + url(p), description: desc,
     image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), datePosted: p.publishedAt,
-    offers: { '@type': 'Offer', price: num(p.price), priceCurrency: p.currency || 'THB', availability: p.availability === 'Available' ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut' },
+    offers: { '@type': cat === 'rent' ? 'AggregateOffer' : 'Offer', ...(cat === 'rent' ? { lowPrice: num(p.price) } : { price: num(p.price) }), priceCurrency: p.currency || 'THB', availability: p.availability === 'Available' ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut' },
     about: { '@type': 'Accommodation', numberOfBedrooms: num(p.bedrooms) ?? undefined, numberOfBathroomsTotal: num(p.bathrooms) ?? undefined, floorSize: num(p.livingArea) ? { '@type': 'QuantitativeValue', value: num(p.livingArea), unitCode: 'MTK' } : undefined, address: { '@type': 'PostalAddress', addressLocality: p.location, addressCountry: 'TH' } },
   };
   const body = `${pageHead(t, `${p.propertyType} in ${p.location}`, crumbs)}
@@ -729,7 +729,7 @@ function propertyPage(p) {
 				</div>
 				<div class="col-lg-4">
 					<aside class="detail-side">
-						<div class="ds-price">${price(p)}</div>
+						<div class="ds-price">${cat === 'rent' ? '<small class="ds-from">From</small> ' : ''}${price(p)}</div>
 						<div class="ds-meta">${esc(cat === 'rent' ? 'For rent' : 'For sale')} ${badge(p.availability)}</div>
 						<table class="spec-table"><tbody>
 							${spec('Type', p.propertyType)}${spec('Location', p.location)}
