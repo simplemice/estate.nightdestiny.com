@@ -1,4 +1,4 @@
-# Nightdestiny Estate - https://estate.nightdestiny.com
+# Estate Nightdestiny - https://estate.nightdestiny.com
 User-agent: *
 Allow: /
 # Source/content folders and internal docs are not meant for search results
