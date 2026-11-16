@@ -24,14 +24,13 @@
   "totalUnits": 22,
   "floors": "2",
   "parking": "Double carport",
-  "reservationFee": "THB 388,000",
   "privatePool": "yes",
   "ownership": [
     "Leasehold"
   ],
   "constructionStatus": "Under construction",
   "paymentPlan": [
-    "Reservation 2%",
+    "Reservation 2% (THB 388,000)",
     "SPA signing 28% within 30 days",
     "Main structure 20%",
     "Roof and walls 20%",

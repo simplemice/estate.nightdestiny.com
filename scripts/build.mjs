@@ -25,6 +25,7 @@ const fmtNum = (n) => new Intl.NumberFormat('en-US').format(n);
 const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 const settings = readJson(path.join(ROOT, 'content/settings.json'));
+const STD_PAY = Array.isArray(settings.standardPaymentPlan) ? settings.standardPaymentPlan.filter(Boolean) : [];
 const SITE = settings.siteUrl.replace(/\/$/, '');
 const WA = String(settings.whatsappNumber).replace(/\D/g, '');
 const WA_TEL = String(settings.phone || settings.whatsappNumber).replace(/\D/g, '');
@@ -758,9 +759,10 @@ function projectPage(p) {
   const unitPT = [...new Set(p.unitTypes.map((u) => u.priceType).filter(Boolean))];
   const units = p.unitTypes.length ? `<h4 class="sec-h">Available units</h4><div class="table-responsive"><table class="table unit-table"><thead><tr><th>Type</th>${hasFloor ? '<th>Floor</th>' : ''}<th>Beds</th><th>Baths</th><th>Built-up</th><th>Land</th><th>Price</th><th>Status</th><th></th></tr></thead><tbody>${p.unitTypes.map((u) => `<tr><td><strong>${esc(u.name)}</strong></td>${hasFloor ? `<td>${esc(u.floor ?? '-')}</td>` : ''}<td>${esc(u.bedrooms ?? '-')}</td><td>${esc(u.bathrooms ?? '-')}</td><td>${u.size || u.builtUpSqm ? esc(u.size ?? u.builtUpSqm) + ' sqm' : '-'}</td><td>${u.landSqm ? esc(u.landSqm) + ' sqm' : '-'}</td><td>${num(u.price) ? money(u.price, cur) + usd(u.price, cur) : 'On request'}</td><td>${esc(u.availability || 'Ask')}</td><td>${wa(u.name)}${u.floorPlan ? ` <a class="plan-link" href="${esc(bigSrc(u.floorPlan))}">Plan</a>` : ''}</td></tr>`).join('')}</tbody></table></div>${unitPT.length ? `<p class="ds-note">Unit price type: ${esc(unitPT.join(' / '))}.</p>` : ''}` : '';
   const plans = p.floorPlans.length ? `<h4 class="sec-h">Floor plans &amp; site plan</h4><div class="plans row">${p.floorPlans.map((fp, i) => `<div class="col-6 col-md-4"><a class="plan-link" href="${esc(bigSrc(fp))}">${img(fp, `${t} floor plan ${i + 1}`, { sizes: '(min-width: 768px) 25vw, 50vw' })}</a></div>`).join('')}</div>` : '';
+  // Standard terms (content/settings.json) apply when a project has no plan of its own and is not already completed. A project's own paymentPlan always wins.
+  const payPlan = p.paymentPlan.length ? p.paymentPlan : (p.constructionStatus !== 'Completed' ? STD_PAY : []);
   const pay = [
-    p.paymentPlan.length ? `<ul class="check-list pay-list">${p.paymentPlan.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '',
-    p.reservationFee ? `<p><strong>Reservation:</strong> ${esc(p.reservationFee)}</p>` : '',
+    payPlan.length ? `<ul class="check-list pay-list">${payPlan.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '',
     p.promotions ? `<p><strong>Promotions:</strong> ${esc(p.promotions)}</p>` : '',
     p.commonAreaFee ? `<p><strong>Common area fee:</strong> ${esc(p.commonAreaFee)}</p>` : '',
     p.sinkingFund ? `<p><strong>Sinking fund:</strong> ${esc(p.sinkingFund)}</p>` : '',

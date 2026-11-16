@@ -22,13 +22,13 @@
   "landMax": 1969,
   "floors": "1",
   "parking": "Covered resident parking",
-  "reservationFee": "THB 200,000",
   "privatePool": "yes",
   "ownership": [
     "Leasehold"
   ],
   "constructionStatus": "Status on request",
   "paymentPlan": [
+    "Reservation agreement with THB 200,000 booking fee",
     "65% in installments per construction progress"
   ],
   "facilities": [

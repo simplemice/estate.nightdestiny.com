@@ -48,6 +48,7 @@ content:
       - { name: heroImage, label: Home hero image, type: image }
       - { name: heroTitle, label: Home hero title, type: string }
       - { name: heroSubtitle, label: Home hero subtitle, type: text }
+      - { name: standardPaymentPlan, label: Standard payment information (shown on every project without its own payment plan), type: string, list: true }
       - { name: aboutText, label: About text, type: text }
 
   - name: rent
@@ -172,8 +173,7 @@ content:
       - { name: furniture, label: Furniture package, type: string }
       - { name: ownership, label: Ownership (only if verified), type: select, options: { values: [Freehold, Leasehold], multiple: true } }
       - { name: constructionStart, label: Construction start, type: string }
-      - { name: paymentPlan, label: Payment plan (one step per line), type: string, list: true }
-      - { name: reservationFee, label: Reservation fee, type: string }
+      - { name: paymentPlan, label: Payment plan (one step per line), type: string, list: true, description: "Leave EMPTY to use the standard payment information (set in Site settings). Fill in only when this project has different verified terms; put the booking fee inside the plan, not in a separate field." }
       - { name: promotions, label: Promotions, type: string }
       - { name: commonAreaFee, label: Common area fee, type: string }
       - { name: sinkingFund, label: Sinking fund, type: string }

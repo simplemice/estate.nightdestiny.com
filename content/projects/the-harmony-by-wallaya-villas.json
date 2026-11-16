@@ -24,7 +24,6 @@
   "totalUnits": 37,
   "floors": "3",
   "parking": "Covered resident parking",
-  "reservationFee": "200,000 THB",
   "commonAreaFee": "25 THB/sqm",
   "sinkingFund": "500 THB/sqm",
   "privatePool": "yes",
@@ -33,7 +32,7 @@
   ],
   "constructionStatus": "Status on request",
   "paymentPlan": [
-    "Reservation agreement with booking fee",
+    "Reservation agreement with THB 200,000 booking fee",
     "Contract signature with 30% deposit",
     "Instalments tied to construction progress (70%)",
     "Ownership transfer and lease registration on completion"

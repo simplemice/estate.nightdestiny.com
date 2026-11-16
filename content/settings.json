@@ -16,5 +16,11 @@
   "heroImage": "/img/hero/hero-1.jpg",
   "heroTitle": "Find Your Place in Phuket",
   "heroSubtitle": "Condos and villas to rent, properties for sale and new developments, with direct WhatsApp support.",
-  "aboutText": "Estate Nightdestiny helps tenants, buyers and investors find condos, villas and new developments in Phuket. We work directly with owners and developers and answer every inquiry personally on WhatsApp."
+  "aboutText": "Estate Nightdestiny helps tenants, buyers and investors find condos, villas and new developments in Phuket. We work directly with owners and developers and answer every inquiry personally on WhatsApp.",
+  "standardPaymentPlan": [
+    "Reservation agreement with THB 100,000 booking fee",
+    "Contract signing with 20% deposit",
+    "Construction-linked installments for the remaining 80%",
+    "Ownership transfer / lease registration on completion"
+  ]
 }

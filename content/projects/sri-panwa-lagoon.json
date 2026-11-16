@@ -24,7 +24,6 @@
   "totalUnits": 28,
   "floors": "3",
   "parking": "Covered parking",
-  "reservationFee": "THB 500,000",
   "commonAreaFee": "THB 50 per sqm",
   "sinkingFund": "THB 300 per sqm",
   "privatePool": "some",
@@ -33,7 +32,7 @@
   ],
   "constructionStatus": "Under construction",
   "paymentPlan": [
-    "Reservation agreement with booking fee",
+    "Reservation agreement with THB 500,000 booking fee",
     "30% deposit on contract signing",
     "Installments by construction progress",
     "Balance 70% / transfer and lease registration on completion"

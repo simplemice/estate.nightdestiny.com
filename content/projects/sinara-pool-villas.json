@@ -24,7 +24,6 @@
   "floors": "2",
   "furniture": "Fully fitted kitchens, built-in furniture, custom wardrobes",
   "parking": "Covered parking, 2 cars per villa",
-  "reservationFee": "THB 200,000",
   "commonAreaFee": "THB 22 per sqm",
   "sinkingFund": "THB 250 per sqm",
   "privatePool": "yes",
@@ -33,7 +32,7 @@
   ],
   "constructionStatus": "Under construction",
   "paymentPlan": [
-    "Reservation 2%",
+    "Reservation 2% (THB 200,000)",
     "Contract signing within 30 days 33%",
     "Structure 15%",
     "External walls and partitions 20%",

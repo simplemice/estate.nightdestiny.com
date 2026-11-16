@@ -23,7 +23,6 @@
   "landMax": 2070.84,
   "totalUnits": 22,
   "floors": "2",
-  "reservationFee": "THB 1,020,000",
   "privatePool": "yes",
   "ownership": [
     "Leasehold"
@@ -31,7 +30,7 @@
   "constructionStatus": "Under construction",
   "paymentPlan": [
     "Sales team selects plot and villa type",
-    "Reservation agreement with booking fee",
+    "Reservation agreement with THB 1,020,000 booking fee",
     "28% deposit on contract signing",
     "Installments by construction progress",
     "Transfer and lease registration at completion"
