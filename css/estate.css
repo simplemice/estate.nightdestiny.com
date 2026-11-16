@@ -209,3 +209,11 @@ img{height:auto}
 .faq-list p{margin:0;padding:12px 16px;color:#444}
 
 .ec-actions .primary-btn{white-space:normal;line-height:1.35;text-align:center}
+
+/* USD equivalent (secondary, filled by js/fx.js; THB stays the primary price) */
+.usd{display:block;min-height:1.4em;font-family:"Cabin",sans-serif;font-size:14px;font-weight:400;color:#5f5f68;line-height:1.4;margin-top:2px}
+.ds-price .usd{font-size:15px;margin-top:4px}
+.unit-table .usd{display:block;min-height:0;font-size:12px;margin:0;white-space:nowrap}
+.unit-table .usd:empty,.usd-note-text:empty{display:none}
+.ec-price .usd{font-size:14px;color:#5f5f68;margin-top:2px}
+.ds-price .usd{color:#5f5f68}
