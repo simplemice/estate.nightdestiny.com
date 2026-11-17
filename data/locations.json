@@ -14,6 +14,8 @@
  {
   "name": "Bang Tao",
   "projects": [
+   "banyan-tree-beach-residences-nerea",
+   "laguna-beach-residences-bayside",
    "manor",
    "mono-oxygen-bangtao-beach",
    "redwood-lakeside",
@@ -45,6 +47,7 @@
  {
   "name": "Cherng Talay",
   "projects": [
+   "the-title-cocoon",
    "wynn",
    "azalea-bangtao-villas",
    "mouana-serenity-cherng-talay",
@@ -86,6 +89,7 @@
  {
   "name": "Kamala",
   "projects": [
+   "naturale-kamala",
    "coralina-kamala",
    "goldena-city-gems-villas",
    "goldena-twin",
@@ -95,6 +99,7 @@
  {
   "name": "Karon",
   "projects": [
+   "ever-prime-residences",
    "the-kuartz"
   ]
  },
@@ -104,6 +109,12 @@
    "so-origin-kata-phuket",
    "fizz",
    "the-katabello"
+  ]
+ },
+ {
+  "name": "Kathu-Patong",
+  "projects": [
+   "the-origin-kathu-patong"
   ]
  },
  {
@@ -152,6 +163,13 @@
   ]
  },
  {
+  "name": "Mai Khao",
+  "projects": [
+   "maviston-mai-khao",
+   "mouana-mai-khao"
+  ]
+ },
+ {
   "name": "Nai Harn",
   "projects": [
    "sunny-moon-village"
@@ -160,6 +178,8 @@
  {
   "name": "Naiyang",
   "projects": [
+   "silhouette-by-the-zero-phuket",
+   "the-nayabella-condominium",
    "the-balcony",
    "the-olive",
    "the-title-halo-1",
@@ -193,6 +213,7 @@
  {
   "name": "Rawai",
   "projects": [
+   "vip-galaxy-villas",
    "monetaria",
    "next-point-rawai",
    "adora-rawai",
@@ -203,6 +224,8 @@
  {
   "name": "Si Sunthon",
   "projects": [
+   "arise-vibe",
+   "ayana-soluna-villas",
    "amber-chamber",
    "clover-residence",
    "mount-mono",

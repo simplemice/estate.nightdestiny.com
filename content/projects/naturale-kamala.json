@@ -1,0 +1,58 @@
+{
+  "name": "Naturale Kamala",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Kamala",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "AAG Development",
+  "shortDescription": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
+  "description": "Naturale Kamala is a boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, built by AAG Development. Agent listings show 3 to 5 bedroom villas, each with a private pool.\n\nIt is a different project from Naturale Cherng Talay, which AAG is building in Bang Tao. Completion is quoted as Q2 2028, and a developer price list from October 2026 notes that two of the 14 villas had already sold.\n\nPrices start from about 58.5 million baht in agent listings and rise sharply for the largest villas. Ask us on WhatsApp for the current price list and what remains.",
+  "cardDescription": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
+  "seoTitle": "Naturale Kamala, Private Pool Villas in Kamala, Phuket",
+  "seoDescription": "Naturale Kamala by AAG Development: a community of 14 private pool villas with 3 to 5 bedrooms in Kamala, Phuket. Enquire on WhatsApp for the price list.",
+  "primaryKeyword": "Naturale Kamala",
+  "secondaryKeywords": [
+    "Naturale Kamala villas",
+    "Kamala pool villas for sale",
+    "AAG Development Phuket"
+  ],
+  "startingPrice": 58500000,
+  "priceStatus": "advertised",
+  "priceNote": "Starting price listed by Papaya Property and Asterofasia; another agent lists a 5-bedroom villa at 179 million.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://papayaproperty.com/aag-development/naturale-kamala",
+  "lastVerified": "2026-11-17",
+  "bedroomsMin": 3,
+  "bedroomsMax": 5,
+  "totalUnits": 14,
+  "privatePool": "yes",
+  "constructionStatus": "Status on request",
+  "completionDate": "Q2 2028 (agent listings)",
+  "facilities": [
+    "Private pool"
+  ],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/naturale-kamala"
+    },
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/aag-development/naturale-kamala"
+    },
+    {
+      "label": "Asterofasia",
+      "url": "https://asterofasia.com/property/thailand/phuket/naturale-kamala"
+    },
+    {
+      "label": "FazWaz",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/naturale-kamala"
+    }
+  ],
+  "researchNotes": "FazWaz shows an inconsistent 5.76M figure (ignored). Ownership not confirmed. Not the same as Naturale Cherng Talay (already in catalogue). Checked 2026-11-17.",
+  "imagesStatus": "unavailable"
+}

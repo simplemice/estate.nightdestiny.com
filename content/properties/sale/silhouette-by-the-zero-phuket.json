@@ -1,0 +1,23 @@
+{
+  "title": "Silhouette by The Zero Phuket",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/silhouette-by-the-zero-phuket.json",
+  "propertyType": "Condo",
+  "location": "Naiyang",
+  "currency": "THB",
+  "shortDescription": "A boutique low-density condominium of 150 residences in Nai Yang, about 350 m from the beach, by UK developer The Zero.",
+  "description": "A boutique low-density condominium of 150 residences in Nai Yang, about 350 m from the beach, by UK developer The Zero.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Nai Yang Beach",
+      "distance": "about 350 m",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 4400000
+}

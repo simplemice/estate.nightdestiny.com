@@ -785,7 +785,7 @@ function projectPage(p) {
   const pageUrl = SITE + url(p);
   const ld = { '@context': 'https://schema.org', '@type': 'WebPage', '@id': pageUrl + '#webpage', url: pageUrl, name: projTitle(p), description: desc, inLanguage: 'en', isPartOf: { '@id': SITE + '/#website' }, breadcrumb: { '@id': pageUrl + '#breadcrumb' },
     ...(p.cover ? { primaryImageOfPage: { '@type': 'ImageObject', url: SITE + p.cover } } : {}),
-    mainEntity: { '@type': p.category === 'Condominium' ? 'ApartmentComplex' : 'Residence', '@id': pageUrl + '#project', name: t, url: pageUrl, image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), address: { '@type': 'PostalAddress', addressLocality: areaOf(p.location), addressRegion: 'Phuket', addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
+    mainEntity: { '@type': p.category === 'Condominium' ? 'ApartmentComplex' : 'Residence', '@id': pageUrl + '#project', name: t, url: pageUrl, ...([p.cover, ...p.images].filter(Boolean).length ? { image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i) } : {}), address: { '@type': 'PostalAddress', addressLocality: areaOf(p.location), addressRegion: 'Phuket', addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
   const body = `${pageHead(t, `${p.category} in ${p.location}`, crumbs)}
 	<section class="spad-2 detail-section">
 		<div class="container">

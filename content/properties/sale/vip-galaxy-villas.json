@@ -1,0 +1,23 @@
+{
+  "title": "VIP Galaxy Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/vip-galaxy-villas.json",
+  "propertyType": "Villa",
+  "location": "Rawai",
+  "currency": "THB",
+  "shortDescription": "Villas in Rawai by VIP Property Development, about 0.9 km from Rawai Beach.",
+  "description": "Villas in Rawai by VIP Property Development, about 0.9 km from Rawai Beach.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "0.9 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 22327200
+}

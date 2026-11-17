@@ -1,0 +1,54 @@
+{
+  "name": "The Origin Kathu-Patong",
+  "category": "Condominium",
+  "projectType": "condominium",
+  "location": "Kathu-Patong",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "Origin Property",
+  "shortDescription": "Studio, one and two bedroom condominiums of 25 to 48 sqm between Kathu and Patong, by Origin Property.",
+  "description": "The Origin Kathu-Patong is a condominium by Origin Property on the Kathu side of the Kathu-Patong corridor. Agent listings describe studio, one-bedroom and two-bedroom units with a built-up area of about 25 to 48 sqm.\n\nForeign buyers can own units as freehold, within the 49% foreign quota of the building. Agents report completion either in late 2025 or mid 2026, so ask us to confirm the current construction status.\n\nPrices start from roughly 2.3 million baht in agent listings. Message us on WhatsApp for current availability.",
+  "cardDescription": "Studio, one and two bedroom condominiums of 25 to 48 sqm between Kathu and Patong, by Origin Property.",
+  "seoTitle": "The Origin Kathu-Patong, Condos from 2.3M THB",
+  "seoDescription": "The Origin Kathu-Patong by Origin Property: studio to two-bedroom condos of 25-48 sqm, freehold for foreign buyers. Ask on WhatsApp for current prices.",
+  "primaryKeyword": "The Origin Kathu-Patong",
+  "secondaryKeywords": [
+    "Origin Property Phuket condo",
+    "Kathu Patong condominium for sale",
+    "studio condo Kathu Phuket"
+  ],
+  "startingPrice": 2310000,
+  "priceStatus": "advertised",
+  "priceNote": "Base price from an agent listing (about 81,600 per sqm); Keller Henson shows from 2.3 million.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/the-origin-kathu-patong",
+  "lastVerified": "2026-11-17",
+  "bedroomsMin": 0,
+  "bedroomsMax": 2,
+  "builtUpMin": 25,
+  "builtUpMax": 48,
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Status on request",
+  "facilities": [],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/the-origin-kathu-patong"
+    },
+    {
+      "label": "Hipflat",
+      "url": "https://www.hipflat.com/projects/the-origin-kathupatong-vtvjsa"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/ads/1-bedroom-condo-for-sale-in-the-origin-kathu-patong-kathu-phuket_52d498ba3822-9a5f-2c12-2ab0-5fded089"
+    }
+  ],
+  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17.",
+  "imagesStatus": "unavailable"
+}

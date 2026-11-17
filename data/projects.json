@@ -1,5 +1,369 @@
 [
  {
+  "id": "arise-vibe",
+  "name": "Arise Vibe",
+  "url": "/projects/arise-vibe/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Ornsirin Group",
+  "location": "Si Sunthon",
+  "startingPrice": 2230000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "ayana-soluna-villas",
+  "name": "AYANA SOLUNA VILLAS",
+  "url": "/projects/ayana-soluna-villas/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "T.H. Group Phuket Co., Ltd.",
+  "location": "Si Sunthon",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "banyan-tree-beach-residences-nerea",
+  "name": "Banyan Tree Beach Residences Nerea",
+  "url": "/projects/banyan-tree-beach-residences-nerea/",
+  "category": "Condominium",
+  "propertyType": "beachfront duplex residences",
+  "developer": "Banyan Group",
+  "location": "Bang Tao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "ever-prime-residences",
+  "name": "Ever Prime Residences",
+  "url": "/projects/ever-prime-residences/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": null,
+  "location": "Karon",
+  "startingPrice": 6200000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   51,
+   179
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "laguna-beach-residences-bayside",
+  "name": "Laguna Beach Residences Bayside",
+  "url": "/projects/laguna-beach-residences-bayside/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Banyan Group (Laguna Property)",
+  "location": "Bang Tao",
+  "startingPrice": 22340000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   73,
+   359
+  ],
+  "status": "Under construction",
+  "completionDate": "2028 (agent listings differ: Q2, Q4, October)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "maviston-mai-khao",
+  "name": "Maviston Mai Khao",
+  "url": "/projects/maviston-mai-khao/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Mai Khao Golden Beach",
+  "location": "Mai Khao",
+  "startingPrice": 8970000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "mouana-mai-khao",
+  "name": "Mouana Mai Khao",
+  "url": "/projects/mouana-mai-khao/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "Mouana Phuket",
+  "location": "Mai Khao",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "naturale-kamala",
+  "name": "Naturale Kamala",
+  "url": "/projects/naturale-kamala/",
+  "category": "Villa",
+  "propertyType": "pool villa",
+  "developer": "AAG Development",
+  "location": "Kamala",
+  "startingPrice": 58500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": "Q2 2028 (agent listings)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "silhouette-by-the-zero-phuket",
+  "name": "Silhouette by The Zero Phuket",
+  "url": "/projects/silhouette-by-the-zero-phuket/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "The Zero",
+  "location": "Naiyang",
+  "startingPrice": 4400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Under construction",
+  "completionDate": "Q3 2028",
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "the-nayabella-condominium",
+  "name": "The Nayabella Condominium",
+  "url": "/projects/the-nayabella-condominium/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Rhom Bho Property",
+  "location": "Naiyang",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   1
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "the-origin-kathu-patong",
+  "name": "The Origin Kathu-Patong",
+  "url": "/projects/the-origin-kathu-patong/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Origin Property",
+  "location": "Kathu-Patong",
+  "startingPrice": 2310000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   25,
+   48
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "the-title-cocoon",
+  "name": "The Title Cocoon",
+  "url": "/projects/the-title-cocoon/",
+  "category": "Condominium",
+  "propertyType": "condominium",
+  "developer": "Rhom Bho Property",
+  "location": "Cherng Talay",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   1
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
+  "id": "vip-galaxy-villas",
+  "name": "VIP Galaxy Villas",
+  "url": "/projects/vip-galaxy-villas/",
+  "category": "Villa",
+  "propertyType": "villa",
+  "developer": "VIP Property Development Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 22327200,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-17"
+ },
+ {
   "id": "amber-chamber",
   "name": "Amber Chamber",
   "url": "/projects/amber-chamber/",

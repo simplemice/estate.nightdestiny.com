@@ -1,0 +1,24 @@
+{
+  "title": "Ever Prime Residences",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/ever-prime-residences.json",
+  "propertyType": "Condo",
+  "location": "Karon",
+  "currency": "THB",
+  "shortDescription": "A large condominium near Karon Beach with units from about 51 to 179 sqm.",
+  "description": "A large condominium near Karon Beach with units from about 51 to 179 sqm.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Karon Beach",
+      "distance": "Near",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 6200000,
+  "ownership": "Freehold"
+}

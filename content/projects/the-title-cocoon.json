@@ -1,0 +1,64 @@
+{
+  "name": "The Title Cocoon",
+  "category": "Condominium",
+  "projectType": "condominium",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "Rhom Bho Property",
+  "shortDescription": "A new seven-storey condominium on Soi Cherngtalay 3 in Choeng Thale, part of the Rhom Bho Property \"The Title\" collection, with one-bedroom apartments open to foreign buyers.",
+  "description": "The Title Cocoon is an upcoming condominium on Soi Cherngtalay 3 in Choeng Thale, on Phuket's northwest side, from Rhom Bho Property, the developer behind the The Title brand. The official project site shows a seven-storey building and one-bedroom apartments on floors 1 to 7, sold within the foreign quota.\n\nThe project site names Bang Tao Beach, Surin Beach, Boat Avenue, Porto de Phuket and Laguna Phuket as nearby, without distances. It advertises 0% instalments for the whole construction period; prices, unit sizes, ownership type, facilities and the completion date had not been published when we checked.\n\nMessage us on WhatsApp for the current price list, unit sizes and handover date.",
+  "cardDescription": "A new seven-storey condominium on Soi Cherngtalay 3 in Choeng Thale, part of the Rhom Bho Property \"The Title\" collection, with one-bedroom apartments open to foreign buyers.",
+  "seoTitle": "The Title Cocoon, New Condominium in Cherng Talay, Phuket",
+  "seoDescription": "The Title Cocoon by Rhom Bho Property: a seven-storey Choeng Thale condominium with one-bedroom units for foreign buyers. Enquire on WhatsApp.",
+  "primaryKeyword": "The Title Cocoon",
+  "secondaryKeywords": [
+    "The Title Cocoon Cherng Talay",
+    "Rhom Bho Property condo Choeng Thale",
+    "one bedroom condo Cherng Talay for sale"
+  ],
+  "priceStatus": "on-request",
+  "lastVerified": "2026-11-17",
+  "bedroomsMin": 1,
+  "bedroomsMax": 1,
+  "bathroomsMin": 1,
+  "bathroomsMax": 1,
+  "floors": "7",
+  "constructionStatus": "Pre-sale",
+  "paymentPlan": [
+    "0% instalment for the entire construction period (stated on the official project site); other payment terms to be confirmed"
+  ],
+  "website": "https://titlecocoon.com/",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Official project site",
+      "url": "https://titlecocoon.com/"
+    },
+    {
+      "label": "Pattayahome listing",
+      "url": "https://pattayahome.info/en/object/the-title-cocoon"
+    }
+  ],
+  "researchNotes": "Read the official site 2026-11-17. Stated: Rhom Bho Property, Soi Cherngtalay 3 Choeng Thale, 7 floors, 1BR units, foreign quota, 0% instalment during construction. Stats block says \"Bang Tao\" as district (conflicts with Choeng Thale; we used the footer address). Price, completion, unit sizes, unit count, ownership, facilities all \"Stay tuned\". Site lists a broker phone, not used.",
+  "imagesStatus": "unavailable"
+}

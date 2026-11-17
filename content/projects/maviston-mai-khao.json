@@ -1,0 +1,53 @@
+{
+  "name": "Maviston Mai Khao",
+  "category": "Condominium",
+  "projectType": "condominium",
+  "location": "Mai Khao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "Mai Khao Golden Beach",
+  "shortDescription": "A condominium in Mai Khao with one to three bedroom units, developed by Mai Khao Golden Beach.",
+  "description": "Maviston Mai Khao is a condominium in Mai Khao, on Phuket's northwest coast, with one to three bedroom units according to agent listings. Agents name Mai Khao Golden Beach as the developer.\n\nIt is a condominium, not a villa project. Completion is quoted anywhere between 2026 and Q4 2027, so ask us for the current construction status. Some agents advertise rental guarantees of 6 or 7%; we have not verified any of them and do not repeat them as an offer.\n\nPrices start from roughly 9 million baht in agent listings. Message us on WhatsApp for the price list.",
+  "cardDescription": "A condominium in Mai Khao with one to three bedroom units, developed by Mai Khao Golden Beach.",
+  "seoTitle": "Maviston Mai Khao, 1 to 3 Bedroom Condos in Mai Khao, Phuket",
+  "seoDescription": "Maviston Mai Khao: one to three bedroom condominium units in Mai Khao, Phuket, by Mai Khao Golden Beach. Prices from about 9M THB; enquire on WhatsApp.",
+  "primaryKeyword": "Maviston Mai Khao",
+  "secondaryKeywords": [
+    "Maviston Phuket condo",
+    "Mai Khao condominium for sale",
+    "Mai Khao Golden Beach developer"
+  ],
+  "startingPrice": 8970000,
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price (Keller Henson). Another page lists 9.3 million.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/maviston-mai-khao",
+  "lastVerified": "2026-11-17",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "constructionStatus": "Status on request",
+  "facilities": [],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/maviston-mai-khao"
+    },
+    {
+      "label": "Papaya Property",
+      "url": "https://papayaproperty.com/mai-khao-golden-beach/maviston-mai-khao"
+    },
+    {
+      "label": "Asterofasia",
+      "url": "https://asterofasia.com/property/thailand/phuket/maviston-mai-khao"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/condo/28463/maviston-mai-khao"
+    }
+  ],
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from agent listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17.",
+  "imagesStatus": "unavailable"
+}

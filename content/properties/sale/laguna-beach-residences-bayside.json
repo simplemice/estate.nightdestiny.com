@@ -1,0 +1,23 @@
+{
+  "title": "Laguna Beach Residences Bayside",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/laguna-beach-residences-bayside.json",
+  "propertyType": "Condo",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "shortDescription": "Beachside condominium apartments from about 73 sqm up to large penthouses, part of Banyan Group's Laguna Phuket master plan at Bang Tao.",
+  "description": "Beachside condominium apartments from about 73 sqm up to large penthouses, part of Banyan Group's Laguna Phuket master plan at Bang Tao.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "Near, within Laguna Phuket",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available",
+  "price": 22340000
+}

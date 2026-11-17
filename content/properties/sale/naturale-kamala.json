@@ -1,0 +1,19 @@
+{
+  "title": "Naturale Kamala",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/naturale-kamala.json",
+  "propertyType": "Villa",
+  "location": "Kamala",
+  "currency": "THB",
+  "shortDescription": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
+  "description": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
+  "facilities": [
+    "Private pool"
+  ],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 58500000
+}

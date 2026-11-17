@@ -1,0 +1,52 @@
+{
+  "name": "Mouana Mai Khao",
+  "category": "Villa",
+  "projectType": "pool villa",
+  "location": "Mai Khao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "Mouana Phuket",
+  "shortDescription": "Modern 3 and 4 bedroom private pool villas near Mai Khao Beach, by Mouana Phuket.",
+  "description": "Mouana Mai Khao is a private pool villa development near Mai Khao Beach by Mouana Phuket, offering 3 and 4 bedroom villas in a modern design. Some agents list it as Mouana Breeze Mai Khao or Mouana Maikhao; these appear to be the same project.\n\nMouana Phuket also builds Mouana Serenity Cherng Talay, which is a separate project listed elsewhere on this site.\n\nAgent prices range from about 20 to 33 million baht and have moved over time, and completion is quoted from 2025 to Q3 2027, so we show neither. Message us on WhatsApp for the current price list and handover date.",
+  "cardDescription": "Modern 3 and 4 bedroom private pool villas near Mai Khao Beach, by Mouana Phuket.",
+  "seoTitle": "Mouana Mai Khao, Modern Pool Villas near Mai Khao Beach",
+  "seoDescription": "Mouana Mai Khao by Mouana Phuket: 3 and 4 bedroom private pool villas near Mai Khao Beach, Phuket. Enquire on WhatsApp for prices and handover dates.",
+  "primaryKeyword": "Mouana Mai Khao",
+  "secondaryKeywords": [
+    "Mouana Breeze Mai Khao",
+    "Mai Khao pool villas for sale",
+    "Mouana Phuket villas"
+  ],
+  "priceStatus": "on-request",
+  "lastVerified": "2026-11-17",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "privatePool": "yes",
+  "constructionStatus": "Status on request",
+  "facilities": [
+    "Private pool"
+  ],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/mouana-mai-khao"
+    },
+    {
+      "label": "FazWaz",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/mouana-breeze-maikhao"
+    },
+    {
+      "label": "Hipflat",
+      "url": "https://www.hipflat.co.th/en/projects/mouana-maikhao-tgciph"
+    },
+    {
+      "label": "Papaya Property (developer)",
+      "url": "https://papayaproperty.com/mouana-phuket"
+    }
+  ],
+  "researchNotes": "Several name variants (Mouana Breeze Maikhao) assumed same project. Price list 19.9M (old) vs 21.9-25.9M (newer) conflict, so price on request. Completion 2025 Q2 to Q3 2027. Checked 2026-11-17.",
+  "imagesStatus": "unavailable"
+}

@@ -6,6 +6,12 @@
   ]
  },
  {
+  "name": "AAG Development",
+  "projects": [
+   "naturale-kamala"
+  ]
+ },
+ {
   "name": "AAG Development Co., Ltd.",
   "projects": [
    "naturale-cherng-talay"
@@ -27,6 +33,18 @@
   "name": "Asset Pearl Co., Ltd",
   "projects": [
    "casa-curve-phuket"
+  ]
+ },
+ {
+  "name": "Banyan Group",
+  "projects": [
+   "banyan-tree-beach-residences-nerea"
+  ]
+ },
+ {
+  "name": "Banyan Group (Laguna Property)",
+  "projects": [
+   "laguna-beach-residences-bayside"
   ]
  },
  {
@@ -86,15 +104,39 @@
   ]
  },
  {
+  "name": "Mai Khao Golden Beach",
+  "projects": [
+   "maviston-mai-khao"
+  ]
+ },
+ {
   "name": "Minor International",
   "projects": [
    "kiara-reserve-residences"
   ]
  },
  {
+  "name": "Mouana Phuket",
+  "projects": [
+   "mouana-mai-khao"
+  ]
+ },
+ {
+  "name": "Origin Property",
+  "projects": [
+   "the-origin-kathu-patong"
+  ]
+ },
+ {
   "name": "Origin Property PCL",
   "projects": [
    "so-origin-kata-phuket"
+  ]
+ },
+ {
+  "name": "Ornsirin Group",
+  "projects": [
+   "arise-vibe"
   ]
  },
  {
@@ -107,6 +149,13 @@
   "name": "Redwood Luxury",
   "projects": [
    "redwood-lakeside"
+  ]
+ },
+ {
+  "name": "Rhom Bho Property",
+  "projects": [
+   "the-nayabella-condominium",
+   "the-title-cocoon"
   ]
  },
  {
@@ -163,6 +212,12 @@
   ]
  },
  {
+  "name": "T.H. Group Phuket Co., Ltd.",
+  "projects": [
+   "ayana-soluna-villas"
+  ]
+ },
+ {
   "name": "The Attitude Club Co., Ltd.",
   "projects": [
    "mono-champaca",
@@ -170,9 +225,21 @@
   ]
  },
  {
+  "name": "The Zero",
+  "projects": [
+   "silhouette-by-the-zero-phuket"
+  ]
+ },
+ {
   "name": "Trinity Property Co., Ltd.",
   "projects": [
    "aileen-villas-layan"
+  ]
+ },
+ {
+  "name": "VIP Property Development Co., Ltd.",
+  "projects": [
+   "vip-galaxy-villas"
   ]
  },
  {

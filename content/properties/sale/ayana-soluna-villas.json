@@ -1,0 +1,18 @@
+{
+  "title": "AYANA SOLUNA VILLAS",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/ayana-soluna-villas.json",
+  "propertyType": "Villa",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "shortDescription": "Private pool villas with 3 to 5 bedrooms on a large lakeside plot in Thalang, by T.H. Group Phuket, the developer of AYANA Heights Seaview Residence.",
+  "description": "Private pool villas with 3 to 5 bedrooms on a large lakeside plot in Thalang, by T.H. Group Phuket, the developer of AYANA Heights Seaview Residence.",
+  "facilities": [
+    "Private pool"
+  ],
+  "nearby": [],
+  "images": [],
+  "availability": "Available"
+}

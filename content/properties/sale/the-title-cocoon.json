@@ -1,0 +1,32 @@
+{
+  "title": "The Title Cocoon",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "project": "content/projects/the-title-cocoon.json",
+  "propertyType": "Condo",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "shortDescription": "A new seven-storey condominium on Soi Cherngtalay 3 in Choeng Thale, part of the Rhom Bho Property \"The Title\" collection, with one-bedroom apartments open to foreign buyers.",
+  "description": "A new seven-storey condominium on Soi Cherngtalay 3 in Choeng Thale, part of the Rhom Bho Property \"The Title\" collection, with one-bedroom apartments open to foreign buyers.",
+  "facilities": [],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [],
+  "availability": "Available"
+}

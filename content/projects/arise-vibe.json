@@ -1,0 +1,50 @@
+{
+  "name": "Arise Vibe",
+  "category": "Condominium",
+  "projectType": "condominium",
+  "location": "Si Sunthon",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-17",
+  "developer": "Ornsirin Group",
+  "shortDescription": "A condominium in Si Sunthon, Thalang, and the first Phuket project of Chiang Mai developer Ornsirin Group.",
+  "description": "Arise Vibe is a condominium in Si Sunthon, Thalang, and the first Phuket project from Ornsirin Group, a Chiang Mai developer with more than 30 completed projects in northern Thailand. Agent listings show studio, one and two bedroom units.\n\nForeign buyers can hold units as freehold within the 49% foreign quota that applies to Thai condominiums. Completion is quoted as Q1 2027 by one agent and late 2026 by another, so confirm the handover date with us before you commit.\n\nThe starting price shown is the lowest advertised figure. Ask us on WhatsApp for the current price list and available units.",
+  "cardDescription": "A condominium in Si Sunthon, Thalang, and the first Phuket project of Chiang Mai developer Ornsirin Group.",
+  "seoTitle": "Arise Vibe, Condominium in Si Sunthon, Thalang, Phuket",
+  "seoDescription": "Arise Vibe is an Ornsirin Group condominium in Si Sunthon, Thalang, with freehold units for foreign buyers within the 49% quota. Enquire on WhatsApp.",
+  "primaryKeyword": "Arise Vibe Phuket",
+  "secondaryKeywords": [
+    "Arise Vibe condominium Si Sunthon",
+    "Ornsirin Phuket condo",
+    "condo for sale Thalang Phuket"
+  ],
+  "startingPrice": 2230000,
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price (Keller Henson). Another source quotes about 2.4 million.",
+  "priceType": "Agent advertised price",
+  "priceSourceUrl": "https://kellerhenson.com/project/arise-vibe",
+  "lastVerified": "2026-11-17",
+  "ownership": [
+    "Freehold"
+  ],
+  "constructionStatus": "Under construction",
+  "facilities": [],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Keller Henson",
+      "url": "https://kellerhenson.com/project/arise-vibe"
+    },
+    {
+      "label": "FazWaz",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe"
+    },
+    {
+      "label": "Thaiger (sponsored)",
+      "url": "https://thethaiger.com/thai-life/property/hot-property/arise-vibe-phuket-condominium-si-sunthon-smart-investment"
+    }
+  ],
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (FazWaz); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17.",
+  "imagesStatus": "unavailable"
+}
