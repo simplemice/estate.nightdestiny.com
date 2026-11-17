@@ -38,13 +38,15 @@
     return n / rate;
   }
   // Display rounding only: >=100k -> nearest $1,000; 10k-100k -> $100; below -> $10 (rent).
-  function formatUsd(usd) {
+  function formatUsd(usd, lang) {
     if (typeof usd !== 'number' || !isFinite(usd) || usd <= 0) return '';
     var step = usd >= 100000 ? 1000 : usd >= 10000 ? 100 : 10;
     var r = Math.round(usd / step) * step;
     if (r <= 0) return '';
+    if (lang === 'ru') return r.toLocaleString('ru-RU') + '\u00A0$';
     return '$' + r.toLocaleString('en-US');
   }
+  function pageLang() { try { return (root.document.documentElement.lang || 'en').slice(0, 2); } catch (e) { return 'en'; } }
 
   /* ---------- cache ---------- */
   function store() { try { return root.localStorage; } catch (e) { return null; } }
@@ -99,15 +101,16 @@
   /* ---------- DOM ---------- */
   function bangkok(ts) {
     try {
-      return new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Bangkok', day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(ts)) + ' (Bangkok time)';
+      var ru = pageLang() === 'ru';
+      return new Intl.DateTimeFormat(ru ? 'ru-RU' : 'en-GB', { timeZone: 'Asia/Bangkok', day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(ts)) + (ru ? ' (время Бангкока)' : ' (Bangkok time)');
     } catch (e) { return ''; }
   }
   function render(doc, c) {
-    var els = doc.querySelectorAll('[data-thb]'), shown = 0, i, el, txt;
+    var els = doc.querySelectorAll('[data-thb]'), shown = 0, i, el, txt, ru = pageLang() === 'ru';
     for (i = 0; i < els.length; i++) {
       el = els[i];
-      txt = c ? formatUsd(convert(el.getAttribute('data-thb'), c.rate)) : '';
-      if (txt) { el.textContent = (el.getAttribute('data-prefix') || 'Approx. ') + txt + ' USD'; shown++; }
+      txt = c ? formatUsd(convert(el.getAttribute('data-thb'), c.rate), ru ? 'ru' : 'en') : '';
+      if (txt) { el.textContent = (el.getAttribute('data-prefix') || (ru ? '\u2248 ' : 'Approx. ')) + txt + (ru ? '' : ' USD'); shown++; }
       else el.textContent = '';
     }
     var notes = doc.querySelectorAll('[data-usd-note]');
@@ -115,7 +118,9 @@
       var span = notes[i].querySelector('.usd-note-text');
       if (!shown || !c) { if (span) span.textContent = ''; continue; }
       if (!span) { span = doc.createElement('span'); span.className = 'usd-note-text'; notes[i].appendChild(span); }
-      span.textContent = ' USD equivalent calculated using the latest available exchange rate (1 USD = ' + c.rate.toFixed(2) + ' THB, ' + c.provider + ', updated ' + bangkok(c.fetchedAt) + '). Indicative only; actual transfer rates and fees differ.';
+      span.textContent = ru
+        ? ' Эквивалент в USD рассчитан по последнему доступному курсу (1 USD = ' + c.rate.toFixed(2) + ' THB, ' + c.provider + ', обновлено ' + bangkok(c.fetchedAt) + '). Носит справочный характер; фактические курсы и комиссии при переводе отличаются.'
+        : ' USD equivalent calculated using the latest available exchange rate (1 USD = ' + c.rate.toFixed(2) + ' THB, ' + c.provider + ', updated ' + bangkok(c.fetchedAt) + '). Indicative only; actual transfer rates and fees differ.';
     }
     return shown;
   }

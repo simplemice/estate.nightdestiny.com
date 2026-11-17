@@ -217,3 +217,18 @@ img{height:auto}
 .unit-table .usd:empty,.usd-note-text:empty{display:none}
 .ec-price .usd{font-size:14px;color:#5f5f68;margin-top:2px}
 .ds-price .usd{color:#5f5f68}
+
+/* ---- language switcher (EN / RU): compact segmented control, plain links so it works without JS ---- */
+.lang-switch{display:inline-flex;align-items:center;gap:2px;padding:2px;margin:0 20px 0 0;vertical-align:middle;border:1px solid transparent;border-radius:3px;line-height:1}
+.lang-switch a{display:inline-flex;align-items:center;gap:6px;padding:6px 9px;font-size:12px;font-weight:700;letter-spacing:1px;border-radius:2px;text-decoration:none;white-space:nowrap}
+.lang-switch a:hover,.lang-switch a:focus-visible{text-decoration:none}
+.lang-switch img{display:block;width:18px;height:12px;border-radius:1px;flex:none}
+.lang-switch-m{display:flex;margin:0 0 18px;width:max-content}
+.lang-switch-bar{display:none}
+@media (max-width:991px){
+  .lang-switch-bar{display:inline-flex;position:absolute;right:56px;top:11px;z-index:98;margin:0}
+  .lang-switch-bar{right:52px;padding:1px}
+  .lang-switch-bar a{padding:4px 6px;gap:4px;font-size:11px;letter-spacing:.5px}
+  .lang-switch-m{display:none}
+}
+@media (max-width:360px){.lang-switch-bar a span{display:none}.lang-switch-bar a{padding:5px 7px}}

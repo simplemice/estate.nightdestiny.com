@@ -2,6 +2,24 @@
 (function ($) {
   'use strict';
 
+  /* ---- i18n: strings come from the page (written by scripts/build.mjs from /locales/<lang>/ui.json) ---- */
+  var I18N = {};
+  try { I18N = JSON.parse(document.getElementById('i18n-data').textContent) || {}; } catch (e) { /* English fallbacks below */ }
+  var LANG = (document.documentElement.lang || 'en').slice(0, 2);
+  var fmt = function (s, vars) { return String(s).replace(/\{(\w+)\}/g, function (_, k) { return vars[k] === undefined ? '{' + k + '}' : vars[k]; }); };
+  var pluralIdx = function (n) {
+    if (LANG === 'ru') { var a = Math.abs(n) % 100, b = a % 10; return a > 10 && a < 20 ? 2 : b > 1 && b < 5 ? 1 : b === 1 ? 0 : 2; }
+    return n === 1 ? 0 : 1;
+  };
+  var tr = function (key, fallback, vars) {
+    var v = I18N[key] === undefined ? fallback : I18N[key];
+    if ($.isArray(v)) v = v[Math.min(pluralIdx(vars && vars.n !== undefined ? vars.n : 0), v.length - 1)];
+    return fmt(v, vars || {});
+  };
+
+  /* ---- language switcher: keep active filters / hash when jumping to the other language ---- */
+  $('.lang-switch a').each(function () { if (location.search || location.hash) this.href += location.search + location.hash; });
+
   /* ---- filters ---- */
   var $list = $('#listing');
   var $form = $('#filters');
@@ -9,7 +27,8 @@
     var $cards = $list.children('.js-card');
     var $count = $('#result-count');
     var $none = $('#no-results');
-    var noun = $list.closest('[data-listing="catalog"]').length ? ['project', 'projects'] : ['listing', 'listings'];
+    var isCatalog = $list.closest('[data-listing="catalog"]').length > 0;
+    var nounOf = function (n) { return tr(isCatalog ? 'js.noun_project' : 'js.noun_listing', isCatalog ? ['project', 'projects'] : ['listing', 'listings'], { n: n }); };
     var num = function (v) { return v === '' || v == null ? null : parseFloat(v); };
     var $pager = $('#pager');
     var pageSize = parseInt($list.data('pageSize'), 10) || 6;
@@ -20,7 +39,7 @@
       if (!$pager.length) return;
       if (pages <= 1) { $pager.empty().prop('hidden', true); return; }
       var h = '<ul class="pagination justify-content-center">';
-      h += '<li class="page-item' + (page === 1 ? ' disabled' : '') + '"><a class="page-link" href="#" data-page="' + (page - 1) + '" aria-label="Previous page">&laquo;</a></li>';
+      h += '<li class="page-item' + (page === 1 ? ' disabled' : '') + '"><a class="page-link" href="#" data-page="' + (page - 1) + '" aria-label="' + tr('js.prev', 'Previous page') + '">&laquo;</a></li>';
       for (var i = 1; i <= pages; i++) {
         // always show first, last and neighbours; collapse the rest
         if (i === 1 || i === pages || Math.abs(i - page) <= 1) {
@@ -29,7 +48,7 @@
           h += '<li class="page-item disabled"><span class="page-link">&hellip;</span></li>';
         }
       }
-      h += '<li class="page-item' + (page === pages ? ' disabled' : '') + '"><a class="page-link" href="#" data-page="' + (page + 1) + '" aria-label="Next page">&raquo;</a></li>';
+      h += '<li class="page-item' + (page === pages ? ' disabled' : '') + '"><a class="page-link" href="#" data-page="' + (page + 1) + '" aria-label="' + tr('js.next', 'Next page') + '">&raquo;</a></li>';
       $pager.html(h + '</ul>').prop('hidden', false);
     };
 
@@ -84,7 +103,7 @@
       $(matched.slice(from, to)).prop('hidden', false);
       renderPager(pages);
       $('.type-tabs a').each(function () { $(this).toggleClass('active', ($(this).data('type') || '') === (type || '')); });
-      $count.text(shown ? 'Showing ' + (from + 1) + '\u2013' + Math.min(to, shown) + ' of ' + shown + ' ' + (shown === 1 ? noun[0] : noun[1]) : '0 ' + noun[1]);
+      $count.text(shown ? tr('js.showing', 'Showing {from}\u2013{to} of {total} {noun}', { from: from + 1, to: Math.min(to, shown), total: shown, noun: nounOf(shown), n: shown }) : tr('js.zero', '0 {noun}', { noun: nounOf(0), n: 0 }));
       $none.prop('hidden', shown !== 0 || !$cards.length);
 
       // keep state in URL so filtered views are shareable
