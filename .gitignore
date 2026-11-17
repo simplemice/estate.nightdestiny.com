@@ -21,6 +21,8 @@ SEO_*.md
 NEW_PHUKET_PROJECTS_RESEARCH_REPORT.md
 PAGES_CMS_IMPLEMENTATION_REPORT.md
 *_REPORT.md
+IMAGE_SOURCES_AND_LICENSES.md
+*_LICENSES.md
 
 # template source archives (zips) - the site uses the compiled files in css/ js/ fonts/
 Source/
@@ -31,3 +33,7 @@ Source/
 *.tmp
 tmp/
 PROJECT_SEO_CHECKLIST.md
+
+# developer-only helper scripts (the build and the GitHub Action only need build.mjs and optimize-images.mjs)
+scripts/seo-*.mjs
+scripts/test-*.mjs
