@@ -167,3 +167,13 @@ select option { background: var(--ink-2); color: var(--text); }
 .lang-switch a.is-active { cursor: default; }
 .lang-switch img { box-shadow: 0 0 0 1px rgba(0, 0, 0, .35); }
 .lang-switch a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* mobile off-canvas menu: match the specificity of style.css so links are readable on the dark panel */
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a,
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row a,
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row span { color: var(--text); }
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a:hover,
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover a,
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover span { color: var(--accent); background: transparent; }
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li,
+.offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row { border-color: var(--line-strong); }
