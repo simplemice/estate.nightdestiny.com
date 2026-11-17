@@ -288,6 +288,7 @@ ${/^G-[A-Z0-9]+$/.test(settings.gaMeasurementId || '') ? `	<!-- Google tag (gtag
 	<link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/style.css" type="text/css">
 	<link rel="stylesheet" href="/css/estate.css" type="text/css">
+	<link rel="stylesheet" href="/css/brand.css?v=${fileHash('css/brand.css')}" type="text/css">
 	${preload}
 	${extraHead}
 	${ldAll}
@@ -817,7 +818,6 @@ function projectPage(p) {
 						</tbody></table>
 						${waBtn(waMsg.project(t, p.location), 'wa-btn wa-block', 'Inquire on WhatsApp')}
 						${locPageFor(p) ? `<p class="ds-note">More projects in <a href="${locPageFor(p).url}">${esc(locPageFor(p).name)}</a></p>` : ''}
-						${p.website ? `<p class="ds-note"><a href="${esc(p.website)}" target="_blank" rel="noopener nofollow">Developer / project website</a></p>` : ''}
 					</aside>
 				</div>
 			</div>
