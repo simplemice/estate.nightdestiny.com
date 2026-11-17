@@ -43,8 +43,45 @@
     {
       "label": "Thaiger (sponsored)",
       "url": "https://thethaiger.com/thai-life/property/hot-property/arise-vibe-phuket-condominium-si-sunthon-smart-investment"
+    },
+    {
+      "label": "Ornsirin Group, official Arise Vibe page",
+      "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
   "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (FazWaz); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
+  "images": [
+    "/assets/images/projects/arise-vibe/photo-2.webp",
+    "/assets/images/projects/arise-vibe/photo-3.webp",
+    "/assets/images/projects/arise-vibe/photo-4.jpg",
+    "/assets/images/projects/arise-vibe/photo-5.jpg",
+    "/assets/images/projects/arise-vibe/photo-6.jpg",
+    "/assets/images/projects/arise-vibe/photo-7.jpg",
+    "/assets/images/projects/arise-vibe/photo-8.jpg"
+  ],
+  "imageCaptions": [
+    "Exterior render at dusk",
+    "Pool garden render",
+    "Lobby and lounge render",
+    "Aerial view of the building under construction",
+    "Aerial view of the site",
+    "Aerial view of the podium garden",
+    "Aerial view of the building and neighbourhood",
+    "Aerial view of the roof garden"
+  ],
+  "imageCredit": "Developer renders and construction-progress aerial photos from the official Ornsirin Group project page. Layouts and finishes may differ from the final product.",
+  "floorPlans": [
+    "/assets/images/floorplans/arise-vibe/plan-1.webp",
+    "/assets/images/floorplans/arise-vibe/plan-2.webp",
+    "/assets/images/floorplans/arise-vibe/plan-3.webp",
+    "/assets/images/floorplans/arise-vibe/plan-4.webp",
+    "/assets/images/floorplans/arise-vibe/plan-5.webp"
+  ],
+  "imageSources": {
+    "page": "https://ornsirin.co.th/en/property-item/arise-vibe/",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

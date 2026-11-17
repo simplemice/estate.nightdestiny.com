@@ -67,5 +67,39 @@
     }
   ],
   "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between agents; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-2.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-3.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-4.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-5.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-6.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-7.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-8.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-9.jpg",
+    "/assets/images/projects/laguna-beach-residences-bayside/photo-10.jpg"
+  ],
+  "imageCaptions": [
+    "Laguna Beach Residences Bayside pool and buildings",
+    "Pool area",
+    "Pool and residences",
+    "Pool terrace",
+    "Pool view",
+    "Apartment balcony",
+    "Living area",
+    "Living room",
+    "Bedroom",
+    "Terrace"
+  ],
+  "imageCredit": "Images from Keller Henson and Papaya Property developer marketing materials. Layouts and finishes may differ from the final product.",
+  "floorPlans": [
+    "/assets/images/floorplans/laguna-beach-residences-bayside/plan-1.webp",
+    "/assets/images/floorplans/laguna-beach-residences-bayside/plan-2.webp"
+  ],
+  "imageSources": {
+    "page": "https://kellerhenson.com/project/laguna-beach-residences-bayside",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

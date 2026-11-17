@@ -91,6 +91,7 @@
    "type": "condominium",
    "price": 2230000,
    "currency": "THB",
+   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -103,6 +104,7 @@
    "type": "pool villa",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/ayana-soluna-villas/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -115,6 +117,7 @@
    "type": "beachfront duplex residences",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/banyan-tree-beach-residences-nerea/photo-1.webp",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -127,6 +130,7 @@
    "type": "condominium",
    "price": 6200000,
    "currency": "THB",
+   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -139,6 +143,7 @@
    "type": "condominium",
    "price": 22340000,
    "currency": "THB",
+   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -151,6 +156,7 @@
    "type": "condominium",
    "price": 8970000,
    "currency": "THB",
+   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -163,6 +169,7 @@
    "type": "pool villa",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/mouana-mai-khao/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -175,6 +182,7 @@
    "type": "pool villa",
    "price": 58500000,
    "currency": "THB",
+   "cover": "/assets/images/projects/naturale-kamala/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -187,6 +195,7 @@
    "type": "condominium",
    "price": 4400000,
    "currency": "THB",
+   "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -211,6 +220,7 @@
    "type": "condominium",
    "price": 2310000,
    "currency": "THB",
+   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -235,6 +245,7 @@
    "type": "villa",
    "price": 22327200,
    "currency": "THB",
+   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
    "publishedAt": "2026-11-17",
    "featured": false
   },
@@ -507,6 +518,7 @@
    "type": "pool villa",
    "price": 23000000,
    "currency": "THB",
+   "cover": "/assets/images/projects/azalea-bangtao-villas/photo-1.jpg",
    "publishedAt": "2026-11-12",
    "featured": false
   },
@@ -558,6 +570,7 @@
    "type": "townhouse",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/casa-curve-phuket/photo-1.webp",
    "publishedAt": "2026-11-12",
    "featured": false
   },
@@ -635,6 +648,7 @@
    "type": "Duplex villa",
    "price": 10900000,
    "currency": "THB",
+   "cover": "/assets/images/projects/goldena-twin/photo-1.jpg",
    "publishedAt": "2026-11-12",
    "featured": false
   },
@@ -660,6 +674,7 @@
    "type": "townhouses and villas",
    "price": 20800000,
    "currency": "THB",
+   "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
    "publishedAt": "2026-11-12",
    "featured": false
   },
@@ -906,6 +921,7 @@
    "type": "villa",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/the-manour/photo-1.jpg",
    "publishedAt": "2026-11-12",
    "featured": false
   },
@@ -1060,6 +1076,7 @@
    "type": "2-storey townhouse with communal pool",
    "price": 8949999,
    "currency": "THB",
+   "cover": "/assets/images/projects/villa-sumalee/photo-1.webp",
    "publishedAt": "2026-11-12",
    "featured": false
   },

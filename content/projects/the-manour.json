@@ -27,17 +27,40 @@
       "price": 25780000
     }
   ],
-  "images": [],
+  "images": [
+    "/assets/images/projects/the-manour/photo-2.png",
+    "/assets/images/projects/the-manour/photo-3.jpg",
+    "/assets/images/projects/the-manour/photo-4.jpg",
+    "/assets/images/projects/the-manour/photo-5.png"
+  ],
   "floorPlans": [],
   "sources": [
     {
       "label": "Hipflat project (403; summary only)",
       "url": "https://www.hipflat.co.th/en/projects/-0282t44u1nl3t114lua7a17et380hec3"
+    },
+    {
+      "label": "Thailand-Property",
+      "url": "https://www.thailand-property.com/house/29081/the-manour"
     }
   ],
   "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | FazWaz base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "ownership": [
     "Leasehold"
-  ]
+  ],
+  "cover": "/assets/images/projects/the-manour/photo-1.jpg",
+  "imageCaptions": [
+    "Aerial view of the villa development",
+    "Villa frontage with driveway",
+    "Villa exterior and roofline",
+    "Villa entrance and carport",
+    "Courtyard pool and living area"
+  ],
+  "imageCredit": "Developer renders from the Thailand-Property project page for The Manour. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://www.thailand-property.com/house/29081/the-manour",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

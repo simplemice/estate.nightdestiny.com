@@ -58,8 +58,18 @@
       "price": 11000000
     }
   ],
-  "images": [],
-  "floorPlans": [],
+  "images": [
+    "/assets/images/projects/goldena-twin/photo-2.webp",
+    "/assets/images/projects/goldena-twin/photo-3.webp",
+    "/assets/images/projects/goldena-twin/photo-4.webp",
+    "/assets/images/projects/goldena-twin/photo-5.webp",
+    "/assets/images/projects/goldena-twin/photo-6.webp",
+    "/assets/images/projects/goldena-twin/photo-7.webp",
+    "/assets/images/projects/goldena-twin/photo-8.webp"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/goldena-twin/plan-1.jpg"
+  ],
   "sources": [
     {
       "label": "FazWaz project page (co.th)",
@@ -75,8 +85,25 @@
     }
   ],
   "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. FazWaz project header: from 10,900,000; Thailand-Property: from 10,999,999; FazWaz single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Agent/portal prices only, not developer-official. | claimed price 11490000",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "ownership": [
     "Leasehold"
-  ]
+  ],
+  "cover": "/assets/images/projects/goldena-twin/photo-1.jpg",
+  "imageCaptions": [
+    "Twin villa exterior",
+    "Twin villa exterior at dusk",
+    "Living room",
+    "Dining area",
+    "Bedroom",
+    "Open-plan living and dining",
+    "Master bedroom",
+    "Bathroom"
+  ],
+  "imageCredit": "Developer renders from the Thailand-Property project page; master plan from the FazWaz project page. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://thailand-property.com/house/28167/goldena-twin",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

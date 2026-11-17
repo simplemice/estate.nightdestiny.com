@@ -80,7 +80,12 @@
       "size": "550"
     }
   ],
-  "images": [],
+  "images": [
+    "/assets/images/projects/laguna-park-2/photo-2.jpg",
+    "/assets/images/projects/laguna-park-2/photo-3.jpg",
+    "/assets/images/projects/laguna-park-2/photo-4.webp",
+    "/assets/images/projects/laguna-park-2/photo-5.jpg"
+  ],
   "floorPlans": [],
   "sources": [
     {
@@ -89,5 +94,19 @@
     }
   ],
   "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
+  "imageCaptions": [
+    "Townhouse frontage",
+    "Street view of townhouses",
+    "Townhouse with garden pool",
+    "Aerial view of the townhouse enclave",
+    "Aerial view with pool and clubhouse"
+  ],
+  "imageCredit": "Photos from the Thailand-Property listing provided by Laguna Property; page also shows other Laguna projects, only matching modern townhouse images used. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://thailand-property.com/townhouse/13759/laguna-park-2",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

@@ -53,5 +53,59 @@
     }
   ],
   "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several agent sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/vip-galaxy-villas/photo-2.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-3.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-4.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-5.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-6.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-7.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-8.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-9.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-10.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-11.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-12.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-13.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-14.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-15.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-16.jpg",
+    "/assets/images/projects/vip-galaxy-villas/photo-17.jpg"
+  ],
+  "imageCaptions": [
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa exterior render",
+    "Villa interior",
+    "Villa interior",
+    "Villa interior",
+    "Villa interior",
+    "Villa interior",
+    "Villa interior"
+  ],
+  "imageCredit": "Renders and plans from the Keller Henson project page for VIP Galaxy Rawai Villas. Layouts and finishes may differ from the final product.",
+  "floorPlans": [
+    "/assets/images/floorplans/vip-galaxy-villas/plan-1.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-2.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-3.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-4.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-5.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-6.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-7.jpg",
+    "/assets/images/floorplans/vip-galaxy-villas/plan-8.jpg"
+  ],
+  "imageSources": {
+    "page": "https://kellerhenson.com/project/vip-galaxy-rawai-villas",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

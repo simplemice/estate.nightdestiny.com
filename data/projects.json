@@ -24,7 +24,8 @@
   ],
   "status": "Under construction",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
+  "imageCount": 8,
   "lastVerified": "2026-11-17"
  },
  {
@@ -52,7 +53,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/ayana-soluna-villas/photo-1.jpg",
+  "imageCount": 15,
   "lastVerified": "2026-11-17"
  },
  {
@@ -80,7 +82,8 @@
   ],
   "status": "Pre-sale",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/banyan-tree-beach-residences-nerea/photo-1.webp",
+  "imageCount": 10,
   "lastVerified": "2026-11-17"
  },
  {
@@ -108,7 +111,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
+  "imageCount": 11,
   "lastVerified": "2026-11-17"
  },
  {
@@ -136,7 +140,8 @@
   ],
   "status": "Under construction",
   "completionDate": "2028 (agent listings differ: Q2, Q4, October)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
+  "imageCount": 10,
   "lastVerified": "2026-11-17"
  },
  {
@@ -164,7 +169,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
+  "imageCount": 12,
   "lastVerified": "2026-11-17"
  },
  {
@@ -192,7 +198,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/mouana-mai-khao/photo-1.jpg",
+  "imageCount": 18,
   "lastVerified": "2026-11-17"
  },
  {
@@ -220,7 +227,8 @@
   ],
   "status": "Status on request",
   "completionDate": "Q2 2028 (agent listings)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/naturale-kamala/photo-1.jpg",
+  "imageCount": 9,
   "lastVerified": "2026-11-17"
  },
  {
@@ -248,7 +256,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Q3 2028",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
+  "imageCount": 13,
   "lastVerified": "2026-11-17"
  },
  {
@@ -304,7 +313,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
+  "imageCount": 17,
   "lastVerified": "2026-11-17"
  },
  {
@@ -360,7 +370,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
+  "imageCount": 17,
   "lastVerified": "2026-11-17"
  },
  {
@@ -968,7 +979,8 @@
   ],
   "status": "Completed",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/azalea-bangtao-villas/photo-1.jpg",
+  "imageCount": 15,
   "lastVerified": "2026-11-12"
  },
  {
@@ -1083,7 +1095,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/casa-curve-phuket/photo-1.webp",
+  "imageCount": 6,
   "lastVerified": null
  },
  {
@@ -1256,7 +1269,8 @@
   ],
   "status": "Completed",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/goldena-twin/photo-1.jpg",
+  "imageCount": 8,
   "lastVerified": "2026-11-12"
  },
  {
@@ -1313,7 +1327,8 @@
   ],
   "status": "Completed",
   "completionDate": "2023",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
+  "imageCount": 5,
   "lastVerified": "2026-11-12"
  },
  {
@@ -1863,7 +1878,8 @@
   ],
   "status": "Pre-sale",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/the-manour/photo-1.jpg",
+  "imageCount": 5,
   "lastVerified": null
  },
  {
@@ -2209,6 +2225,7 @@
   ],
   "status": "Completed",
   "completionDate": "2017",
+  "cover": "/assets/images/projects/villa-sumalee/photo-1.webp",
   "imageCount": 1,
   "lastVerified": "2026-11-12"
  },

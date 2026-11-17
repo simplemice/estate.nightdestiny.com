@@ -13,14 +13,43 @@
   "priceStatus": "on-request",
   "constructionStatus": "Status on request",
   "unitTypes": [],
-  "images": [],
-  "floorPlans": [],
+  "images": [
+    "/assets/images/projects/casa-curve-phuket/photo-2.webp",
+    "/assets/images/projects/casa-curve-phuket/photo-3.webp",
+    "/assets/images/projects/casa-curve-phuket/photo-4.webp",
+    "/assets/images/projects/casa-curve-phuket/photo-5.webp",
+    "/assets/images/projects/casa-curve-phuket/photo-6.webp"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/casa-curve-phuket/plan-1.webp",
+    "/assets/images/floorplans/casa-curve-phuket/plan-2.webp",
+    "/assets/images/floorplans/casa-curve-phuket/plan-3.webp"
+  ],
   "sources": [
     {
       "label": "Lazudi developer page Asset Pearl",
       "url": "https://lazudi.com/th-en/property-developers/asset-pearl-co-ltd-1899"
+    },
+    {
+      "label": "Asset Pearl official Casa Curve page",
+      "url": "https://assetpearl.co.th/casacurve/"
     }
   ],
   "researchNotes": "Only seen in search snippets; page fetch blocked (403). Not to be confused with The Asset Curve Phuket (Si Sunthon, Thalang). Listing title hints '2 bed 3 bath' but size '1271 sqm' in URL looks like a typo/unclear; not used. Needs manual verification. | No price could be verified; claimed 3.89M not confirmed by any fetched source. | claimed price from 3,890,000 THB",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/casa-curve-phuket/photo-1.webp",
+  "imageCaptions": [
+    "Townhouse row facade",
+    "Townhouse facade",
+    "Townhouse facade, evening",
+    "Facade detail with planters",
+    "Townhouse row",
+    "Aerial view of the project"
+  ],
+  "imageCredit": "Official developer renders and plans from the Asset Pearl Casa Curve page. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://assetpearl.co.th/casacurve/",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

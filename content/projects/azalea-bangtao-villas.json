@@ -27,7 +27,22 @@
     }
   ],
   "unitTypes": [],
-  "images": [],
+  "images": [
+    "/assets/images/projects/azalea-bangtao-villas/photo-2.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-3.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-4.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-5.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-6.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-7.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-8.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-9.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-10.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-11.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-12.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-13.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-14.jpg",
+    "/assets/images/projects/azalea-bangtao-villas/photo-15.jpg"
+  ],
   "floorPlans": [],
   "sources": [
     {
@@ -36,8 +51,32 @@
     }
   ],
   "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "ownership": [
     "Leasehold"
-  ]
+  ],
+  "cover": "/assets/images/projects/azalea-bangtao-villas/photo-1.jpg",
+  "imageCaptions": [
+    "Pool courtyard and villa facade",
+    "Pool terrace with tropical planting",
+    "Private pool and lounge",
+    "Villa and pool in daylight",
+    "Pool deck and garden",
+    "Double-height living room",
+    "Living area",
+    "Lounge with garden view",
+    "Dining and living space",
+    "Kitchen island",
+    "Bedroom wardrobe",
+    "Bathroom vanity",
+    "Bathroom with freestanding bath",
+    "Pool courtyard",
+    "Villa facade at dusk"
+  ],
+  "imageCredit": "Photos from the Thailand-Property project page for Azalea Bangtao Villas. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://www.thailand-property.com/house/48645/azalea-bangtao-villas",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

@@ -52,8 +52,60 @@
     {
       "label": "PropertyScout",
       "url": "https://propertyscout.co.th/en/phuket/condo/silhouette-by-zero-phuket/"
+    },
+    {
+      "label": "The Zero Phuket, official Silhouette Nai Yang page",
+      "url": "https://thezerophuket.com/silhouette-nai-yang/"
     }
   ],
   "researchNotes": "It is a condominium, not villas as the brief assumed (the villas belong to The Zero Bang Tao). Q3 2028 from Asia Property Awards; others say Q2/June 2028. ROI claims in press deliberately not used. Ownership not stated. Checked 2026-11-17.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
+  "images": [
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-2.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-3.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-4.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-5.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-6.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-7.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-8.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-9.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-10.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-11.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-12.webp",
+    "/assets/images/projects/silhouette-by-the-zero-phuket/photo-13.webp"
+  ],
+  "imageCaptions": [
+    "Exterior render at dusk",
+    "Exterior render",
+    "Rooftop pool at sunset",
+    "Aerial view of Nai Yang beach",
+    "One-bedroom living area",
+    "Penthouse interior",
+    "Studio interior",
+    "Bathroom with freestanding tub",
+    "Lobby",
+    "Restaurant and library",
+    "Co-working space",
+    "Balcony view",
+    "Show unit"
+  ],
+  "imageCredit": "Developer renders and show-unit photos from the official The Zero Phuket project page. Layouts and finishes may differ from the final product.",
+  "floorPlans": [
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-1.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-2.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-3.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-4.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-5.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-6.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-7.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-8.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-9.webp",
+    "/assets/images/floorplans/silhouette-by-the-zero-phuket/plan-10.webp"
+  ],
+  "imageSources": {
+    "page": "https://thezerophuket.com/silhouette-nai-yang/",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

@@ -49,8 +49,22 @@
     {
       "label": "Thailand-Property",
       "url": "https://www.thailand-property.com/house/22527/villa-sumalee"
+    },
+    {
+      "label": "Samui Times project page",
+      "url": "https://samuitimes.com/project-print/thailand/phuket/phuket-town/rawai/villa-sumalee"
     }
   ],
   "researchNotes": "Search snippet says developer Happy Construction Company (single listing, unconfirmed); unit count varies 5/13/19 across portals. Ownership: one listing says foreigners can own building not land (unconfirmed). | Thailand-Property shows resale listings from THB 8,949,999 to 9,889,999 (4 units for sale). Claimed 'on request' differs. | claimed price on request",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/villa-sumalee/photo-1.webp",
+  "imageCaptions": [
+    "Aerial render of Villa Sumalee"
+  ],
+  "imageCredit": "Project render from a public listing page for Villa Sumalee. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://samuitimes.com/project-print/thailand/phuket/phuket-town/rawai/villa-sumalee",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }

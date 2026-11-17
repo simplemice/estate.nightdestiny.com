@@ -54,5 +54,33 @@
     }
   ],
   "researchNotes": "FazWaz shows an inconsistent 5.76M figure (ignored). Ownership not confirmed. Not the same as Naturale Cherng Talay (already in catalogue). Checked 2026-11-17.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/naturale-kamala/photo-1.jpg",
+  "images": [
+    "/assets/images/projects/naturale-kamala/photo-2.jpg",
+    "/assets/images/projects/naturale-kamala/photo-3.jpg",
+    "/assets/images/projects/naturale-kamala/photo-4.jpg",
+    "/assets/images/projects/naturale-kamala/photo-5.jpg",
+    "/assets/images/projects/naturale-kamala/photo-6.jpg",
+    "/assets/images/projects/naturale-kamala/photo-7.jpg",
+    "/assets/images/projects/naturale-kamala/photo-8.jpg",
+    "/assets/images/projects/naturale-kamala/photo-9.jpg"
+  ],
+  "imageCaptions": [
+    "Andaman Villa exterior",
+    "Aria Villa exterior",
+    "Kamala Villa exterior",
+    "Andaman Villa living area",
+    "Aria Villa living area",
+    "Entertainment room",
+    "Grand master bedroom",
+    "Grand master bathroom",
+    "Walk-in closet"
+  ],
+  "imageCredit": "Images from Keller Henson developer marketing materials. Layouts and finishes may differ from the final product.",
+  "imageSources": {
+    "page": "https://kellerhenson.com/project/naturale-kamala",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }
