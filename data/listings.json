@@ -233,6 +233,7 @@
    "type": "condominium",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/the-title-cocoon/photo-1.webp",
    "publishedAt": "2026-11-17",
    "featured": false
   },

@@ -57,8 +57,28 @@
     {
       "label": "Pattayahome listing",
       "url": "https://pattayahome.info/en/object/the-title-cocoon"
+    },
+    {
+      "label": "thetitlecocoon.com (concept illustrations)",
+      "url": "https://thetitlecocoon.com/"
     }
   ],
   "researchNotes": "Read the official site 2026-11-17. Stated: Rhom Bho Property, Soi Cherngtalay 3 Choeng Thale, 7 floors, 1BR units, foreign quota, 0% instalment during construction. Stats block says \"Bang Tao\" as district (conflicts with Choeng Thale; we used the footer address). Price, completion, unit sizes, unit count, ownership, facilities all \"Stay tuned\". Site lists a broker phone, not used.",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/the-title-cocoon/photo-1.webp",
+  "images": [
+    "/assets/images/projects/the-title-cocoon/photo-2.webp",
+    "/assets/images/projects/the-title-cocoon/photo-3.webp"
+  ],
+  "imageCaptions": [
+    "Concept illustration, not a developer render",
+    "Concept illustration of a one-bedroom interior, not a developer render",
+    "Concept illustration of a rooftop at dusk, not a developer render"
+  ],
+  "imageCredit": "Concept illustrations only, not developer renders: the developer has not published project visuals yet. Source: thetitlecocoon.com (independent site). Architecture, layouts and finishes of the final project will differ.",
+  "imageSources": {
+    "page": "https://thetitlecocoon.com/",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "checked": "2026-11-17"
+  }
 }
