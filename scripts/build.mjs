@@ -200,6 +200,9 @@ const dateFmt = (d) => (d && !isNaN(Date.parse(d)) ? new Date(d).toISOString().s
 /* ---------- SEO text helpers (facts only; nothing invented) ---------- */
 const clip = (t, n = 158) => { t = String(t).replace(/\s+/g, ' ').trim(); if (t.length <= n) return t; const c = t.slice(0, n - 1); return c.slice(0, c.lastIndexOf(' ')).replace(/[,;:.\-\s]+$/, '') + '…'; };
 const fitTitle = (...opts) => opts.find((o) => o.length <= 62) || opts[opts.length - 1];
+/* One canonical area name per free-text location, so "Cherngtalay (Choeng Thale), near Layan Beach" and "Layan" end up on one Locations page. */
+const AREA_RULES = [[/layan/i, 'Layan'], [/laguna|lakelands/i, 'Laguna'], [/bang\s*tao/i, 'Bang Tao'], [/surin/i, 'Surin'], [/cherng\s*talay|cherngtalay|choeng\s*thale/i, 'Cherng Talay'], [/si\s*sunthon|bang\s*jo/i, 'Si Sunthon'], [/nai\s*yang|naiyang/i, 'Nai Yang'], [/mai\s*khao/i, 'Mai Khao'], [/nai\s*harn/i, 'Nai Harn'], [/kamala/i, 'Kamala'], [/karon/i, 'Karon'], [/kata/i, 'Kata'], [/patong/i, 'Patong'], [/rawai/i, 'Rawai'], [/ko\s*kaeo|koh\s*kaew|ko\s*kaew/i, 'Ko Kaeo'], [/phuket\s*town/i, 'Phuket Town'], [/thalang/i, 'Thalang']];
+const canonArea = (loc) => { const t = String(loc || ''); const r = AREA_RULES.find(([re]) => re.test(t)); return r ? r[1] : (t.replace(/\s*\([^)]*\)/g, '').split('/')[0].split(',')[0].trim() || 'Phuket'); };
 const areaOf = (loc) => String(loc || 'Phuket').replace(/\s*\([^)]*\)/g, '').split('/')[0].split(',')[0].trim();
 const withPhuket = (a) => (/phuket/i.test(a) ? a : `${a}, Phuket`);
 const NOUN = { Villa: ['Villas', 'villa'], Townhouse: ['Townhouses', 'townhouse'], Condominium: ['Condos', 'condo'] };
@@ -409,7 +412,7 @@ function propCard(p, { filterable = false } = {}) {
     num(p.livingArea) !== null ? `<li title="Living area"><i class="fa fa-arrows-alt"></i> ${p.livingArea} sqm</li>` : '',
   ].join('');
   const data = filterable
-    ? ` data-price="${num(p.price)}" data-beds="${num(p.bedrooms) ?? 0}" data-baths="${num(p.bathrooms) ?? 0}" data-area="${num(p.livingArea) ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.propertyType)}" data-ownership="${esc(p.ownership || '')}" data-search="${esc([t, p.location, p.propertyType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`
+    ? ` data-price="${num(p.price)}" data-beds="${num(p.bedrooms) ?? 0}" data-baths="${num(p.bathrooms) ?? 0}" data-area="${num(p.livingArea) ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-location="${esc(canonArea(p.location))}" data-type="${esc(p.propertyType)}" data-ownership="${esc(p.ownership || '')}" data-search="${esc([t, p.location, p.propertyType, p.shortDescription, ...(p.facilities || [])].join(' ').toLowerCase())}"`
     : '';
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
@@ -446,7 +449,7 @@ function projSaleCard(proj) {
     p.developer ? `<li>${esc(p.developer)}</li>` : '',
     p.completionDate ? `<li><i class="fa fa-calendar"></i> ${esc(p.completionDate)}</li>` : '',
   ].join('');
-  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(p.location)}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
+  const data = ` data-kind="project" data-price="${sp ?? ''}" data-beds="${beds}" data-baths="${baths}" data-area="${area}" data-date="${Date.parse(e.publishedAt || p.publishedAt) || 0}" data-location="${esc(canonArea(p.location))}" data-type="${esc(p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)}" data-ownership="${esc(own)}" data-search="${esc([t, p.developer, p.location, p.projectType, p.shortDescription, ...(e.facilities?.length ? e.facilities : p.facilities || [])].join(' ').toLowerCase())}"`;
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card">
 		<a class="ec-img" href="${url(proj)}">${p.cover ? img(p.cover, proj.cardImageAlt || `${t} - ${nounOf(proj)[1]} project in ${withPhuket(areaOf(p.location))}`) : NOPHOTO}${badge(avail && avail !== 'Available' ? avail : '') || `<span class="status status-proj">${esc(p.constructionStatus)}</span>`}${own ? `<span class="own">${esc(own)}</span>` : '<span class="own">New project</span>'}</a>
@@ -466,7 +469,7 @@ function projCard(p, { filterable = false } = {}) {
   const t = p.name, f = facts(p);
   const beds = rng(f.bedMin, f.bedMax), size = rng(f.sizeMin, f.sizeMax);
   const data = filterable
-    ? ` data-price="${f.price ?? ''}" data-beds="${f.bedMax ?? 0}" data-baths="${f.bathMax ?? 0}" data-area="${f.sizeMax ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-name="${esc(t.toLowerCase())}" data-location="${esc(p.location)}" data-category="${esc(p.category)}" data-status="${esc(p.constructionStatus)}" data-pool="${esc(p.privatePool || '')}" data-ownership="${esc(p.ownership.join('|'))}" data-search="${esc([t, p.developer, p.location, p.category, p.projectType, p.shortDescription].join(' ').toLowerCase())}"`
+    ? ` data-price="${f.price ?? ''}" data-beds="${f.bedMax ?? 0}" data-baths="${f.bathMax ?? 0}" data-area="${f.sizeMax ?? 0}" data-date="${Date.parse(p.publishedAt) || 0}" data-name="${esc(t.toLowerCase())}" data-location="${esc(canonArea(p.location))}" data-category="${esc(p.category)}" data-status="${esc(p.constructionStatus)}" data-pool="${esc(p.privatePool || '')}" data-ownership="${esc(p.ownership.join('|'))}" data-search="${esc([t, p.developer, p.location, p.category, p.projectType, p.shortDescription].join(' ').toLowerCase())}"`
     : '';
   return `<div class="col-lg-4 col-md-6 js-card"${data}>
 	<article class="estate-card project-card">
@@ -495,7 +498,7 @@ function filterForm(list, category) {
   return `<form id="filters" class="filters" autocomplete="off" onsubmit="return false">
 	<div class="form-row">
 		<div class="form-group col-lg-3 col-md-6"><label for="f-q">Keyword</label><input id="f-q" name="q" class="form-control" type="search" placeholder="Name, area, facility..."></div>
-		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => p._saleEntry?.location || p.location))}</select></div>
+		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => canonArea(p._saleEntry?.location || p.location)))}</select></div>
 		<div class="form-group col-lg-3 col-md-6"><label for="f-type">Property type</label><select id="f-type" name="type" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.propertyType || p._saleEntry?.propertyType || (p.projectType === 'Villas' ? 'Villa' : p.projectType === 'Condominium' ? 'Condo' : p.projectType)))}</select></div>
 		${sale_ ? `<div class="form-group col-lg-3 col-md-6"><label for="f-ownership">Ownership</label><select id="f-ownership" name="ownership" class="form-control"><option value="">Any</option><option>Freehold</option><option>Leasehold</option></select></div>` : '<div class="form-group col-lg-3 col-md-6"><label for="f-sort-r">Sort by</label><select id="f-sort-r" name="sort" class="form-control js-sort"><option value="new">Newest first</option><option value="low">Lowest price</option><option value="high">Highest price</option></select></div>'}
 	</div>
@@ -548,7 +551,7 @@ function catalogFilter(list, lock) {
 	<div class="form-row">
 		<div class="form-group col-lg-3 col-md-6"><label for="f-q">Project name or keyword</label><input id="f-q" name="q" class="form-control" type="search" placeholder="Search projects..."></div>
 		${lock ? '' : `<div class="form-group col-lg-3 col-md-6"><label for="f-category">Category</label><select id="f-category" name="category" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.category))}</select></div>`}
-		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.location))}</select></div>
+		<div class="form-group col-lg-3 col-md-6"><label for="f-location">Location</label><select id="f-location" name="location" class="form-control"><option value="">Any</option>${opts(list.map((p) => canonArea(p.location)))}</select></div>
 		<div class="form-group col-lg-3 col-md-6"><label for="f-status">Status</label><select id="f-status" name="status" class="form-control"><option value="">Any</option>${opts(list.map((p) => p.constructionStatus))}</select></div>
 	</div>
 	<div class="form-row">
@@ -588,11 +591,11 @@ const projectsPage = (list) => catalogPage({ pathname: '/projects/', ttl: 'New P
 
 
 /* ---------- location landing pages (built only from catalogue data; optional editorial text in content/locations/<slug>.json) ---------- */
-const LOC_ALIAS = { 'koh-kaew': 'ko-kaeo' };
-const locSlug = (name) => { const k = slugify(name); return LOC_ALIAS[k] || k; };
+const LOC_ALIAS = { 'koh-kaew': 'ko-kaeo', 'nai-yang': 'naiyang' }; // keep the URLs that already exist
+const locSlug = (name) => { const k = slugify(canonArea(name)); return LOC_ALIAS[k] || k; };
 const LOC_MIN = 2; // a location page needs at least this many projects, otherwise it would be thin content
 const locGroups = new Map();
-projL.forEach((p) => { const k = locSlug(p.location); (locGroups.get(k) || locGroups.set(k, { slug: k, name: p.location, projects: [] }).get(k)).projects.push(p); });
+projL.forEach((p) => { const k = locSlug(p.location); (locGroups.get(k) || locGroups.set(k, { slug: k, name: canonArea(p.location), projects: [] }).get(k)).projects.push(p); });
 const LOCS = [...locGroups.values()].filter((g) => g.projects.length >= LOC_MIN).sort((a, b) => b.projects.length - a.projects.length || a.name.localeCompare(b.name));
 LOCS.forEach((g) => { g.url = `/locations/${g.slug}/`; try { g.ed = readJson(path.join(ROOT, `content/locations/${g.slug}.json`)); } catch { g.ed = {}; } });
 const locPageFor = (p) => LOCS.find((g) => g.slug === locSlug(p.location));
@@ -847,10 +850,10 @@ function homePage() {
   };
   const locs = {};
   const L = (l) => (locs[l] ||= { rent: 0, sale: 0 });
-  rentL.forEach((p) => L(p.location).rent++);
-  saleL.forEach((p) => L(p.location).sale++);
-  saleProjects.forEach((p) => L(p._saleEntry?.location || p.location).sale++); // developments listed on SALE
-  const locCards = Object.entries(locs).sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0])).slice(0, 12)
+  rentL.forEach((p) => L(canonArea(p.location)).rent++);
+  saleL.forEach((p) => L(canonArea(p.location)).sale++);
+  saleProjects.forEach((p) => L(canonArea(p._saleEntry?.location || p.location)).sale++); // developments listed on SALE
+  const locCards = Object.entries(locs).filter(([l]) => l !== 'Phuket').sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0])).slice(0, 12)
     .map(([l, c]) => `<a class="loc-chip" href="${locPageFor({ location: l })?.url || `/${c.sale && !c.rent ? 'sale' : 'rent'}/?location=${encodeURIComponent(l)}`}"><strong>${esc(l)}</strong><span>${[c.rent ? `${c.rent} for rent` : '', c.sale ? `${c.sale} for sale` : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
   const body = `
 	<section class="estate-hero">
