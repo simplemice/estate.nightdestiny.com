@@ -25,7 +25,8 @@ const neutral = (f) => f.replace(/^ru\//, '');
 const en = new Set(all.filter((f) => langOf(f) === 'en').map(neutral));
 const ru = new Set(all.filter((f) => langOf(f) === 'ru').map(neutral));
 for (const f of en) if (!ru.has(f)) err(f, 'no Russian counterpart');
-for (const f of ru) if (!en.has(f)) err('ru/' + f, 'no English counterpart');
+const RU_ONLY = (f) => /^guides\//.test(f); // language-specific articles
+for (const f of ru) if (!en.has(f) && !RU_ONLY(f)) err('ru/' + f, 'no English counterpart');
 
 const urlToFile = (u) => { const p = u.replace(SITE, '').split('#')[0].split('?')[0]; const rel = p.endsWith('/') ? p + 'index.html' : p; return rel.replace(/^\//, ''); };
 const attr = (tag, name) => (tag.match(new RegExp(`${name}="([^"]*)"`)) || [])[1];
@@ -50,7 +51,12 @@ for (const f of all) {
   if (!html.includes(`<meta property="og:locale" content="${meta.ogLocale}">`)) err(f, 'wrong og:locale');
 
   const alts = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">/g)].map((m) => [m[1], m[2]]);
+  const robotsMeta = (html.match(/<meta name="robots" content="([^"]*)"/) || [])[1] || '';
+  const single = RU_ONLY(neutral(f)) || (/noindex/.test(robotsMeta) && !isError) || (lang === 'en' && alts.length === 0 && !isError);
+  if (/<title>[^<]{71,}<\/title>/.test(html)) err(f, 'title longer than 70 characters');
+  for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch (e) { err(f, 'invalid JSON-LD: ' + e.message); } }
   if (isError) { if (alts.length) err(f, 'error pages must not declare hreflang'); }
+  else if (single) { if (alts.length) err(f, 'single-language/draft page must not declare hreflang'); }
   else {
     const want = [...LANGS.map((l) => LANG_META[l].hreflang), 'x-default'];
     if (alts.map((a) => a[0]).join() !== want.join()) err(f, `hreflang set ${alts.map((a) => a[0])} != ${want}`);
@@ -62,7 +68,7 @@ for (const f of all) {
       if (!exists(urlToFile(u))) err(f, `hreflang ${h} target missing: ${u}`);
     }
     // the title/description must be independent per language (not identical copies)
-    if (lang === 'ru') {
+    if (lang === 'ru' && !single) {
       const enHtml = fs.readFileSync(path.join(ROOT, here), 'utf8');
       const t = (h) => (h.match(/<title>([^<]*)<\/title>/) || [])[1];
       const d = (h) => (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
@@ -110,6 +116,7 @@ const indexable = all.filter((f) => !/(^|\/)(404|5xx)\.html$/.test(f) && !/noind
 indexable.forEach((f) => { const u = SITE + '/' + (f.endsWith('index.html') ? f.slice(0, -10) : f); if (!locs.includes(u)) err('sitemap.xml', `indexable page missing from sitemap: ${u}`); });
 for (const m of sm.matchAll(/<url><loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g)) {
   const h = [...m[0].matchAll(/hreflang="([^"]+)" href="([^"]+)"/g)];
+  if (h.length === 0) continue; // single-language URL (e.g. guide, or a translation awaiting review): no alternates by design
   if (h.length !== LANGS.length + 1) err('sitemap.xml', `${m[1]}: expected ${LANGS.length + 1} xhtml alternates, found ${h.length}`);
   if (!h.some(([, , u]) => u === m[1])) err('sitemap.xml', `${m[1]}: not listed among its own alternates`);
 }

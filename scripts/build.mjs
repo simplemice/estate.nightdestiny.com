@@ -32,6 +32,11 @@ const LOCALES = Object.fromEntries(LANGS.map((l) => [l, loadLanguage(ROOT, l)]))
 let LANG = DEFAULT_LANG;
 let I = LOCALES[LANG];
 const setLang = (l) => { LANG = l; I = LOCALES[l]; };
+// A translation is publishable when its overlay exists and is not marked "status": "draft". Unready pages are still generated (so the
+// switcher never 404s) but are noindex, carry no hreflang pair and stay out of the sitemap until a human reviews and approves them.
+const overlayOf = (l, p) => (p._kind === 'project' ? LOCALES[l].over.projects : p.category === 'rent' ? LOCALES[l].over.rent : LOCALES[l].over.sale)[p.slug];
+const langReady = (l, p) => l === DEFAULT_LANG || (!!overlayOf(l, p) && overlayOf(l, p).status !== 'draft') || (p._kind !== 'project' && p.category === 'sale' && !!LOCALES[l].over.projects[p.projectSlug]);
+const readyLangs = (p) => (p ? LANGS.filter((l) => langReady(l, p)) : LANGS);
 const T = (k, v) => I.t(k, v);
 const tx = (s, w) => I.tx(s, w);
 const lp = (p) => LANG_META[LANG].prefix + p;           // internal link in the current language: '/rent/' -> '/ru/rent/'
@@ -197,6 +202,10 @@ function fld(p, k, fallback) {
   return tx(v, `${p._file || p.slug}:${k}`);
 }
 const fldArr = (p, k, fn = tx) => (Array.isArray(p[k]) ? (LANG !== DEFAULT_LANG && Array.isArray(OV(p)[k]) ? OV(p)[k] : p[k].map((x) => fn(x, `${p._file || p.slug}:${k}`))) : []);
+// Russian: area in the prepositional case ("в Равае"), e.g. for titles and descriptions.
+const canonLoc = (loc) => (/kathu/i.test(String(loc)) ? 'Kathu-Patong' : canonArea(loc));
+const areaIn = (a) => (I.has(`area_in.${a}`) ? T(`area_in.${a}`) : `в районе ${areaName(a)}`);
+const whereRu = (loc) => { const a = canonLoc(loc); return a === 'Phuket' ? T('area_in.Phuket') : `${areaIn(a)}, Пхукет`; };
 const mode = (m) => (m && m !== 'unspecified' ? (LANG === DEFAULT_LANG ? m : tx({ walk: 'walking', drive: 'driving' }[m] || m, 'nearby.mode')) : '');
 const catName = (c) => tx(c, 'category');
 const areaName = (a) => tx(a, 'area');
@@ -241,9 +250,8 @@ const devShort = (d) => String(d || '').replace(/\s*\([^)]*\)/g, '').replace(/\s
 function projTitle(p) {
   if (p.seoTitle) return fld(p, 'seoTitle');
   if (LANG !== DEFAULT_LANG) {
-    const t = p.name, a0 = areaName(areaOf(p.location)), n = nounOf(p)[0];
-    const place = /Пхукет/.test(a0) ? a0 : `${a0}, Пхукет`;
-    return fitTitle(T('seo.proj_title_a', { t, place, n }), T('seo.proj_title_b', { t, n }), T('seo.proj_title_c', { t, n }), t);
+    const t = p.name, nn = T(`noun.nn.${p.category}`), inn = areaIn(canonLoc(p.location));
+    return fitTitle(T('seo.proj_title_a', { t, nn, in: inn }), T('seo.proj_title_b', { t, nn }), T('seo.proj_title_c', { t, nn }), t);
   }
   const t = p.name, a = areaOf(p.location), n = nounOf(p)[0];
   const inName = (x) => t.toLowerCase().includes(x.toLowerCase().replace(/\s+phuket$/, ''));
@@ -254,14 +262,13 @@ function projTitle(p) {
 function projDesc(p) {
   if (p.seoDescription) return fld(p, 'seoDescription');
   if (LANG !== DEFAULT_LANG) {
-    const f = facts(p), t = p.name, a0 = areaName(areaOf(p.location)), noun = nounOf(p)[1];
-    const place = /Пхукет/.test(a0) ? a0 : `${a0}, Пхукет`;
+    const f = facts(p), t = p.name, lead0 = T(`noun.lead.${p.category}`), inn = areaIn(canonLoc(p.location));
     const dev = devShort(p.developer);
-    const lead = dev ? T('seo.lead_dev', { t, noun, place, dev }) : T('seo.lead', { t, noun, place });
+    const lead = dev ? T('seo.lead_dev', { t, lead: lead0, in: inn, dev }) : T('seo.lead', { t, lead: lead0, in: inn });
     const st = p.constructionStatus && p.constructionStatus !== 'Status on request' ? tx(p.constructionStatus, 'status').toLowerCase() : '';
     const bedsMax = f.bedMax ?? f.bedMin;
     const beds = rng(f.bedMin, f.bedMax);
-    const parts = [beds ? `${beds} ${I.plural(bedsMax, ['спальня', 'спальни', 'спален'])}` : '', st, f.price ? `${T('from_lc')} ${money(f.price, p.currency || 'THB')}` : ''].filter(Boolean).join(', ');
+    const parts = [beds ? `${beds} ${I.plural(bedsMax, ['спальня', 'спальни', 'спален'])}` : '', st, p.ownership?.length ? p.ownership.map((o) => T(`own_lc.${o}`).replace(/ \(.*\)/, '')).join(' / ') : '', f.price ? `${T('from_lc')} ${money(f.price, p.currency || 'THB')}` : ''].filter(Boolean).join(', ');
     const pre = parts ? parts[0].toUpperCase() + parts.slice(1) + '. ' : '';
     const opts = [`${lead} ${pre}${T('seo.cta')}`, `${lead} ${pre}${T('seo.cta_short')}`, `${lead} ${T('seo.cta')}`, lead];
     return opts.find((o) => o.length <= 160) || clip(opts[opts.length - 1], 160);
@@ -280,7 +287,7 @@ function propDesc(p) {
   if (LANG !== DEFAULT_LANG) {
     const sd = String(fld(p, 'shortDescription') || '').replace(/\s+/g, ' ').trim();
     const pr = num(p.price) ? ' ' + priceText(p).replace(/<[^>]+>/g, '') + '.' : '';
-    return clip(`${T(p.category === 'rent' ? 'seo.prop_rent' : 'seo.prop_sale', { title: fld(p, 'title'), type: tx(p.propertyType, 'type'), loc: areaName(areaOf(p.location)) })}${sd ? ' ' + sd : ''}${pr} ${T('seo.cta_short')}`);
+    return clip(`${T(p.category === 'rent' ? 'seo.prop_rent' : 'seo.prop_sale', { title: fld(p, 'title'), type: tx(p.propertyType, 'type').toLowerCase(), where: whereRu(p.location) })}${sd ? ' ' + sd : ''}${pr} ${T('seo.cta_short')}`);
   }
   const verb = p.category === 'rent' ? 'for rent' : 'for sale';
   const sd = (p.shortDescription || '').replace(/\s+/g, ' ').trim();
@@ -292,20 +299,21 @@ const NAV = [['/', 'nav.home', 'home'], ['/rent/', 'nav.rent', 'rent'], ['/sale/
 const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.map(([h, l, k, kids]) => `<li${k === active ? ' class="active"' : ''}><a href="${lp(h)}">${T(l)}</a>${kids ? `<ul class="dropdown">${kids.map(([kh, kl]) => `<li><a href="${lp(kh)}">${T(kl)}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul></nav>`;
 
 // Language switcher: links go to the equivalent page in the other language (every page exists in both), so they can never 404.
-const langSwitch = (pathname, cls = '') => `<nav class="lang-switch ${cls}" aria-label="${esc(T('lang.label'))}">${LANGS.map((l) => { const m = LANG_META[l]; const cur = l === LANG; return `<a href="${lpFor(l, pathname)}" hreflang="${m.hreflang}" lang="${m.htmlLang}" title="${esc(m.name)}"${cur ? ' class="is-active" aria-current="true"' : ''}><img src="/img/flags/${m.flag}.svg" width="18" height="12" alt="" decoding="async"><span>${m.code}</span></a>`; }).join('')}</nav>`;
+const langSwitch = (pathname, cls = '', has = LANGS) => `<nav class="lang-switch ${cls}" aria-label="${esc(T('lang.label'))}">${LANGS.map((l) => { const m = LANG_META[l]; const cur = l === LANG; return `<a href="${lpFor(l, l === LANG || has.includes(l) ? pathname : '/')}" hreflang="${m.hreflang}" lang="${m.htmlLang}" title="${esc(m.name)}"${cur ? ' class="is-active" aria-current="true"' : ''}><img src="/img/flags/${m.flag}.svg" width="18" height="12" alt="" decoding="async"><span>${m.code}</span></a>`; }).join('')}</nav>`;
 
 let CRUMBS = []; // set by pageHead(); turned into BreadcrumbList JSON-LD by layout()
 const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + lp('/'), logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 621, height: 401 }, image: SITE + '/img/logo.png', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: T('ld.area_served') }, sameAs: [settings.instagram].filter(Boolean) });
 const WEBSITE_ID = () => SITE + lp('/') + '#website';
-function layout({ title: t0, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '', i18nJs = false }) {
+function layout({ title: t0, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '', i18nJs = false, langs = LANGS }) {
   let t = t0;
   // Brand suffix only on home/about/contact/error pages; elsewhere Google adds the site name itself.
   if (!['/', '/about/', '/contact/', '/404.html', '/5xx.html'].includes(pathname) && t.endsWith(' | ' + settings.siteName)) t = t.slice(0, -(settings.siteName.length + 3));
   const errorPage = ['/404.html', '/5xx.html'].includes(pathname);
   const canonical = canonicalUrl && LANG === DEFAULT_LANG && canonicalUrl.startsWith(SITE + '/') ? canonicalUrl : SITE + lp(pathname);
   // Every page exists in every language at the same relative path (English has no prefix). Error pages are noindex and have no alternates.
-  const alternates = errorPage ? '' : LANGS.map((l) => `\t<link rel="alternate" hreflang="${LANG_META[l].hreflang}" href="${esc(SITE + lpFor(l, pathname))}">\n`).join('') + `\t<link rel="alternate" hreflang="x-default" href="${esc(SITE + lpFor(DEFAULT_LANG, pathname))}">\n`;
-  const ogAlt = errorPage ? '' : LANGS.filter((l) => l !== LANG).map((l) => `\n\t<meta property="og:locale:alternate" content="${LANG_META[l].ogLocale}">`).join('');
+  const multi = langs.length > 1;
+  const alternates = errorPage || !multi ? '' : langs.map((l) => `\t<link rel="alternate" hreflang="${LANG_META[l].hreflang}" href="${esc(SITE + lpFor(l, pathname))}">\n`).join('') + `\t<link rel="alternate" hreflang="x-default" href="${esc(SITE + lpFor(DEFAULT_LANG, pathname))}">\n`;
+  const ogAlt = errorPage || !multi ? '' : langs.filter((l) => l !== LANG).map((l) => `\n\t<meta property="og:locale:alternate" content="${LANG_META[l].ogLocale}">`).join('');
   const switchPath = errorPage ? '/' : pathname;
   const crumbs = CRUMBS; CRUMBS = [];
   const graph = [];
@@ -328,7 +336,7 @@ ${/^G-[A-Z0-9]+$/.test(settings.gaMeasurementId || '') ? `	<!-- Google tag (gtag
 	<link rel="canonical" href="${esc(canonical)}">
 ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 	<meta property="og:description" content="${esc(ogDescription || description)}">
-	<meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
+	<meta name="robots" content="${noindex || (LANG !== DEFAULT_LANG && !langs.includes(LANG)) ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 	<meta property="og:site_name" content="${esc(settings.siteName)}">
 	<meta property="og:locale" content="${LANG_META[LANG].ogLocale}">${ogAlt}
 	<meta property="og:type" content="website">
@@ -346,9 +354,6 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 	<link rel="stylesheet" href="/css/site.css?v=${CSS_V}" type="text/css">
 	${lightbox ? '<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">' : ''}
-	<link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
-	<link rel="stylesheet" href="/css/style.css" type="text/css">
-	<link rel="stylesheet" href="/css/estate.css" type="text/css">
 	<link rel="stylesheet" href="/css/brand.css?v=${fileHash('css/brand.css')}" type="text/css">
 	${preload}
 	${extraHead}
@@ -356,11 +361,11 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 </head>
 <body>
 	<div class="offcanvas-menu-overlay"></div>
-	${langSwitch(switchPath, 'lang-switch-bar')}
+	${langSwitch(switchPath, 'lang-switch-bar', langs)}
 	<button type="button" class="canvas-open" aria-label="${esc(T('menu.open'))}"><i class="icon_menu"></i></button>
 	<div class="offcanvas-menu-wrapper">
 		<button type="button" class="canvas-close" aria-label="${esc(T('menu.close'))}"><i class="icon_close"></i></button>
-		${langSwitch(switchPath, 'lang-switch-m')}
+		${langSwitch(switchPath, 'lang-switch-m', langs)}
 		${navHtml(active, 'mobile-menu')}
 		<div id="mobile-menu-wrap"></div>
 		<div class="top-social">
@@ -385,7 +390,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 					<div class="col-lg-6">
 						<div class="tn-right">
 							<div class="top-social"><a href="${esc(settings.instagram)}" aria-label="Instagram"><i class="fa fa-instagram"></i></a></div>
-							${langSwitch(switchPath)}
+							${langSwitch(switchPath, '', langs)}
 							<a href="${esc(waLink(waMsg.general()))}" class="bk-btn" target="_blank" rel="noopener noreferrer">${T('whatsapp_us')}</a>
 						</div>
 					</div>
@@ -426,7 +431,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 					<div class="col-lg-3 offset-lg-1">
 						<div class="ft-contact">
 							<p class="ft-title">${T('footer.explore')}</p>
-							<ul>${[['/rent/', 'nav.rent'], ['/sale/', 'nav.sale'], ['/properties/', 'nav.properties'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}</ul>
+							<ul>${[['/rent/', 'nav.rent'], ['/sale/', 'nav.sale'], ['/properties/', 'nav.properties'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}${LANG === 'ru' ? `<li><a href="${lp('/guides/freehold-leasehold/')}">${T('footer.guide')}</a></li>` : ''}</ul>
 						</div>
 					</div>
 				</div>
@@ -711,9 +716,10 @@ function locationPage(g) {
   const nb = nearbyByGroup(g);
   const ed = LANG === DEFAULT_LANG ? g.ed : (I.over.locations[g.slug] || {});
   const tw = typeWord(g);
-  const h1 = T('loc.h1', { nm });
+  const inn = LANG === DEFAULT_LANG ? nm : areaIn(g.name);
+  const h1 = T('loc.h1', { nm, in: inn });
   const intro = `${T('loc.intro', { np: T('loc.np', { n: N }), nm, types: typesTxt })}${prices.length ? ' ' + T('loc.prices', { from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N }) : ' ' + T('loc.prices_none')}${own.length ? ' ' + T('loc.own', { own: own.map((o) => T(`own_lc.${o}`)).join(T('and')) }) : ''}`;
-  const desc = clip(`${T('loc.desc', { tw, nm, np: T('loc.np', { n: N }), types: typesTxt })}${prices.length ? T('loc.desc_from', { price: money(prices[0]) }) : ''}. ${T('seo.cta_enquire')}`);
+  const desc = clip(`${T('loc.desc', { tw, nm, in: inn, np: T('loc.np', { n: N }), types: typesTxt })}${prices.length ? T('loc.desc_from', { price: money(prices[0]) }) : ''}. ${T('seo.cta_enquire')}`);
   const body = `${pageHead(h1, T('loc.sub', { n: N, nm }), [['/', T('nav.home')], ['/locations/', T('nav.locations')], ['', nm]])}
 	<section class="spad-2 loc-page"><div class="container">
 		<div class="row"><div class="col-lg-9">
@@ -730,7 +736,7 @@ function locationPage(g) {
 		<p class="mt-3">${T('loc.browse_more')} ${LOCS.filter((x) => x.slug !== g.slug).slice(0, 6).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')} &middot; <a href="${lp('/locations/')}">${T('loc.all')}</a></p>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, about: { '@type': 'Place', name: `${nm}, ${T('phuket')}`, containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}`;
-  return layout({ title: fitTitle(T('loc.title_a', { tw, nm, site: settings.siteName }), T('loc.title_b', { nm, site: settings.siteName })), description: desc, pathname: g.url, active: 'locations', body, ogImage: ps.find((p) => p.cover)?.cover });
+  return layout({ title: fitTitle(T('loc.title_a', { tw, twl: tw.toLowerCase(), nm, in: inn, site: settings.siteName }), T('loc.title_b', { nm, in: inn, site: settings.siteName })), description: desc, pathname: g.url, active: 'locations', body, ogImage: ps.find((p) => p.cover)?.cover });
 }
 function locationsHub() {
   const body = `${pageHead(T('hub.h1'), T('hub.sub'), [['/', T('nav.home')], ['', T('nav.locations')]])}
@@ -757,13 +763,13 @@ function errorPageHtml(kind) {
 /* ---------- detail pages ---------- */
 const spec = (k, v) => (v === undefined || v === null || v === '' ? '' : `<tr><td class="r-o">${esc(T(k))}</td><td>${esc(v)}</td></tr>`);
 const list_ = (arr, cls = '') => (arr?.length ? `<ul class="check-list ${cls}">${arr.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '');
-const nearby = (p) => { const arr = fldArr(p, 'nearby', (n) => n); return arr?.length ? `<h4 class="sec-h">${T('nearby')}</h4><ul class="nearby-list">${arr.map((n) => `<li><span>${esc(tx(n.place, 'nearby.place'))}</span><span>${esc(I.dist(n.distance) || '')}</span></li>`).join('')}</ul>` : ''; };
+const nearby = (p) => { const arr = fldArr(p, 'nearby', (n) => n); return arr?.length ? `<h2 class="sec-h sec-sub">${T('nearby')}</h2><ul class="nearby-list">${arr.map((n) => `<li><span>${esc(tx(n.place, 'nearby.place'))}</span><span>${esc(I.dist(n.distance) || '')}</span></li>`).join('')}</ul>` : ''; };
 function mapBlock(c, label) {
   const lat = num(c?.lat), lng = num(c?.lng);
   if (lat === null || lng === null || isNaN(lat) || isNaN(lng)) return '';
   const d = 0.008;
   const bbox = [lng - d, lat - d, lng + d, lat + d].join('%2C');
-  return `<h4 class="sec-h">${T('location')}</h4><div class="map-wrap"><iframe title="${esc(T('map_title', { label }))}" loading="lazy" referrerpolicy="no-referrer" src="https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&amp;layer=mapnik&amp;marker=${lat}%2C${lng}"></iframe></div><p class="map-link"><a href="https://www.openstreetmap.org/?mlat=${lat}&amp;mlon=${lng}#map=15/${lat}/${lng}" target="_blank" rel="noopener">${T('open_larger_map')}</a></p>`;
+  return `<h2 class="sec-h sec-sub">${T('location')}</h2><div class="map-wrap"><iframe title="${esc(T('map_title', { label }))}" loading="lazy" referrerpolicy="no-referrer" src="https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&amp;layer=mapnik&amp;marker=${lat}%2C${lng}"></iframe></div><p class="map-link"><a href="https://www.openstreetmap.org/?mlat=${lat}&amp;mlon=${lng}#map=15/${lat}/${lng}" target="_blank" rel="noopener">${T('open_larger_map')}</a></p>`;
 }
 function gallery(p, alt) {
   const all = [p.cover, ...p.images].filter((v, i, a) => v && a.indexOf(v) === i);
@@ -788,7 +794,7 @@ function gallery(p, alt) {
 const i0alt = (p, alt, cap) => (p.name && cap ? `${alt}: ${String(cap).trim()}` : alt);
 const youtube = (u) => {
   const m = String(u || '').match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/);
-  return m ? `<h4 class="sec-h">${T('video')}</h4><div class="video-wrap"><iframe title="${esc(T('video_title'))}" loading="lazy" src="https://www.youtube-nocookie.com/embed/${m[1]}" allowfullscreen></iframe></div>` : '';
+  return m ? `<h2 class="sec-h sec-sub">${T('video')}</h2><div class="video-wrap"><iframe title="${esc(T('video_title'))}" loading="lazy" src="https://www.youtube-nocookie.com/embed/${m[1]}" allowfullscreen></iframe></div>` : '';
 };
 
 function related(p, pool) {
@@ -820,7 +826,7 @@ function propertyPage(p) {
 					${gallery(p, T('alt.prop', { t, type, loc }))}
 					<h2 class="sec-h">${T('about_property')}</h2>
 					<div class="desc">${paras(fld(p, 'description'))}</div>
-					${p.facilities?.length ? `<h4 class="sec-h">${T('facilities')}</h4>${list_(fldArr(p, 'facilities'))}` : ''}
+					${p.facilities?.length ? `<h2 class="sec-h sec-sub">${T('facilities')}</h2>${list_(fldArr(p, 'facilities'))}` : ''}
 					${nearby(p)}
 					${mapBlock(p.coordinates, t)}
 				</div>
@@ -842,8 +848,8 @@ function propertyPage(p) {
 	</section>
 	${related(p, pool)}
 	${jsonLd(ld)}`;
-  const tv = { t, area: placeOfLoc(p.location), site: settings.siteName };
-  return layout({ title: fitTitle(T(cat === 'rent' ? 'seo.prop_title_rent_a' : 'seo.prop_title_sale_a', tv), T(cat === 'rent' ? 'seo.prop_title_rent_b' : 'seo.prop_title_sale_b', tv), T(cat === 'rent' ? 'seo.prop_title_rent_c' : 'seo.prop_title_sale_c', tv)), description: desc, pathname: urlN(p), active: cat, body, ogImage: p.cover, lightbox: true });
+  const tv = { t, area: LANG === DEFAULT_LANG ? placeOfLoc(p.location) : whereRu(p.location), site: settings.siteName };
+  return layout({ title: fitTitle(T(cat === 'rent' ? 'seo.prop_title_rent_a' : 'seo.prop_title_sale_a', tv), T(cat === 'rent' ? 'seo.prop_title_rent_b' : 'seo.prop_title_sale_b', tv), T(cat === 'rent' ? 'seo.prop_title_rent_c' : 'seo.prop_title_sale_c', tv)), description: desc, pathname: urlN(p), active: cat, body, ogImage: p.cover, lightbox: true, langs: readyLangs(p) });
 }
 const withPhuketRu = (a) => (/Пхукет/.test(a) ? a : `${a}, Пхукет`);
 const placeOfLoc = (location) => (LANG === DEFAULT_LANG ? withPhuket(areaOf(location)) : withPhuketRu(areaName(areaOf(location))));
@@ -857,8 +863,8 @@ function projectPage(p) {
   const wa = (u) => waBtn(waMsg.unit(u, t, p.location), 'wa-btn wa-sm', T('ask'));
   const hasFloor = p.unitTypes.some((u) => u.floor);
   const unitPT = [...new Set(p.unitTypes.map((u) => u.priceType).filter(Boolean))];
-  const units = p.unitTypes.length ? `<h4 class="sec-h">${T('units.h')}</h4><div class="table-responsive"><table class="table unit-table"><thead><tr><th>${T('units.type')}</th>${hasFloor ? `<th>${T('spec.floor')}</th>` : ''}<th>${T('units.beds')}</th><th>${T('units.baths')}</th><th>${T('units.built_up')}</th><th>${T('units.land')}</th><th>${T('units.price')}</th><th>${T('units.status')}</th><th></th></tr></thead><tbody>${p.unitTypes.map((u) => `<tr><td><strong>${esc(unitName(u.name))}</strong></td>${hasFloor ? `<td>${esc(u.floor ?? '-')}</td>` : ''}<td>${esc(u.bedrooms ?? '-')}</td><td>${esc(u.bathrooms ?? '-')}</td><td>${u.size || u.builtUpSqm ? esc(I.sqm(u.size ?? u.builtUpSqm)) : '-'}</td><td>${u.landSqm ? esc(I.sqm(u.landSqm)) : '-'}</td><td>${num(u.price) ? money(u.price, cur) + usd(u.price, cur) : T('on_request')}</td><td>${esc(u.availability ? tx(u.availability, 'availability') : T('ask'))}</td><td>${wa(unitName(u.name))}${u.floorPlan ? ` <a class="plan-link" href="${esc(bigSrc(u.floorPlan))}">${T('plan')}</a>` : ''}</td></tr>`).join('')}</tbody></table></div>${unitPT.length ? `<p class="ds-note">${T('units.price_type', { x: unitPT.map((x) => tx(x, 'priceType')).join(' / ') })}</p>` : ''}` : '';
-  const plans = p.floorPlans.length ? `<h4 class="sec-h">${T('plans.h')}</h4><div class="plans row">${p.floorPlans.map((fp, i) => `<div class="col-6 col-md-4"><a class="plan-link" href="${esc(bigSrc(fp))}">${img(fp, T('alt.floor_plan', { t, n: i + 1 }), { sizes: '(min-width: 768px) 25vw, 50vw' })}</a></div>`).join('')}</div>` : '';
+  const units = p.unitTypes.length ? `<h2 class="sec-h sec-sub">${T('units.h')}</h2><div class="table-responsive"><table class="table unit-table"><thead><tr><th>${T('units.type')}</th>${hasFloor ? `<th>${T('spec.floor')}</th>` : ''}<th>${T('units.beds')}</th><th>${T('units.baths')}</th><th>${T('units.built_up')}</th><th>${T('units.land')}</th><th>${T('units.price')}</th><th>${T('units.status')}</th><th></th></tr></thead><tbody>${p.unitTypes.map((u) => `<tr><td><strong>${esc(unitName(u.name))}</strong></td>${hasFloor ? `<td>${esc(u.floor ?? '-')}</td>` : ''}<td>${esc(u.bedrooms ?? '-')}</td><td>${esc(u.bathrooms ?? '-')}</td><td>${u.size || u.builtUpSqm ? esc(I.sqm(u.size ?? u.builtUpSqm)) : '-'}</td><td>${u.landSqm ? esc(I.sqm(u.landSqm)) : '-'}</td><td>${num(u.price) ? money(u.price, cur) + usd(u.price, cur) : T('on_request')}</td><td>${esc(u.availability ? tx(u.availability, 'availability') : T('ask'))}</td><td>${wa(unitName(u.name))}${u.floorPlan ? ` <a class="plan-link" href="${esc(bigSrc(u.floorPlan))}">${T('plan')}</a>` : ''}</td></tr>`).join('')}</tbody></table></div>${unitPT.length ? `<p class="ds-note">${T('units.price_type', { x: unitPT.map((x) => tx(x, 'priceType')).join(' / ') })}</p>` : ''}` : '';
+  const plans = p.floorPlans.length ? `<h2 class="sec-h sec-sub">${T('plans.h')}</h2><div class="plans row">${p.floorPlans.map((fp, i) => `<div class="col-6 col-md-4"><a class="plan-link" href="${esc(bigSrc(fp))}">${img(fp, T('alt.floor_plan', { t, n: i + 1 }), { sizes: '(min-width: 768px) 25vw, 50vw' })}</a></div>`).join('')}</div>` : '';
   // Standard terms (content/settings.json) apply when a project has no plan of its own and is not already completed. A project's own paymentPlan always wins.
   const payPlan = (p.paymentPlan.length ? p.paymentPlan : (p.constructionStatus !== 'Completed' ? STD_PAY : [])).map((x) => tx(x, `${p.slug}:payment`));
   const pay = [
@@ -867,10 +873,10 @@ function projectPage(p) {
     p.commonAreaFee ? `<p><strong>${T('pay.common_fee')}</strong> ${esc(fld(p, 'commonAreaFee'))}</p>` : '',
     p.sinkingFund ? `<p><strong>${T('pay.sinking')}</strong> ${esc(fld(p, 'sinkingFund'))}</p>` : '',
   ].join('');
-  const payBlock = pay ? `<h4 class="sec-h">${T('pay.h')}</h4>${pay}` : '';
+  const payBlock = pay ? `<h2 class="sec-h sec-sub">${T('pay.h')}</h2>${pay}` : '';
   const nears = fldArr(p, 'nearby', (n) => n);
-  const near = nears.length ? `<h4 class="sec-h">${T('nearby')}</h4><ul class="nearby-list">${nears.map((n) => nearItem(n)).join('')}</ul>` : '';
-  const srcs = p.sources.length ? `<h4 class="sec-h">${T('sources')}</h4><ul class="src-list">${p.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.label || x.url)}</a></li>`).join('')}</ul>` : '';
+  const near = nears.length ? `<h2 class="sec-h sec-sub">${T('nearby')}</h2><ul class="nearby-list">${nears.map((n) => nearItem(n)).join('')}</ul>` : '';
+  const srcs = p.sources.length ? `<h2 class="sec-h sec-sub">${T('sources')}</h2><ul class="src-list">${p.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.label || x.url)}</a></li>`).join('')}</ul>` : '';
   const verified = dispDate(p.lastVerified);
   const devTxt = p.developer ? T('faq.dev', { dev: p.developer }) : '';
   const faqItems = (Array.isArray(p.faq) && p.faq.some((x) => x.question && x.answer)) ? p.faq.filter((x) => x.question && x.answer).map((x) => [x.question, x.answer]) : [
@@ -879,7 +885,7 @@ function projectPage(p) {
     ...(p.ownership.length ? [[T('faq.q_own', { t }), T('faq.a_own', { own: p.ownership.map((o) => (LANG === DEFAULT_LANG ? o.toLowerCase() : ownName(o))).join(T('and')) })]] : []),
     [T('faq.q_ready', { t }), T('faq.a_ready', { status: status.toLowerCase(), done: p.completionDate ? T('faq.done', { d: tx(p.completionDate, 'completionDate') }) : '' })],
   ];
-  const faqBlock = `<h4 class="sec-h">${T('faq.h')}</h4><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
+  const faqBlock = `<h2 class="sec-h sec-sub">${T('faq.h')}</h2><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
   const priceBlock = f.price
     ? `<div class="ds-price"><small>${T('starting_from')}</small><br>${money(f.price, cur)}${usd(f.price, cur, true)}</div><p class="ds-note" data-usd-note>${p.priceNote ? esc(fld(p, 'priceNote')) + ' ' : ''}${p.priceType ? esc(T('price_type_start', { x: tx(p.priceType, 'priceType') })) : T('adv_start')}${verified ? T('price_checked', { date: verified }) : ''}. ${T('confirm_avail')}</p>`
     : `<div class="ds-price"><small>${T('price_on_request')}</small></div><p class="ds-note">${T('no_public_price')}</p>`;
@@ -898,7 +904,7 @@ function projectPage(p) {
 					${p.imageCredit ? `<p class="img-credit">${esc(fld(p, 'imageCredit'))}</p>` : ''}
 					<h2 class="sec-h">${T('overview')}</h2>
 					<div class="desc">${paras(fld(p, 'description'))}</div>
-					${p.facilities?.length ? `<h4 class="sec-h">${T('facilities')}</h4>${list_(fldArr(p, 'facilities'))}` : ''}
+					${p.facilities?.length ? `<h2 class="sec-h sec-sub">${T('facilities')}</h2>${list_(fldArr(p, 'facilities'))}` : ''}
 					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}${faqBlock}
 					${p.googleMapsUrl ? `<p class="map-link"><a href="${esc(p.googleMapsUrl)}" target="_blank" rel="noopener">${T('open_gmaps')}</a></p>` : ''}
 				</div>
@@ -916,6 +922,7 @@ function projectPage(p) {
 							${spec('spec.construction_start', p.constructionStart)}${spec('spec.completion', tx(p.completionDate, 'completionDate'))}
 						</tbody></table>
 						${waBtn(waMsg.project(t, p.location), 'wa-btn wa-block', T('inquire_wa'))}
+						${LANG === 'ru' && p.ownership.length && I.over.guides['freehold-leasehold'] ? `<p class="ds-note"><a href="${lp('/guides/freehold-leasehold/')}">${T('own.guide_note')}</a></p>` : ''}
 						${lpg ? `<p class="ds-note">${T('more_projects_in')} <a href="${lp(lpg.url)}">${esc(areaName(lpg.name))}</a></p>` : ''}
 					</aside>
 				</div>
@@ -924,7 +931,7 @@ function projectPage(p) {
 	</section>
 	${related(p, projL)}
 `;
-  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true });
+  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
 }
 
 /* ---------- home / about / contact ---------- */
@@ -998,6 +1005,24 @@ function contactPage() {
   return layout({ title: T('contact.title', { site: settings.siteName }), description: T('contact.desc', { site: settings.siteName }), pathname: '/contact/', active: 'contact', body });
 }
 
+/* ---------- guides (language-specific articles; a guide exists only in the languages it was written for) ---------- */
+function guidePage(slug, g) {
+  const nF = projL.filter((p) => p.ownership.includes('Freehold')).length, nL = projL.filter((p) => p.ownership.includes('Leasehold')).length;
+  const fill = (txt) => esc(txt)
+    .replace('{n_freehold}', `<a href="${lp('/projects/')}?ownership=Freehold">${esc(T('guide.n_freehold', { n: nF }))}</a>`)
+    .replace('{n_leasehold}', `<a href="${lp('/projects/')}?ownership=Leasehold">${esc(T('guide.n_freehold', { n: nL }))}</a>`);
+  const body = `${pageHead(g.h1, g.sub, [['/', T('nav.home')], ['', g.h1]])}
+	<section class="spad-2 guide-page"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
+		<p>${esc(g.intro)}</p>
+		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : ''}`).join('\n\t\t')}
+		<p class="ds-note">${esc(g.disclaimer)}</p>
+		<p class="mt-4">${waBtn(T('wa.guide'), 'wa-btn', T('guide.ask'))}</p>
+		<p class="mt-3"><a class="primary-btn" href="${lp('/projects/')}">${T('nav.projects')}</a> &nbsp; <a class="primary-btn" href="${lp('/sale/')}">${T('nav.sale')}</a></p>
+	</div></div></div></section>
+	${jsonLd({ '@context': 'https://schema.org', '@type': 'WebPage', name: g.title, url: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, isPartOf: { '@id': WEBSITE_ID() }, publisher: { '@id': SITE + '/#agent' } })}`;
+  return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: '', body, langs: [LANG] });
+}
+
 /* ---------- css bundle (one render-blocking request instead of seven) ---------- */
 function minCss(c) {
   return c.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s+/g, ' ').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}').trim();
@@ -1056,6 +1081,7 @@ function buildLanguage(lang) {
   out('5xx.html', errorPageHtml('5xx'));
   out('about/index.html', aboutPage());
   out('contact/index.html', contactPage());
+  Object.entries(I.over.guides).forEach(([slug, g]) => out(`guides/${slug}/index.html`, guidePage(slug, g)));
   rentL.concat(saleL).forEach((p) => out(`${urlN(p).slice(1)}index.html`, propertyPage(p)));
   projL.forEach((p) => out(`${urlN(p).slice(1)}index.html`, projectPage(p)));
 }
@@ -1080,7 +1106,7 @@ const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
 const allListings = rentL.concat(saleL, projL);
 const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
-const entry = (loc, lastmod, changefreq, priority, p) => LANGS.map((l) => `<url><loc>${SITE}${lpFor(l, loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${LANGS.map((a) => `<xhtml:link rel="alternate" hreflang="${LANG_META[a].hreflang}" href="${SITE}${lpFor(a, loc)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${lpFor(DEFAULT_LANG, loc)}"/>${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`).join('\n');
+const entry = (loc, lastmod, changefreq, priority, p, only) => (only || readyLangs(p)).map((l, _i, all) => `<url><loc>${SITE}${lpFor(l, loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${all.length > 1 ? `${all.map((a) => `<xhtml:link rel="alternate" hreflang="${LANG_META[a].hreflang}" href="${SITE}${lpFor(a, loc)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${lpFor(DEFAULT_LANG, loc)}"/>` : ''}${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`).join('\n');
 const urls = [
   ['/', latest(allListings), 'weekly', '1.0'],
   ['/rent/', latest(rentL), 'weekly', '0.9'],
@@ -1094,10 +1120,11 @@ const urls = [
   ...LOCS.map((g) => [g.url, latest(g.projects), 'weekly', '0.8']),
   ['/about/', latest(allListings), 'yearly', '0.4'],
   ['/contact/', latest(allListings), 'yearly', '0.5'],
+  ...Object.keys(LOCALES.ru.over.guides).map((g) => [`/guides/${g}/`, today, 'monthly', '0.6', null, ['ru']]),
   ...rentL.concat(saleL).map((x) => [urlN(x), dOf(x), 'weekly', '0.7', x]),
   ...projL.filter((x) => x.noindex !== true).map((x) => [urlN(x), dOf(x), 'weekly', '0.8', x]),
 ];
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(([u, lm, cf, pr, p]) => entry(u, lm, cf, pr, p)).join('\n')}\n</urlset>\n`);
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(([u, lm, cf, pr, p, only]) => entry(u, lm, cf, pr, p, only)).join('\n')}\n</urlset>\n`);
 
 // Translation coverage: English text that was shown on a non-English page because no translation exists yet.
 const gaps = LANGS.filter((l) => l !== DEFAULT_LANG).map((l) => [l, LOCALES[l].missing]).filter(([, m]) => m.size);
@@ -1108,4 +1135,6 @@ if (gaps.length) {
   }
   if (process.argv.includes('--strict')) process.exit(1);
 }
+const ruDrafts = [...projL, ...rentL].filter((p) => !langReady('ru', p));
+if (ruDrafts.length) console.warn(`i18n [ru]: ${ruDrafts.length} page(s) await translation review (noindex, no hreflang, not in sitemap): ${ruDrafts.map((p) => p.slug).join(', ')}`);
 console.log(`${CHECK ? 'Checked' : 'Built'} ${written.size} files (${urls.length} URLs x ${LANGS.length} languages in the sitemap).`);

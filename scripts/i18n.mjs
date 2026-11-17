@@ -117,7 +117,7 @@ export function loadLanguage(ROOT, lang) {
   const terms = {};
   Object.values(readDirJson(path.join(base, 'terms'))).forEach((d) => Object.assign(terms, d));
   const termsLc = new Map(Object.entries(terms).map(([k, v]) => [k.toLowerCase(), v]));
-  const over = { projects: readDirJson(path.join(base, 'projects')), rent: readDirJson(path.join(base, 'properties/rent')), sale: readDirJson(path.join(base, 'properties/sale')), locations: readDirJson(path.join(base, 'locations')) };
+  const over = { projects: readDirJson(path.join(base, 'projects')), rent: readDirJson(path.join(base, 'properties/rent')), sale: readDirJson(path.join(base, 'properties/sale')), locations: readDirJson(path.join(base, 'locations')), guides: readDirJson(path.join(base, 'guides')) };
   const missing = new Map(); // English string -> where it was needed
   const meta = LANG_META[lang];
   const isEn = lang === 'en';

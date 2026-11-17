@@ -232,3 +232,5 @@ img{height:auto}
   .lang-switch-m{display:none}
 }
 @media (max-width:360px){.lang-switch-bar a span{display:none}.lang-switch-bar a{padding:5px 7px}}
+/* section headings under the page H1 are H2 for a correct outline; keep the original (smaller) look */
+h2.sec-h.sec-sub{font-size:24px}
