@@ -853,8 +853,8 @@ function homePage() {
   rentL.forEach((p) => L(canonArea(p.location)).rent++);
   saleL.forEach((p) => L(canonArea(p.location)).sale++);
   saleProjects.forEach((p) => L(canonArea(p._saleEntry?.location || p.location)).sale++); // developments listed on SALE
-  const locCards = Object.entries(locs).filter(([l]) => l !== 'Phuket').sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0])).slice(0, 12)
-    .map(([l, c]) => `<a class="loc-chip" href="${locPageFor({ location: l })?.url || `/${c.sale && !c.rent ? 'sale' : 'rent'}/?location=${encodeURIComponent(l)}`}"><strong>${esc(l)}</strong><span>${[c.rent ? `${c.rent} for rent` : '', c.sale ? `${c.sale} for sale` : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
+  const locCards = Object.entries(locs).filter(([l]) => l !== 'Phuket').sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0]))
+    .map(([l, c]) => `<a class="loc-chip" href="${locPageFor({ location: l })?.url || `/${c.sale ? 'sale' : 'rent'}/?location=${encodeURIComponent(l)}`}"><strong>${esc(l)}</strong><span>${[c.rent ? `${c.rent} for rent` : '', c.sale ? `${c.sale} for sale` : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
   const body = `
 	<section class="estate-hero">
 		${img(settings.heroImage, '', { lazy: false, sizes: '100vw', cls: 'hero-img', priority: true })}
