@@ -79,9 +79,13 @@
     {
       "label": "Lazudi (snippets)",
       "url": "https://lip.lazudi.com/phuket/project/kahli-terraces-15982"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/kahli-terraces"
     }
   ],
-  "researchNotes": "Total units conflicting (1 for sale; snippet says 8 units over 3 floors). Official developer site not found. Fetched image URL is a resized portal thumbnail. | Thailand-Property shows from THB 11,970,000 for the 1 unit for sale. Search snippets show other portals at 15.9M-18.4M (219 sqm, 2 bed, 3 bath listing) and FazWaz 12M-13.8M. Claimed 15.91M matches a resale/agent listing, not the project minimum. Unverified. | claimed price from 15,910,000 THB",
+  "researchNotes": "Total units conflicting (1 for sale; snippet says 8 units over 3 floors). Official developer site not found. Fetched image URL is a resized portal thumbnail. | Thailand-Property shows from THB 11,970,000 for the 1 unit for sale. Search snippets show other portals at 15.9M-18.4M (219 sqm, 2 bed, 3 bath listing) and FazWaz 12M-13.8M. Claimed 15.91M matches a resale/agent listing, not the project minimum. Unverified. | claimed price from 15,910,000 THB | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg",
   "imageCaptions": [
@@ -92,5 +96,7 @@
     "Kitchen and dining",
     "Master bedroom"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "totalUnits": "8",
+  "completionDate": "Mar 2027 (FazWaz listing)"
 }

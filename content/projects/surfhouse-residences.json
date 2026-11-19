@@ -140,9 +140,13 @@
     {
       "label": "Bangkok Post",
       "url": "https://www.bangkokpost.com/property/2905222/sala-hospitality-group-enters-phuket-condo-market"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/surfhouse-residences"
     }
   ],
-  "researchNotes": "Identity: developer SALA Hospitality Group confirmed by two sources; Bang Tao/Choeng Thale area (Soi Khok Tanot 3 per a search result, not verified on a page read). Ownership: Keller Henson says freehold for Thai companies/nationals and 30+30+30 leasehold for foreigners; Papaya says Freehold. Completion and deposit figures conflict. Nestopa claims completed - unverified and contradicted. Papaya price 16.06M was read for the 2BR unit only; priceVerifiedDate applies to Keller Henson page. Exact address and coordinates not found. | Keller Henson shows from 8.4M (1BR 60.26 sqm, range to 26.1M); Papaya lists only 2BR/3BR from 16,061,571. Listing sites differ on size range (60-172 vs 117-166 sqm).",
+  "researchNotes": "Identity: developer SALA Hospitality Group confirmed by two sources; Bang Tao/Choeng Thale area (Soi Khok Tanot 3 per a search result, not verified on a page read). Ownership: Keller Henson says freehold for Thai companies/nationals and 30+30+30 leasehold for foreigners; Papaya says Freehold. Completion and deposit figures conflict. Nestopa claims completed - unverified and contradicted. Papaya price 16.06M was read for the 2BR unit only; priceVerifiedDate applies to Keller Henson page. Exact address and coordinates not found. | Keller Henson shows from 8.4M (1BR 60.26 sqm, range to 26.1M); Papaya lists only 2BR/3BR from 16,061,571. Listing sites differ on size range (60-172 vs 117-166 sqm). | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/surfhouse-residences/photo-1.jpg",
   "imageCaptions": [
     "Drone artist's impression",
@@ -158,5 +162,6 @@
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
   "priceType": "Agent advertised price",
-  "priceSourceUrl": "https://kellerhenson.com/project/surfhouse-residences"
+  "priceSourceUrl": "https://kellerhenson.com/project/surfhouse-residences",
+  "completionDate": "Jan 2027 (FazWaz listing)"
 }

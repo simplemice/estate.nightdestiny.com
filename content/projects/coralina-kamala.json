@@ -103,5 +103,17 @@
   "priceNote": "Lowest advertised price listed by an agent.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "floors": "8 buildings, 7 storeys each",
+  "completionDate": "Nov 2027 (FazWaz listing)",
+  "furniture": "Per FazWaz unit listings: fully furnished",
+  "sources": [
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-coralina-kamala"
+    }
+  ],
+  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "bathroomsMin": 1,
+  "bathroomsMax": 3
 }

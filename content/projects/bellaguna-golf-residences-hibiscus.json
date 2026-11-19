@@ -80,9 +80,13 @@
     {
       "label": "Agent listing",
       "url": "https://papayaproperty.com/laguna-property/bellaguna-golf-residences-hibiscus"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-golf-residences-hibiscus"
     }
   ],
-  "researchNotes": "Relationship: Bellaguna is Banyan Group's residential brand launched January 2026; 'Bellaguna Golf Residences' is the golf-course residence collection (five finger-shaped buildings); Hibiscus appears to be the name of this release/building group within it, though the developer page never defines 'Hibiscus' explicitly (inference). Developer page gives no price, size, floors, unit count or completion. Size max 297 sqm and ~100 units come from search-snippet portal text, unverified. Floors, unit total, parking, fees not found. Area given as both Bang Tao and Choeng Thale (same locality, Laguna). | Agent page shows from 13,200,000 (1BR 67 sqm) to 19,190,000 (2BR 100 sqm). Search-snippet portal listings show other figures (about 10.56M and 11.81M for 1BR; 17.89M for 2BR) that were not verified; 10,560,000 appears on the agent page as an instalment figure, i.e. 80% of 13.2M.",
+  "researchNotes": "Relationship: Bellaguna is Banyan Group's residential brand launched January 2026; 'Bellaguna Golf Residences' is the golf-course residence collection (five finger-shaped buildings); Hibiscus appears to be the name of this release/building group within it, though the developer page never defines 'Hibiscus' explicitly (inference). Developer page gives no price, size, floors, unit count or completion. Size max 297 sqm and ~100 units come from search-snippet portal text, unverified. Floors, unit total, parking, fees not found. Area given as both Bang Tao and Choeng Thale (same locality, Laguna). | Agent page shows from 13,200,000 (1BR 67 sqm) to 19,190,000 (2BR 100 sqm). Search-snippet portal listings show other figures (about 10.56M and 11.81M for 1BR; 17.89M for 2BR) that were not verified; 10,560,000 appears on the agent page as an instalment figure, i.e. 80% of 13.2M. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-1.jpg",
   "imageCaptions": [
     "Main pool",
@@ -98,5 +102,8 @@
   "imagesStatus": "available",
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/laguna-property/bellaguna-golf-residences-hibiscus",
-  "developer": "Laguna Property (Banyan Group)"
+  "developer": "Laguna Property (Banyan Group)",
+  "totalUnits": "100",
+  "floors": "5",
+  "completionDate": "Oct 2029 (FazWaz listing)"
 }

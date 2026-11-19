@@ -49,7 +49,7 @@
       "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
-  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (FazWaz); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17.",
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (FazWaz); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "images": [
@@ -83,5 +83,15 @@
     "page": "https://ornsirin.co.th/en/property-item/arise-vibe/",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "totalUnits": "411",
+  "floors": "3 buildings, 7 storeys each",
+  "completionDate": "Nov 2026 (FazWaz listing)",
+  "furniture": "Per FazWaz unit listings: fully furnished, partly furnished",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "bathroomsMin": 1,
+  "bathroomsMax": 2,
+  "builtUpMin": 34,
+  "builtUpMax": 71.41
 }

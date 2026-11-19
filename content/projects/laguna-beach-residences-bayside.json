@@ -66,7 +66,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-bayside"
     }
   ],
-  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between agents; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17.",
+  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between agents; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
   "images": [
@@ -101,5 +101,12 @@
     "page": "https://kellerhenson.com/project/laguna-beach-residences-bayside",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "totalUnits": "234",
+  "floors": "2 buildings, 5 storeys each",
+  "furniture": "Per FazWaz unit listings: partly furnished",
+  "bedroomsMin": 2,
+  "bedroomsMax": 3,
+  "bathroomsMin": 2,
+  "bathroomsMax": 3
 }

@@ -27,5 +27,19 @@
   "priceNote": "Lowest advertised price listed by an agent.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "floors": "2 buildings, 7 storeys each",
+  "sources": [
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz"
+    }
+  ],
+  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: floors. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "bathroomsMin": 1,
+  "bathroomsMax": 2,
+  "builtUpMin": 32,
+  "builtUpMax": 62.9
 }

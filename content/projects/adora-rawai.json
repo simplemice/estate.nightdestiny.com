@@ -155,5 +155,17 @@
   "priceNote": "Lowest advertised price listed by an agent.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "totalUnits": "210",
+  "floors": "8 buildings, 4 storeys each",
+  "furniture": "Per FazWaz unit listings: fully furnished",
+  "sources": [
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-adora-rawai"
+    }
+  ],
+  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "bathroomsMin": 1,
+  "bathroomsMax": 2
 }

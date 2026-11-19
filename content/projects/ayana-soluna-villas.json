@@ -52,7 +52,7 @@
       "url": "https://asterofasia.com/property/thailand/phuket/ayana-soluna-villas"
     }
   ],
-  "researchNotes": "Official pages read 2026-11-17: 62 units, 72 rai, Thalang, 3-5 bedrooms with private pool, Type A 221.1 internal / 129.8 external / 350.9 total sqm. Official site states no price, completion, ownership. A separate site (ayana-luxury-villas.com, T.H. Group) shows 36.0M-64.2M THB and a payment plan, but it is not proven to be this project, so not used. Official site could not be opened by our research tool; facts come from agent listings. Villa count 62 vs 39 and completion Sep 2026 / 2027 / Q1 2028 conflict. Third-party prices (about 26.9M-89M) are vague, so price left on request. AYANA Soluna Villas is separate from AYANA Luxury Villas and AYANA Heights Seaview. Checked 2026-11-17.",
+  "researchNotes": "Official pages read 2026-11-17: 62 units, 72 rai, Thalang, 3-5 bedrooms with private pool, Type A 221.1 internal / 129.8 external / 350.9 total sqm. Official site states no price, completion, ownership. A separate site (ayana-luxury-villas.com, T.H. Group) shows 36.0M-64.2M THB and a payment plan, but it is not proven to be this project, so not used. Official site could not be opened by our research tool; facts come from agent listings. Villa count 62 vs 39 and completion Sep 2026 / 2027 / Q1 2028 conflict. Third-party prices (about 26.9M-89M) are vague, so price left on request. AYANA Soluna Villas is separate from AYANA Luxury Villas and AYANA Heights Seaview. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate, parking. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
   "imagesStatus": "available",
   "totalUnits": 62,
   "cover": "/assets/images/projects/ayana-soluna-villas/photo-1.jpg",
@@ -104,5 +104,11 @@
     "page": "https://ayanaphuket.com/ayana-villa-type-a",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "completionDate": "Sep 2026 (FazWaz listing)",
+  "parking": "Parking ratio 200% of units (FazWaz)",
+  "bathroomsMin": 3,
+  "bathroomsMax": 6,
+  "builtUpMin": 350.9,
+  "builtUpMax": 469
 }

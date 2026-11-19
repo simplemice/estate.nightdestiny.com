@@ -75,5 +75,15 @@
   "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "floors": "3 buildings, 8 storeys each",
+  "completionDate": "Jul 2028 (FazWaz listing)",
+  "furniture": "Per FazWaz unit listings: fully furnished",
+  "sources": [
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-sierra"
+    }
+  ],
+  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer."
 }

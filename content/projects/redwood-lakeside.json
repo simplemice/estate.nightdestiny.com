@@ -79,9 +79,13 @@
     {
       "label": "Papaya Property",
       "url": "https://papayaproperty.com/redwood-luxury/redwood-lakeside"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/redwood-lakeside"
     }
   ],
-  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000",
+  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
   "imageCaptions": [
@@ -89,5 +93,6 @@
     "Project",
     "Project"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "totalUnits": "27"
 }

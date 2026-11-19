@@ -82,9 +82,13 @@
     {
       "label": "FazWaz 3BR listing",
       "url": "https://www.fazwaz.com/property-sales/3-bedroom-villa-for-sale-at-goldena-twin-in-kamala-phuket-u6598336"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/goldena-twin"
     }
   ],
-  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. FazWaz project header: from 10,900,000; Thailand-Property: from 10,999,999; FazWaz single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Agent/portal prices only, not developer-official. | claimed price 11490000",
+  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. FazWaz project header: from 10,900,000; Thailand-Property: from 10,999,999; FazWaz single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Agent/portal prices only, not developer-official. | claimed price 11490000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"
@@ -105,5 +109,6 @@
     "page": "https://thailand-property.com/house/28167/goldena-twin",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "completionDate": "Nov 2024 (FazWaz listing)"
 }

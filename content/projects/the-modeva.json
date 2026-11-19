@@ -87,5 +87,8 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-modeva"
     }
   ],
-  "researchNotes": "Phase 3 (2026-11-19): FazWaz (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (FazWaz), Q4 2027, 03/2027 (other listings): not published. No official site found."
+  "researchNotes": "Phase 3 (2026-11-19): FazWaz (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (FazWaz), Q4 2027, 03/2027 (other listings): not published. No official site found. | Phase 4 (2026-11-19) FazWaz fields filled where empty: furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "furniture": "Per FazWaz unit listings: fully furnished",
+  "bathroomsMin": 1,
+  "bathroomsMax": 3
 }

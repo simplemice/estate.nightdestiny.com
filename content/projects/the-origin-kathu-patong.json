@@ -47,9 +47,13 @@
     {
       "label": "Thailand-Property",
       "url": "https://www.thailand-property.com/ads/1-bedroom-condo-for-sale-in-the-origin-kathu-patong-kathu-phuket_52d498ba3822-9a5f-2c12-2ab0-5fded089"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong"
     }
   ],
-  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17.",
+  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
   "images": [
@@ -94,5 +98,11 @@
     "page": "https://kellerhenson.com/project/the-origin-kathu-patong",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "totalUnits": "617",
+  "floors": "4 buildings, 8 storeys each",
+  "completionDate": "Jun 2026 (FazWaz listing)",
+  "furniture": "Per FazWaz unit listings: fully furnished, unfurnished, partly furnished",
+  "bathroomsMin": 1,
+  "bathroomsMax": 2
 }

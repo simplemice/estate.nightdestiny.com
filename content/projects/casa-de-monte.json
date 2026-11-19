@@ -59,5 +59,21 @@
   "priceNote": "Lowest advertised price listed by an agent.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "totalUnits": "37",
+  "completionDate": "Jul 2029 (FazWaz listing)",
+  "sources": [
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/casa-de-monte"
+    }
+  ],
+  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, completionDate. FazWaz is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "privatePool": "yes",
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 6,
+  "builtUpMin": 267,
+  "builtUpMax": 424
 }

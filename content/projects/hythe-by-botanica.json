@@ -136,9 +136,13 @@
     {
       "label": "Launch press release",
       "url": "https://europeanbusinessmagazine.com/botanica-luxury-villas-rides-phukets-rise-as-global-luxury-property-hub-with-hythe-by-botanica/"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/botanica-hythe"
     }
   ],
-  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Agent listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ.",
+  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Agent listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ. | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
   "imageCaptions": [
     "HYTHE by Botanica",
@@ -155,5 +159,6 @@
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
   "priceType": "Agent advertised price",
-  "priceSourceUrl": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-hythe"
+  "priceSourceUrl": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-hythe",
+  "completionDate": "Dec 2025 (FazWaz listing)"
 }

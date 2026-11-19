@@ -80,9 +80,13 @@
     {
       "label": "Hipflat (403 on fetch, snippet only)",
       "url": "https://www.hipflat.co.th/en/projects/sunrise-valley-9e32thua13e3u8a3nll3lt41hne2812e"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/sunrise-valley"
     }
   ],
-  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000",
+  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
   "imageCaptions": [
@@ -93,5 +97,7 @@
     "Lobby",
     "Project entrance"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "totalUnits": "29",
+  "completionDate": "Dec 2025 (FazWaz listing)"
 }

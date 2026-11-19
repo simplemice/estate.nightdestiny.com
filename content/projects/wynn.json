@@ -109,9 +109,13 @@
     {
       "label": "FazWaz (developer name)",
       "url": "https://www.fazwaz.co.th/en/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket"
     }
   ],
-  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (FazWaz); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, FazWaz 35.9-49.9M) and are not used.",
+  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (FazWaz); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, FazWaz 35.9-49.9M) and are not used. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/wynn/photo-7.jpg",
   "imageCaptions": [
@@ -126,5 +130,6 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "priceType": "Agent advertised price",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-wynn-phuket"
+  "priceSourceUrl": "https://kellerhenson.com/project/the-wynn-phuket",
+  "totalUnits": "9"
 }

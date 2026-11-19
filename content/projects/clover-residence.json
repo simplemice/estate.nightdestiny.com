@@ -97,9 +97,13 @@
     {
       "label": "FazWaz Clover Residence",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence?eq=rent"
+    },
+    {
+      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence"
     }
   ],
-  "researchNotes": "FazWaz size pairs per listing not labelled; assumed built/land (e.g. 352 / 445). Ownership not project-specific (generic FAQ only). Official developer site not found. Image URLs 'project photo' is a brochure page scan. | Differs strongly from claim. FazWaz: 27 units for sale from 27,900,000 (header 27,700,000), range up to 93,880,000; sample listings 29.9M (3BR) to 50M (4BR); a 4BR at 46,000,000 and 36,800,000 exist, no listing at exactly 46.8M seen. Resale/agent listings, not developer-official. | claimed price 46800000",
+  "researchNotes": "FazWaz size pairs per listing not labelled; assumed built/land (e.g. 352 / 445). Ownership not project-specific (generic FAQ only). Official developer site not found. Image URLs 'project photo' is a brochure page scan. | Differs strongly from claim. FazWaz: 27 units for sale from 27,900,000 (header 27,700,000), range up to 93,880,000; sample listings 29.9M (3BR) to 50M (4BR); a 4BR at 46,000,000 and 36,800,000 exist, no listing at exactly 46.8M seen. Resale/agent listings, not developer-official. | claimed price 46800000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
   "imageCaptions": [
@@ -111,5 +115,6 @@
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "ownership": [
     "Leasehold"
-  ]
+  ],
+  "completionDate": "Aug 2024 (FazWaz listing)"
 }
