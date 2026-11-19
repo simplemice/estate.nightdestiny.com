@@ -92,8 +92,7 @@
       "bathrooms": 4,
       "size": "274.1",
       "price": 18900000,
-      "floorPlan": "/assets/images/floorplans/monetaria/plan-9.jpg",
-      "priceType": "Agent advertised price"
+      "floorPlan": "/assets/images/floorplans/monetaria/plan-9.jpg"
     },
     {
       "name": "Type B 4BR Pool Villa",
@@ -101,8 +100,7 @@
       "bathrooms": 5,
       "size": "374.9",
       "price": 25900000,
-      "floorPlan": "/assets/images/floorplans/monetaria/plan-10.jpg",
-      "priceType": "Agent advertised price"
+      "floorPlan": "/assets/images/floorplans/monetaria/plan-10.jpg"
     }
   ],
   "images": [
@@ -149,7 +147,6 @@
     "Swimming pool and glazed living area"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/monetaria-villas",
-  "completionDate": "Apr 2025 (agent listings)"
+  "completionDate": "Apr 2025"
 }

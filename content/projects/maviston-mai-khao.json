@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-17",
   "developer": "Mai Khao Golden Beach",
   "shortDescription": "A condominium in Mai Khao with one to three bedroom units, developed by Mai Khao Golden Beach.",
-  "description": "Maviston Mai Khao is a condominium in Mai Khao, on Phuket's northwest coast, with one to three bedroom units according to agent listings. Agents name Mai Khao Golden Beach as the developer.\n\nIt is a condominium, not a villa project. Completion is quoted anywhere between 2026 and Q4 2027, so ask us for the current construction status. Some agents advertise rental guarantees of 6 or 7%; we have not verified any of them and do not repeat them as an offer.\n\nPrices start from roughly 9 million baht in agent listings. Message us on WhatsApp for the price list.",
+  "description": "Maviston Mai Khao is a condominium in Mai Khao, on Phuket's northwest coast, with one to three bedroom units according to listings. Sources name Mai Khao Golden Beach as the developer.\n\nIt is a condominium, not a villa project. Completion is quoted anywhere between 2026 and Q4 2027, so ask us for the current construction status. Some sources advertise rental guarantees of 6 or 7%; we have not verified any of them and do not repeat them as an offer.\n\nPrices start from roughly 9 million baht in listings. Message us on WhatsApp for the price list.",
   "cardDescription": "A condominium in Mai Khao with one to three bedroom units, developed by Mai Khao Golden Beach.",
   "seoTitle": "Maviston Mai Khao, 1 to 3 Bedroom Condos in Mai Khao, Phuket",
   "seoDescription": "Maviston Mai Khao: one to three bedroom condominium units in Mai Khao, Phuket, by Mai Khao Golden Beach. Prices from about 9M THB; enquire on WhatsApp.",
@@ -22,7 +22,6 @@
   "startingPrice": 8970000,
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price (Keller Henson). Another page lists 9.3 million.",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/maviston-mai-khao",
   "lastVerified": "2026-11-17",
   "bedroomsMin": 1,
@@ -56,7 +55,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao"
     }
   ],
-  "researchNotes": "It is a condominium (brief did not state type). Developer name from agent listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "images": [
@@ -96,7 +95,7 @@
   ],
   "imageSources": {
     "page": "https://kellerhenson.com/project/maviston-mai-khao",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "totalUnits": "66",

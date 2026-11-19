@@ -37,7 +37,7 @@
     "Visitor management system",
     "Community garden",
     "Children's playground",
-    "Centralised hot water (agent)"
+    "Centralised hot water"
   ],
   "nearby": [
     {
@@ -103,7 +103,7 @@
       "url": "https://www.sansiri.com/singlehouse/thetales-bangjo-phuket/en"
     },
     {
-      "label": "Agent listing",
+      "label": "Listing",
       "url": "https://papayaproperty.com/sansiri/the-tales-story-one-bangjo-phuket"
     },
     {
@@ -115,7 +115,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/the-tales-story-one-bangjo-phuket"
     }
   ],
-  "researchNotes": "Developer Sansiri confirmed. 'The Tales' is Sansiri's single-house brand/collection; 'Story One' is the first project of it, located in Bang Jo (a named project rather than a phase of a shared site). Sansiri's built-up sizes are inconsistent (329-532 vs plan titles 317-413); used plan areas 329/353/401. Agent lists Leasehold; Sansiri page does not state tenure, verify. Chapter Three price and completion date not confirmed. | Agent page shows 45,000,000 (329 sqm) and 47,900,000 (353 sqm); a search snippet cited up to 57M, unverified. Sansiri page itself says only 'starting at 45 mb*' (unexplained). | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Developer Sansiri confirmed. 'The Tales' is Sansiri's single-house brand/collection; 'Story One' is the first project of it, located in Bang Jo (a named project rather than a phase of a shared site). Sansiri's built-up sizes are inconsistent (329-532 vs plan titles 317-413); used plan areas 329/353/401. Source lists Leasehold; Sansiri page does not state tenure, verify. Chapter Three price and completion date not confirmed. | One page shows 45,000,000 (329 sqm) and 47,900,000 (353 sqm); a search snippet cited up to 57M, unverified. Sansiri page itself says only 'starting at 45 mb*' (unexplained). | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/the-tales-story-one-bangjo/photo-1.jpg",
   "imageCaptions": [
     "Villa gallery image",
@@ -129,7 +129,6 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/sansiri/the-tales-story-one-bangjo-phuket",
-  "completionDate": "Jan 2026 (agent listings)"
+  "completionDate": "Jan 2026"
 }

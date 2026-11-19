@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-17",
   "developer": "VIP Property Development Co., Ltd.",
   "shortDescription": "Villas in Rawai by VIP Property Development, about 0.9 km from Rawai Beach.",
-  "description": "VIP Galaxy Villas is a villa development in Rawai on Phuket's south coast by VIP Property Development Co., Ltd. (VIP Thailand Group), which also builds VIP Tropika and other Phuket projects. Agent listings put Rawai Beach about 0.9 km away.\n\nListings show 3 bedroom villas of roughly 290 to 340 sqm built-up. Agents report different unit counts and a completion around December 2026, so confirm both with us; some listings mix this project with VIP Galaxy Rawai Villas.\n\nStarting prices are about 22.3 million baht in agent listings. A rental programme mentioned by one portal is not a guarantee and is not offered by us. Message us on WhatsApp for the price list.",
+  "description": "VIP Galaxy Villas is a villa development in Rawai on Phuket's south coast by VIP Property Development Co., Ltd. (VIP Thailand Group), which also builds VIP Tropika and other Phuket projects. Listings put Rawai Beach about 0.9 km away.\n\nListings show 3 bedroom villas of roughly 290 to 340 sqm built-up. Sources report different unit counts and a completion around December 2026, so confirm both with us; some listings mix this project with VIP Galaxy Rawai Villas.\n\nStarting prices are about 22.3 million baht in listings. A rental programme mentioned by one portal is not a guarantee and is not offered by us. Message us on WhatsApp for the price list.",
   "cardDescription": "Villas in Rawai by VIP Property Development, about 0.9 km from Rawai Beach.",
   "seoTitle": "VIP Galaxy Villas, Villas for Sale in Rawai, Phuket",
   "seoDescription": "VIP Galaxy Villas by VIP Thailand Group: villas in Rawai, Phuket, about 0.9 km from Rawai Beach, from around 22 million THB. Enquire on WhatsApp.",
@@ -22,7 +22,6 @@
   "startingPrice": 22327200,
   "priceStatus": "advertised",
   "priceNote": "Starting price from two property portals (including Thailand-Property), in line with Keller Henson (about 22.33 million).",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas",
   "lastVerified": "2026-11-17",
   "constructionStatus": "Status on request",
@@ -52,7 +51,7 @@
       "url": "https://www.hipflat.com/projects/vip-galaxy-villas-iqmnau"
     }
   ],
-  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several agent sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several source sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
   "images": [
@@ -105,10 +104,10 @@
   ],
   "imageSources": {
     "page": "https://kellerhenson.com/project/vip-galaxy-rawai-villas",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "totalUnits": "114",
-  "completionDate": "Dec 2026 (agent listings)",
+  "completionDate": "Dec 2026",
   "parking": "Parking ratio 100% of units"
 }

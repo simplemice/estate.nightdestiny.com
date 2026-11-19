@@ -959,7 +959,7 @@ function projectPage(p) {
   ];
   const faqBlock = `<h2 class="sec-h sec-sub">${T('faq.h')}</h2><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
   const priceBlock = f.price
-    ? `<div class="ds-price"><small>${T('starting_from')}</small><br>${money(f.price, cur)}${usd(f.price, cur, true)}</div><p class="ds-note" data-usd-note>${p.priceNote ? esc(fld(p, 'priceNote')) + ' ' : ''}${p.priceType ? esc(T('price_type_start', { x: tx(p.priceType, 'priceType') })) : T('adv_start')}${verified ? T('price_checked', { date: verified }) : ''}. ${T('confirm_avail')}</p>`
+    ? `<div class="ds-price"><small>${T('starting_from')}</small><br>${money(f.price, cur)}${usd(f.price, cur, true)}</div><p class="ds-note" data-usd-note>${p.priceNote ? esc(fld(p, 'priceNote')) + ' ' : ''}${p.priceType ? esc(T('price_type_start', { x: tx(p.priceType, 'priceType') })) : T('adv_start')}${(verified ? T('price_checked', { date: verified }) : '').replace(/\.$/, '')}. ${T('confirm_avail')}</p>`
     : `<div class="ds-price"><small>${T('price_on_request')}</small></div><p class="ds-note">${T('no_public_price')}</p>`;
   // WebPage + main entity. No datePosted / offers: the page is not a dated listing and the starting price is an advertised "from" figure, not an offer on a specific unit.
   const pageUrl = SITE + url(p);

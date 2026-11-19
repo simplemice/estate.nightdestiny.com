@@ -74,16 +74,14 @@
       "bedrooms": 3,
       "bathrooms": 4,
       "size": "435",
-      "price": 29890000,
-      "priceType": "Agent advertised price"
+      "price": 29890000
     },
     {
       "name": "3BR Pool Villa (Large Plot)",
       "bedrooms": 3,
       "bathrooms": 4,
       "size": "435",
-      "price": 39850000,
-      "priceType": "Agent advertised price"
+      "price": 39850000
     }
   ],
   "images": [
@@ -129,7 +127,6 @@
     "Living area opening to the garden"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-wynn-phuket",
   "totalUnits": "9"
 }

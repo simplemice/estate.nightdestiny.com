@@ -26,8 +26,7 @@
       "size": "26-44",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 5108000,
-      "priceType": "Agent advertised price"
+      "price": 5108000
     },
     {
       "name": "1 Bedroom Plus",
@@ -40,16 +39,14 @@
       "size": "64-68",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 9380000,
-      "priceType": "Agent advertised price"
+      "price": 9380000
     },
     {
       "name": "2 Bedroom Plus",
       "size": "98-107",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 15846408,
-      "priceType": "Agent advertised price"
+      "price": 15846408
     },
     {
       "name": "2 Bedroom Penthouse",
@@ -97,15 +94,14 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 5108000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-coralina",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent.",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
   "floors": "8 buildings, 7 storeys each",
-  "completionDate": "Nov 2027 (agent listings)",
+  "completionDate": "Nov 2027",
   "furniture": "Fully furnished",
   "sources": [
     {

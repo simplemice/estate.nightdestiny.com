@@ -118,7 +118,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-lake-residences-aster"
     }
   ],
-  "researchNotes": "Relationship: Banyan's official URL slug is 'laguna-lakeside-residences' and Keller Henson calls it 'Laguna Lakeside Residences 2'; a July 2025 Banyan release (search summary) calls Aster an extension of the sell-out Laguna Lakeside Residences. It is a separate, newer building, not the earlier Lakeside phase. 'Laguna Lakelands' is a different Banyan listing; no link to Aster found. Official page gives no units, price, completion or ownership; those come from agents and conflict (completion Q3 2026 vs Q4 2027; floors 7 vs 8; prices differ). Brochure PDFs exist (r2.dev, Jul/Dec 2025) but exceeded fetch size, not read. Distances unspecified mode; Banyan nearby labels have no distances. | Papaya: 1BR 11.63M, 2BR 16.81M, 3BR 33.18M (1st-floor units). Keller Henson: 1BR 12.0M, 2BR 18.7M, 3BR 29.1M (FAQ 11.99M-27.67M). Sources differ; lowest from Papaya (read today) used. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Relationship: Banyan's official URL slug is 'laguna-lakeside-residences' and Keller Henson calls it 'Laguna Lakeside Residences 2'; a July 2025 Banyan release (search summary) calls Aster an extension of the sell-out Laguna Lakeside Residences. It is a separate, newer building, not the earlier Lakeside phase. 'Laguna Lakelands' is a different Banyan listing; no link to Aster found. Official page gives no units, price, completion or ownership; those come from sources and conflict (completion Q3 2026 vs Q4 2027; floors 7 vs 8; prices differ). Brochure PDFs exist (r2.dev, Jul/Dec 2025) but exceeded fetch size, not read. Distances unspecified mode; Banyan nearby labels have no distances. | Papaya: 1BR 11.63M, 2BR 16.81M, 3BR 33.18M (1st-floor units). Keller Henson: 1BR 12.0M, 2BR 18.7M, 3BR 29.1M (FAQ 11.99M-27.67M). Sources differ; lowest from Papaya (read today) used. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
   "imageCaptions": [
     "Rooftop pool",
@@ -133,8 +133,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/laguna-property/laguna-lake-residences-aster",
   "floors": "4 buildings, 7 storeys each",
-  "completionDate": "Apr 2028 (agent listings)"
+  "completionDate": "Apr 2028"
 }

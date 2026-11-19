@@ -25,16 +25,14 @@
       "size": "29-43",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 4500000,
-      "priceType": "Agent advertised price"
+      "price": 4500000
     },
     {
       "name": "1 Bedroom Plus",
       "size": "55-58",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 8500000,
-      "priceType": "Agent advertised price"
+      "price": 8500000
     },
     {
       "name": "2 Bedroom",
@@ -47,8 +45,7 @@
       "size": "93-105",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 14000000,
-      "priceType": "Agent advertised price"
+      "price": 14000000
     },
     {
       "name": "2 Bedroom Duplex",
@@ -68,10 +65,9 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 4466000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-modeva",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceNote": "Lowest advertised price, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
   ],

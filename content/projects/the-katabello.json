@@ -54,8 +54,7 @@
       "name": "2B",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 7700000,
-      "priceType": "Agent advertised price"
+      "price": 7700000
     }
   ],
   "featured": false,
@@ -63,16 +62,15 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 3200000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/katabello",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceNote": "Lowest advertised price, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
   ],
   "totalUnits": "760",
   "floors": "8 buildings, 8 storeys each",
-  "completionDate": "Jun 2027 (agent listings)",
+  "completionDate": "Jun 2027",
   "furniture": "Varies by unit: unfurnished, partly furnished",
   "sources": [
     {

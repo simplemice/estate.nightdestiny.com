@@ -80,11 +80,11 @@
   "imageCredit": "Photos from the Thailand-Property project page for Azalea Bangtao Villas. Layouts and finishes may differ from the final product.",
   "imageSources": {
     "page": "https://www.thailand-property.com/house/48645/azalea-bangtao-villas",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "totalUnits": "7",
-  "completionDate": "Nov 2025 (agent listings)",
+  "completionDate": "Nov 2025",
   "bedroomsMin": 3,
   "bedroomsMax": 5,
   "bathroomsMin": 4,

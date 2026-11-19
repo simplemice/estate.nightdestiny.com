@@ -92,7 +92,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-base-cherngtalay"
     }
   ],
-  "researchNotes": "Developer Sansiri confirmed by agent page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the agent's URL slug). Distances are travel times from the agent page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Developer Sansiri confirmed by source page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the source's URL slug). Distances are travel times from the source page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
   "imageCaptions": [
     "The Base Cherngtalay gallery 1",
@@ -108,7 +108,6 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/sansiri/the-base-cherngtalay-1",
-  "completionDate": "Jun 2026 (agent listings)"
+  "completionDate": "Jun 2026"
 }

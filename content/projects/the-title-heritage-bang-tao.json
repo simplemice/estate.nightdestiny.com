@@ -39,8 +39,7 @@
       "size": "36-42",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 5300000,
-      "priceType": "Agent advertised price"
+      "price": 5300000
     },
     {
       "name": "1 Bedroom M",
@@ -53,32 +52,28 @@
       "size": "49-57",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 9300000,
-      "priceType": "Agent advertised price"
+      "price": 9300000
     },
     {
       "name": "1 Bedroom Plus",
       "size": "56-64",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 9000000,
-      "priceType": "Agent advertised price"
+      "price": 9000000
     },
     {
       "name": "2 Bedroom",
       "size": "66-106",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 10700000,
-      "priceType": "Agent advertised price"
+      "price": 10700000
     },
     {
       "name": "3 Bedroom",
       "size": "122-132",
       "bedrooms": 3,
       "availability": "Available",
-      "price": 19900000,
-      "priceType": "Agent advertised price"
+      "price": 19900000
     },
     {
       "name": "Super Luxury",
@@ -89,15 +84,13 @@
       "name": "Ultra Luxury",
       "size": "145",
       "availability": "Available",
-      "price": 25800000,
-      "priceType": "Agent advertised price"
+      "price": 25800000
     },
     {
       "name": "Ultimate Luxury",
       "size": "174",
       "availability": "Available",
-      "price": 29800000,
-      "priceType": "Agent advertised price"
+      "price": 29800000
     }
   ],
   "featured": false,
@@ -105,16 +98,15 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 5360000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-heritage-bangtao/",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16.",
+  "priceNote": "Lowest advertised price, source page updated 2026-08-16.",
   "ownership": [
     "Freehold"
   ],
   "totalUnits": "789",
   "floors": "10 buildings, 7 storeys each",
-  "completionDate": "Jan 2026 (agent listings)",
+  "completionDate": "Jan 2026",
   "furniture": "Varies by unit: partly furnished, fully furnished, unfurnished",
   "sources": [
     {

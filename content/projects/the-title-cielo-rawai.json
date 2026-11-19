@@ -20,22 +20,19 @@
       "size": 41,
       "bedrooms": 1,
       "availability": "Available",
-      "price": 5000000,
-      "priceType": "Agent advertised price"
+      "price": 5000000
     },
     {
       "name": "1 Bedroom Plus M",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 6700000,
-      "priceType": "Agent advertised price"
+      "price": 6700000
     },
     {
       "name": "2 Bedroom L",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 10300000,
-      "priceType": "Agent advertised price"
+      "price": 10300000
     }
   ],
   "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
@@ -60,16 +57,15 @@
   "developer": "Rhom Bho Property PLC (The Title)",
   "startingPrice": 3875000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-cielo-rawai",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceNote": "Lowest advertised price, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
   ],
   "totalUnits": "171",
   "floors": "4 buildings, 5 storeys each",
-  "completionDate": "Sep 2026 (agent listings)",
+  "completionDate": "Sep 2026",
   "furniture": "Varies by unit: fully furnished, partly furnished",
   "sources": [
     {

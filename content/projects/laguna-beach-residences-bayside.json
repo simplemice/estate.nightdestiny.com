@@ -9,10 +9,10 @@
   "publishedAt": "2026-11-17",
   "developer": "Banyan Group (Laguna Property)",
   "shortDescription": "Beachside condominium apartments from about 73 sqm up to large penthouses, part of Banyan Group's Laguna Phuket master plan at Bang Tao.",
-  "description": "Laguna Beach Residences Bayside is a low-rise condominium within the Laguna Phuket master plan at Bang Tao, a development of the Banyan Group. Agent listings describe apartments from about 73 sqm up to penthouses of roughly 359 sqm.\n\nAgent sources disagree on the exact number of units (234 to 237) and on the completion date (between Q2 and Q4 2028), so we show only the year. A payment plan of five 20% steps tied to signing, construction progress and completion appears in one agent listing; confirm it with us before relying on it.\n\nPrices differ between agents. The starting price shown is the lowest we found; ask us on WhatsApp for the current price list.",
+  "description": "Laguna Beach Residences Bayside is a low-rise condominium within the Laguna Phuket master plan at Bang Tao, a development of the Banyan Group. Listings describe apartments from about 73 sqm up to penthouses of roughly 359 sqm.\n\nSources disagree on the exact number of units (234 to 237) and on the completion date (between Q2 and Q4 2028), so we show only the year. A payment plan of five 20% steps tied to signing, construction progress and completion appears in one listing; confirm it with us before relying on it.\n\nPrices differ between sources. The starting price shown is the lowest we found; ask us on WhatsApp for the current price list.",
   "cardDescription": "Beachside condominium apartments from about 73 sqm up to large penthouses, part of Banyan Group's Laguna Phuket master plan at Bang Tao.",
   "seoTitle": "Laguna Beach Residences Bayside, Bang Tao Condos",
-  "seoDescription": "Beachside condominium apartments and penthouses at Laguna Beach Residences Bayside, Laguna Phuket. Agent sizes from about 73 sqm; ask on WhatsApp.",
+  "seoDescription": "Beachside condominium apartments and penthouses at Laguna Beach Residences Bayside, Laguna Phuket. Sizes from about 73 sqm; ask on WhatsApp.",
   "primaryKeyword": "Laguna Beach Residences Bayside",
   "secondaryKeywords": [
     "Laguna Bayside condo Bang Tao",
@@ -21,14 +21,13 @@
   ],
   "startingPrice": 22340000,
   "priceStatus": "advertised",
-  "priceNote": "Lowest advertised price (2-bedroom, Keller Henson). Other agents list higher starting prices, up to about 33 million.",
-  "priceType": "Agent advertised price",
+  "priceNote": "Lowest advertised price (2-bedroom, Keller Henson). Other sources list higher starting prices, up to about 33 million.",
   "priceSourceUrl": "https://kellerhenson.com/unit/laguna-beach-residences-bayside-2br",
   "lastVerified": "2026-11-17",
   "builtUpMin": 73,
   "builtUpMax": 359,
   "constructionStatus": "Under construction",
-  "completionDate": "2028 (agent listings differ: Q2, Q4, October)",
+  "completionDate": "2028 (exact quarter not confirmed)",
   "paymentPlan": [
     "20% at contract signing",
     "20% at 25% construction progress",
@@ -66,7 +65,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-bayside"
     }
   ],
-  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between agents; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
+  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between sources; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
   "images": [
@@ -99,7 +98,7 @@
   ],
   "imageSources": {
     "page": "https://kellerhenson.com/project/laguna-beach-residences-bayside",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "totalUnits": "234",

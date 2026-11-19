@@ -30,7 +30,7 @@
   ],
   "constructionStatus": "Under construction",
   "paymentPlan": [
-    "Agent listing shows 35% payable over 1 year, remainder on completion (unit-level terms to be confirmed with the developer)",
+    "Listing shows 35% payable over 1 year, remainder on completion (unit-level terms to be confirmed with the developer)",
     "For reference only, Phase 1 Eden Residences schedule: THB 100,000 reservation, 35% on contract, 15% building permit, 10% foundation, 15% structure, 15% interior finishing, 10% on transfer"
   ],
   "facilities": [
@@ -122,7 +122,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/gardens-of-eden-park-residence"
     }
   ],
-  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/agents; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per agent; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/sources; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per source; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
   "imageCaptions": [
     "Park Residences pool view render",
@@ -136,7 +136,6 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/amal-group/gardens-of-eden-park-residences",
   "furniture": "Unfurnished"
 }

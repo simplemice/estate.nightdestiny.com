@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-12",
   "developer": "The Attitude Club Co., Ltd.",
   "shortDescription": "A boutique collection of eight single-storey four-bedroom pool villas in Thalang, northern Phuket, developed by The Attitude Club.",
-  "description": "A boutique collection of eight single-storey four-bedroom pool villas in Thalang, northern Phuket, developed by The Attitude Club. Each villa has its own saltwater pool, smart-home features and ensuite bedrooms, with about 460-477 sqm of built area. Non-Thai buyers acquire via a 30-year renewable lease, per the agent.",
+  "description": "A boutique collection of eight single-storey four-bedroom pool villas in Thalang, northern Phuket, developed by The Attitude Club. Each villa has its own saltwater pool, smart-home features and ensuite bedrooms, with about 460-477 sqm of built area. Non-Thai buyers acquire via a 30-year renewable lease, per the source.",
   "startingPrice": 36900000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-12",
@@ -120,11 +120,11 @@
   "floorPlans": [],
   "sources": [
     {
-      "label": "Keller Henson (agent) Mount Mono",
+      "label": "Keller Henson Mount Mono",
       "url": "https://kellerhenson.com/project/mount-mono"
     }
   ],
-  "researchNotes": "Captions inferred from filenames; render vs photo unknown. Sources conflict on completion, bathrooms (4 vs 5), area name, ownership. Land plot sizes 649-991 sqm appear only in a search snippet (not verified on a fetched page). Official developer site not found. | Matches claim per Keller Henson (authorized agent): 4BR Type A 36.9M, Large Plot 44.9M. Another listing showed a 3BR at 33.5M, so unit mix/prices vary by source. | claimed price 36900000",
+  "researchNotes": "Captions inferred from filenames; render vs photo unknown. Sources conflict on completion, bathrooms (4 vs 5), area name, ownership. Land plot sizes 649-991 sqm appear only in a search snippet (not verified on a fetched page). Official developer site not found. | Matches claim per Keller Henson (authorized source): 4BR Type A 36.9M, Large Plot 44.9M. Another listing showed a 3BR at 33.5M, so unit mix/prices vary by source. | claimed price 36900000",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mount-mono/photo-6.jpg",
   "imageCaptions": [

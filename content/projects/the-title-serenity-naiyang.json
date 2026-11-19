@@ -25,64 +25,55 @@
       "name": "1BR Type S",
       "bedrooms": 1,
       "size": "26",
-      "price": 2900000,
-      "priceType": "Agent advertised price"
+      "price": 2900000
     },
     {
       "name": "1BR Type L",
       "bedrooms": 1,
       "size": "37",
-      "price": 4100000,
-      "priceType": "Agent advertised price"
+      "price": 4100000
     },
     {
       "name": "1BR Pool Access",
       "bedrooms": 1,
       "size": "33",
-      "price": 4200000,
-      "priceType": "Agent advertised price"
+      "price": 4200000
     },
     {
       "name": "Pool Access Studio",
       "bedrooms": 1,
       "size": "28",
-      "price": 3600000,
-      "priceType": "Agent advertised price"
+      "price": 3600000
     },
     {
       "name": "2BR",
       "bedrooms": 2,
       "size": "61",
-      "price": 7400000,
-      "priceType": "Agent advertised price"
+      "price": 7400000
     },
     {
       "name": "2BR Type S",
       "bedrooms": 2,
       "size": "57",
-      "price": 7200000,
-      "priceType": "Agent advertised price"
+      "price": 7200000
     },
     {
       "name": "2BR Pool Access",
       "bedrooms": 2,
       "size": "63",
-      "price": 8600000,
-      "priceType": "Agent advertised price"
+      "price": 8600000
     },
     {
       "name": "3BR Type L",
       "bedrooms": 3,
       "size": "119",
-      "price": 14300000,
-      "priceType": "Agent advertised price"
+      "price": 14300000
     },
     {
       "name": "3BR Pool Access",
       "bedrooms": 3,
       "size": "123",
-      "price": 16600000,
-      "priceType": "Agent advertised price"
+      "price": 16600000
     }
   ],
   "featured": false,
@@ -90,15 +81,14 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 2900000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-serenity-naiyang-phuket",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-07-20.",
+  "priceNote": "Lowest advertised price, source page updated 2026-07-20.",
   "ownership": [
     "Freehold"
   ],
   "floors": "7 buildings, 6 storeys each",
-  "completionDate": "Dec 2026 (agent listings)",
+  "completionDate": "Dec 2026",
   "furniture": "Varies by unit: partly furnished, fully furnished",
   "sources": [
     {

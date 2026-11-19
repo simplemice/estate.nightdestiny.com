@@ -114,8 +114,7 @@
       "size": 81,
       "bedrooms": 2,
       "availability": "Available",
-      "price": 10586000,
-      "priceType": "Agent advertised price"
+      "price": 10586000
     },
     {
       "name": "2BLA",
@@ -149,10 +148,9 @@
   "developer": "Rhom Bho Property PLC (The Title)",
   "startingPrice": 5698000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-adora-rawai",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent.",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],

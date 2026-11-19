@@ -102,7 +102,7 @@ const PATTERNS = [
   [/^(.+?) gallery (\d+)$/, (m) => `${m[1]}, фото ${m[2]}`],
   [/^Brochure page (\d+)(?: \(unverified content; may include text\))?$/, (m) => `Страница брошюры ${m[1]}${/unverified/.test(m.input) ? ' (содержание не проверено, возможен текст)' : ''}`],
   [/^Exterior (\d+)$/, (m) => `Фасад ${m[1]}`],
-  [/^([A-Z][a-z]{2}) (\d{4}) \(agent listings\)$/, (m) => `${MONTHS[m[1]] || m[1]} ${m[2]} (по объявлениям агентов)`],
+  [/^([A-Z][a-z]{2}) (\d{4})$/, (m) => `${MONTHS[m[1]] || m[1]} ${m[2]}`],
   [/^Parking ratio (\d+)% of units$/, (m) => `Парковка: ${m[1]}% от числа юнитов`],
   [/^Varies by unit: (.+)$/, (m) => `Зависит от юнита: ${m[1].split(', ').map((x) => FURN[x] || x).join(', ')}`],
   [/^(\d+) buildings, (\d+) storeys each$/, (m) => `${m[1]} ${ruPl(+m[1], ['корпус', 'корпуса', 'корпусов'])} по ${m[2]} ${ruPl(+m[2], ['этаж', 'этажа', 'этажей'])}`],
@@ -114,7 +114,7 @@ const QUARTER = /^Q([1-4]) (\d{4})(.*)$/;
 function ruQuarter(s) {
   const m = s.match(QUARTER);
   if (!m) return null;
-  return `${m[1]} кв. ${m[2]}${m[3].replace('(advertised, not confirmed by developer)', '(по рекламным данным, застройщиком не подтверждено)').replace('(agent listings)', '(по объявлениям агентов)')}`;
+  return `${m[1]} кв. ${m[2]}${m[3].replace('(advertised, not confirmed by developer)', '(по рекламным данным, застройщиком не подтверждено)')}`;
 }
 
 /* ---------- loader ---------- */

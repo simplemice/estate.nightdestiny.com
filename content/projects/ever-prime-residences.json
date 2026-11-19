@@ -8,7 +8,7 @@
   "featured": false,
   "publishedAt": "2026-11-17",
   "shortDescription": "A large condominium near Karon Beach with units from about 51 to 179 sqm.",
-  "description": "Ever Prime Residences is a condominium project in Karon, near Karon Beach on Phuket's west coast. Agent listings describe units from about 51 sqm one-bedroom layouts up to roughly 179 sqm four-bedroom homes.\n\nForeign buyers can hold units as freehold within the 49% foreign quota. Sources differ on the developer (Able Land Co., Ltd. or Phuket Plus) and on completion (Q2 2027 or March 2028), so we show neither until confirmed.\n\nThe starting price shown is the lowest we found. Message us on WhatsApp for the current price list.",
+  "description": "Ever Prime Residences is a condominium project in Karon, near Karon Beach on Phuket's west coast. Listings describe units from about 51 sqm one-bedroom layouts up to roughly 179 sqm four-bedroom homes.\n\nForeign buyers can hold units as freehold within the 49% foreign quota. Sources differ on the developer (Able Land Co., Ltd. or Phuket Plus) and on completion (Q2 2027 or March 2028), so we show neither until confirmed.\n\nThe starting price shown is the lowest we found. Message us on WhatsApp for the current price list.",
   "cardDescription": "A large condominium near Karon Beach with units from about 51 to 179 sqm.",
   "seoTitle": "Ever Prime Residences, Karon Condominium near Karon Beach",
   "seoDescription": "Ever Prime Residences: a Karon condominium near Karon Beach with units from about 51 to 179 sqm and freehold for foreign buyers. Enquire on WhatsApp.",
@@ -21,7 +21,6 @@
   "startingPrice": 6200000,
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price (Keller Henson, rounded). Other listings show higher unit prices.",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/ever-prime-residences",
   "lastVerified": "2026-11-17",
   "builtUpMin": 51,
@@ -60,7 +59,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon"
     }
   ],
-  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one agent only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
+  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one source only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
   "images": [
@@ -109,7 +108,7 @@
   ],
   "imageSources": {
     "page": "https://www.everprimecondo.com/",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "totalUnits": "499",

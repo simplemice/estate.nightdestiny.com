@@ -32,24 +32,21 @@
       "size": "40-44",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 7400000,
-      "priceType": "Agent advertised price"
+      "price": 7400000
     },
     {
       "name": "1 Bedroom Max",
       "size": "44-49",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 7200000,
-      "priceType": "Agent advertised price"
+      "price": 7200000
     },
     {
       "name": "1 Bedroom Legend",
       "size": "51-60",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 7300000,
-      "priceType": "Agent advertised price"
+      "price": 7300000
     },
     {
       "name": "1 Bedroom Plus",
@@ -87,15 +84,14 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 7200000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-legendary-bangtao",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16.",
+  "priceNote": "Lowest advertised price, source page updated 2026-08-16.",
   "ownership": [
     "Freehold"
   ],
   "floors": "9 buildings, 7 storeys each",
-  "completionDate": "Jan 2025 (agent listings)",
+  "completionDate": "Jan 2025",
   "furniture": "Varies by unit: fully furnished, partly furnished, unfurnished",
   "sources": [
     {

@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-17",
   "developer": "AAG Development",
   "shortDescription": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
-  "description": "Naturale Kamala is a boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, built by AAG Development. Agent listings show 3 to 5 bedroom villas, each with a private pool.\n\nIt is a different project from Naturale Cherng Talay, which AAG is building in Bang Tao. Completion is quoted as Q2 2028, and a developer price list from October 2026 notes that two of the 14 villas had already sold.\n\nPrices start from about 58.5 million baht in agent listings and rise sharply for the largest villas. Ask us on WhatsApp for the current price list and what remains.",
+  "description": "Naturale Kamala is a boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, built by AAG Development. Listings show 3 to 5 bedroom villas, each with a private pool.\n\nIt is a different project from Naturale Cherng Talay, which AAG is building in Bang Tao. Completion is quoted as Q2 2028, and a developer price list from October 2026 notes that two of the 14 villas had already sold.\n\nPrices start from about 58.5 million baht in listings and rise sharply for the largest villas. Ask us on WhatsApp for the current price list and what remains.",
   "cardDescription": "A boutique community of 14 private pool villas on Layi-Nakha Lay Road in Kamala, by AAG Development.",
   "seoTitle": "Naturale Kamala, Private Pool Villas in Kamala, Phuket",
   "seoDescription": "Naturale Kamala by AAG Development: a community of 14 private pool villas with 3 to 5 bedrooms in Kamala, Phuket. Enquire on WhatsApp for the price list.",
@@ -21,8 +21,7 @@
   ],
   "startingPrice": 58500000,
   "priceStatus": "advertised",
-  "priceNote": "Starting price listed by Papaya Property and Asterofasia; another agent lists a 5-bedroom villa at 179 million.",
-  "priceType": "Agent advertised price",
+  "priceNote": "Starting price listed by Papaya Property and Asterofasia; another source lists a 5-bedroom villa at 179 million.",
   "priceSourceUrl": "https://papayaproperty.com/aag-development/naturale-kamala",
   "lastVerified": "2026-11-17",
   "bedroomsMin": 3,
@@ -30,7 +29,7 @@
   "totalUnits": 14,
   "privatePool": "yes",
   "constructionStatus": "Status on request",
-  "completionDate": "Q2 2028 (agent listings)",
+  "completionDate": "Q2 2028",
   "facilities": [
     "Private pool"
   ],
@@ -80,7 +79,7 @@
   "imageCredit": "Images from Keller Henson developer marketing materials. Layouts and finishes may differ from the final product.",
   "imageSources": {
     "page": "https://kellerhenson.com/project/naturale-kamala",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
   "bathroomsMin": 3,

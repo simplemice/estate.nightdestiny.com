@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-17",
   "developer": "T.H. Group Phuket Co., Ltd.",
   "shortDescription": "Private pool villas with 3 to 5 bedrooms on a large lakeside plot in Thalang, by T.H. Group Phuket, the developer of AYANA Heights Seaview Residence.",
-  "description": "AYANA SOLUNA VILLAS is a private pool villa development in the Si Sunthon area of Thalang, built by T.H. Group Phuket Co., Ltd. Agent listings describe a large green site of around 72 rai by a lake and surrounded by hills, with 3 to 5 bedroom villas that each have a private pool.\n\nThe same developer is behind AYANA Heights Seaview Residence and Kora Beach Resort Phuket. The official project reference is ayanaphuket.com/ayana-villas.\n\nThe official project page lists 62 villas on about 72 rai in Thalang. Type A is a garden-view villa of 221.1 sqm internal plus 129.8 sqm external space (350.9 sqm total) with a 10 m x 3.5 m pool. Completion dates differ between sources, so we show none. Prices are on request: message us on WhatsApp for the current price list.",
+  "description": "AYANA SOLUNA VILLAS is a private pool villa development in the Si Sunthon area of Thalang, built by T.H. Group Phuket Co., Ltd. Listings describe a large green site of around 72 rai by a lake and surrounded by hills, with 3 to 5 bedroom villas that each have a private pool.\n\nThe same developer is behind AYANA Heights Seaview Residence and Kora Beach Resort Phuket. The official project reference is ayanaphuket.com/ayana-villas.\n\nThe official project page lists 62 villas on about 72 rai in Thalang. Type A is a garden-view villa of 221.1 sqm internal plus 129.8 sqm external space (350.9 sqm total) with a 10 m x 3.5 m pool. Completion dates differ between sources, so we show none. Prices are on request: message us on WhatsApp for the current price list.",
   "cardDescription": "Private pool villas with 3 to 5 bedrooms on a large lakeside plot in Thalang, by T.H. Group Phuket, the developer of AYANA Heights Seaview Residence.",
   "seoTitle": "AYANA SOLUNA VILLAS, Pool Villas in Thalang, Phuket",
   "seoDescription": "3 to 5 bedroom private pool villas at AYANA SOLUNA VILLAS, a 62-villa development in Si Sunthon, Thalang. Price on request; enquire on WhatsApp.",
@@ -52,7 +52,7 @@
       "url": "https://asterofasia.com/property/thailand/phuket/ayana-soluna-villas"
     }
   ],
-  "researchNotes": "Official pages read 2026-11-17: 62 units, 72 rai, Thalang, 3-5 bedrooms with private pool, Type A 221.1 internal / 129.8 external / 350.9 total sqm. Official site states no price, completion, ownership. A separate site (ayana-luxury-villas.com, T.H. Group) shows 36.0M-64.2M THB and a payment plan, but it is not proven to be this project, so not used. Official site could not be opened by our research tool; facts come from agent listings. Villa count 62 vs 39 and completion Sep 2026 / 2027 / Q1 2028 conflict. Third-party prices (about 26.9M-89M) are vague, so price left on request. AYANA Soluna Villas is separate from AYANA Luxury Villas and AYANA Heights Seaview. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "Official pages read 2026-11-17: 62 units, 72 rai, Thalang, 3-5 bedrooms with private pool, Type A 221.1 internal / 129.8 external / 350.9 total sqm. Official site states no price, completion, ownership. A separate site (ayana-luxury-villas.com, T.H. Group) shows 36.0M-64.2M THB and a payment plan, but it is not proven to be this project, so not used. Official site could not be opened by our research tool; facts come from listings. Villa count 62 vs 39 and completion Sep 2026 / 2027 / Q1 2028 conflict. Third-party prices (about 26.9M-89M) are vague, so price left on request. AYANA Soluna Villas is separate from AYANA Luxury Villas and AYANA Heights Seaview. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
   "imagesStatus": "available",
   "totalUnits": 62,
   "cover": "/assets/images/projects/ayana-soluna-villas/photo-1.jpg",
@@ -102,10 +102,10 @@
   ],
   "imageSources": {
     "page": "https://ayanaphuket.com/ayana-villa-type-a",
-    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
+    "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
-  "completionDate": "Sep 2026 (agent listings)",
+  "completionDate": "Sep 2026",
   "parking": "Parking ratio 200% of units",
   "bathroomsMin": 3,
   "bathroomsMax": 6,

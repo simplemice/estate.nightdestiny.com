@@ -26,32 +26,28 @@
       "size": "28.26",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 2900000,
-      "priceType": "Agent advertised price"
+      "price": 2900000
     },
     {
       "name": "1 Bedroom M",
       "size": "30.23",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 3100000,
-      "priceType": "Agent advertised price"
+      "price": 3100000
     },
     {
       "name": "1 Bedroom Plus",
       "size": "44.04",
       "bedrooms": 1,
       "availability": "Available",
-      "price": 4500000,
-      "priceType": "Agent advertised price"
+      "price": 4500000
     },
     {
       "name": "2 Bedroom",
       "size": "56.20",
       "bedrooms": 2,
       "availability": "Available",
-      "price": 5500000,
-      "priceType": "Agent advertised price"
+      "price": 5500000
     }
   ],
   "nearby": [
@@ -69,15 +65,14 @@
   "publishedAt": "2026-11-12",
   "startingPrice": 2870000,
   "priceStatus": "advertised",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/the-title-sierra",
   "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceNote": "Lowest advertised price, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
   ],
   "floors": "3 buildings, 8 storeys each",
-  "completionDate": "Jul 2028 (agent listings)",
+  "completionDate": "Jul 2028",
   "furniture": "Fully furnished",
   "sources": [
     {

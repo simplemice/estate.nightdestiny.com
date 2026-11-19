@@ -45,23 +45,20 @@
       "bathrooms": 4,
       "size": "428",
       "price": 35100000,
-      "floorPlan": "/assets/images/floorplans/amber-chamber/plan-7.jpg",
-      "priceType": "Agent advertised price"
+      "floorPlan": "/assets/images/floorplans/amber-chamber/plan-7.jpg"
     },
     {
       "name": "4BR Serenity",
       "bedrooms": 4,
       "size": "516",
-      "price": 42299999,
-      "priceType": "Agent advertised price"
+      "price": 42299999
     },
     {
       "name": "4BR Bliss",
       "bedrooms": 4,
       "bathrooms": 5,
       "size": "620",
-      "price": 51900000,
-      "priceType": "Agent advertised price"
+      "price": 51900000
     }
   ],
   "images": [
@@ -107,6 +104,5 @@
     "Bedroom with dressing area"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/vera-visio-property/amber-chamber"
 }
