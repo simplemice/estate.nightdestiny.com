@@ -93,11 +93,11 @@
       "url": "https://thailand-property.com/townhouse/13759/laguna-park-2"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-park-2"
     }
   ],
-  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) FazWaz fields filled where empty: parking. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: parking. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
   "imageCaptions": [
@@ -113,5 +113,5 @@
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm agent authorisation)",
     "checked": "2026-11-17"
   },
-  "parking": "Parking ratio 100% of units (FazWaz)"
+  "parking": "Parking ratio 100% of units"
 }

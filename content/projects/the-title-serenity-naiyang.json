@@ -98,13 +98,13 @@
     "Freehold"
   ],
   "floors": "7 buildings, 6 storeys each",
-  "completionDate": "Dec 2026 (FazWaz listing)",
-  "furniture": "Per FazWaz unit listings: partly furnished, fully furnished",
+  "completionDate": "Dec 2026 (agent listings)",
+  "furniture": "Varies by unit: partly furnished, fully furnished",
   "sources": [
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer."
 }

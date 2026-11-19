@@ -21,7 +21,7 @@
   ],
   "startingPrice": 22327200,
   "priceStatus": "advertised",
-  "priceNote": "Starting price from FazWaz and Thailand-Property, in line with Keller Henson (about 22.33 million).",
+  "priceNote": "Starting price from two property portals (including Thailand-Property), in line with Keller Henson (about 22.33 million).",
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas",
   "lastVerified": "2026-11-17",
@@ -36,7 +36,7 @@
   ],
   "sources": [
     {
-      "label": "FazWaz",
+      "label": "a property portal",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas"
     },
     {
@@ -52,7 +52,7 @@
       "url": "https://www.hipflat.com/projects/vip-galaxy-villas-iqmnau"
     }
   ],
-  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several agent sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, completionDate, parking. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several agent sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
   "images": [
@@ -109,6 +109,6 @@
     "checked": "2026-11-17"
   },
   "totalUnits": "114",
-  "completionDate": "Dec 2026 (FazWaz listing)",
-  "parking": "Parking ratio 100% of units (FazWaz)"
+  "completionDate": "Dec 2026 (agent listings)",
+  "parking": "Parking ratio 100% of units"
 }

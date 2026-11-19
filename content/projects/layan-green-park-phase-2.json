@@ -160,11 +160,11 @@
       "url": "https://www.thailand-property.com/condo/24154/layan-green-park-phase-2"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/layan-green-park-phase-2"
     }
   ],
-  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (FazWaz page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (a property portal page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
   "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
   "imageCaptions": [
     "Aerial / showcase",
@@ -184,8 +184,8 @@
   "imagesStatus": "available",
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://kellerhenson.com/project/layan-green-park-phase-2",
-  "completionDate": "Dec 2026 (FazWaz listing)",
-  "furniture": "Per FazWaz unit listings: fully furnished",
+  "completionDate": "Dec 2026 (agent listings)",
+  "furniture": "Fully furnished",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

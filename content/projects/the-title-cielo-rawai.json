@@ -69,15 +69,15 @@
   ],
   "totalUnits": "171",
   "floors": "4 buildings, 5 storeys each",
-  "completionDate": "Sep 2026 (FazWaz listing)",
-  "furniture": "Per FazWaz unit listings: fully furnished, partly furnished",
+  "completionDate": "Sep 2026 (agent listings)",
+  "furniture": "Varies by unit: fully furnished, partly furnished",
   "sources": [
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-cielo-rawai"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

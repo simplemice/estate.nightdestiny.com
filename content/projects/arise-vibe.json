@@ -37,7 +37,7 @@
       "url": "https://kellerhenson.com/project/arise-vibe"
     },
     {
-      "label": "FazWaz",
+      "label": "a property portal",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe"
     },
     {
@@ -49,7 +49,7 @@
       "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
-  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (FazWaz); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "images": [
@@ -86,8 +86,8 @@
   },
   "totalUnits": "411",
   "floors": "3 buildings, 7 storeys each",
-  "completionDate": "Nov 2026 (FazWaz listing)",
-  "furniture": "Per FazWaz unit listings: fully furnished, partly furnished",
+  "completionDate": "Nov 2026 (agent listings)",
+  "furniture": "Varies by unit: fully furnished, partly furnished",
   "bedroomsMin": 1,
   "bedroomsMax": 2,
   "bathroomsMin": 1,

@@ -80,11 +80,11 @@
       "url": "https://papayaproperty.com/banyan-group-residences/skypark-elara"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/skypark-elara-lakelands"
     }
   ],
-  "researchNotes": "Identity: Skypark Elara Lakelands is a Banyan Group Residences project located within Laguna Lakelands (next to Laguna Lakeview Residences phase one and the Laguna Phuket resort). Developer attribution inconsistent: Banyan press release says Banyan Group; Papaya/Phuket.pro list Laguna Property. Size upper bound 186 vs 183 sqm in press release; 181 sqm for the largest listed unit. Completion conflicts (Q1 2027 vs ~2028). Unit IDs/prices are individual agent listings, not full price list. Official site page not fetched for price. Unverified: fees, totalUnits beyond first phase, distances. | Agent page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit. | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Identity: Skypark Elara Lakelands is a Banyan Group Residences project located within Laguna Lakelands (next to Laguna Lakeview Residences phase one and the Laguna Phuket resort). Developer attribution inconsistent: Banyan press release says Banyan Group; Papaya/Phuket.pro list Laguna Property. Size upper bound 186 vs 183 sqm in press release; 181 sqm for the largest listed unit. Completion conflicts (Q1 2027 vs ~2028). Unit IDs/prices are individual agent listings, not full price list. Official site page not fetched for price. Unverified: fees, totalUnits beyond first phase, distances. | Agent page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/skypark-elara-lakelands/photo-1.jpg",
   "imageCaptions": [
     "Skypark Elara project render",
@@ -101,5 +101,5 @@
   "priceSourceUrl": "https://papayaproperty.com/banyan-group-residences/skypark-elara",
   "priceNote": "Agent page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit.",
   "developer": "Banyan Group Residences (Banyan Group)",
-  "completionDate": "Jul 2028 (FazWaz listing)"
+  "completionDate": "Jul 2028 (agent listings)"
 }

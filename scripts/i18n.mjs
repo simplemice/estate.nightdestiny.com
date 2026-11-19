@@ -94,7 +94,7 @@ function ruUnit(s) {
 }
 
 const MONTHS = { Jan: 'январь', Feb: 'февраль', Mar: 'март', Apr: 'апрель', May: 'май', Jun: 'июнь', Jul: 'июль', Aug: 'август', Sep: 'сентябрь', Oct: 'октябрь', Nov: 'ноябрь', Dec: 'декабрь' };
-const FURN = { 'fully furnished': 'полностью меблировано', 'partly furnished': 'частично меблировано', unfurnished: 'без мебели' };
+const FURN = { 'fully furnished': 'полностью с мебелью', 'partly furnished': 'частично с мебелью', unfurnished: 'без мебели' };
 const ruPl = (n, f) => { const a = n % 100, b = n % 10; return a > 10 && a < 20 ? f[2] : b === 1 ? f[0] : b > 1 && b < 5 ? f[1] : f[2]; };
 // Generic caption patterns ("<Project> photo 3", "Brochure page 14").
 const PATTERNS = [
@@ -102,9 +102,9 @@ const PATTERNS = [
   [/^(.+?) gallery (\d+)$/, (m) => `${m[1]}, фото ${m[2]}`],
   [/^Brochure page (\d+)(?: \(unverified content; may include text\))?$/, (m) => `Страница брошюры ${m[1]}${/unverified/.test(m.input) ? ' (содержание не проверено, возможен текст)' : ''}`],
   [/^Exterior (\d+)$/, (m) => `Фасад ${m[1]}`],
-  [/^([A-Z][a-z]{2}) (\d{4}) \(FazWaz listing\)$/, (m) => `${MONTHS[m[1]] || m[1]} ${m[2]} (по данным FazWaz, застройщиком не подтверждено)`],
-  [/^Parking ratio (\d+)% of units \(FazWaz\)$/, (m) => `Парковка: ${m[1]}% от числа юнитов (по данным FazWaz)`],
-  [/^Per FazWaz unit listings: (.+)$/, (m) => `По объявлениям FazWaz: ${m[1].split(', ').map((x) => FURN[x] || x).join(', ')}`],
+  [/^([A-Z][a-z]{2}) (\d{4}) \(agent listings\)$/, (m) => `${MONTHS[m[1]] || m[1]} ${m[2]} (по объявлениям агентов)`],
+  [/^Parking ratio (\d+)% of units$/, (m) => `Парковка: ${m[1]}% от числа юнитов`],
+  [/^Varies by unit: (.+)$/, (m) => `Зависит от юнита: ${m[1].split(', ').map((x) => FURN[x] || x).join(', ')}`],
   [/^(\d+) buildings, (\d+) storeys each$/, (m) => `${m[1]} ${ruPl(+m[1], ['корпус', 'корпуса', 'корпусов'])} по ${m[2]} ${ruPl(+m[2], ['этаж', 'этажа', 'этажей'])}`],
   [/^Bedroom (\d+)$/, (m) => `Спальня ${m[1]}`],
   [/^Living (\d+)$/, (m) => `Гостиная ${m[1]}`],

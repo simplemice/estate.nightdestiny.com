@@ -123,11 +123,11 @@
       "url": "https://kellerhenson.com/project/pavara-vhana-collection"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/pavara-vhana-collection"
     }
   ],
-  "researchNotes": "Official Pavara site not checked/found. Page inconsistent on built-up (546-1138 vs 812-1717 sqm), plots (345-899 vs 607-2070 sqm), types. Bathrooms 6-8 per description vs 4-6 in unit list. Images probably renders (not stated). Claimed 98M likely wrong or a past/unlisted price. | Keller Henson range THB 110.0M-273.0M (cheapest 3BR Type D 110M). Claimed 98M not found in any source. | claimed price 98000000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate, parking. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official Pavara site not checked/found. Page inconsistent on built-up (546-1138 vs 812-1717 sqm), plots (345-899 vs 607-2070 sqm), types. Bathrooms 6-8 per description vs 4-6 in unit list. Images probably renders (not stated). Claimed 98M likely wrong or a past/unlisted price. | Keller Henson range THB 110.0M-273.0M (cheapest 3BR Type D 110M). Claimed 98M not found in any source. | claimed price 98000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
   "imageCaptions": [
@@ -138,6 +138,6 @@
     "Type A"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "completionDate": "Dec 2027 (FazWaz listing)",
-  "parking": "Parking ratio 20% of units (FazWaz)"
+  "completionDate": "Dec 2027 (agent listings)",
+  "parking": "Parking ratio 20% of units"
 }

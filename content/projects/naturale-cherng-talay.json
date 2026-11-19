@@ -119,11 +119,11 @@
       "url": "https://phuketprime.com/?p=25570"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/naturale-cherng-talay"
     }
   ],
-  "researchNotes": "Official name appears to be 'Naturale', not 'Naturalle'. Not able to find official developer site. Render vs photo status of images not verified (esennio images unverified). Ownership: Papaya says Freehold; Keller Henson says freehold for Thai nationals/companies, 30+30+30 leasehold for foreigners. Image 'source' labelled agent (Papaya CDN / Keller Henson). | Keller Henson shows 3BR from THB 34,371,200 (matches client ~34.4M); Papaya Property shows last-unit 3BR at 37,360,000 (range 37.4M-56.5M). Keller Henson says only 2 units still listed for sale. Price may be stale. | claimed price 34400000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official name appears to be 'Naturale', not 'Naturalle'. Not able to find official developer site. Render vs photo status of images not verified (esennio images unverified). Ownership: Papaya says Freehold; Keller Henson says freehold for Thai nationals/companies, 30+30+30 leasehold for foreigners. Image 'source' labelled agent (Papaya CDN / Keller Henson). | Keller Henson shows 3BR from THB 34,371,200 (matches client ~34.4M); Papaya Property shows last-unit 3BR at 37,360,000 (range 37.4M-56.5M). Keller Henson says only 2 units still listed for sale. Price may be stale. | claimed price 34400000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
   "imageCaptions": [
@@ -134,5 +134,5 @@
     "3BR villa"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "completionDate": "Dec 2025 (FazWaz listing)"
+  "completionDate": "Dec 2025 (agent listings)"
 }

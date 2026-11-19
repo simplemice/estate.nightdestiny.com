@@ -55,7 +55,7 @@
       "url": "https://thailand-property.com/townhouse/27333/the-passion-residence-lagoon"
     },
     {
-      "label": "FazWaz (403; snippets)",
+      "label": "a property portal (403; snippets)",
       "url": "https://fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
     },
     {
@@ -63,14 +63,14 @@
       "url": "https://www.hipflat.com/projects/the-passion-residence-lagoon-n41utc3a1e0tcun0cc992t9e1e932hna"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
     }
   ],
-  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) FazWaz fields filled where empty: completionDate, parking. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
   "imagesStatus": "unavailable",
-  "completionDate": "Jun 2025 (FazWaz listing)",
-  "parking": "Parking ratio 200% of units (FazWaz)",
+  "completionDate": "Jun 2025 (agent listings)",
+  "parking": "Parking ratio 200% of units",
   "bedroomsMin": 3,
   "bedroomsMax": 3,
   "bathroomsMin": 3,

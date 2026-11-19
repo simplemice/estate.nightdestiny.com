@@ -107,11 +107,11 @@
       "url": "https://kellerhenson.com/unit/mori-2-the-valley-3br-pool-villa-type-a-plot-a2"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/mori"
     }
   ],
-  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; FazWaz says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, completionDate. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; a property portal says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mori/photo-3.jpg",
   "imageCaptions": [
@@ -122,5 +122,5 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "totalUnits": "118",
-  "completionDate": "Feb 2027 (FazWaz listing)"
+  "completionDate": "Feb 2027 (agent listings)"
 }

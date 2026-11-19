@@ -52,11 +52,11 @@
       "url": "https://maviston.com/homepage/"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao"
     }
   ],
-  "researchNotes": "It is a condominium (brief did not state type). Developer name from agent listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from agent listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "images": [
@@ -101,7 +101,7 @@
   },
   "totalUnits": "66",
   "floors": "5 buildings, 4 storeys each",
-  "furniture": "Per FazWaz unit listings: fully furnished",
+  "furniture": "Fully furnished",
   "bathroomsMin": 1,
   "bathroomsMax": 3,
   "builtUpMin": 64,

@@ -56,11 +56,11 @@
       "url": "https://www.everprimecondo.com/"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon"
     }
   ],
-  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one agent only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) FazWaz fields filled where empty: totalUnits, floors, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
+  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one agent only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
   "images": [
@@ -114,7 +114,7 @@
   },
   "totalUnits": "499",
   "floors": "4 buildings, 8 storeys each",
-  "furniture": "Per FazWaz unit listings: unfurnished",
+  "furniture": "Unfurnished",
   "bedroomsMin": 1,
   "bedroomsMax": 4,
   "bathroomsMin": 1,

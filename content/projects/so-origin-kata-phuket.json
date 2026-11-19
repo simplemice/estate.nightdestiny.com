@@ -89,11 +89,11 @@
       "url": "https://kellerhenson.com/project/so-origin-kata-phuket"
     },
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/so-origin-kata-phuket"
     }
   ],
-  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | Agent page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) FazWaz fields filled where empty: floors, completionDate. FazWaz is a portal; values not confirmed by the developer.",
+  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | Agent page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer.",
   "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
   "imageCaptions": [
     "Project gallery image",
@@ -108,5 +108,5 @@
   "priceType": "Agent advertised price",
   "priceSourceUrl": "https://papayaproperty.com/origin-property/so-origin-kata-1",
   "floors": "8",
-  "completionDate": "Sep 2027 (FazWaz listing)"
+  "completionDate": "Sep 2027 (agent listings)"
 }

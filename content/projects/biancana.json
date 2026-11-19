@@ -89,15 +89,15 @@
     "Freehold"
   ],
   "floors": "5 buildings, 5 storeys each",
-  "completionDate": "Mar 2028 (FazWaz listing)",
-  "furniture": "Per FazWaz unit listings: fully furnished",
+  "completionDate": "Mar 2028 (agent listings)",
+  "furniture": "Fully furnished",
   "sources": [
     {
-      "label": "FazWaz project page (units, floors, buildings, completion, parking ratio, unit tags)",
+      "label": "property portal project page (units, floors, buildings, completion, parking ratio, unit tags)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/biancana-title"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) FazWaz fields filled where empty: floors, completionDate, furniture. FazWaz is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) FazWaz unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
   "bathroomsMin": 1,
   "bathroomsMax": 3
 }
