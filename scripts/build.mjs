@@ -248,6 +248,7 @@ const nounOf = (p) => ({ Villa: [T('noun.villas'), T('noun.villa')], Townhouse: 
 const devShort = (d) => String(d || '').replace(/\s*\([^)]*\)/g, '').replace(/\s+(Co\.?,? ?Ltd\.?|PCL|PLC|Company Limited)$/i, '').trim();
 // CMS field seoTitle wins; otherwise a unique, facts-only title (no brand suffix; Google adds the site name where it wants to).
 function projTitle(p) {
+  if (LANG !== DEFAULT_LANG && OV(p).seoTitle) return OV(p).seoTitle; // reviewed Russian-specific title wins
   if (p.seoTitle) return fld(p, 'seoTitle');
   if (LANG !== DEFAULT_LANG) {
     const t = p.name, nn = T(`noun.nn.${p.category}`), inn = areaIn(canonLoc(p.location));
@@ -255,11 +256,14 @@ function projTitle(p) {
   }
   const t = p.name, a = areaOf(p.location), n = nounOf(p)[0];
   const inName = (x) => t.toLowerCase().includes(x.toLowerCase().replace(/\s+phuket$/, ''));
+  // A project whose name already contains "Phuket" (or its area) must not repeat it in the title.
+  if (/phuket/i.test(t)) return fitTitle(inName(a) ? `${t} | ${n} for Sale` : `${t} | ${n} for Sale in ${a}`, `${t} | ${n} for Sale`, t);
   const place = inName(a) ? 'Phuket' : /phuket/i.test(a) ? a : a + ' Phuket';
   return fitTitle(`${t} ${place} | ${n} for Sale`, `${t} ${inName(a) ? '' : a} | ${n} for Sale`.replace('  ', ' '), `${t} | ${n} for Sale in Phuket`, `${t} | ${n} for Sale`, t);
 }
 // CMS field seoDescription wins; otherwise built from verified fields only.
 function projDesc(p) {
+  if (LANG !== DEFAULT_LANG && OV(p).seoDescription) return OV(p).seoDescription;
   if (p.seoDescription) return fld(p, 'seoDescription');
   if (LANG !== DEFAULT_LANG) {
     const f = facts(p), t = p.name, lead0 = T(`noun.lead.${p.category}`), inn = areaIn(canonLoc(p.location));
@@ -664,7 +668,7 @@ function catalogFilter(list, lock) {
 </form>`;
 }
 
-function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, crumbs }) {
+function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, crumbs, key = '' }) {
   const body = `${pageHead(h1, sub, crumbs)}
 	<section class="rooms-section spad estate-listing" data-listing="catalog">
 		<div class="container">
@@ -677,11 +681,12 @@ function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, cr
 			<p class="price-disclaimer" data-usd-note>${T('disclaimer.catalog')}</p>
 		</div>
 	</section>
+	${key ? catalogIntro(key, list) : ''}
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: h1, inLanguage: LANG_META[LANG].htmlLang, itemListElement: list.slice(0, 50).map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) })}`;
   return layout({ title: `${ttl || h1} | ${settings.siteName}`, description: desc, pathname, active, body, ogImage: list[0]?.cover, i18nJs: true });
 }
 
-const projectsPage = (list) => catalogPage({ pathname: '/projects/', ttl: T('projects.ttl'), h1: T('projects.h1'), sub: T('projects.sub'), desc: T('projects.desc'), list, active: 'projects', crumbs: [['/', T('nav.home')], ['', T('nav.projects')]] });
+const projectsPage = (list) => catalogPage({ key: 'projects', pathname: '/projects/', ttl: T('projects.ttl'), h1: T('projects.h1'), sub: T('projects.sub'), desc: T('projects.desc'), list, active: 'projects', crumbs: [['/', T('nav.home')], ['', T('nav.projects')]] });
 
 
 /* ---------- location landing pages (built only from catalogue data; optional editorial text in content/locations/<slug>.json) ---------- */
@@ -706,6 +711,71 @@ function nearbyByGroup(g) {
 }
 const typeWord = (g) => { const c = (k) => g.projects.filter((p) => p.category === k).length; const v = c('Villa'), t = c('Townhouse'), k = c('Condominium'); return v >= t && v >= k ? T('noun.villas') : k >= t ? T('noun.condos') : T('noun.townhouses'); };
 const nearItem = (n, extra = '') => `<li><span>${esc(tx(n.place, 'nearby.place'))}${extra}</span><span>${esc(I.dist(n.distance) || '')}${mode(n.mode) ? ` <small>(${esc(mode(n.mode))})</small>` : ''}</span></li>`;
+const nameList = (arr) => arr.join(', ');
+const linkP = (x) => `<a href="${url(x)}">${esc(x.name)}</a>`;
+const bedsText = (f) => { const r = rng(f.bedMin, f.bedMax); if (!r) return ''; const n = f.bedMax ?? f.bedMin; return LANG === DEFAULT_LANG ? `${r} ${n === 1 ? 'bedroom' : 'bedrooms'}` : `${r} ${I.plural(n, ['спальня', 'спальни', 'спален'])}`; };
+// Key facts for a project, built only from its own catalogue data (no invented content), plus other projects by the same developer.
+function projGlance(p) {
+  const f = facts(p), cur = p.currency || 'THB';
+  const where = LANG === DEFAULT_LANG ? `in ${placeOf(p)}` : whereRu(p.location);
+  const dev = p.developer ? T('pg.dev', { dev: esc(p.developer) }) : '';
+  const status = tx(p.constructionStatus, 'status');
+  const nears = fldArr(p, 'nearby', (n) => n).filter((n) => n.place && n.distance && !/\bvs\b|sources differ|\//.test(n.distance)).slice(0, 4).map((n) => `${tx(n.place, 'nearby.place')} (${I.dist(n.distance)}${mode(n.mode) ? ', ' + mode(n.mode) : ''})`);
+  const same = p.developer ? projL.filter((x) => x.slug !== p.slug && devShort(x.developer) === devShort(p.developer)) : [];
+  const size = rng(f.sizeMin, f.sizeMax);
+  const items = [
+    T('pg.what', { t: esc(p.name), type: esc(tx(p.projectType, 'type').toLowerCase()), where, dev }),
+    (bedsText(f) || size) && T('pg.units', { x: [bedsText(f), size && `${size} ${I.sqm('').trim()}`].filter(Boolean).join(', ') }),
+    T('pg.status', { status: esc(status.toLowerCase()), done: p.completionDate ? T('pg.done', { d: esc(tx(p.completionDate, 'completionDate')) }) : '' }),
+    p.ownership.length && T('pg.own', { x: esc(p.ownership.map((o) => ownName(o)).join(' / ')) }),
+    f.price && T('pg.price', { price: money(f.price, cur), type: p.priceType ? ` (${esc(tx(p.priceType, 'priceType').toLowerCase())})` : '' }),
+    nears.length && T('pg.near', { x: esc(nears.join('; ')) }),
+    same.length && T('pg.dev_more', { dev: esc(devShort(p.developer)), list: same.slice(0, 6).map(linkP).join(', ') }),
+  ].filter(Boolean);
+  return `<h2 class="sec-h sec-sub">${T('pg.h', { t: esc(p.name) })}</h2><ul class="check-list">${items.map((x) => `<li><i class="fa fa-check"></i> ${x}</li>`).join('')}</ul>`;
+}
+// Comparison table of the projects in an area (all values from the catalogue).
+function locTable(g, nm) {
+  const rows = g.projects.map((p) => { const f = facts(p); return `<tr><td><a href="${url(p)}"><strong>${esc(p.name)}</strong></a></td><td>${esc(catName(p.category))}</td><td>${esc(tx(p.constructionStatus, 'status'))}</td><td>${esc(tx(p.completionDate, 'completionDate') || '-')}</td><td>${f.price ? money(f.price, p.currency || 'THB') : T('on_request')}</td><td>${esc(rng(f.bedMin, f.bedMax) || '-')}</td><td>${esc(p.ownership.map((o) => ownName(o, false)).join(' / ') || '-')}</td></tr>`; }).join('');
+  return `<h2 class="sec-h">${T('loc.table_h', { nm: esc(nm) })}</h2><div class="table-responsive"><table class="table unit-table"><thead><tr><th>${T('loc.th_project')}</th><th>${T('spec.category')}</th><th>${T('units.status')}</th><th>${T('spec.completion')}</th><th>${T('f.price_th')}</th><th>${T('spec.bedrooms')}</th><th>${T('spec.ownership')}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+// Intro under a catalogue page: counts, areas, status, ownership and prices of exactly the projects listed (distinct angle per page).
+function catalogIntro(key, list) {
+  if (!list.length) return '';
+  const cnt = (arr) => arr.reduce((m, x) => m.set(x, (m.get(x) || 0) + 1), new Map());
+  const np = T('ci.np', { n: list.length });
+  const areas = cnt(list.map((p) => canonArea(p.location)));
+  const areaHtml = [...areas.entries()].filter(([a]) => a !== 'Phuket').sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([a, n]) => { const pg = locPageFor({ location: a }); return `${pg ? `<a href="${lp(pg.url)}">${esc(areaName(a))}</a>` : esc(areaName(a))} (${n})`; }).join(', ');
+  const st = cnt(list.map((p) => p.constructionStatus));
+  const status = ['Pre-sale', 'Under construction', 'Completed', 'Status on request'].filter((k) => st.has(k)).map((k) => `${tx(k, 'status')} (${st.get(k)})`).join(', ');
+  const ow = cnt(list.flatMap((p) => p.ownership));
+  const own = ['Freehold', 'Leasehold'].filter((k) => ow.has(k)).map((k) => `${ownName(k, false)} (${ow.get(k)})`).join(', ');
+  const prices = list.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b);
+  const paras_ = [
+    T('ci.count', { np: esc(np), areas: areaHtml || esc(T('phuket')) }),
+    status && T('ci.status', { x: esc(status) }),
+    own && T('ci.own', { x: esc(own) }),
+    prices.length && T('ci.price', { from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N: list.length }),
+  ].filter(Boolean).map((x) => `<p>${x}</p>`).join('');
+  let extra = '';
+  if (key === 'projects') { // new / off-plan intent: group by construction stage with links
+    const grp = (stat, label) => { const g = list.filter((p) => p.constructionStatus === stat).sort((a, b) => a.name.localeCompare(b.name)); return g.length ? `<p><strong>${esc(T(label, { n: g.length }))}</strong> ${g.slice(0, 14).map(linkP).join(', ')}${g.length > 14 ? '…' : ''}</p>` : ''; };
+    extra = grp('Pre-sale', 'ci.grp_pre') + grp('Under construction', 'ci.grp_uc') + grp('Completed', 'ci.grp_done');
+  }
+  return `<section class="spad-2 cat-intro"><div class="container"><h2 class="sec-h">${T(`ci.h.${key}`)}</h2><div class="desc">${paras_}${extra}</div></div></section>`;
+}
+
+// Data-derived facts only (counts of what is actually in the catalogue); gives each area page unique, verifiable content.
+function locFacts(g, nm) {
+  const ps = g.projects, cnt = (arr) => arr.reduce((m, x) => m.set(x, (m.get(x) || 0) + 1), new Map());
+  const st = cnt(ps.map((p) => p.constructionStatus));
+  const status = ['Pre-sale', 'Under construction', 'Completed', 'Status on request'].filter((k) => st.has(k)).map((k) => `${tx(k, 'status')} (${st.get(k)})`).join(', ');
+  const ow = cnt(ps.flatMap((p) => p.ownership));
+  const own = ['Freehold', 'Leasehold'].filter((k) => ow.has(k)).map((k) => `${ownName(k, false)} (${ow.get(k)})`).join(', ');
+  const devs = [...new Set(ps.map((p) => devShort(p.developer)).filter(Boolean))].sort();
+  const items = [status && T('loc.f_status', { x: status }), own && T('loc.f_own', { x: own }), devs.length && T('loc.f_dev', { x: devs.slice(0, 12).join(', ') + (devs.length > 12 ? '…' : '') })].filter(Boolean);
+  return items.length ? `<h2 class="sec-h">${T('loc.facts_h', { nm: esc(nm) })}</h2><ul class="check-list">${items.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '';
+}
 function locationPage(g) {
   const ps = g.projects, N = ps.length;
   const nm = areaName(g.name);
@@ -725,6 +795,8 @@ function locationPage(g) {
 		<div class="row"><div class="col-lg-9">
 			<h2 class="sec-h">${T('loc.glance', { nm: esc(nm) })}</h2>
 			<p>${esc(intro)}</p>
+			${locFacts(g, nm)}
+			${locTable(g, nm)}
 			${ed.overview ? `<h2 class="sec-h">${T('loc.about', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.overview)}</div>` : ''}
 			${ed.market ? `<h2 class="sec-h">${T('loc.market')}</h2><div class="desc">${paras(ed.market)}</div>` : ''}
 			${ed.transport ? `<h2 class="sec-h">${T('loc.transport')}</h2><div class="desc">${paras(ed.transport)}</div>` : ''}
@@ -904,6 +976,7 @@ function projectPage(p) {
 					${p.imageCredit ? `<p class="img-credit">${esc(fld(p, 'imageCredit'))}</p>` : ''}
 					<h2 class="sec-h">${T('overview')}</h2>
 					<div class="desc">${paras(fld(p, 'description'))}</div>
+					${projGlance(p)}
 					${p.facilities?.length ? `<h2 class="sec-h sec-sub">${T('facilities')}</h2>${list_(fldArr(p, 'facilities'))}` : ''}
 					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}${faqBlock}
 					${p.googleMapsUrl ? `<p class="map-link"><a href="${esc(p.googleMapsUrl)}" target="_blank" rel="noopener">${T('open_gmaps')}</a></p>` : ''}
@@ -1073,7 +1146,7 @@ function buildLanguage(lang) {
   const propCrumbs = (l) => [['/', T('nav.home')], ...(l ? [['/properties/', T('crumb.phuket_property')], ['', T(`crumb.${l}`)]] : [['', T('crumb.phuket_property')]])];
   CATALOGS.forEach((c) => {
     const k = `cat.${c.key}`;
-    out(`${c.path.slice(1)}index.html`, catalogPage({ pathname: c.path, ttl: I.has(`${k}.ttl`) ? T(`${k}.ttl`) : undefined, h1: T(`${k}.h1`), sub: T(`${k}.sub`), desc: T(`${k}.desc`), list: c.list(), lock: c.lock, active: c.active, crumbs: propCrumbs(c.crumb && c.crumb.toLowerCase()) }));
+    out(`${c.path.slice(1)}index.html`, catalogPage({ key: c.key, pathname: c.path, ttl: I.has(`${k}.ttl`) ? T(`${k}.ttl`) : undefined, h1: T(`${k}.h1`), sub: T(`${k}.sub`), desc: T(`${k}.desc`), list: c.list(), lock: c.lock, active: c.active, crumbs: propCrumbs(c.crumb && c.crumb.toLowerCase()) }));
   });
   out('locations/index.html', locationsHub());
   LOCS.forEach((g) => out(`locations/${g.slug}/index.html`, locationPage(g)));
