@@ -617,7 +617,7 @@ function typeTabs(all) {
   all.forEach((p) => { const t = typeOf(p); counts[t] = (counts[t] || 0) + 1; });
   const order = ['Villa', 'Townhouse', 'Condo'].filter((t) => counts[t]).concat(Object.keys(counts).filter((t) => !['Villa', 'Townhouse', 'Condo'].includes(t)));
   const label = { Villa: T('noun.villas'), Townhouse: T('noun.townhouses'), Condo: T('noun.condos') };
-  return `<div class="type-tabs" role="navigation" aria-label="${esc(T('f.type'))}"><a href="${lp('/sale/')}" data-type="" class="active">${T('all_n', { n: all.length })}</a>${order.map((t) => `<a href="${lp('/sale/')}?type=${encodeURIComponent(t)}" data-type="${esc(t)}">${esc(label[t] || tx(t, 'type'))} (${counts[t]})</a>`).join('')}</div>`;
+  return `<div class="type-tabs" role="navigation" aria-label="${esc(T('f.type'))}"><a href="${lp('/sale/')}" data-type="" class="active">${T('all_n', { n: all.length })}</a>${order.map((t) => `<a href="${lp('/sale/')}?type=${encodeURIComponent(t)}" rel="nofollow" data-type="${esc(t)}">${esc(label[t] || tx(t, 'type'))} (${counts[t]})</a>`).join('')}</div>`;
 }
 
 const countLine = (n, kind) => T(kind === 'project' ? 'count.projects' : 'count.listings', { n });
@@ -760,7 +760,7 @@ function catalogIntro(key, list) {
   let extra = '';
   if (key === 'projects') { // new / off-plan intent: group by construction stage with links
     const grp = (stat, label) => { const g = list.filter((p) => p.constructionStatus === stat).sort((a, b) => a.name.localeCompare(b.name)); return g.length ? `<p><strong>${esc(T(label, { n: g.length }))}</strong> ${g.slice(0, 14).map(linkP).join(', ')}${g.length > 14 ? '…' : ''}</p>` : ''; };
-    extra = grp('Pre-sale', 'ci.grp_pre') + grp('Under construction', 'ci.grp_uc') + grp('Completed', 'ci.grp_done');
+    extra = `<p>${T('ci.proj_priced', { sale: `<a href="${lp('/sale/')}">${T('nav.sale')}</a>`, cat: `<a href="${lp('/properties/')}">${T('nav.all_properties')}</a>` })}</p>` + grp('Pre-sale', 'ci.grp_pre') + grp('Under construction', 'ci.grp_uc') + grp('Completed', 'ci.grp_done');
   }
   return `<section class="spad-2 cat-intro"><div class="container"><h2 class="sec-h">${T(`ci.h.${key}`)}</h2><div class="desc">${paras_}${extra}</div></div></section>`;
 }
@@ -800,7 +800,7 @@ function locationPage(g) {
 			${ed.overview ? `<h2 class="sec-h">${T('loc.about', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.overview)}</div>` : ''}
 			${ed.market ? `<h2 class="sec-h">${T('loc.market')}</h2><div class="desc">${paras(ed.market)}</div>` : ''}
 			${ed.transport ? `<h2 class="sec-h">${T('loc.transport')}</h2><div class="desc">${paras(ed.transport)}</div>` : ''}
-		</div><div class="col-lg-3 mt-3 mt-lg-0">${waBtn(T('wa.area', { nm }), 'wa-btn wa-block', T('loc.ask', { nm: esc(nm) }))}<p class="ds-note"><a href="${lp('/projects/')}?location=${encodeURIComponent(g.name)}">${T('loc.filter', { nm: esc(nm) })}</a></p></div></div>
+		</div><div class="col-lg-3 mt-3 mt-lg-0">${waBtn(T('wa.area', { nm }), 'wa-btn wa-block', T('loc.ask', { nm: esc(nm) }))}<p class="ds-note"><a href="${lp('/sale/')}?location=${encodeURIComponent(g.name)}" rel="nofollow">${T('loc.filter', { nm: esc(nm) })}</a></p></div></div>
 		<h2 class="sec-h">${T('loc.projects_in', { nm: esc(nm) })}</h2>
 		<div class="row">${ps.map((p) => projCard(p)).join('\n')}</div>
 		${nb.length ? `<h2 class="sec-h">${T('loc.nearby')}</h2><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div>` : ''}
@@ -813,7 +813,7 @@ function locationPage(g) {
 function locationsHub() {
   const body = `${pageHead(T('hub.h1'), T('hub.sub'), [['/', T('nav.home')], ['', T('nav.locations')]])}
 	<section class="spad-2"><div class="container">
-		<p>${T('hub.intro', { link: `<a href="${lp('/projects/')}">${T('hub.link')}</a>` })}</p>
+		<p>${T('hub.intro', { link: `<a href="${lp('/properties/')}">${T('hub.link')}</a>` })}</p>
 		<div class="loc-grid">${LOCS.map((g) => `<a class="loc-chip" href="${lp(g.url)}"><strong>${esc(areaName(g.name))}</strong><span>${countLine(g.projects.length, 'project')}</span></a>`).join('')}</div>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: T('hub.ld'), inLanguage: LANG_META[LANG].htmlLang, itemListElement: LOCS.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + lp(g.url), name: areaName(g.name) })) })}`;
@@ -1045,14 +1045,14 @@ function homePage() {
 				<div class="hero-ctas">
 					<a class="hero-cta" href="${lp('/sale/')}"><i class="fa fa-home"></i> ${T('hero.buy')}</a>
 					<a class="hero-cta" href="${lp('/rent/')}"><i class="fa fa-key"></i> ${T('hero.rent')}</a>
-					<a class="hero-cta" href="${lp('/projects/')}"><i class="fa fa-building"></i> ${T('hero.projects')}</a>
+					<a class="hero-cta" href="${lp('/properties/')}"><i class="fa fa-building"></i> ${T('hero.projects')}</a>
 				</div>
 			</div>
 		</div>
 	</section>
 	${section(T('home.featured_sale'), T('for_sale_cap'), featSale().map((x) => (x._saleEntry ? projSaleCard(x) : propCard(x))), lp('/sale/'), T('home.view_sale'))}
 	${section(T('home.featured_rent'), T('for_rent_cap'), feat(rentL).map((p) => propCard(p)), lp('/rent/'), T('home.view_rent'))}
-	${section(T('home.new_dev'), T('home.new_projects_eyebrow'), feat(projL).map(projCard), lp('/projects/'), T('home.view_projects'))}
+	${section(T('home.new_dev'), T('home.new_projects_eyebrow'), feat(projL).map(projCard), lp('/properties/'), T('home.view_projects'))}
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>${T('home.browse_area')}</span><h2>${T('home.popular')}</h2></div><div class="loc-grid">${locCards}</div></div></section>
 	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>${T('home.about_eyebrow')}</span><h2>${T('home.about_h')}</h2></div><p>${esc(S('aboutText'))}</p><a class="primary-btn" href="${lp('/about/')}">${T('home.about_btn')}</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', T('chat_wa'))}</div></div></div></section>`;
   return layout({
@@ -1082,8 +1082,8 @@ function contactPage() {
 function guidePage(slug, g) {
   const nF = projL.filter((p) => p.ownership.includes('Freehold')).length, nL = projL.filter((p) => p.ownership.includes('Leasehold')).length;
   const fill = (txt) => esc(txt)
-    .replace('{n_freehold}', `<a href="${lp('/projects/')}?ownership=Freehold">${esc(T('guide.n_freehold', { n: nF }))}</a>`)
-    .replace('{n_leasehold}', `<a href="${lp('/projects/')}?ownership=Leasehold">${esc(T('guide.n_freehold', { n: nL }))}</a>`);
+    .replace('{n_freehold}', `<a href="${lp('/sale/')}?ownership=Freehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nF }))}</a>`)
+    .replace('{n_leasehold}', `<a href="${lp('/sale/')}?ownership=Leasehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nL }))}</a>`);
   const body = `${pageHead(g.h1, g.sub, [['/', T('nav.home')], ['', g.h1]])}
 	<section class="spad-2 guide-page"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
 		<p>${esc(g.intro)}</p>
@@ -1142,7 +1142,7 @@ function buildLanguage(lang) {
   out('index.html', homePage());
   out('rent/index.html', listingPage('rent', rentL));
   out('sale/index.html', listingPage('sale', saleL, saleProjects));
-  out('projects/index.html', projectsPage(projL));
+  out('projects/index.html', projectsPage(projL.filter((p) => !facts(p).price))); // /projects/ lists only projects without a published price (owner decision 2026-11-19)
   const propCrumbs = (l) => [['/', T('nav.home')], ...(l ? [['/properties/', T('crumb.phuket_property')], ['', T(`crumb.${l}`)]] : [['', T('crumb.phuket_property')]])];
   CATALOGS.forEach((c) => {
     const k = `cat.${c.key}`;

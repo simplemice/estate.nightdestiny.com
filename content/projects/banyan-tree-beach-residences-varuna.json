@@ -8,12 +8,12 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "developer": "Laguna Property / Banyan Group Residences",
-  "shortDescription": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026.",
-  "description": "Eight beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026. Each four-level home pairs a private lift and garden terrace with a west-facing rooftop infinity pool, and the master suite occupies its own floor. Owners get membership perks across Laguna and Banyan Group.",
+  "shortDescription": "Eight four-bedroom beachfront townhomes on Bang Tao Beach inside Laguna Phuket, launched by Banyan Group Residences in July 2026.",
+  "description": "Banyan Tree Beach Residences Varuna is a collection of just eight beachfront townhomes on Bang Tao Beach, inside Laguna Phuket, launched by Banyan Group Residences in July 2026. According to the developer, it occupies one of the few remaining absolute beachfront sites within Laguna.\nEach four-bedroom townhome spans four levels. The design, described as \"Coastal Biophilia\", combines curved building lines with slatted timber cladding and trellis screening, and floor-to-ceiling glazing opens onto the Andaman Sea. The main living and dining spaces sit on the upper level, a private lift serves every floor, and each home has a garden terrace at ground level and a west-facing rooftop infinity pool and terrace. The master suite has a floor of its own, with a walk-in closet, a reading room and an ensuite bathroom that opens to a private courtyard.\nOwners receive Sanctuary Club membership, RAVA Beach Club and Laguna Golf membership, 24-hour concierge and one year of complimentary property management and insurance under the Laguna Advantage programme. The developer's launch release gives no price, size or completion date; agent listings quote very different prices, so ask us for the current price list.",
   "startingPrice": 109900000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-12",
-  "bedroomsMin": 3,
+  "bedroomsMin": 4,
   "bedroomsMax": 4,
   "builtUpMin": 292,
   "builtUpMax": 298,
@@ -35,7 +35,10 @@
     "24-hour concierge",
     "RAVA Beach Club access",
     "Laguna Golf access",
-    "Laguna Phuket resort facilities"
+    "Laguna Phuket resort facilities",
+    "Master suite on its own floor with walk-in closet and reading room",
+    "Main living and dining spaces on the upper level",
+    "\"Coastal Biophilia\" design with curved lines and slatted timber cladding"
   ],
   "unitTypes": [
     {
@@ -76,7 +79,7 @@
       "url": "https://www.thailand-property.com/house/25325/banyan-tree-beach-residences-varuna"
     }
   ],
-  "researchNotes": "Official release: 8 units, 4 bedrooms each, 4 levels. Agent listings say 3BR 292 sqm and give conflicting prices; bedroom count unresolved. Press page lists no price, size or completion. Official images on banyangroupresidences.com were relative paths (/sites/bgr/files/inline-images/2_1.png and 4.png); not fetched as absolute URLs. Papaya freehold claim is not stated by the official release. | Papaya Property lists from 109,900,000 (3BR 292 sqm; range up to 245M); Thailand-Property lists 129,899,999 (and 'contact for price'). Client 136.4M not found. Official Banyan Group press page states no price. | claimed price 136400000",
+  "researchNotes": "Official release: 8 units, 4 bedrooms each, 4 levels. Agent listings say 3BR 292 sqm and give conflicting prices; bedroom count unresolved. Press page lists no price, size or completion. Official images on banyangroupresidences.com were relative paths (/sites/bgr/files/inline-images/2_1.png and 4.png); not fetched as absolute URLs. Papaya freehold claim is not stated by the official release. | Papaya Property lists from 109,900,000 (3BR 292 sqm; range up to 245M); Thailand-Property lists 129,899,999 (and 'contact for price'). Client 136.4M not found. Official Banyan Group press page states no price. | claimed price 136400000 | Phase 3 (2026-11-19): Official release (banyangroupresidences.com/cn/node/309, read 2026-11-19): 8 townhomes, 4 bedrooms each, 4 levels, no sizes, no price, no completion date, tenure not stated. Bedrooms set to 4 from the official release; agent listings show a 3-bedroom 292 sqm unit. Rental-programme wording differs between sources (official page vs press copies): not mentioned on the page.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
   "imageCaptions": [

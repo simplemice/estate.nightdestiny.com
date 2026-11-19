@@ -7,8 +7,8 @@
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-12",
-  "shortDescription": "A development of single-storey private pool villas in Cherng Talay, on generous plots with large built-up areas.",
-  "description": "A development of single-storey private pool villas in Cherng Talay, on generous plots with large built-up areas. The agent lists 3 and 4 bedroom villas, with Boat Avenue, Porto de Phuket, Laguna Golf and Blue Tree among the nearby attractions.",
+  "shortDescription": "Single-storey private pool villas by Mouana Phuket in Thep Krasattri, Cherng Talay: 20 villas of 3 and 4 bedrooms on generous plots.",
+  "description": "Mouana Serenity Cherng Talay is a development of single-storey private pool villas by Mouana Phuket in Thep Krasattri, in the Cherng Talay area of Thalang. Project listings count 20 villas on a site of about 12,700 m², in modern tropical architecture with landscaped gardens.\nThe villas have three or four bedrooms, with about 360 to 413 m² of built-up area on plots of roughly 490 to 680 m². Parking is covered, and agent listings quote a starting price from about THB 26.7 million. Foreign buyers are offered the villas on a leasehold basis, with a reservation fee of THB 200,000, a 30% deposit at contract signing and the remaining 70% in instalments tied to construction progress.\nListings place the project about 8 minutes from Cherng Talay Beach and about 7 minutes from Boat Avenue. Sources disagree on the unit count (16 or 20) and on whether the villas were completed in January 2025 or are due in 2026, so please ask us to confirm the current status and availability.",
   "startingPrice": 26700000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-12",
@@ -69,6 +69,16 @@
       "place": "UTime Fitness Blue Tree",
       "distance": "3.6 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Cherng Talay Beach",
+      "distance": "8 minutes (4.7 km)",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "7 minutes (3.7 km)",
+      "mode": "unspecified"
     }
   ],
   "unitTypes": [
@@ -105,9 +115,13 @@
     {
       "label": "Keller Henson (agent)",
       "url": "https://kellerhenson.com/project/mouana-serenity-cherng-talay"
+    },
+    {
+      "label": "FazWaz project page: Mouana Serenity Cherngtalay (20 units, developer Mouana Phuket)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/thep-krasattri/mouana-serenity-cherngtalay"
     }
   ],
-  "researchNotes": "Source discrepancies: built-up 357-465, land 468-678, unit count 16 vs 20, bedrooms 3-4 vs 4-5, completion. Ranges stored from agent project-details values. Image kinds/render status unverified. | Client says price on request, but Keller Henson (agent) advertises 26.7M-32.2M THB; other portals 26.7M-36.9M. Verify.",
+  "researchNotes": "Source discrepancies: built-up 357-465, land 468-678, unit count 16 vs 20, bedrooms 3-4 vs 4-5, completion. Ranges stored from agent project-details values. Image kinds/render status unverified. | Client says price on request, but Keller Henson (agent) advertises 26.7M-32.2M THB; other portals 26.7M-36.9M. Verify. | Phase 3 (2026-11-19): FazWaz (browser read 2026-11-19): Mouana Phuket; 20 units, 1 building, 12,732 sqm; says completed Jan 2025 (Keller Henson: Q3 2026, status in our data: under construction: unresolved). Distances 8 min (4.7 km) Cherng Talay Beach and 7 min (3.7 km) Boat Avenue from listing summaries; mode not stated.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mouana-serenity-cherng-talay/photo-1.jpg",
   "imageCaptions": [

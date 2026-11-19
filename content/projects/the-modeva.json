@@ -3,8 +3,8 @@
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
   "projectType": "Condominium",
-  "shortDescription": "Bang Tao condominium with lobby lounge, gym, onsen and co-working space.",
-  "description": "Condominium in Bang Tao with units from 1-bedroom to 3-bedroom duplexes. Construction was reported at about 91% in October 2026.\nPrices and availability on request via WhatsApp.",
+  "shortDescription": "A large low-rise condominium community in Bang Tao by Rhom Bho Property (The Title brand), with seven buildings and about 859 residences.",
+  "description": "The Modeva is a low-rise condominium community in the Bang Tao area of Thalang, developed by Rhom Bho Property, the company behind The Title brand. Project listings describe about 859 residences in seven buildings of seven storeys each, on a site of roughly 25,000 m², making it one of the larger developments in our catalogue.\nHome types range from one-bedroom apartments of about 29–43 m² and one-bedroom Plus homes of 55–58 m² to two-bedroom apartments, two-bedroom duplexes of up to about 138 m² and three-bedroom duplexes of about 146–148 m². Shared facilities listed include a communal pool on the seventh floor and a reception lobby on the ground level. Units are offered within the Thai foreign quota.\nThe project is under construction. Portals quote different completion dates (from late 2026 to 2027), so we show none: please ask us to confirm the current construction status, price list and available units.",
   "currency": "THB",
   "constructionStatus": "Under construction",
   "cover": "/assets/images/projects/the-modeva/g1.jpg",
@@ -74,5 +74,18 @@
   "priceNote": "Lowest advertised price listed by an agent, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
   "ownership": [
     "Freehold"
-  ]
+  ],
+  "totalUnits": "859",
+  "floors": "7 buildings, 7 storeys each",
+  "facilities": [
+    "Communal swimming pool (7th floor)",
+    "Reception and lobby area (ground floor)"
+  ],
+  "sources": [
+    {
+      "label": "FazWaz project page: The Modeva (859 units, 7 buildings; listing completion Dec 2026 conflicts with other sources)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-modeva"
+    }
+  ],
+  "researchNotes": "Phase 3 (2026-11-19): FazWaz (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (FazWaz), Q4 2027, 03/2027 (other listings): not published. No official site found."
 }

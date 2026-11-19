@@ -242,10 +242,10 @@
   "sale.sub": "Condos and villas available to buy",
   "sale.desc": "Property for sale in Phuket, Thailand: villas, townhouses and condos in new developments. Filter by area, price and bedrooms, then enquire on WhatsApp.",
   "sale.title": "Property for Sale in Phuket | {site}",
-  "projects.ttl": "Off-Plan & New Development Property in Phuket",
-  "projects.h1": "New & Off-Plan Real Estate Projects in Phuket",
-  "projects.sub": "New developments: villas, townhouses and condominiums",
-  "projects.desc": "New and off-plan development projects in Phuket, Thailand: villas, townhouses and condominiums with starting prices, floor plans and completion dates.",
+  "projects.ttl": "New Developments in Phuket with Price on Request",
+  "projects.h1": "Phuket Projects with Price on Request",
+  "projects.sub": "Developments whose price list is available on request",
+  "projects.desc": "New projects in Phuket with no published price: villas, townhouses and condominiums. Ask us on WhatsApp for the current price list, availability and floor plans.",
   "cat.properties.ttl": "Phuket Villas, Townhouses & Condos",
   "cat.properties.h1": "Phuket Villas, Townhouses & New Developments",
   "cat.properties.sub": "Browse every development project in our catalogue",
@@ -364,7 +364,7 @@
   "ci.status": "Construction status: {x}.",
   "ci.own": "Ownership listed by sources: {x}.",
   "ci.price": "Advertised starting prices run from {from} to {to} ({k} of {N} projects publish a price; the others are on request).",
-  "ci.h.projects": "New and off-plan projects by construction stage",
+  "ci.h.projects": "Projects without a published price",
   "ci.h.properties": "Phuket property catalogue at a glance",
   "ci.h.villas": "Villa projects in Phuket at a glance",
   "ci.h.townhouses": "Townhouse projects in Phuket at a glance",
@@ -372,5 +372,6 @@
   "ci.grp_pre": "Pre-sale ({n}):",
   "ci.grp_uc": "Under construction ({n}):",
   "ci.grp_done": "Completed ({n}):",
-  "cat.townhouses.ttl": "Townhouses for Sale in Phuket: New Developments"
+  "cat.townhouses.ttl": "Townhouses for Sale in Phuket: New Developments",
+  "ci.proj_priced": "Projects with a published starting price are listed under {sale} and in the {cat}."
 }

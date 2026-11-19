@@ -486,7 +486,7 @@
    71
   ],
   "status": "Pre-sale",
-  "completionDate": null,
+  "completionDate": "Q3 2028 (agent listings)",
   "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
   "imageCount": 2,
   "lastVerified": "2026-11-14"
@@ -996,7 +996,7 @@
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   3,
+   4,
    4
   ],
   "bathrooms": [
