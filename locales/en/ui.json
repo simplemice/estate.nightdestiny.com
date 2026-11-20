@@ -391,5 +391,7 @@
   "tl.from": "from {price}",
   "tl.beds": "{r} bedrooms",
   "tl.early": "{k} of {n} in pre-sale or under construction",
-  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}."
+  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}.",
+  "hub.other_h": "Other areas with projects",
+  "hub.other_p": "These areas have a single project each, so there is no separate area page yet. Open the project directly."
 }
