@@ -3,6 +3,11 @@
   "category": "Condominium",
   "projectType": "Eco condominium / aparthotel-style resort condo",
   "location": "Cherngtalay (Choeng Thale), near Layan Beach",
+  "area": "Cherng Talay",
+  "nearbyAreas": [
+    "Layan"
+  ],
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

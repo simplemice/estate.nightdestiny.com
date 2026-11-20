@@ -3,6 +3,8 @@
   "category": "Townhouse",
   "projectType": "2-storey townhouse with communal pool",
   "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

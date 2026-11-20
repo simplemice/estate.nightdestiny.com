@@ -3,6 +3,11 @@
   "category": "Townhouse",
   "projectType": "townhouses and villas",
   "location": "Laguna",
+  "area": "Laguna",
+  "nearbyAreas": [
+    "Cherng Talay"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

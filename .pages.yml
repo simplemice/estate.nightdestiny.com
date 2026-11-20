@@ -135,6 +135,10 @@ content:
       - { name: published, label: Published (visible on website), type: boolean, default: true }
       - { name: featured, label: Featured on homepage, type: boolean, default: false }
       - { name: publishedAt, label: Publication date, type: date, options: { format: yyyy-MM-dd } }
+      - { name: area, label: Primary area (controls which location page lists this project), type: select, description: "The area where the project actually is (use the official/developer address, not a nearby landmark). If empty, the area is guessed from the free-text Location above.", options: { values: [Bang Tao, Laguna, Cherng Talay, Layan, Surin, Si Sunthon, Thalang, Nai Yang, Mai Khao, Kamala, Patong, Kathu, Karon, Kata, Nai Harn, Rawai, Chalong, Cape Yamu, Ko Kaeo, Phuket Town, Pru Jampa] } }
+      - { name: neighbourhood, label: Neighbourhood / estate (optional), type: string, description: "A more specific place inside the area, e.g. Botanica Grand Avenue, Laguna Lakelands, Bang Jo." }
+      - { name: nearbyAreas, label: Nearby areas (optional), type: select, list: true, description: "Other areas this project is close to. It is listed under 'also close to' on those area pages but is NOT counted there.", options: { values: [Bang Tao, Laguna, Cherng Talay, Layan, Surin, Si Sunthon, Thalang, Nai Yang, Mai Khao, Kamala, Patong, Kathu, Karon, Kata, Nai Harn, Rawai, Chalong, Cape Yamu, Ko Kaeo, Phuket Town, Pru Jampa] } }
+      - { name: locationStatus, label: Location check, type: select, description: "verified = confirmed from a developer/official source; probable = sources agree but no official address; unresolved = sources conflict (needs a human check).", options: { values: [verified, probable, unresolved] } }
       - { name: developer, label: Developer, type: string }
       - { name: projectType, label: Project type (free text, e.g. Condominium, pool villa, townhouse), type: string, required: true }
       - { name: imagesStatus, label: Photo status, type: select, description: "Set to unavailable when no rights-cleared photos exist; the site then shows a 'Photos on request' placeholder.", options: { values: [available, unavailable] } }

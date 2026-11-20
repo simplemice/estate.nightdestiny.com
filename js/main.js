@@ -89,7 +89,7 @@
     /*------------------
         Magnific Popup
     --------------------*/
-    $('.video-popup').magnificPopup({
+    if ($.fn.magnificPopup) $('.video-popup').magnificPopup({
         type: 'iframe'
     });
 

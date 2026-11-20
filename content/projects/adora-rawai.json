@@ -1,6 +1,8 @@
 {
   "name": "The Title Adora Rawai",
   "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
   "projectType": "Condominium",
   "constructionStatus": "Under construction",
   "completionDate": "2027-03",

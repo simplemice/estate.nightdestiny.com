@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "condominium",
   "location": "Mai Khao",
+  "area": "Mai Khao",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

@@ -2,6 +2,11 @@
   "name": "The Title Villa Kirara",
   "developer": "Rhom Bho Property PLC",
   "location": "Cherng Talay",
+  "area": "Cherng Talay",
+  "nearbyAreas": [
+    "Si Sunthon"
+  ],
+  "locationStatus": "unresolved",
   "projectType": "pool villa",
   "shortDescription": "Villa Kirara is a pool-villa enclave by The Title Residence, offered in five plan types (Aura, Selene, Lyra, Myrrah, Xenia) with 360-degree virtual tours.",
   "description": "Villa Kirara is a pool-villa enclave by The Title Residence, offered in five plan types (Aura, Selene, Lyra, Myrrah, Xenia) with 360-degree virtual tours. The developer's site reports construction progress at 15.03% as of October 2026, with piling complete.",

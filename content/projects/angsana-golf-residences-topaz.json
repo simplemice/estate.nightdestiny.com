@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Low-rise branded residences",
   "location": "Laguna Phuket (near Bang Tao)",
+  "area": "Laguna",
+  "neighbourhood": "Laguna Phuket",
+  "nearbyAreas": [
+    "Bang Tao"
+  ],
+  "locationStatus": "verified",
   "currency": "THB",
   "published": true,
   "featured": false,

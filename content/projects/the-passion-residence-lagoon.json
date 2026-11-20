@@ -3,6 +3,8 @@
   "category": "Townhouse",
   "projectType": "townhouse",
   "location": "Ko Kaeo",
+  "area": "Ko Kaeo",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

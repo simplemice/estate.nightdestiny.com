@@ -3,6 +3,11 @@
   "category": "Condominium",
   "projectType": "condominium",
   "location": "Kathu-Patong",
+  "area": "Kathu",
+  "nearbyAreas": [
+    "Patong"
+  ],
+  "locationStatus": "verified",
   "currency": "THB",
   "published": true,
   "featured": false,

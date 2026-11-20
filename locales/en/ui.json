@@ -390,5 +390,6 @@
   "loc.nearby_areas": "Neighbouring areas in our catalogue:",
   "tl.from": "from {price}",
   "tl.beds": "{r} bedrooms",
-  "tl.early": "{k} of {n} in pre-sale or under construction"
+  "tl.early": "{k} of {n} in pre-sale or under construction",
+  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}."
 }

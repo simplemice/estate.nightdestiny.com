@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Patong",
+  "area": "Patong",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

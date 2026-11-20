@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Si Sunthon",
+  "area": "Si Sunthon",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "villa",
   "location": "Thalang (Thep Krasattri)",
+  "area": "Thalang",
+  "locationStatus": "verified",
   "currency": "THB",
   "published": true,
   "featured": false,

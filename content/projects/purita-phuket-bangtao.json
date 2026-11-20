@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Bang Tao (Cherngtalay)",
+  "area": "Bang Tao",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Kata",
+  "area": "Kata",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

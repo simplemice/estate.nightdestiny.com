@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Boutique low-rise condominium",
   "location": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
+  "area": "Cherng Talay",
+  "nearbyAreas": [
+    "Bang Tao",
+    "Laguna"
+  ],
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

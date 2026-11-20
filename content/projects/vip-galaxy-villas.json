@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "villa",
   "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

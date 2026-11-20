@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "Pool villa",
   "location": "Cherng Talay",
+  "area": "Cherng Talay",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

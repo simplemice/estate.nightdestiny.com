@@ -1,6 +1,11 @@
 {
   "name": "The Title Fizz",
   "location": "Kata",
+  "area": "Kata",
+  "nearbyAreas": [
+    "Karon"
+  ],
+  "locationStatus": "unresolved",
   "projectType": "Condominium",
   "constructionStatus": "Pre-sale",
   "shortDescription": "A pop-inspired, pet-friendly seven-storey condominium of just 135 residences by Rhom Bho Property, in the Kata–Karon area of Phuket.",

@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "condominium",
   "location": "Naiyang",
+  "area": "Nai Yang",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

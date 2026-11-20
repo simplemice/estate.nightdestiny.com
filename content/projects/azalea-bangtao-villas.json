@@ -3,6 +3,11 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Cherng Talay",
+  "area": "Cherng Talay",
+  "nearbyAreas": [
+    "Si Sunthon"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Bang Tao / Choeng Thale (Laguna Phuket)",
+  "area": "Laguna",
+  "nearbyAreas": [
+    "Bang Tao",
+    "Cherng Talay"
+  ],
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

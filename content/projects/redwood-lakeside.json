@@ -3,6 +3,11 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Bang Tao",
+  "area": "Bang Tao",
+  "nearbyAreas": [
+    "Cherng Talay"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

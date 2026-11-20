@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Choeng Thale (Laguna Lakelands)",
+  "area": "Laguna",
+  "neighbourhood": "Laguna Lakelands",
+  "nearbyAreas": [
+    "Cherng Talay"
+  ],
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

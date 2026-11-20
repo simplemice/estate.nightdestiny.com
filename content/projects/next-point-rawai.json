@@ -3,6 +3,8 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

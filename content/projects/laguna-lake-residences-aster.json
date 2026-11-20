@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Lakeside low-rise condominium",
   "location": "Laguna Phuket, Bang Tao / Cherng Talay",
+  "area": "Laguna",
+  "nearbyAreas": [
+    "Bang Tao",
+    "Cherng Talay"
+  ],
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

@@ -3,6 +3,11 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Si Sunthon",
+  "area": "Si Sunthon",
+  "nearbyAreas": [
+    "Thalang"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

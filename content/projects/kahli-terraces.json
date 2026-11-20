@@ -3,6 +3,11 @@
   "category": "Townhouse",
   "projectType": "townhouse / terrace house",
   "location": "Thalang",
+  "area": "Thalang",
+  "nearbyAreas": [
+    "Cherng Talay"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

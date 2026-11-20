@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Layan",
+  "area": "Layan",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

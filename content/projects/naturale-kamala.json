@@ -3,6 +3,8 @@
   "category": "Villa",
   "projectType": "pool villa",
   "location": "Kamala",
+  "area": "Kamala",
+  "locationStatus": "probable",
   "currency": "THB",
   "published": true,
   "featured": false,

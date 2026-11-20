@@ -3,6 +3,12 @@
   "category": "Condominium",
   "projectType": "Low-rise condominium",
   "location": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
+  "area": "Laguna",
+  "neighbourhood": "Botanica Grand Avenue",
+  "nearbyAreas": [
+    "Cherng Talay"
+  ],
+  "locationStatus": "unresolved",
   "currency": "THB",
   "published": true,
   "featured": false,

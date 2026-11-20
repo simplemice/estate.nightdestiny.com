@@ -1,6 +1,8 @@
 {
   "name": "Casa De Monte",
   "location": "Ko Kaeo",
+  "area": "Ko Kaeo",
+  "locationStatus": "probable",
   "projectType": "Villas",
   "constructionStatus": "Pre-sale",
   "shortDescription": "Pool villas with classic European elegance set among greenery in Ko Kaeo.",
