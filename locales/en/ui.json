@@ -267,7 +267,7 @@
   "hub.sub": "Browse our new developments by area",
   "hub.title": "Phuket Property by Location | {site}",
   "hub.desc": "Browse Phuket property by area: {list} and more. New villa, townhouse and condo developments with WhatsApp enquiries.",
-  "hub.intro": "Pick an area to see the development projects we list there, with advertised starting prices, property types and nearby places. Areas with only one project are not given their own page yet; you can still find them in the {link}.",
+  "hub.intro": "Pick an area to see the development projects we list there, with advertised starting prices, property types and nearby places. Areas with a single project link straight to that project. You can also use the {link}.",
   "hub.link": "full projects list",
   "loc.h1": "Property for Sale in {nm}, Phuket",
   "loc.sub": [
@@ -391,7 +391,5 @@
   "tl.from": "from {price}",
   "tl.beds": "{r} bedrooms",
   "tl.early": "{k} of {n} in pre-sale or under construction",
-  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}.",
-  "hub.other_h": "Other areas with projects",
-  "hub.other_p": "These areas have a single project each, so there is no separate area page yet. Open the project directly."
+  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}."
 }

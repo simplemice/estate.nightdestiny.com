@@ -840,13 +840,12 @@ function locationPage(g) {
 }
 // Areas that have projects but fewer than LOC_MIN, so no area page: shown on the hub with direct links to their projects (no new URL).
 const OTHER_LOCS = [...locGroups.values()].filter((g) => !LOCS.includes(g)).sort((x, y) => x.name.localeCompare(y.name));
+const ALL_LOCS = [...LOCS, ...OTHER_LOCS].sort((a, b) => b.projects.length - a.projects.length || a.name.localeCompare(b.name));
 function locationsHub() {
   const body = `${pageHead(T('hub.h1'), T('hub.sub'), [['/', T('nav.home')], ['', T('nav.locations')]])}
 	<section class="spad-2"><div class="container">
 		<p>${T('hub.intro', { link: `<a href="${lp('/properties/')}">${T('hub.link')}</a>` })}</p>
-		<div class="loc-grid">${LOCS.map((g) => `<a class="loc-chip" href="${lp(g.url)}"><strong>${esc(areaName(g.name))}</strong><span>${countLine(g.projects.length, 'project')}</span></a>`).join('')}</div>
-		${OTHER_LOCS.length ? `<h2 class="mt-5">${T('hub.other_h')}</h2><p>${T('hub.other_p')}</p>
-		<div class="loc-grid">${OTHER_LOCS.map((g) => `<div class="loc-chip"><strong>${esc(areaName(g.name))}</strong>${g.projects.map((x) => `<span><a href="${url(x)}">${esc(x.name)}</a></span>`).join('')}</div>`).join('')}</div>` : ''}
+		<div class="loc-grid">${ALL_LOCS.map((g) => `<a class="loc-chip" href="${g.projects.length === 1 && !LOCS.includes(g) ? url(g.projects[0]) : lp(g.url)}"><strong>${esc(areaName(g.name))}</strong><span>${countLine(g.projects.length, 'project')}</span></a>`).join('')}</div>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: T('hub.ld'), inLanguage: LANG_META[LANG].htmlLang, itemListElement: LOCS.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + lp(g.url), name: areaName(g.name) })) })}`;
   return layout({ title: T('hub.title', { site: settings.siteName }), description: clip(T('hub.desc', { list: LOCS.slice(0, 7).map((g) => areaName(g.name)).join(', ') })), pathname: '/locations/', active: 'locations', body });
