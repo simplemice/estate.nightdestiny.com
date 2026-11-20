@@ -2,7 +2,7 @@
   "name": "Manor",
   "category": "Villa",
   "projectType": "single-storey pool villa",
-  "location": "Bang Tao",
+  "location": "Si Sunthon",
   "currency": "THB",
   "published": true,
   "featured": false,
@@ -134,7 +134,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/manor-phuket"
     }
   ],
-  "researchNotes": "Location is Si Sunthon, not Bang Tao proper (portals say ~12 min to Bang Tao). Data inconsistent between portals (built-up 345-359 vs 456-487, developer name). Official site not found. May overlap with item 19 only by name similarity; item 19 'The Manour' is a different, separate project. | Differs from claimed 28.5M: Keller Henson range 17.2M (Manor Mori Phase 5 3BR) to 51.8M; main Manor 3BR 27.8M, 4BR Luxe 28.9M; Papaya from 23,933,000 for 3BR. Thailand-Property from 23.0M. 28.5M not seen exactly. | claimed price 28500000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Location is Si Sunthon, not Bang Tao proper (portals say ~12 min to Bang Tao). Data inconsistent between portals (built-up 345-359 vs 456-487, developer name). Official site not found. May overlap with item 19 only by name similarity; item 19 'The Manour' is a different, separate project. | Differs from claimed 28.5M: Keller Henson range 17.2M (Manor Mori Phase 5 3BR) to 51.8M; main Manor 3BR 27.8M, 4BR Luxe 28.9M; Papaya from 23,933,000 for 3BR. Thailand-Property from 23.0M. 28.5M not seen exactly. | claimed price 28500000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Bang Tao\" -> \"Si Sunthon\". Evidence: Project text: \"in the Si Sunthon area of Thalang\"; portal address on Ban Khao Lan-Ban Bangjo Road, Si Sunthon; all portal hierarchies list Si Sunthon.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
   "imageCaptions": [

@@ -2,7 +2,7 @@
   "name": "The Manour",
   "category": "Villa",
   "projectType": "villa",
-  "location": "Si Sunthon",
+  "location": "Thalang (Thep Krasattri)",
   "currency": "THB",
   "published": true,
   "featured": false,
@@ -48,7 +48,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/thep-krasattri/the-manour"
     }
   ],
-  "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | a property portal base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | a property portal base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Si Sunthon\" -> \"Thalang (Thep Krasattri)\". Evidence: Project text: \"six units in Thep Krasattri, Thalang\"; portal hierarchy Thep Krasattri.",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"

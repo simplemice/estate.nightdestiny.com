@@ -6,7 +6,7 @@
   ]
  },
  {
-  "name": "Bang Jo (Si Sunthon / Cherngtalay area)",
+  "name": "Bang Jo (Si Sunthon)",
   "projects": [
    "the-tales-story-one-bangjo"
   ]
@@ -14,9 +14,6 @@
  {
   "name": "Bang Tao",
   "projects": [
-   "banyan-tree-beach-residences-nerea",
-   "laguna-beach-residences-bayside",
-   "manor",
    "mono-oxygen-bangtao-beach",
    "redwood-lakeside",
    "sri-panwa-lagoon",
@@ -121,12 +118,7 @@
   "name": "Ko Kaeo",
   "projects": [
    "casa-de-monte",
-   "the-passion-residence-lagoon"
-  ]
- },
- {
-  "name": "Koh Kaew",
-  "projects": [
+   "the-passion-residence-lagoon",
    "zenithy-la-ville"
   ]
  },
@@ -136,6 +128,18 @@
    "banyan-tree-beach-residences-varuna",
    "laguna-park-2",
    "lakelands-waterfront-villas"
+  ]
+ },
+ {
+  "name": "Laguna Phuket (Bang Tao Beach)",
+  "projects": [
+   "banyan-tree-beach-residences-nerea"
+  ]
+ },
+ {
+  "name": "Laguna Phuket (Bang Tao)",
+  "projects": [
+   "laguna-beach-residences-bayside"
   ]
  },
  {
@@ -223,8 +227,8 @@
    "ayana-soluna-villas",
    "amber-chamber",
    "clover-residence",
-   "mount-mono",
-   "the-manour"
+   "manor",
+   "mount-mono"
   ]
  },
  {
@@ -240,6 +244,12 @@
    "mono-champaca",
    "sinara-pool-villas",
    "the-harmony-by-wallaya-villas"
+  ]
+ },
+ {
+  "name": "Thalang (Thep Krasattri)",
+  "projects": [
+   "the-manour"
   ]
  }
 ]
