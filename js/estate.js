@@ -164,3 +164,15 @@
   // plan images open in lightbox
   if ($.fn.magnificPopup) $('.plan-link').magnificPopup({ type: 'image' });
 })(jQuery);
+
+/* Home page: show 3 random featured sale cards on every page load (the HTML contains a default set for crawlers/no-JS). */
+(function () {
+  var row = document.getElementById('home-featured-sale'), tpl = document.getElementById('home-featured-pool');
+  if (!row || !tpl || !tpl.content) return;
+  var cards = Array.prototype.slice.call(tpl.content.children);
+  for (var i = cards.length - 1; i > 0; i--) { var k = Math.floor(Math.random() * (i + 1)), t = cards[i]; cards[i] = cards[k]; cards[k] = t; }
+  var pick = cards.slice(0, 3);
+  if (pick.length < 3) return;
+  while (row.firstChild) row.removeChild(row.firstChild);
+  pick.forEach(function (c) { row.appendChild(c.cloneNode(true)); });
+})();
