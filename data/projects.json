@@ -84,7 +84,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/banyan-tree-beach-residences-nerea/photo-1.webp",
   "imageCount": 10,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "ever-prime-residences",
@@ -142,7 +142,7 @@
   "completionDate": "2028 (exact quarter not confirmed)",
   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
   "imageCount": 10,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "maviston-mai-khao",
@@ -315,7 +315,7 @@
   "completionDate": "Jun 2026",
   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
   "imageCount": 17,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-cocoon",
@@ -866,7 +866,7 @@
   "completionDate": "Jan 2026",
   "cover": "/assets/images/projects/the-tales-story-one-bangjo/photo-1.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "wynn",
@@ -1388,7 +1388,7 @@
   "completionDate": "Sep 2026",
   "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "mono-champaca",
@@ -1881,7 +1881,7 @@
   "completionDate": "Jan 2026",
   "cover": "/assets/images/projects/the-manour/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": null
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-modeva",
@@ -2257,6 +2257,6 @@
   "completionDate": "Jan 2029",
   "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  }
 ]

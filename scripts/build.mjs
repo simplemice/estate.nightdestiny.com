@@ -1209,6 +1209,9 @@ const xesc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '
 const dOf = (p) => dateFmt(p.lastVerified) || dateFmt(p.publishedAt) || today;
 const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
+// Editorial location text lives in locale files: its modification date counts for the area page lastmod.
+const mtimeD = (f) => { try { return fs.statSync(path.join(ROOT, f)).mtime.toISOString().slice(0, 10); } catch { return ''; } };
+const locMod = (g) => [latest(g.projects), ...LANGS.map((l) => mtimeD(`locales/${l}/locations/${g.slug}.json`))].sort().pop();
 const allListings = rentL.concat(saleL, projL);
 const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
 const entry = (loc, lastmod, changefreq, priority, p, only) => (only || readyLangs(p)).map((l, _i, all) => `<url><loc>${SITE}${lpFor(l, loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${all.length > 1 ? `${all.map((a) => `<xhtml:link rel="alternate" hreflang="${LANG_META[a].hreflang}" href="${SITE}${lpFor(a, loc)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${lpFor(DEFAULT_LANG, loc)}"/>` : ''}${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`).join('\n');
@@ -1221,8 +1224,8 @@ const urls = [
   ['/properties/townhouses/', latest(projL.filter((x) => x.category === 'Townhouse')), 'weekly', '0.8'],
   ['/projects/', latest(projL), 'weekly', '0.9'],
   ['/properties/condos/', latest(projL.filter((x) => x.category === 'Condominium')), 'weekly', '0.8'],
-  ['/locations/', latest(projL), 'weekly', '0.8'],
-  ...LOCS.map((g) => [g.url, latest(g.projects), 'weekly', '0.8']),
+  ['/locations/', [...LOCS.map(locMod), ...OTHER_LOCS.map((g) => latest(g.projects))].sort().pop(), 'weekly', '0.8'],
+  ...LOCS.map((g) => [g.url, locMod(g), 'weekly', '0.8']),
   ['/about/', latest(allListings), 'yearly', '0.4'],
   ['/contact/', latest(allListings), 'yearly', '0.5'],
   ...Object.keys(LOCALES.ru.over.guides).map((g) => [`/guides/${g}/`, today, 'monthly', '0.6', null, ['ru']]),
