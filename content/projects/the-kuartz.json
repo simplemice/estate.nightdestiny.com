@@ -9,22 +9,50 @@
   "description": "Two seven-storey residential buildings at Karon Beach, with architecture inspired by quartz facets and ocean curves.\nThe site is about 4,400 sqm with roughly 86 car parking spaces including EV spaces. Prices and availability on request via WhatsApp.",
   "currency": "THB",
   "constructionStatus": "Pre-sale",
-  "totalUnits": 189,
-  "cover": "/assets/images/projects/the-kuartz/g1.jpg",
+  "totalUnits": "198",
+  "cover": "/assets/images/projects/the-kuartz/hero.jpg",
   "images": [
-    "/assets/images/projects/the-kuartz/g2.jpg",
-    "/assets/images/projects/the-kuartz/g3.jpg",
-    "/assets/images/projects/the-kuartz/g4.jpg"
+    "/assets/images/projects/the-kuartz/interior-1.webp",
+    "/assets/images/projects/the-kuartz/interior-2.jpg",
+    "/assets/images/projects/the-kuartz/interior-3.jpg"
   ],
   "floorPlans": [],
-  "unitTypes": [],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "31.7-55.4",
+      "price": 5806306,
+      "priceType": "Lowest advertised price",
+      "availability": "103 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "56.6-62.9",
+      "price": 10697129,
+      "priceType": "Lowest advertised price",
+      "availability": "7 units advertised"
+    },
+    {
+      "name": "2 Bedroom Penthouse",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "90.4-97.2",
+      "price": 18198958,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    }
+  ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 5768000,
+  "startingPrice": 5806306,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://asterofasia.com/property/thailand/phuket/the-kuartz-karon",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -36,11 +64,18 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz. Images replaced 2026-11-21 at the owner request (previous gallery files were text banners): sources thetitlekuartz.com/images/hero.jpg, thetitleresidence.com (interior), phuket-realestate.com (2 interior renders). Old files g1-g4 kept on disk, no longer referenced. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bedroomsMin": 1,
   "bedroomsMax": 2,
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 32,
-  "builtUpMax": 62.9
+  "builtUpMax": 62.9,
+  "imageCaptions": [
+    "The Kuartz rooftop pool and terrace (render)",
+    "The Kuartz interior (render)",
+    "The Kuartz interior (render)",
+    "The Kuartz interior (render)"
+  ],
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
 }

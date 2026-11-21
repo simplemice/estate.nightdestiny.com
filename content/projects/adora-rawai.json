@@ -5,124 +5,54 @@
   "locationStatus": "probable",
   "projectType": "Condominium",
   "constructionStatus": "Under construction",
-  "completionDate": "2027-03",
+  "completionDate": "Mar 2027",
   "shortDescription": "Mediterranean-inspired sea-view condominium on Phuket's west coast in Rawai.",
   "description": "Coastal condominium in Rawai on Phuket's west coast, designed around sea views and a Mediterranean-inspired concept.\nUnits range from 30 sqm one-bedroom layouts to 87 sqm two-bedroom layouts. Construction progress was reported at about 69% in October 2026.\nPrices, availability and the full facilities list are provided on request: message us on WhatsApp.",
   "unitTypes": [
     {
-      "name": "1BS",
-      "size": 30,
-      "bedrooms": 1,
-      "availability": "Available"
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "37",
+      "price": 5473684,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1BSA",
-      "size": 35,
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "30-60",
+      "price": 4845263,
+      "priceType": "Lowest advertised price",
+      "availability": "108 units advertised"
     },
     {
-      "name": "1BM",
-      "size": 37,
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "57",
+      "price": 7368421,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1BMC",
-      "size": 37,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BMA",
-      "size": 42,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BMX",
-      "size": 42,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BL",
-      "size": 43,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BLC",
-      "size": 43,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BLA",
-      "size": 48,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BLX",
-      "size": 48,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BPM",
-      "size": 49,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BPL",
-      "size": 57,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BPLC",
-      "size": 57,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BPLC1",
-      "size": 57,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BPLA",
-      "size": 60,
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "2BM",
-      "size": 67,
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "57",
+      "price": 7000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
-      "name": "2BMA",
-      "size": 74,
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "2BL",
-      "size": 81,
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 10586000
-    },
-    {
-      "name": "2BLA",
-      "size": 87,
-      "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "67-81",
+      "price": 10586000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
     }
   ],
   "nearby": [],
@@ -148,10 +78,10 @@
   "published": true,
   "publishedAt": "2026-11-12",
   "developer": "Rhom Bho Property PLC (The Title)",
-  "startingPrice": 5698000,
+  "startingPrice": 4845263,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-adora-rawai",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-adora-rawai",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -165,7 +95,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-adora-rawai"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

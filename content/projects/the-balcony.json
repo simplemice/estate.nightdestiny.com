@@ -25,42 +25,22 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom M",
-      "size": "33-35",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "33-49.85",
+      "price": 5742030,
+      "priceType": "Lowest advertised price",
+      "availability": "43 units advertised"
     },
     {
-      "name": "1 Bedroom L",
-      "size": "37-49",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 4960000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "44-47",
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom S",
-      "size": "50-55",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom M",
-      "size": "62-75",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 7700000
-    },
-    {
-      "name": "Penthouse",
-      "size": "134-139",
-      "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "50.03-62.9",
+      "price": 8367300,
+      "priceType": "Lowest advertised price",
+      "availability": "49 units advertised"
     }
   ],
   "nearby": [
@@ -76,15 +56,15 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 4960000,
+  "startingPrice": 5742030,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-balcony",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-balcony",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
-  "floors": "5",
+  "floors": "10 buildings, 5 storeys each",
   "completionDate": "Dec 2027",
   "sources": [
     {
@@ -92,7 +72,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-balcony"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

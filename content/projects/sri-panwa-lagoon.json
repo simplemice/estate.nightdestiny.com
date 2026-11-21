@@ -12,9 +12,9 @@
   "developer": "Charn Issara",
   "shortDescription": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells.",
   "description": "Lakefront residences within a 60-rai mixed-use development in Bang Tao, comprising 16 pool villas and 12 Multi-Flex houses delivered as customisable shells. Architecture is by Habita Architects with interiors by Studio Chemistri, and the project is limited to 28 homes.",
-  "startingPrice": 41000000,
+  "startingPrice": 39800000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 6,
   "bathroomsMin": 3,
@@ -75,46 +75,49 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Multi-Flex House Type A",
+      "name": "3 Bedroom Townhouse",
       "bedrooms": 3,
       "bathrooms": 3,
-      "size": "457",
-      "price": 41000000
+      "size": "380.24-422.5",
+      "price": 39800000,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
     },
     {
-      "name": "4BR Multi-Flex House Type B",
-      "bedrooms": 4,
-      "bathrooms": 4,
-      "size": "461",
-      "price": 41000000
-    },
-    {
-      "name": "3BR Pool Villa Moonlit Whisper",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "307",
-      "price": 45700000
+      "bathrooms": 5,
+      "size": "268.24-323.11",
+      "price": 43800000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     },
     {
-      "name": "4BR Pool Villa Copper Glow",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 5,
-      "size": "381",
-      "price": 54500000
+      "size": "388.71-451.16",
+      "price": 65300000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     },
     {
-      "name": "5BR Pool Villa Golden Aura",
+      "name": "5 Bedroom Villa",
       "bedrooms": 5,
-      "bathrooms": 6,
-      "size": "670",
-      "price": 105200000
+      "bathrooms": 5,
+      "size": "639.2",
+      "price": 126000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "6BR Pool Villa Diamond Radiance",
+      "name": "6 Bedroom Villa",
       "bedrooms": 6,
-      "bathrooms": 7,
-      "size": "857",
-      "price": 151300000
+      "bathrooms": 5,
+      "size": "964.22",
+      "price": 178800000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     }
   ],
   "images": [
@@ -130,7 +133,7 @@
       "url": "https://kellerhenson.com/project/sri-panwa-lagoon"
     }
   ],
-  "researchNotes": "Official developer site not found/fetched. Images may be renders (not stated). Keller Henson page has internal inconsistencies (price/sqm, FAQ built-up 565-572 sqm). Papaya range 45.5M-126M. Ownership: freehold via Thai company/national, 30+30+30 lease for foreigners. | Keller Henson header shows from THB 41.0M (3BR/4BR Multi-Flex House); its FAQ says 49.3M. a property portal and Asterofasia (via search snippets, pages not readable) show 39.8M, which matches the claim but could not be verified on-page. Cheapest pool villa 45.7M. | claimed price 39800000",
+  "researchNotes": "Official developer site not found/fetched. Images may be renders (not stated). Keller Henson page has internal inconsistencies (price/sqm, FAQ built-up 565-572 sqm). Papaya range 45.5M-126M. Ownership: freehold via Thai company/national, 30+30+30 lease for foreigners. | Keller Henson header shows from THB 41.0M (3BR/4BR Multi-Flex House); its FAQ says 49.3M. a property portal and Asterofasia (via search snippets, pages not readable) show 39.8M, which matches the claim but could not be verified on-page. Cheapest pool villa 45.7M. | claimed price 39800000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
   "imageCaptions": [
@@ -139,5 +142,7 @@
     "Diamond Radiance villa",
     "Facilities"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/sri-panwa-lagoon"
 }

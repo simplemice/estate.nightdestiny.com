@@ -16,7 +16,7 @@
   "description": "A small boutique pool-villa development in the Bang Jo area of Cherng Talay/Si Sunthon. Portal sources describe it as a few minutes from Bang Tao Beach, Laguna and Boat Avenue-area attractions, with only a handful of villas left for sale.",
   "startingPrice": 23000000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "privatePool": "yes",
   "constructionStatus": "Completed",
   "facilities": [
@@ -31,7 +31,35 @@
       "mode": "unspecified"
     }
   ],
-  "unitTypes": [],
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "278.99",
+      "price": 23000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "334.59",
+      "price": 28500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "5 Bedroom Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "359",
+      "price": 33500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    }
+  ],
   "images": [
     "/assets/images/projects/azalea-bangtao-villas/photo-2.jpg",
     "/assets/images/projects/azalea-bangtao-villas/photo-3.jpg",
@@ -59,7 +87,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas"
     }
   ],
-  "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"
@@ -95,5 +123,7 @@
   "bathroomsMin": 4,
   "bathroomsMax": 5,
   "builtUpMin": 278.99,
-  "builtUpMax": 359
+  "builtUpMax": 359,
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas"
 }

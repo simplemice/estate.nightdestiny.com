@@ -12,15 +12,15 @@
   "developer": "Sansiri PCL",
   "shortDescription": "Sansiri's new condominium of 389 homes in three eight-storey buildings in central Patong, a short walk from Jungceylon and about 900 m from Patong Beach.",
   "description": "BRISA Patong is a new condominium by Sansiri in central Patong, on a site of about 4 rai. It stands directly behind the Jungceylon shopping mall, about 350 m away or a five-minute walk, with Walking Street ten minutes on foot and Patong Beach roughly 900 m away.\nThree eight-storey buildings hold 389 homes, mostly one- and two-bedroom units of about 30 to 71 m², handed over furnished with six appliances. Planned facilities include a swimming pool, a glass-walled gym, a sauna, a cold plunge and the Sansiri Backyard garden. Units are offered within the Thai foreign quota.\nSansiri lists the project on its Phuket page as a new launch from THB 3.9 million. Portal listings point to completion around the third quarter of 2028, but Sansiri has not announced a date, so ask us to confirm the current booking status and availability.",
-  "startingPrice": 3899999,
+  "startingPrice": 3990000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 2,
   "builtUpMin": 30,
   "builtUpMax": 71,
   "totalUnits": 389,
-  "floors": "8",
+  "floors": "3 buildings, 8 storeys each",
   "furniture": "Furnished, handed over with six appliances",
   "parking": "198 spaces",
   "website": "https://www.thailand-property.com/condo/50310/brisa-patong-by-sansiri",
@@ -70,14 +70,31 @@
   ],
   "unitTypes": [
     {
-      "name": "1 bedroom",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "size": "30-34"
+      "bathrooms": 1,
+      "size": "30-41.25",
+      "price": 3990000,
+      "priceType": "Lowest advertised price",
+      "availability": "71 units advertised"
     },
     {
-      "name": "2 bedroom",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "size": "up to 70.75"
+      "bathrooms": 1,
+      "size": "48.75-55.75",
+      "price": 6404000,
+      "priceType": "Lowest advertised price",
+      "availability": "10 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "61.25-71.25",
+      "price": 9956000,
+      "priceType": "Lowest advertised price",
+      "availability": "14 units advertised"
     }
   ],
   "images": [
@@ -98,7 +115,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/patong/brisa-patong-by-sansiri"
     }
   ],
-  "researchNotes": "Identity clear (Sansiri). Official Sansiri page not found. Launch dates conflict: booking 25 Nov 2026 vs public grand opening 7 Dec 2026 (a property portal). Completion not announced. Freehold assumed from search summary (condo); not read on an official page. No fees or payment plan found. Unit builtUp ranges given as strings in unitTypes. Only portal page was read directly; a property portal and Kaohoon returned 403. Land ~4 rai from search summary. | Portal shows 3,899,999-7,275,000 THB (2 units listed); Thai news reports 3.9-13.9M THB range. Starting price consistent at about 3.9M. | Phase 3 (2026-11-19): Sansiri page (read 2026-11-19): lists BRISA Patong, Condominium, New Project, start 3.9 MB; no units, dates or ownership on that page. a property portal (browser read): 389 units, 3 buildings, 8 floors, 6,400 sqm, completion Jul 2028 (portal), Jungceylon 350 m / 5 min walk, Walking Street 10 min walk, Patong Beach ~900 m. Sansiri card tagline ('single-house brand') conflicts with Condominium category: ignored. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Identity clear (Sansiri). Official Sansiri page not found. Launch dates conflict: booking 25 Nov 2026 vs public grand opening 7 Dec 2026 (a property portal). Completion not announced. Freehold assumed from search summary (condo); not read on an official page. No fees or payment plan found. Unit builtUp ranges given as strings in unitTypes. Only portal page was read directly; a property portal and Kaohoon returned 403. Land ~4 rai from search summary. | Portal shows 3,899,999-7,275,000 THB (2 units listed); Thai news reports 3.9-13.9M THB range. Starting price consistent at about 3.9M. | Phase 3 (2026-11-19): Sansiri page (read 2026-11-19): lists BRISA Patong, Condominium, New Project, start 3.9 MB; no units, dates or ownership on that page. a property portal (browser read): 389 units, 3 buildings, 8 floors, 6,400 sqm, completion Jul 2028 (portal), Jungceylon 350 m / 5 min walk, Walking Street 10 min walk, Patong Beach ~900 m. Sansiri card tagline ('single-house brand') conflicts with Condominium category: ignored. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
   "imageCaptions": [
     "BRISA Patong exterior render (three 8-storey buildings)",
@@ -106,8 +123,9 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://www.thailand-property.com/condo/50310/brisa-patong-by-sansiri",
-  "completionDate": "Q3 2028",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/kathu/patong/brisa-patong-by-sansiri",
+  "completionDate": "Jul 2028",
   "bathroomsMin": 1,
-  "bathroomsMax": 2
+  "bathroomsMax": 2,
+  "priceNote": "Lowest advertised price."
 }

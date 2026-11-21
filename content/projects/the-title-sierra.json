@@ -24,32 +24,22 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom S",
-      "size": "28.26",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 2900000
-    },
-    {
-      "name": "1 Bedroom M",
-      "size": "30.23",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 3100000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "44.04",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 4500000
+      "bathrooms": 1,
+      "size": "28.4-59.7",
+      "price": 2906700,
+      "priceType": "Lowest advertised price",
+      "availability": "266 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "56.20",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 5500000
+      "bathrooms": 2,
+      "size": "55.7-62.9",
+      "price": 6523800,
+      "priceType": "Lowest advertised price",
+      "availability": "32 units advertised"
     }
   ],
   "nearby": [
@@ -65,11 +55,11 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 2870000,
+  "startingPrice": 2906700,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-sierra",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-sierra",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -82,5 +72,5 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-sierra"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced)."
 }

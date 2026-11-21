@@ -21,15 +21,15 @@
     "Nai Yang condominium for sale",
     "Silhouette Phuket condo"
   ],
-  "startingPrice": 4400000,
+  "startingPrice": 4712625,
   "priceStatus": "advertised",
-  "priceNote": "Starting price quoted in developer-supplied press coverage; confirm unit and availability.",
+  "priceNote": "Lowest advertised price.",
   "priceType": "Developer price",
-  "priceSourceUrl": "https://thethaiger.com/thai-life/property/the-zero-pioneers-a-new-era-of-eco-smart-residential-living-in-phuket",
-  "lastVerified": "2026-11-17",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/silouette-by-the-zero-phuket",
+  "lastVerified": "2026-11-21",
   "totalUnits": 150,
   "constructionStatus": "Under construction",
-  "completionDate": "Q3 2028",
+  "completionDate": "Jun 2028",
   "facilities": [],
   "nearby": [
     {
@@ -64,7 +64,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/silouette-by-the-zero-phuket"
     }
   ],
-  "researchNotes": "It is a condominium, not villas as the brief assumed (the villas belong to The Zero Bang Tao). Q3 2028 from Asia Property Awards; others say Q2/June 2028. ROI claims in press deliberately not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "It is a condominium, not villas as the brief assumed (the villas belong to The Zero Bang Tao). Q3 2028 from Asia Property Awards; others say Q2/June 2028. ROI claims in press deliberately not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/silouette-by-the-zero-phuket. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
   "images": [
@@ -120,5 +120,34 @@
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 37.5,
-  "builtUpMax": 55.2
+  "builtUpMax": 55.2,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "29.5-36.3",
+      "price": 4712625,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "37.5-52.4",
+      "price": 5234048,
+      "priceType": "Lowest advertised price",
+      "availability": "71 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "53-105",
+      "price": 6625000,
+      "priceType": "Lowest advertised price",
+      "availability": "29 units advertised"
+    }
+  ]
 }

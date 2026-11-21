@@ -20,27 +20,45 @@
   "developer": "Rhom Bho Property PLC (The Title)",
   "startingPrice": 5154707,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/fizz",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-title-fizz",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "unitTypes": [
     {
       "name": "1 Bedroom",
       "bedrooms": 1,
-      "size": "32",
-      "price": 5154707
+      "bathrooms": 1,
+      "size": "32.2-44.3",
+      "price": 5154707,
+      "priceType": "Lowest advertised price",
+      "availability": "121 units advertised"
     },
     {
       "name": "2 Bedroom",
       "bedrooms": 2,
-      "size": "58",
-      "price": 10358818
+      "bathrooms": 2,
+      "size": "58.2",
+      "price": 10358818,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
     },
     {
-      "name": "3 Bedroom",
+      "name": "2 Bedroom Penthouse",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "61.6",
+      "price": 12313848,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    },
+    {
+      "name": "3 Bedroom Penthouse",
       "bedrooms": 3,
-      "size": "105",
-      "price": 20028931
+      "bathrooms": 5,
+      "size": "105.1",
+      "price": 20028931,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     }
   ],
   "ownership": [
@@ -60,7 +78,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-title-fizz"
     }
   ],
-  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 135 units, 1 building, 7 floors, 3,801 sqm project area; design concept Wave/Pop/Bubble; pet-friendly; private clubhouse; communal pool; shuttle to beach; unit types 1BR, 1BR Plus, 2BR, 2BR Penthouse, 3BR Penthouse; units tagged Foreign Quota. a property portal places it in Karon; other listings say Kata area (about 700 m from Kata Beach); location left as Kata. Completion: Q4 2029 on one listing, none on others: not published. No official project website found. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 135 units, 1 building, 7 floors, 3,801 sqm project area; design concept Wave/Pop/Bubble; pet-friendly; private clubhouse; communal pool; shuttle to beach; unit types 1BR, 1BR Plus, 2BR, 2BR Penthouse, 3BR Penthouse; units tagged Foreign Quota. a property portal places it in Karon; other listings say Kata area (about 700 m from Kata Beach); location left as Kata. Completion: Q4 2029 on one listing, none on others: not published. No official project website found. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

@@ -11,9 +11,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025.",
   "description": "A boutique development of seven newly built townhomes in the Ko Kaeo area near Boat Lagoon, completed in 2025. Each home has its own layout, with parking, a garden and security on site.",
-  "startingPrice": 4700000,
+  "startingPrice": 4900000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "totalUnits": 7,
   "constructionStatus": "Completed",
   "facilities": [
@@ -48,7 +48,17 @@
       "mode": "driving"
     }
   ],
-  "unitTypes": [],
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "170",
+      "price": 4900000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    }
+  ],
   "images": [],
   "floorPlans": [],
   "sources": [
@@ -69,7 +79,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
     }
   ],
-  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+1). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "unavailable",
   "completionDate": "Jun 2025",
   "parking": "Parking ratio 200% of units",
@@ -78,5 +88,7 @@
   "bathroomsMin": 3,
   "bathroomsMax": 3,
   "builtUpMin": 170,
-  "builtUpMax": 170
+  "builtUpMax": 170,
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
 }

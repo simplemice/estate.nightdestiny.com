@@ -14,9 +14,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna.",
   "description": "A small gated enclave of private-pool villas in the Cherng Talay area close to Bang Tao and Laguna. Layouts range from two-bedroom Palas to larger Grande villas, with indoor-outdoor living and design customisation during build.",
-  "startingPrice": 13990000,
+  "startingPrice": 11500000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 2,
   "bedroomsMax": 4,
   "bathroomsMin": 2,
@@ -43,22 +43,49 @@
   ],
   "unitTypes": [
     {
-      "name": "2BR (Palas)",
+      "name": "2 Bedroom Villa",
       "bedrooms": 2,
       "bathrooms": 2,
-      "size": "152",
-      "price": 13990000
+      "size": "118.83",
+      "price": 13990000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "3BR",
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "144.39-226.53",
+      "price": 11500000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
+    },
+    {
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 3,
-      "size": "226",
-      "price": 18990000
+      "size": "140-392.06",
+      "price": 14000000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     },
     {
-      "name": "Grande 4BR",
-      "bedrooms": 4
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "size": "269.38",
+      "price": 22490000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "267",
+      "price": 31500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -91,7 +118,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/sunrise-valley"
     }
   ],
-  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
   "imageCaptions": [
@@ -104,5 +131,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "totalUnits": "29",
-  "completionDate": "Dec 2025"
+  "completionDate": "Dec 2025",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/sunrise-valley"
 }

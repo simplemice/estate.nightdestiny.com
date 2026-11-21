@@ -103,6 +103,7 @@ const PATTERNS = [
   [/^Brochure page (\d+)(?: \(unverified content; may include text\))?$/, (m) => `Страница брошюры ${m[1]}${/unverified/.test(m.input) ? ' (содержание не проверено, возможен текст)' : ''}`],
   [/^Exterior (\d+)$/, (m) => `Фасад ${m[1]}`],
   [/^([A-Z][a-z]{2}) (\d{4})$/, (m) => `${MONTHS[m[1]] || m[1]} ${m[2]}`],
+  [/^(\d+) units advertised$/, (m) => `в объявлениях: ${m[1]}`],
   [/^Parking ratio (\d+)% of units$/, (m) => `Парковка: ${m[1]}% от числа юнитов`],
   [/^Varies by unit: (.+)$/, (m) => `Зависит от юнита: ${m[1].split(', ').map((x) => FURN[x] || x).join(', ')}`],
   [/^(\d+) buildings, (\d+) storeys each$/, (m) => `${m[1]} ${ruPl(+m[1], ['корпус', 'корпуса', 'корпусов'])} по ${m[2]} ${ruPl(+m[2], ['этаж', 'этажа', 'этажей'])}`],

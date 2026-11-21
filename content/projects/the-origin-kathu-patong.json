@@ -24,10 +24,10 @@
     "Kathu Patong condominium for sale",
     "studio condo Kathu Phuket"
   ],
-  "startingPrice": 2310000,
+  "startingPrice": 2290000,
   "priceStatus": "advertised",
-  "priceNote": "Base price from a listing (about 81,600 per sqm); Keller Henson shows from 2.3 million.",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-origin-kathu-patong",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong",
   "lastVerified": "2026-11-21",
   "bedroomsMin": 0,
   "bedroomsMax": 2,
@@ -36,7 +36,7 @@
   "ownership": [
     "Freehold"
   ],
-  "constructionStatus": "Status on request",
+  "constructionStatus": "Completed",
   "facilities": [],
   "nearby": [],
   "sources": [
@@ -57,7 +57,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong"
     }
   ],
-  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+7). Source https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
   "images": [
@@ -108,5 +108,43 @@
   "completionDate": "Jun 2026",
   "furniture": "Varies by unit: fully furnished, unfurnished, partly furnished",
   "bathroomsMin": 1,
-  "bathroomsMax": 2
+  "bathroomsMax": 2,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "24.75-28.69",
+      "price": 2562000,
+      "priceType": "Lowest advertised price",
+      "availability": "11 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "28-35.01",
+      "price": 2290000,
+      "priceType": "Lowest advertised price",
+      "availability": "26 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "48.42",
+      "price": 4890000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "47.45-52.2",
+      "price": 4890000,
+      "priceType": "Lowest advertised price",
+      "availability": "9 units advertised"
+    }
+  ]
 }

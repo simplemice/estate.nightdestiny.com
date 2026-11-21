@@ -15,9 +15,9 @@
   "developer": "VillaCarte Group",
   "shortDescription": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach.",
   "description": "Layan Green Park Phase 2 is a seven-storey eco-oriented condominium in Cherngtalay, Thalang, Phuket, close to Layan Beach. It comprises five buildings with 377 units, ranging from studios to three-bedroom units and duplexes, some with private pools. The project advertises EDGE Advanced green certification and extensive resort-style facilities.",
-  "startingPrice": 7500000,
+  "startingPrice": 5374421,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 0,
   "bedroomsMax": 3,
   "builtUpMin": 34.4,
@@ -25,7 +25,7 @@
   "landMin": 9490,
   "landMax": 9490,
   "totalUnits": 377,
-  "floors": "7",
+  "floors": "5 buildings, 7 storeys each",
   "commonAreaFee": "THB 75/sqm",
   "sinkingFund": "THB 650/sqm",
   "privatePool": "some",
@@ -81,64 +81,67 @@
   ],
   "unitTypes": [
     {
-      "name": "Studio garden/pool view",
+      "name": "Studio",
       "bedrooms": 0,
-      "size": "36.72",
-      "price": 7500000
+      "bathrooms": 1,
+      "size": "36-49.5",
+      "price": 5790000,
+      "priceType": "Lowest advertised price",
+      "availability": "17 units advertised"
     },
     {
-      "name": "1BR garden/pool view",
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "36.8",
+      "price": 5374421,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "size": "63.05",
-      "price": 12300000
+      "bathrooms": 1,
+      "size": "43.69-102.99",
+      "price": 8318576,
+      "priceType": "Lowest advertised price",
+      "availability": "36 units advertised"
     },
     {
-      "name": "1BR mountain view",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "size": "74.55",
-      "price": 13400000
+      "bathrooms": 1,
+      "size": "55.6",
+      "price": 9480000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1BR private pool",
-      "bedrooms": 1,
-      "size": "102.99",
-      "price": 18000000
-    },
-    {
-      "name": "2BR garden/pool view",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "size": "74.55",
-      "price": 13200000
+      "bathrooms": 1,
+      "size": "75",
+      "price": 14250000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "2BR private pool",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "size": "93.1",
-      "price": 16800000
+      "bathrooms": 2,
+      "size": "55.6-118.35",
+      "price": 10953200,
+      "priceType": "Lowest advertised price",
+      "availability": "48 units advertised"
     },
     {
-      "name": "2BR mountain view",
-      "bedrooms": 2,
-      "size": "106.8",
-      "price": 18700000
-    },
-    {
-      "name": "2BR duplex pool view",
-      "bedrooms": 2,
-      "size": "172.78",
-      "price": 30900000
-    },
-    {
-      "name": "2BR duplex private pool",
-      "bedrooms": 2,
-      "size": "207.89",
-      "price": 38200000
-    },
-    {
-      "name": "3BR garden view",
+      "name": "3 Bedroom",
       "bedrooms": 3,
-      "size": "148.2",
-      "price": 26600000
+      "bathrooms": 3,
+      "size": "148.2-269.31",
+      "price": 26646360,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
     }
   ],
   "images": [
@@ -169,7 +172,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/layan-green-park-phase-2"
     }
   ],
-  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (a property portal page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (a property portal page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
   "imageCaptions": [
     "Aerial / showcase",
@@ -187,9 +190,10 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://kellerhenson.com/project/layan-green-park-phase-2",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/layan-green-park-phase-2",
   "completionDate": "Dec 2026",
   "furniture": "Fully furnished",
   "bathroomsMin": 1,
-  "bathroomsMax": 2
+  "bathroomsMax": 2,
+  "priceNote": "Lowest advertised price."
 }

@@ -7,7 +7,7 @@
   "propertyType": "condominium",
   "developer": "Ornsirin Group",
   "location": "Si Sunthon",
-  "startingPrice": 2230000,
+  "startingPrice": 2870000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -22,11 +22,11 @@
    34,
    71.41
   ],
-  "status": "Under construction",
+  "status": "Completed",
   "completionDate": "Nov 2026",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "imageCount": 8,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "ayana-soluna-villas",
@@ -36,9 +36,9 @@
   "propertyType": "pool villa",
   "developer": "T.H. Group Phuket Co., Ltd.",
   "location": "Si Sunthon",
-  "startingPrice": null,
+  "startingPrice": 26922000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    3,
    5
@@ -55,7 +55,7 @@
   "completionDate": "Sep 2026",
   "cover": "/assets/images/projects/ayana-soluna-villas/photo-1.jpg",
   "imageCount": 15,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "banyan-tree-beach-residences-nerea",
@@ -94,7 +94,7 @@
   "propertyType": "condominium",
   "developer": null,
   "location": "Karon",
-  "startingPrice": 6200000,
+  "startingPrice": 4727938,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -110,10 +110,10 @@
    179
   ],
   "status": "Status on request",
-  "completionDate": null,
+  "completionDate": "Mar 2028",
   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
   "imageCount": 11,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "laguna-beach-residences-bayside",
@@ -123,7 +123,7 @@
   "propertyType": "condominium",
   "developer": "Banyan Group (Laguna Property)",
   "location": "Laguna Phuket (Bang Tao)",
-  "startingPrice": 22340000,
+  "startingPrice": 25370000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -139,7 +139,7 @@
    359
   ],
   "status": "Under construction",
-  "completionDate": "2028 (exact quarter not confirmed)",
+  "completionDate": "Oct 2028",
   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
   "imageCount": 10,
   "lastVerified": "2026-11-21"
@@ -152,7 +152,7 @@
   "propertyType": "condominium",
   "developer": "Mai Khao Golden Beach",
   "location": "Mai Khao",
-  "startingPrice": 8970000,
+  "startingPrice": 9300000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -168,10 +168,10 @@
    114.87
   ],
   "status": "Status on request",
-  "completionDate": null,
+  "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "imageCount": 12,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "mouana-mai-khao",
@@ -229,7 +229,7 @@
   "completionDate": "Q2 2028",
   "cover": "/assets/images/projects/naturale-kamala/photo-1.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "silhouette-by-the-zero-phuket",
@@ -239,7 +239,7 @@
   "propertyType": "condominium",
   "developer": "The Zero",
   "location": "Naiyang",
-  "startingPrice": 4400000,
+  "startingPrice": 4712625,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -255,10 +255,10 @@
    55.2
   ],
   "status": "Under construction",
-  "completionDate": "Q3 2028",
+  "completionDate": "Jun 2028",
   "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
   "imageCount": 13,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-nayabella-condominium",
@@ -296,7 +296,7 @@
   "propertyType": "condominium",
   "developer": "Origin Property",
   "location": "Kathu-Patong",
-  "startingPrice": 2310000,
+  "startingPrice": 2290000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -311,7 +311,7 @@
    25,
    48
   ],
-  "status": "Status on request",
+  "status": "Completed",
   "completionDate": "Jun 2026",
   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
   "imageCount": 17,
@@ -358,22 +358,22 @@
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   null,
-   null
+   2,
+   3
   ],
   "bathrooms": [
-   null,
-   null
+   2,
+   3
   ],
   "builtUpArea": [
-   null,
-   null
+   300,
+   785
   ],
   "status": "Status on request",
   "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
   "imageCount": 17,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "amber-chamber",
@@ -402,7 +402,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/amber-chamber/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "angsana-golf-residences-topaz",
@@ -441,7 +441,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Laguna Property (Banyan Group)",
   "location": "Bang Tao / Choeng Thale (Laguna Phuket)",
-  "startingPrice": 13200000,
+  "startingPrice": 11800000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -450,7 +450,7 @@
   ],
   "bathrooms": [
    1,
-   2
+   1
   ],
   "builtUpArea": [
    67,
@@ -460,7 +460,7 @@
   "completionDate": "Oct 2029",
   "cover": "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-1.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "brisa-patong",
@@ -470,7 +470,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Sansiri PCL",
   "location": "Patong",
-  "startingPrice": 3899999,
+  "startingPrice": 3990000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -486,10 +486,10 @@
    71
   ],
   "status": "Pre-sale",
-  "completionDate": "Q3 2028",
+  "completionDate": "Jul 2028",
   "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
   "imageCount": 2,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "gardens-of-eden-park-residences",
@@ -515,10 +515,10 @@
    122
   ],
   "status": "Under construction",
-  "completionDate": "Q4 2027",
+  "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "hythe-by-botanica",
@@ -528,7 +528,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Botanica Luxury Phuket Co., Ltd",
   "location": "Cherngtalay (Choeng Thale), within Botanica Grand Avenue / Laguna Phuket area",
-  "startingPrice": 11475000,
+  "startingPrice": 10600000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -543,11 +543,11 @@
    57,
    716
   ],
-  "status": "Under construction",
+  "status": "Completed",
   "completionDate": "Dec 2025",
   "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
   "imageCount": 10,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "kiara-reserve-residences",
@@ -557,7 +557,7 @@
   "propertyType": "Branded beachfront condominium",
   "developer": "Minor International",
   "location": "Layan Beach / Layan Bay, Cherng Talay",
-  "startingPrice": 44500000,
+  "startingPrice": 44000000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -566,7 +566,7 @@
   ],
   "bathrooms": [
    3,
-   3
+   4
   ],
   "builtUpArea": [
    251,
@@ -576,7 +576,7 @@
   "completionDate": "Dec 2025",
   "cover": "/assets/images/projects/kiara-reserve-residences/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "laguna-lake-residences-aster",
@@ -586,7 +586,7 @@
   "propertyType": "Lakeside low-rise condominium",
   "developer": "Laguna Property",
   "location": "Laguna Phuket, Bang Tao / Cherng Talay",
-  "startingPrice": 11630000,
+  "startingPrice": 10500000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -605,7 +605,7 @@
   "completionDate": "Apr 2028",
   "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "layan-green-park-phase-2",
@@ -615,7 +615,7 @@
   "propertyType": "Eco condominium / aparthotel-style resort condo",
   "developer": "VillaCarte Group",
   "location": "Cherngtalay (Choeng Thale), near Layan Beach",
-  "startingPrice": 7500000,
+  "startingPrice": 5374421,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -634,7 +634,7 @@
   "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
   "imageCount": 12,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "monetaria",
@@ -659,11 +659,11 @@
    274.1,
    374.9
   ],
-  "status": "Status on request",
+  "status": "Completed",
   "completionDate": "Apr 2025",
   "cover": "/assets/images/projects/monetaria/photo-1.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "next-point-rawai",
@@ -673,7 +673,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "AE Phuket Co., Ltd.",
   "location": "Rawai",
-  "startingPrice": 3150000,
+  "startingPrice": 3734500,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -692,7 +692,7 @@
   "completionDate": "Feb 2028",
   "cover": "/assets/images/projects/next-point-rawai/photo-1.jpg",
   "imageCount": 10,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "purita-phuket-bangtao",
@@ -718,10 +718,10 @@
    136
   ],
   "status": "Pre-sale",
-  "completionDate": "November 2028",
+  "completionDate": "Nov 2028",
   "cover": "/assets/images/projects/purita-phuket-bangtao/photo-1.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "skypark-elara-lakelands",
@@ -731,7 +731,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Banyan Group Residences (Banyan Group)",
   "location": "Choeng Thale (Laguna Lakelands)",
-  "startingPrice": 9120000,
+  "startingPrice": 8290000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -750,7 +750,7 @@
   "completionDate": "Jul 2028",
   "cover": "/assets/images/projects/skypark-elara-lakelands/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "so-origin-kata-phuket",
@@ -760,7 +760,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Origin Property PCL",
   "location": "Kata",
-  "startingPrice": 3980000,
+  "startingPrice": 3255000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -769,7 +769,7 @@
   ],
   "bathrooms": [
    1,
-   1
+   2
   ],
   "builtUpArea": [
    26,
@@ -779,7 +779,7 @@
   "completionDate": "Sep 2027",
   "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "surfhouse-residences",
@@ -789,7 +789,7 @@
   "propertyType": "Boutique low-rise condominium",
   "developer": "SALA Hospitality Group",
   "location": "Cherngtalay (Choeng Thale), near Bang Tao / Laguna",
-  "startingPrice": 8400000,
+  "startingPrice": 15934757,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -808,7 +808,7 @@
   "completionDate": "Jan 2027",
   "cover": "/assets/images/projects/surfhouse-residences/photo-1.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-base-cherngtalay",
@@ -818,7 +818,7 @@
   "propertyType": "Low-rise condominium",
   "developer": "Sansiri",
   "location": "Cherng Talay (Choeng Thale), Thalang",
-  "startingPrice": 7690000,
+  "startingPrice": 3720000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -826,18 +826,18 @@
    2
   ],
   "bathrooms": [
-   2,
+   1,
    2
   ],
   "builtUpArea": [
    27,
    63
   ],
-  "status": "Status on request",
+  "status": "Completed",
   "completionDate": "Jun 2026",
   "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
   "imageCount": 10,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-tales-story-one-bangjo",
@@ -847,7 +847,7 @@
   "propertyType": "Single-storey pool villa",
   "developer": "Sansiri",
   "location": "Bang Jo (Si Sunthon)",
-  "startingPrice": 45000000,
+  "startingPrice": 39900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -876,7 +876,7 @@
   "propertyType": "Pool villa",
   "developer": "Capital City Realestate Co., Ltd.",
   "location": "Cherng Talay",
-  "startingPrice": 29890000,
+  "startingPrice": 25900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -895,7 +895,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/wynn/photo-7.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "adora-rawai",
@@ -905,11 +905,11 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Rawai",
-  "startingPrice": 5698000,
+  "startingPrice": 4845263,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
+   0,
    2
   ],
   "bathrooms": [
@@ -918,13 +918,13 @@
   ],
   "builtUpArea": [
    30,
-   87
+   81
   ],
   "status": "Under construction",
-  "completionDate": "2027-03",
+  "completionDate": "Mar 2027",
   "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
   "imageCount": 10,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "aileen-villas-layan",
@@ -982,7 +982,7 @@
   "completionDate": "Nov 2025",
   "cover": "/assets/images/projects/azalea-bangtao-villas/photo-1.jpg",
   "imageCount": 15,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "banyan-tree-beach-residences-varuna",
@@ -992,7 +992,7 @@
   "propertyType": "beachfront townhome with rooftop pool",
   "developer": "Laguna Property / Banyan Group Residences",
   "location": "Laguna",
-  "startingPrice": 109900000,
+  "startingPrice": 129900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1000,7 +1000,7 @@
    4
   ],
   "bathrooms": [
-   3,
+   5,
    5
   ],
   "builtUpArea": [
@@ -1011,7 +1011,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "biancana",
@@ -1021,11 +1021,11 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Surin",
-  "startingPrice": 5664000,
+  "startingPrice": 5513000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
+   0,
    3
   ],
   "bathrooms": [
@@ -1040,7 +1040,7 @@
   "completionDate": "Mar 2028",
   "cover": "/assets/images/projects/biancana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "botanica-four-seasons",
@@ -1108,7 +1108,7 @@
   "propertyType": "Villas",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Ko Kaeo",
-  "startingPrice": 30563000,
+  "startingPrice": 11779000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1127,7 +1127,7 @@
   "completionDate": "Jul 2029",
   "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "clover-residence",
@@ -1156,7 +1156,7 @@
   "completionDate": "Aug 2024",
   "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "coralina-kamala",
@@ -1166,7 +1166,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kamala",
-  "startingPrice": 5108000,
+  "startingPrice": 3990000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1185,7 +1185,7 @@
   "completionDate": "Nov 2027",
   "cover": "/assets/images/projects/coralina-kamala/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "fizz",
@@ -1207,14 +1207,14 @@
    2
   ],
   "builtUpArea": [
-   32,
-   105
+   32.2,
+   105.1
   ],
   "status": "Pre-sale",
   "completionDate": null,
   "cover": "/assets/images/projects/fizz/the-fizz-banner-d.jpg",
   "imageCount": 1,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "goldena-city-gems-villas",
@@ -1253,7 +1253,7 @@
   "propertyType": "Duplex villa",
   "developer": null,
   "location": "Kamala",
-  "startingPrice": 10900000,
+  "startingPrice": 11000000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1272,7 +1272,7 @@
   "completionDate": "Nov 2024",
   "cover": "/assets/images/projects/goldena-twin/photo-1.jpg",
   "imageCount": 8,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "kahli-terraces",
@@ -1301,7 +1301,7 @@
   "completionDate": "Mar 2027",
   "cover": "/assets/images/projects/kahli-terraces/photo-9.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "laguna-park-2",
@@ -1327,10 +1327,10 @@
    550
   ],
   "status": "Completed",
-  "completionDate": "2023",
+  "completionDate": "Sep 2023",
   "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "lakelands-waterfront-villas",
@@ -1340,7 +1340,7 @@
   "propertyType": "waterfront pool villa",
   "developer": null,
   "location": "Laguna",
-  "startingPrice": 72100000,
+  "startingPrice": 8132000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1359,7 +1359,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "manor",
@@ -1369,7 +1369,7 @@
   "propertyType": "single-storey pool villa",
   "developer": null,
   "location": "Si Sunthon",
-  "startingPrice": 17200000,
+  "startingPrice": 23500000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1384,7 +1384,7 @@
    345,
    359
   ],
-  "status": "Status on request",
+  "status": "Completed",
   "completionDate": "Sep 2026",
   "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
   "imageCount": 7,
@@ -1398,7 +1398,7 @@
   "propertyType": "pool villa",
   "developer": "The Attitude Club Co., Ltd.",
   "location": "Thalang",
-  "startingPrice": 17800000,
+  "startingPrice": 17900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1417,7 +1417,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/mono-champaca/photo-4.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "mono-oxygen-bangtao-beach",
@@ -1456,7 +1456,7 @@
   "propertyType": "pool villa",
   "developer": null,
   "location": "Bang Jo",
-  "startingPrice": 13048000,
+  "startingPrice": 16310000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1475,7 +1475,7 @@
   "completionDate": "Feb 2027",
   "cover": "/assets/images/projects/mori/photo-3.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "mouana-serenity-cherng-talay",
@@ -1485,7 +1485,7 @@
   "propertyType": "single-storey pool villa",
   "developer": null,
   "location": "Cherng Talay",
-  "startingPrice": 26700000,
+  "startingPrice": 36400000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1500,11 +1500,11 @@
    360,
    413
   ],
-  "status": "Under construction",
-  "completionDate": null,
+  "status": "Completed",
+  "completionDate": "Jan 2025",
   "cover": "/assets/images/projects/mouana-serenity-cherng-talay/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "mount-mono",
@@ -1543,7 +1543,7 @@
   "propertyType": "pool villa",
   "developer": "AAG Development Co., Ltd.",
   "location": "Cherng Talay",
-  "startingPrice": 34371200,
+  "startingPrice": 37360000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1558,11 +1558,11 @@
    357.4,
    511.2
   ],
-  "status": "Under construction",
+  "status": "Completed",
   "completionDate": "Dec 2025",
   "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "pavara-vhana-collection",
@@ -1572,7 +1572,7 @@
   "propertyType": "pool villa",
   "developer": "Pavara Development Co., Ltd",
   "location": "Layan",
-  "startingPrice": 110000000,
+  "startingPrice": 98000000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1591,7 +1591,7 @@
   "completionDate": "Dec 2027",
   "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "redwood-lakeside",
@@ -1620,7 +1620,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "sinara-pool-villas",
@@ -1630,7 +1630,7 @@
   "propertyType": "pool villa",
   "developer": null,
   "location": "Thalang",
-  "startingPrice": 26900000,
+  "startingPrice": 17500000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1649,7 +1649,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "sri-panwa-lagoon",
@@ -1659,7 +1659,7 @@
   "propertyType": "pool villa and Multi-Flex house",
   "developer": "Charn Issara",
   "location": "Bang Tao",
-  "startingPrice": 41000000,
+  "startingPrice": 39800000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1678,7 +1678,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "sunny-moon-village",
@@ -1717,7 +1717,7 @@
   "propertyType": "pool villa",
   "developer": null,
   "location": "Cherng Talay",
-  "startingPrice": 13990000,
+  "startingPrice": 11500000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1736,7 +1736,7 @@
   "completionDate": "Dec 2025",
   "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-balcony",
@@ -1746,7 +1746,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": 4960000,
+  "startingPrice": 5742030,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1759,13 +1759,13 @@
   ],
   "builtUpArea": [
    33,
-   139
+   62.9
   ],
   "status": "Under construction",
   "completionDate": "Dec 2027",
   "cover": "/assets/images/projects/the-balcony/g1.jpg",
   "imageCount": 1,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-harmony-by-wallaya-villas",
@@ -1775,7 +1775,7 @@
   "propertyType": "pool villa",
   "developer": "Wallaya Villas",
   "location": "Thalang",
-  "startingPrice": 23900000,
+  "startingPrice": 27382375,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1794,7 +1794,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
   "imageCount": 11,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-katabello",
@@ -1804,12 +1804,12 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kata",
-  "startingPrice": 3200000,
+  "startingPrice": 4240000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
-   2
+   0,
+   3
   ],
   "bathrooms": [
    1,
@@ -1823,7 +1823,7 @@
   "completionDate": "Jun 2027",
   "cover": "/assets/images/projects/the-katabello/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-kuartz",
@@ -1833,7 +1833,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Karon",
-  "startingPrice": 5768000,
+  "startingPrice": 5806306,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1850,9 +1850,9 @@
   ],
   "status": "Pre-sale",
   "completionDate": null,
-  "cover": "/assets/images/projects/the-kuartz/g1.jpg",
+  "cover": "/assets/images/projects/the-kuartz/hero.jpg",
   "imageCount": 4,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-manour",
@@ -1891,11 +1891,11 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": 4466000,
+  "startingPrice": 4650000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
+   0,
    3
   ],
   "bathrooms": [
@@ -1907,10 +1907,10 @@
    148
   ],
   "status": "Under construction",
-  "completionDate": null,
+  "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/the-modeva/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-olive",
@@ -1920,7 +1920,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": 3961000,
+  "startingPrice": 4096600,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1939,7 +1939,7 @@
   "completionDate": null,
   "cover": "/assets/images/projects/the-olive/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-passion-residence-lagoon",
@@ -1949,7 +1949,7 @@
   "propertyType": "townhouse",
   "developer": null,
   "location": "Ko Kaeo",
-  "startingPrice": 4700000,
+  "startingPrice": 4900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1967,7 +1967,7 @@
   "status": "Completed",
   "completionDate": "Jun 2025",
   "imageCount": 1,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-cielo-rawai",
@@ -1977,7 +1977,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Rawai",
-  "startingPrice": 3875000,
+  "startingPrice": 4600000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -1989,14 +1989,14 @@
    2
   ],
   "builtUpArea": [
-   41,
-   41
+   31,
+   87
   ],
-  "status": "Under construction",
+  "status": "Completed",
   "completionDate": "Sep 2026",
   "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
   "imageCount": 9,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-halo-1",
@@ -2006,11 +2006,11 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": 4320000,
+  "startingPrice": 3900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
+   0,
    2
   ],
   "bathrooms": [
@@ -2018,14 +2018,14 @@
    2
   ],
   "builtUpArea": [
-   36,
-   64
+   35.88,
+   81
   ],
   "status": "Completed",
   "completionDate": "May 2024",
   "cover": "/assets/images/projects/the-title-halo-1/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-heritage-bang-tao",
@@ -2035,7 +2035,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": 5360000,
+  "startingPrice": 4100000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -2048,13 +2048,13 @@
   ],
   "builtUpArea": [
    32,
-   174
+   184.55
   ],
   "status": "Completed",
   "completionDate": "Jan 2026",
   "cover": "/assets/images/projects/the-title-heritage-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-legendary-bang-tao",
@@ -2064,12 +2064,12 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": 7200000,
+  "startingPrice": 3999999,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
    0,
-   2
+   3
   ],
   "bathrooms": [
    1,
@@ -2077,13 +2077,13 @@
   ],
   "builtUpArea": [
    31,
-   94
+   95
   ],
   "status": "Completed",
   "completionDate": "Jan 2025",
   "cover": "/assets/images/projects/the-title-legendary-bang-tao/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-serenity-naiyang",
@@ -2093,26 +2093,26 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Naiyang",
-  "startingPrice": 2900000,
+  "startingPrice": 3100000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
-   1,
+   0,
    3
   ],
   "bathrooms": [
-   null,
-   null
+   1,
+   3
   ],
   "builtUpArea": [
    26,
-   123
+   124.2
   ],
   "status": "Completed",
   "completionDate": "Dec 2026",
   "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-sierra",
@@ -2122,7 +2122,7 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Bang Tao",
-  "startingPrice": 2870000,
+  "startingPrice": 2906700,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -2130,18 +2130,18 @@
    2
   ],
   "bathrooms": [
-   null,
-   null
+   1,
+   2
   ],
   "builtUpArea": [
-   28.26,
-   56.2
+   28.4,
+   62.9
   ],
   "status": "Pre-sale",
   "completionDate": "Jul 2028",
   "cover": "/assets/images/projects/the-title-sierra/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "the-title-vivana",
@@ -2151,16 +2151,16 @@
   "propertyType": "Condominium",
   "developer": "Rhom Bho Property PLC (The Title)",
   "location": "Kamala",
-  "startingPrice": 4124985,
+  "startingPrice": 4201101,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
    1,
-   3
+   2
   ],
   "bathrooms": [
-   null,
-   null
+   1,
+   2
   ],
   "builtUpArea": [
    30,
@@ -2170,7 +2170,7 @@
   "completionDate": "Apr 2029",
   "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
   "imageCount": 6,
-  "lastVerified": "2026-11-14"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "villa-kirara",
@@ -2180,9 +2180,9 @@
   "propertyType": "pool villa",
   "developer": "Rhom Bho Property PLC",
   "location": "Cherng Talay",
-  "startingPrice": null,
+  "startingPrice": 29020000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    3,
    4
@@ -2199,7 +2199,7 @@
   "completionDate": "Dec 2027",
   "cover": "/assets/images/projects/villa-kirara/g1.jpg",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "villa-sumalee",
@@ -2209,7 +2209,7 @@
   "propertyType": "2-storey townhouse with communal pool",
   "developer": null,
   "location": "Rawai",
-  "startingPrice": 8949999,
+  "startingPrice": 8950000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [
@@ -2225,10 +2225,10 @@
    144
   ],
   "status": "Completed",
-  "completionDate": "2017",
+  "completionDate": "Dec 2017",
   "cover": "/assets/images/projects/villa-sumalee/photo-1.webp",
   "imageCount": 1,
-  "lastVerified": "2026-11-12"
+  "lastVerified": "2026-11-21"
  },
  {
   "id": "zenithy-la-ville",
@@ -2238,7 +2238,7 @@
   "propertyType": "pool villa",
   "developer": "Zenithy Development",
   "location": "Ko Kaeo",
-  "startingPrice": 20900000,
+  "startingPrice": 19900000,
   "currency": "THB",
   "priceStatus": "advertised",
   "bedrooms": [

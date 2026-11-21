@@ -9,7 +9,7 @@
   "description": "Four seven-storey residential buildings in Kamala with an Italian coastal style, 306 units in total and a shuttle to Kamala Beach.\nUnits range from 30 sqm 1-bedroom layouts up to 3-bedroom penthouses. Prices and availability on request via WhatsApp.",
   "currency": "THB",
   "constructionStatus": "Pre-sale",
-  "totalUnits": 306,
+  "totalUnits": "363",
   "cover": "/assets/images/projects/the-title-vivana/g1.jpg",
   "images": [
     "/assets/images/projects/the-title-vivana/g2.jpg",
@@ -24,75 +24,32 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom S",
-      "size": "30",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 4100000
+      "bathrooms": 1,
+      "size": "30-55.5",
+      "price": 4201101,
+      "priceType": "Lowest advertised price",
+      "availability": "147 units advertised"
     },
     {
-      "name": "1 Bedroom M",
-      "size": "32.5-36",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 4200000
-    },
-    {
-      "name": "1 Bedroom L",
-      "size": "40.5-43.5",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 5400000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "50-56",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 6600000
-    },
-    {
-      "name": "2 Bedroom M",
-      "size": "60-66",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 8500000
-    },
-    {
-      "name": "2 Bedroom L",
-      "size": "80-100",
-      "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom XL",
-      "size": "120.5-128.5",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 16000000
-    },
-    {
-      "name": "Penthouse 2 Bedroom",
-      "size": "81-105",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 11900000
-    },
-    {
-      "name": "Penthouse 3 Bedroom",
-      "size": "113.5-123",
-      "bedrooms": 3,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "60-128.5",
+      "price": 7990467,
+      "priceType": "Lowest advertised price",
+      "availability": "47 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 4124985,
+  "startingPrice": 4201101,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-vivana",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-06-16.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-vivana-kamala",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -105,5 +62,5 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-vivana-kamala"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced)."
 }

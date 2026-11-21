@@ -38,26 +38,20 @@
     {
       "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 3961000
+      "bathrooms": 1,
+      "size": "31.75-52.2",
+      "price": 4096600,
+      "priceType": "Lowest advertised price",
+      "availability": "148 units advertised"
     },
     {
-      "name": "1 Bedroom Plus",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 6100000
-    },
-    {
-      "name": "2 Bedroom S",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 7300000
-    },
-    {
-      "name": "2 Bedroom M",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 8200000
+      "bathrooms": 2,
+      "size": "55.9-62.75",
+      "price": 7177100,
+      "priceType": "Lowest advertised price",
+      "availability": "28 units advertised"
     }
   ],
   "nearby": [
@@ -85,11 +79,11 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 3961000,
+  "startingPrice": 4096600,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/unit/the-olive-1br",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-06-21. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-olive",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -100,7 +94,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-olive"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 32.05,

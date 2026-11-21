@@ -11,9 +11,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate.",
   "description": "A collection of lakeside four-bedroom pool villas set within the roughly one-square-kilometre Laguna Phuket estate. The project is described as 14 exclusive units, with lagoon and hill views and access to the estate's trails and private beach club.",
-  "startingPrice": 72100000,
+  "startingPrice": 8132000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 4,
   "bedroomsMax": 4,
   "bathroomsMin": 4,
@@ -49,12 +49,31 @@
   ],
   "unitTypes": [
     {
-      "name": "4BR Waterfront Villa",
+      "name": "1 Bedroom Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "48",
+      "price": 8132000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "436",
+      "price": 54800000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 4,
       "size": "556",
-      "landSqm": "700",
-      "price": 72100000
+      "price": 67800000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
     }
   ],
   "images": [
@@ -78,7 +97,7 @@
       "url": "https://www.thailand-property.com/house/25460/laguna-lakelands-waterfront-villas"
     }
   ],
-  "researchNotes": "Gallery captions unknown (images may be renders). Official Banyan Group Residences page not fetched. Ownership leasehold per one Papaya page; another Papaya page reportedly says freehold. | Differs strongly from claimed 54.8M. Papaya: 4BR 556 sqm at 72,100,000. Lazudi snippet: 4BR 558 sqm 60,600,000. Thailand-Property/a property portal range 8.1M-67.8M (likely erroneous low end). 54.8M not found. | claimed price 54800000",
+  "researchNotes": "Gallery captions unknown (images may be renders). Official Banyan Group Residences page not fetched. Ownership leasehold per one Papaya page; another Papaya page reportedly says freehold. | Differs strongly from claimed 54.8M. Papaya: 4BR 556 sqm at 72,100,000. Lazudi snippet: 4BR 558 sqm 60,600,000. Thailand-Property/a property portal range 8.1M-67.8M (likely erroneous low end). 54.8M not found. | claimed price 54800000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-lakelands-waterfront-villas/photo-1.jpg",
   "imageCaptions": [
@@ -88,5 +107,7 @@
     "Waterfront Villas gallery 5",
     "Waterfront Villas gallery 6"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-lakelands-waterfront-villas"
 }

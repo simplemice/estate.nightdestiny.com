@@ -23,9 +23,9 @@
   ],
   "startingPrice": 22327200,
   "priceStatus": "advertised",
-  "priceNote": "Starting price from two property portals (including Thailand-Property), in line with Keller Henson (about 22.33 million).",
+  "priceNote": "Lowest advertised price.",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas",
-  "lastVerified": "2026-11-17",
+  "lastVerified": "2026-11-21",
   "constructionStatus": "Status on request",
   "facilities": [],
   "nearby": [
@@ -53,7 +53,7 @@
       "url": "https://www.hipflat.com/projects/vip-galaxy-villas-iqmnau"
     }
   ],
-  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several source sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several source sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
   "images": [
@@ -111,5 +111,43 @@
   },
   "totalUnits": "114",
   "completionDate": "Dec 2026",
-  "parking": "Parking ratio 100% of units"
+  "parking": "Parking ratio 100% of units",
+  "unitTypes": [
+    {
+      "name": "2 Bedroom Townhouse",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "300",
+      "price": 22344000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom Townhouse",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "300",
+      "price": 22327200,
+      "priceType": "Lowest advertised price",
+      "availability": "43 units advertised"
+    },
+    {
+      "name": "2 Bedroom Villa",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "518-625",
+      "price": 37209500,
+      "priceType": "Lowest advertised price",
+      "availability": "15 units advertised"
+    },
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "596-785",
+      "price": 39000000,
+      "priceType": "Lowest advertised price",
+      "availability": "25 units advertised"
+    }
+  ]
 }

@@ -20,11 +20,11 @@
     "Karon condominium for sale",
     "Karon freehold condo Phuket"
   ],
-  "startingPrice": 6200000,
+  "startingPrice": 4727938,
   "priceStatus": "advertised",
-  "priceNote": "Lowest advertised price (Keller Henson, rounded). Other listings show higher unit prices.",
-  "priceSourceUrl": "https://kellerhenson.com/project/ever-prime-residences",
-  "lastVerified": "2026-11-17",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon",
+  "lastVerified": "2026-11-21",
   "builtUpMin": 51,
   "builtUpMax": 179,
   "ownership": [
@@ -61,7 +61,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon"
     }
   ],
-  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one source only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms.",
+  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one source only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
   "images": [
@@ -119,5 +119,35 @@
   "bedroomsMin": 1,
   "bedroomsMax": 4,
   "bathroomsMin": 1,
-  "bathroomsMax": 4
+  "bathroomsMax": 4,
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "32.89-44.84",
+      "price": 4727938,
+      "priceType": "Lowest advertised price",
+      "availability": "134 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "46.53-60.09",
+      "price": 7812387,
+      "priceType": "Lowest advertised price",
+      "availability": "176 units advertised"
+    },
+    {
+      "name": "4 Bedroom",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "176.35",
+      "price": 25553115,
+      "priceType": "Lowest advertised price",
+      "availability": "16 units advertised"
+    }
+  ],
+  "completionDate": "Mar 2028"
 }

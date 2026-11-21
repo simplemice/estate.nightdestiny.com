@@ -11,9 +11,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach.",
   "description": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach. The 3-bedroom, 3-bathroom homes have around 150 sqm of built area, a private pool and a small garden, with mountain views. Shared services include security, a gym and an estate manager.",
-  "startingPrice": 10900000,
+  "startingPrice": 11000000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 3,
   "bathroomsMin": 3,
@@ -53,11 +53,13 @@
   ],
   "unitTypes": [
     {
-      "name": "Duplex pool villa",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
-      "bathrooms": 3,
+      "bathrooms": 5,
       "size": "150",
-      "price": 11000000
+      "price": 11000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -90,7 +92,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/goldena-twin"
     }
   ],
-  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. a property portal project header: from 10,900,000; Thailand-Property: from 10,999,999; a property portal single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Source/portal prices only, not developer-official. | claimed price 11490000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. a property portal project header: from 10,900,000; Thailand-Property: from 10,999,999; a property portal single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Source/portal prices only, not developer-official. | claimed price 11490000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"
@@ -112,5 +114,7 @@
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
-  "completionDate": "Nov 2024"
+  "completionDate": "Nov 2024",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/goldena-twin"
 }

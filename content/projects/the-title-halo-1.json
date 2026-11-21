@@ -24,18 +24,58 @@
   ],
   "unitTypes": [
     {
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "36",
+      "price": 4000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
       "name": "1 Bedroom",
-      "size": "36-51",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 4300000
+      "bathrooms": 1,
+      "size": "35.88-53",
+      "price": 3900000,
+      "priceType": "Lowest advertised price",
+      "availability": "28 units advertised"
+    },
+    {
+      "name": "1 Bedroom Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "36-46",
+      "price": 3950000,
+      "priceType": "Lowest advertised price",
+      "availability": "10 units advertised"
+    },
+    {
+      "name": "1 Bedroom Apartment",
+      "bedrooms": 1,
+      "bathrooms": 5,
+      "size": "60",
+      "price": 6890000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "59-64",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 7100000
+      "bathrooms": 2,
+      "size": "58-81",
+      "price": 6350000,
+      "priceType": "Lowest advertised price",
+      "availability": "17 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "58-59",
+      "price": 6950000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
     }
   ],
   "nearby": [
@@ -51,11 +91,11 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 4320000,
+  "startingPrice": 3900000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-halo-1-naiyang-beach",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-07-20. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-halo-1",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -68,7 +108,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-halo-1"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

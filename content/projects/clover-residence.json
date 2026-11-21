@@ -14,7 +14,7 @@
   "description": "A gated community of 33 large villas in Si Sunthon, right beside HeadStart International School, completed in 2024 by GOOD TEAM 888. Three layouts with 3 to 5 bedrooms are offered, many with private pools, and listings show built areas of roughly 340-470 sqm. Later phases (The Valley Phase II, Luxe Zone Phase III) are separate nearby projects.",
   "startingPrice": 27900000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 5,
   "bathroomsMin": 4,
@@ -69,19 +69,49 @@
   ],
   "unitTypes": [
     {
-      "name": "Type A",
-      "bedrooms": 5,
-      "bathrooms": 6
-    },
-    {
-      "name": "Type B",
-      "bedrooms": 4,
-      "bathrooms": 4
-    },
-    {
-      "name": "Type C",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
-      "bathrooms": 4
+      "bathrooms": 3,
+      "size": "351-352",
+      "price": 27900000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
+    },
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "343-352",
+      "price": 28500000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
+    },
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "272-470",
+      "price": 35100000,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
+    },
+    {
+      "name": "5 Bedroom Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "size": "415.5",
+      "price": 42000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "5 Bedroom Villa",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "655.03-851.19",
+      "price": 62880000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     }
   ],
   "images": [
@@ -105,7 +135,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence"
     }
   ],
-  "researchNotes": "a property portal size pairs per listing not labelled; assumed built/land (e.g. 352 / 445). Ownership not project-specific (generic FAQ only). Official developer site not found. Image URLs 'project photo' is a brochure page scan. | Differs strongly from claim. a property portal: 27 units for sale from 27,900,000 (header 27,700,000), range up to 93,880,000; sample listings 29.9M (3BR) to 50M (4BR); a 4BR at 46,000,000 and 36,800,000 exist, no listing at exactly 46.8M seen. Resale/listings, not developer-official. | claimed price 46800000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "a property portal size pairs per listing not labelled; assumed built/land (e.g. 352 / 445). Ownership not project-specific (generic FAQ only). Official developer site not found. Image URLs 'project photo' is a brochure page scan. | Differs strongly from claim. a property portal: 27 units for sale from 27,900,000 (header 27,700,000), range up to 93,880,000; sample listings 29.9M (3BR) to 50M (4BR); a 4BR at 46,000,000 and 36,800,000 exist, no listing at exactly 46.8M seen. Resale/listings, not developer-official. | claimed price 46800000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/clover-residence/photo-5.jpg",
   "imageCaptions": [
@@ -118,5 +148,7 @@
   "ownership": [
     "Leasehold"
   ],
-  "completionDate": "Aug 2024"
+  "completionDate": "Aug 2024",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/clover-residence"
 }

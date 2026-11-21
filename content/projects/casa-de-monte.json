@@ -15,24 +15,40 @@
   ],
   "unitTypes": [
     {
-      "name": "Aurellia (A2)",
-      "availability": "Available"
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "83-217",
+      "price": 11779000,
+      "priceType": "Lowest advertised price",
+      "availability": "25 units advertised"
     },
     {
-      "name": "Sylvia (S)",
-      "availability": "Available"
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "310",
+      "price": 30661000,
+      "priceType": "Lowest advertised price",
+      "availability": "23 units advertised"
     },
     {
-      "name": "Silvora (S2)",
-      "availability": "Available"
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "267-374",
+      "price": 30276000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     },
     {
-      "name": "Montara (M)",
-      "availability": "Available"
-    },
-    {
-      "name": "Lavera (L)",
-      "availability": "Available"
+      "name": "4 Bedroom",
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "size": "424-450",
+      "price": 42343000,
+      "priceType": "Lowest advertised price",
+      "availability": "7 units advertised"
     }
   ],
   "cover": "/assets/images/projects/casa-de-monte/monte-banner-d.jpg",
@@ -53,10 +69,10 @@
   "published": true,
   "publishedAt": "2026-11-12",
   "developer": "Rhom Bho Property PLC (The Title)",
-  "startingPrice": 30563000,
+  "startingPrice": 11779000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/casa-de-monte",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/casa-de-monte",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -69,7 +85,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/casa-de-monte"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "privatePool": "yes",
   "bedroomsMin": 3,
   "bedroomsMax": 4,

@@ -12,9 +12,9 @@
   "developer": "Capital City Realestate Co., Ltd.",
   "shortDescription": "A small gated collection of single-storey pool villas in the Pasak area of Cherng Talay.",
   "description": "The Wynn Phuket is a small gated collection of single-storey tropical-modern pool villas in the Pasak area of Cherng Talay, with villas on plots of roughly 478 to 732 sqm. The advertised 3-bedroom, 4-bathroom villas have around 435 sqm of built-up area, vaulted timber ceilings and open-plan living leading to a private pool and garden. Boat Avenue, Porto De Phuket and the Bang Tao and Layan beaches are in the surrounding area.",
-  "startingPrice": 29890000,
+  "startingPrice": 25900000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 3,
   "bathroomsMin": 4,
@@ -72,18 +72,31 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Pool Villa",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
-      "size": "435",
-      "price": 29890000
+      "size": "478.89-616.48",
+      "price": 25900000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     },
     {
-      "name": "3BR Pool Villa (Large Plot)",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "435",
-      "price": 39850000
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "690",
+      "price": 46800000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "5 Bedroom Villa",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "size": "732.88",
+      "price": 48800000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -115,7 +128,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket"
     }
   ],
-  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (a property portal); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, a property portal 35.9-49.9M) and are not used. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (a property portal); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, a property portal 35.9-49.9M) and are not used. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/wynn/photo-7.jpg",
   "imageCaptions": [
@@ -129,6 +142,7 @@
     "Living area opening to the garden"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-wynn-phuket",
-  "totalUnits": "9"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket",
+  "totalUnits": "9",
+  "priceNote": "Lowest advertised price."
 }

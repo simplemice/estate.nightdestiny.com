@@ -11,9 +11,9 @@
   "developer": "Wallaya Villas",
   "shortDescription": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A 'super villas' with a man cave.",
   "description": "A 37-villa pool-villa community by Wallaya Villas offering compact three-bedroom Type B homes with a rooftop jacuzzi and large five-bedroom Type A 'super villas' with a man cave. Located close to Porto de Phuket and the Bang Tao and Layan beaches.",
-  "startingPrice": 23900000,
+  "startingPrice": 27382375,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 5,
   "bathroomsMin": 3,
@@ -80,32 +80,22 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Pool Villa Type B",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 3,
       "size": "272",
-      "price": 23900000
+      "price": 27382375,
+      "priceType": "Lowest advertised price",
+      "availability": "19 units advertised"
     },
     {
-      "name": "3BR Pool Villa Type B (large plot)",
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "size": "271",
-      "price": 25900000
-    },
-    {
-      "name": "5BR Pool Villa Type A",
+      "name": "5 Bedroom Villa",
       "bedrooms": 5,
       "bathrooms": 5,
       "size": "897",
-      "price": 74900000
-    },
-    {
-      "name": "5BR Pool Villa Type A (large plot)",
-      "bedrooms": 5,
-      "bathrooms": 5,
-      "size": "897",
-      "price": 78200000
+      "price": 82412063,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
     }
   ],
   "images": [
@@ -129,7 +119,7 @@
       "url": "https://kellerhenson.com/project/the-harmony-by-wallaya-villas"
     }
   ],
-  "researchNotes": "No official developer page found/fetched. Image captions/kind are not verified (render vs photo unknown). Land: Type A 627-816, Type B 258-407 sqm per source. Completion conflicts between sources. Distances mode not stated by source. | Keller Henson shows 3BR Type B from 23.9M, large plot 25.9M; 5BR Type A 74.9M-78.2M. Claimed 25.2M not shown; lowest advertised is 23.9M. | claimed price 25200000",
+  "researchNotes": "No official developer page found/fetched. Image captions/kind are not verified (render vs photo unknown). Land: Type A 627-816, Type B 258-407 sqm per source. Completion conflicts between sources. Distances mode not stated by source. | Keller Henson shows 3BR Type B from 23.9M, large plot 25.9M; 5BR Type A 74.9M-78.2M. Claimed 25.2M not shown; lowest advertised is 23.9M. | claimed price 25200000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
   "imageCaptions": [
@@ -144,5 +134,7 @@
     "Living 01",
     "Living 02"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/the-harmony-by-wallaya-villas"
 }

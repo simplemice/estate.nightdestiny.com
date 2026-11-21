@@ -21,15 +21,15 @@
     "Ornsirin Phuket condo",
     "condo for sale Thalang Phuket"
   ],
-  "startingPrice": 2230000,
+  "startingPrice": 2870000,
   "priceStatus": "advertised",
-  "priceNote": "Lowest advertised price (Keller Henson). Another source quotes about 2.4 million.",
-  "priceSourceUrl": "https://kellerhenson.com/project/arise-vibe",
-  "lastVerified": "2026-11-17",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe",
+  "lastVerified": "2026-11-21",
   "ownership": [
     "Freehold"
   ],
-  "constructionStatus": "Under construction",
+  "constructionStatus": "Completed",
   "facilities": [],
   "nearby": [],
   "sources": [
@@ -50,7 +50,7 @@
       "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
-  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area.",
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+8). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "images": [
@@ -94,5 +94,43 @@
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 34,
-  "builtUpMax": 71.41
+  "builtUpMax": 71.41,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "26-26.29",
+      "price": 2870000,
+      "priceType": "Lowest advertised price",
+      "availability": "7 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "34-42.9",
+      "price": 3000000,
+      "priceType": "Lowest advertised price",
+      "availability": "21 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "40",
+      "price": 3750000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "58.38-85.56",
+      "price": 6051000,
+      "priceType": "Lowest advertised price",
+      "availability": "52 units advertised"
+    }
+  ]
 }

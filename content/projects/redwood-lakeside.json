@@ -17,7 +17,7 @@
   "description": "A lakeside villa enclave by Redwood Luxury near Bang Tao, with 3 and 4 bedroom villas on plots of 400 to 902 sqm. Four villa types (Palm, Orchid, Lotus, Lily) include single-storey and two-storey designs, each with a private pool. Heavy landscaping and a shuttle to local beach and shopping hubs are part of the offer.",
   "startingPrice": 37400000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "bathroomsMin": 4,
@@ -51,22 +51,22 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Type B (Orchid)",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
-      "size": "175",
-      "price": 37400000
+      "bathrooms": 4,
+      "size": "173.8",
+      "price": 37400000,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
     },
     {
-      "name": "4BR Type C (Lotus)",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
-      "size": "269",
-      "price": 64400000
-    },
-    {
-      "name": "4BR Type A (Palm)",
-      "bedrooms": 4,
-      "size": "272",
-      "price": 82000000
+      "bathrooms": 5,
+      "size": "256.2-278.3",
+      "price": 40600000,
+      "priceType": "Lowest advertised price",
+      "availability": "13 units advertised"
     }
   ],
   "images": [
@@ -90,7 +90,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/redwood-lakeside"
     }
   ],
-  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
   "imageCaptions": [
@@ -99,5 +99,7 @@
     "Project"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "totalUnits": "27"
+  "totalUnits": "27",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/redwood-lakeside"
 }

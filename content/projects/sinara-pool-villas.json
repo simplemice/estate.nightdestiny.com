@@ -11,9 +11,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A six-villa low-density pool villa development of about 3,500 sqm in Khao Phra Thaeo, with large plots, floor-to-ceiling glazing and a greenery and stream setting.",
   "description": "A six-villa low-density pool villa development of about 3,500 sqm in Khao Phra Thaeo, with large plots, floor-to-ceiling glazing and a greenery and stream setting. Villas come as 3BR or 4BR, each with a private pool and two parking spaces.",
-  "startingPrice": 26900000,
+  "startingPrice": 17500000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "bathroomsMin": 4,
@@ -22,7 +22,7 @@
   "builtUpMax": 479.6,
   "landMin": 464,
   "landMax": 674,
-  "totalUnits": 6,
+  "totalUnits": "7",
   "floors": "2",
   "furniture": "Fully fitted kitchens, built-in furniture, custom wardrobes",
   "parking": "Covered parking, 2 cars per villa",
@@ -85,26 +85,13 @@
   ],
   "unitTypes": [
     {
-      "name": "Type A 3BR",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
-      "size": "479.6",
-      "landSqm": "480",
-      "price": 26900000
-    },
-    {
-      "name": "Type B 4BR",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "size": "478.8",
-      "price": 28900000
-    },
-    {
-      "name": "Type B 4BR large plot",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "size": "478.8",
-      "price": 29900000
+      "size": "375.48-484.8",
+      "price": 17500000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     }
   ],
   "images": [
@@ -122,7 +109,7 @@
       "url": "https://kellerhenson.com/project/sinara-pool-villas"
     }
   ],
-  "researchNotes": "Official site not found. Images likely renders (not stated). Keller Henson quotes rental ROI 7.4-7.7% (promotional, omitted). Payment plan conflicts within page. Brochure PDF not read - could provide more detail. | Keller Henson range THB 26.9M-29.9M (Type A 3BR 26.9M), matches claim. | claimed price 26900000",
+  "researchNotes": "Official site not found. Images likely renders (not stated). Keller Henson quotes rental ROI 7.4-7.7% (promotional, omitted). Payment plan conflicts within page. Brochure PDF not read - could provide more detail. | Keller Henson range THB 26.9M-29.9M (Type A 3BR 26.9M), matches claim. | claimed price 26900000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
   "imageCaptions": [
@@ -133,5 +120,7 @@
     "Interior",
     "Interior"
   ],
-  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product."
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/thep-krasattri/sinara-pool-villas"
 }

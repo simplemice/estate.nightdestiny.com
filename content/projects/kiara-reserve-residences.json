@@ -13,15 +13,15 @@
   "developer": "Minor International",
   "shortDescription": "Kiara Reserve Residences is a branded beachfront condominium by Minor International at Layan Beach in Phuket, adjacent to the Anantara Layan resort and managed with Anantara.",
   "description": "Kiara Reserve Residences is a branded beachfront condominium by Minor International at Layan Beach in Phuket, adjacent to the Anantara Layan resort and managed with Anantara. The condominium building has 5 floors and 25 units in three- and four-bedroom layouts, including duplexes and penthouses. Built-up areas run from about 251 sqm upward, with owners able to join a rental programme.",
-  "startingPrice": 44500000,
+  "startingPrice": 44000000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "bathroomsMin": 3,
   "builtUpMin": 251,
   "builtUpMax": 829,
-  "totalUnits": 25,
+  "totalUnits": "46",
   "floors": "5",
   "ownership": [
     "Freehold"
@@ -59,23 +59,49 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Typical",
+      "name": "3 Bedroom",
       "bedrooms": 3,
-      "bathrooms": 3,
+      "bathrooms": 2,
       "size": "251",
-      "price": 44500000,
-      "availability": "Limited"
+      "price": 44000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "3BR Duplex",
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "382-801",
+      "price": 65100000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 3,
-      "size": "382",
-      "price": 67500000
+      "size": "501",
+      "price": 77000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "4BR Penthouse",
-      "bedrooms": 4
+      "name": "4 Bedroom Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "829",
+      "price": 130000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "655",
+      "price": 105000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -101,7 +127,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/kiara-reserve-residence"
     }
   ],
-  "researchNotes": "Project has two products: a condominium (25 units, used here) and villas (17 per EdgeProp, sold separately); supplied name 'Residences' matches the condominium listing. Developer: Minor International; EdgeProp also names Kajima Corporation as partner. Ownership conflict: Keller Henson says freehold (foreign quota 49%) but also mentions 'lease registration' and Papaya reportedly lists leasehold - verify with lawyer. Papaya page was 404. Completion dates conflict (2025/Dec 2025/2026 Q1). Unit count 25 here vs 29 in another source. Address (Layan Beach Soi 4 per a Sotheby's listing) not verified. Distances unspecified mode. | Keller Henson: 3BR typical THB 44.5M, 3BR duplex 67.5M, range up to 115.5M. Separate villa product (Keller Henson villa page) is listed from about THB 75M and is not included. EdgeProp (launch article) quoted US$1-3M. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Project has two products: a condominium (25 units, used here) and villas (17 per EdgeProp, sold separately); supplied name 'Residences' matches the condominium listing. Developer: Minor International; EdgeProp also names Kajima Corporation as partner. Ownership conflict: Keller Henson says freehold (foreign quota 49%) but also mentions 'lease registration' and Papaya reportedly lists leasehold - verify with lawyer. Papaya page was 404. Completion dates conflict (2025/Dec 2025/2026 Q1). Unit count 25 here vs 29 in another source. Address (Layan Beach Soi 4 per a Sotheby's listing) not verified. Distances unspecified mode. | Keller Henson: 3BR typical THB 44.5M, 3BR duplex 67.5M, range up to 115.5M. Separate villa product (Keller Henson villa page) is listed from about THB 75M and is not included. EdgeProp (launch article) quoted US$1-3M. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/kiara-reserve-residences/photo-1.jpg",
   "imageCaptions": [
     "Kiara Reserve Residences photo 1",
@@ -114,7 +140,8 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://kellerhenson.com/project/kiara-reserve-residences-condominium",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/kiara-reserve-residence",
   "completionDate": "Dec 2025",
-  "furniture": "Varies by unit: fully furnished, unfurnished"
+  "furniture": "Varies by unit: fully furnished, unfurnished",
+  "priceNote": "Lowest advertised price."
 }

@@ -12,7 +12,7 @@
   "developer": "Zenithy Development",
   "shortDescription": "A gated boutique community of 22 two-storey pool villas in Koh Kaew, aimed at families and long-term investors who want schools and marinas close by.",
   "description": "A gated boutique community of 22 two-storey pool villas in Koh Kaew, aimed at families and long-term investors who want schools and marinas close by. Each villa has three en-suite bedrooms, a mezzanine and a private pool with Jacuzzi, and the site is not within walking distance of a beach.",
-  "startingPrice": 20900000,
+  "startingPrice": 19900000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
@@ -107,18 +107,13 @@
   ],
   "unitTypes": [
     {
-      "name": "Type A 3BR Pool Villa",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
-      "size": "357.4",
-      "price": 26900000
-    },
-    {
-      "name": "Type B 3BR Pool Villa",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "351.61",
-      "price": 20900000
+      "size": "351.61-357.4",
+      "price": 19900000,
+      "priceType": "Lowest advertised price",
+      "availability": "19 units advertised"
     }
   ],
   "images": [
@@ -141,7 +136,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/zenithy-la-ville"
     }
   ],
-  "researchNotes": "Official site not found. Images likely renders (not stated). Page has inconsistencies (completion vs 12-month build, price/sqm). | Keller Henson header range THB 20.9M-40.3M (Type B 20.9M), while its pricing section/FAQ says 19.4M-41.3M. Claim of 19.9M not matched on any page. | claimed price 19900000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Koh Kaew\" -> \"Ko Kaeo\". Evidence: Spelling only: same area as the other Ko Kaeo records.",
+  "researchNotes": "Official site not found. Images likely renders (not stated). Page has inconsistencies (completion vs 12-month build, price/sqm). | Keller Henson header range THB 20.9M-40.3M (Type B 20.9M), while its pricing section/FAQ says 19.4M-41.3M. Claim of 19.9M not matched on any page. | claimed price 19900000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Koh Kaew\" -> \"Ko Kaeo\". Evidence: Spelling only: same area as the other Ko Kaeo records. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
   "imageCaptions": [
@@ -154,5 +149,7 @@
     "Living area"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "completionDate": "Jan 2029"
+  "completionDate": "Jan 2029",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/zenithy-la-ville"
 }

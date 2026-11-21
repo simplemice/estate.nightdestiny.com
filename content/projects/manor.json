@@ -11,7 +11,7 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori.",
   "description": "A phased development of single-storey three and four-bedroom pool villas in the Si Sunthon area of Thalang, divided into zones such as Manor, Arcadia, Luxe and Mori. Ownership for foreigners is by 30-year leasehold, renewable.",
-  "startingPrice": 17200000,
+  "startingPrice": 23500000,
   "priceStatus": "advertised",
   "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
@@ -28,7 +28,7 @@
   "ownership": [
     "Leasehold"
   ],
-  "constructionStatus": "Status on request",
+  "constructionStatus": "Completed",
   "paymentPlan": [
     "Reservation agreement with THB 200,000 booking fee",
     "65% in installments per construction progress"
@@ -75,33 +75,22 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Pool Villa",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "345.02",
-      "landSqm": "472",
-      "price": 27800000
-    },
-    {
-      "name": "4BR Pool Villa (Luxe Zone)",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 5,
-      "size": "359.08",
-      "price": 28900000
+      "size": "143.46",
+      "price": 23500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "4BR Pool Villa Large Plot (Luxe)",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 5,
-      "size": "359.08",
-      "price": 29400000
-    },
-    {
-      "name": "Manor Mori Phase 5 3BR",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "229",
-      "price": 17200000
+      "size": "218",
+      "price": 26200000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -136,7 +125,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/manor-phuket"
     }
   ],
-  "researchNotes": "Location is Si Sunthon, not Bang Tao proper (portals say ~12 min to Bang Tao). Data inconsistent between portals (built-up 345-359 vs 456-487, developer name). Official site not found. May overlap with item 19 only by name similarity; item 19 'The Manour' is a different, separate project. | Differs from claimed 28.5M: Keller Henson range 17.2M (Manor Mori Phase 5 3BR) to 51.8M; main Manor 3BR 27.8M, 4BR Luxe 28.9M; Papaya from 23,933,000 for 3BR. Thailand-Property from 23.0M. 28.5M not seen exactly. | claimed price 28500000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Bang Tao\" -> \"Si Sunthon\". Evidence: Project text: \"in the Si Sunthon area of Thalang\"; portal address on Ban Khao Lan-Ban Bangjo Road, Si Sunthon; all portal hierarchies list Si Sunthon.",
+  "researchNotes": "Location is Si Sunthon, not Bang Tao proper (portals say ~12 min to Bang Tao). Data inconsistent between portals (built-up 345-359 vs 456-487, developer name). Official site not found. May overlap with item 19 only by name similarity; item 19 'The Manour' is a different, separate project. | Differs from claimed 28.5M: Keller Henson range 17.2M (Manor Mori Phase 5 3BR) to 51.8M; main Manor 3BR 27.8M, 4BR Luxe 28.9M; Papaya from 23,933,000 for 3BR. Thailand-Property from 23.0M. 28.5M not seen exactly. | claimed price 28500000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Bang Tao\" -> \"Si Sunthon\". Evidence: Project text: \"in the Si Sunthon area of Thalang\"; portal address on Ban Khao Lan-Ban Bangjo Road, Si Sunthon; all portal hierarchies list Si Sunthon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/manor-phuket/photo-1.jpg",
   "imageCaptions": [
@@ -149,5 +138,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "totalUnits": "44",
-  "completionDate": "Sep 2026"
+  "completionDate": "Sep 2026",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/manor-phuket"
 }

@@ -15,17 +15,17 @@
   "description": "Park Residences is the second residential phase of the Gardens of Eden master development by Amal Group, a large low-density resort community in Bang Tao on Phuket's west coast. It is described as 455 condominium units in seven-storey buildings, from one to three bedrooms, set within a landscaped community with parks and lakes. The development is marketed in collaboration with Etro, and residents share the master community's wellness, pool and leisure facilities.",
   "startingPrice": 13908240,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 3,
   "bathroomsMin": 1,
   "bathroomsMax": 3,
   "builtUpMin": 56,
   "builtUpMax": 122,
-  "totalUnits": 455,
-  "floors": "7",
+  "totalUnits": "375",
+  "floors": "6 buildings, 7 storeys each",
   "parking": "Surface and underground",
-  "completionDate": "Q4 2027",
+  "completionDate": "Dec 2026",
   "website": "https://gardens-eden.com/",
   "privatePool": "no",
   "ownership": [
@@ -65,25 +65,40 @@
   ],
   "unitTypes": [
     {
-      "name": "1 bedroom",
+      "name": "1 Bedroom",
       "bedrooms": 1,
       "bathrooms": 1,
-      "size": "56",
-      "price": 13908240
+      "size": "47-64",
+      "price": 13908240,
+      "priceType": "Lowest advertised price",
+      "availability": "11 units advertised"
     },
     {
-      "name": "2 bedroom",
+      "name": "2 Bedroom",
       "bedrooms": 2,
       "bathrooms": 2,
-      "size": "99",
-      "price": 22910000
+      "size": "79-112",
+      "price": 22442000,
+      "priceType": "Lowest advertised price",
+      "availability": "20 units advertised"
     },
     {
-      "name": "3 bedroom",
+      "name": "3 Bedroom",
       "bedrooms": 3,
       "bathrooms": 3,
-      "size": "122",
-      "price": 26654099
+      "size": "121-200",
+      "price": 27882410,
+      "priceType": "Lowest advertised price",
+      "availability": "19 units advertised"
+    },
+    {
+      "name": "4 Bedroom",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "223",
+      "price": 78057000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -125,7 +140,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/gardens-of-eden-park-residence"
     }
   ],
-  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/sources; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per source; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/sources; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per source; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
   "imageCaptions": [
     "Park Residences pool view render",
@@ -139,6 +154,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://papayaproperty.com/amal-group/gardens-of-eden-park-residences",
-  "furniture": "Unfurnished"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/gardens-of-eden-park-residence",
+  "furniture": "Unfurnished",
+  "priceNote": "Lowest advertised price."
 }

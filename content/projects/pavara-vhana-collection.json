@@ -12,9 +12,9 @@
   "developer": "Pavara Development Co., Ltd",
   "shortDescription": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens.",
   "description": "Twenty-two hillside two-storey pool villas on the Layan side of Choeng Thale, built for large-format family living with maid's and study rooms and one or two kitchens. Every villa has its own pool, with sizes and layouts varying by type A to F.",
-  "startingPrice": 110000000,
+  "startingPrice": 98000000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 5,
   "bathroomsMin": 4,
@@ -23,7 +23,7 @@
   "builtUpMax": 1717.65,
   "landMin": 607.58,
   "landMax": 2070.84,
-  "totalUnits": 22,
+  "totalUnits": "13",
   "floors": "2",
   "privatePool": "yes",
   "ownership": [
@@ -69,46 +69,31 @@
   ],
   "unitTypes": [
     {
-      "name": "Type D 3BR",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
-      "size": "812.79",
-      "price": 110000000
+      "size": "143.66-812.79",
+      "price": 98000000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     },
     {
-      "name": "Type F 3BR",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "1143.66",
-      "price": 136000000
-    },
-    {
-      "name": "Type B 4BR",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 5,
-      "size": "1017.76",
-      "price": 162000000
+      "size": "13.27-529.95",
+      "price": 162000000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     },
     {
-      "name": "Type E 4BR",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "size": "1379.92",
-      "price": 206000000
-    },
-    {
-      "name": "Type C 4BR",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "size": "1529.95",
-      "price": 235000000
-    },
-    {
-      "name": "Type A 5BR",
+      "name": "5 Bedroom Villa",
       "bedrooms": 5,
       "bathrooms": 6,
-      "size": "1717.65",
-      "price": 273000000
+      "size": "717.55",
+      "price": 273000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     }
   ],
   "images": [
@@ -129,7 +114,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/pavara-vhana-collection"
     }
   ],
-  "researchNotes": "Official Pavara site not checked/found. Page inconsistent on built-up (546-1138 vs 812-1717 sqm), plots (345-899 vs 607-2070 sqm), types. Bathrooms 6-8 per description vs 4-6 in unit list. Images probably renders (not stated). Claimed 98M likely wrong or a past/unlisted price. | Keller Henson range THB 110.0M-273.0M (cheapest 3BR Type D 110M). Claimed 98M not found in any source. | claimed price 98000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official Pavara site not checked/found. Page inconsistent on built-up (546-1138 vs 812-1717 sqm), plots (345-899 vs 607-2070 sqm), types. Bathrooms 6-8 per description vs 4-6 in unit list. Images probably renders (not stated). Claimed 98M likely wrong or a past/unlisted price. | Keller Henson range THB 110.0M-273.0M (cheapest 3BR Type D 110M). Claimed 98M not found in any source. | claimed price 98000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/pavara-vhana-collection/photo-1.jpg",
   "imageCaptions": [
@@ -141,5 +126,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "completionDate": "Dec 2027",
-  "parking": "Parking ratio 20% of units"
+  "parking": "Parking ratio 20% of units",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/pavara-vhana-collection"
 }

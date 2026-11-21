@@ -48,7 +48,7 @@
       "url": "https://www.thailand-property.com/house/22773/mono-oxygen-bangtao-beach"
     }
   ],
-  "researchNotes": "No official developer site found; developer not named (brand Mono). Keller Henson/Hipflat pages blocked or 404 when fetched, only search snippets: sinking fund 250 THB/sqm, freehold for Thai company proposed (unverified, not stored). Image is only a low-res portal thumbnail. Sold out almost entirely; the claimed price likely stale. Separate Phase 2 project exists nearby (23.5-24.0M per Lazudi). | Thailand-Property shows 1 unit from 22,989,000 THB (page also says 'Contact for price'). Search snippets show ~22.99M for 281.7 sqm 3BR. Does not match the claimed 21.5M. | claimed price 21500000",
+  "researchNotes": "No official developer site found; developer not named (brand Mono). Keller Henson/Hipflat pages blocked or 404 when fetched, only search snippets: sinking fund 250 THB/sqm, freehold for Thai company proposed (unverified, not stored). Image is only a low-res portal thumbnail. Sold out almost entirely; the claimed price likely stale. Separate Phase 2 project exists nearby (23.5-24.0M per Lazudi). | Thailand-Property shows 1 unit from 22,989,000 THB (page also says 'Contact for price'). Search snippets show ~22.99M for 281.7 sqm 3BR. Does not match the claimed 21.5M. | claimed price 21500000 FazWaz page lists 11 units / 2 floors; no unit cards. FazWaz audit 2026-11-21: filled floors=2. Source https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/mono-oxygen-bangtao-beach.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mono-oxygen-bangtao-beach/photo-9.jpg",
   "imageCaptions": [
@@ -61,5 +61,6 @@
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "ownership": [
     "Leasehold"
-  ]
+  ],
+  "floors": "2"
 }

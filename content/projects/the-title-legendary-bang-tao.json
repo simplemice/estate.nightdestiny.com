@@ -25,54 +25,102 @@
   "unitTypes": [
     {
       "name": "Studio",
-      "size": "31-36",
       "bedrooms": 0,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "31-37.1",
+      "price": 3999999,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    },
+    {
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "31-34",
+      "price": 4390000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
       "name": "1 Bedroom",
-      "size": "40-44",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 7400000
+      "bathrooms": 1,
+      "size": "31-65.7",
+      "price": 3999999,
+      "priceType": "Lowest advertised price",
+      "availability": "89 units advertised"
     },
     {
-      "name": "1 Bedroom Max",
-      "size": "44-49",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 7200000
+      "bathrooms": 1,
+      "size": "40-51",
+      "price": 6290000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     },
     {
-      "name": "1 Bedroom Legend",
-      "size": "51-60",
+      "name": "1 Bedroom Penthouse",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 7300000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "52-61",
-      "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "45",
+      "price": 6800000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "65-70",
       "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "52-58.55",
+      "price": 6600000,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
     },
     {
-      "name": "2 Bedroom Legend",
-      "size": "87-94",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "84.75-88",
+      "price": 11500000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
-      "name": "2 Bedroom Plus",
-      "size": "85-89",
+      "name": "2 Bedroom Apartment",
       "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "60-67",
+      "price": 8300000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "88",
+      "price": 14500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 5,
+      "size": "70",
+      "price": 12000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "95",
+      "price": 13890000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "nearby": [
@@ -84,11 +132,11 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 7200000,
+  "startingPrice": 3999999,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-legendary-bangtao",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-08-16.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-legendary-bang-tao",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -101,7 +149,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-legendary-bang-tao"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

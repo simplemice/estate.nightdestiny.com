@@ -17,7 +17,7 @@
   "description": "Laguna Park 2 is a three-storey townhouse and villa enclave by Laguna Property beside the Laguna resort complex in Choeng Thale, completed in 2023. Owners get Laguna resort privileges such as club membership and shuttle access.",
   "startingPrice": 20800000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 2,
   "bedroomsMax": 5,
   "bathroomsMin": 3,
@@ -27,7 +27,7 @@
   "totalUnits": 53,
   "floors": "3",
   "commonAreaFee": "from 400 baht per sq. wah per year",
-  "completionDate": "2023",
+  "completionDate": "Sep 2023",
   "privatePool": "some",
   "ownership": [
     "Freehold",
@@ -61,28 +61,31 @@
   ],
   "unitTypes": [
     {
-      "name": "Townhouse Standard",
-      "bedrooms": 2,
-      "bathrooms": 3,
-      "size": "318"
-    },
-    {
-      "name": "Townhouse Deluxe",
+      "name": "3 Bedroom House",
       "bedrooms": 3,
-      "bathrooms": 3,
-      "size": "318"
+      "bathrooms": 4,
+      "size": "318",
+      "price": 20800000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
-      "name": "Villa Standard",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "size": "550"
-    },
-    {
-      "name": "Villa Deluxe",
+      "name": "5 Bedroom Villa",
       "bedrooms": 5,
       "bathrooms": 5,
-      "size": "550"
+      "size": "550",
+      "price": 29500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "6 Bedroom Villa",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "size": "640",
+      "price": 28000000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -102,7 +105,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-park-2"
     }
   ],
-  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: parking. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: parking. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
   "imageCaptions": [
@@ -118,5 +121,7 @@
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
   },
-  "parking": "Parking ratio 100% of units"
+  "parking": "Parking ratio 100% of units",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-park-2"
 }

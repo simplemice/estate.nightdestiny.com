@@ -23,50 +23,95 @@
   ],
   "unitTypes": [
     {
-      "name": "1BS",
-      "bedrooms": 1,
-      "availability": "Available"
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "28",
+      "price": 5270000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1BMA",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "28-61",
+      "price": 4240000,
+      "priceType": "Lowest advertised price",
+      "availability": "178 units advertised"
     },
     {
-      "name": "1BPM",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "37.9-41",
+      "price": 5699000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     },
     {
-      "name": "1BPL",
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BL",
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1BXL",
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "2B",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 7700000
+      "bathrooms": 1,
+      "size": "54-56",
+      "price": 7315789,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "66-129",
+      "price": 9800000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "47",
+      "price": 8430000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom Penthouse",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "68-121",
+      "price": 9180000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "125-138",
+      "price": 18375000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "3 Bedroom Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "100-129",
+      "price": 13300000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 3200000,
+  "startingPrice": 4240000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/katabello",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/katabello",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -80,7 +125,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/katabello"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 32,

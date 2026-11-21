@@ -16,9 +16,9 @@
   "developer": "Botanica Luxury Phuket Co., Ltd",
   "shortDescription": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development.",
   "description": "HYTHE by Botanica is a low-rise condominium in the Laguna Phuket / Cherngtalay area, within the Botanica Grand Avenue development. It is the first condominium project by Botanica Luxury Villas and is marketed as a vertical villa. The project comprises four six-storey buildings and a clubhouse, with one- to three-bedroom units, duplexes with private pools and penthouses.",
-  "startingPrice": 11475000,
+  "startingPrice": 10600000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 4,
   "bathroomsMin": 1,
@@ -26,14 +26,14 @@
   "builtUpMin": 57,
   "builtUpMax": 716,
   "totalUnits": 276,
-  "floors": "6",
+  "floors": "4 buildings, 6 storeys each",
   "furniture": "Turnkey / furnished",
   "parking": "Covered parking",
   "privatePool": "some",
   "ownership": [
     "Freehold"
   ],
-  "constructionStatus": "Under construction",
+  "constructionStatus": "Completed",
   "facilities": [
     "Clubhouse",
     "Central garden",
@@ -81,39 +81,40 @@
   ],
   "unitTypes": [
     {
-      "name": "1BR (unit 974, floor 1)",
+      "name": "1 Bedroom",
       "bedrooms": 1,
       "bathrooms": 1,
-      "size": "58",
-      "price": 11475000
+      "size": "57.21-60",
+      "price": 10600000,
+      "priceType": "Lowest advertised price",
+      "availability": "33 units advertised"
     },
     {
-      "name": "2BR (unit 975, floor 1)",
+      "name": "2 Bedroom",
       "bedrooms": 2,
       "bathrooms": 2,
-      "size": "85",
-      "price": 19305000
+      "size": "84.61-88.5",
+      "price": 17986000,
+      "priceType": "Lowest advertised price",
+      "availability": "51 units advertised"
     },
     {
-      "name": "3BR (unit 976, floor 1)",
+      "name": "3 Bedroom",
       "bedrooms": 3,
       "bathrooms": 3,
-      "size": "127",
-      "price": 24288750
+      "size": "123.98-407.23",
+      "price": 27275600,
+      "priceType": "Lowest advertised price",
+      "availability": "43 units advertised"
     },
     {
-      "name": "3BR duplex (unit 1886, leasehold)",
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "size": "363",
-      "price": 56970000
-    },
-    {
-      "name": "4BR penthouse (unit 1885)",
+      "name": "4 Bedroom Penthouse",
       "bedrooms": 4,
       "bathrooms": 4,
-      "size": "694",
-      "price": 140925000
+      "size": "683.78-702",
+      "price": 134400000,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
     }
   ],
   "images": [
@@ -148,7 +149,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/botanica-hythe"
     }
   ],
-  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
   "imageCaptions": [
     "HYTHE by Botanica",
@@ -164,6 +165,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/botanica-hythe",
-  "completionDate": "Dec 2025"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/botanica-hythe",
+  "completionDate": "Dec 2025",
+  "priceNote": "Lowest advertised price."
 }

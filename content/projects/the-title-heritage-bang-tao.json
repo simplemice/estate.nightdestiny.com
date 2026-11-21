@@ -31,78 +31,68 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom XS",
-      "size": "32-38",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "32-62.39",
+      "price": 4100000,
+      "priceType": "Lowest advertised price",
+      "availability": "238 units advertised"
     },
     {
-      "name": "1 Bedroom S",
-      "size": "36-42",
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 5300000
+      "bathrooms": 5,
+      "size": "36",
+      "price": 6100000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1 Bedroom M",
-      "size": "42-49",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "1 Bedroom L",
-      "size": "49-57",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 9300000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "56-64",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 9000000
+      "bathrooms": 1,
+      "size": "32-36",
+      "price": 4850000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "66-106",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 10700000
+      "bathrooms": 1,
+      "size": "56",
+      "price": 8250000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "64.24-143.88",
+      "price": 10500000,
+      "priceType": "Lowest advertised price",
+      "availability": "51 units advertised"
     },
     {
       "name": "3 Bedroom",
-      "size": "122-132",
       "bedrooms": 3,
-      "availability": "Available",
-      "price": 19900000
-    },
-    {
-      "name": "Super Luxury",
-      "size": "103",
-      "availability": "Available"
-    },
-    {
-      "name": "Ultra Luxury",
-      "size": "145",
-      "availability": "Available",
-      "price": 25800000
-    },
-    {
-      "name": "Ultimate Luxury",
-      "size": "174",
-      "availability": "Available",
-      "price": 29800000
+      "bathrooms": 3,
+      "size": "166-184.55",
+      "price": 29548000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 5360000,
+  "startingPrice": 4100000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-heritage-bangtao/",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-08-16.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-heritage-bang-tao",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -116,7 +106,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-heritage-bang-tao"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

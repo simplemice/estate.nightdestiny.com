@@ -24,64 +24,49 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom M",
-      "size": "31-36",
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "31",
+      "price": 5513000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "31-62",
+      "price": 5950000,
+      "priceType": "Lowest advertised price",
+      "availability": "27 units advertised"
     },
     {
-      "name": "1 Bedroom L",
-      "size": "39-43",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 7028000
-    },
-    {
-      "name": "1 Bedroom Plus",
-      "size": "49-62",
-      "bedrooms": 1,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom M",
-      "size": "62-73",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 10718000
+      "bathrooms": 2,
+      "size": "49-100",
+      "price": 9700000,
+      "priceType": "Lowest advertised price",
+      "availability": "71 units advertised"
     },
     {
-      "name": "2 Bedroom L",
-      "size": "75-86",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 12130000
-    },
-    {
-      "name": "2 Bedroom Plus M",
-      "size": "90-100",
-      "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom Plus L",
-      "size": "107-110",
-      "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "3 Bedroom Penthouse",
-      "size": "131",
+      "name": "3 Bedroom",
       "bedrooms": 3,
-      "availability": "Available"
+      "bathrooms": 3,
+      "size": "131",
+      "price": 27609000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 5664000,
+  "startingPrice": 5513000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-biancana",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/biancana-title",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -95,7 +80,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/biancana-title"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 3
 }

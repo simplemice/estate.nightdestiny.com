@@ -4,7 +4,7 @@
   "area": "Rawai",
   "locationStatus": "probable",
   "projectType": "Condominium",
-  "constructionStatus": "Under construction",
+  "constructionStatus": "Completed",
   "shortDescription": "Sea-view condominium in Rawai with sky pool, rooftop and clubhouse.",
   "description": "Coastal condominium in Rawai with a Mediterranean-inspired concept and sea views. Shared spaces include a sky pool, rooftop, clubhouse, lobby, fitness room and kids zone.\nThe project was reported about 99% complete in October 2026. Prices and current availability on request via WhatsApp.",
   "facilities": [
@@ -18,23 +18,49 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom L",
-      "size": 41,
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 5000000
+      "bathrooms": 1,
+      "size": "31-56",
+      "price": 4600000,
+      "priceType": "Lowest advertised price",
+      "availability": "11 units advertised"
     },
     {
-      "name": "1 Bedroom Plus M",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 6700000
+      "bathrooms": 1,
+      "size": "42",
+      "price": 6350000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "2 Bedroom L",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 10300000
+      "bathrooms": 1,
+      "size": "56-57",
+      "price": 7200000,
+      "priceType": "Lowest advertised price",
+      "availability": "7 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "72-87",
+      "price": 11304000,
+      "priceType": "Lowest advertised price",
+      "availability": "9 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "81",
+      "price": 10900000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "cover": "/assets/images/projects/the-title-cielo-rawai/the-title-cielo-rawai-main-entrance.jpg",
@@ -57,11 +83,11 @@
   "published": true,
   "publishedAt": "2026-11-12",
   "developer": "Rhom Bho Property PLC (The Title)",
-  "startingPrice": 3875000,
+  "startingPrice": 4600000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-cielo-rawai",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-07-22. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-cielo-rawai",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -75,7 +101,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-cielo-rawai"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }

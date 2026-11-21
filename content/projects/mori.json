@@ -12,9 +12,9 @@
   "publishedAt": "2026-11-12",
   "shortDescription": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area.",
   "description": "A village-style collection of two-storey modern pool villas in the Si Sunthon / Bang Jo area. The 3BR plan has parking, living, dining and kitchen downstairs, with a master suite, two bedrooms and a multi-purpose room upstairs.",
-  "startingPrice": 13048000,
+  "startingPrice": 16310000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 3,
   "bathroomsMin": 4,
@@ -76,18 +76,13 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Pool Villa (Papaya)",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
       "size": "229",
-      "price": 13048000
-    },
-    {
-      "name": "Mori 2 The Valley 3BR Type A",
-      "bedrooms": 3,
-      "bathrooms": 4,
-      "size": "234.47",
-      "price": 16670000
+      "price": 16310000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
     }
   ],
   "images": [
@@ -114,7 +109,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/mori"
     }
   ],
-  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; a property portal says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; a property portal says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mori/photo-3.jpg",
   "imageCaptions": [
@@ -125,5 +120,7 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "totalUnits": "118",
-  "completionDate": "Feb 2027"
+  "completionDate": "Feb 2027",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/mori"
 }

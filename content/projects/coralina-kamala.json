@@ -25,48 +25,57 @@
   "unitTypes": [
     {
       "name": "1 Bedroom",
-      "size": "26-44",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 5108000
+      "bathrooms": 1,
+      "size": "26-49",
+      "price": 3990000,
+      "priceType": "Lowest advertised price",
+      "availability": "93 units advertised"
     },
     {
-      "name": "1 Bedroom Plus",
-      "size": "46-49",
+      "name": "1 Bedroom Apartment",
       "bedrooms": 1,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "27",
+      "price": 3990000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "64-68",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 9380000
-    },
-    {
-      "name": "2 Bedroom Plus",
-      "size": "98-107",
-      "bedrooms": 2,
-      "availability": "Available",
-      "price": 15846408
+      "bathrooms": 2,
+      "size": "64-122",
+      "price": 9379584,
+      "priceType": "Lowest advertised price",
+      "availability": "100 units advertised"
     },
     {
       "name": "2 Bedroom Penthouse",
-      "size": "71-72",
       "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "2 Bedroom Penthouse Plus",
-      "size": "91-122",
-      "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "122",
+      "price": 20227752,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
       "name": "3 Bedroom Penthouse",
-      "size": "128",
       "bedrooms": 3,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "91",
+      "price": 15600000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "3 Bedroom Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "128",
+      "price": 21217248,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     }
   ],
   "nearby": [
@@ -94,10 +103,10 @@
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 5108000,
+  "startingPrice": 3990000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://papayaproperty.com/rhom-bho-property-the-title/the-title-coralina",
-  "lastVerified": "2026-11-14",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-coralina-kamala",
+  "lastVerified": "2026-11-21",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -111,7 +120,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-coralina-kamala"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "bathroomsMin": 1,
   "bathroomsMax": 3
 }

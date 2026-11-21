@@ -23,53 +23,77 @@
   ],
   "unitTypes": [
     {
-      "name": "1 Bedroom",
-      "size": "29-43",
-      "bedrooms": 1,
-      "availability": "Available",
-      "price": 4500000
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "33",
+      "price": 5800000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1 Bedroom Plus",
-      "size": "55-58",
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "33",
+      "price": 5050000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
       "bedrooms": 1,
-      "availability": "Available",
-      "price": 8500000
+      "bathrooms": 1,
+      "size": "29-55",
+      "price": 4650000,
+      "priceType": "Lowest advertised price",
+      "availability": "247 units advertised"
     },
     {
       "name": "2 Bedroom",
-      "size": "65-68",
       "bedrooms": 2,
-      "availability": "Available"
+      "bathrooms": 1,
+      "size": "55-58",
+      "price": 8695000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
-      "name": "2 Bedroom Plus",
-      "size": "93-105",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "availability": "Available",
-      "price": 14000000
+      "bathrooms": 2,
+      "size": "65-113",
+      "price": 10100000,
+      "priceType": "Lowest advertised price",
+      "availability": "9 units advertised"
     },
     {
-      "name": "2 Bedroom Duplex",
-      "size": "96-138",
-      "bedrooms": 2,
-      "availability": "Available"
-    },
-    {
-      "name": "3 Bedroom Duplex",
-      "size": "146-148",
+      "name": "3 Bedroom",
       "bedrooms": 3,
-      "availability": "Available"
+      "bathrooms": 2,
+      "size": "93",
+      "price": 14490000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "146-148",
+      "price": 22192000,
+      "priceType": "Lowest advertised price",
+      "availability": "3 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 4466000,
+  "startingPrice": 4650000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-modeva",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-08-16. Unit prices on the source are rounded to the nearest 0.1M.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-modeva",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -85,8 +109,9 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-modeva"
     }
   ],
-  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (a property portal), Q4 2027, 03/2027 (other listings): not published. No official site found. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms.",
+  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (a property portal), Q4 2027, 03/2027 (other listings): not published. No official site found. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "furniture": "Fully furnished",
   "bathroomsMin": 1,
-  "bathroomsMax": 3
+  "bathroomsMax": 3,
+  "completionDate": "Dec 2026"
 }

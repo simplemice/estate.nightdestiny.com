@@ -24,68 +24,68 @@
   ],
   "unitTypes": [
     {
-      "name": "1BR Type S",
-      "bedrooms": 1,
-      "size": "26",
-      "price": 2900000
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "27-31",
+      "price": 3800000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
     },
     {
-      "name": "1BR Type L",
+      "name": "Studio Apartment",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "27-28",
+      "price": 3100000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
       "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "26-39",
+      "price": 3739106,
+      "priceType": "Lowest advertised price",
+      "availability": "112 units advertised"
+    },
+    {
+      "name": "1 Bedroom Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
       "size": "37",
-      "price": 4100000
+      "price": 5100000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "1BR Pool Access",
-      "bedrooms": 1,
-      "size": "33",
-      "price": 4200000
-    },
-    {
-      "name": "Pool Access Studio",
-      "bedrooms": 1,
-      "size": "28",
-      "price": 3600000
-    },
-    {
-      "name": "2BR",
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "size": "61",
-      "price": 7400000
+      "bathrooms": 2,
+      "size": "56.1-63",
+      "price": 7650000,
+      "priceType": "Lowest advertised price",
+      "availability": "27 units advertised"
     },
     {
-      "name": "2BR Type S",
-      "bedrooms": 2,
-      "size": "57",
-      "price": 7200000
-    },
-    {
-      "name": "2BR Pool Access",
-      "bedrooms": 2,
-      "size": "63",
-      "price": 8600000
-    },
-    {
-      "name": "3BR Type L",
+      "name": "3 Bedroom",
       "bedrooms": 3,
-      "size": "119",
-      "price": 14300000
-    },
-    {
-      "name": "3BR Pool Access",
-      "bedrooms": 3,
-      "size": "123",
-      "price": 16600000
+      "bathrooms": 3,
+      "size": "112.55-124.2",
+      "price": 13826768,
+      "priceType": "Lowest advertised price",
+      "availability": "17 units advertised"
     }
   ],
   "featured": false,
   "published": true,
   "publishedAt": "2026-11-12",
-  "startingPrice": 2900000,
+  "startingPrice": 3100000,
   "priceStatus": "advertised",
-  "priceSourceUrl": "https://kellerhenson.com/project/the-title-serenity-naiyang-phuket",
-  "lastVerified": "2026-11-14",
-  "priceNote": "Lowest advertised price, source page updated 2026-07-20.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang",
+  "lastVerified": "2026-11-21",
+  "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
   ],
@@ -98,5 +98,5 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced)."
 }

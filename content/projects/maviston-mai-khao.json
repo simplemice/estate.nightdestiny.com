@@ -21,11 +21,11 @@
     "Mai Khao condominium for sale",
     "Mai Khao Golden Beach developer"
   ],
-  "startingPrice": 8970000,
+  "startingPrice": 9300000,
   "priceStatus": "advertised",
-  "priceNote": "Lowest advertised price (Keller Henson). Another page lists 9.3 million.",
-  "priceSourceUrl": "https://kellerhenson.com/project/maviston-mai-khao",
-  "lastVerified": "2026-11-17",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 3,
   "constructionStatus": "Status on request",
@@ -57,7 +57,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao"
     }
   ],
-  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area.",
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "images": [
@@ -106,5 +106,35 @@
   "bathroomsMin": 1,
   "bathroomsMax": 3,
   "builtUpMin": 64,
-  "builtUpMax": 114.87
+  "builtUpMax": 114.87,
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "64-74.68",
+      "price": 9300000,
+      "priceType": "Lowest advertised price",
+      "availability": "24 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "96.84-151.16",
+      "price": 23100000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "114.87-170.8",
+      "price": 25725000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
+    }
+  ],
+  "completionDate": "Dec 2026"
 }

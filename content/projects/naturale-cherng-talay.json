@@ -12,9 +12,9 @@
   "developer": "AAG Development Co., Ltd.",
   "shortDescription": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development.",
   "description": "Phase 1 of a small gated enclave of single-storey saltwater-pool villas on Soi Cherng Talay 1, built by AAG Development. Villas come in 3 and 4 bedroom layouts of roughly 357 to 511 sqm built-up on plots of 423 to 693 sqm. The 4BR plan has two master suites and a 4.5 m living-room ceiling.",
-  "startingPrice": 34371200,
+  "startingPrice": 37360000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-12",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "bathroomsMin": 4,
@@ -30,7 +30,7 @@
   "ownership": [
     "Leasehold"
   ],
-  "constructionStatus": "Under construction",
+  "constructionStatus": "Completed",
   "paymentPlan": [
     "Booking fee 200,000 THB",
     "Down payment 30%",
@@ -79,20 +79,22 @@
   ],
   "unitTypes": [
     {
-      "name": "3BR Luxury Pool Villa",
+      "name": "3 Bedroom Villa",
       "bedrooms": 3,
       "bathrooms": 4,
       "size": "357.4",
-      "landSqm": "423",
-      "price": 34371200
+      "price": 37360000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     },
     {
-      "name": "4BR Luxury Pool Villa",
+      "name": "4 Bedroom Villa",
       "bedrooms": 4,
       "bathrooms": 5,
-      "size": "511.2",
-      "landSqm": "587-693",
-      "price": 56500000
+      "size": "453.9",
+      "price": 56500000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
     }
   ],
   "images": [
@@ -125,7 +127,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/naturale-cherng-talay"
     }
   ],
-  "researchNotes": "Official name appears to be 'Naturale', not 'Naturalle'. Not able to find official developer site. Render vs photo status of images not verified (esennio images unverified). Ownership: Papaya says Freehold; Keller Henson says freehold for Thai nationals/companies, 30+30+30 leasehold for foreigners. Image 'source' labelled source (Papaya CDN / Keller Henson). | Keller Henson shows 3BR from THB 34,371,200 (matches client ~34.4M); Papaya Property shows last-unit 3BR at 37,360,000 (range 37.4M-56.5M). Keller Henson says only 2 units still listed for sale. Price may be stale. | claimed price 34400000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Official name appears to be 'Naturale', not 'Naturalle'. Not able to find official developer site. Render vs photo status of images not verified (esennio images unverified). Ownership: Papaya says Freehold; Keller Henson says freehold for Thai nationals/companies, 30+30+30 leasehold for foreigners. Image 'source' labelled source (Papaya CDN / Keller Henson). | Keller Henson shows 3BR from THB 34,371,200 (matches client ~34.4M); Papaya Property shows last-unit 3BR at 37,360,000 (range 37.4M-56.5M). Keller Henson says only 2 units still listed for sale. Price may be stale. | claimed price 34400000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/naturale-cherng-talay/photo-1.jpg",
   "imageCaptions": [
@@ -136,5 +138,7 @@
     "3BR villa"
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "completionDate": "Dec 2025"
+  "completionDate": "Dec 2025",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/naturale-cherng-talay"
 }

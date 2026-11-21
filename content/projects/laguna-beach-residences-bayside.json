@@ -22,15 +22,15 @@
     "Laguna Phuket condominium for sale",
     "Banyan Group beach residences Bang Tao"
   ],
-  "startingPrice": 22340000,
+  "startingPrice": 25370000,
   "priceStatus": "advertised",
-  "priceNote": "Lowest advertised price (2-bedroom, Keller Henson). Other sources list higher starting prices, up to about 33 million.",
-  "priceSourceUrl": "https://kellerhenson.com/unit/laguna-beach-residences-bayside-2br",
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-bayside",
   "lastVerified": "2026-11-21",
   "builtUpMin": 73,
   "builtUpMax": 359,
   "constructionStatus": "Under construction",
-  "completionDate": "2028 (exact quarter not confirmed)",
+  "completionDate": "Oct 2028",
   "paymentPlan": [
     "20% at contract signing",
     "20% at 25% construction progress",
@@ -68,7 +68,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-bayside"
     }
   ],
-  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between sources; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms. | Phase 5 (2026-11-20) location corrected: \"Bang Tao\" -> \"Laguna Phuket (Bang Tao)\". Evidence: Project text: \"within the Laguna Phuket master plan at Bang Tao\" (Banyan Group / Laguna Property development).",
+  "researchNotes": "Prices, unit count (234 vs 237) and completion (Q4 2026 on one site, 2028 on others) conflict between sources; no official Banyan page was readable. Ownership not stated. Lowest price kept with note. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms. | Phase 5 (2026-11-20) location corrected: \"Bang Tao\" -> \"Laguna Phuket (Bang Tao)\". Evidence: Project text: \"within the Laguna Phuket master plan at Bang Tao\" (Banyan Group / Laguna Property development). FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-bayside. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-beach-residences-bayside/photo-1.jpg",
   "images": [
@@ -110,5 +110,34 @@
   "bedroomsMin": 2,
   "bedroomsMax": 3,
   "bathroomsMin": 2,
-  "bathroomsMax": 3
+  "bathroomsMax": 3,
+  "unitTypes": [
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "121-209",
+      "price": 25370000,
+      "priceType": "Lowest advertised price",
+      "availability": "56 units advertised"
+    },
+    {
+      "name": "2 Bedroom Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "121",
+      "price": 25900000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "163-358",
+      "price": 44000000,
+      "priceType": "Lowest advertised price",
+      "availability": "24 units advertised"
+    }
+  ]
 }

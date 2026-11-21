@@ -16,9 +16,9 @@
   "developer": "Laguna Property",
   "shortDescription": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community.",
   "description": "Laguna Lake Residences Aster is a lakeside condominium by Laguna Property, the development arm of Banyan Group, inside the Laguna Phuket resort community. It offers 1- to 3-bedroom units of about 56 to 113 sqm, with a rooftop infinity pool overlooking the lake. The project is a short walk from the Boat Avenue and Porto de Phuket dining and retail area.",
-  "startingPrice": 11630000,
+  "startingPrice": 10500000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 3,
   "bathroomsMin": 1,
@@ -73,22 +73,28 @@
       "name": "1 Bedroom",
       "bedrooms": 1,
       "bathrooms": 1,
-      "size": "57",
-      "price": 11630000
+      "size": "56",
+      "price": 10500000,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
     },
     {
       "name": "2 Bedroom",
       "bedrooms": 2,
       "bathrooms": 2,
-      "size": "85",
-      "price": 16810000
+      "size": "84",
+      "price": 15920000,
+      "priceType": "Lowest advertised price",
+      "availability": "42 units advertised"
     },
     {
       "name": "3 Bedroom",
       "bedrooms": 3,
       "bathrooms": 3,
       "size": "113",
-      "price": 33180000
+      "price": 27400000,
+      "priceType": "Lowest advertised price",
+      "availability": "19 units advertised"
     }
   ],
   "images": [
@@ -124,7 +130,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-lake-residences-aster"
     }
   ],
-  "researchNotes": "Relationship: Banyan's official URL slug is 'laguna-lakeside-residences' and Keller Henson calls it 'Laguna Lakeside Residences 2'; a July 2025 Banyan release (search summary) calls Aster an extension of the sell-out Laguna Lakeside Residences. It is a separate, newer building, not the earlier Lakeside phase. 'Laguna Lakelands' is a different Banyan listing; no link to Aster found. Official page gives no units, price, completion or ownership; those come from sources and conflict (completion Q3 2026 vs Q4 2027; floors 7 vs 8; prices differ). Brochure PDFs exist (r2.dev, Jul/Dec 2025) but exceeded fetch size, not read. Distances unspecified mode; Banyan nearby labels have no distances. | Papaya: 1BR 11.63M, 2BR 16.81M, 3BR 33.18M (1st-floor units). Keller Henson: 1BR 12.0M, 2BR 18.7M, 3BR 29.1M (FAQ 11.99M-27.67M). Sources differ; lowest from Papaya (read today) used. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Relationship: Banyan's official URL slug is 'laguna-lakeside-residences' and Keller Henson calls it 'Laguna Lakeside Residences 2'; a July 2025 Banyan release (search summary) calls Aster an extension of the sell-out Laguna Lakeside Residences. It is a separate, newer building, not the earlier Lakeside phase. 'Laguna Lakelands' is a different Banyan listing; no link to Aster found. Official page gives no units, price, completion or ownership; those come from sources and conflict (completion Q3 2026 vs Q4 2027; floors 7 vs 8; prices differ). Brochure PDFs exist (r2.dev, Jul/Dec 2025) but exceeded fetch size, not read. Distances unspecified mode; Banyan nearby labels have no distances. | Papaya: 1BR 11.63M, 2BR 16.81M, 3BR 33.18M (1st-floor units). Keller Henson: 1BR 12.0M, 2BR 18.7M, 3BR 29.1M (FAQ 11.99M-27.67M). Sources differ; lowest from Papaya (read today) used. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/laguna-lake-residences-aster/photo-1.jpg",
   "imageCaptions": [
     "Rooftop pool",
@@ -139,7 +145,8 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://papayaproperty.com/laguna-property/laguna-lake-residences-aster",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-lake-residences-aster",
   "floors": "4 buildings, 7 storeys each",
-  "completionDate": "Apr 2028"
+  "completionDate": "Apr 2028",
+  "priceNote": "Lowest advertised price."
 }

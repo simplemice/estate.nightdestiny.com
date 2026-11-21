@@ -12,9 +12,9 @@
   "developer": "Origin Property PCL",
   "shortDescription": "So Origin Kata is a low-rise condominium by Origin Property in Kata, Phuket.",
   "description": "So Origin Kata is a low-rise condominium by Origin Property in Kata, Phuket. Per the developer's page it has four low-rise buildings of eight storeys on about 5 rai, with 686 units. Units range from compact one-bedroom layouts to two-bedroom layouts, furnished with balconies. Shared facilities include pools, an inner courtyard, fitness and co-working areas.",
-  "startingPrice": 3980000,
+  "startingPrice": 3255000,
   "priceStatus": "advertised",
-  "lastVerified": "2026-11-14",
+  "lastVerified": "2026-11-21",
   "bedroomsMin": 1,
   "bedroomsMax": 2,
   "builtUpMin": 26,
@@ -45,25 +45,40 @@
   ],
   "unitTypes": [
     {
-      "name": "1BR (unit 1058)",
-      "bedrooms": 1,
+      "name": "Studio",
+      "bedrooms": 0,
       "bathrooms": 1,
-      "size": "26",
-      "price": 3980000
+      "size": "26-29.4",
+      "price": 3255000,
+      "priceType": "Lowest advertised price",
+      "availability": "19 units advertised"
     },
     {
-      "name": "1BR (unit 991)",
-      "bedrooms": 1,
+      "name": "Studio Apartment",
+      "bedrooms": 0,
       "bathrooms": 1,
-      "size": "30",
-      "price": 4410000
+      "size": "26.1-30.5",
+      "price": 4000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
     },
     {
-      "name": "2BR (unit 992)",
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "29-46.55",
+      "price": 4380000,
+      "priceType": "Lowest advertised price",
+      "availability": "179 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
       "bedrooms": 2,
-      "bathrooms": 1,
-      "size": "65",
-      "price": 7510000
+      "bathrooms": 2,
+      "size": "65.4-74.85",
+      "price": 8330000,
+      "priceType": "Lowest advertised price",
+      "availability": "42 units advertised"
     }
   ],
   "images": [
@@ -95,7 +110,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/so-origin-kata-phuket"
     }
   ],
-  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | One page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer.",
+  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | One page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
   "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
   "imageCaptions": [
     "Project gallery image",
@@ -107,7 +122,8 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the completed project.",
   "imagesStatus": "available",
-  "priceSourceUrl": "https://papayaproperty.com/origin-property/so-origin-kata-1",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/so-origin-kata-phuket",
   "floors": "8",
-  "completionDate": "Sep 2027"
+  "completionDate": "Sep 2027",
+  "priceNote": "Lowest advertised price."
 }
