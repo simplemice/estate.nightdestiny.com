@@ -816,6 +816,17 @@ function locationPage(g) {
   // Projects whose PRIMARY area is elsewhere but whose record lists this area as nearby (structured `nearbyAreas`); never counted in the totals.
   const alsoNear = projL.filter((x) => areaKey(x) !== g.name && (x.nearbyAreas || []).some((a) => canonArea(a) === g.name));
   const nearHtml = alsoNear.length ? `<p class="ds-note">${T('loc.also_near', { list: alsoNear.map((x) => `${linkP(x)} (${esc(areaName(areaKey(x)))})`).join(', ') })}</p>` : '';
+  // Data-driven FAQ (visible text only; every figure comes from the catalogue records listed on this page).
+  const fb = ps.map((p) => facts(p)), bmn = Math.min(...fb.map((x) => x.bedMin ?? Infinity)), bmx = Math.max(...fb.map((x) => x.bedMax ?? -Infinity));
+  const stc = (k) => ps.filter((p) => p.constructionStatus === k).length;
+  const ownTxt = ['Freehold', 'Leasehold'].map((k) => [k, ps.filter((p) => p.ownership.includes(k)).length]).filter(([, n]) => n).map(([k, n]) => `${ownName(k, false)} (${n})`).join(', ');
+  const faqLoc = [
+    [T('loc.faq.q_types', { nm, in: inn }), T('loc.faq.a_types', { nm, in: inn, np: T('count.projects', { n: N }), types: typesTxt }) + (isFinite(bmn) ? ' ' + T('loc.faq.a_beds', { r: bmn === bmx ? bmn : `${bmn === 0 ? T('loc.faq.studio') : bmn}\u2013${bmx}` }) : '')],
+    prices.length ? [T('loc.faq.q_price', { nm, in: inn }), T('loc.faq.a_price', { nm, in: inn, from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N })] : null,
+    ownTxt ? [T('loc.faq.q_own', { nm, in: inn }), T('loc.faq.a_own', { x: ownTxt })] : null,
+    [T('loc.faq.q_status', { nm, in: inn }), T('loc.faq.a_status', { early: stc('Pre-sale') + stc('Under construction'), done: stc('Completed'), N })],
+  ].filter(Boolean);
+  const faqHtml = `<h2 class="sec-h sec-sub">${T('faq.h')}</h2><div class="faq-list">${faqLoc.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
   const catLinks = cnt.map(([k]) => { const c = CATALOGS.find((x) => x.lock === k); return `<a href="${lp(c.path)}">${esc(T(`cat.${c.key}.h1`))}</a>`; }).join(' &middot; ');
   const body = `${pageHead(h1, T('loc.sub', { n: N, nm }), [['/', T('nav.home')], ['/locations/', T('nav.locations')], ['', nm]])}
 	<section class="spad-2 loc-page"><div class="container">
@@ -832,6 +843,7 @@ function locationPage(g) {
 		${nearHtml}
 		<p class="mt-3">${T('loc.cat_links', { links: catLinks })}</p>
 		${nb.length ? `<h2 class="sec-h">${T('loc.nearby')}</h2><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div>` : ''}
+		${faqHtml}
 		<p class="price-disclaimer" data-usd-note>${T('loc.disclaimer')}</p>
 		<p class="mt-3">${T('loc.browse_more')} ${LOCS.filter((x) => x.slug !== g.slug).slice(0, 6).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')} &middot; <a href="${lp('/locations/')}">${T('loc.all')}</a></p>
 	</div></section>
@@ -1077,7 +1089,7 @@ function homePage() {
     .map(([l, c]) => `<a class="loc-chip" href="${locPageFor({ location: l }) ? lp(locPageFor({ location: l }).url) : `${lp(`/${c.sale ? 'sale' : 'rent'}/`)}?location=${encodeURIComponent(l)}`}"><strong>${esc(areaName(l))}</strong><span>${[c.rent ? T('n_for_rent', { n: c.rent }) : '', c.sale ? T('n_for_sale', { n: c.sale }) : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
   const body = `
 	<section class="estate-hero">
-		${img(settings.heroImage, '', { lazy: false, sizes: '100vw', cls: 'hero-img', priority: true })}
+		${img(settings.heroImage, T('hero.alt'), { lazy: false, sizes: '100vw', cls: 'hero-img', priority: true })}
 		<div class="container">
 			<div class="hero-text-wrap">
 				<h1>${esc(S('heroTitle'))}</h1>

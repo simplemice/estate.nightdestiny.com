@@ -245,7 +245,7 @@
   "projects.ttl": "New Developments in Phuket with Price on Request",
   "projects.h1": "Phuket Projects with Price on Request",
   "projects.sub": "Developments whose price list is available on request",
-  "projects.desc": "New projects in Phuket with no published price: villas, townhouses and condominiums. Ask us on WhatsApp for the current price list, availability and floor plans.",
+  "projects.desc": "New projects in Phuket with no published price: villas, townhouses and condominiums. Ask us on WhatsApp for the price list, availability and floor plans.",
   "cat.properties.ttl": "Phuket Villas, Townhouses & Condos",
   "cat.properties.h1": "Phuket Villas, Townhouses & New Developments",
   "cat.properties.sub": "Browse every development project in our catalogue",
@@ -391,5 +391,16 @@
   "tl.from": "from {price}",
   "tl.beds": "{r} bedrooms",
   "tl.early": "{k} of {n} in pre-sale or under construction",
-  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}."
+  "loc.also_near": "Also close to this area, with their primary location elsewhere: {list}.",
+  "loc.faq.q_types": "What can I buy in {nm}?",
+  "loc.faq.a_types": "Our catalogue lists {np} in {nm}: {types}.",
+  "loc.faq.a_beds": "Bedroom counts across the listed projects: {r}.",
+  "loc.faq.q_price": "How much does property in {nm} cost?",
+  "loc.faq.a_price": "Advertised starting prices for projects in {nm} run from {from} to {to} ({k} of {N} projects publish a price). These are lowest advertised prices; ask us to confirm current availability.",
+  "loc.faq.q_own": "Which ownership types are offered in {nm}?",
+  "loc.faq.a_own": "Ownership types stated for the projects: {x}. Ask us about foreign quota and legal requirements for a specific unit.",
+  "loc.faq.q_status": "Are the projects in {nm} completed?",
+  "loc.faq.a_status": "{early} of {N} projects are pre-sale or under construction and {done} are completed; the rest have no stated status.",
+  "loc.faq.studio": "studio",
+  "hero.alt": "Sea view from a terrace at dusk"
 }
