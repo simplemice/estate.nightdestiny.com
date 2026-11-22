@@ -10,9 +10,26 @@
   "constructionStatus": "Pre-sale",
   "shortDescription": "A pop-inspired, pet-friendly seven-storey condominium of just 135 residences by Rhom Bho Property, in the Kata–Karon area of Phuket.",
   "description": "The Title Fizz is a condominium by Rhom Bho Property, the developer behind The Title brand, in the Kata–Karon area on Phuket's west coast. It is a single seven-storey building with only 135 residences, which the developer presents as a more private, pet-friendly alternative to larger projects nearby.\nThe design concept is called \"tropical pop\": three ideas named Wave, Pop and Bubble bring sand-to-seafoam colours, curved façades and playful arches into the interiors. Residents share a communal pool and a private clubhouse building created for the 135 homes, and the developer advertises a complimentary shuttle to the beach.\nListings show one-bedroom homes of about 32 m², two-bedroom homes of about 58 m² and three-bedroom homes of about 105 m², with further one-bedroom Plus and penthouse types. Units are offered within the Thai foreign quota. The project is at pre-sale stage and the developer has not published a completion date, so ask us for the current price list, floor plans and availability.",
-  "cover": "/assets/images/projects/fizz/the-fizz-banner-d.jpg",
-  "images": [],
-  "floorPlans": [],
+  "cover": "/assets/images/projects/fizz/entrance.jpg",
+  "images": [
+    "/assets/images/projects/fizz/kids-pool.jpg",
+    "/assets/images/projects/fizz/lap-pool.jpg",
+    "/assets/images/projects/fizz/pool-aerial.jpg",
+    "/assets/images/projects/fizz/play-yard.jpg",
+    "/assets/images/projects/fizz/playground.jpg",
+    "/assets/images/projects/fizz/paw-park.jpg",
+    "/assets/images/projects/fizz/gym.jpg",
+    "/assets/images/projects/fizz/social-club.jpg",
+    "/assets/images/projects/fizz/coworking.jpg",
+    "/assets/images/projects/fizz/meeting-room.jpg",
+    "/assets/images/projects/fizz/the-fizz-banner-d.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/fizz/unit-plan-1-bedroom.jpg",
+    "/assets/images/floorplans/fizz/master-plan-floors-2-6.jpg",
+    "/assets/images/floorplans/fizz/master-plan-floor-7.jpg",
+    "/assets/images/floorplans/fizz/master-plan-rooftop.jpg"
+  ],
   "currency": "THB",
   "featured": true,
   "published": true,
@@ -31,7 +48,8 @@
       "size": "32.2-44.3",
       "price": 5154707,
       "priceType": "Lowest advertised price",
-      "availability": "121 units advertised"
+      "availability": "121 units advertised",
+      "floorPlan": "/assets/images/floorplans/fizz/unit-plan-1-bedroom.jpg"
     },
     {
       "name": "2 Bedroom",
