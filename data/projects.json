@@ -1,5 +1,34 @@
 [
  {
+  "id": "darayana-kamala",
+  "name": "Darayana Kamala",
+  "url": "/projects/darayana-kamala/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Rhom Bho Property PLC (The Title)",
+  "location": "Kamala",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/darayana-kamala/darayana-teaser.jpg",
+  "imageCount": 1,
+  "lastVerified": "2026-11-23"
+ },
+ {
   "id": "aileen-rawai-townhouses",
   "name": "Aileen Rawai Townhouses",
   "url": "/projects/aileen-rawai-townhouses/",
@@ -607,34 +636,6 @@
   "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
   "imageCount": 13,
   "lastVerified": "2026-11-21"
- },
- {
-  "id": "the-nayabella-condominium",
-  "name": "The Nayabella Condominium",
-  "url": "/projects/the-nayabella-condominium/",
-  "category": "Condominium",
-  "propertyType": "condominium",
-  "developer": "Rhom Bho Property",
-  "location": "Naiyang",
-  "startingPrice": null,
-  "currency": "THB",
-  "priceStatus": "on-request",
-  "bedrooms": [
-   1,
-   1
-  ],
-  "bathrooms": [
-   1,
-   1
-  ],
-  "builtUpArea": [
-   null,
-   null
-  ],
-  "status": "Pre-sale",
-  "completionDate": null,
-  "imageCount": 1,
-  "lastVerified": "2026-11-17"
  },
  {
   "id": "the-origin-kathu-patong",

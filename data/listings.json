@@ -83,6 +83,19 @@
  "sale": [],
  "projects": [
   {
+   "slug": "darayana-kamala",
+   "url": "/projects/darayana-kamala/",
+   "kind": "project",
+   "title": "Darayana Kamala",
+   "location": "Kamala",
+   "type": "Condominium",
+   "price": null,
+   "currency": "THB",
+   "cover": "/assets/images/projects/darayana-kamala/darayana-teaser.jpg",
+   "publishedAt": "2026-11-23",
+   "featured": false
+  },
+  {
    "slug": "aileen-rawai-townhouses",
    "url": "/projects/aileen-rawai-townhouses/",
    "kind": "project",
@@ -352,18 +365,6 @@
    "price": 4712625,
    "currency": "THB",
    "cover": "/assets/images/projects/silhouette-by-the-zero-phuket/photo-1.webp",
-   "publishedAt": "2026-11-17",
-   "featured": false
-  },
-  {
-   "slug": "the-nayabella-condominium",
-   "url": "/projects/the-nayabella-condominium/",
-   "kind": "project",
-   "title": "The Nayabella Condominium",
-   "location": "Naiyang",
-   "type": "condominium",
-   "price": null,
-   "currency": "THB",
    "publishedAt": "2026-11-17",
    "featured": false
   },
