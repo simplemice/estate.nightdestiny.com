@@ -771,7 +771,7 @@ function listingPage(category, list, extra = []) {
 			${category === 'sale' ? typeTabs(list.concat(extra)) : `<p class="rent-notice"><i class="fa fa-calendar-check-o"></i> ${esc(T('rental.notice'))}</p>`}
 			${filterForm(list.concat(extra), category)}
 			<p class="result-count" id="result-count" aria-live="polite">${countLine(total, 'listing')}</p>
-			<div class="row" id="listing" data-page-size="6">
+			<div class="row" id="listing" data-page-size="${rentC ? 100 : 6}">
 				${list.map((p) => propCard(p, { filterable: true })).concat(extra.map(projSaleCard)).join('\n')}
 			</div>
 			<nav id="pager" class="pager" aria-label="${esc(T('pagination'))}" hidden></nav>
