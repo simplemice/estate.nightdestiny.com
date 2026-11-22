@@ -307,7 +307,7 @@ function propDesc(p) {
 }
 
 /* ---------- layout ---------- */
-const NAV = [['/', 'nav.home', 'home'], ['/rent/', 'nav.rent', 'rent'], ['/sale/', 'nav.sale', 'sale'], ['/properties/', 'nav.properties', 'properties', [['/properties/', 'nav.all_properties'], ['/properties/villas/', 'nav.villas'], ['/properties/townhouses/', 'nav.townhouses'], ['/properties/condos/', 'nav.condos']]], ['/projects/', 'nav.projects', 'projects'], ['/locations/', 'nav.locations', 'locations'], ['/about/', 'nav.about', 'about'], ['/contact/', 'nav.contact', 'contact']];
+const NAV = [['/', 'nav.home', 'home'], ['/sale/', 'nav.sale', 'sale'], ['/rent/', 'nav.rent', 'rent'], ['/projects/', 'nav.projects', 'projects'], ['/locations/', 'nav.locations', 'locations'], ['/about/', 'nav.about', 'about'], ['/contact/', 'nav.contact', 'contact']];
 const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.map(([h, l, k, kids]) => `<li${k === active ? ' class="active"' : ''}><a href="${lp(h)}">${T(l)}</a>${kids ? `<ul class="dropdown">${kids.map(([kh, kl]) => `<li><a href="${lp(kh)}">${T(kl)}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul></nav>`;
 
 // Language switcher: links go to the equivalent page in the other language (every page exists in both), so they can never 404.
@@ -443,7 +443,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 					<div class="col-lg-3 offset-lg-1">
 						<div class="ft-contact">
 							<p class="ft-title">${T('footer.explore')}</p>
-							<ul>${[['/rent/', 'nav.rent'], ['/sale/', 'nav.sale'], ['/properties/', 'nav.properties'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}${LANG === 'ru' ? `<li><a href="${lp('/guides/freehold-leasehold/')}">${T('footer.guide')}</a></li>` : ''}</ul>
+							<ul>${[['/sale/', 'nav.sale'], ['/rent/', 'nav.rent'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}${LANG === 'ru' ? `<li><a href="${lp('/guides/freehold-leasehold/')}">${T('footer.guide')}</a></li>` : ''}</ul>
 						</div>
 					</div>
 				</div>
@@ -676,7 +676,7 @@ function catalogFilter(list, lock) {
 </form>`;
 }
 
-function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, crumbs, key = '' }) {
+function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, crumbs, key = '', noindex = false }) {
   const body = `${pageHead(h1, sub, crumbs)}
 	<section class="rooms-section spad estate-listing" data-listing="catalog">
 		<div class="container">
@@ -691,7 +691,7 @@ function catalogPage({ pathname, h1, ttl, sub, desc, list, lock = '', active, cr
 	</section>
 	${key ? catalogIntro(key, list) : ''}
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: h1, inLanguage: LANG_META[LANG].htmlLang, itemListElement: list.slice(0, 50).map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) })}`;
-  return layout({ title: `${ttl || h1} | ${settings.siteName}`, description: desc, pathname, active, body, ogImage: list[0]?.cover, i18nJs: true });
+  return layout({ title: `${ttl || h1} | ${settings.siteName}`, description: desc, pathname, active, body, ogImage: list[0]?.cover, i18nJs: true, noindex });
 }
 
 const projectsPage = (list) => catalogPage({ key: 'projects', pathname: '/projects/', ttl: T('projects.ttl'), h1: T('projects.h1'), sub: T('projects.sub'), desc: T('projects.desc'), list, active: 'projects', crumbs: [['/', T('nav.home')], ['', T('nav.projects')]] });
@@ -770,7 +770,7 @@ function catalogIntro(key, list) {
   let extra = '';
   if (key === 'projects') { // new / off-plan intent: group by construction stage with links
     const grp = (stat, label) => { const g = list.filter((p) => p.constructionStatus === stat).sort((a, b) => a.name.localeCompare(b.name)); return g.length ? `<p><strong>${esc(T(label, { n: g.length }))}</strong> ${g.slice(0, 14).map(linkP).join(', ')}${g.length > 14 ? '…' : ''}</p>` : ''; };
-    extra = `<p>${T('ci.proj_priced', { sale: `<a href="${lp('/sale/')}">${T('nav.sale')}</a>`, cat: `<a href="${lp('/properties/')}">${T('nav.all_properties')}</a>` })}</p>` + grp('Pre-sale', 'ci.grp_pre') + grp('Under construction', 'ci.grp_uc') + grp('Completed', 'ci.grp_done');
+    extra = `<p>${T('ci.proj_priced', { sale: `<a href="${lp('/sale/')}">${T('nav.sale')}</a>`, cat: `<a href="${lp('/projects/')}">${T('nav.projects')}</a>` })}</p>` + grp('Pre-sale', 'ci.grp_pre') + grp('Under construction', 'ci.grp_uc') + grp('Completed', 'ci.grp_done');
   }
   return `<section class="spad-2 cat-intro"><div class="container"><h2 class="sec-h">${T(`ci.h.${key}`)}</h2><div class="desc">${paras_}${extra}</div></div></section>`;
 }
@@ -861,7 +861,7 @@ const ALL_LOCS = [...LOCS, ...OTHER_LOCS].sort((a, b) => b.projects.length - a.p
 function locationsHub() {
   const body = `${pageHead(T('hub.h1'), T('hub.sub'), [['/', T('nav.home')], ['', T('nav.locations')]])}
 	<section class="spad-2"><div class="container">
-		<p>${T('hub.intro', { link: `<a href="${lp('/properties/')}">${T('hub.link')}</a>` })}</p>
+		<p>${T('hub.intro', { link: `<a href="${lp('/projects/')}">${T('hub.link')}</a>` })}</p>
 		<div class="loc-grid">${ALL_LOCS.map((g) => `<a class="loc-chip" href="${g.projects.length === 1 && !LOCS.includes(g) ? url(g.projects[0]) : lp(g.url)}"><strong>${esc(areaName(g.name))}</strong><span>${countLine(g.projects.length, 'project')}</span></a>`).join('')}</div>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: T('hub.ld'), inLanguage: LANG_META[LANG].htmlLang, itemListElement: LOCS.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + lp(g.url), name: areaName(g.name) })) })}`;
@@ -976,8 +976,8 @@ const placeOfLoc = (location) => (LANG === DEFAULT_LANG ? withPhuket(areaOf(loca
 
 function projectPage(p) {
   const t = p.name, f = facts(p), cur = p.currency || 'THB';
-  const CAT_CRUMB = { Villa: ['/properties/villas/', T('crumb.villas')], Townhouse: ['/properties/townhouses/', T('crumb.townhouses')], Condominium: ['/properties/condos/', T('crumb.condos')] };
-  const crumbs = [['/', T('nav.home')], ['/properties/', T('crumb.phuket_property')], CAT_CRUMB[p.category] || CAT_CRUMB.Condominium, ['', (LANG === DEFAULT_LANG && p.breadcrumbLabel) || t]];
+  const onSale = saleProjects.some((x) => x.slug === p.slug); // listed on SALE, else under New Projects
+  const crumbs = [['/', T('nav.home')], onSale ? ['/sale/', T('nav.sale')] : ['/projects/', T('nav.projects')], ['', (LANG === DEFAULT_LANG && p.breadcrumbLabel) || t]];
   const desc = projDesc(p);
   const loc = locTx(p.location), cat = catName(p.category), status = tx(p.constructionStatus, 'status'), ptype = tx(p.projectType, 'type');
   const wa = (u) => waBtn(waMsg.unit(u, t, p.location), 'wa-btn wa-sm', T('ask'));
@@ -1052,7 +1052,7 @@ function projectPage(p) {
 	</section>
 	${related(p, projL)}
 `;
-  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
+  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: onSale ? 'sale' : 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
 }
 
 /* ---------- home / about / contact ---------- */
@@ -1102,14 +1102,14 @@ function homePage() {
 				<div class="hero-ctas">
 					<a class="hero-cta" href="${lp('/sale/')}"><i class="fa fa-home"></i> ${T('hero.buy')}</a>
 					<a class="hero-cta" href="${lp('/rent/')}"><i class="fa fa-key"></i> ${T('hero.rent')}</a>
-					<a class="hero-cta" href="${lp('/properties/')}"><i class="fa fa-building"></i> ${T('hero.projects')}</a>
+					<a class="hero-cta" href="${lp('/projects/')}"><i class="fa fa-building"></i> ${T('hero.projects')}</a>
 				</div>
 			</div>
 		</div>
 	</section>
 	${featSaleSection()}
 	${section(T('home.featured_rent'), T('for_rent_cap'), feat(rentL).map((p) => propCard(p)), lp('/rent/'), T('home.view_rent'))}
-	${section(T('home.new_dev'), T('home.new_projects_eyebrow'), feat(projL).map(projCard), lp('/properties/'), T('home.view_projects'))}
+	${section(T('home.new_dev'), T('home.new_projects_eyebrow'), feat(projL.filter((p) => !facts(p).price)).map(projCard), lp('/projects/'), T('home.view_projects'))}
 	<section class="spad-2 home-section loc-section"><div class="container"><div class="section-title"><span>${T('home.browse_area')}</span><h2>${T('home.popular')}</h2></div><div class="loc-grid">${locCards}</div></div></section>
 	<section class="spad-2 home-section about-teaser"><div class="container"><div class="row align-items-center"><div class="col-lg-7"><div class="section-title text-left"><span>${T('home.about_eyebrow')}</span><h2>${T('home.about_h')}</h2></div><p>${esc(S('aboutText'))}</p><a class="primary-btn" href="${lp('/about/')}">${T('home.about_btn')}</a></div><div class="col-lg-5 text-lg-right mt-4 mt-lg-0"><p class="mb-2"><i class="fa fa-phone"></i> ${telLink()}</p><p class="mb-3"><i class="fa fa-envelope"></i> ${mailLink()}</p>${waBtn(waMsg.general(), 'wa-btn', T('chat_wa'))}</div></div></div></section>`;
   return layout({
@@ -1203,7 +1203,7 @@ function buildLanguage(lang) {
   const propCrumbs = (l) => [['/', T('nav.home')], ...(l ? [['/properties/', T('crumb.phuket_property')], ['', T(`crumb.${l}`)]] : [['', T('crumb.phuket_property')]])];
   CATALOGS.forEach((c) => {
     const k = `cat.${c.key}`;
-    out(`${c.path.slice(1)}index.html`, catalogPage({ key: c.key, pathname: c.path, ttl: I.has(`${k}.ttl`) ? T(`${k}.ttl`) : undefined, h1: T(`${k}.h1`), sub: T(`${k}.sub`), desc: T(`${k}.desc`), list: c.list(), lock: c.lock, active: c.active, crumbs: propCrumbs(c.crumb && c.crumb.toLowerCase()) }));
+    out(`${c.path.slice(1)}index.html`, catalogPage({ key: c.key, pathname: c.path, ttl: I.has(`${k}.ttl`) ? T(`${k}.ttl`) : undefined, h1: T(`${k}.h1`), sub: T(`${k}.sub`), desc: T(`${k}.desc`), list: c.list(), lock: c.lock, active: c.active, crumbs: propCrumbs(c.crumb && c.crumb.toLowerCase()), noindex: true })); // legacy /properties/ catalogue: kept so old links work, but noindex and out of the menu/sitemap (priced projects live on /sale/, unpriced on /projects/)
   });
   out('locations/index.html', locationsHub());
   LOCS.forEach((g) => out(`locations/${g.slug}/index.html`, locationPage(g)));
@@ -1242,11 +1242,7 @@ const urls = [
   ['/', latest(allListings), 'weekly', '1.0'],
   ['/rent/', latest(rentL), 'weekly', '0.9'],
   ['/sale/', latest(saleAll.length ? saleAll.concat(saleL) : saleL), 'weekly', '0.9'],
-  ['/properties/', latest(projL), 'weekly', '0.9'],
-  ['/properties/villas/', latest(projL.filter((x) => x.category === 'Villa')), 'weekly', '0.8'],
-  ['/properties/townhouses/', latest(projL.filter((x) => x.category === 'Townhouse')), 'weekly', '0.8'],
-  ['/projects/', latest(projL), 'weekly', '0.9'],
-  ['/properties/condos/', latest(projL.filter((x) => x.category === 'Condominium')), 'weekly', '0.8'],
+  ['/projects/', latest(projL.filter((x) => !facts(x).price)), 'weekly', '0.9'],
   ['/locations/', [...LOCS.map(locMod), ...OTHER_LOCS.map((g) => latest(g.projects))].sort().pop(), 'weekly', '0.8'],
   ...LOCS.map((g) => [g.url, locMod(g), 'weekly', '0.8']),
   ['/about/', latest(allListings), 'yearly', '0.4'],

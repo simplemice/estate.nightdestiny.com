@@ -373,7 +373,7 @@
   "ci.grp_uc": "Under construction ({n}):",
   "ci.grp_done": "Completed ({n}):",
   "cat.townhouses.ttl": "Townhouses for Sale in Phuket: New Developments",
-  "ci.proj_priced": "Projects with a published starting price are listed under {sale} and in the {cat}.",
+  "ci.proj_priced": "Projects with a published starting price are listed under {sale}; projects without a published price are under {cat}.",
   "loc.tn.Villa": "Villas",
   "loc.tn.Townhouse": "Townhouses",
   "loc.tn.Condominium": "Condos",
