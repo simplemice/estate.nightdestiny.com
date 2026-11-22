@@ -1229,9 +1229,7 @@ const xesc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '
 const dOf = (p) => dateFmt(p.lastVerified) || dateFmt(p.publishedAt) || today;
 const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
-// Editorial location text lives in locale files: its modification date counts for the area page lastmod.
-const mtimeD = (f) => { try { return fs.statSync(path.join(ROOT, f)).mtime.toISOString().slice(0, 10); } catch { return ''; } };
-const locMod = (g) => [latest(g.projects), ...LANGS.map((l) => mtimeD(`locales/${l}/locations/${g.slug}.json`))].sort().pop();
+const locMod = (g) => latest(g.projects); // content dates only: file mtimes differ between local and CI checkouts and caused sitemap.xml conflicts
 const allListings = rentL.concat(saleL, projL);
 const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
 const entry = (loc, lastmod, changefreq, priority, p, only) => (only || readyLangs(p)).map((l, _i, all) => `<url><loc>${SITE}${lpFor(l, loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${all.length > 1 ? `${all.map((a) => `<xhtml:link rel="alternate" hreflang="${LANG_META[a].hreflang}" href="${SITE}${lpFor(a, loc)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${lpFor(DEFAULT_LANG, loc)}"/>` : ''}${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`).join('\n');
