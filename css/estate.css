@@ -234,3 +234,57 @@ img{height:auto}
 @media (max-width:360px){.lang-switch-bar a span{display:none}.lang-switch-bar a{padding:5px 7px}}
 /* section headings under the page H1 are H2 for a correct outline; keep the original (smaller) look */
 h2.sec-h.sec-sub{font-size:24px}
+
+/* ---- rentals: booking by request ---- */
+.status-req{background:#19191a}
+.ec-rent-specs{gap:6px 14px}
+.ec-rent-specs li{white-space:nowrap}
+.ec-req{margin:0 0 8px;font-size:13px;font-weight:700;letter-spacing:.3px}
+.ec-req i{margin-right:5px}
+.ec-actions{flex-wrap:wrap;gap:8px 10px}
+.rent-request i{margin-right:6px}
+.rent-request-block{display:block;text-align:center;margin:0 0 12px}
+.rent-notice{margin:0 0 18px;font-size:15px}
+.rent-notice i{margin-right:6px}
+.rent-notice-side{font-size:13px;margin-bottom:12px}
+.rent-chips{margin-bottom:12px;font-size:16px}
+.rent-lead{margin:0 0 14px}
+.rent-projlink{margin:0 0 14px}
+
+/* booking-by-request dialog (native <dialog>; mobile first, full height on phones) */
+.rental-dialog{padding:0;border:1px solid #d8d8d8;border-radius:4px;width:min(720px,calc(100vw - 24px));max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);color:#222;background:#fff;overflow:hidden}
+.rental-dialog[open]{display:flex;flex-direction:column}
+.rental-dialog::backdrop{background:rgba(0,0,0,.65)}
+.rental-dialog form{display:flex;flex-direction:column;min-height:0;flex:1}
+.rd-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid #e5e5e5}
+.rd-head h2{font-size:22px;margin:0}
+.rd-x{background:none;border:0;font-size:30px;line-height:1;cursor:pointer;padding:0 6px;color:inherit}
+.rd-body{padding:16px 18px;overflow-y:auto;flex:1;-webkit-overflow-scrolling:touch}
+.rd-foot{display:flex;flex-wrap:wrap;gap:10px;padding:12px 18px;border-top:1px solid #e5e5e5}
+.rd-foot .wa-btn,.rd-foot .primary-btn{flex:1 1 220px;text-align:center;border:0;cursor:pointer;font-family:inherit}
+.rd-foot button:disabled{opacity:.55;cursor:not-allowed}
+.rd-lead{margin:0 0 14px}
+.rd-set{border:0;padding:0;margin:0 0 16px;min-width:0}
+.rd-set legend{font-size:14px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin:0 0 8px;padding:0;width:auto}
+.rd-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.rd-row3{grid-template-columns:1.4fr 1fr 1.2fr}
+.rd-f{margin-bottom:8px;min-width:0}
+.rd-f label{display:block;font-size:13px;margin-bottom:4px}
+.rd-body .form-control{width:100%;height:44px;font-size:16px} /* 16px: no zoom on iOS focus */
+.rd-body textarea.form-control{height:auto}
+.rd-hint{font-size:13px;margin:4px 0 0}
+.rd-warn{font-size:13px;margin:6px 0 0;font-weight:700}
+.rd-note{font-size:13px;margin:6px 0 0}
+.rd-error{border:1px solid #c0392b;background:rgba(192,57,43,.08);padding:10px 14px;margin:0 0 14px;font-size:14px}
+.rd-error ul{margin:6px 0 0 18px;padding:0}
+.rd-body .is-invalid{border-color:#c0392b}
+.rd-done{border:1px solid #2e9e5b;background:rgba(46,158,91,.1);padding:12px 14px;margin:12px 0 0}
+.rd-done p{margin:6px 0 10px}
+.rd-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+html.rd-open{overflow:hidden}
+@media (max-width:575px){
+  .rental-dialog{width:100vw;max-width:100vw;height:100vh;height:100dvh;max-height:none;border:0;border-radius:0}
+  .rd-row,.rd-row3{grid-template-columns:1fr}
+  .rd-row3 .rd-f:nth-child(n+2){display:inline-block}
+}
+@media (min-width:576px) and (max-width:767px){.rd-row3{grid-template-columns:1fr 1fr}}

@@ -177,3 +177,21 @@ select option { background: var(--ink-2); color: var(--text); }
 .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover span { color: var(--accent); background: transparent; }
 .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li,
 .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row { border-color: var(--line-strong); }
+
+/* ---- rentals: booking by request ---- */
+.status-req { background: var(--ink); color: var(--accent); border: 1px solid var(--accent); }
+.ec-req { color: var(--accent); }
+.rent-notice { color: var(--muted); }
+.rental-dialog { background: var(--ink-2); color: var(--text); border-color: var(--line-strong); }
+.rental-dialog::backdrop { background: rgba(0, 0, 0, .75); }
+.rd-head, .rd-foot { border-color: var(--line); }
+.rd-x { color: var(--text); }
+.rd-set legend { color: var(--accent); }
+.rd-lead, .rd-hint, .rd-note, .rd-f label { color: var(--muted); }
+.rd-warn { color: var(--accent); }
+.rd-error { color: var(--text); }
+.rd-error strong, .rd-done strong { color: var(--text); }
+.rd-done { color: var(--text); }
+.rd-foot .primary-btn { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
+.rd-foot .wa-btn { background: var(--wa); color: #fff; }
+.rd-foot .wa-btn i { color: #fff; }
