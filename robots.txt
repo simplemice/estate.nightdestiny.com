@@ -1,13 +1,21 @@
 # Estate Nightdestiny - https://estate.nightdestiny.com
 User-agent: *
 Allow: /
-# Source/content folders and internal docs are not meant for search results
+# Source/content folders, tooling and internal docs are not meant for search results
 Disallow: /scripts/
 Disallow: /content/
 Disallow: /locales/
 Disallow: /cdn-cgi/
+Disallow: /docs/
+Disallow: /Source/
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /README.md
+Disallow: /.pages.yml
 Disallow: /SEO_AUDIT_REPORT.md
 Disallow: /SEO_SETUP_GUIDE.md
-Disallow: /docs/
+# Note: /properties/ is intentionally NOT blocked. It is a legacy catalogue (noindex, not in the sitemap),
+# and crawlers must be able to fetch it to see the noindex and drop the old URLs from the index.
 
 Sitemap: https://estate.nightdestiny.com/sitemap.xml
