@@ -1,5 +1,7 @@
 # Pages CMS configuration - https://pagescms.org/docs/
-# Content lives in /content (JSON). Uploaded images go to /assets/images. The static pages are generated from it by scripts/build.mjs.
+# Content lives in /content (JSON).
+# Uploaded images go to /assets/images. The static pages are generated from it by scripts/build.mjs.
+
 media:
   input: assets/images
   output: /assets/images
