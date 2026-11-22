@@ -15,6 +15,8 @@ Disallow: /README.md
 Disallow: /.pages.yml
 Disallow: /SEO_AUDIT_REPORT.md
 Disallow: /SEO_SETUP_GUIDE.md
+# Rental "Request Availability" links (?request=1) only open the booking form on the same page; no separate content
+Disallow: /*?request=
 # Note: /properties/ is intentionally NOT blocked. It is a legacy catalogue (noindex, not in the sitemap),
 # and crawlers must be able to fetch it to see the noindex and drop the old URLs from the index.
 
