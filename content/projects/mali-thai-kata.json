@@ -1,0 +1,113 @@
+{
+  "name": "Mali Thai Kata",
+  "developer": "Mali Thai Development",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Karon (near Kata)",
+  "area": "Karon",
+  "nearbyAreas": [
+    "Kata"
+  ],
+  "locationStatus": "unresolved",
+  "shortDescription": "Boutique project of four private pool villas between Karon and Kata, with two- and three-bedroom homes of 199-349 sqm.",
+  "description": "Listed on property portals as Mali Thai Pool Villas, a boutique project of four private pool villas in the Karon sub-district, close to Kata Beach (about 1.1 km by some listings, 1.3 km to Wat Kitti Sangkharam by the portal).\nThe homes advertised are one two-bedroom villa of about 199 sqm and three-bedroom villas of 225-349 sqm with four bathrooms, with prices from THB 19.9 million. Communal garden, parking and 24-hour security are provided, and pets are not allowed.\nThe portal records completion in January 2025 while some listings still show off-plan units and a May 2026 date, and the construction payment plan (2% deposit, then 28/15/15/15/15/10%) is still published. Treat status and availability as unconfirmed.",
+  "cardDescription": "Four private pool villas with two or three bedrooms between Karon and Kata, about 1.1 km from Kata Beach.",
+  "seoTitle": "Mali Thai Kata: Pool Villas for Sale near Kata, Phuket",
+  "seoDescription": "Mali Thai Kata (Mali Thai Pool Villas): four private pool villas of 199-349 sqm between Karon and Kata. Advertised prices from THB 19.9 million.",
+  "primaryKeyword": "Mali Thai Kata villas",
+  "secondaryKeywords": [
+    "villas for sale in Kata Phuket",
+    "Mali Thai Pool Villas",
+    "new villas in Kata"
+  ],
+  "constructionStatus": "Status on request",
+  "totalUnits": "4",
+  "privatePool": "yes",
+  "startingPrice": 19900000,
+  "bedroomsMin": 2,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 198.8,
+  "builtUpMax": 349,
+  "unitTypes": [
+    {
+      "name": "2 Bedroom Villa",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "198.8",
+      "price": 24900000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "225-349",
+      "price": 19900000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool in each villa",
+    "Communal garden",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "paymentPlan": [
+    "Reservation deposit 2%",
+    "28% on contract signing",
+    "15% at foundation start",
+    "15% on building structure",
+    "15% on wall concrete",
+    "15% at interior start",
+    "10% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Kata Beach",
+      "distance": "1.1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wat Kitti Sangkharam",
+      "distance": "1.3 km / 2 minutes",
+      "mode": "driving"
+    }
+  ],
+  "imagesStatus": "available",
+  "sources": [
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/mali-thai-pool-villas"
+    },
+    {
+      "label": "Thailand Property listing",
+      "url": "https://thailand-property.com/house/27303/mali-thai-pool-villas"
+    },
+    {
+      "label": "Developer website (Mali Thai Pool Villa)",
+      "url": "https://malithaivilla.com/"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/mali-thai-pool-villas",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. \"Mali Thai Kata\" not found under that name; mapped to Mali Thai Pool Villas (Karon). Confirm with the client that this is the intended project. Units: 4 (most) vs 5 (Hipflat). Completion Jan 2025 (portal) vs May 2026 (listing). Ownership conflicting (freehold and leasehold mentioned); not published. 7% rental programme in listings not published. Separate project \"Mali Pool Villa\" exists in Karon. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://malithaivilla.com/).",
+  "images": [
+    "/assets/images/projects/mali-thai-kata/villa-1.jpeg",
+    "/assets/images/projects/mali-thai-kata/villa-2.jpeg"
+  ],
+  "cover": "/assets/images/projects/mali-thai-kata/villa-1.jpeg",
+  "imageCaptions": [
+    "Mali Thai pool villa exterior with swimming pool",
+    "Mali Thai villa bedroom"
+  ],
+  "imageCredit": "Marketing images from the developer website, mostly artist renders. Layouts and finishes may differ from the final product."
+}

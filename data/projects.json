@@ -1,5 +1,348 @@
 [
  {
+  "id": "aileen-rawai-townhouses",
+  "name": "Aileen Rawai Townhouses",
+  "url": "/projects/aileen-rawai-townhouses/",
+  "category": "Townhouse",
+  "propertyType": "Townhouse",
+  "developer": "Trinity Property Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 10100000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   3
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   170.5,
+   286.9
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "ashiyana-heights",
+  "name": "Ashiyana Heights",
+  "url": "/projects/ashiyana-heights/",
+  "category": "Condominium",
+  "propertyType": "Low-rise sea-view condominium",
+  "developer": "Ashiyana Estates",
+  "location": "Karon (near Kata)",
+  "startingPrice": 3700000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   29.2,
+   76.7
+  ],
+  "status": "Under construction",
+  "completionDate": "Dec 2028",
+  "cover": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg",
+  "imageCount": 8,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "ayana-heights",
+  "name": "Ayana Heights",
+  "url": "/projects/ayana-heights/",
+  "category": "Condominium",
+  "propertyType": "Sea-view condominium",
+  "developer": "T.H. Group Phuket Co., Ltd.",
+  "location": "Layan / Bang Tao",
+  "startingPrice": 4500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   3
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   37,
+   113
+  ],
+  "status": "Under construction",
+  "completionDate": "Jun 2027",
+  "cover": "/assets/images/projects/ayana-heights/render-1.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "babylon-sky-garden-2",
+  "name": "Babylon Sky Garden 2",
+  "url": "/projects/babylon-sky-garden-2/",
+  "category": "Condominium",
+  "propertyType": "Boutique condominium",
+  "developer": "Billfishing Phuket Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 3782500,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   43.2,
+   142.4
+  ],
+  "status": "Completed",
+  "completionDate": "Dec 2025",
+  "imageCount": 1,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "babylon-sky-garden",
+  "name": "Babylon Sky Garden",
+  "url": "/projects/babylon-sky-garden/",
+  "category": "Condominium",
+  "propertyType": "Boutique condominium",
+  "developer": "Billfishing Phuket Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": 4650000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   1
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   53,
+   56
+  ],
+  "status": "Completed",
+  "completionDate": "Sep 2018",
+  "cover": "/assets/images/projects/babylon-sky-garden/exterior.jpeg",
+  "imageCount": 2,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "botanica-skyport",
+  "name": "Botanica Skyport",
+  "url": "/projects/botanica-skyport/",
+  "category": "Villa",
+  "propertyType": "Bali-style pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Nai Yang (Sakhu)",
+  "startingPrice": 19900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   340,
+   361
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/botanica-skyport/skyport-2.jpg",
+  "imageCount": 7,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "botanica-verdant",
+  "name": "Botanica Verdant",
+  "url": "/projects/botanica-verdant/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Nai Thon (Thalang)",
+  "startingPrice": 15900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   147,
+   147
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "dcondo-reef-kathu",
+  "name": "Dcondo Reef Kathu",
+  "url": "/projects/dcondo-reef-kathu/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "Sansiri",
+  "location": "Kathu",
+  "startingPrice": 2450000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   24,
+   52
+  ],
+  "status": "Completed",
+  "completionDate": "Sep 2024",
+  "imageCount": 1,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "mali-thai-kata",
+  "name": "Mali Thai Kata",
+  "url": "/projects/mali-thai-kata/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Mali Thai Development",
+  "location": "Karon (near Kata)",
+  "startingPrice": 19900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   3
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   198.8,
+   349
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "cover": "/assets/images/projects/mali-thai-kata/villa-1.jpeg",
+  "imageCount": 3,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "the-one-naiharn",
+  "name": "The One Naiharn",
+  "url": "/projects/the-one-naiharn/",
+  "category": "Condominium",
+  "propertyType": "Hotel-managed condominium",
+  "developer": "The One Phuket Co., Ltd.",
+  "location": "Nai Harn / Rawai",
+  "startingPrice": 3700000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   26.8,
+   69
+  ],
+  "status": "Completed",
+  "completionDate": "Mar 2026",
+  "cover": "/assets/images/projects/the-one-naiharn/rooftop-pool.jpg",
+  "imageCount": 6,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "the-zero-bang-tao",
+  "name": "The Zero Bang Tao",
+  "url": "/projects/the-zero-bang-tao/",
+  "category": "Condominium",
+  "propertyType": "Low-rise eco condominium",
+  "developer": "Zero Developments Co., Ltd.",
+  "location": "Bang Tao",
+  "startingPrice": 3900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   27,
+   98
+  ],
+  "status": "Under construction",
+  "completionDate": "Mar 2027",
+  "cover": "/assets/images/projects/the-zero-bang-tao/exterior-render.jpg",
+  "imageCount": 2,
+  "lastVerified": "2026-11-22"
+ },
+ {
+  "id": "vibe-karon",
+  "name": "Vibe Karon",
+  "url": "/projects/vibe-karon/",
+  "category": "Condominium",
+  "propertyType": "Resort condominium",
+  "developer": "ESM Development",
+  "location": "Karon",
+  "startingPrice": 5746000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   0,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   34,
+   72
+  ],
+  "status": "Under construction",
+  "completionDate": "Oct 2028",
+  "imageCount": 1,
+  "lastVerified": "2026-11-22"
+ },
+ {
   "id": "arise-vibe",
   "name": "Arise Vibe",
   "url": "/projects/arise-vibe/",

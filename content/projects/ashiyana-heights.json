@@ -1,0 +1,132 @@
+{
+  "name": "Ashiyana Heights",
+  "developer": "Ashiyana Estates",
+  "category": "Condominium",
+  "projectType": "Low-rise sea-view condominium",
+  "location": "Karon (near Kata)",
+  "area": "Karon",
+  "nearbyAreas": [
+    "Kata"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Seven-storey sea-view condominium of 131 studios, one-bedroom and two-bedroom apartments on Soi Patak 2, a short drive from Kata Beach.",
+  "description": "One seven-storey building with 131 apartments on a plot of about 1,760 sqm in the Karon sub-district, between Karon and Kata and about 1.4 km from Kata Beach. Studios, one-bedroom and two-bedroom layouts are on sale, from around 29 sqm to 77 sqm.\nThe developer shows a rooftop sea-view pool and bar-restaurant, gym, sauna with ice bath, garden and lobby. Parking is provided for 34 cars and 18 motorcycles.\nCompletion is advertised for December 2028 on the main property portal; some sources give an earlier date, so confirm the schedule before reserving. Foreign buyers can hold freehold title within the 49% foreign quota.",
+  "cardDescription": "A seven-storey sea-view condominium with 131 apartments and a rooftop pool, about 1.4 km from Kata Beach.",
+  "seoTitle": "Ashiyana Heights: Sea-View Condos near Kata Beach, Phuket",
+  "seoDescription": "Ashiyana Heights, Karon: 131 studio, 1 and 2-bedroom sea-view condos near Kata Beach, rooftop pool and gym, completion Dec 2028. Sizes and prices.",
+  "primaryKeyword": "Ashiyana Heights Phuket",
+  "secondaryKeywords": [
+    "Ashiyana Heights condominium",
+    "condos for sale near Kata Beach",
+    "sea view condo Karon Phuket"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Dec 2028",
+  "totalUnits": "131",
+  "floors": "1 building, 7 storeys",
+  "ownership": [
+    "Freehold"
+  ],
+  "startingPrice": 3700000,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "29.2-31.3",
+      "price": 3700000,
+      "priceType": "Lowest advertised price",
+      "availability": "33 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "37.9-38.8",
+      "price": 4389000,
+      "priceType": "Lowest advertised price",
+      "availability": "60 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "75.9-76.7",
+      "price": 9428496,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    }
+  ],
+  "facilities": [
+    "Rooftop sea-view swimming pool",
+    "Rooftop bar and restaurant",
+    "Gym",
+    "Sauna and ice bath",
+    "Garden",
+    "Co-working space and meeting room",
+    "Lounge",
+    "Reception / lobby",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "parking": "34 cars and 18 motorcycles",
+  "commonAreaFee": "THB 70 per sqm per month",
+  "sinkingFund": "THB 700 per sqm, one-time",
+  "paymentPlan": [
+    "Reservation deposit THB 100,000",
+    "35% contract fee within 30 days of reservation",
+    "15% on completion of foundation (Oct-Dec 2026)",
+    "15% on structure up to 3rd floor (Apr-Jun 2027)",
+    "15% on structure up to roof (Oct-Dec 2027)",
+    "15% on walls, floors and painting (Apr-Jun 2028)",
+    "5% on transfer of ownership"
+  ],
+  "nearby": [
+    {
+      "place": "Kata Beach",
+      "distance": "1.4 km",
+      "mode": "unspecified"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg",
+    "/assets/images/projects/ashiyana-heights/exterior-render-2.jpg",
+    "/assets/images/projects/ashiyana-heights/exterior-render-3.jpg",
+    "/assets/images/projects/ashiyana-heights/rooftop-pool.jpg",
+    "/assets/images/projects/ashiyana-heights/gym.jpg",
+    "/assets/images/projects/ashiyana-heights/lobby.jpg",
+    "/assets/images/projects/ashiyana-heights/garden.jpg"
+  ],
+  "cover": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg",
+  "imageCaptions": [
+    "Ashiyana Heights exterior (developer render)",
+    "Ashiyana Heights exterior (developer render)",
+    "Ashiyana Heights exterior (developer render)",
+    "Rooftop sea-view pool (render)",
+    "Gym (render)",
+    "Lobby (render)",
+    "Garden (render)"
+  ],
+  "sources": [
+    {
+      "label": "Developer project page",
+      "url": "https://www.ashiyanaestates.com/ashiyana-heights.php"
+    },
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ashiyana-heights"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ashiyana-heights",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "imagesStatus": "available",
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "researchNotes": "New project added 2026-11-22. Completion Dec 2028 (portal) vs Q2 2028 and Dec 2026 on other pages; unresolved. Developer entity: Ashiyana Estates (one listing says Kata Heights Co., Ltd.). CAM fee 60 vs 70 per sqm on different portal pages. Freehold premium 10% (portal). Floor-plan images on developer site not identified per unit, so not published. All figures are advertised/third-party and not confirmed by the developer unless noted."
+}

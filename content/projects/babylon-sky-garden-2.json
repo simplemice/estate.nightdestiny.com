@@ -1,0 +1,108 @@
+{
+  "name": "Babylon Sky Garden 2",
+  "developer": "Billfishing Phuket Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Boutique condominium",
+  "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
+  "shortDescription": "Newly completed boutique condominium of 49 studio to two-bedroom apartments in Rawai, with two pools, a gym and a rooftop.",
+  "description": "The second phase of the Babylon Sky Garden brand, a completed building of 49 apartments on about 3,200 sqm in Rawai, around 1.4 km by road from Wat Sawang Arom. The developer reports construction from late 2023 to the end of 2025; the portal records completion in December 2025.\nAdvertised units range from studios of about 43-45 sqm to two-bedroom apartments of up to 142 sqm. Shared areas include a pool, kids pool, bar, gym, reception and parking for about three-quarters of units.\nThe floor count differs between sources (six on the portal, five on the developer site), so it is stated as six storeys per the portal.",
+  "cardDescription": "A recently completed boutique condominium of 49 apartments with pools and a gym in Rawai.",
+  "seoTitle": "Babylon Sky Garden 2: Condos for Sale in Rawai, Phuket",
+  "seoDescription": "Babylon Sky Garden 2, Rawai: completed December 2025, 49 studio to 2-bedroom apartments with pools and gym. Sizes and advertised prices.",
+  "primaryKeyword": "Babylon Sky Garden 2",
+  "secondaryKeywords": [
+    "condos for sale in Rawai",
+    "Babylon Sky Garden 2 Rawai",
+    "sea view apartments Rawai Phuket"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Dec 2025",
+  "totalUnits": "49",
+  "floors": "1 building, 6 storeys",
+  "startingPrice": 3782500,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "43.2-45",
+      "price": 3782500,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "57.8-72",
+      "price": 7296500,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "68.4",
+      "price": 6908400,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "86.7-142.4",
+      "price": 12131000,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Kids pool",
+    "Bar",
+    "Gym",
+    "Rooftop",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "parking": "Parking for about 74% of units",
+  "commonAreaFee": "THB 90 per sqm per month",
+  "sinkingFund": "THB 600 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Wat Sawang Arom",
+      "distance": "1.4 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "46.3 km / 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "imagesStatus": "unavailable",
+  "sources": [
+    {
+      "label": "Developer website",
+      "url": "https://www.babylonskygarden.com/"
+    },
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/babylon-sky-garden-2"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/babylon-sky-garden-2",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Floors: 6 (portal) vs 5 (developer). Ownership not stated. Payment plan on portal is for a completed project; not published. No rights-cleared images obtained (developer site photos of phase 2 not saved). All figures are advertised/third-party and not confirmed by the developer unless noted."
+}

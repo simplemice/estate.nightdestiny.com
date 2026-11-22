@@ -14,6 +14,7 @@
  {
   "name": "Bang Tao",
   "projects": [
+   "the-zero-bang-tao",
    "mono-oxygen-bangtao-beach",
    "redwood-lakeside",
    "sri-panwa-lagoon",
@@ -96,8 +97,16 @@
  {
   "name": "Karon",
   "projects": [
+   "vibe-karon",
    "ever-prime-residences",
    "the-kuartz"
+  ]
+ },
+ {
+  "name": "Karon (near Kata)",
+  "projects": [
+   "ashiyana-heights",
+   "mali-thai-kata"
   ]
  },
  {
@@ -106,6 +115,12 @@
    "so-origin-kata-phuket",
    "fizz",
    "the-katabello"
+  ]
+ },
+ {
+  "name": "Kathu",
+  "projects": [
+   "dcondo-reef-kathu"
   ]
  },
  {
@@ -162,6 +177,12 @@
   ]
  },
  {
+  "name": "Layan / Bang Tao",
+  "projects": [
+   "ayana-heights"
+  ]
+ },
+ {
   "name": "Layan Beach / Layan Bay, Cherng Talay",
   "projects": [
    "kiara-reserve-residences"
@@ -178,6 +199,24 @@
   "name": "Nai Harn",
   "projects": [
    "sunny-moon-village"
+  ]
+ },
+ {
+  "name": "Nai Harn / Rawai",
+  "projects": [
+   "the-one-naiharn"
+  ]
+ },
+ {
+  "name": "Nai Thon (Thalang)",
+  "projects": [
+   "botanica-verdant"
+  ]
+ },
+ {
+  "name": "Nai Yang (Sakhu)",
+  "projects": [
+   "botanica-skyport"
   ]
  },
  {
@@ -212,6 +251,9 @@
  {
   "name": "Rawai",
   "projects": [
+   "aileen-rawai-townhouses",
+   "babylon-sky-garden-2",
+   "babylon-sky-garden",
    "vip-galaxy-villas",
    "monetaria",
    "next-point-rawai",

@@ -1,0 +1,109 @@
+{
+  "name": "Aileen Rawai Townhouses",
+  "developer": "Trinity Property Co., Ltd.",
+  "category": "Townhouse",
+  "projectType": "Townhouse",
+  "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
+  "shortDescription": "Off-plan project of 21 two- and three-bedroom two-storey townhouses of about 170-290 sqm in Rawai, by Trinity Property.",
+  "description": "Aileen Rawai Townhouses is a project of 21 townhouses by Trinity Property in Rawai, the developer behind the Aileen Villas communities. The advertised homes are two- and three-bedroom units with three or four bathrooms and built-up areas between 170 and 287 sqm.\nThe site is on Soi Kongngarm, about 3.7 km from Wat Sawang Arom and 3.2 km from Rawai Beach. Shared features are a communal garden, parking, 24-hour security and CCTV; all kinds of pets are allowed.\nThe payment plan runs from a THB 300,000 reservation deposit through construction stages to handover. Availability differs between portals (about 20 units on one, 2 on another).",
+  "cardDescription": "Twenty-one two- and three-bedroom townhouses of 170-290 sqm in Rawai, with a communal garden.",
+  "seoTitle": "Aileen Rawai Townhouses: Townhouses for Sale in Rawai, Phuket",
+  "seoDescription": "Aileen Rawai Townhouses by Trinity Property: 21 two- and three-bedroom townhouses, 170-287 sqm, in Rawai. Advertised prices from THB 10.1 million.",
+  "primaryKeyword": "Aileen Rawai Townhouses",
+  "secondaryKeywords": [
+    "townhouses for sale in Rawai Phuket",
+    "Aileen Rawai townhouse",
+    "Trinity Property Rawai"
+  ],
+  "constructionStatus": "Under construction",
+  "totalUnits": "21",
+  "floors": "2",
+  "startingPrice": 10100000,
+  "bedroomsMin": 2,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 170.5,
+  "builtUpMax": 286.9,
+  "unitTypes": [
+    {
+      "name": "2 Bedroom Townhouse",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "170.5-189.5",
+      "price": 10100000,
+      "priceType": "Lowest advertised price",
+      "availability": "12 units advertised"
+    },
+    {
+      "name": "3 Bedroom Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "206.1-286.9",
+      "price": 12500000,
+      "priceType": "Lowest advertised price",
+      "availability": "6 units advertised"
+    },
+    {
+      "name": "3 Bedroom Townhouse (4 bathrooms)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "223.2-282.1",
+      "price": 14000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal garden",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "commonAreaFee": "THB 7,500 per month (fixed)",
+  "sinkingFund": "THB 85,000 per unit, one-time",
+  "paymentPlan": [
+    "Reservation deposit THB 300,000",
+    "35% on contract signing",
+    "20% on foundation completion",
+    "15% on concrete structure",
+    "15% on walls and door frames",
+    "10% on floor finishing, painting, doors and windows",
+    "5% final instalment"
+  ],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "3.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wat Sawang Arom",
+      "distance": "3.7 km / 9 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "45.3 km / 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "imagesStatus": "unavailable",
+  "sources": [
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/aileen-rawai-townhouses"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/aileen-rawai-townhouses",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Brief called this a villa project; it is a townhouse project. Final 5% instalment inferred as remainder after the five stated stages (6th milestone not captured). Ownership and completion date not stated. Land size not published. Sizes of 110-191 sqm on another site conflict (portal figures used). No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+}

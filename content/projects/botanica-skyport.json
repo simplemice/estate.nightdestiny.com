@@ -1,0 +1,151 @@
+{
+  "name": "Botanica Skyport",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Bali-style pool villa",
+  "location": "Nai Yang (Sakhu)",
+  "area": "Nai Yang",
+  "locationStatus": "probable",
+  "shortDescription": "Five Bali-inspired three-bedroom pool villas on plots of about 480-620 sqm in Sakhu, a few minutes from Phuket International Airport and Nai Yang Beach.",
+  "description": "A boutique collection of five Bali-inspired pool villas by Botanica Luxury Phuket on a site of about 3,000 sqm in Sakhu, Thalang. All five are three-bedroom, four-bathroom homes with private pools, with built-up areas of 340 to 361 sqm and land plots of about 479 to 618 sqm.\nThe site is about 2 km from Phuket International Airport and around 2.6 km from Nai Yang Beach, and near Blue Canyon Golf Club. Shared features are a communal garden, parking, 24-hour security and CCTV; pets are allowed.\nCompletion is not confirmed by the sources used here (another listing says 2027). Ownership is not confirmed, so check the title type with the developer.",
+  "cardDescription": "Five Bali-style three-bedroom pool villas on 480-620 sqm plots, minutes from Phuket airport and Nai Yang Beach.",
+  "seoTitle": "Botanica Skyport: Pool Villas for Sale near Phuket Airport",
+  "seoDescription": "Botanica Skyport: five Bali-style 3-bedroom pool villas, 340-361 sqm on 479-618 sqm plots in Sakhu near Nai Yang. Advertised prices from THB 19.9 million.",
+  "primaryKeyword": "Botanica Skyport Phuket",
+  "secondaryKeywords": [
+    "Botanica Skyport villas",
+    "villas for sale in Phuket",
+    "pool villas near Phuket airport"
+  ],
+  "constructionStatus": "Pre-sale",
+  "totalUnits": "5",
+  "privatePool": "yes",
+  "startingPrice": 19900000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 340,
+  "builtUpMax": 361,
+  "landMin": 479,
+  "landMax": 618,
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Villa (plot 479 sqm)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "340",
+      "price": 19900000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised",
+      "landSqm": 479
+    },
+    {
+      "name": "3 Bedroom Villa (plot 507 sqm)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "345",
+      "price": 19900000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised",
+      "landSqm": 507
+    },
+    {
+      "name": "3 Bedroom Villa (plot 564 sqm)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "360",
+      "price": 23586000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised",
+      "landSqm": 564
+    },
+    {
+      "name": "3 Bedroom Villa (plot 574 sqm)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "355",
+      "price": 22974000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised",
+      "landSqm": 574
+    },
+    {
+      "name": "3 Bedroom Villa (plot 618 sqm)",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "361",
+      "price": 24438000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised",
+      "landSqm": 618
+    }
+  ],
+  "facilities": [
+    "Private pool in each villa",
+    "Communal garden",
+    "Car parking",
+    "24-hour security and CCTV",
+    "Estate management"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "2.1 km / 7 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Nai Yang Beach",
+      "distance": "2.6 km / 6 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Blue Canyon Golf Club",
+      "distance": "Nearby (no distance published)",
+      "mode": "unspecified"
+    }
+  ],
+  "imagesStatus": "available",
+  "sources": [
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/botanica-sky-port"
+    },
+    {
+      "label": "Villa listing site",
+      "url": "https://villacarte.com/en/sale/phuket/botanica-skyport"
+    },
+    {
+      "label": "Developer project page (Botanica Luxury Villas)",
+      "url": "https://www.botanicaluxuryvilla.com/projects/botanica-sky-port/"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/botanica-sky-port",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Units 5 (portal, property-scout) vs 1 (Hipflat). Floors \"2\" not confirmed - removed. Completion 2027 on one listing only. Location Sakhu (portal) vs Nai Yang (villa site). Ownership not stated. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://www.botanicaluxuryvilla.com/projects/botanica-sky-port/).",
+  "images": [
+    "/assets/images/projects/botanica-skyport/skyport-2.jpg",
+    "/assets/images/projects/botanica-skyport/skyport-3.jpg",
+    "/assets/images/projects/botanica-skyport/skyport-4.jpg",
+    "/assets/images/projects/botanica-skyport/skyport-5.jpg",
+    "/assets/images/projects/botanica-skyport/skyport-6.jpg",
+    "/assets/images/projects/botanica-skyport/skyport-7.jpg"
+  ],
+  "cover": "/assets/images/projects/botanica-skyport/skyport-2.jpg",
+  "imageCaptions": [
+    "Botanica Skyport villa living area",
+    "Botanica Skyport villa interior and garden",
+    "Botanica Skyport open-plan living and kitchen",
+    "Botanica Skyport villa terrace and pool",
+    "Botanica Skyport villa pool and covered terrace",
+    "Botanica Skyport villa pool deck"
+  ],
+  "imageCredit": "Marketing images from the developer website, mostly artist renders. Layouts and finishes may differ from the final product."
+}

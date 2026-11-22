@@ -1,0 +1,87 @@
+{
+  "name": "Babylon Sky Garden",
+  "developer": "Billfishing Phuket Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Boutique condominium",
+  "location": "Rawai",
+  "area": "Rawai",
+  "locationStatus": "probable",
+  "shortDescription": "Completed seven-storey boutique condominium of 41 one-bedroom apartments in Rawai, with a pool and sea views, about 600 m from Wat Sawang Arom.",
+  "description": "A completed seven-storey building of 41 apartments on a site of about 1,875 sqm on Soi Laem Ka Yai in Rawai. The developer describes it as a one-bedroom building with a short walk to Rawai Beach and sea views from many units.\nOne-bedroom apartments are advertised at around 53-56 sqm; the developer quotes 51-57 sqm. The communal pool and kids pool, a reception lobby, parking at close to one space per unit, a lift in each building, and 24-hour security with CCTV serve the residents.\nThe same developer built the neighbouring Babylon Sky Garden 2 and the Babylon Pool Villas hotel.",
+  "cardDescription": "A completed seven-storey boutique condominium of 41 one-bedroom apartments with a pool in Rawai.",
+  "seoTitle": "Babylon Sky Garden: 1-Bedroom Condos for Sale in Rawai, Phuket",
+  "seoDescription": "Babylon Sky Garden, Rawai: completed 41-unit boutique condo with pool, 1-bedroom apartments of about 53-56 sqm. Advertised prices from THB 4.65 million.",
+  "primaryKeyword": "Babylon Sky Garden Rawai",
+  "secondaryKeywords": [
+    "condos for sale in Rawai Phuket",
+    "Babylon Sky Garden condo",
+    "one bedroom condo Rawai"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Sep 2018",
+  "totalUnits": "41",
+  "floors": "1 building, 7 storeys",
+  "startingPrice": 4650000,
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "53-56",
+      "price": 4650000,
+      "priceType": "Lowest advertised price",
+      "availability": "7 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Kids pool",
+    "Reception / lobby",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "parking": "Parking for about 98% of units",
+  "commonAreaFee": "THB 100 per sqm per month",
+  "sinkingFund": "THB 600 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Wat Sawang Arom",
+      "distance": "0.6 km / 2 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "46.9 km / 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "images": [
+    "/assets/images/projects/babylon-sky-garden/exterior.jpeg"
+  ],
+  "cover": "/assets/images/projects/babylon-sky-garden/exterior.jpeg",
+  "imageCaptions": [
+    "Babylon Sky Garden building in Rawai (developer image)"
+  ],
+  "sources": [
+    {
+      "label": "Developer website",
+      "url": "https://www.babylonskygarden.com/"
+    },
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/babylon-sky-garden"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/babylon-sky-garden",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "imagesStatus": "available",
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "researchNotes": "New project added 2026-11-22. Unit sizes 48.5-57.7 (portal) vs 51-57 (developer). Official site says 400 m to Rawai Beach; portal gives 0.6 km to Wat Sawang Arom. Ownership not stated on pages (freehold premium THB 350,000 listed); not published. Payment plan for completed project not published. All figures are advertised/third-party and not confirmed by the developer unless noted."
+}

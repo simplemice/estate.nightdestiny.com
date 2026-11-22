@@ -1,0 +1,142 @@
+{
+  "name": "Ayana Heights",
+  "developer": "T.H. Group Phuket Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Sea-view condominium",
+  "location": "Layan / Bang Tao",
+  "area": "Layan",
+  "nearbyAreas": [
+    "Bang Tao"
+  ],
+  "locationStatus": "unresolved",
+  "shortDescription": "Large sea-view condominium scheme by T.H. Group on Rural Road 4018, with studio to three-bedroom apartments, due for completion in June 2027.",
+  "description": "Listed as AYANA Heights Seaview Residence, a development of 24 low-rise buildings of up to seven storeys by T.H. Group Phuket, the company behind Ayana Soluna Villas. The property portal records 549 units; other sources quote far fewer, so the total is not firm.\nThe project is near Horse Club Layan Beach on Rural Road 4018, in Choeng Thale, about 1.4 km from Layan Beach. Layouts run from studios of 37 sqm to three-bedroom apartments of about 113 sqm.\nFacilities include a pool, gym, sauna, yoga area, co-working space, indoor kids zone and garden. Portal completion date is June 2027; the developer site and other sources give different dates.",
+  "cardDescription": "A sea-view condominium by T.H. Group near Layan Beach, with studio to three-bedroom apartments and a pool.",
+  "seoTitle": "Ayana Heights Phuket: Sea-View Condos near Layan Beach",
+  "seoDescription": "Ayana Heights Seaview Residence by T.H. Group: studio to 3-bedroom condos near Layan Beach, pool, gym, sauna. Sizes and advertised prices.",
+  "primaryKeyword": "Ayana Heights Phuket",
+  "secondaryKeywords": [
+    "Ayana Heights condominium",
+    "condos for sale in Layan Phuket",
+    "Ayana Heights Seaview Residence"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Jun 2027",
+  "totalUnits": "549",
+  "floors": "24 buildings, up to 7 storeys",
+  "startingPrice": 4500000,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "37-44",
+      "price": 4500000,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "43-57.6",
+      "price": 5450000,
+      "priceType": "Lowest advertised price",
+      "availability": "47 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "size": "57.6",
+      "price": 9980000,
+      "priceType": "Lowest advertised price",
+      "availability": "17 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "75-75.5",
+      "price": 13900000,
+      "priceType": "Lowest advertised price",
+      "availability": "40 units advertised"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "113",
+      "price": 23359324,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Gym",
+    "Sauna",
+    "Yoga area",
+    "Indoor kids zone",
+    "Co-working space and meeting room",
+    "Communal garden",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "parking": "Parking for about 50% of units",
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 800 per sqm, one-time",
+  "paymentPlan": [
+    "Studio and 1-bedroom: reservation deposit THB 100,000",
+    "35% within 30 days of reservation",
+    "20% at foundation completion",
+    "30% at main structure completion",
+    "15% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "1.4 km / 2 minutes",
+      "mode": "driving"
+    }
+  ],
+  "imagesStatus": "available",
+  "sources": [
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/ayana-heights-seaview-residence"
+    },
+    {
+      "label": "Developer group website",
+      "url": "https://ayanaphuket.com/ayana-heights-seaview-residences"
+    },
+    {
+      "label": "T.H. Group (AYANA) project page",
+      "url": "https://ayanaphuket.com/ayana-heights-seaview-residences"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/ayana-heights-seaview-residence",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Total units: 549 (portal) vs 29/30/33 on other sites. Completion Jun 2027 (portal) vs Q4 2026 elsewhere. Location text varies: Choeng Thale / Bang Tao / Layan; set to unresolved. Ownership unclear (one listing leasehold); not published. 2BR payment plan not captured. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://ayanaphuket.com/ayana-heights-seaview-residences).",
+  "images": [
+    "/assets/images/projects/ayana-heights/render-1.jpg",
+    "/assets/images/projects/ayana-heights/render-2.jpg",
+    "/assets/images/projects/ayana-heights/render-3.jpg",
+    "/assets/images/projects/ayana-heights/render-4.jpg"
+  ],
+  "cover": "/assets/images/projects/ayana-heights/render-1.jpg",
+  "imageCaptions": [
+    "AYANA Heights courtyard and pool (render)",
+    "AYANA Heights terrace bath with sea view (render)",
+    "AYANA Heights aerial view of the buildings (render)",
+    "AYANA Heights balconies (render)"
+  ],
+  "imageCredit": "Marketing images from the developer website, mostly artist renders. Layouts and finishes may differ from the final product."
+}

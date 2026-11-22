@@ -1,0 +1,128 @@
+{
+  "name": "The Zero Bang Tao",
+  "developer": "Zero Developments Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Low-rise eco condominium",
+  "location": "Bang Tao",
+  "area": "Bang Tao",
+  "locationStatus": "probable",
+  "shortDescription": "Seven-storey eco-focused condominium of 85 studio to three-bedroom apartments near Bang Tao Beach, with a 25-metre pool, spa and co-working space.",
+  "description": "A single seven-storey building of 85 apartments in the Bang Tao area of Choeng Thale, built around an environmental brief: solar panels, rainwater harvesting, energy-efficient heat-resistant glazing and a single-use-plastic-free operation, according to the developer.\nThe common areas include a 25-metre swimming pool, gym, spa with sauna, steam room and ice bath, a kids club and a co-working space. Unit sizes run from roughly 26 sqm studios to about 95 sqm apartments, and the building is planned as hotel-style, with reception and concierge services.\nBoat Avenue is about 3.4 km away and Phuket International Airport about 23 km. Completion is announced for March 2027.",
+  "cardDescription": "A seven-storey eco-focused condominium with 85 apartments, a 25-metre pool and a spa, about 2 km from Bang Tao Beach.",
+  "seoTitle": "The Zero Bang Tao: Eco Condo for Sale in Bang Tao, Phuket",
+  "seoDescription": "The Zero Bang Tao by Zero Developments: 85 studio to 3-bedroom apartments, 25 m pool and spa, due March 2027. Unit sizes and advertised prices.",
+  "primaryKeyword": "The Zero Bang Tao",
+  "secondaryKeywords": [
+    "condos for sale in Bang Tao",
+    "apartments in Bang Tao Phuket",
+    "Zero Developments Phuket"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Mar 2027",
+  "totalUnits": "85",
+  "floors": "1 building, 7 storeys",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "startingPrice": 3900000,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "27.6",
+      "price": 4200000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "27-51",
+      "price": 3900000,
+      "priceType": "Lowest advertised price",
+      "availability": "9 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "50-98",
+      "price": 7956660,
+      "priceType": "Lowest advertised price",
+      "availability": "8 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal 25-metre swimming pool",
+    "Gym",
+    "Spa with sauna, steam room and ice bath",
+    "Co-working space and meeting room",
+    "Kids club",
+    "Communal garden",
+    "On-site restaurant",
+    "Reception / lobby",
+    "Car parking, EV charging stations",
+    "24-hour security and CCTV"
+  ],
+  "parking": "Parking for about 65% of units, with EV charging",
+  "commonAreaFee": "THB 80 per sqm per month",
+  "sinkingFund": "THB 800 per sqm, one-time",
+  "paymentPlan": [
+    "Reservation deposit THB 100,000",
+    "35% 30 days after contract signing",
+    "25% at start of foundations",
+    "15% at superstructure",
+    "15% at roof, doors and windows",
+    "10% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "1.9 km",
+      "mode": "driving"
+    },
+    {
+      "place": "Boat Avenue Cherngtalay",
+      "distance": "3.4 km / 10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "22.9 km / 39 minutes",
+      "mode": "driving"
+    }
+  ],
+  "furniture": "Most advertised units are listed as fully furnished",
+  "images": [
+    "/assets/images/projects/the-zero-bang-tao/exterior-render.jpg"
+  ],
+  "cover": "/assets/images/projects/the-zero-bang-tao/exterior-render.jpg",
+  "imageCaptions": [
+    "The Zero Bang Tao building (developer render)"
+  ],
+  "sources": [
+    {
+      "label": "Official project website",
+      "url": "https://thezerobangtao.com/"
+    },
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-zero-bang-tao"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-zero-bang-tao",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "imagesStatus": "available",
+  "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
+  "researchNotes": "New project added 2026-11-22. Sources differ on completion (Mar 2027 portal; Q1 2027 / Q4 2026 on other pages) and on starting price (THB 3.2M-4.6M). Portal figure used. Freehold premium THB 500,000 per portal, not published. Land 1,600 sqm (portal). All figures are advertised/third-party and not confirmed by the developer unless noted."
+}

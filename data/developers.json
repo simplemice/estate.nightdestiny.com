@@ -30,6 +30,12 @@
   ]
  },
  {
+  "name": "Ashiyana Estates",
+  "projects": [
+   "ashiyana-heights"
+  ]
+ },
+ {
   "name": "Asset Pearl Co., Ltd",
   "projects": [
    "casa-curve-phuket"
@@ -55,9 +61,23 @@
   ]
  },
  {
+  "name": "Billfishing Phuket Co., Ltd.",
+  "projects": [
+   "babylon-sky-garden-2",
+   "babylon-sky-garden"
+  ]
+ },
+ {
   "name": "Botanica Luxury Phuket Co., Ltd",
   "projects": [
    "hythe-by-botanica"
+  ]
+ },
+ {
+  "name": "Botanica Luxury Phuket Co., Ltd.",
+  "projects": [
+   "botanica-skyport",
+   "botanica-verdant"
   ]
  },
  {
@@ -76,6 +96,12 @@
   "name": "Charn Issara",
   "projects": [
    "sri-panwa-lagoon"
+  ]
+ },
+ {
+  "name": "ESM Development",
+  "projects": [
+   "vibe-karon"
   ]
  },
  {
@@ -107,6 +133,12 @@
   "name": "Mai Khao Golden Beach",
   "projects": [
    "maviston-mai-khao"
+  ]
+ },
+ {
+  "name": "Mali Thai Development",
+  "projects": [
+   "mali-thai-kata"
   ]
  },
  {
@@ -195,6 +227,7 @@
  {
   "name": "Sansiri",
   "projects": [
+   "dcondo-reef-kathu",
    "the-base-cherngtalay",
    "the-tales-story-one-bangjo"
   ]
@@ -214,6 +247,7 @@
  {
   "name": "T.H. Group Phuket Co., Ltd.",
   "projects": [
+   "ayana-heights",
    "ayana-soluna-villas"
   ]
  },
@@ -225,6 +259,12 @@
   ]
  },
  {
+  "name": "The One Phuket Co., Ltd.",
+  "projects": [
+   "the-one-naiharn"
+  ]
+ },
+ {
   "name": "The Zero",
   "projects": [
    "silhouette-by-the-zero-phuket"
@@ -233,6 +273,7 @@
  {
   "name": "Trinity Property Co., Ltd.",
   "projects": [
+   "aileen-rawai-townhouses",
    "aileen-villas-layan"
   ]
  },
@@ -258,6 +299,12 @@
   "name": "Zenithy Development",
   "projects": [
    "zenithy-la-ville"
+  ]
+ },
+ {
+  "name": "Zero Developments Co., Ltd.",
+  "projects": [
+   "the-zero-bang-tao"
   ]
  }
 ]

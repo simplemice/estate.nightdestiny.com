@@ -1,0 +1,124 @@
+{
+  "name": "The One Naiharn",
+  "developer": "The One Phuket Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Hotel-managed condominium",
+  "location": "Nai Harn / Rawai",
+  "area": "Rawai",
+  "neighbourhood": "Nai Harn",
+  "nearbyAreas": [
+    "Nai Harn"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Completed hotel-managed condominium of 196 studios, one-bedroom and two-bedroom apartments in the Rawai and Nai Harn area, with a pool, kids club and gym.",
+  "description": "A single eight-storey building with 196 apartments on a site of about 4,480 sqm, recorded as completed in March 2026. Listed in Rawai, it is marketed under the Nai Harn name and is about 1.7 km from Rawai Beach.\nResale and developer units come as studios of around 27 sqm, one-bedroom apartments from about 30 to 69 sqm and a small number of two-bedroom units. Facilities include a communal pool, kids pool and kids club, sauna, gym, indoor kids zone, lobby and automated parking, with hotel-style management.\nUnit counts vary between portals (196 to 218), so confirm availability with the seller. Foreign buyers can hold freehold within the quota; the project pays a freehold premium per the portal.",
+  "cardDescription": "A completed eight-storey hotel-managed condominium with 196 apartments, pool and gym, about 1.7 km from Rawai Beach.",
+  "seoTitle": "The One Naiharn: Condos for Sale in Nai Harn / Rawai, Phuket",
+  "seoDescription": "The One Naiharn: completed 196-unit hotel-managed condo in Rawai near Nai Harn. Studio to 2-bedroom units, pool and gym. Sizes and prices.",
+  "primaryKeyword": "The One Naiharn",
+  "secondaryKeywords": [
+    "condos for sale in Nai Harn",
+    "apartments in Nai Harn Phuket",
+    "The One Naiharn Rawai"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Mar 2026",
+  "totalUnits": "196",
+  "floors": "1 building, 8 storeys",
+  "ownership": [
+    "Freehold"
+  ],
+  "startingPrice": 3700000,
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "26.8-27",
+      "price": 3700000,
+      "priceType": "Lowest advertised price",
+      "availability": "5 units advertised"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "30-69",
+      "price": 5513007,
+      "priceType": "Lowest advertised price",
+      "availability": "49 units advertised"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "53.6",
+      "price": 12980000,
+      "priceType": "Lowest advertised price",
+      "availability": "1 units advertised"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Kids pool and kids club",
+    "Indoor kids zone",
+    "Sauna",
+    "Gym",
+    "Hotel-managed",
+    "Reception / lobby",
+    "Car parking (automated)",
+    "24-hour security and CCTV"
+  ],
+  "parking": "Parking for about 54% of units (automated)",
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 800 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "1.7 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "47.8 km / 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "imagesStatus": "available",
+  "sources": [
+    {
+      "label": "Property portal project page",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-one-naiharn"
+    },
+    {
+      "label": "Developer website",
+      "url": "https://theonenaiharn.com/"
+    }
+  ],
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-one-naiharn",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Unit count: 196 (portal) vs 218 (another portal). Original completion expected 2023; portal now Mar 2026. Freehold premium THB 10,000/sqm (portal), not published. Payment plan on portal for completed project not published. Prices are a mix of developer-stock and resale listings. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://theonenaiharn.com/).",
+  "images": [
+    "/assets/images/projects/the-one-naiharn/rooftop-pool.jpg",
+    "/assets/images/projects/the-one-naiharn/pool-access.jpg",
+    "/assets/images/projects/the-one-naiharn/lobby.jpg",
+    "/assets/images/projects/the-one-naiharn/rooftop-restaurant.jpg",
+    "/assets/images/projects/the-one-naiharn/fitness.jpg"
+  ],
+  "cover": "/assets/images/projects/the-one-naiharn/rooftop-pool.jpg",
+  "imageCaptions": [
+    "The One Naiharn rooftop swimming pool (render)",
+    "The One Naiharn pool area (render)",
+    "The One Naiharn lobby (render)",
+    "The One Naiharn rooftop restaurant (render)",
+    "The One Naiharn fitness centre (render)"
+  ],
+  "imageCredit": "Marketing images from the developer website, mostly artist renders. Layouts and finishes may differ from the final product."
+}

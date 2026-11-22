@@ -1,0 +1,69 @@
+{
+  "name": "Botanica Verdant",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Nai Thon (Thalang)",
+  "area": "Thalang",
+  "locationStatus": "unresolved",
+  "shortDescription": "Villa project by Botanica Luxury Phuket marketed as The Verdant by Botanica, with a three-bedroom 147 sqm pool villa advertised from THB 15.9 million.",
+  "description": "Marketed as Botanica The Verdant (The Verdant by Botanica), a villa community by Botanica Luxury Phuket, the developer of the Botanica villa estates. It is under construction and one of the advertised homes is a furnished three-bedroom, three-bathroom pool villa of 147 sqm on leasehold title, from THB 15.9 million.\nListings place the project at Nai Thon in Thalang, while another says it is central to Phuket; the exact site is not confirmed here. Descriptions mention landscaped walking paths, children playgrounds, sports courts, barbecue areas and controlled access, but these are promotional and not a verified facilities list.\nA listing site also quotes plots of 305-469 sqm and a fourth-quarter 2026 completion; neither is confirmed by a second source, so ask the developer for the master plan and schedule.",
+  "cardDescription": "A Botanica villa community with a furnished three-bedroom 147 sqm pool villa advertised from THB 15.9 million.",
+  "seoTitle": "Botanica Verdant: Pool Villas for Sale in Phuket from THB 15.9M",
+  "seoDescription": "Botanica Verdant (The Verdant by Botanica): three-bedroom 147 sqm pool villa on leasehold, advertised from THB 15.9 million. Status and location to confirm.",
+  "primaryKeyword": "Botanica Verdant Phuket",
+  "secondaryKeywords": [
+    "Botanica Verdant villas for sale",
+    "Botanica villas Nai Thon",
+    "luxury villas in Phuket"
+  ],
+  "constructionStatus": "Under construction",
+  "privatePool": "yes",
+  "ownership": [
+    "Leasehold"
+  ],
+  "startingPrice": 15900000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 147,
+  "builtUpMax": 147,
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "147",
+      "price": 15900000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool",
+    "Parking",
+    "Controlled access and surveillance"
+  ],
+  "furniture": "Listed as furnished",
+  "imagesStatus": "unavailable",
+  "sources": [
+    {
+      "label": "Papaya Property listing",
+      "url": "https://papayaproperty.com/laguna-property/botanica-the-verdant"
+    },
+    {
+      "label": "Aster of Asia listing",
+      "url": "https://asterofasia.com/en/property/thailand/phuket/the-verdant-by-botanica"
+    }
+  ],
+  "priceSourceUrl": "https://papayaproperty.com/laguna-property/botanica-the-verdant",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price.",
+  "lastVerified": "2026-11-22",
+  "floorPlans": [],
+  "researchNotes": "New project added 2026-11-22. Not on the main property portal. Data from two agent listings only; no developer page found. Location Nai Thon (Papaya) vs \"heart of Phuket\" (Aster). Plot 305-469 sqm and Q4 2026 completion on Aster only (not published). Only one unit type known. Facilities list is marketing text; kept to items stated as present. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+}
