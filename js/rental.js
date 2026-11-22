@@ -24,7 +24,7 @@
   var $ = function (id) { return document.getElementById(id); };
   var f = {
     property: $('rd-property'), adults: $('rd-adults'), children: $('rd-children'), inn: $('rd-in'), out: $('rd-out'),
-    loc: $('rd-loc'), other: $('rd-other'), otherWrap: $('rd-other-wrap'), budget: $('rd-budget'), cur: $('rd-cur'), per: $('rd-per'),
+    locs: $('rd-locs'), locset: $('rd-locset'), other: $('rd-other'), otherWrap: $('rd-other-wrap'), budget: $('rd-budget'), cur: $('rd-cur'), per: $('rd-per'),
     notes: $('rd-notes'), name: $('rd-name'), email: $('rd-email'), phone: $('rd-phone'), hp: form.elements.website
   };
   var errBox = $('rd-error'), stayEl = $('rd-stay'), capHint = $('rd-cap-hint'), capWarn = $('rd-cap-warn'), done = $('rd-done');
@@ -66,7 +66,7 @@
     state.maxGuests = parseInt(src.getAttribute('data-max-guests'), 10) || 0;
     f.property.value = src.getAttribute('data-property') || '';
     var guess = slugify(src.getAttribute('data-location'));
-    f.loc.value = cfg.locEn && cfg.locEn[guess] && guess !== 'other' ? guess : '';
+    boxes().forEach(function (b) { b.checked = b.value === guess && guess !== 'other' && !!(cfg.locEn && cfg.locEn[guess]); });
     toggleOther();
     clearErrors(); done.hidden = true; unlock();
     capHint.hidden = true; // capacity is shown on the card/page; the dialog only warns when exceeded
@@ -90,8 +90,10 @@
   });
 
   /* ---- field behaviour ---- */
-  var toggleOther = function () { var o = f.loc.value === 'other'; f.otherWrap.hidden = !o; if (!o) f.other.value = ''; };
-  f.loc.addEventListener('change', toggleOther);
+  var boxes = function () { return Array.prototype.slice.call(f.locs.querySelectorAll('input[type=checkbox]')); };
+  var chosen = function () { return boxes().filter(function (b) { return b.checked; }).map(function (b) { return b.value; }); };
+  var toggleOther = function () { var o = chosen().indexOf('other') > -1; f.otherWrap.hidden = !o; if (!o) f.other.value = ''; };
+  f.locs.addEventListener('change', toggleOther);
   f.inn.addEventListener('change', function () { var a = parse(f.inn.value), b = parse(f.out.value); if (a && b && b <= a) f.out.value = ''; refreshDates(); });
   f.out.addEventListener('change', refreshDates);
   f.adults.addEventListener('input', refreshCapacity);
@@ -112,8 +114,9 @@
     var a = parse(f.inn.value), b = parse(f.out.value);
     if (!a || a < today()) mark(f.inn, tr('err.checkin'));
     if (!b || !a || b <= a) mark(f.out, tr('err.checkout'));
-    if (!f.loc.value) mark(f.loc, tr('err.location'));
-    else if (f.loc.value === 'other' && !f.other.value.trim()) mark(f.other, tr('err.location_other'));
+    var sel = chosen();
+    if (!sel.length) mark(f.locset, tr('err.location'));
+    else if (sel.indexOf('other') > -1 && !f.other.value.trim()) mark(f.other, tr('err.location_other'));
     if (f.budget.value !== '' && !(isFinite(parseFloat(f.budget.value)) && parseFloat(f.budget.value) > 0)) mark(f.budget, tr('err.budget'));
     if (!f.name.value.trim()) mark(f.name, tr('err.name'));
     var email = f.email.value.trim(), phone = f.phone.value.trim();
@@ -141,8 +144,7 @@
   var periodEn = { night: '/ night', week: '/ week', month: '/ month', total: '(total stay)' };
   var buildMessage = function (d) {
     var nights = nightsBetween(d.a, d.b);
-    var locKey = f.loc.value;
-    var locTxt = locKey === 'other' ? f.other.value.trim() : (cfg.locEn[locKey] || locKey);
+    var locTxt = chosen().map(function (k) { return k === 'other' ? f.other.value.trim() : (cfg.locEn[k] || k); }).join(', ');
     var budget = f.budget.value !== '' ? Number(f.budget.value).toLocaleString('en-US', { maximumFractionDigits: 2 }) + ' ' + f.cur.value + ' ' + periodEn[f.per.value] : 'not specified';
     var typeTxt = state.type || '';
     var now = new Date();
@@ -153,7 +155,7 @@
       'Adults: ' + d.adults, 'Children: ' + d.kids, '',
       'Check-in: ' + fmtDate(d.a, 'en-GB'), 'Check-out: ' + fmtDate(d.b, 'en-GB'),
       'Duration: ' + nights + (nights === 1 ? ' night' : ' nights'), '',
-      'Preferred location: ' + locTxt, '',
+      'Preferred locations: ' + locTxt, '',
       'Budget: ' + budget, '',
       'Additional requirements:', f.notes.value.trim() ? f.notes.value.trim() : '(none)', '',
       'Customer:', 'Name: ' + f.name.value.trim(),

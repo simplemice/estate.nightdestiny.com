@@ -1,0 +1,27 @@
+{
+  "title": "Three Bedroom Condo",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-23",
+  "propertyType": "Condo",
+  "location": "Phuket",
+  "price": 199,
+  "currency": "USD",
+  "pricePeriod": "night",
+  "bedrooms": 3,
+  "livingArea": 90,
+  "areaUpTo": true,
+  "furnishing": "Furnished",
+  "shortDescription": "Three bedrooms, living area up to 90 sqm.",
+  "description": "Three Bedroom Condo for rent in Phuket, Thailand. Three bedrooms, living area up to 90 sqm, furnished.",
+  "facilities": [
+    "Wifi",
+    "Television",
+    "Air conditioning"
+  ],
+  "cover": "/img/room/room-details.jpg",
+  "images": [
+    "/img/room/room-details.jpg"
+  ],
+  "availability": "Available"
+}

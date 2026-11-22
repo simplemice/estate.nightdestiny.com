@@ -88,6 +88,7 @@ content:
       - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/properties, extensions: [jpg, jpeg, png, webp] } }
       - { name: availability, label: Availability, component: availability }
       - { name: project, label: "Linked sale project (rent only)", type: reference, description: "Optional. Photos (1-2), private pool, facilities, area and, when unambiguous, bathrooms are read from this project instead of being typed in again.", options: { collection: projects, search: name, value: "{path}", label: "{name}" } }
+      - { name: areaUpTo, label: "Living area is a maximum, show as 'up to' (rent only)", type: boolean, default: false }
       - { name: maxGuests, label: "Max guests (rent only, only if the limit is verified)", type: number, description: "Leave empty to use the standard rule: 2 guests per bedroom (recommended capacity, set in scripts/rental.mjs)." }
       - { name: privatePool, label: Private pool (rent only), type: boolean, description: "Also detected from the facilities list ('Private pool') and from the linked project." }
       - { name: poolSize, label: Pool size (rent only, optional), type: string, description: "Shown only when filled, e.g. 8 x 4 m." }

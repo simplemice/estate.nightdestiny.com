@@ -437,8 +437,7 @@
   "rental.form.checkin": "Check-in",
   "rental.form.checkout": "Check-out",
   "rental.form.dates_hint": "Choose your arrival and departure dates.",
-  "rental.form.location": "Preferred location",
-  "rental.form.location_ph": "Select a location",
+  "rental.form.location": "Preferred locations",
   "rental.form.location_other": "Other location",
   "rental.form.location_other_ph": "Where in Phuket?",
   "rental.form.budget": "Budget",
@@ -482,7 +481,7 @@
   "rental.js.err.children": "Enter the number of children (0 or more).",
   "rental.js.err.checkin": "Choose a check-in date that is today or later.",
   "rental.js.err.checkout": "Choose a check-out date after the check-in date.",
-  "rental.js.err.location": "Please choose a preferred location.",
+  "rental.js.err.location": "Please choose at least one preferred location.",
   "rental.js.err.location_other": "Please tell us the location.",
   "rental.js.err.budget": "Enter a valid budget amount or leave it empty.",
   "rental.js.err.name": "Please enter your name.",
@@ -497,5 +496,6 @@
   "rental.js.done_mail": "your email app",
   "rental.js.done_again": "Please wait a moment before sending again.",
   "rental.js.done_close": "Close",
-  "rental.js.mail_subject": "New Rental Inquiry"
+  "rental.js.mail_subject": "New Rental Inquiry",
+  "rental.form.location_hint": "Select one or more areas you are interested in."
 }

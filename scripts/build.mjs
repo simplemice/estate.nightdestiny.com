@@ -521,9 +521,10 @@ function rentFacts(p) {
   return {
     villa, beds, baths, cap,
     pool: hasPrivatePool(p), poolSize: p.poolSize || '',
-    area: num(p.livingArea), plot: villa ? num(p.landArea) : null,
+    area: num(p.livingArea), areaUpTo: p.areaUpTo === true, plot: villa ? num(p.landArea) : null,
   };
 }
+const rentArea = (f) => (f.areaUpTo ? `${T('up_to')} ${I.sqm(f.area)}` : I.sqm(f.area)); // "up to 800 sqm" when the owner gives a maximum
 const rentChips = (p) => {
   const f = rentFacts(p);
   const chip = (ic, txt, title = '') => `<li${title ? ` title="${esc(title)}"` : ''}><i class="fa ${ic}"></i> ${esc(txt)}</li>`;
@@ -532,7 +533,7 @@ const rentChips = (p) => {
     f.baths !== null ? chip('fa-bath', T('rental.baths', { n: f.baths })) : '',
     f.pool ? chip('fa-tint', T('rental.private_pool') + (f.poolSize ? ` (${f.poolSize})` : '')) : '',
     f.cap ? chip('fa-users', T('rental.guests', { n: f.cap.max }), T(f.cap.verified ? 'rental.guests_verified_title' : 'rental.guests_title')) : '',
-    f.area !== null ? chip('fa-arrows-alt', I.sqm(f.area)) : '',
+    f.area !== null ? chip('fa-arrows-alt', rentArea(f)) : '',
     f.plot !== null ? chip('fa-map-o', `${T('rental.plot')}: ${I.sqm(f.plot)}`) : '',
   ].join('');
 };
@@ -546,7 +547,7 @@ const requestedBadge = () => `<span class="status status-req">${esc(T('rental.by
 /* ---------- booking-by-request dialog (one reusable form for every rental option; opened by [data-rental-open]) ---------- */
 function rentalDialog() {
   const i = (k, v) => esc(T(k, v));
-  const loc = RENTAL_LOCATIONS.map((k) => `<option value="${k}">${i(`rental.loc.${k}`)}</option>`).join('');
+  const loc = RENTAL_LOCATIONS.map((k) => `<label class="rd-chk"><input type="checkbox" name="location" value="${k}"><span>${i(`rental.loc.${k}`)}</span></label>`).join('');
   const cur = BUDGET_CURRENCIES.map((c) => `<option value="${c}">${c}</option>`).join('');
   const per = BUDGET_PERIODS.map((k) => `<option value="${k}">${i(`rental.period.${k}`)}</option>`).join('');
   const cfg = {
@@ -580,8 +581,9 @@ function rentalDialog() {
 				</div>
 				<p class="rd-hint" id="rd-stay">${i('rental.form.dates_hint')}</p>
 			</fieldset>
-			<fieldset class="rd-set"><legend>${i('rental.form.location')}</legend>
-				<select id="rd-loc" name="location" class="form-control" required><option value="">${i('rental.form.location_ph')}</option>${loc}</select>
+			<fieldset class="rd-set" id="rd-locset"><legend>${i('rental.form.location')}</legend>
+				<p class="rd-hint rd-hint-top">${i('rental.form.location_hint')}</p>
+				<div class="rd-checks" id="rd-locs">${loc}</div>
 				<div class="rd-f rd-other" id="rd-other-wrap" hidden><label for="rd-other">${i('rental.form.location_other')}</label><input type="text" id="rd-other" name="location_other" class="form-control" maxlength="80" placeholder="${i('rental.form.location_other_ph')}"></div>
 			</fieldset>
 			<fieldset class="rd-set"><legend>${i('rental.form.budget')}</legend>
@@ -1066,12 +1068,12 @@ function propertyPage(p) {
     image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i), datePosted: p.publishedAt,
     offers: { '@type': cat === 'rent' ? 'AggregateOffer' : 'Offer', ...(cat === 'rent' ? { lowPrice: num(p.price) } : { price: num(p.price) }), priceCurrency: p.currency || 'THB', ...(cat === 'rent' ? {} : { availability: p.availability === 'Available' ? 'https://schema.org/InStock' : 'https://schema.org/SoldOut' }) }, // rentals are booked by request: no availability claim
     
-    about: { '@type': 'Accommodation', numberOfBedrooms: num(p.bedrooms) ?? undefined, numberOfBathroomsTotal: num(p.bathrooms) ?? undefined, floorSize: num(p.livingArea) ? { '@type': 'QuantitativeValue', value: num(p.livingArea), unitCode: 'MTK' } : undefined, address: { '@type': 'PostalAddress', addressLocality: loc, addressCountry: 'TH' } },
+    about: { '@type': 'Accommodation', numberOfBedrooms: num(p.bedrooms) ?? undefined, numberOfBathroomsTotal: num(p.bathrooms) ?? undefined, floorSize: num(p.livingArea) ? { '@type': 'QuantitativeValue', ...(p.areaUpTo === true ? { maxValue: num(p.livingArea) } : { value: num(p.livingArea) }), unitCode: 'MTK' } : undefined, address: { '@type': 'PostalAddress', addressLocality: loc, addressCountry: 'TH' } },
   };
   const rf = cat === 'rent' ? rentFacts(p) : null;
   const rentLead = (() => {
     if (!rf) return '';
-    const facts = [rf.beds !== null ? T('rental.beds', { n: rf.beds }).toLowerCase() : '', rf.baths !== null ? T('rental.baths', { n: rf.baths }).toLowerCase() : '', rf.pool ? T('rental.private_pool').toLowerCase() : '', rf.area !== null ? I.sqm(rf.area) : ''].filter(Boolean).join(', ');
+    const facts = [rf.beds !== null ? T('rental.beds', { n: rf.beds }).toLowerCase() : '', rf.baths !== null ? T('rental.baths', { n: rf.baths }).toLowerCase() : '', rf.pool ? T('rental.private_pool').toLowerCase() : '', rf.area !== null ? rentArea(rf) : ''].filter(Boolean).join(', ');
     const lead = facts ? T('rental.lead', { t, type: type.toLowerCase(), loc, facts }) : T('rental.lead_nofacts', { t, type: type.toLowerCase(), loc });
     return rf.cap ? T('rental.detail_p', { lead, n: rf.cap.max }) : T('rental.detail_p_nocap', { lead });
   })();
@@ -1096,7 +1098,7 @@ function propertyPage(p) {
 						<table class="spec-table"><tbody>
 							${spec('spec.type', type)}${spec('spec.location', loc)}
 							${spec('spec.bedrooms', p.bedrooms)}${spec('spec.bathrooms', p.bathrooms)}${rf?.cap ? spec('spec.max_guests', rf.cap.max) : ''}${rf?.pool ? spec('spec.private_pool', rf.poolSize ? `${T('yes')} (${rf.poolSize})` : T('yes')) : ''}
-							${spec('spec.living_area', num(p.livingArea) !== null ? I.sqm(p.livingArea) : '')}${spec('spec.land_area', num(p.landArea) !== null ? I.sqm(p.landArea) : '')}
+							${spec('spec.living_area', num(p.livingArea) !== null ? (rf?.areaUpTo ? rentArea(rf) : I.sqm(p.livingArea)) : '')}${spec('spec.land_area', num(p.landArea) !== null ? I.sqm(p.landArea) : '')}
 							${spec('spec.floor', p.floor)}${spec('spec.ownership', ownName(p.ownership))}${spec('spec.furnishing', tx(p.furnishing, 'furnishing'))}${spec('spec.year_built', p.yearBuilt)}
 						</tbody></table>
 						${cat === 'rent' ? `<p class="rent-notice rent-notice-side">${esc(T('rental.notice'))}</p>${rentRequestBtn(p, 'primary-btn rent-request rent-request-block')}` : ''}${waBtn(waMsg[cat](t), 'wa-btn wa-block', T('inquire_wa'))}

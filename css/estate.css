@@ -288,3 +288,11 @@ html.rd-open{overflow:hidden}
   .rd-row3 .rd-f:nth-child(n+2){display:inline-block}
 }
 @media (min-width:576px) and (max-width:767px){.rd-row3{grid-template-columns:1fr 1fr}}
+
+/* preferred locations: checkbox group (several areas can be chosen) */
+.rd-checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px 12px;margin:2px 0 8px}
+.rd-chk{display:flex;align-items:center;gap:8px;margin:0;padding:8px 10px;border:1px solid #d8d8d8;border-radius:3px;cursor:pointer;font-size:15px;line-height:1.2}
+.rd-chk input{width:18px;height:18px;margin:0;flex:none;accent-color:#946025}
+.rd-chk:has(input:checked){border-color:#946025;background:rgba(148,96,37,.1)}
+.rd-hint-top{margin:0 0 8px}
+#rd-locset.is-invalid{outline:1px solid #c0392b;outline-offset:4px}

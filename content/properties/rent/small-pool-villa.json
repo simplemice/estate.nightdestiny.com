@@ -2,11 +2,11 @@
   "title": "Small Pool Villa",
   "propertyType": "Villa",
   "location": "Phuket",
-  "price": 219,
+  "price": 259,
   "currency": "USD",
   "pricePeriod": "night",
   "bedrooms": 3,
-  "livingArea": 150,
+  "livingArea": 350,
   "furnishing": "Furnished",
   "shortDescription": "Three king beds, max 6 guests.",
   "description": "Small Pool Villa for rent in Phuket, Thailand. Three king beds, max 6 guests.",
@@ -24,5 +24,6 @@
   "availability": "Available",
   "featured": true,
   "published": true,
-  "publishedAt": "2026-04-05"
+  "publishedAt": "2026-04-05",
+  "areaUpTo": true
 }

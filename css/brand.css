@@ -195,3 +195,6 @@ select option { background: var(--ink-2); color: var(--text); }
 .rd-foot .primary-btn { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
 .rd-foot .wa-btn { background: var(--wa); color: #fff; }
 .rd-foot .wa-btn i { color: #fff; }
+.rd-chk { border-color: var(--line-strong); color: var(--text); }
+.rd-chk input { accent-color: var(--accent); }
+.rd-chk:has(input:checked) { border-color: var(--accent); background: rgba(201, 169, 106, .12); }

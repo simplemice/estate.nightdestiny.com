@@ -492,8 +492,7 @@
   "rental.form.checkin": "Заезд",
   "rental.form.checkout": "Выезд",
   "rental.form.dates_hint": "Выберите даты заезда и выезда.",
-  "rental.form.location": "Желаемый район",
-  "rental.form.location_ph": "Выберите район",
+  "rental.form.location": "Желаемые районы",
   "rental.form.location_other": "Другой район",
   "rental.form.location_other_ph": "Где на Пхукете?",
   "rental.form.budget": "Бюджет",
@@ -538,7 +537,7 @@
   "rental.js.err.children": "Укажите число детей (0 или больше).",
   "rental.js.err.checkin": "Выберите дату заезда: сегодня или позже.",
   "rental.js.err.checkout": "Выберите дату выезда позже даты заезда.",
-  "rental.js.err.location": "Выберите желаемый район.",
+  "rental.js.err.location": "Выберите хотя бы один желаемый район.",
   "rental.js.err.location_other": "Укажите район.",
   "rental.js.err.budget": "Укажите корректную сумму бюджета или оставьте поле пустым.",
   "rental.js.err.name": "Пожалуйста, укажите ваше имя.",
@@ -553,5 +552,6 @@
   "rental.js.done_mail": "вашей почтовой программе",
   "rental.js.done_again": "Подождите немного, прежде чем отправить снова.",
   "rental.js.done_close": "Закрыть",
-  "rental.js.mail_subject": "Новый запрос на аренду"
+  "rental.js.mail_subject": "Новый запрос на аренду",
+  "rental.form.location_hint": "Отметьте один или несколько районов, которые вас интересуют."
 }
