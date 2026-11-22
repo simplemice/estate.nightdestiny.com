@@ -80,7 +80,19 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/biancana-title"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "bathroomsMin": 1,
-  "bathroomsMax": 3
+  "bathroomsMax": 3,
+  "nearby": [
+    {
+      "place": "Surin Beach",
+      "distance": "47 m / under 1 minute",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "23.2 km / 40 minutes",
+      "mode": "driving"
+    }
+  ]
 }

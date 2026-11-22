@@ -8,7 +8,7 @@
   "shortDescription": "Ready-to-move condominium in Naiyang, 814 units across six buildings.",
   "description": "Six seven-storey residential buildings in Naiyang with 814 units on about 22,000 sqm. Ready to move in.\nUnits range from studios to 2-bedroom layouts. Prices and availability on request via WhatsApp.",
   "currency": "THB",
-  "constructionStatus": "Completed",
+  "constructionStatus": "Pre-sale",
   "totalUnits": 814,
   "cover": "/assets/images/projects/the-title-serenity-naiyang/g1.jpg",
   "images": [
@@ -84,7 +84,7 @@
   "startingPrice": 3100000,
   "priceStatus": "advertised",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang",
-  "lastVerified": "2026-11-21",
+  "lastVerified": "2026-11-23",
   "priceNote": "Lowest advertised price.",
   "ownership": [
     "Freehold"
@@ -98,5 +98,17 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced)."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Status changed Completed -> Pre-sale on 2026-11-23 to match the FazWaz project page (Off Plan).",
+  "nearby": [
+    {
+      "place": "Nai Yang Beach",
+      "distance": "1.7 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "2.3 km / 6 minutes",
+      "mode": "driving"
+    }
+  ]
 }

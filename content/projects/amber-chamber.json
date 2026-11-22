@@ -94,7 +94,7 @@
       "url": "https://lip.lazudi.com/phuket/project/amber-chamber-15962"
     }
   ],
-  "researchNotes": "Completion conflict: Papaya says Q3 2026, PropertyScout says 2028 (still under construction as of 2026-11-14 check). Ownership conflict: Papaya says Leasehold, PropertyScout says Freehold; only Papaya recorded. Unit count conflict: 18 (Papaya) vs 16 (PropertyScout). Keller Henson not found. Developer 2 Thanwa Property per Papaya/PropertyScout/Realting; Vera Visio appears only as the agency brand. 4BR Bliss page mentions terrace 722 sqm, not confirmed as land. Serenity bathrooms not given. | From THB 35.1M for 3BR Essence per Papaya Property; PropertyScout shows THB 34.4M-51.3M and Lazudi 32.5M-49.3M, so prices vary by source. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans).",
+  "researchNotes": "Completion conflict: Papaya says Q3 2026, PropertyScout says 2028 (still under construction as of 2026-11-14 check). Ownership conflict: Papaya says Leasehold, PropertyScout says Freehold; only Papaya recorded. Unit count conflict: 18 (Papaya) vs 16 (PropertyScout). Keller Henson not found. Developer 2 Thanwa Property per Papaya/PropertyScout/Realting; Vera Visio appears only as the agency brand. 4BR Bliss page mentions terrace 722 sqm, not confirmed as land. Serenity bathrooms not given. | From THB 35.1M for 3BR Essence per Papaya Property; PropertyScout shows THB 34.4M-51.3M and Lazudi 32.5M-49.3M, so prices vary by source. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "developer": "2 Thanwa Property Co., Ltd.",
   "cover": "/assets/images/projects/amber-chamber/photo-1.jpg",
@@ -107,5 +107,17 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/amber-chamber",
-  "priceNote": "Lowest advertised price."
+  "priceNote": "Lowest advertised price.",
+  "nearby": [
+    {
+      "place": "Baanpon Market",
+      "distance": "2.6 km / 5 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "19.0 km / 29 minutes",
+      "mode": "driving"
+    }
+  ]
 }

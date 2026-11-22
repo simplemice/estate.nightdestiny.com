@@ -109,9 +109,21 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-modeva"
     }
   ],
-  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (a property portal), Q4 2027, 03/2027 (other listings): not published. No official site found. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 3 (2026-11-19): a property portal (browser read 2026-11-19): Rhom Bho Property PLC; 859 units, 7 buildings, 7 floors, 25,329 sqm; pool on 7th floor, lobby on 1st floor; unit types 1BR, 1BR Plus, 2BR Duplex, 3BR Duplex, studio. Completion conflict: Dec 2026 (a property portal), Q4 2027, 03/2027 (other listings): not published. No official site found. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "furniture": "Fully furnished",
   "bathroomsMin": 1,
   "bathroomsMax": 3,
-  "completionDate": "Dec 2026"
+  "completionDate": "Dec 2026",
+  "nearby": [
+    {
+      "place": "Boat Avenue Cherngtalay",
+      "distance": "1.2 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "20.6 km / 33 minutes",
+      "mode": "driving"
+    }
+  ]
 }

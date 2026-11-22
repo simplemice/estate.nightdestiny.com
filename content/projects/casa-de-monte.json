@@ -85,12 +85,24 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/casa-de-monte"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "privatePool": "yes",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "bathroomsMin": 3,
   "bathroomsMax": 6,
   "builtUpMin": 267,
-  "builtUpMax": 424
+  "builtUpMax": 424,
+  "nearby": [
+    {
+      "place": "The British International School",
+      "distance": "2.0 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "25.1 km / 37 minutes",
+      "mode": "driving"
+    }
+  ]
 }

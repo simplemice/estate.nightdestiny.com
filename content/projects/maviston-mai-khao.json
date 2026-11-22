@@ -30,7 +30,18 @@
   "bedroomsMax": 3,
   "constructionStatus": "Status on request",
   "facilities": [],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Sarasin Bridge",
+      "distance": "2.7 km / 3 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "16.5 km / 23 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
     {
       "label": "Keller Henson",
@@ -57,7 +68,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao"
     }
   ],
-  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "images": [

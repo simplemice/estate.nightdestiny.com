@@ -77,7 +77,7 @@
       "url": "https://www.thailand-property.com/house/25325/banyan-tree-beach-residences-varuna"
     }
   ],
-  "researchNotes": "Official release: 8 units, 4 bedrooms each, 4 levels. Listings say 3BR 292 sqm and give conflicting prices; bedroom count unresolved. Press page lists no price, size or completion. Official images on banyangroupresidences.com were relative paths (/sites/bgr/files/inline-images/2_1.png and 4.png); not fetched as absolute URLs. Papaya freehold claim is not stated by the official release. | Papaya Property lists from 109,900,000 (3BR 292 sqm; range up to 245M); Thailand-Property lists 129,899,999 (and 'contact for price'). Client 136.4M not found. Official Banyan Group press page states no price. | claimed price 136400000 | Phase 3 (2026-11-19): Official release (banyangroupresidences.com/cn/node/309, read 2026-11-19): 8 townhomes, 4 bedrooms each, 4 levels, no sizes, no price, no completion date, tenure not stated. Bedrooms set to 4 from the official release; listings show a 3-bedroom 292 sqm unit. Rental-programme wording differs between sources (official page vs press copies): not mentioned on the page. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Official release: 8 units, 4 bedrooms each, 4 levels. Listings say 3BR 292 sqm and give conflicting prices; bedroom count unresolved. Press page lists no price, size or completion. Official images on banyangroupresidences.com were relative paths (/sites/bgr/files/inline-images/2_1.png and 4.png); not fetched as absolute URLs. Papaya freehold claim is not stated by the official release. | Papaya Property lists from 109,900,000 (3BR 292 sqm; range up to 245M); Thailand-Property lists 129,899,999 (and 'contact for price'). Client 136.4M not found. Official Banyan Group press page states no price. | claimed price 136400000 | Phase 3 (2026-11-19): Official release (banyangroupresidences.com/cn/node/309, read 2026-11-19): 8 townhomes, 4 bedrooms each, 4 levels, no sizes, no price, no completion date, tenure not stated. Bedrooms set to 4 from the official release; listings show a 3-bedroom 292 sqm unit. Rental-programme wording differs between sources (official page vs press copies): not mentioned on the page. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/banyan-tree-beach-residences-varuna/photo-1.jpg",
   "imageCaptions": [
@@ -88,5 +88,17 @@
   ],
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "priceNote": "Lowest advertised price.",
-  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/banyan-tree-beach-residences-varuna"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/banyan-tree-beach-residences-varuna",
+  "nearby": [
+    {
+      "place": "Banyan Tree Phuket",
+      "distance": "1.0 km / 2 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "15.5 km / 27 minutes",
+      "mode": "driving"
+    }
+  ]
 }

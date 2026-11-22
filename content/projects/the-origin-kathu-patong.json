@@ -38,7 +38,18 @@
   ],
   "constructionStatus": "Completed",
   "facilities": [],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Tesco Lotus Kathu",
+      "distance": "1.6 km / 3 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "33.0 km / 42 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
     {
       "label": "Keller Henson",
@@ -57,7 +68,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong"
     }
   ],
-  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+7). Source https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Completion Q4 2025 (Keller Henson) vs completed Jun 2026 (Hipflat): status left on request. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+7). Source https://www.fazwaz.com/projects/thailand/phuket/kathu/kathu/the-origin-kathu-patong. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/the-origin-kathu-patong/photo-1.jpg",
   "images": [

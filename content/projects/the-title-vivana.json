@@ -62,5 +62,17 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/the-title-vivana-kamala"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced)."
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "2.1 km / 6 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "28.0 km / 50 minutes",
+      "mode": "driving"
+    }
+  ]
 }

@@ -35,7 +35,18 @@
   "facilities": [
     "Private pool"
   ],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Kamala Beach",
+      "distance": "2.4 km / 5 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "28.3 km / 49 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
     {
       "label": "Keller Henson",
@@ -54,7 +65,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/naturale-kamala"
     }
   ],
-  "researchNotes": "a property portal shows an inconsistent 5.76M figure (ignored). Ownership not confirmed. Not the same as Naturale Cherng Talay (already in catalogue). Checked 2026-11-17. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/naturale-kamala. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "a property portal shows an inconsistent 5.76M figure (ignored). Ownership not confirmed. Not the same as Naturale Cherng Talay (already in catalogue). Checked 2026-11-17. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/naturale-kamala. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/naturale-kamala/photo-1.jpg",
   "images": [

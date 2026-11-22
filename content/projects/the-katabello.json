@@ -125,9 +125,21 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/katabello"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 32,
-  "builtUpMax": 68
+  "builtUpMax": 68,
+  "nearby": [
+    {
+      "place": "Kata Beach",
+      "distance": "1.6 km / 5 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "47.5 km / 1 hour",
+      "mode": "driving"
+    }
+  ]
 }

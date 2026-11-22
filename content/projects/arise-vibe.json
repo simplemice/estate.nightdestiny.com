@@ -31,7 +31,18 @@
   ],
   "constructionStatus": "Completed",
   "facilities": [],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Thao Thep Kasattri Thao Sri Sunthon Monument",
+      "distance": "1.1 km / 2 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "20.6 km / 28 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
     {
       "label": "Keller Henson",
@@ -50,7 +61,7 @@
       "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
-  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+8). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+8). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "images": [

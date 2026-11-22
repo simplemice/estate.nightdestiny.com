@@ -55,7 +55,18 @@
       "availability": "5 units advertised"
     }
   ],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Phromthep Cape",
+      "distance": "2.2 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "51.9 km / 1 hour",
+      "mode": "driving"
+    }
+  ],
   "coordinates": null,
   "cover": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg",
   "images": [
@@ -95,7 +106,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/the-title-adora-rawai"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
   "bathroomsMin": 1,
   "bathroomsMax": 2
 }
