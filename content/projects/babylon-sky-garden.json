@@ -56,9 +56,25 @@
     }
   ],
   "images": [
+    "/assets/images/projects/babylon-sky-garden/aerial-pool.jpg",
+    "/assets/images/projects/babylon-sky-garden/pool-rooftop.jpg",
+    "/assets/images/projects/babylon-sky-garden/pool-courtyard.jpg",
+    "/assets/images/projects/babylon-sky-garden/night-aerial.jpg",
+    "/assets/images/projects/babylon-sky-garden/pool-lawn.jpg",
+    "/assets/images/projects/babylon-sky-garden/facade-sunset.jpg",
+    "/assets/images/projects/babylon-sky-garden/aerial-sunset.jpg",
+    "/assets/images/projects/babylon-sky-garden/rooftop-sunset.jpg",
+    "/assets/images/projects/babylon-sky-garden/entrance.jpg",
+    "/assets/images/projects/babylon-sky-garden/pool-2.jpg",
+    "/assets/images/projects/babylon-sky-garden/rooftop-garden.jpg",
+    "/assets/images/projects/babylon-sky-garden/garden.jpg",
+    "/assets/images/projects/babylon-sky-garden/pool-palms.jpg",
+    "/assets/images/projects/babylon-sky-garden/infinity-pool.jpg",
+    "/assets/images/projects/babylon-sky-garden/balcony-sea-view.jpg",
+    "/assets/images/projects/babylon-sky-garden/bedroom.jpg",
     "/assets/images/projects/babylon-sky-garden/exterior.jpeg"
   ],
-  "cover": "/assets/images/projects/babylon-sky-garden/exterior.jpeg",
+  "cover": "/assets/images/projects/babylon-sky-garden/aerial-building.jpg",
   "imageCaptions": [
     "Babylon Sky Garden building in Rawai (developer image)"
   ],
@@ -80,7 +96,17 @@
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
-  "floorPlans": [],
+  "floorPlans": [
+    "/assets/images/floorplans/babylon-sky-garden/floor-1.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/floor-2-3.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/floor-4-5.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/deck.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/single-g8.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/single-g.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/single-g4.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/single-g3.jpg",
+    "/assets/images/floorplans/babylon-sky-garden/single-f.jpg"
+  ],
   "imagesStatus": "available",
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "researchNotes": "New project added 2026-11-22. Unit sizes 48.5-57.7 (portal) vs 51-57 (developer). Official site says 400 m to Rawai Beach; portal gives 0.6 km to Wat Sawang Arom. Ownership not stated on pages (freehold premium THB 350,000 listed); not published. Payment plan for completed project not published. All figures are advertised/third-party and not confirmed by the developer unless noted."
