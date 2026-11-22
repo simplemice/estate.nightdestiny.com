@@ -69,12 +69,54 @@
     "/assets/images/floorplans/botanica-verdant/floor-plan-vd-a.png",
     "/assets/images/floorplans/botanica-verdant/master-plan.png"
   ],
-  "researchNotes": "New project added 2026-11-22. Not on the main property portal. Data from two agent listings only; no developer page found. Location Nai Thon (Papaya) vs \"heart of Phuket\" (Aster). Plot 305-469 sqm and Q4 2026 completion on Aster only (not published). Only one unit type known. Facilities list is marketing text; kept to items stated as present. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "researchNotes": "New project added 2026-11-22. Not on the main property portal. Data from two agent listings only; no developer page found. Location Nai Thon (Papaya) vs \"heart of Phuket\" (Aster). Plot 305-469 sqm and Q4 2026 completion on Aster only (not published). Only one unit type known. Facilities list is marketing text; kept to items stated as present. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted. Update 2026-11-23: developer site (botanicaluxuryvilla.com) places the project in Pru Jampa (Thalang) near the airport and lists drive times (airport 13 min, Nai Yang Beach 12 min); these replace the earlier Nai Thon reading, which stays unconfirmed. Area kept as Thalang.",
   "cover": "/assets/images/projects/botanica-verdant/exterior-front.jpg",
   "images": [
     "/assets/images/projects/botanica-verdant/villa-pool.jpg",
     "/assets/images/projects/botanica-verdant/street-view.jpg",
     "/assets/images/projects/botanica-verdant/bedroom.jpg",
     "/assets/images/projects/botanica-verdant/living-room.jpg"
+  ],
+  "nearby": [
+    {
+      "place": "Phuket International Airport",
+      "distance": "13 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Nai Yang Beach",
+      "distance": "12 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Lotus's Supercenter Thalang",
+      "distance": "11 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Home Pro Thalang",
+      "distance": "11 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "UWC International School Phuket",
+      "distance": "11 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Blue Canyon Golf",
+      "distance": "15 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "18 minutes",
+      "mode": "driving"
+    }
   ]
 }

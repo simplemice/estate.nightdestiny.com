@@ -71,6 +71,31 @@
       "place": "Phuket International Airport",
       "distance": "32.3 km / 40 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Central Phuket shopping mall",
+      "distance": "~3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Prince of Songkla University, Phuket Campus",
+      "distance": "~2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "5-10 minutes",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Andamanda Phuket waterpark",
+      "distance": "10-15 minutes",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Patong Beach",
+      "distance": "~7 km",
+      "mode": "unspecified"
     }
   ],
   "imagesStatus": "unavailable",

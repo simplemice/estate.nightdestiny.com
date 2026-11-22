@@ -324,8 +324,8 @@ function layout({ title: t0, description, pathname, active, body, ogImage, extra
   const canonical = canonicalUrl && LANG === DEFAULT_LANG && canonicalUrl.startsWith(SITE + '/') ? canonicalUrl : SITE + lp(pathname);
   // Every page exists in every language at the same relative path (English has no prefix). Error pages are noindex and have no alternates.
   const multi = langs.length > 1;
-  const alternates = errorPage || !multi ? '' : langs.map((l) => `\t<link rel="alternate" hreflang="${LANG_META[l].hreflang}" href="${esc(SITE + lpFor(l, pathname))}">\n`).join('') + `\t<link rel="alternate" hreflang="x-default" href="${esc(SITE + lpFor(DEFAULT_LANG, pathname))}">\n`;
-  const ogAlt = errorPage || !multi ? '' : langs.filter((l) => l !== LANG).map((l) => `\n\t<meta property="og:locale:alternate" content="${LANG_META[l].ogLocale}">`).join('');
+  const alternates = errorPage || noindex || !multi ? '' : langs.map((l) => `\t<link rel="alternate" hreflang="${LANG_META[l].hreflang}" href="${esc(SITE + lpFor(l, pathname))}">\n`).join('') + `\t<link rel="alternate" hreflang="x-default" href="${esc(SITE + lpFor(DEFAULT_LANG, pathname))}">\n`;
+  const ogAlt = errorPage || noindex || !multi ? '' : langs.filter((l) => l !== LANG).map((l) => `\n\t<meta property="og:locale:alternate" content="${LANG_META[l].ogLocale}">`).join('');
   const switchPath = errorPage ? '/' : pathname;
   const crumbs = CRUMBS; CRUMBS = [];
   const graph = [];
