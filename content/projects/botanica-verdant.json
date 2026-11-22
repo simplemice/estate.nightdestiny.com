@@ -36,7 +36,8 @@
       "bathrooms": 3,
       "size": "147",
       "price": 15900000,
-      "priceType": "Lowest advertised price"
+      "priceType": "Lowest advertised price",
+      "floorPlan": "/assets/images/floorplans/botanica-verdant/floor-plan-vd-a.png"
     }
   ],
   "facilities": [
@@ -64,6 +65,16 @@
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
-  "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Not on the main property portal. Data from two agent listings only; no developer page found. Location Nai Thon (Papaya) vs \"heart of Phuket\" (Aster). Plot 305-469 sqm and Q4 2026 completion on Aster only (not published). Only one unit type known. Facilities list is marketing text; kept to items stated as present. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "floorPlans": [
+    "/assets/images/floorplans/botanica-verdant/floor-plan-vd-a.png",
+    "/assets/images/floorplans/botanica-verdant/master-plan.png"
+  ],
+  "researchNotes": "New project added 2026-11-22. Not on the main property portal. Data from two agent listings only; no developer page found. Location Nai Thon (Papaya) vs \"heart of Phuket\" (Aster). Plot 305-469 sqm and Q4 2026 completion on Aster only (not published). Only one unit type known. Facilities list is marketing text; kept to items stated as present. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "cover": "/assets/images/projects/botanica-verdant/exterior-front.jpg",
+  "images": [
+    "/assets/images/projects/botanica-verdant/villa-pool.jpg",
+    "/assets/images/projects/botanica-verdant/street-view.jpg",
+    "/assets/images/projects/botanica-verdant/bedroom.jpg",
+    "/assets/images/projects/botanica-verdant/living-room.jpg"
+  ]
 }

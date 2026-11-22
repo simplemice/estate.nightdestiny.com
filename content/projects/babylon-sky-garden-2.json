@@ -104,5 +104,23 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Floors: 6 (portal) vs 5 (developer). Ownership not stated. Payment plan on portal is for a completed project; not published. No rights-cleared images obtained (developer site photos of phase 2 not saved). All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "researchNotes": "New project added 2026-11-22. Floors: 6 (portal) vs 5 (developer). Ownership not stated. Payment plan on portal is for a completed project; not published. No rights-cleared images obtained (developer site photos of phase 2 not saved). All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "cover": "/assets/images/projects/babylon-sky-garden-2/exterior-aerial.jpg",
+  "images": [
+    "/assets/images/projects/babylon-sky-garden-2/rooftop-pool.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/exterior-side.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/pool-terrace.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/pool-garden.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/pool-courtyard.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/pool-villas.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/facade.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/entrance.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/exterior-green.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/living-room.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/bedroom-1.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/bedroom-2.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/kitchen.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/tv-wall.jpg",
+    "/assets/images/projects/babylon-sky-garden-2/living-kitchen.jpg"
+  ]
 }

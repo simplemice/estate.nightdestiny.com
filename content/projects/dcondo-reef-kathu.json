@@ -89,5 +89,25 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Units: 706 (portal) vs 161 (Hipflat). Portal fee figures (CAM 1,250/sqm, sinking fund 11,300/sqm) look inconsistent so are not published. Prices are resale listings. Ownership and payment plan not published. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "researchNotes": "New project added 2026-11-22. Units: 706 (portal) vs 161 (Hipflat). Portal fee figures (CAM 1,250/sqm, sinking fund 11,300/sqm) look inconsistent so are not published. Prices are resale listings. Ownership and payment plan not published. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "cover": "/assets/images/projects/dcondo-reef-kathu/exterior.jpg",
+  "images": [
+    "/assets/images/projects/dcondo-reef-kathu/garden-exterior.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/aerial-pool.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/pool.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/pool-garden.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/gym.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/lounge.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/coworking.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/living-room.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/bedroom.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/bathroom.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/living-room-2.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/bedroom-2.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/studio-1.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/studio-2.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/one-bedroom-1.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/one-bedroom-2.jpg",
+    "/assets/images/projects/dcondo-reef-kathu/two-bedroom.jpg"
+  ]
 }

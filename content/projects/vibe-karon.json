@@ -32,7 +32,8 @@
       "size": "35",
       "price": 6120000,
       "priceType": "Lowest advertised price",
-      "availability": "1 units advertised"
+      "availability": "1 units advertised",
+      "floorPlan": "/assets/images/floorplans/vibe-karon/plan-A.png"
     },
     {
       "name": "1 Bedroom",
@@ -41,7 +42,8 @@
       "size": "34-50",
       "price": 5746000,
       "priceType": "Lowest advertised price",
-      "availability": "16 units advertised"
+      "availability": "16 units advertised",
+      "floorPlan": "/assets/images/floorplans/vibe-karon/plan-B.png"
     },
     {
       "name": "2 Bedroom",
@@ -50,7 +52,8 @@
       "size": "62-72",
       "price": 10478000,
       "priceType": "Lowest advertised price",
-      "availability": "7 units advertised"
+      "availability": "7 units advertised",
+      "floorPlan": "/assets/images/floorplans/vibe-karon/plan-N.png"
     }
   ],
   "facilities": [
@@ -101,6 +104,34 @@
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
-  "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Mapped to portal project \"Vibe Residence Karon\" (not Vibe Downtown Karon). Developer ESM per several third-party sites; official site not confirmed (several look-alike domains). Distance to beach: 1.0 km driving (portal) vs ~300 m (promo sites). Buildings reported as 3 (1x5 and 2x8 storeys) on third-party pages only. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "floorPlans": [
+    "/assets/images/floorplans/vibe-karon/plan-A.png",
+    "/assets/images/floorplans/vibe-karon/plan-B.png",
+    "/assets/images/floorplans/vibe-karon/plan-N.png"
+  ],
+  "researchNotes": "New project added 2026-11-22. Mapped to portal project \"Vibe Residence Karon\" (not Vibe Downtown Karon). Developer ESM per several third-party sites; official site not confirmed (several look-alike domains). Distance to beach: 1.0 km driving (portal) vs ~300 m (promo sites). Buildings reported as 3 (1x5 and 2x8 storeys) on third-party pages only. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "cover": "/assets/images/projects/vibe-karon/aerial.jpg",
+  "images": [
+    "/assets/images/projects/vibe-karon/pool-exterior.jpg",
+    "/assets/images/projects/vibe-karon/pool-lawn.jpg",
+    "/assets/images/projects/vibe-karon/aerial-2.jpg",
+    "/assets/images/projects/vibe-karon/lobby.jpg",
+    "/assets/images/projects/vibe-karon/restaurant.jpg",
+    "/assets/images/projects/vibe-karon/gym.jpg",
+    "/assets/images/projects/vibe-karon/bar.jpg",
+    "/assets/images/projects/vibe-karon/lounge.jpg",
+    "/assets/images/projects/vibe-karon/pool.jpg",
+    "/assets/images/projects/vibe-karon/infinity-pool.jpg",
+    "/assets/images/projects/vibe-karon/pool-sea-view.jpg",
+    "/assets/images/projects/vibe-karon/studio-1.jpg",
+    "/assets/images/projects/vibe-karon/studio-2.jpg",
+    "/assets/images/projects/vibe-karon/studio-3.jpg",
+    "/assets/images/projects/vibe-karon/studio-4.jpg",
+    "/assets/images/projects/vibe-karon/one-bedroom-1.jpg",
+    "/assets/images/projects/vibe-karon/one-bedroom-2.jpg",
+    "/assets/images/projects/vibe-karon/one-bedroom-3.jpg",
+    "/assets/images/projects/vibe-karon/two-bedroom-1.jpg",
+    "/assets/images/projects/vibe-karon/two-bedroom-2.jpg",
+    "/assets/images/projects/vibe-karon/two-bedroom-3.jpg"
+  ]
 }

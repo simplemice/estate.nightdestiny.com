@@ -104,6 +104,22 @@
   "priceStatus": "advertised",
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
-  "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Brief called this a villa project; it is a townhouse project. Final 5% instalment inferred as remainder after the five stated stages (6th milestone not captured). Ownership and completion date not stated. Land size not published. Sizes of 110-191 sqm on another site conflict (portal figures used). No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "floorPlans": [
+    "/assets/images/floorplans/aileen-rawai-townhouses/floor-plan-type-a.jpg",
+    "/assets/images/floorplans/aileen-rawai-townhouses/master-plan.jpg"
+  ],
+  "researchNotes": "New project added 2026-11-22. Brief called this a villa project; it is a townhouse project. Final 5% instalment inferred as remainder after the five stated stages (6th milestone not captured). Ownership and completion date not stated. Land size not published. Sizes of 110-191 sqm on another site conflict (portal figures used). No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "cover": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg",
+  "images": [
+    "/assets/images/projects/aileen-rawai-townhouses/aerial-street.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/street.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/pool-type-a.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/pool-terrace-type-a.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/pool-type-b.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/living-dining-type-a.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/living-room-type-a.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-a.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-b.jpg",
+    "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-b-2.jpg"
+  ]
 }

@@ -59,8 +59,17 @@
       "availability": "1 units advertised"
     }
   ],
-  "images": [],
-  "floorPlans": [],
+  "images": [
+    "/assets/images/projects/the-passion-residence-lagoon/exterior-street.jpg",
+    "/assets/images/projects/the-passion-residence-lagoon/exterior-2.jpg",
+    "/assets/images/projects/the-passion-residence-lagoon/exterior-3.jpg",
+    "/assets/images/projects/the-passion-residence-lagoon/living-room.jpg",
+    "/assets/images/projects/the-passion-residence-lagoon/dressing-room.jpg"
+  ],
+  "floorPlans": [
+    "/assets/images/floorplans/the-passion-residence-lagoon/floor-plan-1st.jpg",
+    "/assets/images/floorplans/the-passion-residence-lagoon/floor-plan-2nd.jpg"
+  ],
   "sources": [
     {
       "label": "Thailand-Property",
@@ -90,5 +99,6 @@
   "builtUpMin": 170,
   "builtUpMax": 170,
   "priceNote": "Lowest advertised price.",
-  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon",
+  "cover": "/assets/images/projects/the-passion-residence-lagoon/exterior.jpg"
 }

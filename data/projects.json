@@ -24,7 +24,8 @@
   ],
   "status": "Under construction",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg",
+  "imageCount": 11,
   "lastVerified": "2026-11-22"
  },
  {
@@ -110,7 +111,8 @@
   ],
   "status": "Completed",
   "completionDate": "Dec 2025",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/babylon-sky-garden-2/exterior-aerial.jpg",
+  "imageCount": 16,
   "lastVerified": "2026-11-22"
  },
  {
@@ -196,7 +198,8 @@
   ],
   "status": "Under construction",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/botanica-verdant/exterior-front.jpg",
+  "imageCount": 5,
   "lastVerified": "2026-11-22"
  },
  {
@@ -224,7 +227,8 @@
   ],
   "status": "Completed",
   "completionDate": "Sep 2024",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/dcondo-reef-kathu/exterior.jpg",
+  "imageCount": 18,
   "lastVerified": "2026-11-22"
  },
  {
@@ -339,7 +343,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Oct 2028",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/vibe-karon/aerial.jpg",
+  "imageCount": 22,
   "lastVerified": "2026-11-22"
  },
  {
@@ -2309,7 +2314,8 @@
   ],
   "status": "Completed",
   "completionDate": "Jun 2025",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/the-passion-residence-lagoon/exterior.jpg",
+  "imageCount": 6,
   "lastVerified": "2026-11-21"
  },
  {
