@@ -558,26 +558,26 @@
   "propertyType": "pool villa",
   "developer": "Mouana Phuket",
   "location": "Mai Khao",
-  "startingPrice": null,
+  "startingPrice": 26000000,
   "currency": "THB",
-  "priceStatus": "on-request",
+  "priceStatus": "advertised",
   "bedrooms": [
    3,
    4
   ],
   "bathrooms": [
-   null,
-   null
+   4,
+   5
   ],
   "builtUpArea": [
-   null,
-   null
+   400,
+   433
   ],
-  "status": "Status on request",
+  "status": "Pre-sale",
   "completionDate": null,
   "cover": "/assets/images/projects/mouana-mai-khao/photo-1.jpg",
   "imageCount": 18,
-  "lastVerified": "2026-11-17"
+  "lastVerified": "2026-11-23"
  },
  {
   "id": "naturale-kamala",
@@ -1432,22 +1432,22 @@
   "currency": "THB",
   "priceStatus": "on-request",
   "bedrooms": [
-   null,
-   null
+   2,
+   2
   ],
   "bathrooms": [
-   null,
-   null
+   3,
+   3
   ],
   "builtUpArea": [
-   null,
-   null
+   116,
+   142.25
   ],
   "status": "Status on request",
   "completionDate": null,
   "cover": "/assets/images/projects/casa-curve-phuket/photo-1.webp",
   "imageCount": 6,
-  "lastVerified": null
+  "lastVerified": "2026-11-23"
  },
  {
   "id": "casa-de-monte",

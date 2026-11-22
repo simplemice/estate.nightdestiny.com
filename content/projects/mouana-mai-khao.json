@@ -9,27 +9,46 @@
   "featured": false,
   "publishedAt": "2026-11-17",
   "developer": "Mouana Phuket",
-  "shortDescription": "Modern 3 and 4 bedroom private pool villas near Mai Khao Beach, by Mouana Phuket.",
-  "description": "Mouana Mai Khao is a private pool villa development near Mai Khao Beach by Mouana Phuket, offering 3 and 4 bedroom villas in a modern design. Some sources list it as Mouana Breeze Mai Khao or Mouana Maikhao; these appear to be the same project.\n\nMouana Phuket also builds Mouana Serenity Cherng Talay, which is a separate project listed elsewhere on this site.\n\nListed prices range from about 20 to 33 million baht and have moved over time, and completion is quoted from 2025 to Q3 2027, so we show neither. Message us on WhatsApp for the current price list and handover date.",
-  "cardDescription": "Modern 3 and 4 bedroom private pool villas near Mai Khao Beach, by Mouana Phuket.",
-  "seoTitle": "Mouana Mai Khao, Modern Pool Villas near Mai Khao Beach",
-  "seoDescription": "Mouana Mai Khao by Mouana Phuket: 3 and 4 bedroom private pool villas near Mai Khao Beach, Phuket. Enquire on WhatsApp for prices and handover dates.",
+  "shortDescription": "26 private pool villas of 3 and 4 bedrooms (about 400-433 sqm built, 600 sqm plots) near Mai Khao Beach, by Mouana Phuket, from THB 26 million.",
+  "description": "Mouana Mai Khao is a project of 26 private pool villas in Mai Khao by Mouana Phuket, on a site of about 23,484 sqm with a clubhouse, communal pool, gym and kids zone. FazWaz lists it as Mouana Breeze Maikhao; other portals call it Mouana Mai Khao.\nAdvertised homes are fully furnished 3 and 4 bedroom villas of 400-433 sqm built area on 600 sqm plots, with 4-5 bathrooms. The lowest advertised price is THB 26 million for a 4 bedroom villa, THB 28.9 million for the 3 bedroom model and THB 31 million for the larger 4 bedroom. Phuket International Airport is about 10 km (16 minutes by car) and Splash Jungle Water Park about 1.8 km away.\nThe villas are sold made to order, with a stated build time of about 12 months. Earlier listings showed lower prices (from about 19.9 million), so confirm the current price list and handover date with us on WhatsApp.",
+  "cardDescription": "26 private pool villas with 3-4 bedrooms (400-433 sqm built) near Mai Khao Beach, from THB 26 million.",
+  "seoTitle": "Mouana Mai Khao: 3-4 Bed Pool Villas from THB 26M, Mai Khao, Phuket",
+  "seoDescription": "Mouana Mai Khao by Mouana Phuket: 26 furnished 3 and 4 bedroom pool villas, 400-433 sqm, from THB 26 million, near Mai Khao Beach. Enquire on WhatsApp.",
   "primaryKeyword": "Mouana Mai Khao",
   "secondaryKeywords": [
     "Mouana Breeze Mai Khao",
     "Mai Khao pool villas for sale",
     "Mouana Phuket villas"
   ],
-  "priceStatus": "on-request",
-  "lastVerified": "2026-11-17",
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-23",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
   "privatePool": "yes",
-  "constructionStatus": "Status on request",
+  "constructionStatus": "Pre-sale",
   "facilities": [
-    "Private pool"
+    "Private pool",
+    "Communal Pool",
+    "Clubhouse",
+    "Outdoor Kids Zone",
+    "Communal Garden Area",
+    "Communal Gym",
+    "Car Parking",
+    "24H Security",
+    "CCTV (Video Surveillance)"
   ],
-  "nearby": [],
+  "nearby": [
+    {
+      "place": "Splash Jungle Water Park",
+      "distance": "1.8 km / 5 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "9.8 km / 16 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
     {
       "label": "Keller Henson",
@@ -48,7 +67,7 @@
       "url": "https://papayaproperty.com/mouana-phuket"
     }
   ],
-  "researchNotes": "Several name variants (Mouana Breeze Maikhao) assumed same project. Price list 19.9M (old) vs 21.9-25.9M (newer) conflict, so price on request. Completion 2025 Q2 to Q3 2027. Checked 2026-11-17.",
+  "researchNotes": "Several name variants (Mouana Breeze Maikhao) assumed same project. Price list 19.9M (old) vs 21.9-25.9M (newer) conflict, so price on request. Completion 2025 Q2 to Q3 2027. Checked 2026-11-17. 2026-11-23 FazWaz project page: 26 units, 1 building, 23,484 sqm site, made to order (12 months), from THB 26.0M; units 4BR/5BA 400 sqm 26.0M, 3BR/4BA 404 sqm 28.9M, 4BR/5BA 433 sqm 31.0M, plots 600 sqm, fully furnished, pool view. Replaces the earlier \"price on request\" because FazWaz now shows a consistent list. Ownership and payment plan not stated.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mouana-mai-khao/photo-1.jpg",
   "images": [
@@ -95,5 +114,47 @@
     "page": "https://kellerhenson.com/project/mouana-mai-khao",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "totalUnits": "26",
+  "floors": "1",
+  "startingPrice": 26000000,
+  "priceNote": "Lowest advertised price.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/mouana-breeze-maikhao",
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 400,
+  "builtUpMax": 433,
+  "landMin": 600,
+  "landMax": 600,
+  "furniture": "Fully furnished",
+  "unitTypes": [
+    {
+      "name": "4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "400",
+      "price": 26000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    },
+    {
+      "name": "3 Bedroom Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "404",
+      "price": 28900000,
+      "priceType": "Lowest advertised price",
+      "availability": "4 units advertised"
+    },
+    {
+      "name": "4 Bedroom Pool Villa (larger)",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "433",
+      "price": 31000000,
+      "priceType": "Lowest advertised price",
+      "availability": "2 units advertised"
+    }
+  ],
+  "completionDate": null
 }

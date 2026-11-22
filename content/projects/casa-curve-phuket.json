@@ -9,11 +9,33 @@
   "featured": false,
   "publishedAt": "2026-11-12",
   "developer": "Asset Pearl Co., Ltd",
-  "shortDescription": "Casa Curve Phuket is described by a portal as a new townhouse development in the Wichit area of Mueang Phuket, aimed at buyers wanting modern style and practical layouts.",
-  "description": "Casa Curve Phuket is described by a portal as a new townhouse development in the Wichit area of Mueang Phuket, aimed at buyers wanting modern style and practical layouts.",
+  "shortDescription": "31 two-storey townhomes of 116-142 sqm with 2 bedrooms and 3 bathrooms in the Wichit area of Mueang Phuket, by Asset Pearl. Price on request.",
+  "description": "Casa Curve Phuket is a project of 31 two-storey townhomes by Asset Pearl in the Wichit area of Mueang Phuket, marketed as an \"affordable luxury townhome\" close to local markets, schools, hospitals and the sea. The design concept, Casa Arco Contemporary, is built around curved lines.\nThe developer's site lists three 2 bedroom, 3 bathroom models with one parking space each: 116 sqm (13 units), 127.1 sqm (12 units) and 142.25 sqm (6 units). The project site is about 3,375 sqm (2 rai, 43.7 square wah), of which about 2,443 sqm is for sale.\nNo price list, completion date or ownership terms are published by the developer; portal asking prices of about THB 3.9-5.0 million could not be verified. Message us on WhatsApp for current prices and availability. Not to be confused with The Asset Curve Phuket in Si Sunthon.",
   "priceStatus": "on-request",
   "constructionStatus": "Status on request",
-  "unitTypes": [],
+  "unitTypes": [
+    {
+      "name": "2 Bedroom Townhome (116 sqm)",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "116",
+      "availability": "13 units"
+    },
+    {
+      "name": "2 Bedroom Townhome (127 sqm)",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "127.1",
+      "availability": "12 units"
+    },
+    {
+      "name": "2 Bedroom Townhome (142 sqm)",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "142.25",
+      "availability": "6 units"
+    }
+  ],
   "images": [
     "/assets/images/projects/casa-curve-phuket/photo-2.webp",
     "/assets/images/projects/casa-curve-phuket/photo-3.webp",
@@ -36,7 +58,7 @@
       "url": "https://assetpearl.co.th/casacurve/"
     }
   ],
-  "researchNotes": "Only seen in search snippets; page fetch blocked (403). Not to be confused with The Asset Curve Phuket (Si Sunthon, Thalang). Listing title hints '2 bed 3 bath' but size '1271 sqm' in URL looks like a typo/unclear; not used. Needs manual verification. | No price could be verified; claimed 3.89M not confirmed by any fetched source. | claimed price from 3,890,000 THB",
+  "researchNotes": "Only seen in search snippets; page fetch blocked (403). Not to be confused with The Asset Curve Phuket (Si Sunthon, Thalang). Listing title hints '2 bed 3 bath' but size '1271 sqm' in URL looks like a typo/unclear; not used. Needs manual verification. | No price could be verified; claimed 3.89M not confirmed by any fetched source. | claimed price from 3,890,000 THB 2026-11-23 Asset Pearl official page (assetpearl.co.th/casacurve/, Thai): 2-storey townhome, 31 units; project 2-0-43.70 rai (843.7 sq wah), sale area 610.78 sq wah; three 2BR/3BA/1-parking models 116.00 / 127.10 / 142.25 sqm with 13 / 12 / 6 units (mapping of counts to models taken from page order). No price on the official page. Not on FazWaz (FazWaz only has The Asset Curve Phuket, a different project).",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/casa-curve-phuket/photo-1.webp",
   "imageCaptions": [
@@ -52,5 +74,15 @@
     "page": "https://assetpearl.co.th/casacurve/",
     "rights": "REQUIRES_PERMISSION (developer marketing material, used for listing; confirm authorisation)",
     "checked": "2026-11-17"
-  }
+  },
+  "totalUnits": "31",
+  "floors": "2",
+  "bedroomsMin": 2,
+  "bedroomsMax": 2,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 116,
+  "builtUpMax": 142.25,
+  "cardDescription": "31 two-storey 2-bedroom townhomes (116-142 sqm) in Mueang Phuket by Asset Pearl. Price on request.",
+  "lastVerified": "2026-11-23"
 }
