@@ -41,7 +41,8 @@
         "Ask what services the fee includes and how often it has changed.",
         "Ask whether the building has a sinking fund balance and how it is audited.",
         "Compare the fee with the amenities: a large pool and gym cost more to run."
-      ]
+      ],
+      "p": []
     }
   ],
   "faq": [
@@ -54,10 +55,7 @@
       "a": "Yes. Fees are decided by the juristic person and owners under the building’s rules. Ask for the history."
     }
   ],
-  "relatedGuides": [
-    "phuket-property-purchase-costs",
-    "condo-buying-checklist-phuket"
-  ],
+  "relatedGuides": [],
   "related": [
     {
       "href": "/sale/",

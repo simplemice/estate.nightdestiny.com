@@ -8,7 +8,7 @@
     {
       "h2": "What freehold means",
       "p": [
-        "Freehold is ownership with no time limit. In Thailand, foreign buyers can hold a condominium unit in their own name as freehold, provided the foreign-owned share of the building stays within the legal quota (see our guide to foreign ownership of condos).",
+        "Freehold is ownership with no time limit. In Thailand, foreign buyers can hold a condominium unit in their own name as freehold, provided the foreign-owned share of the building stays within the legal quota.",
         "Currently {n_freehold} of our catalogue projects list a freehold option. Always check the ownership line on the project page and confirm it in the sale contract."
       ]
     },
@@ -34,7 +34,8 @@
         "For freehold condos: how much of the foreign quota is already used in the building?",
         "Who holds the title deed or chanote, and are there mortgages or charges against it?",
         "What happens to the lease if the developer or lessor changes?"
-      ]
+      ],
+      "p": []
     },
     {
       "h2": "How this shows up in our catalogue",
@@ -44,14 +45,6 @@
     }
   ],
   "related": [
-    {
-      "href": "/guides/foreign-ownership-condo-thailand/",
-      "label": "Foreign ownership of condos in Thailand"
-    },
-    {
-      "href": "/guides/phuket-property-purchase-costs/",
-      "label": "Phuket property purchase costs"
-    },
     {
       "href": "/sale/",
       "label": "Phuket properties for sale"
@@ -69,12 +62,7 @@
   "modified": "2026-11-23",
   "category": "legal",
   "featured": true,
-  "relatedGuides": [
-    "foreign-ownership-condo-thailand",
-    "foreign-quota-full-condo-thailand",
-    "chanote-title-deed-phuket",
-    "phuket-property-purchase-costs"
-  ],
+  "relatedGuides": [],
   "faq": [
     {
       "q": "Can a foreigner own a villa in Phuket?",

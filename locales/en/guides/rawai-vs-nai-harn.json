@@ -27,7 +27,8 @@
         "Rawai: buyers who want choice of project and type, a local food scene and a base for living in Phuket.",
         "Nai Harn: buyers who want to be near the beach and lake and accept fewer projects to choose from.",
         "Both: buyers who plan to live in Phuket and do not need to be next to the airport."
-      ]
+      ],
+      "p": []
     },
     {
       "h2": "Practical points",
@@ -35,7 +36,8 @@
         "Airport: the south is the longest drive from Phuket airport in our data, around an hour by car for Rawai.",
         "Beach: use the Nearby section of each project page, which shows the nearest beach distance (many are straight-line, not road distance).",
         "Schools and hospitals: the Rawai area has international schools and hospitals listed in project data; confirm times for the specific project."
-      ]
+      ],
+      "p": []
     }
   ],
   "faq": [
@@ -49,9 +51,7 @@
     }
   ],
   "relatedGuides": [
-    "best-areas-to-buy-property-phuket",
-    "best-one-bedroom-condos-phuket",
-    "buying-process-phuket"
+    "best-areas-to-buy-property-phuket"
   ],
   "related": [
     {
