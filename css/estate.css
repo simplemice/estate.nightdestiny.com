@@ -298,3 +298,5 @@ html.rd-open{overflow:hidden}
 #rd-locset.is-invalid{outline:1px solid #c0392b;outline-offset:4px}
 .nearby-grouped .nl-group{display:block;font-weight:700;letter-spacing:.5px;text-transform:uppercase;font-size:13px;padding-top:12px;border-bottom:0}
 .nearby-grouped .nl-group:first-child{padding-top:0}
+.comp-table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}.comp-table th,.comp-table td{border:1px solid #e6e6e6;padding:8px 10px;vertical-align:top;text-align:left}.comp-table thead th{background:#f6f3ea}.comp-table tbody th{background:#fafafa;font-weight:600;white-space:nowrap}
+.step-list{padding-left:1.2rem}.step-list li{margin-bottom:.6rem}

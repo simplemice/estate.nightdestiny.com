@@ -1,0 +1,97 @@
+{
+  "category": "locations",
+  "title": "Kata vs Karon: Which Beach Area Suits a Condo Buyer?",
+  "description": "Kata vs Karon compared for buyers: setting, project types, advertised prices and status from our catalogue, and how to check the exact address.",
+  "h1": "Kata vs Karon",
+  "sub": "Two neighbouring beach areas on Phuket’s west coast",
+  "intro": "Kata and Karon are neighbouring beach towns, and they share a subdistrict. Buyers often compare them because they have a similar tourist-oriented feel. This guide shows what we list in each and what to check, especially the exact address.",
+  "sections": [
+    {
+      "h2": "Setting",
+      "p": [
+        "Karon lies between Patong to the north and Kata to the south. Kata is south of Karon and north of Nai Harn. Both have beach strips lined with restaurants and shops and both are busy during the high season."
+      ]
+    },
+    {
+      "h2": "Our catalogue side by side",
+      "p": [
+        "Projects are counted by the area in their listed address."
+      ],
+      "block": "compare"
+    },
+    {
+      "h2": "A caution about addresses",
+      "p": [
+        "Property portals often disagree about whether a project belongs to Kata or Karon, because the areas touch and share a subdistrict. Several projects are described as lying between the two. Always confirm the exact address and the walking or driving distance to the beach you care about; the Nearby section of each project page lists distances, many of them straight-line."
+      ]
+    },
+    {
+      "h2": "Who each suits",
+      "ul": [
+        "Buyers who want a lively beach town with restaurants and services nearby may like either.",
+        "Buyers who plan to rent short-term should check building rules first, since not every building allows short stays.",
+        "Buyers planning to live year-round should visit in the low season too."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which is quieter?",
+      "a": "Both are busy in high season. Visit at different times and check the street and the project’s surroundings."
+    },
+    {
+      "q": "Are prices lower in one of them?",
+      "a": "See the table: it shows the lowest advertised price per area from our catalogue. It is an entry price, not an average."
+    }
+  ],
+  "relatedGuides": [
+    "best-areas-to-buy-property-phuket",
+    "best-one-bedroom-condos-phuket",
+    "off-plan-property-phuket"
+  ],
+  "related": [
+    {
+      "href": "/locations/kata/",
+      "label": "Kata property for sale"
+    },
+    {
+      "href": "/locations/karon/",
+      "label": "Karon property for sale"
+    }
+  ],
+  "projects": [
+    "so-origin-kata-phuket",
+    "the-katabello",
+    "fizz",
+    "the-kuartz",
+    "vibe-karon",
+    "ashiyana-heights"
+  ],
+  "locations": [
+    "kata",
+    "karon"
+  ],
+  "waMsg": "Hello! I am comparing Kata and Karon. Can you suggest projects for my budget?",
+  "sources": [
+    {
+      "name": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/"
+    }
+  ],
+  "status": "reviewed-by-nightdestiny",
+  "disclaimer": "General information only. Prices, availability and project details change: confirm them with us and the developer before you decide.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23",
+  "compare": {
+    "a": {
+      "label": "Kata",
+      "slug": "kata",
+      "link": "/locations/kata/"
+    },
+    "b": {
+      "label": "Karon",
+      "slug": "karon",
+      "link": "/locations/karon/"
+    }
+  }
+}

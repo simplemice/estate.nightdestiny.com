@@ -79,5 +79,23 @@
   "status": "needs-legal-review",
   "disclaimer": "General information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
   "published": "2026-11-23",
-  "modified": "2026-11-23"
+  "modified": "2026-11-23",
+  "category": "locations",
+  "featured": true,
+  "relatedGuides": [
+    "rawai-vs-nai-harn",
+    "bang-tao-vs-laguna",
+    "kata-vs-karon",
+    "best-one-bedroom-condos-phuket"
+  ],
+  "faq": [
+    {
+      "q": "Which area is best for rental income?",
+      "a": "No area guarantees income. Rental depends on building rules, season, price and management. Check the rules of the specific building."
+    },
+    {
+      "q": "Which area is closest to the airport?",
+      "a": "Nai Yang and Mai Khao are the closest of the areas we list."
+    }
+  ]
 }

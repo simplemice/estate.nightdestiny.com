@@ -1,0 +1,92 @@
+{
+  "category": "legal",
+  "title": "Foreign Quota Full? Your Options When Buying a Condo in Thailand",
+  "description": "What the 49% foreign quota means, what happens when a building is full and the lawful options for foreign buyers in Phuket, with the risks of nominee structures.",
+  "h1": "What Happens When the Foreign Quota Is Full",
+  "sub": "Options for foreign buyers of condominium units",
+  "intro": "A condominium building can sell foreign-owned freehold units only up to a legal share. When that share is used up, foreign buyers cannot register further freehold units in their name in that building. Here is what that means in practice and what lawful alternatives exist.",
+  "sections": [
+    {
+      "h2": "The rule in plain words",
+      "p": [
+        "Under the Condominium Act, foreign ownership of a condominium building is limited to 49% of the total area of all units. Units registered in Thai names make up the rest. The limit is checked at the Land Office when ownership is registered, so the quota is a first-registered, first-served matter.",
+        "Developers usually track the foreign quota themselves. Ask for the status in writing, and ask again close to transfer on off-plan units."
+      ]
+    },
+    {
+      "h2": "How to find out the quota position",
+      "ul": [
+        "Ask the developer or juristic person for the current foreign-quota statement for the building.",
+        "For off-plan units ask when the quota will be allocated to your unit: at reservation, at contract, or at transfer.",
+        "Ask whether the developer keeps part of the quota in reserve for a later phase."
+      ],
+      "p": []
+    },
+    {
+      "h2": "If the quota is full: lawful options",
+      "ul": [
+        "Choose a different building or phase with quota remaining.",
+        "Ask whether the developer offers a leasehold arrangement for that unit. A registered lease is limited to 30 years, and renewal options in the contract are promises, not ownership.",
+        "Wait for a foreign-quota unit to come up for resale in the same building: a resale of a foreign-quota unit between foreigners keeps the unit in the quota.",
+        "Consider a Thai co-owner or a Thai purchaser only where it is genuine and advised by your lawyer."
+      ],
+      "p": []
+    },
+    {
+      "h2": "What we do not recommend",
+      "p": [
+        "Arrangements where a Thai person or company holds a property on a foreigner’s behalf (often called nominee structures) carry legal risk, including loss of the property and penalties. We do not recommend them. If someone proposes one, take independent legal advice before you pay anything."
+      ]
+    },
+    {
+      "h2": "Effect on price and resale",
+      "p": [
+        "A building near its foreign quota can be harder for foreign buyers to buy into, so units with foreign-quota status can matter for resale. This is a market practice, not a rule: ask local professionals for the position in the specific building."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I buy a Thai-quota unit as a foreigner?",
+      "a": "Not as a freehold registered in your own name if that would take the building over the foreign limit. Ask your lawyer about lawful alternatives."
+    },
+    {
+      "q": "Does the quota apply to villas?",
+      "a": "The condominium quota applies to condominium buildings. Villas on land follow different rules, because foreign nationals generally cannot own land in Thailand. See our freehold and leasehold guide."
+    }
+  ],
+  "relatedGuides": [
+    "foreign-ownership-condo-thailand",
+    "freehold-leasehold",
+    "buying-process-phuket"
+  ],
+  "related": [
+    {
+      "href": "/sale/?ownership=Freehold",
+      "label": "Projects with a freehold option"
+    }
+  ],
+  "projects": [
+    "the-one-naiharn",
+    "coralina-kamala"
+  ],
+  "locations": [
+    "rawai",
+    "kamala"
+  ],
+  "waMsg": "Hello! Can you check the foreign quota availability for a project I am interested in?",
+  "sources": [
+    {
+      "name": "Office of the Council of State (Thai laws)",
+      "url": "https://www.krisdika.go.th/"
+    },
+    {
+      "name": "Thai Land Department",
+      "url": "https://www.dol.go.th/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal or tax advice, and rules and practice can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23"
+}

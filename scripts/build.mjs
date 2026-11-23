@@ -1298,31 +1298,86 @@ function contactPage() {
 
 /* ---------- guides (language-specific articles; a guide exists only in the languages it was written for) ---------- */
 const guideLangs = (slug) => LANGS.filter((l) => LOCALES[l].over.guides[slug]);
+const GUIDE_CATS = ['buying', 'legal', 'locations', 'condos', 'rental', 'lifestyle'];
+const guideStatusCount = (re) => projL.filter((p) => re.test(p.constructionStatus || '')).length;
+// Data blocks inside guides are computed from the catalogue at build time, so numbers and prices can never go stale or be invented.
+function guideStats(pool) {
+  const f = pool.map((p) => [p, facts(p)]);
+  const priced = f.filter(([, x]) => x.price).sort((a, b) => a[1].price - b[1].price);
+  const cnt = (re) => pool.filter((p) => re.test(p.constructionStatus || '')).length;
+  const beds = f.map(([, x]) => x).filter((x) => x.bedMin !== null);
+  return {
+    n: pool.length, priced, done: cnt(/^completed/i), build: cnt(/under construction/i), pre: cnt(/pre-?sale/i),
+    types: [...new Set(pool.map((p) => p.category).filter(Boolean))].map((c) => `${pool.filter((p) => p.category === c).length} ${catName(c).toLowerCase()}`),
+    bedMin: beds.length ? Math.min(...beds.map((x) => x.bedMin)) : null, bedMax: beds.length ? Math.max(...beds.map((x) => x.bedMax ?? x.bedMin)) : null,
+    own: [...new Set(pool.flatMap((p) => p.ownership || []))],
+  };
+}
+function guideCompare(c) {
+  const col = (d) => projL.filter((p) => (!d.slug || locSlug(areaKey(p)) === d.slug) && (!d.match || new RegExp(d.match, 'i').test(p.location)) && (!d.exclude || !new RegExp(d.exclude, 'i').test(p.location)));
+  const cols = [c.a, c.b].map((d) => ({ d, pool: col(d), st: guideStats(col(d)) }));
+  const na = T('gcmp.none');
+  const row = (label, fn) => `<tr><th scope="row">${esc(label)}</th>${cols.map((x) => `<td>${fn(x)}</td>`).join('')}</tr>`;
+  return `<div class="table-responsive"><table class="comp-table"><thead><tr><th></th>${cols.map((x) => `<th scope="col">${x.d.link ? `<a href="${lp(x.d.link)}">${esc(x.d.label)}</a>` : esc(x.d.label)}</th>`).join('')}</tr></thead><tbody>
+${row(T('gcmp.projects'), (x) => (x.pool.length ? `${esc(T('count.projects', { n: x.pool.length }))}: ${x.pool.map((p) => `<a href="${url(p)}">${esc(title(p))}</a>`).join(', ')}` : na))}
+${row(T('gcmp.from'), (x) => (x.st.priced.length ? `${esc(money(x.st.priced[0][1].price, x.st.priced[0][0].currency || 'THB'))} (<a href="${url(x.st.priced[0][0])}">${esc(title(x.st.priced[0][0]))}</a>)` : na))}
+${row(T('gcmp.types'), (x) => (x.st.types.length ? esc(x.st.types.join(', ')) : na))}
+${row(T('gcmp.status'), (x) => (x.pool.length ? esc([x.st.done && T('gcmp.done', { n: x.st.done }), x.st.build && T('gcmp.build', { n: x.st.build }), x.st.pre && T('gcmp.pre', { n: x.st.pre })].filter(Boolean).join(', ')) : na))}
+${row(T('gcmp.beds'), (x) => (x.st.bedMin === null ? na : x.st.bedMin === x.st.bedMax ? String(x.st.bedMin) : `${x.st.bedMin}-${x.st.bedMax}`))}
+${row(T('gcmp.own'), (x) => (x.st.own.length ? esc(x.st.own.join(' / ')) : na))}
+</tbody></table></div><p class="ds-note">${T('gcmp.note')}</p>`;
+}
+function guideList(l) {
+  const oneBed = (p) => p.unitTypes.filter((u) => num(u.bedrooms) !== null && num(u.bedrooms) <= 1);
+  let rows = projL.filter((p) => oneBed(p).length).map((p) => { const us = oneBed(p), pr = us.map((u) => num(u.price)).filter((n) => n); return { p, us, price: pr.length ? Math.min(...pr) : null, sizes: us.map((u) => u.size).filter(Boolean) }; });
+  rows = rows.filter((r) => r.price).sort((a, b) => a.price - b.price).slice(0, l.limit || 15);
+  return `<div class="table-responsive"><table class="comp-table"><thead><tr><th>${T('gl.project')}</th><th>${T('gl.area')}</th><th>${T('gl.status')}</th><th>${T('gl.size')}</th><th>${T('gl.from')}</th></tr></thead><tbody>${rows.map((r) => `<tr><td><a href="${url(r.p)}">${esc(title(r.p))}</a></td><td>${esc(areaName(canonArea(r.p.location)))}</td><td>${esc(tx(r.p.constructionStatus, 'status'))}</td><td>${r.sizes.length ? esc([...new Set(r.sizes)].join(', ')) + ' sqm' : '-'}</td><td>${esc(money(r.price, r.p.currency || 'THB'))}</td></tr>`).join('')}</tbody></table></div><p class="ds-note">${T('gl.note')}</p>`;
+}
+function guideFees() {
+  const rows = projL.filter((p) => p.commonAreaFee || p.sinkingFund).sort((a, b) => title(a).localeCompare(title(b)));
+  return `<div class="table-responsive"><table class="comp-table"><thead><tr><th>${T('gl.project')}</th><th>${T('gl.area')}</th><th>${T('gl.status')}</th><th>${T('gl.fee')}</th><th>${T('gl.sinking')}</th></tr></thead><tbody>${rows.map((p) => `<tr><td><a href="${url(p)}">${esc(title(p))}</a></td><td>${esc(areaName(canonArea(p.location)))}</td><td>${esc(tx(p.constructionStatus, 'status'))}</td><td>${esc(p.commonAreaFee || '-')}</td><td>${esc(p.sinkingFund || '-')}</td></tr>`).join('')}</tbody></table></div><p class="ds-note">${T('gl.fee_note')}</p>`;
+}
 function guidePage(slug, g) {
   const nF = projL.filter((p) => p.ownership.includes('Freehold')).length, nL = projL.filter((p) => p.ownership.includes('Leasehold')).length;
   const fill = (txt) => esc(txt)
     .replace('{n_freehold}', `<a href="${lp('/sale/')}?ownership=Freehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nF }))}</a>`)
-    .replace('{n_leasehold}', `<a href="${lp('/sale/')}?ownership=Leasehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nL }))}</a>`);
+    .replace('{n_leasehold}', `<a href="${lp('/sale/')}?ownership=Leasehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nL }))}</a>`)
+    .replace('{n_projects}', String(projL.length)).replace('{n_offplan}', String(guideStatusCount(/pre-?sale|under construction/i))).replace('{n_completed}', String(guideStatusCount(/^completed/i)));
+  const block = (b) => (b === 'compare' && g.compare ? guideCompare(g.compare) : b === 'list' ? guideList(g.list || {}) : b === 'fees' ? guideFees() : '');
   const related = (g.related || []).filter((r) => !r.href.startsWith('/guides/') || I.over.guides[r.href.split('/')[2]]);
+  const relG = (g.relatedGuides || []).filter((k) => I.over.guides[k] && k !== slug);
+  const mentioned = (g.projects || []).map((k) => projL.find((p) => p.slug === k)).filter(Boolean);
+  const locs = (g.locations || []).map((k) => LOCS.find((x) => x.slug === k)).filter(Boolean);
+  const faq = g.faq || [];
   const body = `${pageHead(g.h1, g.sub, [['/', T('nav.home')], ['/guides/', T('guide.crumb')], ['', g.h1]])}
 	<section class="spad-2 guide-page"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
+		${g.category ? `<p class="ds-note"><a href="${lp('/guides/')}#${esc(g.category)}">${T('guide.cat.' + g.category)}</a>${g.modified ? ` &middot; ${T('guide.updated')}: <time datetime="${esc(g.modified)}">${esc(g.modified)}</time>` : ''}</p>` : ''}
 		<p>${esc(g.intro)}</p>
-		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : ''}`).join('\n\t\t')}
-		<p class="ds-note">${esc(g.disclaimer)}</p>
+		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${fill(x)}</li>`).join('')}</ul>` : ''}${s.ol ? `<ol class="step-list">${s.ol.map((x) => `<li>${fill(x)}</li>`).join('')}</ol>` : ''}${s.block ? block(s.block) : ''}${(s.p2 || []).map((x) => `<p>${fill(x)}</p>`).join('')}`).join('\n\t\t')}
+		${faq.length ? `<h2 class="sec-h">${T('faq.h')}</h2><div class="faq-list">${faq.map((x) => `<details><summary>${esc(x.q)}</summary><p>${fill(x.a)}</p></details>`).join('')}</div>` : ''}
+		${mentioned.length ? `<h2 class="sec-h">${T('guide.projects')}</h2><ul class="check-list">${mentioned.map((p) => { const f = facts(p); return `<li><i class="fa fa-angle-right"></i> <a href="${url(p)}">${esc(title(p))}</a>, ${esc(areaName(canonArea(p.location)))}${p.constructionStatus && !/on request/i.test(p.constructionStatus) ? `, ${esc(tx(p.constructionStatus, 'status').toLowerCase())}` : ''}${f.price ? `, ${esc(T('from_price', { p: money(f.price, p.currency || 'THB') }))}` : ''}</li>`; }).join('')}</ul>` : ''}
+		${locs.length ? `<p>${T('guide.areas')} ${locs.map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')}</p>` : ''}
+		<p class="ds-note">${esc(g.disclaimer || '')}</p>
 		${g.sources && g.sources.length ? `<p class="ds-note">${T('guide.sources')}: ${g.sources.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.name)}</a>`).join(', ')}</p>` : ''}
-		${g.modified ? `<p class="ds-note">${T('guide.updated')}: <time datetime="${esc(g.modified)}">${esc(g.modified)}</time></p>` : ''}
-		${related.length ? `<h2 class="sec-h">${T('guide.related')}</h2><ul class="check-list">${related.map((r) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(r.href)}">${esc(r.label)}</a></li>`).join('')}</ul>` : ''}
-		<p class="mt-4">${waBtn(T('wa.guide'), 'wa-btn', T('guide.ask'))}</p>
+		${related.length || relG.length ? `<h2 class="sec-h">${T('guide.related')}</h2><ul class="check-list">${relG.map((k) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}">${esc(I.over.guides[k].h1)}</a></li>`).join('')}${related.map((r) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(r.href)}">${esc(r.label)}</a></li>`).join('')}</ul>` : ''}
+		<p class="mt-4">${waBtn(g.waMsg || T('wa.guide'), 'wa-btn', T('guide.ask'))}</p>
 		<p class="mt-3"><a class="primary-btn" href="${lp('/projects/')}">${T('nav.projects')}</a> &nbsp; <a class="primary-btn" href="${lp('/sale/')}">${T('nav.sale')}</a></p>
 	</div></div></div></section>
-	${jsonLd({ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, url: SITE + lp(`/guides/${slug}/`), mainEntityOfPage: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, ...(g.published ? { datePublished: g.published } : {}), ...(g.modified ? { dateModified: g.modified } : {}), author: { '@id': SITE + '/#agent' }, publisher: { '@id': SITE + '/#agent' }, isPartOf: { '@id': WEBSITE_ID() }, ...(g.image ? { image: SITE + g.image } : {}) })}`;
+	${jsonLd({ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, url: SITE + lp(`/guides/${slug}/`), mainEntityOfPage: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, ...(g.published ? { datePublished: g.published } : {}), ...(g.modified ? { dateModified: g.modified } : {}), author: { '@id': SITE + '/#agent' }, publisher: { '@id': SITE + '/#agent' }, isPartOf: { '@id': WEBSITE_ID() }, ...(g.category ? { articleSection: T('guide.cat.' + g.category) } : {}), ...(g.image ? { image: SITE + g.image } : {}) })}
+	${faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: faq.map((x) => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a.replace(/\{[a-z_]+\}/g, '') } })) }) : ''}`;
   return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: 'guides', body, langs: guideLangs(slug) });
 }
 function guidesHub() {
   const items = Object.entries(I.over.guides);
+  const feat = items.filter(([, g]) => g.featured);
+  const li = ([k, g]) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}"><strong>${esc(g.h1)}</strong></a><br>${esc(g.description)}</li>`;
+  const cats = GUIDE_CATS.map((c) => [c, items.filter(([, g]) => g.category === c)]).filter(([, l]) => l.length);
+  const other = items.filter(([, g]) => !GUIDE_CATS.includes(g.category));
   const body = `${pageHead(T('guides.h1'), T('guides.sub'), [['/', T('nav.home')], ['', T('guide.crumb')]])}
 	<section class="spad-2"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
-		<ul class="check-list">${items.map(([k, g]) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}"><strong>${esc(g.h1)}</strong></a><br>${esc(g.description)}</li>`).join('')}</ul>
+		${feat.length ? `<h2 class="sec-h">${T('guides.featured')}</h2><ul class="check-list">${feat.map(li).join('')}</ul>` : ''}
+		${cats.map(([c, l]) => `<h2 class="sec-h" id="${c}">${T('guide.cat.' + c)}</h2><ul class="check-list">${l.map(li).join('')}</ul>`).join('')}
+		${other.length ? `<ul class="check-list">${other.map(li).join('')}</ul>` : ''}
 	</div></div></div></section>`;
   return layout({ title: `${T('guides.h1')} | ${settings.siteName}`, description: T('guides.desc'), pathname: '/guides/', active: 'guides', body, langs: LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length) });
 }

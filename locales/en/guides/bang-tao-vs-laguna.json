@@ -1,0 +1,105 @@
+{
+  "category": "locations",
+  "featured": true,
+  "title": "Bang Tao vs Laguna Phuket: Comparison for Property Buyers",
+  "description": "Bang Tao vs Laguna Phuket compared: resort community or open beach area, project types, advertised prices and status from our catalogue.",
+  "h1": "Bang Tao vs Laguna Phuket",
+  "sub": "Open beach area or integrated resort community",
+  "intro": "Laguna Phuket sits on Bang Tao Bay, so the two are neighbours, but they offer different ways of living. Bang Tao is the beach area itself. Laguna is a large managed resort community with its own lagoons, golf and hotels. This guide compares what our catalogue lists in each.",
+  "sections": [
+    {
+      "h2": "What each area is",
+      "p": [
+        "Bang Tao is a long beach on Phuket’s west coast in the Choeng Thale (Cherng Talay) subdistrict. Projects range from condominiums to villa communities.",
+        "Laguna Phuket is an integrated resort community on Bang Tao Bay. According to its operator it covers more than 1,000 acres with lagoons, golf and a beach club, and it includes hotels and residential estates such as Laguna Lakelands and Laguna Park."
+      ]
+    },
+    {
+      "h2": "Our catalogue side by side",
+      "p": [
+        "Each project is counted in one area only: those inside Laguna and its residential estates under Laguna, the rest under Bang Tao."
+      ],
+      "block": "compare"
+    },
+    {
+      "h2": "How living differs",
+      "ul": [
+        "Bang Tao: a mix of local shops, restaurants and beach clubs, with more variety of price and project style.",
+        "Laguna: a managed environment with shared resort facilities, which also means resort rules and fees. Ask what is included.",
+        "Both are in the north-west, farther from the airport than Nai Yang and Mai Khao but closer than the south."
+      ]
+    },
+    {
+      "h2": "What to ask",
+      "ul": [
+        "For Laguna: which resort facilities residents can use and at what cost.",
+        "For both: the nearest beach distance from the specific project, since projects inside Laguna are not all on the beach.",
+        "Ownership type and foreign quota for each project."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Laguna part of Bang Tao?",
+      "a": "Laguna sits on Bang Tao Bay. In our catalogue it has its own page and each project is listed on only one of the two pages."
+    },
+    {
+      "q": "Which one is better for a family?",
+      "a": "It depends on budget and lifestyle. Both have schools and services nearby; see the Nearby section of each project."
+    }
+  ],
+  "relatedGuides": [
+    "best-areas-to-buy-property-phuket",
+    "best-one-bedroom-condos-phuket",
+    "freehold-leasehold"
+  ],
+  "related": [
+    {
+      "href": "/locations/bang-tao/",
+      "label": "Bang Tao property for sale"
+    },
+    {
+      "href": "/locations/laguna/",
+      "label": "Laguna property for sale"
+    }
+  ],
+  "projects": [
+    "the-title-legendary-bang-tao",
+    "the-title-sierra",
+    "laguna-park-2",
+    "skypark-elara-lakelands",
+    "bellaguna-golf-residences-hibiscus"
+  ],
+  "locations": [
+    "bang-tao",
+    "laguna",
+    "cherng-talay"
+  ],
+  "waMsg": "Hello! I am comparing Bang Tao and Laguna Phuket. Can you suggest projects for my budget?",
+  "sources": [
+    {
+      "name": "Laguna Phuket (resort community)",
+      "url": "https://www.lagunaphuket.com/"
+    },
+    {
+      "name": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/"
+    }
+  ],
+  "status": "reviewed-by-nightdestiny",
+  "disclaimer": "General information only. Prices, availability and project details change: confirm them with us and the developer before you decide.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23",
+  "compare": {
+    "a": {
+      "label": "Bang Tao",
+      "slug": "bang-tao",
+      "link": "/locations/bang-tao/"
+    },
+    "b": {
+      "label": "Laguna Phuket",
+      "slug": "laguna",
+      "link": "/locations/laguna/"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "category": "rental",
+  "title": "Condo Sinking Fund and Common Area Fees in Phuket",
+  "description": "What the common area fee and sinking fund pay for, how they are billed in Phuket condos, with published amounts from projects in our catalogue.",
+  "h1": "Condo Sinking Fund and Common Area Fees",
+  "sub": "Ownership costs after you buy",
+  "intro": "After you buy a condo you pay ongoing costs to maintain the shared parts of the building. Two items appear most often: a recurring common area fee and a sinking fund. Amounts differ by project, so this guide shows what we have recorded from developer materials and how to compare them.",
+  "sections": [
+    {
+      "h2": "Juristic person and what it does",
+      "p": [
+        "A registered condominium has a juristic person that manages the common property: lifts, pool, gardens, security, cleaning and insurance. Owners pay for it through fees decided under the building’s rules."
+      ]
+    },
+    {
+      "h2": "Common area fee",
+      "p": [
+        "The common area fee, often called CAM, is billed monthly or yearly. Many Phuket condos bill it per square metre of the unit, others use a fixed amount. Ask what it covers (water, cleaning, security, pool) and what is billed separately (electricity, internet, parking)."
+      ]
+    },
+    {
+      "h2": "Sinking fund",
+      "p": [
+        "The sinking fund is a reserve for large future repairs and replacements. It is commonly a one-off payment at transfer, though some buildings collect it over time. Ask how it is held and who can spend it."
+      ]
+    },
+    {
+      "h2": "Published amounts in our catalogue",
+      "p": [
+        "The table lists every project where we recorded a published figure. Units differ, so check the original wording."
+      ],
+      "block": "fees",
+      "p2": [
+        "Example for orientation only: a project that charges THB 70 per square metre per month, for a unit of 50 square metres, would bill THB 3,500 per month. Use the real figure and the real unit size for your case."
+      ]
+    },
+    {
+      "h2": "How to compare projects",
+      "ul": [
+        "Convert every fee to a monthly amount for your unit size.",
+        "Ask what services the fee includes and how often it has changed.",
+        "Ask whether the building has a sinking fund balance and how it is audited.",
+        "Compare the fee with the amenities: a large pool and gym cost more to run."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the sinking fund refundable?",
+      "a": "Usually not when you sell: it is part of the building’s reserve. Confirm the rule for the building."
+    },
+    {
+      "q": "Can the fee go up?",
+      "a": "Yes. Fees are decided by the juristic person and owners under the building’s rules. Ask for the history."
+    }
+  ],
+  "relatedGuides": [
+    "phuket-property-purchase-costs",
+    "condo-buying-checklist-phuket"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    }
+  ],
+  "projects": [
+    "babylon-sky-garden-2",
+    "the-one-naiharn",
+    "the-zero-bang-tao"
+  ],
+  "locations": [
+    "rawai",
+    "bang-tao"
+  ],
+  "waMsg": "Hello! Could you tell me the common area fee and sinking fund for a project I am considering?",
+  "sources": [
+    {
+      "name": "Office of the Council of State (Thai laws)",
+      "url": "https://www.krisdika.go.th/"
+    },
+    {
+      "name": "Thai Land Department",
+      "url": "https://www.dol.go.th/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal or tax advice, and rules and practice can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23"
+}

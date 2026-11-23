@@ -69,5 +69,23 @@
   "status": "needs-legal-review",
   "disclaimer": "General information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
   "published": "2026-11-23",
-  "modified": "2026-11-23"
+  "modified": "2026-11-23",
+  "category": "legal",
+  "featured": true,
+  "relatedGuides": [
+    "foreign-quota-full-condo-thailand",
+    "freehold-leasehold",
+    "buying-process-phuket",
+    "chanote-title-deed-phuket"
+  ],
+  "faq": [
+    {
+      "q": "Do I need a Thai bank account?",
+      "a": "The foreign exchange transaction document comes from the bank receiving your transfer. Ask your bank and lawyer which account and documents are needed for your transfer."
+    },
+    {
+      "q": "Can a foreigner own more than 49% of a building?",
+      "a": "No, not in aggregate. The 49% limit applies to the building as a whole."
+    }
+  ]
 }

@@ -74,5 +74,21 @@
   "status": "needs-legal-review",
   "disclaimer": "General information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
   "published": "2026-11-23",
-  "modified": "2026-11-23"
+  "modified": "2026-11-23",
+  "category": "buying",
+  "relatedGuides": [
+    "condo-sinking-fund-common-area-fees-phuket",
+    "buying-process-phuket",
+    "off-plan-property-phuket"
+  ],
+  "faq": [
+    {
+      "q": "Who pays the transfer fee?",
+      "a": "It is negotiable and set in the contract. In resales buyer and seller often split it; developers have their own arrangements."
+    },
+    {
+      "q": "Are these rates final?",
+      "a": "No. Tax rules and local practice change. Confirm current rates with the Land Department, the Revenue Department and your lawyer."
+    }
+  ]
 }

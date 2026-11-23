@@ -1,0 +1,119 @@
+{
+  "category": "buying",
+  "title": "Condo Buying Checklist for Phuket: 25 Things to Check",
+  "description": "A practical checklist for buying a condo in Phuket: title, quota, developer, contract, fees, building quality and what to inspect on a viewing.",
+  "h1": "Condo Buying Checklist for Phuket",
+  "sub": "Print it, take it to the viewing",
+  "intro": "Use this checklist before you reserve or sign. Not every point applies to every project. Items marked with a legal topic are best checked with an independent lawyer.",
+  "sections": [
+    {
+      "h2": "The project and developer",
+      "ul": [
+        "Developer name, registered company and previous completed projects.",
+        "Advertised completion date and the history of that developer meeting dates.",
+        "Is the building completed, under construction or pre-sale?",
+        "Who runs building management after handover?"
+      ]
+    },
+    {
+      "h2": "Title, quota and legal",
+      "ul": [
+        "Land title of the project and the building permit, verified by your lawyer.",
+        "Foreign quota remaining in the building if you are a foreign buyer.",
+        "Freehold or leasehold: for leasehold, term, renewal wording and registration.",
+        "Reservation agreement and sale and purchase agreement read by your lawyer before signing.",
+        "What the booking fee and deposits are, and when they are refundable."
+      ]
+    },
+    {
+      "h2": "The unit",
+      "ul": [
+        "Exact unit number, floor, size and whether the size is internal or includes balcony and common share.",
+        "Orientation and view; check on site, not only in the render.",
+        "Furniture and fittings included, listed in writing.",
+        "Parking: included or extra.",
+        "Noise sources: road, nightlife, construction next door, air-conditioning plant."
+      ]
+    },
+    {
+      "h2": "Costs",
+      "ul": [
+        "Total price, what the price includes and the currency.",
+        "Transfer fee and taxes: amount and who pays.",
+        "Common area fee and sinking fund: amount, billing basis and what it covers.",
+        "Utilities set-up and deposits.",
+        "Legal fees and bank charges."
+      ]
+    },
+    {
+      "h2": "On the viewing",
+      "ul": [
+        "Water pressure, air conditioning, damp or leaks, window and door fit.",
+        "Lifts, corridors and pool maintenance in completed buildings.",
+        "Walk to the nearest beach, shop and clinic to see the real distance. The Nearby section on each project page lists distances, many of them straight-line.",
+        "Ask about rental rules and whether short stays are allowed in the building."
+      ]
+    },
+    {
+      "h2": "Before you pay",
+      "ul": [
+        "Money moves through the route your lawyer and bank confirm, with the foreign exchange documents kept.",
+        "Every promise from the sales team is in the contract.",
+        "You have had at least one night to think and to read the contract."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a lawyer?",
+      "a": "We recommend an independent Thai lawyer for title checks and for reading the contract, especially for off-plan purchases."
+    },
+    {
+      "q": "Are short-term rentals always allowed in a condo?",
+      "a": "No. Building rules and local regulations can restrict short-term rental. Ask the juristic person and your lawyer before you count on rental income."
+    }
+  ],
+  "relatedGuides": [
+    "buying-process-phuket",
+    "off-plan-property-phuket",
+    "condo-sinking-fund-common-area-fees-phuket",
+    "foreign-ownership-condo-thailand"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    },
+    {
+      "href": "/projects/",
+      "label": "New condo projects in Phuket"
+    }
+  ],
+  "projects": [
+    "the-one-naiharn",
+    "babylon-sky-garden",
+    "the-title-cielo-rawai"
+  ],
+  "locations": [
+    "rawai"
+  ],
+  "waMsg": "Hello! Could you share the current price list and documents for a condo I am considering in Phuket?",
+  "sources": [
+    {
+      "name": "Thai Land Department",
+      "url": "https://www.dol.go.th/"
+    },
+    {
+      "name": "Office of the Council of State (Thai laws)",
+      "url": "https://www.krisdika.go.th/"
+    },
+    {
+      "name": "Office of the Consumer Protection Board",
+      "url": "https://www.ocpb.go.th/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal or tax advice, and rules and practice can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23"
+}

@@ -1,0 +1,88 @@
+{
+  "category": "legal",
+  "title": "Chanote Title Deed Explained for Phuket Property Buyers",
+  "description": "What a chanote is, how it differs from other Thai land documents and the condominium unit title deed, and what buyers should check at the Land Office.",
+  "h1": "Chanote Title Deeds Explained",
+  "sub": "Land documents in Thailand and what they mean for you",
+  "intro": "When you read about land in Phuket you will see the word chanote. Thai land documents give different levels of right and certainty. This guide explains the main types and how they relate to condominiums, so you can ask the right questions.",
+  "sections": [
+    {
+      "h2": "What a chanote is",
+      "p": [
+        "A chanote (Nor Sor 4 Jor) is the full title deed for land. It is based on a survey with boundary markers and is the strongest and most commonly requested land title for buying and selling. The Land Department issues and registers it."
+      ]
+    },
+    {
+      "h2": "Other documents you may see",
+      "ul": [
+        "Nor Sor 3 Gor: a certificate of utilization with a surveyed plan that can be upgraded in some cases.",
+        "Nor Sor 3: a certificate of utilization with weaker proof of boundaries.",
+        "Sor Kor 1 and similar: claim documents, not a title, with far less certainty and transfer limits."
+      ]
+    },
+    {
+      "h2": "Condominium units have their own title deed",
+      "p": [
+        "A registered condominium unit has a condominium unit title deed issued for that unit, together with a share of the common property. When you buy a unit you do not receive a chanote for the land under the building; you receive the unit title and a share in the common property."
+      ]
+    },
+    {
+      "h2": "What foreign buyers can and cannot hold",
+      "p": [
+        "Foreign nationals generally cannot own land in Thailand, which is why villa projects for foreign buyers use structures such as registered leases. Foreign buyers can hold a condominium unit title within the quota. See our freehold and leasehold guide and the quota guide."
+      ]
+    },
+    {
+      "h2": "What to check",
+      "ul": [
+        "That the document type of the land the project is built on is a chanote, confirmed by your lawyer.",
+        "A title search at the Land Office: owner name, boundaries, mortgages, charges, restrictions.",
+        "That the person or company selling is the registered owner or has authority to sell.",
+        "That the plot boundaries on the document match what you are shown."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a chanote required to buy?",
+      "a": "It is the title you would normally look for when buying land. For a condominium the relevant document is the unit title deed."
+    },
+    {
+      "q": "Who checks the title?",
+      "a": "Your lawyer, with a search at the Land Office. We cannot do this on your behalf."
+    }
+  ],
+  "relatedGuides": [
+    "freehold-leasehold",
+    "foreign-ownership-condo-thailand",
+    "buying-process-phuket"
+  ],
+  "related": [
+    {
+      "href": "/projects/",
+      "label": "New projects in Phuket"
+    }
+  ],
+  "projects": [
+    "villa-sumalee",
+    "aileen-rawai-townhouses"
+  ],
+  "locations": [
+    "rawai"
+  ],
+  "waMsg": "Hello! I would like to know which title deed type applies to a project I am considering.",
+  "sources": [
+    {
+      "name": "Thai Land Department",
+      "url": "https://www.dol.go.th/"
+    },
+    {
+      "name": "Office of the Council of State (Thai laws)",
+      "url": "https://www.krisdika.go.th/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal or tax advice, and rules and practice can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23"
+}

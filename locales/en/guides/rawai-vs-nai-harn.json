@@ -1,0 +1,95 @@
+{
+  "category": "locations",
+  "featured": true,
+  "title": "Rawai vs Nai Harn: Which Is Better for Buying a Condo?",
+  "description": "Rawai vs Nai Harn compared for buyers: setting, beaches, type of projects, advertised prices and status from our catalogue, and who each area suits.",
+  "h1": "Rawai vs Nai Harn",
+  "sub": "Two neighbouring areas at the southern tip of Phuket",
+  "intro": "Rawai and Nai Harn sit next to each other in southern Phuket and share a lot: a residential atmosphere, a larger year-round community than the big tourist resorts and a long drive from the airport. They still feel different. This comparison combines area background with figures from our own catalogue.",
+  "sections": [
+    {
+      "h2": "Setting and feel",
+      "p": [
+        "Rawai is on the southern coast between Nai Harn and Chalong. It has a working seafront with Rawai Beach and its pier, local restaurants and the widest mix of property in our catalogue: condominiums, pool villas and townhouses.",
+        "Nai Harn is built around Nai Harn Beach and the lake behind it, with Ya Nui beach and the Promthep Cape viewpoint close by. It is smaller and quieter than most west-coast resort areas, and the catalogue has fewer projects there."
+      ]
+    },
+    {
+      "h2": "Our catalogue side by side",
+      "p": [
+        "The table is built from our project data. Where a project’s address names Nai Harn we count it under Nai Harn; the rest of the Rawai area is counted under Rawai."
+      ],
+      "block": "compare"
+    },
+    {
+      "h2": "Who each area tends to suit",
+      "ul": [
+        "Rawai: buyers who want choice of project and type, a local food scene and a base for living in Phuket.",
+        "Nai Harn: buyers who want to be near the beach and lake and accept fewer projects to choose from.",
+        "Both: buyers who plan to live in Phuket and do not need to be next to the airport."
+      ]
+    },
+    {
+      "h2": "Practical points",
+      "ul": [
+        "Airport: the south is the longest drive from Phuket airport in our data, around an hour by car for Rawai.",
+        "Beach: use the Nearby section of each project page, which shows the nearest beach distance (many are straight-line, not road distance).",
+        "Schools and hospitals: the Rawai area has international schools and hospitals listed in project data; confirm times for the specific project."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which area is cheaper?",
+      "a": "Use the table above: it shows the lowest advertised price per area from our catalogue. That is an entry price, not an average, and it changes."
+    },
+    {
+      "q": "Is Nai Harn a separate location page?",
+      "a": "We have a Rawai page that covers the area including Nai Harn projects. Nai Harn has few projects on its own, so it is shown with Rawai."
+    }
+  ],
+  "relatedGuides": [
+    "best-areas-to-buy-property-phuket",
+    "best-one-bedroom-condos-phuket",
+    "buying-process-phuket"
+  ],
+  "related": [
+    {
+      "href": "/locations/rawai/",
+      "label": "Rawai property for sale"
+    }
+  ],
+  "projects": [
+    "the-one-naiharn",
+    "babylon-sky-garden-2",
+    "the-title-cielo-rawai",
+    "next-point-rawai",
+    "sunny-moon-village"
+  ],
+  "locations": [
+    "rawai"
+  ],
+  "waMsg": "Hello! I am comparing Rawai and Nai Harn. Can you suggest projects for my budget?",
+  "sources": [
+    {
+      "name": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/"
+    }
+  ],
+  "status": "reviewed-by-nightdestiny",
+  "disclaimer": "General information only. Prices, availability and project details change: confirm them with us and the developer before you decide.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23",
+  "compare": {
+    "a": {
+      "label": "Rawai",
+      "slug": "rawai",
+      "exclude": "nai\\s*harn",
+      "link": "/locations/rawai/"
+    },
+    "b": {
+      "label": "Nai Harn",
+      "match": "nai\\s*harn"
+    }
+  }
+}

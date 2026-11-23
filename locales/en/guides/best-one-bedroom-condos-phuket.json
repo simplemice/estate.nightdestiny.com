@@ -1,0 +1,77 @@
+{
+  "category": "condos",
+  "featured": true,
+  "title": "Best One-Bedroom Condos in Phuket: Options by Price",
+  "description": "One-bedroom and studio condos in Phuket from our catalogue, ordered by advertised starting price, with area, status, unit size and what to check.",
+  "h1": "One-Bedroom Condos in Phuket by Price",
+  "sub": "Entry-level options from our catalogue",
+  "intro": "One-bedroom condos are the most common way into Phuket property. There is no single best one, because the right choice depends on area, budget and use. This list is built from our catalogue and ordered by the lowest advertised price for a one-bedroom or studio unit.",
+  "sections": [
+    {
+      "h2": "The list",
+      "p": [
+        "Only projects where we recorded a one-bedroom or studio unit with a price are shown. A project can have other unit types too."
+      ],
+      "block": "list"
+    },
+    {
+      "h2": "How to choose between them",
+      "ul": [
+        "Status: completed units can be seen and used now; pre-sale and under-construction projects usually have a lower entry price and a wait.",
+        "Size: compare the unit size, not only the price. A studio and a one-bedroom are different products.",
+        "Area: the beach, shops and medical services you can reach from the project. See the Nearby section.",
+        "Ownership: freehold or leasehold, and the foreign quota in the building.",
+        "Running costs: the common area fee and sinking fund. See our guide."
+      ]
+    },
+    {
+      "h2": "Studio or one-bedroom?",
+      "p": [
+        "A studio combines sleeping and living in one room and usually costs less. A one-bedroom has a separate bedroom, which many buyers prefer for longer stays and for guests. Our catalogue treats a studio as one room, so it is shown with the one-bedroom range."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the first project in the list the best?",
+      "a": "No. It is the lowest advertised price, which is an entry price and does not describe quality, location or return."
+    },
+    {
+      "q": "Are the prices final?",
+      "a": "No. They are advertised starting prices that can change and may depend on floor, view and payment plan."
+    }
+  ],
+  "relatedGuides": [
+    "condo-buying-checklist-phuket",
+    "condo-sinking-fund-common-area-fees-phuket",
+    "rawai-vs-nai-harn",
+    "kata-vs-karon"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    },
+    {
+      "href": "/projects/",
+      "label": "New condo projects in Phuket"
+    }
+  ],
+  "projects": [],
+  "locations": [
+    "rawai",
+    "kata",
+    "bang-tao",
+    "karon",
+    "kamala"
+  ],
+  "waMsg": "Hello! I am looking for a one-bedroom condo in Phuket. Can you suggest options for my budget?",
+  "sources": [],
+  "status": "reviewed-by-nightdestiny",
+  "disclaimer": "General information only. Prices, availability and project details change: confirm them with us and the developer before you decide.",
+  "published": "2026-11-23",
+  "modified": "2026-11-23",
+  "list": {
+    "limit": 15
+  }
+}

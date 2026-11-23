@@ -66,5 +66,23 @@
   "status": "needs-legal-review",
   "disclaimer": "General information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
   "published": "2026-11-23",
-  "modified": "2026-11-23"
+  "modified": "2026-11-23",
+  "category": "legal",
+  "featured": true,
+  "relatedGuides": [
+    "foreign-ownership-condo-thailand",
+    "foreign-quota-full-condo-thailand",
+    "chanote-title-deed-phuket",
+    "phuket-property-purchase-costs"
+  ],
+  "faq": [
+    {
+      "q": "Can a foreigner own a villa in Phuket?",
+      "a": "Foreign nationals generally cannot own land in Thailand. Villas are therefore often offered through a registered lease or other structure. Take independent legal advice on the structure before you pay."
+    },
+    {
+      "q": "Is a 30-year lease the same as owning?",
+      "a": "No. A lease gives rights for a fixed term. Renewal clauses are contractual promises and should be reviewed by your lawyer."
+    }
+  ]
 }
