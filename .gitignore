@@ -37,3 +37,6 @@ PROJECT_SEO_CHECKLIST.md
 # developer-only helper scripts (the build and the GitHub Action only need build.mjs and optimize-images.mjs)
 scripts/seo-*.mjs
 scripts/test-*.mjs
+
+# Internal marketing drafts: local only, never published
+content/marketing/
