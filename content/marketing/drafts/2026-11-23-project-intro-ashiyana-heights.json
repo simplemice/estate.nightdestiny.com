@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-23-project-intro-ashiyana-heights",
+  "type": "project_intro",
+  "title": "Project introduction: Ashiyana Heights",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "project",
+    "slug": "ashiyana-heights"
+  },
+  "destinationUrl": "/projects/ashiyana-heights/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Bedrooms not recorded.",
+    "Images are mostly artist renders: say \"render\" in the post or use an \"illustrative\" label."
+  ],
+  "facts": {
+    "name": "Ashiyana Heights",
+    "location": "Karon (near Kata)",
+    "developer": "Ashiyana Estates",
+    "type": "Low-rise sea-view condominium",
+    "status": "Under construction",
+    "completion": "Dec 2028",
+    "price": 3700000,
+    "currency": "THB",
+    "beds": null,
+    "area": null,
+    "ownership": "Freehold",
+    "facilities": [
+      "Rooftop sea-view swimming pool",
+      "Rooftop bar and restaurant",
+      "Gym",
+      "Sauna and ice bath",
+      "Garden"
+    ],
+    "beach": "Kata Beach (1.4 km)",
+    "units": "131",
+    "url": "/projects/ashiyana-heights/",
+    "image": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg",
+    "review": [
+      "Bedrooms not recorded.",
+      "Images are mostly artist renders: say \"render\" in the post or use an \"illustrative\" label."
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post. Link in text; Facebook generates the preview card.",
+      "text": "Ashiyana Heights: low-rise sea-view condominium in Karon (near Kata), Phuket\n\n• Status: Under construction\n• Completion: Dec 2028\n• Ownership: Freehold\n• Nearest beach: Kata Beach (1.4 km)\n• From THB 3,700,000 (lowest advertised price, can change)\n\nFacilities include rooftop sea-view swimming pool, rooftop bar and restaurant, gym, sauna and ice bath.\n\nPhotos, floor plans and details: https://estate.nightdestiny.com/projects/ashiyana-heights/\nQuestions? Message us on WhatsApp: https://wa.me/66942654121\n\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "image": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg"
+    },
+    "instagram": {
+      "note": "Instagram captions do not make links clickable: say \"link in bio\" and keep the URL in the bio. Use 1 cover image or a carousel.",
+      "text": "Ashiyana Heights | Karon (near Kata), Phuket\nfrom THB 3,700,000 · Under construction\n\nNearest beach: Kata Beach (1.4 km).\nFacilities include rooftop sea-view swimming pool, rooftop bar and restaurant, gym, sauna and ice bath.\n\nFull details: link in bio. Ask us on WhatsApp.\n\n#KaronnearKataPhuket #PhuketRealEstate #PhuketProperty #ThailandProperty #AshiyanaHeights #CondoForSale",
+      "image": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg"
+    },
+    "linkedin": {
+      "note": "Company page post. Professional tone, no emojis, one link.",
+      "text": "Ashiyana Heights is a low-rise sea-view condominium project in Karon (near Kata), Phuket, developed by Ashiyana Estates.\n\n- Status: Under construction\n- Completion: Dec 2028\n- Ownership: Freehold\n- Nearest beach: Kata Beach (1.4 km)\n- From THB 3,700,000 (lowest advertised price, can change)\n\nBuyer context: ownership type and foreign quota status should be confirmed with the developer and an independent lawyer before reservation.\n\nProject details: https://estate.nightdestiny.com/projects/ashiyana-heights/\n\n#PhuketRealEstate #ThailandProperty #KaronnearKataPhuket",
+      "image": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg"
+    },
+    "pinterest": {
+      "note": "Pin. Use a vertical crop (2:3) of the cover image; the pin links to the project page.",
+      "title": "Ashiyana Heights Low-rise sea-view condominium in Karon (near Kata), Phuket",
+      "text": "Low-rise sea-view condominium in Karon (near Kata), Phuket. Nearest beach: Kata Beach (1.4 km). From THB 3,700,000. View photos and details on estate.nightdestiny.com.",
+      "destination": "https://estate.nightdestiny.com/projects/ashiyana-heights/",
+      "board": "Phuket Low-rise sea-view condominiums",
+      "image": "/assets/images/projects/ashiyana-heights/exterior-render-1.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Vertical video 15-40 s. Needs real footage or photos of this project; do not use stock footage. Shorts descriptions can hold the link.",
+      "title": "Ashiyana Heights, Karon (near Kata) Phuket: quick look",
+      "script": [
+        "0-3s HOOK (on screen): \"Ashiyana Heights, Karon (near Kata)\" over the best exterior or render shot.",
+        "3-10s: Say: \"Low-rise sea-view condominium in Karon (near Kata), under construction, Kata Beach is the nearest beach.\"",
+        "10-18s: Show the interior or floor plan (no specs recorded: do not state any).",
+        "18-25s: Say: \"from THB 3,700,000, prices can change.\"",
+        "25-30s CTA: \"Details on our website or WhatsApp us.\" Show the website name on screen."
+      ],
+      "description": "Ashiyana Heights in Karon (near Kata), Phuket.\nDetails: https://estate.nightdestiny.com/projects/ashiyana-heights/\nWhatsApp: https://wa.me/66942654121\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "hashtags": [
+        "#Shorts",
+        "#KaronnearKataPhuket",
+        "#PhuketRealEstate"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

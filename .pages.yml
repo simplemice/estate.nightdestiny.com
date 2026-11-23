@@ -250,3 +250,44 @@ content:
       - { name: overview, label: "Area overview (verified, original text)", type: text }
       - { name: market, label: "Property market overview (verified)", type: text }
       - { name: transport, label: "Transport and airport access (verified)", type: text }
+
+  - name: marketing
+    label: Marketing drafts (never auto-published)
+    type: collection
+    path: content/marketing/drafts
+    format: json
+    subfolders: false
+    filename: "{primary}.json"
+    view:
+      fields: [ title, type, status ]
+      primary: title
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: type, label: Type, type: string }
+      - { name: status, label: "Status (draft / approved / published)", type: select, options: { values: [draft, approved, published] } }
+      - name: approval
+        label: Approval
+        type: object
+        fields:
+          - { name: state, label: State, type: select, options: { values: [pending, approved, rejected] } }
+          - { name: approvedBy, label: Approved by, type: string }
+          - { name: approvedAt, label: Approved on, type: string }
+          - { name: note, label: Review note, type: text }
+      - name: publishing
+        label: Publishing
+        type: object
+        fields:
+          - { name: state, label: State, type: select, options: { values: [unpublished, scheduled, published] } }
+          - { name: scheduledAt, label: "Scheduled for (ISO date-time; a field only, nothing posts automatically)", type: string }
+          - { name: publishedAt, label: Published at, type: string }
+      - { name: destinationUrl, label: Destination URL, type: string }
+      - { name: needsReview, label: "Needs review (clear each item once checked)", type: string, list: true }
+      - name: channels
+        label: Channel texts (edit here)
+        type: object
+        fields:
+          - { name: facebook, label: Facebook, type: object, fields: [ { name: text, label: Text, type: text } ] }
+          - { name: instagram, label: Instagram, type: object, fields: [ { name: text, label: Caption, type: text } ] }
+          - { name: linkedin, label: LinkedIn, type: object, fields: [ { name: text, label: Text, type: text } ] }
+          - { name: pinterest, label: Pinterest, type: object, fields: [ { name: title, label: Title, type: string }, { name: text, label: Description, type: text } ] }
+          - { name: youtube_shorts, label: YouTube Shorts, type: object, fields: [ { name: title, label: Title, type: string }, { name: script, label: Script beats, type: string, list: true }, { name: description, label: Description, type: text } ] }

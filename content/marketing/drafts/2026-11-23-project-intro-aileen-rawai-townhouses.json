@@ -1,0 +1,102 @@
+{
+  "id": "2026-11-23-project-intro-aileen-rawai-townhouses",
+  "type": "project_intro",
+  "title": "Project introduction: Aileen Rawai Townhouses",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "project",
+    "slug": "aileen-rawai-townhouses"
+  },
+  "destinationUrl": "/projects/aileen-rawai-townhouses/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Completion date not recorded: not mentioned in the text."
+  ],
+  "facts": {
+    "name": "Aileen Rawai Townhouses",
+    "location": "Rawai",
+    "developer": "Trinity Property Co., Ltd.",
+    "type": "Townhouse",
+    "status": "Under construction",
+    "completion": null,
+    "price": 10100000,
+    "currency": "THB",
+    "beds": "2-3",
+    "area": "170.5-286.9 sqm",
+    "ownership": null,
+    "facilities": [
+      "Communal garden",
+      "Car parking",
+      "24-hour security and CCTV"
+    ],
+    "beach": "Rawai Beach (3.2 km)",
+    "units": "21",
+    "url": "/projects/aileen-rawai-townhouses/",
+    "image": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg",
+    "review": [
+      "Completion date not recorded: not mentioned in the text."
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post. Link in text; Facebook generates the preview card.",
+      "text": "Aileen Rawai Townhouses: townhouse in Rawai, Phuket\n\n• Status: Under construction\n• Bedrooms: 2-3\n• Size: 170.5-286.9 sqm\n• Nearest beach: Rawai Beach (3.2 km)\n• From THB 10,100,000 (lowest advertised price, can change)\n\nFacilities include communal garden, car parking, 24-hour security and cctv.\n\nPhotos, floor plans and details: https://estate.nightdestiny.com/projects/aileen-rawai-townhouses/\nQuestions? Message us on WhatsApp: https://wa.me/66942654121\n\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "image": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg"
+    },
+    "instagram": {
+      "note": "Instagram captions do not make links clickable: say \"link in bio\" and keep the URL in the bio. Use 1 cover image or a carousel.",
+      "text": "Aileen Rawai Townhouses | Rawai, Phuket\n2-3 bedrooms · from THB 10,100,000 · Under construction\n\nNearest beach: Rawai Beach (3.2 km).\nFacilities include communal garden, car parking, 24-hour security and cctv.\n\nFull details: link in bio. Ask us on WhatsApp.\n\n#RawaiPhuket #PhuketRealEstate #PhuketProperty #ThailandProperty #AileenRawaiTownhouses #CondoForSale",
+      "image": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg"
+    },
+    "linkedin": {
+      "note": "Company page post. Professional tone, no emojis, one link.",
+      "text": "Aileen Rawai Townhouses is a townhouse project in Rawai, Phuket, developed by Trinity Property Co., Ltd..\n\n- Status: Under construction\n- Bedrooms: 2-3\n- Size: 170.5-286.9 sqm\n- Nearest beach: Rawai Beach (3.2 km)\n- From THB 10,100,000 (lowest advertised price, can change)\n\nBuyer context: ownership type and foreign quota status should be confirmed with the developer and an independent lawyer before reservation.\n\nProject details: https://estate.nightdestiny.com/projects/aileen-rawai-townhouses/\n\n#PhuketRealEstate #ThailandProperty #RawaiPhuket",
+      "image": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg"
+    },
+    "pinterest": {
+      "note": "Pin. Use a vertical crop (2:3) of the cover image; the pin links to the project page.",
+      "title": "Aileen Rawai Townhouses Townhouse in Rawai, Phuket",
+      "text": "Townhouse in Rawai, Phuket. 2-3 bedrooms. Nearest beach: Rawai Beach (3.2 km). From THB 10,100,000. View photos and details on estate.nightdestiny.com.",
+      "destination": "https://estate.nightdestiny.com/projects/aileen-rawai-townhouses/",
+      "board": "Phuket Townhouses",
+      "image": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Vertical video 15-40 s. Needs real footage or photos of this project; do not use stock footage. Shorts descriptions can hold the link.",
+      "title": "Aileen Rawai Townhouses, Rawai Phuket: quick look",
+      "script": [
+        "0-3s HOOK (on screen): \"Aileen Rawai Townhouses, Rawai\" over the best exterior or render shot.",
+        "3-10s: Say: \"Townhouse in Rawai, under construction, Rawai Beach is the nearest beach.\"",
+        "10-18s: Show interior/floor plan. Say: \"2-3 bedrooms, 170.5-286.9 sqm.\"",
+        "18-25s: Say: \"from THB 10,100,000, prices can change.\"",
+        "25-30s CTA: \"Details on our website or WhatsApp us.\" Show the website name on screen."
+      ],
+      "description": "Aileen Rawai Townhouses in Rawai, Phuket.\nDetails: https://estate.nightdestiny.com/projects/aileen-rawai-townhouses/\nWhatsApp: https://wa.me/66942654121\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "hashtags": [
+        "#Shorts",
+        "#RawaiPhuket",
+        "#PhuketRealEstate"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

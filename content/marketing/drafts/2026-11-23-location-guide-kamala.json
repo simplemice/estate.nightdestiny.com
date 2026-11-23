@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-23-location-guide-kamala",
+  "type": "location_guide",
+  "title": "Location guide: Kamala",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "location",
+    "slug": "kamala"
+  },
+  "destinationUrl": "/locations/kamala/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [],
+  "facts": {
+    "name": "Kamala",
+    "projects": 6,
+    "from": 3990000
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Buying in Kamala, Phuket?\n\nKamala is a west-coast area in Kathu district, between Surin and Patong. Kamala Beach, a hospital and several shops are listed in the project data; one project here is about 300 m from the beach according to its description.\n\nWe currently list 6 projects listed, advertised starting prices from THB 3,990,000.\nArea guide with projects, nearby places and FAQs: https://estate.nightdestiny.com/locations/kamala/\nWhatsApp: https://wa.me/66942654121\n\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "image": "/assets/images/projects/coralina-kamala/g1.jpg"
+    },
+    "instagram": {
+      "note": "Link in bio. Carousel: 1 cover + 4 project images.",
+      "text": "Kamala, Phuket: area guide\nKamala is a west-coast area in Kathu district, between Surin and Patong. Kamala Beach, a hospital and several shops are listed in the project data; one project here is about 300 m from the beach according to its description.\n\n6 projects listed, advertised starting prices from THB 3,990,000.\nFull guide: link in bio.\n\n#KamalaPhuket #PhuketRealEstate #PhuketProperty #ThailandProperty",
+      "image": "/assets/images/projects/coralina-kamala/g1.jpg"
+    },
+    "linkedin": {
+      "note": "Company page post.",
+      "text": "Kamala area guide for Phuket property buyers\n\nKamala is a west-coast area in Kathu district, between Surin and Patong. Kamala Beach, a hospital and several shops are listed in the project data; one project here is about 300 m from the beach according to its description.\n\n6 projects listed, advertised starting prices from THB 3,990,000. The guide covers ownership types, construction status and nearby places per project.\n\nhttps://estate.nightdestiny.com/locations/kamala/\n\n#PhuketRealEstate #KamalaPhuket",
+      "image": "/assets/images/projects/coralina-kamala/g1.jpg"
+    },
+    "pinterest": {
+      "note": "Infographic-style pin recommended.",
+      "title": "Kamala Phuket property guide",
+      "text": "Kamala is a west-coast area in Kathu district, between Surin and Patong. Kamala Beach, a hospital and several shops are listed in the project data; one project here is about 300 m from the beach according to its description. 6 projects listed, advertised starting prices from THB 3,990,000.",
+      "destination": "https://estate.nightdestiny.com/locations/kamala/",
+      "board": "Phuket areas",
+      "image": "/assets/images/projects/coralina-kamala/g1.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Needs real footage of the area.",
+      "title": "Kamala, Phuket in 30 seconds",
+      "script": [
+        "0-3s HOOK: strongest beach or street shot of the area.",
+        "3-15s: Read the first overview sentence: \"Kamala is a west-coast area in Kathu district, between Surin and Patong.\"",
+        "15-25s: Say: \"6 projects listed, advertised starting prices from THB 3,990,000.\"",
+        "25-30s CTA: \"Full area guide on our website.\""
+      ],
+      "description": "Kamala area guide: https://estate.nightdestiny.com/locations/kamala/\nWhatsApp: https://wa.me/66942654121",
+      "hashtags": [
+        "#Shorts",
+        "#KamalaPhuket",
+        "#PhuketRealEstate"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

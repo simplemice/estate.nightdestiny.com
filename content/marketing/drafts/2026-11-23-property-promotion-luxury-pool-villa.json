@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-23-property-promotion-luxury-pool-villa",
+  "type": "property_promotion",
+  "title": "Property promotion: Luxury Pool Villa",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "rent",
+    "slug": "luxury-pool-villa"
+  },
+  "destinationUrl": "/rent/luxury-pool-villa/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Rental price is a \"from\" price per night; availability is by request: do not promise dates."
+  ],
+  "facts": {
+    "title": "Luxury Pool Villa",
+    "spec": "Villa · 3 bedrooms · up to 800 sqm · 6 guests recommended",
+    "from": "from USD 549 per night"
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Luxury Pool Villa, Phuket\nVilla · 3 bedrooms · up to 800 sqm · 6 guests recommended\nfrom USD 549 per night\n\nSend an availability request (no payment taken online): https://estate.nightdestiny.com/rent/luxury-pool-villa/\nOr WhatsApp: https://wa.me/66942654121\n\nPrices are starting prices and depend on season and dates.",
+      "image": "/img/room/room-6.jpg"
+    },
+    "instagram": {
+      "note": "Link in bio.",
+      "text": "Luxury Pool Villa · Phuket\nVilla · 3 bedrooms · up to 800 sqm · 6 guests recommended\nfrom USD 549 per night\n\nRequest availability: link in bio.\n\n#PhuketRental #PhuketVilla #PhuketHolidays #ThailandTravel",
+      "image": "/img/room/room-6.jpg"
+    },
+    "linkedin": {
+      "note": "Optional: only for corporate or long-stay audiences.",
+      "text": "Luxury Pool Villa in Phuket: Villa · 3 bedrooms · up to 800 sqm · 6 guests recommended. Available from USD 549 per night. Enquiries and availability requests: https://estate.nightdestiny.com/rent/luxury-pool-villa/",
+      "image": "/img/room/room-6.jpg"
+    },
+    "pinterest": {
+      "note": "Vertical crop recommended.",
+      "title": "Luxury Pool Villa for rent in Phuket",
+      "text": "Villa · 3 bedrooms · up to 800 sqm · 6 guests recommended. from USD 549 per night. Request availability on estate.nightdestiny.com.",
+      "destination": "https://estate.nightdestiny.com/rent/luxury-pool-villa/",
+      "board": "Phuket rentals",
+      "image": "/img/room/room-6.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Needs real footage of the property.",
+      "title": "Luxury Pool Villa Phuket: quick tour",
+      "script": [
+        "0-3s HOOK: best exterior or pool shot with the property name.",
+        "3-12s: Say: \"Villa · 3 bedrooms · up to 800 sqm · 6 guests recommended.\"",
+        "12-20s: Say: \"Starting at USD 549 per night, depends on season and dates.\"",
+        "20-25s CTA: \"Send an availability request on our website.\""
+      ],
+      "description": "Luxury Pool Villa, Phuket\nhttps://estate.nightdestiny.com/rent/luxury-pool-villa/\nWhatsApp: https://wa.me/66942654121",
+      "hashtags": [
+        "#Shorts",
+        "#PhuketRental"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

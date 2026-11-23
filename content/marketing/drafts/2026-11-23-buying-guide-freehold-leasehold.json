@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-23-buying-guide-freehold-leasehold",
+  "type": "buying_guide",
+  "title": "Buying guide: Freehold vs Leasehold in Phuket",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "guide",
+    "slug": "freehold-leasehold"
+  },
+  "destinationUrl": "/guides/freehold-leasehold/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Legal topic: have a licensed Thai lawyer review the guide and every derived post before publishing.",
+    "Guide status is needs-legal-review."
+  ],
+  "facts": {
+    "headings": [
+      "What freehold means",
+      "What leasehold means",
+      "Why villas and condos are treated differently",
+      "Questions to ask before you buy",
+      "How this shows up in our catalogue"
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Freehold vs Leasehold in Phuket\n\nProject descriptions in Phuket keep using two terms, freehold and leasehold. They decide what you own, for how long and what rights you have. This guide explains the terms in plain language so you can prepare better questions for a lawyer.\n\nIn the guide:\n• What freehold means\n• What leasehold means\n• Why villas and condos are treated differently\n• Questions to ask before you buy\n• How this shows up in our catalogue\n\nRead it: https://estate.nightdestiny.com/guides/freehold-leasehold/\n\nGeneral information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+      "image": null
+    },
+    "linkedin": {
+      "note": "Company page article teaser.",
+      "text": "Freehold vs Leasehold in Phuket\n\nProject descriptions in Phuket keep using two terms, freehold and leasehold. They decide what you own, for how long and what rights you have. This guide explains the terms in plain language so you can prepare better questions for a lawyer.\n\nhttps://estate.nightdestiny.com/guides/freehold-leasehold/\n\n#ThailandProperty #PhuketRealEstate",
+      "image": null
+    },
+    "pinterest": {
+      "note": "Text-on-image pin recommended.",
+      "title": "Freehold vs Leasehold in Phuket",
+      "text": "Freehold vs leasehold in Phuket explained: what you own, how long, the 49% foreign quota for condos and what to ask a lawyer before buying.",
+      "destination": "https://estate.nightdestiny.com/guides/freehold-leasehold/",
+      "board": "Phuket buyer guides",
+      "image": null
+    },
+    "youtube_shorts": {
+      "note": "Explainer short; needs a presenter or text slides.",
+      "title": "Freehold vs Leasehold in Phuket",
+      "script": [
+        "0-3s HOOK: Freehold vs Leasehold in Phuket",
+        "3-11s: Slide \"What freehold means\" with one sentence from the guide.",
+        "11-19s: Slide \"What leasehold means\" with one sentence from the guide.",
+        "19-27s: Slide \"Why villas and condos are treated differently\" with one sentence from the guide.",
+        "27-30s CTA: \"Full guide on our website. Not legal advice.\""
+      ],
+      "description": "Freehold vs leasehold in Phuket explained: what you own, how long, the 49% foreign quota for condos and what to ask a lawyer before buying.\nhttps://estate.nightdestiny.com/guides/freehold-leasehold/",
+      "hashtags": [
+        "#Shorts",
+        "#PhuketProperty"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

@@ -7,7 +7,11 @@
     "build": "node scripts/build.mjs",
     "check": "node scripts/build.mjs --check",
     "serve": "python3 -m http.server 8000",
-    "check:i18n": "node scripts/i18n-check.mjs"
+    "check:i18n": "node scripts/i18n-check.mjs",
+    "seo:monitor": "node scripts/seo-monitor.mjs",
+    "seo:keymap": "node scripts/seo-keymap.mjs",
+    "marketing": "node scripts/marketing.mjs",
+    "marketing:preview": "node scripts/marketing.mjs preview"
   },
   "devDependencies": {
     "sharp": "^0.34.0"

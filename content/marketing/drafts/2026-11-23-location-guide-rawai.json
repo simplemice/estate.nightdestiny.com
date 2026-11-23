@@ -1,0 +1,79 @@
+{
+  "id": "2026-11-23-location-guide-rawai",
+  "type": "location_guide",
+  "title": "Location guide: Rawai",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "location",
+    "slug": "rawai"
+  },
+  "destinationUrl": "/locations/rawai/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [],
+  "facts": {
+    "name": "Rawai",
+    "projects": 9,
+    "from": 3734500
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Buying in Rawai, Phuket?\n\nRawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong. It has the widest mix in our catalogue: boutique and hotel-managed condominiums (Babylon Sky Garden and Babylon Sky Garden 2, The One Naiharn, The Title Adora and Cielo Rawai, Next Point), pool villas, and townhouses including Aileen Rawai Townhouses and Villa Sumalee.\n\nWe currently list 9 projects listed, advertised starting prices from THB 3,734,500.\nArea guide with projects, nearby places and FAQs: https://estate.nightdestiny.com/locations/rawai/\nWhatsApp: https://wa.me/66942654121\n\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "image": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg"
+    },
+    "instagram": {
+      "note": "Link in bio. Carousel: 1 cover + 4 project images.",
+      "text": "Rawai, Phuket: area guide\nRawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong. It has the widest mix in our catalogue: boutique and hotel-managed condominiums (Babylon Sky Garden and Babylon Sky Garden 2, The One Naiharn, The Title Adora and Cielo Rawai, Next Point), pool villas, and townhouses including Aileen Rawai Townhouses and Villa Sumalee.\n\n9 projects listed, advertised starting prices from THB 3,734,500.\nFull guide: link in bio.\n\n#RawaiPhuket #PhuketRealEstate #PhuketProperty #ThailandProperty",
+      "image": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg"
+    },
+    "linkedin": {
+      "note": "Company page post.",
+      "text": "Rawai area guide for Phuket property buyers\n\nRawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong. It has the widest mix in our catalogue: boutique and hotel-managed condominiums (Babylon Sky Garden and Babylon Sky Garden 2, The One Naiharn, The Title Adora and Cielo Rawai, Next Point), pool villas, and townhouses including Aileen Rawai Townhouses and Villa Sumalee.\n\n9 projects listed, advertised starting prices from THB 3,734,500. The guide covers ownership types, construction status and nearby places per project.\n\nhttps://estate.nightdestiny.com/locations/rawai/\n\n#PhuketRealEstate #RawaiPhuket",
+      "image": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg"
+    },
+    "pinterest": {
+      "note": "Infographic-style pin recommended.",
+      "title": "Rawai Phuket property guide",
+      "text": "Rawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong. It has the widest mix in our catalogue: boutique and hotel-managed condominiums (Babylon Sky Garden and Babylon Sky Garden 2, The One Naiharn, The Title Adora and Cielo Rawai, Next Point), pool villas, and townhouses including Aileen Rawai Townhouses and Villa Sumalee. 9 projects listed, advertised starting prices from THB 3,734,500.",
+      "destination": "https://estate.nightdestiny.com/locations/rawai/",
+      "board": "Phuket areas",
+      "image": "/assets/images/projects/adora-rawai/adora-exterior-1.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Needs real footage of the area.",
+      "title": "Rawai, Phuket in 30 seconds",
+      "script": [
+        "0-3s HOOK: strongest beach or street shot of the area.",
+        "3-15s: Read the first overview sentence: \"Rawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong.\"",
+        "15-25s: Say: \"9 projects listed, advertised starting prices from THB 3,734,500.\"",
+        "25-30s CTA: \"Full area guide on our website.\""
+      ],
+      "description": "Rawai area guide: https://estate.nightdestiny.com/locations/rawai/\nWhatsApp: https://wa.me/66942654121",
+      "hashtags": [
+        "#Shorts",
+        "#RawaiPhuket",
+        "#PhuketRealEstate"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

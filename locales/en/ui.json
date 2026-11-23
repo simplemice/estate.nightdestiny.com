@@ -500,5 +500,21 @@
   "nearg.Big stores & malls": "Big stores & malls",
   "nearg.Markets & supermarkets": "Markets & supermarkets",
   "nearg.Kindergartens": "Kindergartens",
-  "nearg.Other": "Other places"
+  "nearg.Other": "Other places",
+  "footer.guides": "Buyer guides",
+  "guide.crumb": "Guides",
+  "guide.ask": "Ask about projects on WhatsApp",
+  "guide.n_freehold": [
+    "{n} project",
+    "{n} projects"
+  ],
+  "wa.guide": "Hello! I have a question about ownership (freehold / leasehold) for Phuket projects.",
+  "own.guide_note": "What freehold and leasehold mean: read our guide",
+  "guide.sources": "Sources",
+  "guide.updated": "Last reviewed",
+  "guide.related": "Related reading and pages",
+  "guides.h1": "Phuket Property Buyer Guides",
+  "guides.sub": "Ownership, costs and areas explained",
+  "guides.desc": "Plain-language guides for buying property in Phuket: freehold vs leasehold, foreign ownership of condos, purchase costs and the best areas.",
+  "loc.guides": "Buyer guides:"
 }

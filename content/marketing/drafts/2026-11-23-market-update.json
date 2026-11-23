@@ -1,0 +1,77 @@
+{
+  "id": "2026-11-23-market-update",
+  "type": "market_update",
+  "title": "Catalogue update 2026-11-23",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "catalogue"
+  },
+  "destinationUrl": "/sale/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Counts and prices describe OUR catalogue only, not the whole Phuket market. Do not describe them as market trends."
+  ],
+  "facts": {
+    "projects": 90,
+    "priced": 85,
+    "top": [
+      [
+        "Rawai",
+        9,
+        3734500
+      ],
+      [
+        "Bang Tao",
+        8,
+        2906700
+      ],
+      [
+        "Si Sunthon",
+        6,
+        2870000
+      ],
+      [
+        "Cherng Talay",
+        6,
+        11500000
+      ],
+      [
+        "Kamala",
+        5,
+        3990000
+      ]
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Our Phuket catalogue this month (2026-11-23): 90 projects listed, 85 with an advertised starting price, lowest advertised price THB 2,290,000.\n\nAreas with most priced projects:\n- Rawai: 9 projects, from THB 3,734,500\n- Bang Tao: 8 projects, from THB 2,906,700\n- Si Sunthon: 6 projects, from THB 2,870,000\n- Cherng Talay: 6 projects, from THB 11,500,000\n- Kamala: 5 projects, from THB 3,990,000\n\nThese are the lowest advertised prices per project, not averages, and not a forecast. Browse: https://estate.nightdestiny.com/sale/",
+      "image": null
+    },
+    "linkedin": {
+      "note": "Company page post.",
+      "text": "Our Phuket catalogue this month (2026-11-23): 90 projects listed, 85 with an advertised starting price, lowest advertised price THB 2,290,000.\n\nAreas with most priced projects:\n- Rawai: 9 projects, from THB 3,734,500\n- Bang Tao: 8 projects, from THB 2,906,700\n- Si Sunthon: 6 projects, from THB 2,870,000\n- Cherng Talay: 6 projects, from THB 11,500,000\n- Kamala: 5 projects, from THB 3,990,000\n\nThese are the lowest advertised prices per project, not averages, and not a forecast. Browse: https://estate.nightdestiny.com/sale/\n\n#PhuketRealEstate",
+      "image": null
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

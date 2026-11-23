@@ -24,9 +24,10 @@ const langOf = (f) => (f.startsWith('ru/') ? 'ru' : 'en');
 const neutral = (f) => f.replace(/^ru\//, '');
 const en = new Set(all.filter((f) => langOf(f) === 'en').map(neutral));
 const ru = new Set(all.filter((f) => langOf(f) === 'ru').map(neutral));
-for (const f of en) if (!ru.has(f)) err(f, 'no Russian counterpart');
-const RU_ONLY = (f) => /^guides\//.test(f); // language-specific articles
-for (const f of ru) if (!en.has(f) && !RU_ONLY(f)) err('ru/' + f, 'no English counterpart');
+const GUIDE = (f) => /^guides\//.test(f); // guides are language-specific: a guide exists only in the languages it was written for
+for (const f of en) if (!ru.has(f) && !GUIDE(f)) err(f, 'no Russian counterpart');
+for (const f of ru) if (!en.has(f) && !GUIDE(f)) err('ru/' + f, 'no English counterpart');
+const RU_ONLY = (f) => GUIDE(f) && !(en.has(f) && ru.has(f)); // guide without a counterpart in the other language
 
 const urlToFile = (u) => { const p = u.replace(SITE, '').split('#')[0].split('?')[0]; const rel = p.endsWith('/') ? p + 'index.html' : p; return rel.replace(/^\//, ''); };
 const attr = (tag, name) => (tag.match(new RegExp(`${name}="([^"]*)"`)) || [])[1];

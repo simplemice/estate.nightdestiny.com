@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-23-buying-guide-phuket-property-purchase-costs",
+  "type": "buying_guide",
+  "title": "Buying guide: Phuket Property Purchase Costs",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "guide",
+    "slug": "phuket-property-purchase-costs"
+  },
+  "destinationUrl": "/guides/phuket-property-purchase-costs/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Legal topic: have a licensed Thai lawyer review the guide and every derived post before publishing.",
+    "Guide status is needs-legal-review."
+  ],
+  "facts": {
+    "headings": [
+      "Transfer fee",
+      "Stamp duty or specific business tax",
+      "Legal and agent costs",
+      "Ongoing costs of a condo",
+      "Payment plan on new developments",
+      "Checklist"
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Phuket Property Purchase Costs\n\nThe price on a listing is not the only cost. This guide lists the usual cost items for buying a condo or villa in Phuket so you can ask the right questions. Rates below are the commonly applied ones; confirm the current rates and who pays what for your own deal.\n\nIn the guide:\n• Transfer fee\n• Stamp duty or specific business tax\n• Legal and agent costs\n• Ongoing costs of a condo\n• Payment plan on new developments\n• Checklist\n\nRead it: https://estate.nightdestiny.com/guides/phuket-property-purchase-costs/\n\nGeneral information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+      "image": null
+    },
+    "linkedin": {
+      "note": "Company page article teaser.",
+      "text": "Phuket Property Purchase Costs\n\nThe price on a listing is not the only cost. This guide lists the usual cost items for buying a condo or villa in Phuket so you can ask the right questions. Rates below are the commonly applied ones; confirm the current rates and who pays what for your own deal.\n\nhttps://estate.nightdestiny.com/guides/phuket-property-purchase-costs/\n\n#ThailandProperty #PhuketRealEstate",
+      "image": null
+    },
+    "pinterest": {
+      "note": "Text-on-image pin recommended.",
+      "title": "Phuket Property Purchase Costs",
+      "text": "The main costs when buying property in Phuket: transfer fee, stamp duty or business tax, legal fees and ongoing building charges explained.",
+      "destination": "https://estate.nightdestiny.com/guides/phuket-property-purchase-costs/",
+      "board": "Phuket buyer guides",
+      "image": null
+    },
+    "youtube_shorts": {
+      "note": "Explainer short; needs a presenter or text slides.",
+      "title": "Phuket Property Purchase Costs",
+      "script": [
+        "0-3s HOOK: Phuket Property Purchase Costs",
+        "3-11s: Slide \"Transfer fee\" with one sentence from the guide.",
+        "11-19s: Slide \"Stamp duty or specific business tax\" with one sentence from the guide.",
+        "19-27s: Slide \"Legal and agent costs\" with one sentence from the guide.",
+        "27-30s CTA: \"Full guide on our website. Not legal advice.\""
+      ],
+      "description": "The main costs when buying property in Phuket: transfer fee, stamp duty or business tax, legal fees and ongoing building charges explained.\nhttps://estate.nightdestiny.com/guides/phuket-property-purchase-costs/",
+      "hashtags": [
+        "#Shorts",
+        "#PhuketProperty"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

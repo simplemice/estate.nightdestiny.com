@@ -181,6 +181,7 @@
     if (h === state.lastHash && now - state.lastAt < 60000) { done.textContent = tr('done_again'); done.hidden = false; return; }
     state.lastHash = h; state.lastAt = now; state.lockedUntil = now + 8000; lock();
     setTimeout(unlock, 8000);
+    try { if (window.gtag) gtag('event', 'generate_lead', { method: 'whatsapp_form', page_type: 'rent', page_path: location.pathname, language: cfg.lang, item_type: 'rent', item_slug: (location.pathname.replace(/^\/ru(?=\/)/, '').match(/^\/rent\/([^/]+)\//) || [])[1] || '', link_location: 'rental_request_form' }); } catch (e) {}
     window.open('https://wa.me/' + cfg.wa + '?text=' + encodeURIComponent(m.subject + '\n\n' + m.body), '_blank', 'noopener');
     done.innerHTML = '<strong></strong><p></p><button type="button" class="primary-btn" data-rd-close></button>';
     done.firstChild.textContent = tr('done_title');

@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-23-property-promotion-three-bedroom-condo",
+  "type": "property_promotion",
+  "title": "Property promotion: Three Bedroom Condo",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "rent",
+    "slug": "three-bedroom-condo"
+  },
+  "destinationUrl": "/rent/three-bedroom-condo/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Rental price is a \"from\" price per night; availability is by request: do not promise dates."
+  ],
+  "facts": {
+    "title": "Three Bedroom Condo",
+    "spec": "Condo · 3 bedrooms · up to 90 sqm · 6 guests recommended",
+    "from": "from USD 199 per night"
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Three Bedroom Condo, Phuket\nCondo · 3 bedrooms · up to 90 sqm · 6 guests recommended\nfrom USD 199 per night\n\nSend an availability request (no payment taken online): https://estate.nightdestiny.com/rent/three-bedroom-condo/\nOr WhatsApp: https://wa.me/66942654121\n\nPrices are starting prices and depend on season and dates.",
+      "image": "/img/room/room-details.jpg"
+    },
+    "instagram": {
+      "note": "Link in bio.",
+      "text": "Three Bedroom Condo · Phuket\nCondo · 3 bedrooms · up to 90 sqm · 6 guests recommended\nfrom USD 199 per night\n\nRequest availability: link in bio.\n\n#PhuketRental #PhuketVilla #PhuketHolidays #ThailandTravel",
+      "image": "/img/room/room-details.jpg"
+    },
+    "linkedin": {
+      "note": "Optional: only for corporate or long-stay audiences.",
+      "text": "Three Bedroom Condo in Phuket: Condo · 3 bedrooms · up to 90 sqm · 6 guests recommended. Available from USD 199 per night. Enquiries and availability requests: https://estate.nightdestiny.com/rent/three-bedroom-condo/",
+      "image": "/img/room/room-details.jpg"
+    },
+    "pinterest": {
+      "note": "Vertical crop recommended.",
+      "title": "Three Bedroom Condo for rent in Phuket",
+      "text": "Condo · 3 bedrooms · up to 90 sqm · 6 guests recommended. from USD 199 per night. Request availability on estate.nightdestiny.com.",
+      "destination": "https://estate.nightdestiny.com/rent/three-bedroom-condo/",
+      "board": "Phuket rentals",
+      "image": "/img/room/room-details.jpg"
+    },
+    "youtube_shorts": {
+      "note": "Needs real footage of the property.",
+      "title": "Three Bedroom Condo Phuket: quick tour",
+      "script": [
+        "0-3s HOOK: best exterior or pool shot with the property name.",
+        "3-12s: Say: \"Condo · 3 bedrooms · up to 90 sqm · 6 guests recommended.\"",
+        "12-20s: Say: \"Starting at USD 199 per night, depends on season and dates.\"",
+        "20-25s CTA: \"Send an availability request on our website.\""
+      ],
+      "description": "Three Bedroom Condo, Phuket\nhttps://estate.nightdestiny.com/rent/three-bedroom-condo/\nWhatsApp: https://wa.me/66942654121",
+      "hashtags": [
+        "#Shorts",
+        "#PhuketRental"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

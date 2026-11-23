@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-23-buying-guide-foreign-ownership-condo-thailand",
+  "type": "buying_guide",
+  "title": "Buying guide: Foreign Ownership of Condominiums in Thailand",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "guide",
+    "slug": "foreign-ownership-condo-thailand"
+  },
+  "destinationUrl": "/guides/foreign-ownership-condo-thailand/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Legal topic: have a licensed Thai lawyer review the guide and every derived post before publishing.",
+    "Guide status is needs-legal-review."
+  ],
+  "facts": {
+    "headings": [
+      "The 49% foreign quota",
+      "Funds must come from abroad",
+      "What you receive",
+      "Checks before you reserve",
+      "Off-plan and ready units"
+    ]
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "Foreign Ownership of Condominiums in Thailand\n\nForeign buyers can own a condominium unit in Thailand in their own name, which is why most foreign purchases in Phuket are condos. Here are the main rules, in plain language.\n\nIn the guide:\n• The 49% foreign quota\n• Funds must come from abroad\n• What you receive\n• Checks before you reserve\n• Off-plan and ready units\n\nRead it: https://estate.nightdestiny.com/guides/foreign-ownership-condo-thailand/\n\nGeneral information only, not legal or tax advice, and rules can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit.",
+      "image": null
+    },
+    "linkedin": {
+      "note": "Company page article teaser.",
+      "text": "Foreign Ownership of Condominiums in Thailand\n\nForeign buyers can own a condominium unit in Thailand in their own name, which is why most foreign purchases in Phuket are condos. Here are the main rules, in plain language.\n\nhttps://estate.nightdestiny.com/guides/foreign-ownership-condo-thailand/\n\n#ThailandProperty #PhuketRealEstate",
+      "image": null
+    },
+    "pinterest": {
+      "note": "Text-on-image pin recommended.",
+      "title": "Foreign Ownership of Condominiums in Thailand",
+      "text": "How foreigners can own a condo in Thailand: the 49% foreign quota, foreign currency transfer proof and what to check in a Phuket project.",
+      "destination": "https://estate.nightdestiny.com/guides/foreign-ownership-condo-thailand/",
+      "board": "Phuket buyer guides",
+      "image": null
+    },
+    "youtube_shorts": {
+      "note": "Explainer short; needs a presenter or text slides.",
+      "title": "Foreign Ownership of Condominiums in Thailand",
+      "script": [
+        "0-3s HOOK: Foreign Ownership of Condominiums in Thailand",
+        "3-11s: Slide \"The 49% foreign quota\" with one sentence from the guide.",
+        "11-19s: Slide \"Funds must come from abroad\" with one sentence from the guide.",
+        "19-27s: Slide \"What you receive\" with one sentence from the guide.",
+        "27-30s CTA: \"Full guide on our website. Not legal advice.\""
+      ],
+      "description": "How foreigners can own a condo in Thailand: the 49% foreign quota, foreign currency transfer proof and what to check in a Phuket project.\nhttps://estate.nightdestiny.com/guides/foreign-ownership-condo-thailand/",
+      "hashtags": [
+        "#Shorts",
+        "#PhuketProperty"
+      ]
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}

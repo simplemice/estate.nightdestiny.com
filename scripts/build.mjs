@@ -468,7 +468,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 					<div class="col-lg-3 offset-lg-1">
 						<div class="ft-contact">
 							<p class="ft-title">${T('footer.explore')}</p>
-							<ul>${[['/sale/', 'nav.sale'], ['/rent/', 'nav.rent'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}${LANG === 'ru' ? `<li><a href="${lp('/guides/freehold-leasehold/')}">${T('footer.guide')}</a></li>` : ''}</ul>
+							<ul>${[['/sale/', 'nav.sale'], ['/rent/', 'nav.rent'], ['/projects/', 'nav.projects'], ['/locations/', 'nav.locations']].map(([h, l]) => `<li><a href="${lp(h)}">${T(l)}</a></li>`).join('')}${Object.keys(I.over.guides).length ? `<li><a href="${lp('/guides/')}">${T('footer.guides')}</a></li>` : ''}</ul>
 						</div>
 					</div>
 				</div>
@@ -992,6 +992,7 @@ function locationPage(g) {
 		${nb.length ? `<h2 class="sec-h">${T('loc.nearby')}</h2><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div>` : ''}
 		${faqHtml}
 		<p class="price-disclaimer" data-usd-note>${T('loc.disclaimer')}</p>
+		${Object.keys(I.over.guides).length ? `<p class="mt-3">${T('loc.guides')} ${Object.entries(I.over.guides).map(([k, x]) => `<a href="${lp(`/guides/${k}/`)}">${esc(x.h1)}</a>`).join(' &middot; ')}</p>` : ''}
 		<p class="mt-3">${T('loc.browse_more')} ${LOCS.filter((x) => x.slug !== g.slug).slice(0, 6).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')} &middot; <a href="${lp('/locations/')}">${T('loc.all')}</a></p>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, numberOfItems: N, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, about: { '@type': 'Place', name: `${nm}, ${T('phuket')}`, containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}`;
@@ -1203,7 +1204,7 @@ function projectPage(p) {
 							${spec('spec.construction_start', p.constructionStart)}${spec('spec.completion', tx(p.completionDate, 'completionDate'))}
 						</tbody></table>
 						${waBtn(waMsg.project(t, p.location), 'wa-btn wa-block', T('inquire_wa'))}
-						${LANG === 'ru' && p.ownership.length && I.over.guides['freehold-leasehold'] ? `<p class="ds-note"><a href="${lp('/guides/freehold-leasehold/')}">${T('own.guide_note')}</a></p>` : ''}
+						${p.ownership.length && I.over.guides['freehold-leasehold'] ? `<p class="ds-note"><a href="${lp('/guides/freehold-leasehold/')}">${T('own.guide_note')}</a></p>` : ''}
 						${lpg ? `<p class="ds-note">${T('more_projects_in')} <a href="${lp(lpg.url)}">${esc(areaName(lpg.name))}</a></p>` : ''}
 					</aside>
 				</div>
@@ -1296,21 +1297,34 @@ function contactPage() {
 }
 
 /* ---------- guides (language-specific articles; a guide exists only in the languages it was written for) ---------- */
+const guideLangs = (slug) => LANGS.filter((l) => LOCALES[l].over.guides[slug]);
 function guidePage(slug, g) {
   const nF = projL.filter((p) => p.ownership.includes('Freehold')).length, nL = projL.filter((p) => p.ownership.includes('Leasehold')).length;
   const fill = (txt) => esc(txt)
     .replace('{n_freehold}', `<a href="${lp('/sale/')}?ownership=Freehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nF }))}</a>`)
     .replace('{n_leasehold}', `<a href="${lp('/sale/')}?ownership=Leasehold" rel="nofollow">${esc(T('guide.n_freehold', { n: nL }))}</a>`);
-  const body = `${pageHead(g.h1, g.sub, [['/', T('nav.home')], ['', g.h1]])}
+  const related = (g.related || []).filter((r) => !r.href.startsWith('/guides/') || I.over.guides[r.href.split('/')[2]]);
+  const body = `${pageHead(g.h1, g.sub, [['/', T('nav.home')], ['/guides/', T('guide.crumb')], ['', g.h1]])}
 	<section class="spad-2 guide-page"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
 		<p>${esc(g.intro)}</p>
 		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : ''}`).join('\n\t\t')}
 		<p class="ds-note">${esc(g.disclaimer)}</p>
+		${g.sources && g.sources.length ? `<p class="ds-note">${T('guide.sources')}: ${g.sources.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.name)}</a>`).join(', ')}</p>` : ''}
+		${g.modified ? `<p class="ds-note">${T('guide.updated')}: <time datetime="${esc(g.modified)}">${esc(g.modified)}</time></p>` : ''}
+		${related.length ? `<h2 class="sec-h">${T('guide.related')}</h2><ul class="check-list">${related.map((r) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(r.href)}">${esc(r.label)}</a></li>`).join('')}</ul>` : ''}
 		<p class="mt-4">${waBtn(T('wa.guide'), 'wa-btn', T('guide.ask'))}</p>
 		<p class="mt-3"><a class="primary-btn" href="${lp('/projects/')}">${T('nav.projects')}</a> &nbsp; <a class="primary-btn" href="${lp('/sale/')}">${T('nav.sale')}</a></p>
 	</div></div></div></section>
-	${jsonLd({ '@context': 'https://schema.org', '@type': 'WebPage', name: g.title, url: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, isPartOf: { '@id': WEBSITE_ID() }, publisher: { '@id': SITE + '/#agent' } })}`;
-  return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: '', body, langs: [LANG] });
+	${jsonLd({ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, url: SITE + lp(`/guides/${slug}/`), mainEntityOfPage: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, ...(g.published ? { datePublished: g.published } : {}), ...(g.modified ? { dateModified: g.modified } : {}), author: { '@id': SITE + '/#agent' }, publisher: { '@id': SITE + '/#agent' }, isPartOf: { '@id': WEBSITE_ID() }, ...(g.image ? { image: SITE + g.image } : {}) })}`;
+  return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: '', body, langs: guideLangs(slug) });
+}
+function guidesHub() {
+  const items = Object.entries(I.over.guides);
+  const body = `${pageHead(T('guides.h1'), T('guides.sub'), [['/', T('nav.home')], ['', T('guide.crumb')]])}
+	<section class="spad-2"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
+		<ul class="check-list">${items.map(([k, g]) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}"><strong>${esc(g.h1)}</strong></a><br>${esc(g.description)}</li>`).join('')}</ul>
+	</div></div></div></section>`;
+  return layout({ title: `${T('guides.h1')} | ${settings.siteName}`, description: T('guides.desc'), pathname: '/guides/', active: '', body, langs: LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length) });
 }
 
 /* ---------- css bundle (one render-blocking request instead of seven) ---------- */
@@ -1371,6 +1385,7 @@ function buildLanguage(lang) {
   out('5xx.html', errorPageHtml('5xx'));
   out('about/index.html', aboutPage());
   out('contact/index.html', contactPage());
+  if (Object.keys(I.over.guides).length) out('guides/index.html', guidesHub());
   Object.entries(I.over.guides).forEach(([slug, g]) => out(`guides/${slug}/index.html`, guidePage(slug, g)));
   rentL.concat(saleL).forEach((p) => out(`${urlN(p).slice(1)}index.html`, propertyPage(p)));
   projL.forEach((p) => out(`${urlN(p).slice(1)}index.html`, projectPage(p)));
@@ -1396,6 +1411,7 @@ const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
 const locMod = (g) => latest(g.projects); // content dates only: file mtimes differ between local and CI checkouts and caused sitemap.xml conflicts
 const allListings = rentL.concat(saleL, projL);
+const guideMod = (g) => LANGS.map((l) => (LOCALES[l].over.guides[g] || {}).modified).filter(Boolean).sort().pop() || today;
 const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
 const entry = (loc, lastmod, changefreq, priority, p, only) => (only || readyLangs(p)).map((l, _i, all) => `<url><loc>${SITE}${lpFor(l, loc)}</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>${all.length > 1 ? `${all.map((a) => `<xhtml:link rel="alternate" hreflang="${LANG_META[a].hreflang}" href="${SITE}${lpFor(a, loc)}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${lpFor(DEFAULT_LANG, loc)}"/>` : ''}${p ? imgsOf(p).map((i, n) => `<image:image><image:loc>${xesc(SITE + i)}</image:loc><image:title>${xesc(`${title(p)}${n ? ' - photo ' + (n + 1) : ''}`)}</image:title></image:image>`).join('') : ''}</url>`).join('\n');
 const urls = [
@@ -1407,7 +1423,8 @@ const urls = [
   ...LOCS.map((g) => [g.url, locMod(g), 'weekly', '0.8']),
   ['/about/', latest(allListings), 'yearly', '0.4'],
   ['/contact/', latest(allListings), 'yearly', '0.5'],
-  ...Object.keys(LOCALES.ru.over.guides).map((g) => [`/guides/${g}/`, today, 'monthly', '0.6', null, ['ru']]),
+  ['/guides/', today, 'monthly', '0.6', null, LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length)],
+  ...[...new Set(LANGS.flatMap((l) => Object.keys(LOCALES[l].over.guides)))].map((g) => [`/guides/${g}/`, guideMod(g), 'monthly', '0.6', null, guideLangs(g)]),
   ...rentL.concat(saleL).map((x) => [urlN(x), dOf(x), 'weekly', '0.7', x]),
   ...projL.filter((x) => x.noindex !== true).map((x) => [urlN(x), dOf(x), 'weekly', '0.8', x]),
 ];

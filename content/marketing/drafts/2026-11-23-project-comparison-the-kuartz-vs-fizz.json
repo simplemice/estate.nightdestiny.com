@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-23-project-comparison-the-kuartz-vs-fizz",
+  "type": "project_comparison",
+  "title": "Comparison: The Kuartz vs The Title Fizz",
+  "status": "draft",
+  "approval": {
+    "state": "pending",
+    "approvedBy": null,
+    "approvedAt": null,
+    "note": ""
+  },
+  "publishing": {
+    "state": "unpublished",
+    "scheduledAt": null,
+    "publishedAt": null,
+    "postUrls": {}
+  },
+  "source": {
+    "kind": "comparison",
+    "slugs": [
+      "the-kuartz",
+      "fizz"
+    ]
+  },
+  "destinationUrl": "/projects/the-kuartz/",
+  "generatedAt": "2026-11-23",
+  "needsReview": [
+    "Completion date not recorded: not mentioned in the text.",
+    "No facilities recorded.",
+    "Images are mostly artist renders: say \"render\" in the post or use an \"illustrative\" label.",
+    "Bedrooms not recorded.",
+    "Comparison states recorded facts only: add a neutral conclusion only after review."
+  ],
+  "facts": {
+    "a": {
+      "name": "The Kuartz",
+      "location": "Karon",
+      "developer": "Rhom Bho Property PLC (The Title)",
+      "type": "Condominium",
+      "status": "Pre-sale",
+      "completion": null,
+      "price": 5806306,
+      "currency": "THB",
+      "beds": "1-2",
+      "area": "32-62.9 sqm",
+      "ownership": "Freehold",
+      "facilities": [],
+      "beach": "Karon Beach (1.0 km / 2 minutes)",
+      "units": "198",
+      "url": "/projects/the-kuartz/",
+      "image": "/assets/images/projects/the-kuartz/hero.jpg",
+      "review": [
+        "Completion date not recorded: not mentioned in the text.",
+        "No facilities recorded.",
+        "Images are mostly artist renders: say \"render\" in the post or use an \"illustrative\" label."
+      ]
+    },
+    "b": {
+      "name": "The Title Fizz",
+      "location": "Kata",
+      "developer": "Rhom Bho Property PLC (The Title)",
+      "type": "Condominium",
+      "status": "Pre-sale",
+      "completion": null,
+      "price": 5154707,
+      "currency": "THB",
+      "beds": null,
+      "area": null,
+      "ownership": "Freehold",
+      "facilities": [
+        "Communal swimming pool",
+        "Private clubhouse building for residents",
+        "Pet-friendly residences",
+        "Complimentary shuttle service to the beach"
+      ],
+      "beach": "Kata Beach (1.2 km / 4 minutes)",
+      "units": "135",
+      "url": "/projects/fizz/",
+      "image": "/assets/images/projects/fizz/entrance.jpg",
+      "review": [
+        "Bedrooms not recorded.",
+        "Completion date not recorded: not mentioned in the text."
+      ]
+    }
+  },
+  "channels": {
+    "facebook": {
+      "note": "Page post.",
+      "text": "The Kuartz vs The Title Fizz\n\nLocation: Karon | Kata\nStatus: Pre-sale | Pre-sale\nBedrooms: 1-2 | not recorded\nSize: 32-62.9 sqm | not recorded\nOwnership: Freehold | Freehold\nStarting price: THB 5,806,306 | THB 5,154,707\n\nDetails:\nhttps://estate.nightdestiny.com/projects/the-kuartz/\nhttps://estate.nightdestiny.com/projects/fizz/\n\nPrices and availability can change; check the project page or ask us for the current details. Images may be developer renders.",
+      "image": "/assets/images/projects/the-kuartz/hero.jpg"
+    },
+    "instagram": {
+      "note": "Carousel: slide 1 title, slide 2 table, slide 3 CTA.",
+      "text": "The Kuartz or The Title Fizz?\nLocation: Karon | Kata\nStatus: Pre-sale | Pre-sale\nBedrooms: 1-2 | not recorded\nSize: 32-62.9 sqm | not recorded\nOwnership: Freehold | Freehold\nStarting price: THB 5,806,306 | THB 5,154,707\n\nLinks in bio.\n\n#PhuketRealEstate #PhuketCondo #PropertyComparison",
+      "image": "/assets/images/projects/the-kuartz/hero.jpg"
+    },
+    "linkedin": {
+      "note": "Company page post.",
+      "text": "The Kuartz vs The Title Fizz\n\nLocation: Karon | Kata\nStatus: Pre-sale | Pre-sale\nBedrooms: 1-2 | not recorded\nSize: 32-62.9 sqm | not recorded\nOwnership: Freehold | Freehold\nStarting price: THB 5,806,306 | THB 5,154,707\n\nProject pages:\nhttps://estate.nightdestiny.com/projects/the-kuartz/\nhttps://estate.nightdestiny.com/projects/fizz/\n\nBefore deciding, compare ownership terms, payment plan and developer track record.",
+      "image": "/assets/images/projects/the-kuartz/hero.jpg"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-11-23",
+      "action": "generated",
+      "by": "scripts/marketing.mjs",
+      "note": "Auto-generated draft from site data. Not reviewed."
+    }
+  ]
+}
