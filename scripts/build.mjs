@@ -601,10 +601,7 @@ function rentalDialog() {
 			</fieldset>
 			<fieldset class="rd-set"><legend>${i('rental.form.contact')}</legend>
 				<div class="rd-f"><label for="rd-name">${i('rental.form.name')}</label><input type="text" id="rd-name" name="name" class="form-control" maxlength="100" autocomplete="name" required></div>
-				<div class="rd-row">
-					<div class="rd-f"><label for="rd-email">${i('rental.form.email')}</label><input type="email" id="rd-email" name="email" class="form-control" maxlength="120" autocomplete="email" inputmode="email"></div>
-					<div class="rd-f"><label for="rd-phone">${i('rental.form.phone')}</label><input type="tel" id="rd-phone" name="phone" class="form-control" maxlength="40" autocomplete="tel" inputmode="tel"></div>
-				</div>
+				<div class="rd-f"><label for="rd-phone">${i('rental.form.phone')}</label><input type="tel" id="rd-phone" name="phone" class="form-control" maxlength="40" autocomplete="tel" inputmode="tel" required></div>
 				<p class="rd-hint">${i('rental.form.contact_hint')}</p>
 			</fieldset>
 			<input type="text" name="website" class="rd-hp" tabindex="-1" autocomplete="off" aria-hidden="true">

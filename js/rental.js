@@ -25,7 +25,7 @@
   var f = {
     property: $('rd-property'), adults: $('rd-adults'), children: $('rd-children'), inn: $('rd-in'), out: $('rd-out'),
     locs: $('rd-locs'), locset: $('rd-locset'), other: $('rd-other'), otherWrap: $('rd-other-wrap'), budget: $('rd-budget'), cur: $('rd-cur'), per: $('rd-per'),
-    notes: $('rd-notes'), name: $('rd-name'), email: $('rd-email'), phone: $('rd-phone'), hp: form.elements.website
+    notes: $('rd-notes'), name: $('rd-name'), phone: $('rd-phone'), hp: form.elements.website
   };
   var errBox = $('rd-error'), stayEl = $('rd-stay'), capHint = $('rd-cap-hint'), capWarn = $('rd-cap-warn'), done = $('rd-done');
   var state = { slug: '', type: '', typeLabel: '', maxGuests: 0, lockedUntil: 0, lastHash: '', lastAt: 0 };
@@ -119,16 +119,12 @@
     else if (sel.indexOf('other') > -1 && !f.other.value.trim()) mark(f.other, tr('err.location_other'));
     if (f.budget.value !== '' && !(isFinite(parseFloat(f.budget.value)) && parseFloat(f.budget.value) > 0)) mark(f.budget, tr('err.budget'));
     if (!f.name.value.trim()) mark(f.name, tr('err.name'));
-    var email = f.email.value.trim(), phone = f.phone.value.trim();
-    var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email);
+    var phone = f.phone.value.trim();
     var digits = phone.replace(/\D/g, '');
     var phoneOk = /^[+\d][\d\s().\-]{5,}$/.test(phone) && digits.length >= 7 && digits.length <= 15;
-    if (!email && !phone) { mark(f.email, tr('err.contact')); bad.push(f.phone); }
-    else {
-      if (email && !emailOk) mark(f.email, tr('err.email'));
-      if (phone && !phoneOk) mark(f.phone, tr('err.phone'));
-    }
-    return { errs: errs, bad: bad, data: { adults: adults, kids: kids, a: a, b: b, email: email, phone: phone } };
+    if (!phone) mark(f.phone, tr('err.contact'));
+    else if (!phoneOk) mark(f.phone, tr('err.phone'));
+    return { errs: errs, bad: bad, data: { adults: adults, kids: kids, a: a, b: b, phone: phone } };
   };
   var showErrors = function (v) {
     errBox.innerHTML = '<strong></strong><ul></ul>';
@@ -159,7 +155,7 @@
       'Budget: ' + budget, '',
       'Additional requirements:', f.notes.value.trim() ? f.notes.value.trim() : '(none)', '',
       'Customer:', 'Name: ' + f.name.value.trim(),
-      'Email: ' + (d.email || 'n/a'), 'Phone / WhatsApp: ' + (d.phone || 'n/a'), '',
+      'Phone / WhatsApp: ' + d.phone, '',
       'Submitted: ' + now.toISOString().replace('T', ' ').slice(0, 19) + ' UTC (site language: ' + LANG + ', page: ' + location.pathname + ')', '',
       'Please contact the customer to check availability and provide suitable rental options.'
     ];
