@@ -1478,7 +1478,7 @@ const urls = [
   ...LOCS.map((g) => [g.url, locMod(g), 'weekly', '0.8']),
   ['/about/', latest(allListings), 'yearly', '0.4'],
   ['/contact/', latest(allListings), 'yearly', '0.5'],
-  ['/guides/', today, 'monthly', '0.6', null, LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length)],
+  ['/guides/', LANGS.map((l) => Object.values(LOCALES[l].over.guides).map((x) => x.modified).filter(Boolean)).flat().sort().pop() || today, 'monthly', '0.6', null, LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length)],
   ...[...new Set(LANGS.flatMap((l) => Object.keys(LOCALES[l].over.guides)))].map((g) => [`/guides/${g}/`, guideMod(g), 'monthly', '0.6', null, guideLangs(g)]),
   ...rentL.concat(saleL).map((x) => [urlN(x), dOf(x), 'weekly', '0.7', x]),
   ...projL.filter((x) => x.noindex !== true).map((x) => [urlN(x), dOf(x), 'weekly', '0.8', x]),
