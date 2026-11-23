@@ -93,6 +93,36 @@
       "place": "Phuket International Airport",
       "distance": "22.9 km / 39 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "4.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Bang Tao Night Market",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Choeng Thale Fresh Fruit Market",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "2.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "8.1 km",
+      "mode": "straight line"
     }
   ],
   "furniture": "Most advertised units are listed as fully furnished",
@@ -124,5 +154,5 @@
   "floorPlans": [],
   "imagesStatus": "available",
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
-  "researchNotes": "New project added 2026-11-22. Sources differ on completion (Mar 2027 portal; Q1 2027 / Q4 2026 on other pages) and on starting price (THB 3.2M-4.6M). Portal figure used. Freehold premium THB 500,000 per portal, not published. Land 1,600 sqm (portal). All figures are advertised/third-party and not confirmed by the developer unless noted."
+  "researchNotes": "New project added 2026-11-22. Sources differ on completion (Mar 2027 portal; Q1 2027 / Q4 2026 on other pages) and on starting price (THB 3.2M-4.6M). Portal figure used. Freehold premium THB 500,000 per portal, not published. Land 1,600 sqm (portal). All figures are advertised/third-party and not confirmed by the developer unless noted. Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced."
 }

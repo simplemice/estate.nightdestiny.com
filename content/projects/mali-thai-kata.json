@@ -73,6 +73,56 @@
       "place": "Wat Kitti Sangkharam",
       "distance": "1.3 km / 2 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "4.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "7.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "400 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "350 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Mae Som Jid Fresh Market",
+      "distance": "350 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "4.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "4.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Baan Kata School",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "5.6 km",
+      "mode": "straight line"
     }
   ],
   "imagesStatus": "available",
@@ -99,7 +149,7 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. \"Mali Thai Kata\" not found under that name; mapped to Mali Thai Pool Villas (Karon). Confirm with the client that this is the intended project. Units: 4 (most) vs 5 (Hipflat). Completion Jan 2025 (portal) vs May 2026 (listing). Ownership conflicting (freehold and leasehold mentioned); not published. 7% rental programme in listings not published. Separate project \"Mali Pool Villa\" exists in Karon. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://malithaivilla.com/).",
+  "researchNotes": "New project added 2026-11-22. \"Mali Thai Kata\" not found under that name; mapped to Mali Thai Pool Villas (Karon). Confirm with the client that this is the intended project. Units: 4 (most) vs 5 (Hipflat). Completion Jan 2025 (portal) vs May 2026 (listing). Ownership conflicting (freehold and leasehold mentioned); not published. 7% rental programme in listings not published. Separate project \"Mali Pool Villa\" exists in Karon. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://malithaivilla.com/). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "images": [
     "/assets/images/projects/mali-thai-kata/villa-1.jpeg",
     "/assets/images/projects/mali-thai-kata/villa-2.jpeg"

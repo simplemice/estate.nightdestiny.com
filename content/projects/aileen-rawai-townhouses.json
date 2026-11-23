@@ -87,6 +87,56 @@
       "place": "Phuket International Airport",
       "distance": "45.3 km / 1 hour",
       "mode": "driving"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "3.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "9.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "4.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops",
+      "distance": "750 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "550 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "5.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "1.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ruamrudee International School Phuket",
+      "distance": "6.9 km",
+      "mode": "straight line"
     }
   ],
   "imagesStatus": "unavailable",
@@ -108,7 +158,7 @@
     "/assets/images/floorplans/aileen-rawai-townhouses/floor-plan-type-a.jpg",
     "/assets/images/floorplans/aileen-rawai-townhouses/master-plan.jpg"
   ],
-  "researchNotes": "New project added 2026-11-22. Brief called this a villa project; it is a townhouse project. Final 5% instalment inferred as remainder after the five stated stages (6th milestone not captured). Ownership and completion date not stated. Land size not published. Sizes of 110-191 sqm on another site conflict (portal figures used). No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "researchNotes": "New project added 2026-11-22. Brief called this a villa project; it is a townhouse project. Final 5% instalment inferred as remainder after the five stated stages (6th milestone not captured). Ownership and completion date not stated. Land size not published. Sizes of 110-191 sqm on another site conflict (portal figures used). No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted. Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/aileen-rawai-townhouses/aerial-sunset.jpg",
   "images": [
     "/assets/images/projects/aileen-rawai-townhouses/aerial-street.jpg",

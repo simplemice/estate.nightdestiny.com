@@ -94,7 +94,7 @@
       "url": "https://lip.lazudi.com/phuket/project/amber-chamber-15962"
     }
   ],
-  "researchNotes": "Completion conflict: Papaya says Q3 2026, PropertyScout says 2028 (still under construction as of 2026-11-14 check). Ownership conflict: Papaya says Leasehold, PropertyScout says Freehold; only Papaya recorded. Unit count conflict: 18 (Papaya) vs 16 (PropertyScout). Keller Henson not found. Developer 2 Thanwa Property per Papaya/PropertyScout/Realting; Vera Visio appears only as the agency brand. 4BR Bliss page mentions terrace 722 sqm, not confirmed as land. Serenity bathrooms not given. | From THB 35.1M for 3BR Essence per Papaya Property; PropertyScout shows THB 34.4M-51.3M and Lazudi 32.5M-49.3M, so prices vary by source. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Completion conflict: Papaya says Q3 2026, PropertyScout says 2028 (still under construction as of 2026-11-14 check). Ownership conflict: Papaya says Leasehold, PropertyScout says Freehold; only Papaya recorded. Unit count conflict: 18 (Papaya) vs 16 (PropertyScout). Keller Henson not found. Developer 2 Thanwa Property per Papaya/PropertyScout/Realting; Vera Visio appears only as the agency brand. 4BR Bliss page mentions terrace 722 sqm, not confirmed as land. Serenity bathrooms not given. | From THB 35.1M for 3BR Essence per Papaya Property; PropertyScout shows THB 34.4M-51.3M and Lazudi 32.5M-49.3M, so prices vary by source. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "developer": "2 Thanwa Property Co., Ltd.",
   "cover": "/assets/images/projects/amber-chamber/photo-1.jpg",
@@ -118,6 +118,41 @@
       "place": "Phuket International Airport",
       "distance": "19.0 km / 29 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "4.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "3.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "7.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "1.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "6.4 km",
+      "mode": "straight line"
     }
   ]
 }

@@ -41,6 +41,51 @@
       "place": "Phuket International Airport",
       "distance": "20.6 km / 28 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "7.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "8.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "5.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Might Food Market",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Koh Kaew Market",
+      "distance": "3.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "3.6 km",
+      "mode": "straight line"
     }
   ],
   "sources": [
@@ -61,7 +106,7 @@
       "url": "https://ornsirin.co.th/en/property-item/arise-vibe/"
     }
   ],
-  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+8). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Completion Q1 2027 (Keller Henson) vs Nov 2026 (a property portal); Hawook says about 6% complete, so left blank. Prices on listing sites vary 2.2M-9.9M. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+8). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/arise-vibe. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/arise-vibe/photo-1.webp",
   "images": [

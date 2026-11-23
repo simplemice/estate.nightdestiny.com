@@ -96,7 +96,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/skypark-elara-lakelands"
     }
   ],
-  "researchNotes": "Identity: Skypark Elara Lakelands is a Banyan Group Residences project located within Laguna Lakelands (next to Laguna Lakeview Residences phase one and the Laguna Phuket resort). Developer attribution inconsistent: Banyan press release says Banyan Group; Papaya/Phuket.pro list Laguna Property. Size upper bound 186 vs 183 sqm in press release; 181 sqm for the largest listed unit. Completion conflicts (Q1 2027 vs ~2028). Unit IDs/prices are individual listings, not full price list. Official site page not fetched for price. Unverified: fees, totalUnits beyond first phase, distances. | One page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Identity: Skypark Elara Lakelands is a Banyan Group Residences project located within Laguna Lakelands (next to Laguna Lakeview Residences phase one and the Laguna Phuket resort). Developer attribution inconsistent: Banyan press release says Banyan Group; Papaya/Phuket.pro list Laguna Property. Size upper bound 186 vs 183 sqm in press release; 181 sqm for the largest listed unit. Completion conflicts (Q1 2027 vs ~2028). Unit IDs/prices are individual listings, not full price list. Official site page not fetched for price. Unverified: fees, totalUnits beyond first phase, distances. | One page shows from 9,120,000 THB (1-bed 57 sqm unit). Banyan press release (2024) said 'from THB 8.Xm' (placeholder). Price listing may be a specific unit. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/skypark-elara-lakelands/photo-1.jpg",
   "imageCaptions": [
     "Skypark Elara project render",
@@ -123,6 +123,51 @@
       "place": "Phuket International Airport",
       "distance": "11.8 km / 21 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "2.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "3.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "8.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Fresh Market",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thepkrasattree Municipal School",
+      "distance": "4.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kokwatmai School",
+      "distance": "4.1 km",
+      "mode": "straight line"
     }
   ]
 }

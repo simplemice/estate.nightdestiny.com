@@ -68,6 +68,31 @@
       "place": "Niran Equestrian Center",
       "distance": "4.9 km straight-line",
       "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "2.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "1.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.4 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -128,7 +153,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-wynn-phuket"
     }
   ],
-  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (a property portal); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, a property portal 35.9-49.9M) and are not used. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Developer's own site not found. Not Wynn Resorts. Conflicts: completion 2027 Q4 (KH details) vs 2026 Q1 (KH FAQ) vs completed 2025 (a property portal); units 9 (KH) vs 5 (Hipflat); Thailand-Property lists built-up 380-650 sqm and 3-5 bedrooms in some listings. Unit land sizes per type unknown. Nearby distances are straight-line per Keller Henson. Images are renders. | Keller Henson FAQ lists the 3BR pool villa at THB 29.89M (headline THB 29.9M) and the large-plot version at THB 39.85M (headline 39.9M). Other portals quote different ranges (Thailand-Property from 25.9M, Lazudi 30.89-40.85M, a property portal 35.9-49.9M) and are not used. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/wynn/photo-7.jpg",
   "imageCaptions": [

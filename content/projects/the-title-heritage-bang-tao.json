@@ -106,7 +106,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-title-heritage-bang-tao"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "nearby": [
@@ -119,6 +119,41 @@
       "place": "Phuket International Airport",
       "distance": "15.9 km / 28 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "1.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "5.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "4.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "8.2 km",
+      "mode": "straight line"
     }
   ]
 }

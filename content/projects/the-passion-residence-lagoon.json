@@ -46,6 +46,36 @@
       "place": "Laguna Golf Phuket",
       "distance": "28 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Mission Hospital Phuket",
+      "distance": "6.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "7.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "6.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Koh Kaew Market",
+      "distance": "1.6 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -88,7 +118,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon"
     }
   ],
-  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+1). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "A Lazudi rental snippet mentions a 3 bed / 3 bath / 185 sqm pool villa in the project (rent THB 75,000/mo); not verified by fetch so unit data not filled. Developer's own site not located. | Thailand-Property snippet lists one unit for sale from THB 4,700,000 (not confirmed on fetched page, which showed rent only from THB 38,000/month). Claimed 4.9M not confirmed. | claimed price from 4,900,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, parking. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+1). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "unavailable",
   "completionDate": "Jun 2025",
   "parking": "Parking ratio 200% of units",

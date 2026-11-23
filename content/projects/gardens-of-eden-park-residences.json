@@ -61,6 +61,36 @@
       "place": "Porto de Phuket",
       "distance": "5 minutes",
       "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "8.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban Naithon School",
+      "distance": "3.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thepkrasattree Municipal School",
+      "distance": "5.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -140,7 +170,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/gardens-of-eden-park-residence"
     }
   ],
-  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/sources; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per source; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Identity: 'Gardens of Eden' is the name of the whole Amal Group master development (about 73 rai per official site/sources; other sources say 33-35 acres), planned in three residential phases plus Etro-branded residences: Phase 1 Eden Residences (127 units per source; some sources 141; Q4 2026 completion, roughly 80% sold per press in 2024), Phase 2 Park Residences (455 units; Q4 2027), Phase 3 Lake Residences (698 units; off-plan, completion sources conflict Q3 2028 / Q2 2029). Park Residences was chosen as the sellable phase because it has current advertised prices and is under construction, whereas Eden Residences is largely sold and Lake Residences is off-plan. The official site gives no prices or phase data. Park Residences unit listing shows 'floor 1-7'; bathrooms per unit were assumed equal to listed counts (1BR 1, 2BR 2, 3BR 3). Community facilities and land area are master-community figures, not Park-only. Exact coordinates, fees, and reservation terms not found. Total of 1,280 residences quoted by one source across phases. | Lowest advertised Park Residences price is the 56 sqm one-bedroom (Papaya Property, read 2026-11-14). The developer site publishes no prices. Other phases are priced differently (Eden Residences from THB 22.5M; Lake Residences 1BR 52 sqm from THB 11,904,800), so do not mix them. | Phase 4 (2026-11-19) a property portal fields filled where empty: furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/gardens-of-eden-park-residences/photo-1.jpg",
   "imageCaptions": [
     "Park Residences pool view render",

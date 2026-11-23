@@ -453,9 +453,8 @@
   "rental.form.phone": "Phone / WhatsApp",
   "rental.form.contact_hint": "Please give at least an email address or a phone / WhatsApp number.",
   "rental.form.send_wa": "Send via WhatsApp",
-  "rental.form.send_mail": "Send by email",
   "rental.form.close": "Close",
-  "rental.form.send_note": "Your request opens ready-written in WhatsApp or your email app; press send there to deliver it to our team.",
+  "rental.form.send_note": "Your request opens ready-written in WhatsApp; press send there to deliver it to our team.",
   "rental.form.cap_hint": "Recommended capacity for this option: up to {n} guests.",
   "rental.period.night": "Per night",
   "rental.period.week": "Per week",
@@ -493,9 +492,15 @@
   "rental.js.done_title": "Your request is ready to send",
   "rental.js.done_body": "We opened your request in {channel}. Press send there so it reaches our team. This is an inquiry, not a confirmed booking: we will check availability and contact you with suitable options.",
   "rental.js.done_wa": "WhatsApp",
-  "rental.js.done_mail": "your email app",
   "rental.js.done_again": "Please wait a moment before sending again.",
   "rental.js.done_close": "Close",
   "rental.js.mail_subject": "New Rental Inquiry",
-  "rental.form.location_hint": "Select one or more areas you are interested in."
+  "rental.form.location_hint": "Select one or more areas you are interested in.",
+  "pg.beach": "Nearest beach: {x}.",
+  "spec.beach": "Nearest beach",
+  "nearby_note": "Distances are approximate. Items marked straight line are measured on the map, not by road; ask us for current travel times.",
+  "nearg.Big stores & malls": "Big stores & malls",
+  "nearg.Markets & supermarkets": "Markets & supermarkets",
+  "nearg.Kindergartens": "Kindergartens",
+  "nearg.Other": "Other places"
 }

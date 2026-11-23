@@ -96,6 +96,26 @@
       "place": "Patong Beach",
       "distance": "~7 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Tops",
+      "distance": "650 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Sangtawanchai Phuket School",
+      "distance": "4.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Municipality Kindergarten",
+      "distance": "4.8 km",
+      "mode": "straight line"
     }
   ],
   "imagesStatus": "unavailable",
@@ -114,7 +134,7 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Units: 706 (portal) vs 161 (Hipflat). Portal fee figures (CAM 1,250/sqm, sinking fund 11,300/sqm) look inconsistent so are not published. Prices are resale listings. Ownership and payment plan not published. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted.",
+  "researchNotes": "New project added 2026-11-22. Units: 706 (portal) vs 161 (Hipflat). Portal fee figures (CAM 1,250/sqm, sinking fund 11,300/sqm) look inconsistent so are not published. Prices are resale listings. Ownership and payment plan not published. No rights-cleared images obtained. All figures are advertised/third-party and not confirmed by the developer unless noted. Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/dcondo-reef-kathu/exterior.jpg",
   "images": [
     "/assets/images/projects/dcondo-reef-kathu/garden-exterior.jpg",

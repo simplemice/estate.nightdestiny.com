@@ -296,3 +296,5 @@ html.rd-open{overflow:hidden}
 .rd-chk:has(input:checked){border-color:#946025;background:rgba(148,96,37,.1)}
 .rd-hint-top{margin:0 0 8px}
 #rd-locset.is-invalid{outline:1px solid #c0392b;outline-offset:4px}
+.nearby-grouped .nl-group{display:block;font-weight:700;letter-spacing:.5px;text-transform:uppercase;font-size:13px;padding-top:12px;border-bottom:0}
+.nearby-grouped .nl-group:first-child{padding-top:0}

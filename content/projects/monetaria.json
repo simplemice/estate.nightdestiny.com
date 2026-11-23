@@ -85,6 +85,36 @@
       "place": "Phuket International Airport",
       "distance": "about 45 minutes",
       "mode": "drive"
+    },
+    {
+      "place": "Makro",
+      "distance": "1.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "6.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "450 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Rawai Fish Market",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "1.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "7.3 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -134,7 +164,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/monetaria-villas"
     }
   ],
-  "researchNotes": "Completion conflict: Keller Henson says 2026 Q3; phuket.pro, a property portal and another page say April 2025 / Q2 2025 (completed). Not confirmed completed, status set to Under construction. No official developer website or brochure found. Ownership: Keller Henson says Thai freehold, foreign 30+30+30 leasehold. Gallery images not individually inspected; kinds/captions are generic. | THB 18.9M presales promo for 3BR Type A per Keller Henson. phuket.pro lists a higher 'from' price of THB 22.25M (conflict; may reflect different availability). | Developer \"ABC Developer Co., Ltd.\" appeared on one portal only (phuket.pro) and looks like a placeholder; removed until confirmed. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans).",
+  "researchNotes": "Completion conflict: Keller Henson says 2026 Q3; phuket.pro, a property portal and another page say April 2025 / Q2 2025 (completed). Not confirmed completed, status set to Under construction. No official developer website or brochure found. Ownership: Keller Henson says Thai freehold, foreign 30+30+30 leasehold. Gallery images not individually inspected; kinds/captions are generic. | THB 18.9M presales promo for 3BR Type A per Keller Henson. phuket.pro lists a higher 'from' price of THB 22.25M (conflict; may reflect different availability). | Developer \"ABC Developer Co., Ltd.\" appeared on one portal only (phuket.pro) and looks like a placeholder; removed until confirmed. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (kept existing unit table with floor plans). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "promotions": "Presales promotion price for the 3-bedroom Type A",
   "cover": "/assets/images/projects/monetaria/photo-1.jpg",

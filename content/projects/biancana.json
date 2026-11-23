@@ -80,7 +80,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/biancana-title"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "bathroomsMin": 1,
   "bathroomsMax": 3,
   "nearby": [
@@ -93,6 +93,46 @@
       "place": "Phuket International Airport",
       "distance": "23.2 km / 40 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "3.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "8.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kamala Night Market",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "36th Rajaprajanugroh School",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "5.4 km",
+      "mode": "straight line"
     }
   ]
 }

@@ -50,7 +50,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/thep-krasattri/the-manour"
     }
   ],
-  "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | a property portal base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Si Sunthon\" -> \"Thalang (Thep Krasattri)\". Evidence: Project text: \"six units in Thep Krasattri, Thalang\"; portal hierarchy Thep Krasattri. Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Status changed Pre-sale -> Completed on 2026-11-23 to match the FazWaz project page (Completed).",
+  "researchNotes": "Weakest data. Could not read any page directly. Do not confuse with Manor Phuket. Developer, map, images, facilities all missing. | a property portal base price 25,780,000 for 3BR 262 sqm (from search summary; page itself returned 403 so not read directly). Hipflat reportedly lists about USD 758,969-765,198. Close to but differs from claimed 25.6M. | claimed price 25600000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Si Sunthon\" -> \"Thalang (Thep Krasattri)\". Evidence: Project text: \"six units in Thep Krasattri, Thalang\"; portal hierarchy Thep Krasattri. Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Status changed Pre-sale -> Completed on 2026-11-23 to match the FazWaz project page (Completed). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"
@@ -81,6 +81,41 @@
       "place": "Phuket International Airport",
       "distance": "8.4 km / 13 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Nai Yang Beach",
+      "distance": "5.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "6.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "16.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "5.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "6.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ni Yang Night Market",
+      "distance": "5.4 km",
+      "mode": "straight line"
     }
   ]
 }

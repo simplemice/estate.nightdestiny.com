@@ -72,6 +72,46 @@
       "place": "BCIS Phuket International School",
       "distance": "4.8 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "2.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "8.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "750 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "850 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "4.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -171,7 +211,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/next-point-condominium"
     }
   ],
-  "researchNotes": "Identity: the project is marketed as 'Next Point Condominium' in Rawai; 'Next Point Rawai' is only a location-qualified shorthand. No developer-owned website or brochure was found; next-point-condominium.com is a reseller/marketing site. Developer attribution conflicts (AE Phuket Co., Ltd. on Global Property Thailand and Rumavi; South Point Group on Keller Henson; Next Point Phuket on a property portal). Unit count 372 (a property portal, Keller Henson) vs 378 (Global Property Thailand, Rumavi). Completion date conflicts across sources. Distances to landmarks conflict between sources (Big Buddha, Promthep Cape, Chalong Bay swapped), so only consistent ones are listed. Unit price list is the reseller's 'min price' per layout, not a verified developer price list. Common fee, sinking fund, exact address, coordinates and brochure not found. Images are developer renders as republished by the reseller; no master plan found. Yield claims (6-7%) are unverified marketing. | Lowest figure is the 35 sqm Building A studio shown as 'Min. price' on next-point-condominium.com (read 2026-11-14). Other sources differ: a property portal/LivePhuket studio from THB 3,734,500 (foreign quota) and 4,046,000; Global Property Thailand 3,955,000 (Thai quota) / 4,305,000 (foreign quota); Keller Henson range 4.0M-17.8M; Rumavi 3.22M-35.07M; next-point-condominium.com headline range 4,025,000-22,387,500. Prices vary by building, view and quota. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Identity: the project is marketed as 'Next Point Condominium' in Rawai; 'Next Point Rawai' is only a location-qualified shorthand. No developer-owned website or brochure was found; next-point-condominium.com is a reseller/marketing site. Developer attribution conflicts (AE Phuket Co., Ltd. on Global Property Thailand and Rumavi; South Point Group on Keller Henson; Next Point Phuket on a property portal). Unit count 372 (a property portal, Keller Henson) vs 378 (Global Property Thailand, Rumavi). Completion date conflicts across sources. Distances to landmarks conflict between sources (Big Buddha, Promthep Cape, Chalong Bay swapped), so only consistent ones are listed. Unit price list is the reseller's 'min price' per layout, not a verified developer price list. Common fee, sinking fund, exact address, coordinates and brochure not found. Images are developer renders as republished by the reseller; no master plan found. Yield claims (6-7%) are unverified marketing. | Lowest figure is the 35 sqm Building A studio shown as 'Min. price' on next-point-condominium.com (read 2026-11-14). Other sources differ: a property portal/LivePhuket studio from THB 3,734,500 (foreign quota) and 4,046,000; Global Property Thailand 3,955,000 (Thai quota) / 4,305,000 (foreign quota); Keller Henson range 4.0M-17.8M; Rumavi 3.22M-35.07M; next-point-condominium.com headline range 4,025,000-22,387,500. Prices vary by building, view and quota. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/next-point-rawai/photo-1.jpg",
   "imageCaptions": [
     "Building exterior render",

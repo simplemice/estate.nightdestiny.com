@@ -49,6 +49,56 @@
       "place": "Phuket International Airport",
       "distance": "27.8 km (about 45 min)",
       "mode": "driving"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "450 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "5.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "700 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "4.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "LanKamala Market",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kamala Seafood & Fruit Market",
+      "distance": "750 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Muang Patong Municipal Kindergarten",
+      "distance": "5.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Municipality Kindergarten",
+      "distance": "6.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "36th Rajaprajanugroh School",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kajonkiet International School Phuket",
+      "distance": "9.1 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -92,7 +142,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/kamala/goldena-twin"
     }
   ],
-  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. a property portal project header: from 10,900,000; Thailand-Property: from 10,999,999; a property portal single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Source/portal prices only, not developer-official. | claimed price 11490000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Image captions/kind are not verified (alt text not available); first image likely exterior, uncertain whether photos or renders. Developer attribution comes only from a search snippet and should be verified. Not the 'Goldena Twin Private Villas' hotel listings on OTA sites. | Differs from claim. a property portal project header: from 10,900,000; Thailand-Property: from 10,999,999; a property portal single listing 11,000,000; a search snippet showed one 3BR listing at 11,490,000 and one at 12,000,000. Source/portal prices only, not developer-official. | claimed price 11490000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"

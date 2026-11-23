@@ -47,6 +47,51 @@
       "place": "Phuket International Airport",
       "distance": "about 30 minutes",
       "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "2.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "4.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "4.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Choeng Thale Fresh Fruit Market",
+      "distance": "1.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "2.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "7.4 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -90,7 +135,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/redwood-lakeside"
     }
   ],
-  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Papaya page is internally inconsistent: 34 vs 27 villas; built-up 175-272 in listing vs 326 to 500+ in text; floors 2 listed but Type B single-storey. Also marketed as 'One Residence Lakeside by Redwood Luxury' on some portals. Official site not found. Render/photo not verified. | Papaya Property: 3BR B from 37,400,000 (range 37.4M-82M); Keller Henson per search snippet 37.4M-59.2M. Client 41.7M not found. | claimed price 41700000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/redwood-lakeside/photo-1.jpg",
   "imageCaptions": [

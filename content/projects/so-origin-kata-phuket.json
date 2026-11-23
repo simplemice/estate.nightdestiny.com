@@ -41,6 +41,56 @@
       "place": "Kata Beach",
       "distance": "short walk (about 800 m per one portal)",
       "mode": "walking"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "4.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "7.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "400 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "4.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kata Open Market",
+      "distance": "50 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Mae Som Jid Fresh Market",
+      "distance": "300 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "4.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Baan Kata School",
+      "distance": "1.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "5.7 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -110,7 +160,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/so-origin-kata-phuket"
     }
   ],
-  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | One page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Developer confirmed (Origin Property) from official page URL/search snippet; 'So Origin' is Origin's resort-condo line name (product-line interpretation not independently verified). Building details (4 buildings, 8 floors, 5 rai, 686 units) come from search-result snippet of origin.co.th, whose page did not load for me. Kata vs Karon location varies. Price discrepancy 3.59M vs 3.98M unresolved. Condo-fee data not found. | One page shows from 3,980,000 (26 sqm 1BR). Search snippet of the official Origin page said from 3.59M and an aggregator 3,255,000-8,330,000; not verified by reading. Official page returned no readable content to fetch. | Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/so-origin-kata-phuket/photo-1.jpg",
   "imageCaptions": [
     "Project gallery image",

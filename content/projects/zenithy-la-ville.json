@@ -103,6 +103,16 @@
       "place": "Phuket International Airport",
       "distance": "22.4 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Koh Kaew Market",
+      "distance": "200 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market",
+      "distance": "1.2 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -136,7 +146,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/zenithy-la-ville"
     }
   ],
-  "researchNotes": "Official site not found. Images likely renders (not stated). Page has inconsistencies (completion vs 12-month build, price/sqm). | Keller Henson header range THB 20.9M-40.3M (Type B 20.9M), while its pricing section/FAQ says 19.4M-41.3M. Claim of 19.9M not matched on any page. | claimed price 19900000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Koh Kaew\" -> \"Ko Kaeo\". Evidence: Spelling only: same area as the other Ko Kaeo records. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Official site not found. Images likely renders (not stated). Page has inconsistencies (completion vs 12-month build, price/sqm). | Keller Henson header range THB 20.9M-40.3M (Type B 20.9M), while its pricing section/FAQ says 19.4M-41.3M. Claim of 19.9M not matched on any page. | claimed price 19900000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 5 (2026-11-20) location corrected: \"Koh Kaew\" -> \"Ko Kaeo\". Evidence: Spelling only: same area as the other Ko Kaeo records. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/zenithy-la-ville/photo-4.jpg",
   "imageCaptions": [

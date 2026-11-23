@@ -1,5 +1,5 @@
 /* Rental "Request Availability" dialog (booking by request; nothing is booked or confirmed here).
- * Validates the form in the browser, builds one complete structured inquiry and hands it to WhatsApp or the e-mail app.
+ * Validates the form in the browser, builds one complete structured inquiry and hands it to WhatsApp (the only sending channel).
  * There is no server on this static site, so delivery depends on the customer pressing send in that app.
  * Configuration (language strings, contact details) comes from <script id="rental-cfg"> written by scripts/build.mjs. */
 (function () {
@@ -167,8 +167,8 @@
     return { subject: subject + ' – ' + f.property.value + ' – ' + locTxt, body: lines.join('\n') };
   };
 
-  /* ---- send (WhatsApp or e-mail) with duplicate protection ---- */
-  var buttons = [$('rd-send-wa'), $('rd-send-mail')];
+  /* ---- send via WhatsApp with duplicate protection ---- */
+  var buttons = [$('rd-send-wa')];
   var lock = function () { buttons.forEach(function (b) { b.disabled = true; b.setAttribute('aria-disabled', 'true'); }); };
   var unlock = function () { buttons.forEach(function (b) { b.disabled = false; b.removeAttribute('aria-disabled'); }); state.lockedUntil = 0; };
   var hash = function (s) { var h = 5381; for (var i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return String(h); };
@@ -185,14 +185,10 @@
     if (h === state.lastHash && now - state.lastAt < 60000) { done.textContent = tr('done_again'); done.hidden = false; return; }
     state.lastHash = h; state.lastAt = now; state.lockedUntil = now + 8000; lock();
     setTimeout(unlock, 8000);
-    if (channel === 'wa') {
-      window.open('https://wa.me/' + cfg.wa + '?text=' + encodeURIComponent(m.subject + '\n\n' + m.body), '_blank', 'noopener');
-    } else {
-      location.href = 'mailto:' + cfg.email + '?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
-    }
+    window.open('https://wa.me/' + cfg.wa + '?text=' + encodeURIComponent(m.subject + '\n\n' + m.body), '_blank', 'noopener');
     done.innerHTML = '<strong></strong><p></p><button type="button" class="primary-btn" data-rd-close></button>';
     done.firstChild.textContent = tr('done_title');
-    done.children[1].textContent = tr('done_body', { channel: tr(channel === 'wa' ? 'done_wa' : 'done_mail') });
+    done.children[1].textContent = tr('done_body', { channel: tr('done_wa') });
     done.lastChild.textContent = tr('done_close');
     done.lastChild.addEventListener('click', close);
     done.hidden = false;

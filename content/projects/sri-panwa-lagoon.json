@@ -71,6 +71,31 @@
       "place": "HeadStart International School (City Campus)",
       "distance": "11.4 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "2.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "4.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Choeng Thale Fresh Fruit Market",
+      "distance": "900 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "1.1 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -133,7 +158,7 @@
       "url": "https://kellerhenson.com/project/sri-panwa-lagoon"
     }
   ],
-  "researchNotes": "Official developer site not found/fetched. Images may be renders (not stated). Keller Henson page has internal inconsistencies (price/sqm, FAQ built-up 565-572 sqm). Papaya range 45.5M-126M. Ownership: freehold via Thai company/national, 30+30+30 lease for foreigners. | Keller Henson header shows from THB 41.0M (3BR/4BR Multi-Flex House); its FAQ says 49.3M. a property portal and Asterofasia (via search snippets, pages not readable) show 39.8M, which matches the claim but could not be verified on-page. Cheapest pool villa 45.7M. | claimed price 39800000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Official developer site not found/fetched. Images may be renders (not stated). Keller Henson page has internal inconsistencies (price/sqm, FAQ built-up 565-572 sqm). Papaya range 45.5M-126M. Ownership: freehold via Thai company/national, 30+30+30 lease for foreigners. | Keller Henson header shows from THB 41.0M (3BR/4BR Multi-Flex House); its FAQ says 49.3M. a property portal and Asterofasia (via search snippets, pages not readable) show 39.8M, which matches the claim but could not be verified on-page. Cheapest pool villa 45.7M. | claimed price 39800000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sri-panwa-lagoon/photo-1.jpg",
   "imageCaptions": [

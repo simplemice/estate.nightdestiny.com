@@ -47,6 +47,51 @@
       "place": "Phuket International Airport",
       "distance": "9.8 km / 16 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Nai Yang Beach",
+      "distance": "3.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "12.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "20.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "750 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "4.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "200 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops Daily",
+      "distance": "750 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban MaiKhao School",
+      "distance": "500 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wat Mongkonwaram School",
+      "distance": "4.0 km",
+      "mode": "straight line"
     }
   ],
   "sources": [
@@ -67,7 +112,7 @@
       "url": "https://papayaproperty.com/mouana-phuket"
     }
   ],
-  "researchNotes": "Several name variants (Mouana Breeze Maikhao) assumed same project. Price list 19.9M (old) vs 21.9-25.9M (newer) conflict, so price on request. Completion 2025 Q2 to Q3 2027. Checked 2026-11-17. 2026-11-23 FazWaz project page: 26 units, 1 building, 23,484 sqm site, made to order (12 months), from THB 26.0M; units 4BR/5BA 400 sqm 26.0M, 3BR/4BA 404 sqm 28.9M, 4BR/5BA 433 sqm 31.0M, plots 600 sqm, fully furnished, pool view. Replaces the earlier \"price on request\" because FazWaz now shows a consistent list. Ownership and payment plan not stated.",
+  "researchNotes": "Several name variants (Mouana Breeze Maikhao) assumed same project. Price list 19.9M (old) vs 21.9-25.9M (newer) conflict, so price on request. Completion 2025 Q2 to Q3 2027. Checked 2026-11-17. 2026-11-23 FazWaz project page: 26 units, 1 building, 23,484 sqm site, made to order (12 months), from THB 26.0M; units 4BR/5BA 400 sqm 26.0M, 3BR/4BA 404 sqm 28.9M, 4BR/5BA 433 sqm 31.0M, plots 600 sqm, fully furnished, pool view. Replaces the earlier \"price on request\" because FazWaz now shows a consistent list. Ownership and payment plan not stated. Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mouana-mai-khao/photo-1.jpg",
   "images": [

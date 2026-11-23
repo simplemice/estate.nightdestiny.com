@@ -59,6 +59,36 @@
       "place": "Phuket International Airport",
       "distance": "30 min",
       "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "6.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "1.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "3.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Friday Night Market",
+      "distance": "700 m",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -114,7 +144,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-base-cherngtalay"
     }
   ],
-  "researchNotes": "Developer Sansiri confirmed by source page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the source's URL slug). Distances are travel times from the source page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Developer Sansiri confirmed by source page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the source's URL slug). Distances are travel times from the source page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
   "imageCaptions": [
     "The Base Cherngtalay gallery 1",

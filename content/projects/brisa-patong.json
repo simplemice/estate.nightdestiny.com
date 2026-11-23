@@ -66,6 +66,46 @@
       "place": "Patong Beach",
       "distance": "about 900 m",
       "mode": "unspecified"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "6.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "OTOP Market Patong",
+      "distance": "450 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Banzaan Fresh Market",
+      "distance": "500 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Muang Patong Municipal Kindergarten",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Municipality Kindergarten",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban Sainamyen Municipality School",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Oak Meadow International School Phuket",
+      "distance": "6.6 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -115,7 +155,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/kathu/patong/brisa-patong-by-sansiri"
     }
   ],
-  "researchNotes": "Identity clear (Sansiri). Official Sansiri page not found. Launch dates conflict: booking 25 Nov 2026 vs public grand opening 7 Dec 2026 (a property portal). Completion not announced. Freehold assumed from search summary (condo); not read on an official page. No fees or payment plan found. Unit builtUp ranges given as strings in unitTypes. Only portal page was read directly; a property portal and Kaohoon returned 403. Land ~4 rai from search summary. | Portal shows 3,899,999-7,275,000 THB (2 units listed); Thai news reports 3.9-13.9M THB range. Starting price consistent at about 3.9M. | Phase 3 (2026-11-19): Sansiri page (read 2026-11-19): lists BRISA Patong, Condominium, New Project, start 3.9 MB; no units, dates or ownership on that page. a property portal (browser read): 389 units, 3 buildings, 8 floors, 6,400 sqm, completion Jul 2028 (portal), Jungceylon 350 m / 5 min walk, Walking Street 10 min walk, Patong Beach ~900 m. Sansiri card tagline ('single-house brand') conflicts with Condominium category: ignored. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Identity clear (Sansiri). Official Sansiri page not found. Launch dates conflict: booking 25 Nov 2026 vs public grand opening 7 Dec 2026 (a property portal). Completion not announced. Freehold assumed from search summary (condo); not read on an official page. No fees or payment plan found. Unit builtUp ranges given as strings in unitTypes. Only portal page was read directly; a property portal and Kaohoon returned 403. Land ~4 rai from search summary. | Portal shows 3,899,999-7,275,000 THB (2 units listed); Thai news reports 3.9-13.9M THB range. Starting price consistent at about 3.9M. | Phase 3 (2026-11-19): Sansiri page (read 2026-11-19): lists BRISA Patong, Condominium, New Project, start 3.9 MB; no units, dates or ownership on that page. a property portal (browser read): 389 units, 3 buildings, 8 floors, 6,400 sqm, completion Jul 2028 (portal), Jungceylon 350 m / 5 min walk, Walking Street 10 min walk, Patong Beach ~900 m. Sansiri card tagline ('single-house brand') conflicts with Condominium category: ignored. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/brisa-patong/photo-1.jpg",
   "imageCaptions": [
     "BRISA Patong exterior render (three 8-storey buildings)",

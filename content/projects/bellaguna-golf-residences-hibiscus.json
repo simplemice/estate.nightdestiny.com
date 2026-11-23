@@ -44,6 +44,51 @@
       "place": "Phuket International Airport",
       "distance": "about 25 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "7.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "3.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "1.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thepkrasattree Municipal School",
+      "distance": "5.1 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -87,7 +132,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-golf-residences-hibiscus"
     }
   ],
-  "researchNotes": "Relationship: Bellaguna is Banyan Group's residential brand launched January 2026; 'Bellaguna Golf Residences' is the golf-course residence collection (five finger-shaped buildings); Hibiscus appears to be the name of this release/building group within it, though the developer page never defines 'Hibiscus' explicitly (inference). Developer page gives no price, size, floors, unit count or completion. Size max 297 sqm and ~100 units come from search-snippet portal text, unverified. Floors, unit total, parking, fees not found. Area given as both Bang Tao and Choeng Thale (same locality, Laguna). | One page shows from 13,200,000 (1BR 67 sqm) to 19,190,000 (2BR 100 sqm). Search-snippet portal listings show other figures (about 10.56M and 11.81M for 1BR; 17.89M for 2BR) that were not verified; 10,560,000 appears on the source page as an instalment figure, i.e. 80% of 13.2M. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Relationship: Bellaguna is Banyan Group's residential brand launched January 2026; 'Bellaguna Golf Residences' is the golf-course residence collection (five finger-shaped buildings); Hibiscus appears to be the name of this release/building group within it, though the developer page never defines 'Hibiscus' explicitly (inference). Developer page gives no price, size, floors, unit count or completion. Size max 297 sqm and ~100 units come from search-snippet portal text, unverified. Floors, unit total, parking, fees not found. Area given as both Bang Tao and Choeng Thale (same locality, Laguna). | One page shows from 13,200,000 (1BR 67 sqm) to 19,190,000 (2BR 100 sqm). Search-snippet portal listings show other figures (about 10.56M and 11.81M for 1BR; 17.89M for 2BR) that were not verified; 10,560,000 appears on the source page as an instalment figure, i.e. 80% of 13.2M. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/bellaguna-golf-residences-hibiscus/photo-1.jpg",
   "imageCaptions": [
     "Main pool",

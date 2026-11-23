@@ -37,6 +37,56 @@
       "place": "Karon Beach",
       "distance": "Near",
       "mode": "unspecified"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "4.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "7.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "100 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "150 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Mae Som Jid Fresh Market",
+      "distance": "450 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "4.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "4.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Baan Kata School",
+      "distance": "1.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "6.0 km",
+      "mode": "straight line"
     }
   ],
   "sources": [
@@ -61,7 +111,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon"
     }
   ],
-  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one source only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Developer conflict (Able Land vs Phuket Plus) so left blank. Completion Q2 2027 vs Mar 2028. Units count 449 from one source only, not used. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/ever-prime-residences-karon. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/ever-prime-residences/photo-1.webp",
   "images": [

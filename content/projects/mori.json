@@ -72,6 +72,26 @@
       "place": "Phuket International Airport",
       "distance": "about 25 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "8.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Fresh Market",
+      "distance": "3.0 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -109,7 +129,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/mori"
     }
   ],
-  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; a property portal says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Official site not found. Papaya says 'furniture' feature and private pool optional/included ambiguously. Keller Henson lists Mori 2 The Valley under Bang Tao area with 47 units; a property portal says Mori has 118 units. Images are brochure images, appear to be renders. | Papaya Property lists Mori from THB 13,048,000 (3BR 229 sqm). Keller Henson lists the related 'Mori 2 The Valley' from THB 16.67M (range 16.7-20.6M), closer to the claim of 16.3M. Claim not exactly confirmed; project identity (Mori vs Mori 2 The Valley) unclear. | claimed price 16300000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/mori/photo-3.jpg",
   "imageCaptions": [

@@ -76,6 +76,16 @@
       "place": "Bang Tao and Layan Beaches",
       "distance": "about 5-7 min",
       "mode": "driving"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "2.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "2.1 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -119,7 +129,7 @@
       "url": "https://kellerhenson.com/project/the-harmony-by-wallaya-villas"
     }
   ],
-  "researchNotes": "No official developer page found/fetched. Image captions/kind are not verified (render vs photo unknown). Land: Type A 627-816, Type B 258-407 sqm per source. Completion conflicts between sources. Distances mode not stated by source. | Keller Henson shows 3BR Type B from 23.9M, large plot 25.9M; 5BR Type A 74.9M-78.2M. Claimed 25.2M not shown; lowest advertised is 23.9M. | claimed price 25200000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "No official developer page found/fetched. Image captions/kind are not verified (render vs photo unknown). Land: Type A 627-816, Type B 258-407 sqm per source. Completion conflicts between sources. Distances mode not stated by source. | Keller Henson shows 3BR Type B from 23.9M, large plot 25.9M; 5BR Type A 74.9M-78.2M. Claimed 25.2M not shown; lowest advertised is 23.9M. | claimed price 25200000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/the-harmony-by-wallaya-villas/photo-1.jpg",
   "imageCaptions": [

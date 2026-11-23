@@ -40,6 +40,46 @@
       "place": "Phuket International Airport",
       "distance": "16.5 km / 23 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Sai Kaew Beach",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "18.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "7.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "10.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "6.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops Daily",
+      "distance": "6.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban Thachatchai School",
+      "distance": "1.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban MaiKhao School",
+      "distance": "5.9 km",
+      "mode": "straight line"
     }
   ],
   "sources": [
@@ -68,7 +108,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao"
     }
   ],
-  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "It is a condominium (brief did not state type). Developer name from listing only. Completion 2026 Q2/Q4 or Q4 2027 conflict. Rental-guarantee claims not used. Ownership not stated. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, floors, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/mai-khao/maviston-mai-khao. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/maviston-mai-khao/photo-1.jpg",
   "images": [

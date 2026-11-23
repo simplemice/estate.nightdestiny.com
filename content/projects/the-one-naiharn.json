@@ -82,6 +82,56 @@
       "place": "Phuket International Airport",
       "distance": "47.8 km / 1 hour",
       "mode": "driving"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "5.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "11.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "7.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Sunsuri Sunset Market",
+      "distance": "700 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "850 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "2.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Montessori Phuket",
+      "distance": "7.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Watsawangk Aroom School",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "2.1 km",
+      "mode": "straight line"
     }
   ],
   "imagesStatus": "available",
@@ -104,7 +154,7 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Unit count: 196 (portal) vs 218 (another portal). Original completion expected 2023; portal now Mar 2026. Freehold premium THB 10,000/sqm (portal), not published. Payment plan on portal for completed project not published. Prices are a mix of developer-stock and resale listings. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://theonenaiharn.com/).",
+  "researchNotes": "New project added 2026-11-22. Unit count: 196 (portal) vs 218 (another portal). Original completion expected 2023; portal now Mar 2026. Freehold premium THB 10,000/sqm (portal), not published. Payment plan on portal for completed project not published. Prices are a mix of developer-stock and resale listings. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://theonenaiharn.com/). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "images": [
     "/assets/images/projects/the-one-naiharn/rooftop-pool.jpg",
     "/assets/images/projects/the-one-naiharn/pool-access.jpg",

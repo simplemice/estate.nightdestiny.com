@@ -77,6 +77,26 @@
       "place": "Phuket International Airport",
       "distance": "20 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Makro",
+      "distance": "4.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "4.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "3.3 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -172,7 +192,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/layan-green-park-phase-2"
     }
   ],
-  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (a property portal page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 2 identity: listed as a separate project by VillaCarte Group; relation to Phase 1 not verified from sources read (a property portal page blocked). Sizes, price ceilings and completion conflict across sources. Rental guarantee claims (5% for 3 years) are marketing, not included. Land area 9,490 sqm (Keller Henson). Bedrooms min 0 = studio. Exact address, coordinates not found. Official developer site not read. | Keller Henson listing from 7.5M (studio 36.72 sqm); the same page also shows 'starting prices by type' studio 6,205,000 and a price ceiling of 38.2M vs 42.09M in FAQ. Hipflat shows USD 160,850+. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/layan-green-park-phase-2/photo-1.jpg",
   "imageCaptions": [
     "Aerial / showcase",

@@ -81,6 +81,26 @@
       "place": "Phuket International Airport",
       "distance": "about 24 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "3.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Fresh Market",
+      "distance": "3.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "4.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -109,7 +129,7 @@
       "url": "https://kellerhenson.com/project/sinara-pool-villas"
     }
   ],
-  "researchNotes": "Official site not found. Images likely renders (not stated). Keller Henson quotes rental ROI 7.4-7.7% (promotional, omitted). Payment plan conflicts within page. Brochure PDF not read - could provide more detail. | Keller Henson range THB 26.9M-29.9M (Type A 3BR 26.9M), matches claim. | claimed price 26900000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Official site not found. Images likely renders (not stated). Keller Henson quotes rental ROI 7.4-7.7% (promotional, omitted). Payment plan conflicts within page. Brochure PDF not read - could provide more detail. | Keller Henson range THB 26.9M-29.9M (Type A 3BR 26.9M), matches claim. | claimed price 26900000 Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sinara-pool-villas/photo-1.jpg",
   "imageCaptions": [

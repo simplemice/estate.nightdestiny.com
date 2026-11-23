@@ -55,6 +55,31 @@
       "place": "Mingle Mall Naiyang",
       "distance": "5.3 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Layan Beach",
+      "distance": "700 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Naithon Mart",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "4.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ban Naithon School",
+      "distance": "2.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Watmongkol Wararam School",
+      "distance": "6.1 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -127,7 +152,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/kiara-reserve-residence"
     }
   ],
-  "researchNotes": "Project has two products: a condominium (25 units, used here) and villas (17 per EdgeProp, sold separately); supplied name 'Residences' matches the condominium listing. Developer: Minor International; EdgeProp also names Kajima Corporation as partner. Ownership conflict: Keller Henson says freehold (foreign quota 49%) but also mentions 'lease registration' and Papaya reportedly lists leasehold - verify with lawyer. Papaya page was 404. Completion dates conflict (2025/Dec 2025/2026 Q1). Unit count 25 here vs 29 in another source. Address (Layan Beach Soi 4 per a Sotheby's listing) not verified. Distances unspecified mode. | Keller Henson: 3BR typical THB 44.5M, 3BR duplex 67.5M, range up to 115.5M. Separate villa product (Keller Henson villa page) is listed from about THB 75M and is not included. EdgeProp (launch article) quoted US$1-3M. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Project has two products: a condominium (25 units, used here) and villas (17 per EdgeProp, sold separately); supplied name 'Residences' matches the condominium listing. Developer: Minor International; EdgeProp also names Kajima Corporation as partner. Ownership conflict: Keller Henson says freehold (foreign quota 49%) but also mentions 'lease registration' and Papaya reportedly lists leasehold - verify with lawyer. Papaya page was 404. Completion dates conflict (2025/Dec 2025/2026 Q1). Unit count 25 here vs 29 in another source. Address (Layan Beach Soi 4 per a Sotheby's listing) not verified. Distances unspecified mode. | Keller Henson: 3BR typical THB 44.5M, 3BR duplex 67.5M, range up to 115.5M. Separate villa product (Keller Henson villa page) is listed from about THB 75M and is not included. EdgeProp (launch article) quoted US$1-3M. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/kiara-reserve-residences/photo-1.jpg",
   "imageCaptions": [
     "Kiara Reserve Residences photo 1",

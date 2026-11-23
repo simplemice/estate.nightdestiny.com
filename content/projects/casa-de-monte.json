@@ -85,7 +85,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/casa-de-monte"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "privatePool": "yes",
   "bedroomsMin": 3,
   "bedroomsMax": 4,
@@ -103,6 +103,51 @@
       "place": "Phuket International Airport",
       "distance": "25.1 km / 37 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Kalim Beach",
+      "distance": "8.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Mission Hospital Phuket",
+      "distance": "5.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "5.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Koh Kaew Market",
+      "distance": "1.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market",
+      "distance": "2.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Anubian Phuket School",
+      "distance": "7.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Sangtawanchai Phuket School",
+      "distance": "7.7 km",
+      "mode": "straight line"
     }
   ]
 }

@@ -103,6 +103,46 @@
       "place": "Blue Canyon Golf Club",
       "distance": "Nearby (no distance published)",
       "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "8.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "16.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "350 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ni Yang Night Market",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wat Mongkonwaram School",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Watmongkol Wararam School",
+      "distance": "1.2 km",
+      "mode": "straight line"
     }
   ],
   "imagesStatus": "available",
@@ -129,7 +169,7 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Units 5 (portal, property-scout) vs 1 (Hipflat). Floors \"2\" not confirmed - removed. Completion 2027 on one listing only. Location Sakhu (portal) vs Nai Yang (villa site). Ownership not stated. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://www.botanicaluxuryvilla.com/projects/botanica-sky-port/).",
+  "researchNotes": "New project added 2026-11-22. Units 5 (portal, property-scout) vs 1 (Hipflat). Floors \"2\" not confirmed - removed. Completion 2027 on one listing only. Location Sakhu (portal) vs Nai Yang (villa site). Ownership not stated. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://www.botanicaluxuryvilla.com/projects/botanica-sky-port/). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "images": [
     "/assets/images/projects/botanica-skyport/skyport-2.jpg",
     "/assets/images/projects/botanica-skyport/skyport-3.jpg",

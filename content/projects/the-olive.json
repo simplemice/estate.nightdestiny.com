@@ -74,6 +74,16 @@
     {
       "place": "International school",
       "distance": "5 min"
+    },
+    {
+      "place": "Big C",
+      "distance": "600 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "4.0 km",
+      "mode": "straight line"
     }
   ],
   "featured": false,
@@ -94,7 +104,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-olive"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "bathroomsMin": 1,
   "bathroomsMax": 2,
   "builtUpMin": 32.05,

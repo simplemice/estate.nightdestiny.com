@@ -39,6 +39,51 @@
       "place": "Mini Mart",
       "distance": "700 m",
       "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "3.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "7.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "2.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "2.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "7.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -118,7 +163,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/sunrise-valley"
     }
   ],
-  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Likely multi-phase (Phase 3C reported by search snippet: 9 villas). Official site not found. Gallery shows renders possibly; not verified. | Papaya shows 2BR 13,990,000 (about the claimed 14M). Thailand-Property shows range 11.5M-31.5M (Palas 2BR, Grande 4BR) - differs. | claimed price 14000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/sunrise-valley/photo-1.jpg",
   "imageCaptions": [

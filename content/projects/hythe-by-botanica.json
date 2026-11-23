@@ -77,6 +77,26 @@
       "place": "Phuket International Airport",
       "distance": "20 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Panama Market",
+      "distance": "1.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -149,7 +169,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/botanica-hythe"
     }
   ],
-  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Identity: developer is Botanica Luxury Phuket Co., Ltd; project is part of Botanica Grand Avenue near Laguna Phuket. No source read mentions 'Botanica Four Seasons' - could not verify relation or separation from that existing project; appears to be a separate condominium. Unit counts conflict (276 press release, 288 Keller Henson). Completion conflicts. Land area figure 285,017 sqm (Keller Henson) likely refers to the wider Botanica Grand Avenue; press release says 21+ rai. Ownership: foreign freehold within 49% quota; Keller Henson also cites 30-year leasehold; one unit is leasehold. Exact address and coordinates not found. | Listing shows 11,475,000 (1BR 58 sqm); developer press release says from 10.8M with asterisk; Keller Henson shows 10.8M on listing and 11.47M in FAQ. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "cover": "/assets/images/projects/hythe-by-botanica/photo-1.jpg",
   "imageCaptions": [
     "HYTHE by Botanica",

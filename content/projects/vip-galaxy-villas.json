@@ -33,6 +33,51 @@
       "place": "Rawai Beach",
       "distance": "0.9 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Chalong Hospital",
+      "distance": "6.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "12.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "3.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "7.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Sunsuri Sunset Market",
+      "distance": "950 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "ABC Nursery",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Watsawangk Aroom School",
+      "distance": "1.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Lighthouse Phuket International School",
+      "distance": "2.4 km",
+      "mode": "straight line"
     }
   ],
   "sources": [
@@ -53,7 +98,7 @@
       "url": "https://www.hipflat.com/projects/vip-galaxy-villas-iqmnau"
     }
   ],
-  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several source sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Pages for VIP Galaxy Villas and VIP Galaxy Rawai Villas are mixed on several source sites; older Keller Henson summary (16.4M-30.8M, 51 units) likely describes an earlier phase. Unit counts conflict (114 vs 51) so omitted. Checked 2026-11-17. | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate, parking. a property portal is a portal; values not confirmed by the developer. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-galaxy-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/vip-galaxy-villas/photo-1.jpg",
   "images": [

@@ -248,6 +248,7 @@ const rng = (a, b, unit = '') => {
   const t = a === null ? `${b}` : b === null || a === b ? `${a}` : `${a}\u2013${b}`;
   return t + unit;
 };
+const bedRng = (a, b) => rng(num(a) === 0 ? 1 : a, b); // a studio counts as 1 room, so ranges read 1-2, never 0-2
 const sizeNums = (u) => String(u.size ?? u.builtUpSqm ?? '').match(/[\d.]+/g)?.map(Number) || [];
 function facts(p) {
   const ub = p.unitTypes.map((u) => num(u.bedrooms)).filter((n) => n !== null);
@@ -255,7 +256,8 @@ function facts(p) {
   const us = p.unitTypes.flatMap(sizeNums);
   const mm = (a, f) => (a.length ? f(...a) : null);
   return {
-    bedMin: num(p.bedroomsMin) ?? mm(ub, Math.min), bedMax: num(p.bedroomsMax) ?? mm(ub, Math.max),
+    bedMin: ((v) => (v === 0 ? 1 : v))(num(p.bedroomsMin) ?? mm(ub, Math.min)), // a studio (0 bedrooms) counts as 1 room: ranges read 1-2, never 0-2
+    bedMax: num(p.bedroomsMax) ?? mm(ub, Math.max),
     bathMin: num(p.bathroomsMin) ?? mm(uba, Math.min), bathMax: num(p.bathroomsMax) ?? mm(uba, Math.max),
     sizeMin: num(p.builtUpMin) ?? mm(us, Math.min), sizeMax: num(p.builtUpMax) ?? mm(us, Math.max),
     price: num(p.startingPrice),
@@ -302,7 +304,7 @@ function projDesc(p) {
     const lead = dev ? T('seo.lead_dev', { t, lead: lead0, in: inn, dev }) : T('seo.lead', { t, lead: lead0, in: inn });
     const st = p.constructionStatus && p.constructionStatus !== 'Status on request' ? tx(p.constructionStatus, 'status').toLowerCase() : '';
     const bedsMax = f.bedMax ?? f.bedMin;
-    const beds = rng(f.bedMin, f.bedMax);
+    const beds = bedRng(f.bedMin, f.bedMax);
     const parts = [beds ? `${beds} ${I.plural(bedsMax, ['спальня', 'спальни', 'спален'])}` : '', st, p.ownership?.length ? p.ownership.map((o) => T(`own_lc.${o}`).replace(/ \(.*\)/, '')).join(' / ') : '', f.price ? `${T('from_lc')} ${money(f.price, p.currency || 'THB')}` : ''].filter(Boolean).join(', ');
     const pre = parts ? parts[0].toUpperCase() + parts.slice(1) + '. ' : '';
     const opts = [`${lead} ${pre}${T('seo.cta')}`, `${lead} ${pre}${T('seo.cta_short')}`, `${lead} ${T('seo.cta')}`, lead];
@@ -312,7 +314,7 @@ function projDesc(p) {
   const dev = devShort(p.developer);
   const lead = `${t} is a ${noun} project in ${withPhuket(a)}${dev ? ` by ${dev}` : ''}.`;
   const st = p.constructionStatus && p.constructionStatus !== 'Status on request' ? p.constructionStatus.toLowerCase() : '';
-  const beds = rng(f.bedMin, f.bedMax);
+  const beds = bedRng(f.bedMin, f.bedMax);
   const facts_ = [beds ? `${beds} bedrooms` : '', st, f.price ? `from ${money(f.price, p.currency || 'THB')}` : ''].filter(Boolean).join(', ');
   const cta = 'See unit types, facilities and enquire on WhatsApp.';
   const opts = [`${lead} ${facts_ ? facts_[0].toUpperCase() + facts_.slice(1) + '. ' : ''}${cta}`, `${lead} ${facts_ ? facts_[0].toUpperCase() + facts_.slice(1) + '. ' : ''}Enquire on WhatsApp.`, `${lead} ${cta}`, lead];
@@ -551,7 +553,7 @@ function rentalDialog() {
   const cur = BUDGET_CURRENCIES.map((c) => `<option value="${c}">${c}</option>`).join('');
   const per = BUDGET_PERIODS.map((k) => `<option value="${k}">${i(`rental.period.${k}`)}</option>`).join('');
   const cfg = {
-    lang: LANG, site: settings.siteName, wa: WA, email: settings.email, gpb: GUESTS_PER_BEDROOM,
+    lang: LANG, site: settings.siteName, wa: WA, gpb: GUESTS_PER_BEDROOM,
     locEn: Object.fromEntries(RENTAL_LOCATIONS.map((k) => [k, LOCATION_LABELS[k]])),
     i18n: Object.fromEntries(Object.entries(I.ui).filter(([k]) => k.startsWith('rental.js.')).map(([k, v]) => [k.slice(10), v])),
     locale: LANG_META[LANG].intl || LANG,
@@ -611,7 +613,6 @@ function rentalDialog() {
 		</div>
 		<footer class="rd-foot">
 			<button type="button" class="wa-btn" id="rd-send-wa" data-channel="wa"><i class="fa fa-whatsapp"></i> ${i('rental.form.send_wa')}</button>
-			<button type="button" class="primary-btn" id="rd-send-mail" data-channel="mail"><i class="fa fa-envelope"></i> ${i('rental.form.send_mail')}</button>
 		</footer>
 	</form>
 	<script type="application/json" id="rental-cfg">${JSON.stringify(cfg).replace(/</g, '\\u003c')}</script>
@@ -695,7 +696,7 @@ function projSaleCard(proj) {
 
 function projCard(p, { filterable = false } = {}) {
   const t = p.name, f = facts(p);
-  const beds = rng(f.bedMin, f.bedMax), size = rng(f.sizeMin, f.sizeMax);
+  const beds = bedRng(f.bedMin, f.bedMax), size = rng(f.sizeMin, f.sizeMax);
   const loc = locTx(p.location), type = tx(p.projectType, 'type'), cat = catName(p.category), status = tx(p.constructionStatus, 'status');
   const sd = fld(p, 'shortDescription');
   const data = filterable
@@ -839,13 +840,25 @@ const LOC_KEEP = new Set(['bang-tao', 'laguna', 'cherng-talay', 'si-sunthon', 'r
 const LOCS = [...locGroups.values()].filter((g) => g.projects.length >= LOC_MIN || LOC_KEEP.has(g.slug)).sort((a, b) => b.projects.length - a.projects.length || a.name.localeCompare(b.name));
 LOCS.forEach((g) => { g.url = `/locations/${g.slug}/`; try { g.ed = readJson(path.join(ROOT, `content/locations/${g.slug}.json`)); } catch { g.ed = {}; } });
 const locPageFor = (p) => LOCS.find((g) => g.slug === locSlug(areaKey(p)));
-const NEAR_GROUPS = [['Beaches', /beach|bay\b/i], ['Schools', /school|college|universit|kindergarten|nursery/i], ['Hospitals & clinics', /hospital|clinic|medical/i], ['Shopping & dining', /mall|robinson|central|boat avenue|porto|market|tesco|lotus|makro|plaza|avenue|supermarket|village|walk/i], ['Transport', /airport|pier|marina|bus/i]];
+// Nearby categories, in display order. First match wins, so kindergartens are tested before schools and big stores before markets.
+const NEAR_GROUPS = [
+  ['Beaches', /beach|\bbay\b/i],
+  ['Hospitals & clinics', /hospital|clinic|medical|polyclinic/i],
+  ['Big stores & malls', /tesco|lotus|big\s?c\b|makro|central|robinson|\bmall\b|boat avenue|porto|plaza|department|jungceylon|\bpop\b|home\s?pro|index/i],
+  ['Markets & supermarkets', /market|supermarket|tops|7-eleven|villa market|mini\s?mart|\bfresh\b/i],
+  ['Kindergartens', /kindergarten|nursery|montessori|preschool|pre-school|daycare|day care/i],
+  ['Schools', /school|college|universit|academy/i],
+  ['Transport', /airport|pier|marina|\bbus\b/i],
+];
+const nearGroup = (place) => { const g = NEAR_GROUPS.find(([, re]) => re.test(place || '')); return g ? g[0] : 'Other'; };
+const distKm = (d) => { const m = /([\d.,]+)\s*(km|m)\b/i.exec(String(d || '')); if (!m) return null; const v = parseFloat(m[1].replace(',', '.')); return /km/i.test(m[2]) ? v : v / 1000; };
+const nearestBeach = (p) => (p.nearby || []).filter((n) => n.place && /beach/i.test(n.place) && distKm(n.distance) !== null).sort((a, b) => distKm(a.distance) - distKm(b.distance))[0] || null;
 function nearbyByGroup(g) {
   const seen = new Map();
   g.projects.forEach((p) => (p.nearby || []).forEach((n) => { if (n.place && !seen.has(n.place.toLowerCase())) seen.set(n.place.toLowerCase(), { ...n, from: p.name }); }));
   const out = [];
-  for (const [label, re] of NEAR_GROUPS) {
-    const items = [...seen.values()].filter((n) => re.test(n.place) && !out.some((o) => o.items.includes(n))).slice(0, 8);
+  for (const [label] of NEAR_GROUPS) {
+    const items = [...seen.values()].filter((n) => nearGroup(n.place) === label && !out.some((o) => o.items.includes(n))).slice(0, 8);
     if (items.length) out.push({ label, items });
   }
   return out;
@@ -854,7 +867,7 @@ const typeWord = (g) => { const c = (k) => g.projects.filter((p) => p.category =
 const nearItem = (n, extra = '') => `<li><span>${esc(tx(n.place, 'nearby.place'))}${extra}</span><span>${esc(I.dist(n.distance) || '')}${mode(n.mode) ? ` <small>(${esc(mode(n.mode))})</small>` : ''}</span></li>`;
 const nameList = (arr) => arr.join(', ');
 const linkP = (x) => `<a href="${url(x)}">${esc(x.name)}</a>`;
-const bedsText = (f) => { const r = rng(f.bedMin, f.bedMax); if (!r) return ''; const n = f.bedMax ?? f.bedMin; return LANG === DEFAULT_LANG ? `${r} ${n === 1 ? 'bedroom' : 'bedrooms'}` : `${r} ${I.plural(n, ['спальня', 'спальни', 'спален'])}`; };
+const bedsText = (f) => { const r = bedRng(f.bedMin, f.bedMax); if (!r) return ''; const n = f.bedMax ?? f.bedMin; return LANG === DEFAULT_LANG ? `${r} ${n === 1 ? 'bedroom' : 'bedrooms'}` : `${r} ${I.plural(n, ['спальня', 'спальни', 'спален'])}`; };
 // Key facts for a project, built only from its own catalogue data (no invented content), plus other projects by the same developer.
 function projGlance(p) {
   const f = facts(p), cur = p.currency || 'THB';
@@ -870,6 +883,7 @@ function projGlance(p) {
     T('pg.status', { status: esc(status.toLowerCase()), done: p.completionDate ? T('pg.done', { d: esc(tx(p.completionDate, 'completionDate')) }) : '' }),
     p.ownership.length && T('pg.own', { x: esc(p.ownership.map((o) => ownName(o)).join(' / ')) }),
     f.price && T('pg.price', { price: money(f.price, cur), type: p.priceType ? ` (${esc(tx(p.priceType, 'priceType').toLowerCase())})` : '' }),
+    (() => { const b = nearestBeach(p); return b && T('pg.beach', { x: esc(`${tx(b.place, 'nearby.place')} (${I.dist(b.distance)}${mode(b.mode) ? ', ' + mode(b.mode) : ''})`) }); })(),
     nears.length && T('pg.near', { x: esc(nears.join('; ')) }),
     same.length && T('pg.dev_more', { dev: esc(devShort(p.developer)), list: same.slice(0, 6).map(linkP).join(', ') }),
   ].filter(Boolean);
@@ -877,7 +891,7 @@ function projGlance(p) {
 }
 // Comparison table of the projects in an area (all values from the catalogue).
 function locTable(g, nm) {
-  const rows = g.projects.map((p) => { const f = facts(p); return `<tr><td><a href="${url(p)}"><strong>${esc(p.name)}</strong></a></td><td>${esc(catName(p.category))}</td><td>${esc(tx(p.constructionStatus, 'status'))}</td><td>${esc(tx(p.completionDate, 'completionDate') || '-')}</td><td>${f.price ? money(f.price, p.currency || 'THB') : T('on_request')}</td><td>${esc(rng(f.bedMin, f.bedMax) || '-')}</td><td>${esc(p.ownership.map((o) => ownName(o, false)).join(' / ') || '-')}</td></tr>`; }).join('');
+  const rows = g.projects.map((p) => { const f = facts(p); return `<tr><td><a href="${url(p)}"><strong>${esc(p.name)}</strong></a></td><td>${esc(catName(p.category))}</td><td>${esc(tx(p.constructionStatus, 'status'))}</td><td>${esc(tx(p.completionDate, 'completionDate') || '-')}</td><td>${f.price ? money(f.price, p.currency || 'THB') : T('on_request')}</td><td>${esc(bedRng(f.bedMin, f.bedMax) || '-')}</td><td>${esc(p.ownership.map((o) => ownName(o, false)).join(' / ') || '-')}</td></tr>`; }).join('');
   return `<h2 class="sec-h">${T('loc.table_h', { nm: esc(nm) })}</h2><div class="table-responsive"><table class="table unit-table"><thead><tr><th>${T('loc.th_project')}</th><th>${T('spec.category')}</th><th>${T('units.status')}</th><th>${T('spec.completion')}</th><th>${T('f.price_th')}</th><th>${T('spec.bedrooms')}</th><th>${T('spec.ownership')}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 // Intro under a catalogue page: counts, areas, status, ownership and prices of exactly the projects listed (distinct angle per page).
@@ -1014,7 +1028,16 @@ function errorPageHtml(kind) {
 /* ---------- detail pages ---------- */
 const spec = (k, v) => (v === undefined || v === null || v === '' ? '' : `<tr><td class="r-o">${esc(T(k))}</td><td>${esc(v)}</td></tr>`);
 const list_ = (arr, cls = '') => (arr?.length ? `<ul class="check-list ${cls}">${arr.map((x) => `<li><i class="fa fa-check"></i> ${esc(x)}</li>`).join('')}</ul>` : '');
-const nearby = (p) => { const arr = fldArr(p, 'nearby', (n) => n); return arr?.length ? `<h2 class="sec-h sec-sub">${T('nearby')}</h2><ul class="nearby-list">${arr.map((n) => `<li><span>${esc(tx(n.place, 'nearby.place'))}</span><span>${esc(I.dist(n.distance) || '')}</span></li>`).join('')}</ul>` : ''; };
+const nearby = (p) => {
+  const arr = fldArr(p, 'nearby', (n) => n);
+  if (!arr?.length) return '';
+  const order = [...NEAR_GROUPS.map(([k]) => k), 'Other'];
+  const by = new Map(order.map((k) => [k, []]));
+  arr.forEach((n) => by.get(nearGroup(n.place)).push(n));
+  const li = (n) => `<li><span>${esc(tx(n.place, 'nearby.place'))}</span><span>${esc(I.dist(n.distance) || '')}${mode(n.mode) ? ` <small>(${esc(mode(n.mode))})</small>` : ''}</span></li>`;
+  const body = order.filter((k) => by.get(k).length).map((k) => `<li class="nl-group">${esc(T(`nearg.${k}`))}</li>${by.get(k).map(li).join('')}`).join('');
+  return `<h2 class="sec-h sec-sub">${T('nearby')}:</h2><ul class="nearby-list nearby-grouped">${body}</ul><p class="ds-note">${T('nearby_note')}</p>`;
+};
 function mapBlock(c, label) {
   const lat = num(c?.lat), lng = num(c?.lng);
   if (lat === null || lng === null || isNaN(lat) || isNaN(lng)) return '';
@@ -1135,8 +1158,7 @@ function projectPage(p) {
     p.sinkingFund ? `<p><strong>${T('pay.sinking')}</strong> ${esc(fld(p, 'sinkingFund'))}</p>` : '',
   ].join('');
   const payBlock = pay ? `<h2 class="sec-h sec-sub">${T('pay.h')}</h2>${pay}` : '';
-  const nears = fldArr(p, 'nearby', (n) => n);
-  const near = nears.length ? `<h2 class="sec-h sec-sub">${T('nearby')}</h2><ul class="nearby-list">${nears.map((n) => nearItem(n)).join('')}</ul>` : '';
+  const near = nearby(p); // grouped: beaches, hospitals, big stores, markets, kindergartens, schools, transport
   const srcs = p.sources.length ? `<h2 class="sec-h sec-sub">${T('sources')}</h2><ul class="src-list">${p.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.label || x.url)}</a></li>`).join('')}</ul>` : '';
   const verified = dispDate(p.lastVerified);
   const devTxt = p.developer ? T('faq.dev', { dev: p.developer }) : '';
@@ -1176,7 +1198,7 @@ function projectPage(p) {
 						<div class="ds-meta"><span class="status status-proj">${esc(status)}</span></div>
 						<table class="spec-table"><tbody>
 							${spec('spec.category', cat)}${spec('spec.type', ptype)}${spec('spec.developer', p.developer)}${spec('spec.location', loc)}
-							${spec('spec.bedrooms', rng(f.bedMin, f.bedMax))}${spec('spec.bathrooms', rng(f.bathMin, f.bathMax))}
+							${(() => { const b = nearestBeach(p); return b ? spec('spec.beach', `${tx(b.place, 'nearby.place')}, ${I.dist(b.distance)}`) : ''; })()}${spec('spec.bedrooms', bedRng(f.bedMin, f.bedMax))}${spec('spec.bathrooms', rng(f.bathMin, f.bathMax))}
 							${spec('spec.built_up', rng(f.sizeMin, f.sizeMax, ' ' + I.sqm('').trim()))}${spec('spec.land_area', rng(p.landMin, p.landMax, ' ' + I.sqm('').trim()))}
 							${spec('spec.floors', tx(p.floors, 'floors'))}${spec('spec.total_units', p.totalUnits)}
 							${spec('spec.private_pool', p.privatePool === 'yes' ? T('yes') : p.privatePool === 'some' ? T('some_units') : p.privatePool === 'no' ? T('no') : '')}

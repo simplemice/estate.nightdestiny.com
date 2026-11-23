@@ -57,6 +57,46 @@
       "place": "Patong Beach",
       "distance": "about 30 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "8.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "2.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "1.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Fresh Market",
+      "distance": "2.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thepkrasattree Municipal School",
+      "distance": "3.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kokwatmai School",
+      "distance": "4.0 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -105,7 +145,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-park-2"
     }
   ],
-  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: parking. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Floors 3 and pool/ownership as stated on portal. Beds 2-5 includes villas (4-5 bed); townhouses are 2-3 bed, 318 sqm built-up. Official Laguna Property page not fetched. Categorised Townhouse per client. | Thailand-Property shows sale range THB 20.8M-29.5M (page's share title shows 13.3M, conflicting). Claimed 22M is higher than the listed minimum. | claimed price from 22,000,000 THB | Phase 4 (2026-11-19) a property portal fields filled where empty: parking. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "cover": "/assets/images/projects/laguna-park-2/photo-1.jpg",
   "imageCaptions": [

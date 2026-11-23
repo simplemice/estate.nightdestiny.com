@@ -98,7 +98,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/sakhu/the-title-serenity-naiyang"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Status changed Completed -> Pre-sale on 2026-11-23 to match the FazWaz project page (Off Plan).",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors, completionDate, furniture. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Status changed Completed -> Pre-sale on 2026-11-23 to match the FazWaz project page (Off Plan). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "nearby": [
     {
       "place": "Nai Yang Beach",
@@ -109,6 +109,46 @@
       "place": "Phuket International Airport",
       "distance": "2.3 km / 6 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "8.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "15.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Big C",
+      "distance": "400 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Ni Yang Night Market",
+      "distance": "400 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tops",
+      "distance": "450 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Watmongkol Wararam School",
+      "distance": "250 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wat Mongkonwaram School",
+      "distance": "300 m",
+      "mode": "straight line"
     }
   ]
 }

@@ -29,6 +29,41 @@
       "place": "HeadStart International School",
       "distance": "1.6 km",
       "mode": "unspecified"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "4.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "6.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Tesco Lotus",
+      "distance": "3.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Makro",
+      "distance": "4.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Choeng Thale Fresh Fruit Market",
+      "distance": "2.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "2.8 km",
+      "mode": "straight line"
     }
   ],
   "unitTypes": [
@@ -87,7 +122,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas"
     }
   ],
-  "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced).",
+  "researchNotes": "Developer, bedrooms, sizes, ownership not found. Unit count unclear (2, 3, 4 left, or 8 total per different portals; 8 total villas per JIQI snippet). Private pool 'yes' inferred from the pool-villa descriptions in search snippets - verify. Image URLs on Thailand-Property are base64 resized thumbs, not stored. Hipflat fetch was 403. | Thailand-Property shows 3 units from 23,000,000 to 33,500,000 THB (page also says 'Contact for price'). Other portals differ: Hipflat 2 units ~USD500-560k, a listing 16.5M, JIQI from 19.5M. Matches claim only on Thailand-Property. | claimed price 23000000 | Phase 4 (2026-11-19) a property portal fields filled where empty: totalUnits, completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+3). Source https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/azalea-bangtao-villas. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "imagesStatus": "available",
   "ownership": [
     "Leasehold"

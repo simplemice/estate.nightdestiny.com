@@ -57,6 +57,7 @@ const DIST_RULES = [
   [/\bsouth\b/g, 'к югу'],
   [/\babout\b/g, 'около'],
   [/\bvs\b/g, 'против'],
+  [/\bhours?\b/g, 'ч'],
   [/\bminutes?\b/g, 'мин'],
   [/\bmin\b/g, 'мин'],
   [/(\d)\.(\d)/g, '$1,$2'],
@@ -98,6 +99,21 @@ const FURN = { 'fully furnished': 'полностью с мебелью', 'partl
 const ruPl = (n, f) => { const a = n % 100, b = n % 10; return a > 10 && a < 20 ? f[2] : b === 1 ? f[0] : b > 1 && b < 5 ? f[1] : f[2]; };
 // Generic caption patterns ("<Project> photo 3", "Brochure page 14").
 const PATTERNS = [
+  // Nearby places taken from OpenStreetMap: generic place words are translated, the proper name is kept.
+  [/^(.+?) (?:International )?Hospital(?: (.+))?$/, (m) => `Больница ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^Hospital (.+)$/, (m) => `Больница ${m[1]}`],
+  [/^(.+?) Kindergarten(?: (.+))?$/, (m) => `Детский сад ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^Kindergarten (.+)$/, (m) => `Детский сад ${m[1]}`],
+  [/^(.+?) Nursery(?: (.+))?$/, (m) => `Детский сад ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^(.+?) International School(?:,? (.+))?$/, (m) => `Международная школа ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^International School (.+)$/, (m) => `Международная школа ${m[1]}`],
+  [/^(.+?) School(?: (.+))?$/, (m) => `Школа ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^School (.+)$/, (m) => `Школа ${m[1]}`],
+  [/^(.+?) (?:College|Academy)$/, (m) => `${m[1]} ${/College/.test(m.input) ? 'колледж' : 'академия'}`],
+  [/^(.+?) Beach$/, (m) => `Пляж ${m[1]}`],
+  [/^Beach (.+)$/, (m) => `Пляж ${m[1]}`],
+  [/^(.+?) Market(?: (.+))?$/, (m) => `Рынок ${m[1]}${m[2] ? ' ' + m[2] : ''}`],
+  [/^(Tesco Lotus|Lotus'?s|Big C|Makro|Central|Robinson|Tops|Villa Market|Home Pro|Boat Avenue|Porto de Phuket|Jungceylon|7-Eleven|Super Cheap|Familymart)\b.*$/i, (m) => m[0]],
   [/^(.+?) (?:photo|gallery(?: image)?) (\d+)$/, (m) => `${m[1]}, фото ${m[2]}`],
   [/^(.+?) gallery (\d+)$/, (m) => `${m[1]}, фото ${m[2]}`],
   [/^Brochure page (\d+)(?: \(unverified content; may include text\))?$/, (m) => `Страница брошюры ${m[1]}${/unverified/.test(m.input) ? ' (содержание не проверено, возможен текст)' : ''}`],

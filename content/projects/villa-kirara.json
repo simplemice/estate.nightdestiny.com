@@ -71,7 +71,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/the-title-villa-kirara"
     }
   ],
-  "researchNotes": "Official page has no price, sizes, bedrooms, facilities. Unit counts disagree (37 per Lazudi/Hipflat, 75 per one DDProperty text). Completion dates in portals conflict (2026-01-01 Lazudi vs Jun 2026 Hipflat) and contradict the official 15% progress, so completionDate left null. Portal location Si Sunthon vs client Cherng Talay. Lazudi listings seen in search: 2BR/3BA 305 sqm, 3BR/4BA 395 sqm, 4BR/6BA 646 sqm (not opened). | Official page shows no price. Portal snippets (Lazudi, Thailand-Property; search results only, pages not opened) show range from 29,020,000 THB; a DDProperty listing shows a 3BR unit at 36,100,000, so the claimed 36.1M is a specific unit price, not the minimum. Verify with sales. | claimed price 36100000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances).",
+  "researchNotes": "Official page has no price, sizes, bedrooms, facilities. Unit counts disagree (37 per Lazudi/Hipflat, 75 per one DDProperty text). Completion dates in portals conflict (2026-01-01 Lazudi vs Jun 2026 Hipflat) and contradict the official 15% progress, so completionDate left null. Portal location Si Sunthon vs client Cherng Talay. Lazudi listings seen in search: 2BR/3BA 305 sqm, 3BR/4BA 395 sqm, 4BR/6BA 646 sqm (not opened). | Official page shows no price. Portal snippets (Lazudi, Thailand-Property; search results only, pages not opened) show range from 29,020,000 THB; a DDProperty listing shows a 3BR unit at 36,100,000, so the claimed 36.1M is a specific unit price, not the minimum. Verify with sales. | claimed price 36100000 | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. | Phase 4: privatePool set to yes from the project description (\"pool villas\"). | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
   "ownership": [
     "Leasehold"
   ],
@@ -97,6 +97,41 @@
       "place": "Phuket International Airport",
       "distance": "20.5 km / 30 minutes",
       "mode": "driving"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "4.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "5.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Choeng Thale Fresh Fruit Market",
+      "distance": "2.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Super Cheap",
+      "distance": "2.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Life School Phuket",
+      "distance": "300 m",
+      "mode": "straight line"
+    },
+    {
+      "place": "British International School Phuket",
+      "distance": "5.7 km",
+      "mode": "straight line"
     }
   ]
 }
