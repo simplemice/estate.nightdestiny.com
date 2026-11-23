@@ -1298,7 +1298,7 @@ function contactPage() {
 
 /* ---------- guides (language-specific articles; a guide exists only in the languages it was written for) ---------- */
 const guideLangs = (slug) => LANGS.filter((l) => LOCALES[l].over.guides[slug]);
-const GUIDE_CATS = ['buying', 'legal', 'locations', 'condos', 'rental', 'lifestyle'];
+const GUIDE_CATS = ['locations', 'legal', 'buying', 'condos', 'rental', 'lifestyle']; // hub order; a category with no guides is not shown
 const guideStatusCount = (re) => projL.filter((p) => re.test(p.constructionStatus || '')).length;
 // Data blocks inside guides are computed from the catalogue at build time, so numbers and prices can never go stale or be invented.
 function guideStats(pool) {
