@@ -332,8 +332,8 @@ function propDesc(p) {
 }
 
 /* ---------- layout ---------- */
-const NAV = [['/', 'nav.home', 'home'], ['/sale/', 'nav.sale', 'sale'], ['/rent/', 'nav.rent', 'rent'], ['/projects/', 'nav.projects', 'projects'], ['/locations/', 'nav.locations', 'locations'], ['/about/', 'nav.about', 'about'], ['/contact/', 'nav.contact', 'contact']];
-const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.map(([h, l, k, kids]) => `<li${k === active ? ' class="active"' : ''}><a href="${lp(h)}">${T(l)}</a>${kids ? `<ul class="dropdown">${kids.map(([kh, kl]) => `<li><a href="${lp(kh)}">${T(kl)}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul></nav>`;
+const NAV = [['/', 'nav.home', 'home'], ['/sale/', 'nav.sale', 'sale'], ['/rent/', 'nav.rent', 'rent'], ['/projects/', 'nav.projects', 'projects'], ['/locations/', 'nav.locations', 'locations'], ['/guides/', 'nav.guides', 'guides'], ['/about/', 'nav.about', 'about'], ['/contact/', 'nav.contact', 'contact']];
+const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.filter(([h]) => h !== '/guides/' || Object.keys(I.over.guides).length).map(([h, l, k, kids]) => `<li${k === active ? ' class="active"' : ''}><a href="${lp(h)}">${T(l)}</a>${kids ? `<ul class="dropdown">${kids.map(([kh, kl]) => `<li><a href="${lp(kh)}">${T(kl)}</a></li>`).join('')}</ul>` : ''}</li>`).join('')}</ul></nav>`;
 
 // Language switcher: links go to the equivalent page in the other language (every page exists in both), so they can never 404.
 const langSwitch = (pathname, cls = '', has = LANGS) => `<nav class="lang-switch ${cls}" aria-label="${esc(T('lang.label'))}">${LANGS.map((l) => { const m = LANG_META[l]; const cur = l === LANG; return `<a href="${lpFor(l, l === LANG || has.includes(l) ? pathname : '/')}" hreflang="${m.hreflang}" lang="${m.htmlLang}" title="${esc(m.name)}"${cur ? ' class="is-active" aria-current="true"' : ''}><img src="/img/flags/${m.flag}.svg" width="18" height="12" alt="" decoding="async"><span>${m.code}</span></a>`; }).join('')}</nav>`;
@@ -1316,7 +1316,7 @@ function guidePage(slug, g) {
 		<p class="mt-3"><a class="primary-btn" href="${lp('/projects/')}">${T('nav.projects')}</a> &nbsp; <a class="primary-btn" href="${lp('/sale/')}">${T('nav.sale')}</a></p>
 	</div></div></div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'Article', headline: g.title, url: SITE + lp(`/guides/${slug}/`), mainEntityOfPage: SITE + lp(`/guides/${slug}/`), description: g.description, inLanguage: LANG_META[LANG].htmlLang, ...(g.published ? { datePublished: g.published } : {}), ...(g.modified ? { dateModified: g.modified } : {}), author: { '@id': SITE + '/#agent' }, publisher: { '@id': SITE + '/#agent' }, isPartOf: { '@id': WEBSITE_ID() }, ...(g.image ? { image: SITE + g.image } : {}) })}`;
-  return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: '', body, langs: guideLangs(slug) });
+  return layout({ title: `${g.title} | ${settings.siteName}`, description: g.description, pathname: `/guides/${slug}/`, active: 'guides', body, langs: guideLangs(slug) });
 }
 function guidesHub() {
   const items = Object.entries(I.over.guides);
@@ -1324,7 +1324,7 @@ function guidesHub() {
 	<section class="spad-2"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
 		<ul class="check-list">${items.map(([k, g]) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}"><strong>${esc(g.h1)}</strong></a><br>${esc(g.description)}</li>`).join('')}</ul>
 	</div></div></div></section>`;
-  return layout({ title: `${T('guides.h1')} | ${settings.siteName}`, description: T('guides.desc'), pathname: '/guides/', active: '', body, langs: LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length) });
+  return layout({ title: `${T('guides.h1')} | ${settings.siteName}`, description: T('guides.desc'), pathname: '/guides/', active: 'guides', body, langs: LANGS.filter((l) => Object.keys(LOCALES[l].over.guides).length) });
 }
 
 /* ---------- css bundle (one render-blocking request instead of seven) ---------- */

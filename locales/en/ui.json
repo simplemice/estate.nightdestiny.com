@@ -516,5 +516,6 @@
   "guides.h1": "Phuket Property Buyer Guides",
   "guides.sub": "Ownership, costs and areas explained",
   "guides.desc": "Plain-language guides for buying property in Phuket: freehold vs leasehold, foreign ownership of condos, purchase costs and the best areas.",
-  "loc.guides": "Buyer guides:"
+  "loc.guides": "Buyer guides:",
+  "nav.guides": "Guides"
 }
