@@ -20,6 +20,22 @@
     z.id = 'zsiqscript'; z.defer = true;
     z.src = 'https://salesiq.zohopublic.com/widget?wc=' + encodeURIComponent(CHAT);
     document.body.appendChild(z);
+    liftWhatsApp();
+  }
+  /* The Zoho button is injected, fixed bottom-right, with its own CSS. Keep our WhatsApp button
+     above it: measure the chat button and set --wa-lift (used by .wa-float in estate.css). */
+  function liftWhatsApp() {
+    var root = document.documentElement, base = 18, gap = 14;
+    function chatBtn() { return document.querySelector('#zsiq_float, .zsiq_floatmain, .zsiq-float'); }
+    function update() {
+      var b = chatBtn(), r = b && b.getBoundingClientRect();
+      if (!r || !r.width || !r.height || getComputedStyle(b).display === 'none') { root.style.removeProperty('--wa-lift'); return; }
+      var top = window.innerHeight - r.top; // chat top edge measured from viewport bottom
+      root.style.setProperty('--wa-lift', Math.max(0, Math.round(top + gap - base)) + 'px');
+    }
+    new MutationObserver(update).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['style', 'class'] });
+    addEventListener('resize', update); addEventListener('orientationchange', update);
+    var n = 0, t = setInterval(function () { update(); if (++n > 40) clearInterval(t); }, 500);
   }
   function onInteract() { loadChat(); }
   ['scroll', 'pointerdown', 'keydown', 'touchstart', 'mousemove'].forEach(function (e) {

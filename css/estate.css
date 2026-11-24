@@ -50,7 +50,7 @@
 .wa-btn:hover{background:#1ebe5b;color:#fff;text-decoration:none}
 .wa-btn i{margin-right:6px;font-size:16px;vertical-align:-1px}
 .wa-block{display:block;text-align:center;padding:14px 16px;font-size:15px}
-.wa-float{position:fixed;right:18px;bottom:18px;z-index:99;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;font-size:30px;line-height:56px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.wa-float{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px) + var(--wa-lift,0px));right:calc(18px + env(safe-area-inset-right,0px));z-index:99;width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;font-size:30px;line-height:56px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.3)}
 .wa-float:hover{color:#fff;background:#1ebe5b;text-decoration:none}
 
 /* filters + listing */
@@ -298,5 +298,5 @@ html.rd-open{overflow:hidden}
 #rd-locset.is-invalid{outline:1px solid #c0392b;outline-offset:4px}
 .nearby-grouped .nl-group{display:block;font-weight:700;letter-spacing:.5px;text-transform:uppercase;font-size:13px;padding-top:12px;border-bottom:0}
 .nearby-grouped .nl-group:first-child{padding-top:0}
-.comp-table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}.comp-table th,.comp-table td{border:1px solid #e6e6e6;padding:8px 10px;vertical-align:top;text-align:left}.comp-table thead th{background:#f6f3ea}.comp-table tbody th{background:#fafafa;font-weight:600;white-space:nowrap}
+.comp-table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}.comp-table th,.comp-table td{border:1px solid var(--line-strong,#3a3a3a);padding:8px 10px;vertical-align:top;text-align:left}.comp-table thead th{background:var(--ink-3,#181a20);color:var(--accent,#c9a96a);border-bottom:2px solid var(--accent,#c9a96a)}.comp-table thead th a{color:var(--accent,#c9a96a)}.comp-table tbody th{background:var(--ink-2,#121419);color:var(--text,#ece7dc);font-weight:600;white-space:nowrap}.comp-table tbody td{background:transparent}.comp-table tbody tr:hover td,.comp-table tbody tr:hover th{background:var(--ink-2,#121419)}
 .step-list{padding-left:1.2rem}.step-list li{margin-bottom:.6rem}
