@@ -2471,7 +2471,7 @@
   "propertyType": "villa",
   "developer": null,
   "location": "Thalang (Thep Krasattri)",
-  "startingPrice": 25780000,
+  "startingPrice": null,
   "currency": "THB",
   "priceStatus": "on-request",
   "bedrooms": [

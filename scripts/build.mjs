@@ -191,12 +191,19 @@ const rentL = live(rent).sort(byNewest);
 const projL0 = live(projectsAll).sort(byNewest);
 // Every published project WITH a starting price is listed on SALE automatically (projects without a price stay on /projects/ only).
 // An explicit sale entry (content/properties/sale/*.json) for the same project still wins and is not duplicated.
+// Lowest published price of a project: cheapest unit type, or the advertised starting price when that is lower.
+// A project whose priceStatus is "on-request" has no public price, whatever its unit rows say, and is never listed for sale.
+const lowestPrice = (pr) => {
+  if (/on[\s-]*request/i.test(String(pr.priceStatus || ''))) return null;
+  const a = [num(pr.startingPrice), ...(Array.isArray(pr.unitTypes) ? pr.unitTypes : []).map((u) => num(u.price))].filter((x) => x !== null && x > 0);
+  return a.length ? Math.min(...a) : null;
+};
 const saleLinked = new Set(sale.map((x) => x.projectSlug).filter(Boolean));
-const autoSale = live(projectsAll).filter((pr) => num(pr.startingPrice) && !saleLinked.has(pr.slug))
+const autoSale = live(projectsAll).filter((pr) => lowestPrice(pr) && !saleLinked.has(pr.slug))
   .map((pr) => ({ slug: pr.slug, _kind: 'sale', category: 'sale', published: true, featured: false, projectSlug: pr.slug, publishedAt: pr.publishedAt, _file: pr._file, _auto: true }));
 const saleAll = live(sale).concat(autoSale).sort(byNewest);
 const saleL = saleAll.filter((p) => !p.projectSlug);                       // normal sale properties (own detail pages)
-const saleProjects = saleAll.filter((p) => p.projectSlug && projBySlug.get(p.projectSlug)?.published !== false)
+const saleProjects = saleAll.filter((p) => p.projectSlug && projBySlug.get(p.projectSlug)?.published !== false && lowestPrice(projBySlug.get(p.projectSlug)))
   .map((e) => ({ ...projBySlug.get(e.projectSlug), _saleEntry: e }));      // projects listed on SALE
 const projL = projL0;
 console.log(`Content OK: ${rentL.length} rent, ${saleL.length} sale (+${saleProjects.length} linked projects), ${projL.length} projects (${rent.length + sale.length + projectsAll.length - rentL.length - saleAll.length - projL.length} unpublished)`);
@@ -260,8 +267,7 @@ function facts(p) {
     bedMax: num(p.bedroomsMax) ?? mm(ub, Math.max),
     bathMin: num(p.bathroomsMin) ?? mm(uba, Math.min), bathMax: num(p.bathroomsMax) ?? mm(uba, Math.max),
     sizeMin: num(p.builtUpMin) ?? mm(us, Math.min), sizeMax: num(p.builtUpMax) ?? mm(us, Math.max),
-    // Lowest published price: the cheapest unit type, or the advertised starting price when that is lower.
-    price: ((a) => (a.length ? Math.min(...a) : null))([num(p.startingPrice), ...p.unitTypes.map((u) => num(u.price))].filter((x) => x !== null && x > 0)),
+    price: lowestPrice(p),
   };
 }
 const dateFmt = (d) => (d && !isNaN(Date.parse(d)) ? new Date(d).toISOString().slice(0, 10) : ''); // ISO (sitemap)
