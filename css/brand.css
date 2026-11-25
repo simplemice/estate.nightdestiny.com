@@ -114,6 +114,8 @@ hr { border-color: var(--line); }
 .form-control, input, textarea, select, .nice-select {
   background: var(--ink-3); color: var(--text); border: 1px solid var(--line-strong); }
 .form-control::placeholder, input::placeholder, textarea::placeholder { color: var(--muted); opacity: 1; }
+.form-control[readonly], .form-control:disabled, input[readonly], input:disabled, select:disabled, textarea[readonly] {
+  background: var(--ink-3); color: var(--text); opacity: 1; }
 .form-control:focus, input:focus, textarea:focus, select:focus, .nice-select:focus, .nice-select.open {
   background: var(--ink-3); color: var(--text); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); outline: none; }
 .nice-select:after { border-color: var(--accent); }
