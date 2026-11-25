@@ -260,7 +260,8 @@ function facts(p) {
     bedMax: num(p.bedroomsMax) ?? mm(ub, Math.max),
     bathMin: num(p.bathroomsMin) ?? mm(uba, Math.min), bathMax: num(p.bathroomsMax) ?? mm(uba, Math.max),
     sizeMin: num(p.builtUpMin) ?? mm(us, Math.min), sizeMax: num(p.builtUpMax) ?? mm(us, Math.max),
-    price: num(p.startingPrice),
+    // Lowest published price: the cheapest unit type, or the advertised starting price when that is lower.
+    price: ((a) => (a.length ? Math.min(...a) : null))([num(p.startingPrice), ...p.unitTypes.map((u) => num(u.price))].filter((x) => x !== null && x > 0)),
   };
 }
 const dateFmt = (d) => (d && !isNaN(Date.parse(d)) ? new Date(d).toISOString().slice(0, 10) : ''); // ISO (sitemap)
@@ -657,7 +658,7 @@ function projSaleCard(proj) {
   const beds = num(e.bedrooms) ?? maxNum(p.unitTypes.map((u) => u.bedrooms));
   const baths = num(e.bathrooms) ?? 0;
   const area = num(e.livingArea) ?? maxNum(p.unitTypes.map((u) => u.size));
-  const sp = num(e.price ?? p.startingPrice);
+  const sp = facts(p).price ?? num(e.price); // lowest unit price of the project; the sale entry price is only a fallback
   const own = e.ownership || '';
   const avail = e.availability || '';
   // Listing text: sale-entry overlay, else the project's own translation when the English text is the same, else dictionary.
@@ -955,8 +956,12 @@ function locationPage(g) {
   const h1 = T('loc.h1_t', { nm, in: inn, types: typesAll });
   const early = ps.filter((p) => ['Pre-sale', 'Under construction'].includes(p.constructionStatus)).length;
   const intro = `${T('loc.intro', { np: T('loc.np', { n: N }), nm, types: typesTxt })}${prices.length ? ' ' + T('loc.prices', { from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N }) : ' ' + T('loc.prices_none')}${own.length ? ' ' + T('loc.own', { own: own.map((o) => T(`own_lc.${o}`)).join(T('and')) }) : ''}`;
-  const descBase = `${T('loc.desc_t', { nm, in: inn, np: T('count.projects', { n: N }), types: typesTxt })}${prices.length ? T('loc.desc_from', { price: money(prices[0]) }) : ''}.`;
-  const descFull = `${descBase}${early ? ' ' + T('loc.desc_early', { k: early }) : ''} ${T('seo.cta_enquire')}`;
+  const pricedPs = ps.filter((p) => facts(p).price), dPs = pricedPs.length ? pricedPs : ps; // for-sale wording counts only projects with a published price
+  const dCnt = ['Villa', 'Townhouse', 'Condominium'].map((k) => [k, dPs.filter((p) => p.category === k).length]).filter(([, c]) => c);
+  const dTypesTxt = dCnt.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ');
+  const dEarly = dPs.filter((p) => ['Pre-sale', 'Under construction'].includes(p.constructionStatus)).length;
+  const descBase = `${T('loc.desc_t', { nm, in: inn, np: T('count.projects', { n: dPs.length }), types: dTypesTxt })}${prices.length ? T('loc.desc_from', { price: money(prices[0]) }) : ''}.`;
+  const descFull = `${descBase}${dEarly ? ' ' + T('loc.desc_early', { k: dEarly }) : ''} ${T('seo.cta_enquire')}`;
   const desc = descFull.length <= 158 ? descFull : clip(`${descBase} ${T('seo.cta_enquire')}`);
   const nbLine = (ed.nearbyAreas || []).map((sl) => LOCS.find((x) => x.slug === sl)).filter(Boolean).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`);
   const nbHtml = nbLine.length ? `<p class="ds-note">${T('loc.nearby_areas')} ${nbLine.join(' &middot; ')}</p>` : '';
@@ -1008,7 +1013,7 @@ function locationsHub() {
 		<div class="loc-grid">${ALL_LOCS.map((g) => `<a class="loc-chip" href="${g.projects.length === 1 && !LOCS.includes(g) ? url(g.projects[0]) : lp(g.url)}"><strong>${esc(areaName(g.name))}</strong><span>${countLine(g.projects.length, 'project')}</span></a>`).join('')}</div>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'ItemList', name: T('hub.ld'), inLanguage: LANG_META[LANG].htmlLang, itemListElement: LOCS.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + lp(g.url), name: areaName(g.name) })) })}`;
-  return layout({ title: T('hub.title', { site: settings.siteName }), description: clip(T('hub.desc', { list: LOCS.slice(0, 7).map((g) => areaName(g.name)).join(', ') })), pathname: '/locations/', active: 'locations', body });
+  return layout({ title: T('hub.title', { site: settings.siteName }), description: clip(T('hub.desc', { list: LOCS.slice(0, 6).map((g) => areaName(g.name)).join(', ') })), pathname: '/locations/', active: 'locations', body });
 }
 function errorPageHtml(kind) {
   const home = lp('/');
@@ -1251,7 +1256,7 @@ function homePage() {
   rentL.forEach((p) => L(areaKey(p)).rent++);
   saleL.forEach((p) => L(areaKey(p)).sale++);
   saleProjects.forEach((p) => L(areaKey({ ...p, location: p._saleEntry?.location || p.location })).sale++); // developments listed on SALE
-  const locCards = Object.entries(locs).filter(([l]) => l !== 'Phuket').sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0]))
+  const locCards = Object.entries(locs).filter(([l]) => l !== 'Phuket' && locPageFor({ location: l })).sort((a, b) => b[1].rent + b[1].sale - a[1].rent - a[1].sale || a[0].localeCompare(b[0]))
     .map(([l, c]) => `<a class="loc-chip" href="${locPageFor({ location: l }) ? lp(locPageFor({ location: l }).url) : `${lp(`/${c.sale ? 'sale' : 'rent'}/`)}?location=${encodeURIComponent(l)}`}"><strong>${esc(areaName(l))}</strong><span>${[c.rent ? T('n_for_rent', { n: c.rent }) : '', c.sale ? T('n_for_sale', { n: c.sale }) : ''].filter(Boolean).join(' &middot; ')}</span></a>`).join('');
   const body = `
 	<section class="estate-hero">

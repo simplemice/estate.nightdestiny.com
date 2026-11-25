@@ -14,5 +14,6 @@
   "images": [],
   "availability": "Available",
   "bedrooms": 3,
-  "ownership": "Leasehold"
+  "ownership": "Leasehold",
+  "price": 25780000
 }
