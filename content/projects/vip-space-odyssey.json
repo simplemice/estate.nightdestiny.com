@@ -1,0 +1,143 @@
+{
+  "name": "VIP Space Odyssey",
+  "developer": "VIP Property Development Thailand (VIP Thailand Group)",
+  "category": "Condominium",
+  "projectType": "Mixed-use condominium and villas",
+  "location": "Rawai",
+  "area": "Rawai",
+  "neighbourhood": "Between Rawai and Nai Harn",
+  "locationStatus": "probable",
+  "shortDescription": "Large off-plan condominium community in southern Rawai with studios to 2-bedroom units, 600 m from Rawai Beach.",
+  "description": "VIP Space Odyssey is a mixed-use development by VIP Property Development Thailand in southern Phuket, between Rawai and Nai Harn and against forested hills. The portal lists 619 units in 5 buildings of up to 8 floors on about 25,600 sqm; other sources describe a smaller first phase with a number of pool villas, so the final scale is not confirmed. Completion is scheduled for December 2028. The developer's page shows monthly construction-progress photos, with piling and foundation works under way between March and August 2026.\nListed unit types include studios of about 29 sqm, one-bedroom units of about 32 sqm and two-bedroom units of about 60 sqm, with a larger two-bedroom type of about 120 sqm. Shared facilities listed are a communal pool, garden, kids' club, gym, parking and 24-hour security. Listed fees are THB 60 per sqm per month for common areas, a sinking fund of THB 400 per sqm and a freehold premium of THB 10,000 per sqm.\nRawai Beach is about 0.6 km away in a straight line, Rawai Park 1.3 km, Yanui Beach 2.0 km and Promthep Cape 2.8 km. Prices are advertised by portals from about THB 4.4 million and change; confirm availability and terms before reserving.",
+  "cardDescription": "A large off-plan condominium community in southern Rawai, 0.6 km from Rawai Beach, with studios to 2-bedroom units.",
+  "seoTitle": "VIP Space Odyssey Rawai Phuket | Condos for Sale",
+  "seoDescription": "VIP Space Odyssey in Rawai, Phuket: off-plan studios, 1 and 2-bedroom condos by VIP Thailand, 0.6 km from Rawai Beach. Completion Dec 2028.",
+  "primaryKeyword": "VIP Space Odyssey Phuket",
+  "secondaryKeywords": [
+    "VIP Space Odyssey Rawai",
+    "condos for sale Rawai Phuket",
+    "off-plan condos Rawai"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Dec 2028",
+  "totalUnits": "619 (portal figure; other sources differ)",
+  "floors": "5 buildings, up to 8 floors",
+  "startingPrice": 4400000,
+  "priceStatus": "advertised",
+  "priceNote": "Portal asking price; unconfirmed with the developer.",
+  "priceSourceUrl": "https://www.ddproperty.com/en/project/13893-vip-space-odyssey",
+  "bedroomsMin": 0,
+  "bedroomsMax": 2,
+  "builtUpMin": 29,
+  "builtUpMax": 120,
+  "parking": "Yes",
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 400 per sqm",
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "29"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "32"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "60-120"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Communal garden",
+    "Kids club",
+    "Fitness / gym",
+    "Car parking",
+    "24-hour security",
+    "Co-working space"
+  ],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "0.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Rawai Park",
+      "distance": "1.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Yanui Beach",
+      "distance": "2.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wat Sawang Arom",
+      "distance": "2.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Promthep Cape",
+      "distance": "2.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market (Chalong)",
+      "distance": "7.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "14.4 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "VIP Thailand Group, project page (developer)",
+      "url": "https://www.vipthailand.com/projects/vip-space-odessey/"
+    },
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/vip-space-odyssey"
+    },
+    {
+      "label": "DDProperty project page",
+      "url": "https://www.ddproperty.com/en/project/13893-vip-space-odyssey"
+    },
+    {
+      "label": "Thaiga overview",
+      "url": "https://teletype.in/@thaiga/EngVIPSpaceOdysseyCondominium"
+    }
+  ],
+  "researchNotes": "No official site verified. Scale conflict: FazWaz 619 units / 5 buildings / 8 floors; other sources 300 units, 19 pool villas, or 4 buildings. FazWaz type: mixed-use. Ownership: portals say freehold (foreign quota 49%) with freehold premium THB 10,000/sqm; leasehold also mentioned. A developer rental guarantee is advertised by agents; deliberately not repeated here. Studio prices not extracted; THB 4.4M is a portal-advertised start (a 2024 article said 4.25M). | Images 2026-11-25: 4 construction progress photos from the developer page vipthailand.com/projects/vip-space-odessey/ (Mar-Aug 2026 updates), cropped to the photo area. Page text: developer VIP Property Development Thailand; EIA approved; mixed-use (condominiums, private villas, retail); multiple pools, fitness, kids club, co-working space; between Rawai Beach and Nai Harn Beach. Site works and piling visible in 2026, so status set to Under construction. | Developer page (2026-11-25): EIA approved, mixed-use with condominiums, private villas and retail, pools, fitness centre, kids club and co-working space; no unit count on the page. Status changed to Under construction from construction photos Mar-Aug 2026.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-aug-2026.jpg",
+  "images": [
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-jul-2026.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-jun-2026.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-may-2026.jpg"
+  ],
+  "imageCaptions": [
+    "Construction progress, August 2026 (piling works)",
+    "VIP Space Odyssey construction progress, July 2026",
+    "VIP Space Odyssey construction progress, June 2026",
+    "VIP Space Odyssey construction progress, May 2026"
+  ],
+  "imageCredit": "Construction progress photos published by the developer (cropped from its monthly update graphics, branding frame removed). No renders are available from the developer page."
+}

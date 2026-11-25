@@ -1,0 +1,174 @@
+{
+  "name": "Panorama Kata Ocean View Villas",
+  "category": "Villa",
+  "projectType": "Hillside pool villa",
+  "location": "Karon (near Kata)",
+  "area": "Karon",
+  "neighbourhood": "Kata hills",
+  "nearbyAreas": [
+    "Kata"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Hillside ocean-view villas of 2 and 3 bedrooms (138-239 sqm) above Kata and Karon, 2.9 km from Kata Beach.",
+  "description": "Panorama Kata Ocean View Villas is a hillside development of two and three-bedroom villas with ocean views above Kata and Karon on Phuket's south-west coast. FazWaz lists 17 units (another portal 21) with two-bedroom villas of about 138 to 160 sqm and three-bedroom villas of about 213 to 239 sqm; completion is listed as March 2027 although other sources give different dates.\nFacilities listed are a communal garden, parking, 24-hour security and CCTV; pets are not allowed. The portal payment schedule starts with a THB 150,000 reservation and 35% on contract signing within 15 days, followed by construction-stage payments.\nKata Beach is about 2.9 km away, Kata Noi Beach 3.8 km and Karon Beach 4.6 km (straight line), and Wat Kitti Sangkharam is about 1.3 km. Patong Hospital is about 12.5 km and the airport about 73 minutes' drive. Prices on portals run from roughly THB 11 million to 23.9 million. The sources name different developers, so we do not state one; ask us to confirm.",
+  "cardDescription": "Hillside ocean-view villas of 2 and 3 bedrooms above Kata and Karon, 2.9 km from Kata Beach.",
+  "seoTitle": "Panorama Kata Ocean View Villas Phuket | Villas for Sale",
+  "seoDescription": "Panorama Kata Ocean View Villas: 2 and 3-bedroom hillside villas of 138-239 sqm above Kata and Karon, Phuket. Sizes, payment schedule and distances.",
+  "primaryKeyword": "Panorama Kata Ocean View Villas",
+  "secondaryKeywords": [
+    "Panorama Kata villas",
+    "ocean view villas Kata Phuket",
+    "villas for sale Karon"
+  ],
+  "constructionStatus": "Status on request",
+  "completionDate": "Mar 2027 (portal; sources differ)",
+  "totalUnits": "17 (portal figure; another lists 21)",
+  "startingPrice": 11000000,
+  "priceStatus": "advertised",
+  "priceNote": "Starting price quoted by several portals; confirm with the developer.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/panorama-kata-ocean-view-villas",
+  "bedroomsMin": 2,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 138.05,
+  "builtUpMax": 239.17,
+  "parking": "Yes",
+  "ownership": [],
+  "unitTypes": [
+    {
+      "name": "Type C 2BR Pool Villa",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "138.05",
+      "floorPlan": "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-c-floor-plan.jpg"
+    },
+    {
+      "name": "Type D 2BR Pool Villa",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "size": "159.91",
+      "floorPlan": "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-d-floor-plan.jpg"
+    },
+    {
+      "name": "Type A 3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "213.32",
+      "floorPlan": "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-a-floor-plan.jpg"
+    },
+    {
+      "name": "Type B 3BR Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "239.17",
+      "floorPlan": "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-b-floor-plan.jpg"
+    }
+  ],
+  "paymentPlan": [
+    "Reservation deposit THB 150,000",
+    "35% on contract signing (within 15 days)",
+    "20% on foundation completion",
+    "Further construction-stage payments (full schedule on request)"
+  ],
+  "facilities": [
+    "Communal garden area",
+    "Car parking",
+    "24-hour security",
+    "CCTV",
+    "Ocean views"
+  ],
+  "nearby": [
+    {
+      "place": "Wat Kitti Sangkharam",
+      "distance": "1.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kata Beach",
+      "distance": "2.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kata Noi Beach",
+      "distance": "3.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Karon Beach",
+      "distance": "4.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Karon Viewpoint",
+      "distance": "5.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market (Chalong)",
+      "distance": "8.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "12.5 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "15.2 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Project website (panorama-kata.com)",
+      "url": "https://panorama-kata.com/en"
+    },
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/panorama-kata-ocean-view-villas"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/panorama-kata-ocean-view-villas"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/the-one-group/panorama-kata"
+    },
+    {
+      "label": "Aster of Asia project page",
+      "url": "https://asterofasia.com/property/thailand/phuket/panorama-kata"
+    }
+  ],
+  "researchNotes": "Developer conflict: Aster of Asia says Udomo Thailand; Papaya Property path is the-one-group. FazWaz names none. Therefore no developer field. Completion: FazWaz/Hipflat Mar/Oct 2026-27, Aster Q4 2027 yet calls it completed, Thailand-Property says completed 2026: status left as on request. Units: FazWaz 17, Villacarte 21, Hipflat 2. Price start THB 11M from several portals (max listed 23.9M). Private pool not confirmed. Ownership not verified. | Images 2026-11-25: 5 renders and 4 floor plans from the project website panorama-kata.com/en (operator of the site not stated on the page; project-dedicated site). No watermarks. | Project website states each villa has a personal pool, 4 villa types up to about 300 sqm (floor plans list 138.05, 159.91, 213.32 and 239.17 sqm). Floor-plan images taken from the same site 2026-11-25.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-hillside-aerial.jpg",
+  "images": [
+    "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-site-plan-aerial-villa-types.jpg",
+    "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-terrace-sunbed-sea-view.jpg",
+    "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-master-bedroom-sea-view.jpg",
+    "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-bathroom-bathtub.jpg"
+  ],
+  "imageCaptions": [
+    "Hillside aerial, render",
+    "Panorama Kata Ocean View Villas aerial site plan with villa types, render",
+    "Panorama Kata Ocean View Villas terrace with sea view, render",
+    "Panorama Kata Ocean View Villas bedroom with sea view, render",
+    "Panorama Kata Ocean View Villas bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project.",
+  "floorPlans": [
+    "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-c-floor-plan.jpg",
+    "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-d-floor-plan.jpg",
+    "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-a-floor-plan.jpg",
+    "/assets/images/floorplans/panorama-kata-ocean-view-villas/panorama-kata-type-b-floor-plan.jpg"
+  ],
+  "privatePool": "yes"
+}

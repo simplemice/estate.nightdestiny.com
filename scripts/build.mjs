@@ -341,7 +341,7 @@ const langSwitch = (pathname, cls = '', has = LANGS) => `<nav class="lang-switch
 let CRUMBS = []; // set by pageHead(); turned into BreadcrumbList JSON-LD by layout()
 const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + lp('/'), logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 621, height: 401 }, image: SITE + '/img/logo.png', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: T('ld.area_served') }, sameAs: [settings.instagram].filter(Boolean) });
 const WEBSITE_ID = () => SITE + lp('/') + '#website';
-function layout({ title: t0, description, pathname, active, body, ogImage, extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '', i18nJs = false, langs = LANGS }) {
+function layout({ title: t0, description, pathname, active, body, ogImage, ogImageAlt = '', extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '', i18nJs = false, langs = LANGS }) {
   let t = t0;
   // Brand suffix only on home/about/contact/error pages; elsewhere Google adds the site name itself.
   if (!['/', '/about/', '/contact/', '/404.html', '/5xx.html'].includes(pathname) && t.endsWith(' | ' + settings.siteName)) t = t.slice(0, -(settings.siteName.length + 3));
@@ -379,7 +379,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="${esc(canonical)}">
 	<meta property="og:image" content="${esc(og)}">
-	<meta property="og:image:alt" content="${esc(t)}">
+	<meta property="og:image:alt" content="${esc(ogImageAlt || t)}">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="${esc(ogTitle || t)}">
 	<meta name="twitter:description" content="${esc(ogDescription || description)}">
@@ -1213,7 +1213,7 @@ function projectPage(p) {
 	</section>
 	${related(p, projL)}
 `;
-  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: onSale ? 'sale' : 'projects', body, ogImage: p.ogImage || p.cover, ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
+  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: onSale ? 'sale' : 'projects', body, ogImage: p.ogImage || p.cover, ogImageAlt: LANG === DEFAULT_LANG && !p.ogImage && p.imageCaptions && p.imageCaptions[0] ? `${p.name}: ${p.imageCaptions[0].replace(new RegExp('^' + p.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*'), '')}` : '', ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
 }
 
 /* ---------- home / about / contact ---------- */

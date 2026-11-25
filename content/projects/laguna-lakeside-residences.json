@@ -1,0 +1,128 @@
+{
+  "name": "Laguna Lakeside Residences",
+  "developer": "Banyan Group Residences (Laguna Resorts & Hotels / Laguna Property)",
+  "category": "Condominium",
+  "projectType": "Lakeside low-rise condominium",
+  "location": "Laguna Phuket (Bang Tao)",
+  "area": "Laguna",
+  "neighbourhood": "Laguna Phuket gateway",
+  "nearbyAreas": [
+    "Bang Tao",
+    "Cherng Talay"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Low-rise lagoon-view condominiums of 1 to 3 bedrooms at the entrance to Laguna Phuket, 0.7 km from Boat Avenue.",
+  "description": "Laguna Lakeside Residences is a group of low-rise condominium blocks beside a lagoon at the entrance to the Laguna Phuket resort community in Bang Tao. Banyan Group Residences now presents the project on its site as Laguna Lake Residences Aster, a seven-storey condominium of 1, 2 and 3-bedroom units with a rooftop infinity pool and lake views, a short walk from Boat Avenue and Porto de Phuket. Its July 2024 release describes four blocks of one, two and three-bedroom apartments, each with its own rooftop infinity pool, set in landscaped gardens. The first block was completed in June 2024; the developer launched further blocks next to it in July 2024.\nFazWaz lists 114 units, with one-bedroom units of about 40 to 52 sqm and two-bedroom units of about 56 to 85 sqm. Shared facilities listed there include a communal pool, spa, gym, cafe, lobby and 24-hour security with CCTV. Boat Avenue, the area's shopping and dining street, is about 0.7 km away in a straight line.\nThe sources disagree on the building layout (one building of seven floors on the portal, four low-rise blocks according to the developer), so we do not state a single building count. The July 2024 launch price of THB 9 million may be out of date; ask us for current availability.",
+  "cardDescription": "Low-rise lagoon-view condominiums with rooftop pools at the entrance to Laguna Phuket, close to Boat Avenue.",
+  "seoTitle": "Laguna Lakeside Residences Phuket | Condos for Sale",
+  "seoDescription": "Laguna Lakeside Residences: 1-3 bedroom low-rise condos with rooftop pools at the Laguna Phuket gateway, Bang Tao. Sizes, facilities and distances.",
+  "primaryKeyword": "Laguna Lakeside Residences",
+  "secondaryKeywords": [
+    "Laguna Lakeside condos Phuket",
+    "condos for sale Laguna Phuket",
+    "Laguna Lakeside Bang Tao"
+  ],
+  "constructionStatus": "Status on request",
+  "completionDate": "First block Jun 2024",
+  "totalUnits": "114 (portal figure)",
+  "floors": "Low-rise blocks (sources differ)",
+  "startingPrice": 9000000,
+  "priceStatus": "advertised",
+  "priceNote": "Developer launch price, July 2024; may be out of date.",
+  "priceSourceUrl": "https://www.banyangroupresidences.com/news/banyan-group-launches-new-look-eco-friendly-laguna-lakeside-residences",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "builtUpMin": 40,
+  "builtUpMax": 85,
+  "ownership": [],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "40-52"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "56-85"
+    }
+  ],
+  "facilities": [
+    "Rooftop infinity pool in each block",
+    "Communal pool",
+    "Spa",
+    "Fitness / gym",
+    "Cafe",
+    "Reception / lobby",
+    "Communal garden",
+    "24-hour security and CCTV"
+  ],
+  "nearby": [
+    {
+      "place": "Boat Avenue Cherngtalay",
+      "distance": "0.7 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "16.6 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences, project page (Laguna Lake Residences Aster)",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/laguna-lake-residences-aster"
+    },
+    {
+      "label": "Banyan Group Residences press release (31 Jul 2024)",
+      "url": "https://www.banyangroupresidences.com/news/banyan-group-launches-new-look-eco-friendly-laguna-lakeside-residences"
+    },
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/laguna-lakeside"
+    },
+    {
+      "label": "Hutton's Group project page",
+      "url": "https://projects.huttonsgroup.com/laguna-lakeside-residences-th/"
+    }
+  ],
+  "researchNotes": "Name: Banyan Group uses \"Laguna Lakeside Residences\"; FazWaz lists \"Laguna Lakeside\". Distinct from Skypark Elara Lakelands and Laguna Lakeview Residences (other Banyan projects). Developer naming differs by source: Banyan Group Residences (press release), Laguna Property (FazWaz, Hipflat), Laguna Grande Limited (Hutton's), Laguna Resorts and Hotels (DDProperty). Units: FazWaz 114, Hipflat 31. Building: FazWaz 1 building / 7 floors, Banyan four low-rise blocks. Ownership not verified. Unit sizes from FazWaz listings. | Images 2026-11-25: 12 renders from banyangroupresidences.com/thailand/phuket/laguna-lake-residences-aster (page title still \"Laguna Lakeside Residences\"; image files named \"LLR Aster\"). No watermarks. Official page: 7-storey condominium, 1-3 bedrooms, rooftop infinity pool, near Boat Avenue and Porto de Phuket. Page marketed as Laguna Lake Residences Aster: treated as the same Lakeside Residences project (page title and image file names match); confirm with Banyan. | Banyan's project page for this name redirects to \"Laguna Lake Residences Aster\"; the two are treated as the same development, to be confirmed with Banyan.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-building-entrance.jpg",
+  "images": [
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-landscaped-garden.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-aerial-laguna-lagoons.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-balcony-garden-view.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-rooftop-pool-day.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-rooftop-terrace-evening.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-rooftop-pool-sunset.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-rooftop-pool-lagoon-view.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-bedroom.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-living-room.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-living-dining.jpg",
+    "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-bathroom.jpg"
+  ],
+  "imageCaptions": [
+    "Building and entrance, render",
+    "Laguna Lakeside Residences landscaped garden, render",
+    "Laguna Lakeside Residences in Laguna Phuket beside the lagoons, aerial render",
+    "Laguna Lakeside Residences balcony view over the gardens, render",
+    "Laguna Lakeside Residences rooftop infinity pool by day, render",
+    "Laguna Lakeside Residences rooftop terrace at sunset, render",
+    "Laguna Lakeside Residences rooftop pool at sunset, render",
+    "Laguna Lakeside Residences rooftop pool with lagoon view, render",
+    "Laguna Lakeside Residences one-bedroom bedroom, render",
+    "Laguna Lakeside Residences one-bedroom living room, render",
+    "Laguna Lakeside Residences living and dining area, render",
+    "Laguna Lakeside Residences bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
+}

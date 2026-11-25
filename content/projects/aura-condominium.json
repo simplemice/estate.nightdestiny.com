@@ -1,0 +1,160 @@
+{
+  "name": "Aura Condominium",
+  "developer": "The One Aura",
+  "category": "Condominium",
+  "projectType": "Condominium",
+  "location": "Rawai (near Chalong)",
+  "area": "Rawai",
+  "neighbourhood": "Chalong",
+  "locationStatus": "probable",
+  "shortDescription": "Off-plan 7-storey condominium of 241 units near Chalong, from studios of 29 sqm to 3-bedroom units, with pool, gym, spa and restaurant.",
+  "description": "Aura Condominium is an off-plan condominium of 241 units in 2 buildings of 7 floors, listed by FazWaz in Rawai but sited close to the Chalong roundabout in southern Phuket. Completion is scheduled for June 2027. Studios start at about 29 sqm, followed by one-bedroom units of about 37 sqm, two-bedroom units of about 50 to 59 sqm and three-bedroom units of about 96 sqm.\nListed facilities are a communal pool, spa, communal garden, communal gym, an on-site restaurant, parking at one space per unit and 24-hour security. Common-area fees are listed at THB 60 per sqm per month with a sinking fund of THB 800. Pets are not allowed.\nThis is a Chalong-side location rather than a beachfront one: the Chalong roundabout is about 0.9 km away, Villa Market Chalong 1.2 km and Chalong Pier 1.4 km (straight line), with BCIS Phuket International School about 3.6 km and Dibuk Hospital about 8.2 km. Prices are advertised on the portal from about THB 2.9 million to 11.2 million; confirm current availability with us.",
+  "cardDescription": "An off-plan 241-unit condominium near Chalong with pool, gym, spa and restaurant, from studios to 3 bedrooms.",
+  "seoTitle": "Aura Condominium Rawai Phuket | Condos for Sale",
+  "seoDescription": "Aura Condominium near Chalong, Rawai: 241 off-plan studios to 3-bedroom condos with pool, gym, spa and restaurant. Completion Jun 2027. Sizes and prices.",
+  "primaryKeyword": "Aura Condominium Phuket",
+  "secondaryKeywords": [
+    "Aura Condominium Rawai",
+    "condos for sale Chalong Phuket",
+    "off-plan condos Rawai"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Jun 2027",
+  "totalUnits": "241",
+  "floors": "2 buildings, 7 floors",
+  "startingPrice": 2900000,
+  "priceStatus": "advertised",
+  "priceNote": "Lowest price on the portal project page.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/aura-condominium",
+  "bedroomsMin": 0,
+  "bedroomsMax": 3,
+  "builtUpMin": 29.44,
+  "builtUpMax": 96.07,
+  "parking": "1 space per unit",
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 800",
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "29.44"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "36.85"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "50.44-58.60"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "96.07"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Spa",
+    "Communal garden",
+    "Communal gym",
+    "On-site restaurant",
+    "Car parking",
+    "24-hour security",
+    "Two lifts per building"
+  ],
+  "nearby": [
+    {
+      "place": "Chalong roundabout",
+      "distance": "0.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market (Chalong)",
+      "distance": "1.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Chalong Pier",
+      "distance": "1.4 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "BCIS Phuket International School",
+      "distance": "3.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Wat Chalong",
+      "distance": "4.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "8.2 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "42.0 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/rawai/aura-condominium"
+    },
+    {
+      "label": "FazWaz unit listing",
+      "url": "https://www.fazwaz.com/property-sales/2-bedroom-condo-for-sale-at-aura-condominium-in-rawai-phuket-u1866614"
+    }
+  ],
+  "researchNotes": "Name: brief writes \"AURA Condominium\"; FazWaz uses \"Aura Condominium\". No official site found. Location: FazWaz area Rawai, but landmarks are Chalong. No beach distance listed on FazWaz, none claimed. Some sources show a wrong \"Dec 2011 / completed\" build date (neighbouring data); ignored. Freehold under the 49% foreign quota per FazWaz FAQ text; not checked against the title documents. | Images 2026-11-25: 13 renders from the developer-group site theonephuket.com/aura/eng (The One Phuket), no watermarks.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/aura-condominium/aura-condominium-building-exterior-pool-view.jpg",
+  "images": [
+    "/assets/images/projects/aura-condominium/aura-condominium-building-curved-facade-garden.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-pool-lawn-aerial.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-lobby.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-fitness-gym.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-spa-treatment-room.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-restaurant-bar.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-type-a-living-kitchen.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-type-a-bedroom.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-type-c-living-dining.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-type-c-bedroom.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-bathroom.jpg",
+    "/assets/images/projects/aura-condominium/aura-condominium-location-aerial-chalong.jpg"
+  ],
+  "imageCaptions": [
+    "Building and pool, render",
+    "Aura Condominium curved facade and garden, render",
+    "Aura Condominium pool and lawn from above, render",
+    "Aura Condominium lobby, render",
+    "Aura Condominium gym, render",
+    "Aura Condominium spa treatment room, render",
+    "Aura Condominium restaurant and bar, render",
+    "Aura Condominium Type A living and kitchen area, render",
+    "Aura Condominium Type A bedroom, render",
+    "Aura Condominium Type C living and dining area, render",
+    "Aura Condominium Type C bedroom, render",
+    "Aura Condominium bathroom, render",
+    "Aura Condominium site location above Chalong, aerial with landmarks"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
+}

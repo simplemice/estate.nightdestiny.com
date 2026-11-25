@@ -87,6 +87,8 @@
  {
   "name": "Kamala",
   "projects": [
+   "botanica-montazure",
+   "rosewood-residences-kamala",
    "darayana-kamala",
    "naturale-kamala",
    "coralina-kamala",
@@ -98,6 +100,7 @@
  {
   "name": "Karon",
   "projects": [
+   "botanica-modern-sea-karon",
    "vibe-karon",
    "ever-prime-residences",
    "the-kuartz"
@@ -106,6 +109,7 @@
  {
   "name": "Karon (near Kata)",
   "projects": [
+   "panorama-kata-ocean-view-villas",
    "ashiyana-heights",
    "mali-thai-kata"
   ]
@@ -155,6 +159,7 @@
  {
   "name": "Laguna Phuket (Bang Tao)",
   "projects": [
+   "laguna-lakeside-residences",
    "laguna-beach-residences-bayside"
   ]
  },
@@ -251,6 +256,7 @@
  {
   "name": "Rawai",
   "projects": [
+   "vip-space-odyssey",
    "aileen-rawai-townhouses",
    "babylon-sky-garden-2",
    "babylon-sky-garden",
@@ -263,8 +269,15 @@
   ]
  },
  {
+  "name": "Rawai (near Chalong)",
+  "projects": [
+   "aura-condominium"
+  ]
+ },
+ {
   "name": "Si Sunthon",
   "projects": [
+   "silva-villas-phuket",
    "arise-vibe",
    "ayana-soluna-villas",
    "amber-chamber",
@@ -276,6 +289,7 @@
  {
   "name": "Surin",
   "projects": [
+   "the-petit-tycoon",
    "biancana"
   ]
  },

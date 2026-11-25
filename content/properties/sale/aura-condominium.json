@@ -1,0 +1,18 @@
+{
+  "title": "Aura Condominium",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "project": "content/projects/aura-condominium.json",
+  "propertyType": "Condo",
+  "location": "Rawai",
+  "currency": "THB",
+  "shortDescription": "Off-plan 241-unit condominium near Chalong with pool, gym, spa and restaurant.",
+  "description": "Off-plan 241-unit condominium near Chalong with pool, gym, spa and restaurant.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 2900000,
+  "ownership": "Freehold"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Silva Villas Phuket",
+  "developer": "Annara Group (per Papaya Property; unconfirmed)",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Si Sunthon",
+  "area": "Si Sunthon",
+  "nearbyAreas": [
+    "Bang Tao",
+    "Cherng Talay"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Small off-plan collection of four 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang, about 6 km from Bang Tao Beach.",
+  "description": "Silva (listed on FazWaz as Silva Phuket) is a small collection of four three-bedroom villas in Si Sunthon, Thalang, in the quieter inland area behind Bang Tao. Each villa has four bathrooms and about 290 to 350 sqm of built-up space. A sales agent states each home has a private pool; we have not seen the developer's own plans to confirm this.\nCompletion is scheduled for September 2027 and the project is off-plan. Garden space, parking, 24-hour security and CCTV are listed, pets are allowed, and listed common-area fees are THB 25 per sqm per month with a sinking fund of THB 500 per sqm.\nSi Sunthon puts Porto de Phuket and Villa Market Laguna about 3.8 km away and Bang Tao Beach about 6 km away (straight line); the airport is about 18.8 km. Do not confuse it with Silva Residences, a separate four-villa project in Cherng Talay. Listed asking prices run from THB 22.5 million to 25 million.",
+  "cardDescription": "Four off-plan 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang, from THB 22.5 million.",
+  "seoTitle": "Silva Villas Phuket | Off-Plan Villas in Si Sunthon",
+  "seoDescription": "Silva Villas Phuket: four 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang. Completion Sep 2027, advertised from THB 22.5M. Sizes and distances.",
+  "primaryKeyword": "Silva Villas Phuket",
+  "secondaryKeywords": [
+    "Silva Phuket villas",
+    "villas for sale Si Sunthon",
+    "off-plan villas Thalang"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Sep 2027",
+  "totalUnits": "4",
+  "startingPrice": 22500000,
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price on the portal.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/silva-phuket",
+  "privatePool": "yes",
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 290,
+  "builtUpMax": 350,
+  "parking": "Yes",
+  "commonAreaFee": "THB 25 per sqm per month",
+  "sinkingFund": "THB 500 per sqm",
+  "ownership": [],
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "290-350",
+      "price": 22500000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool (per agent listing)",
+    "Communal garden area",
+    "Car parking",
+    "24-hour security",
+    "CCTV",
+    "Pet-friendly"
+  ],
+  "nearby": [
+    {
+      "place": "Blue Tree Phuket",
+      "distance": "1.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Porto de Phuket",
+      "distance": "3.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Villa Market (Laguna)",
+      "distance": "3.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Boat Avenue Cherngtalay",
+      "distance": "4.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Bang Tao Beach",
+      "distance": "6.0 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "6.1 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "18.8 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/silva-phuket"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/annara-group/silva"
+    },
+    {
+      "label": "Hipflat project page",
+      "url": "https://www.hipflat.com/projects/silva-phuket-luc44n211t249h12c07c7n40thha3t2h"
+    }
+  ],
+  "researchNotes": "Name ambiguity: user brief says \"Silva Villas Phuket\"; FazWaz/Hipflat/Papaya call it \"Silva\" / \"Silva Phuket\" (Si Sunthon, Thalang). A different project, Silva Residences (Cherngtalay, 4 pool villas, ~290 sqm, THB 22.5-23.5M, DDProperty), is NOT this one. Developer inferred from the Papaya URL path (annara-group); FazWaz does not name one. Private pool from Papaya text only. Ownership not verified. No official website found.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "unavailable"
+}

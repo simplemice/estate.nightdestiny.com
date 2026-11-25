@@ -30,6 +30,12 @@
   ]
  },
  {
+  "name": "Annara Group (per Papaya Property; unconfirmed)",
+  "projects": [
+   "silva-villas-phuket"
+  ]
+ },
+ {
   "name": "Ashiyana Estates",
   "projects": [
    "ashiyana-heights"
@@ -61,6 +67,12 @@
   ]
  },
  {
+  "name": "Banyan Group Residences (Laguna Resorts & Hotels / Laguna Property)",
+  "projects": [
+   "laguna-lakeside-residences"
+  ]
+ },
+ {
   "name": "Billfishing Phuket Co., Ltd.",
   "projects": [
    "babylon-sky-garden-2",
@@ -76,6 +88,8 @@
  {
   "name": "Botanica Luxury Phuket Co., Ltd.",
   "projects": [
+   "botanica-modern-sea-karon",
+   "botanica-montazure",
    "botanica-skyport",
    "botanica-verdant"
   ]
@@ -178,6 +192,12 @@
   ]
  },
  {
+  "name": "Raimon Land Public Company Limited (branded by Rosewood Hotels & Resorts)",
+  "projects": [
+   "rosewood-residences-kamala"
+  ]
+ },
+ {
   "name": "Redwood Luxury",
   "projects": [
    "redwood-lakeside"
@@ -259,6 +279,18 @@
   ]
  },
  {
+  "name": "The Chardonnay Co., Ltd.",
+  "projects": [
+   "the-petit-tycoon"
+  ]
+ },
+ {
+  "name": "The One Aura",
+  "projects": [
+   "aura-condominium"
+  ]
+ },
+ {
   "name": "The One Phuket Co., Ltd.",
   "projects": [
    "the-one-naiharn"
@@ -281,6 +313,12 @@
   "name": "VIP Property Development Co., Ltd.",
   "projects": [
    "vip-galaxy-villas"
+  ]
+ },
+ {
+  "name": "VIP Property Development Thailand (VIP Thailand Group)",
+  "projects": [
+   "vip-space-odyssey"
   ]
  },
  {

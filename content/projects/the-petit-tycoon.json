@@ -1,0 +1,169 @@
+{
+  "name": "The Petit Tycoon",
+  "developer": "The Chardonnay Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Luxury low-rise condominium",
+  "location": "Surin",
+  "area": "Surin",
+  "neighbourhood": "Surin Beach",
+  "nearbyAreas": [
+    "Cherng Talay",
+    "Kamala"
+  ],
+  "locationStatus": "probable",
+  "shortDescription": "Completed luxury condominium of 101 units in Surin, 0.8 km from Surin Beach, with 1 to 4-bedroom apartments, pool, spa and cinema room.",
+  "description": "The Petit Tycoon is a luxury condominium in Surin, Choeng Thale, in the beach area known for its upmarket villas and restaurants. FazWaz lists it as completed in August 2026 with 101 units in 2 buildings of 6 floors, developed by The Chardonnay Co., Ltd. Other sources give different unit counts, so treat the number as indicative.\nApartments range from one-bedroom units of about 45 sqm to four-bedroom units of about 290 sqm, with two-bedroom units of about 65 to 99 sqm and three-bedroom units of about 95 to 198 sqm. Listed facilities include a communal pool, bar, spa and sauna, a music room, indoor games room and mini theatre, a gym and yoga area, a lobby, 24-hour security and CCTV. Listed fees are THB 56 per sqm per month for common areas with a sinking fund of THB 500 per sqm.\nSurin Beach is about 0.8 km away in a straight line, Laem Sing 1.6 km, Cafe Del Mar 3.3 km and Kamala Beach 3.9 km; Boat Avenue is about 4.8 km. Advertised prices start at about THB 10.6 million for available units; prices change, so ask us for current availability.",
+  "cardDescription": "A completed luxury condominium in Surin, 0.8 km from Surin Beach, with 1 to 4-bedroom apartments and resort-style facilities.",
+  "seoTitle": "The Petit Tycoon Surin Phuket | Luxury Condos for Sale",
+  "seoDescription": "The Petit Tycoon in Surin, Phuket: completed luxury condos of 1 to 4 bedrooms, 0.8 km from Surin Beach, with pool, spa and gym. Sizes and facilities.",
+  "primaryKeyword": "The Petit Tycoon Phuket",
+  "secondaryKeywords": [
+    "Petit Tycoon Surin",
+    "condos for sale Surin Beach",
+    "luxury condos Phuket Surin"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Aug 2026",
+  "totalUnits": "101 (portal figure; other sources differ)",
+  "floors": "2 buildings, 6 floors",
+  "startingPrice": 10600000,
+  "priceStatus": "advertised",
+  "priceNote": "Lowest advertised price on portals; confirm with the developer.",
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-petit-tycoon",
+  "bedroomsMin": 1,
+  "bedroomsMax": 4,
+  "builtUpMin": 45.14,
+  "builtUpMax": 289.7,
+  "commonAreaFee": "THB 56 per sqm per month",
+  "sinkingFund": "THB 500 per sqm",
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "45.14"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": "1-2",
+      "size": "65.26-98.96"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": "2-4",
+      "size": "95.64-197.81"
+    },
+    {
+      "name": "4 Bedroom",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "289.70"
+    }
+  ],
+  "facilities": [
+    "Communal swimming pool",
+    "Bar",
+    "Spa and sauna",
+    "Music room",
+    "Indoor games room",
+    "Mini theatre",
+    "Fitness / gym",
+    "Yoga area",
+    "Reception / lobby",
+    "24-hour security",
+    "CCTV"
+  ],
+  "nearby": [
+    {
+      "place": "Surin Beach",
+      "distance": "0.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Haad Laem Sing",
+      "distance": "1.6 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Cafe Del Mar Phuket",
+      "distance": "3.3 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Kamala Beach",
+      "distance": "3.9 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Phuket FantaSea",
+      "distance": "4.8 km",
+      "mode": "straight line"
+    },
+    {
+      "place": "Boat Avenue Cherngtalay",
+      "distance": "4.8 km",
+      "mode": "straight line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "FazWaz project page (portal)",
+      "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-petit-tycoon"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/the-petit-tycoon"
+    },
+    {
+      "label": "Hipflat project page",
+      "url": "https://www.hipflat.co.th/en/projects/-ll73l84c18cnl30eu28c2huc3291e2u9"
+    }
+  ],
+  "researchNotes": "No official developer site verified. Units: FazWaz 101 / 2 buildings / 6 floors; other sources 22, 77, 125 units and 4-5 floors. Completion Aug 2026 (FazWaz; some listings still say scheduled). Price start ~THB 10.6M from portal summary; FazWaz max 48.75M, other sources up to 55.9M. Freehold under the 49% foreign quota per portal text. Bathroom counts per type vary between listings. | Images 2026-11-25: 15 developer renders taken from the-petittycoon.com on the site owner's instruction. That site states it is an independent marketing platform (TOPS.ME Guide / Exima Global Limited), not the developer's official site; reuse permission from The Chardonnay Co., Ltd. is not documented.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "lastVerified": "2026-11-25",
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-building-exterior-street-view.jpg",
+  "images": [
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-building-sunset-sea-view-balconies.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-pool-terraces-landscaped.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-communal-pool.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-landscaped-garden-lawn.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-duplex-residence-facade.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-entrance-signage.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-lobby-entrance-gate.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-penthouse-living-sunset-terrace.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-bedroom-private-plunge-pool.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-two-bedroom-living-room.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-dining-and-kitchen.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-master-bedroom.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-large-residence-living-dining.jpg",
+    "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-bathroom.jpg"
+  ],
+  "imageCaptions": [
+    "Building exterior render",
+    "The Petit Tycoon corner building at sunset, render",
+    "The Petit Tycoon pool terraces and gardens, render",
+    "The Petit Tycoon communal pool, render",
+    "The Petit Tycoon landscaped garden, render",
+    "The Petit Tycoon duplex residence facade, render",
+    "The Petit Tycoon entrance signage, render",
+    "The Petit Tycoon lobby entrance, render",
+    "The Petit Tycoon living room with terrace, render",
+    "The Petit Tycoon bedroom with private plunge pool, render",
+    "The Petit Tycoon living room, render",
+    "The Petit Tycoon dining and kitchen area, render",
+    "The Petit Tycoon master bedroom, render",
+    "The Petit Tycoon large residence living and dining area, render",
+    "The Petit Tycoon bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts, finishes and landscaping may differ from the completed project."
+}

@@ -1,5 +1,264 @@
 [
  {
+  "id": "aura-condominium",
+  "name": "Aura Condominium",
+  "url": "/projects/aura-condominium/",
+  "category": "Condominium",
+  "propertyType": "Condominium",
+  "developer": "The One Aura",
+  "location": "Rawai (near Chalong)",
+  "startingPrice": 2900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   29.44,
+   96.07
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Jun 2027",
+  "cover": "/assets/images/projects/aura-condominium/aura-condominium-building-exterior-pool-view.jpg",
+  "imageCount": 13,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "botanica-modern-sea-karon",
+  "name": "Botanica Modern Sea Karon",
+  "url": "/projects/botanica-modern-sea-karon/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Karon",
+  "startingPrice": 47800000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   622.05,
+   737.35
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/botanica-modern-sea-karon/botanica-modern-sea-karon-villa-terraced-pool-facade.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "botanica-montazure",
+  "name": "Botanica MontAzure",
+  "url": "/projects/botanica-montazure/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Kamala",
+  "startingPrice": 38900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   5
+  ],
+  "bathrooms": [
+   3,
+   7
+  ],
+  "builtUpArea": [
+   372,
+   1072
+  ],
+  "status": "Completed",
+  "completionDate": "Jun 2026",
+  "cover": "/assets/images/projects/botanica-montazure/botanica-montazure-type-4c-pool-terrace.jpg",
+  "imageCount": 13,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "laguna-lakeside-residences",
+  "name": "Laguna Lakeside Residences",
+  "url": "/projects/laguna-lakeside-residences/",
+  "category": "Condominium",
+  "propertyType": "Lakeside low-rise condominium",
+  "developer": "Banyan Group Residences (Laguna Resorts & Hotels / Laguna Property)",
+  "location": "Laguna Phuket (Bang Tao)",
+  "startingPrice": 9000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   40,
+   85
+  ],
+  "status": "Status on request",
+  "completionDate": "First block Jun 2024",
+  "cover": "/assets/images/projects/laguna-lakeside-residences/laguna-lakeside-residences-building-entrance.jpg",
+  "imageCount": 12,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "panorama-kata-ocean-view-villas",
+  "name": "Panorama Kata Ocean View Villas",
+  "url": "/projects/panorama-kata-ocean-view-villas/",
+  "category": "Villa",
+  "propertyType": "Hillside pool villa",
+  "developer": null,
+  "location": "Karon (near Kata)",
+  "startingPrice": 11000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   2,
+   3
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   138.05,
+   239.17
+  ],
+  "status": "Status on request",
+  "completionDate": "Mar 2027 (portal; sources differ)",
+  "cover": "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-hillside-aerial.jpg",
+  "imageCount": 5,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "rosewood-residences-kamala",
+  "name": "Rosewood Residences Kamala",
+  "url": "/projects/rosewood-residences-kamala/",
+  "category": "Villa",
+  "propertyType": "Branded pool villas",
+  "developer": "Raimon Land Public Company Limited (branded by Rosewood Hotels & Resorts)",
+  "location": "Kamala",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   4,
+   6
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "silva-villas-phuket",
+  "name": "Silva Villas Phuket",
+  "url": "/projects/silva-villas-phuket/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Annara Group (per Papaya Property; unconfirmed)",
+  "location": "Si Sunthon",
+  "startingPrice": 22500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   290,
+   350
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Sep 2027",
+  "imageCount": 1,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "the-petit-tycoon",
+  "name": "The Petit Tycoon",
+  "url": "/projects/the-petit-tycoon/",
+  "category": "Condominium",
+  "propertyType": "Luxury low-rise condominium",
+  "developer": "The Chardonnay Co., Ltd.",
+  "location": "Surin",
+  "startingPrice": 10600000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   4
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   45.14,
+   289.7
+  ],
+  "status": "Completed",
+  "completionDate": "Aug 2026",
+  "cover": "/assets/images/projects/the-petit-tycoon/the-petit-tycoon-building-exterior-street-view.jpg",
+  "imageCount": 15,
+  "lastVerified": "2026-11-25"
+ },
+ {
+  "id": "vip-space-odyssey",
+  "name": "VIP Space Odyssey",
+  "url": "/projects/vip-space-odyssey/",
+  "category": "Condominium",
+  "propertyType": "Mixed-use condominium and villas",
+  "developer": "VIP Property Development Thailand (VIP Thailand Group)",
+  "location": "Rawai",
+  "startingPrice": 4400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   29,
+   120
+  ],
+  "status": "Under construction",
+  "completionDate": "Dec 2028",
+  "cover": "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-aug-2026.jpg",
+  "imageCount": 4,
+  "lastVerified": "2026-11-25"
+ },
+ {
   "id": "darayana-kamala",
   "name": "Darayana Kamala",
   "url": "/projects/darayana-kamala/",

@@ -1,0 +1,18 @@
+{
+  "title": "The Petit Tycoon",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "project": "content/projects/the-petit-tycoon.json",
+  "propertyType": "Condo",
+  "location": "Surin",
+  "currency": "THB",
+  "shortDescription": "Completed luxury condominium in Surin, 0.8 km from Surin Beach.",
+  "description": "Completed luxury condominium in Surin, 0.8 km from Surin Beach.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 10600000,
+  "ownership": "Freehold"
+}

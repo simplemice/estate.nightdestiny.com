@@ -1,0 +1,17 @@
+{
+  "title": "Panorama Kata Ocean View Villas",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-25",
+  "project": "content/projects/panorama-kata-ocean-view-villas.json",
+  "propertyType": "Villa",
+  "location": "Karon",
+  "currency": "THB",
+  "shortDescription": "Hillside ocean-view villas of 2 and 3 bedrooms above Kata and Karon.",
+  "description": "Hillside ocean-view villas of 2 and 3 bedrooms above Kata and Karon.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 11000000
+}
