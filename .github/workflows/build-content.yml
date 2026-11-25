@@ -31,4 +31,5 @@ jobs:
           git add -A
           git diff --cached --quiet && echo "No changes" && exit 0
           git commit -m "chore: rebuild site from content [skip ci]"
+          git pull --rebase origin main
           git push

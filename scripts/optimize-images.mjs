@@ -27,7 +27,9 @@ for (const f of walk(path.join(ROOT, 'content'))) for (const s of strings(JSON.p
 
 let made = 0;
 const dims = {};
-for (const ref of refs) {
+// Sorted so the output is identical on every machine (readdir order differs between this computer and the GitHub runner);
+// otherwise the CI build rewrites dims.json after every push and the next push is rejected.
+for (const ref of [...refs].sort()) {
   const src = path.join(ROOT, ref);
   if (!fs.existsSync(src)) { console.warn('missing:', ref); continue; }
   const meta = await sharp(src).metadata();
