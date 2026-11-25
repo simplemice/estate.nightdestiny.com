@@ -1,0 +1,17 @@
+{
+  "title": "The Zero Bang Tao",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "project": "content/projects/the-zero-bang-tao.json",
+  "propertyType": "Condo",
+  "location": "Bang Tao",
+  "currency": "THB",
+  "shortDescription": "A seven-storey eco-focused condominium with 85 apartments, a 25-metre pool and a spa, about 2 km from Bang Tao Beach.",
+  "description": "Seven-storey eco-focused condominium of 85 studio to three-bedroom apartments near Bang Tao Beach, with a 25-metre pool, spa and co-working space.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 3900000
+}

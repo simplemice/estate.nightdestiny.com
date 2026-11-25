@@ -1,0 +1,18 @@
+{
+  "title": "Goldena Twin",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-12",
+  "project": "content/projects/goldena-twin.json",
+  "propertyType": "Villa",
+  "location": "Kamala",
+  "currency": "THB",
+  "shortDescription": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach.",
+  "description": "A completed project of about 12 duplex villas in Kamala, a short distance from the beach.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 11000000,
+  "ownership": "Leasehold"
+}

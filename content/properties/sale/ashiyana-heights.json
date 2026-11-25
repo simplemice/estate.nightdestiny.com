@@ -1,0 +1,18 @@
+{
+  "title": "Ashiyana Heights",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-22",
+  "project": "content/projects/ashiyana-heights.json",
+  "propertyType": "Condo",
+  "location": "Karon",
+  "currency": "THB",
+  "shortDescription": "A seven-storey sea-view condominium with 131 apartments and a rooftop pool, about 1.4 km from Kata Beach.",
+  "description": "Seven-storey sea-view condominium of 131 studios, one-bedroom and two-bedroom apartments on Soi Patak 2, a short drive from Kata Beach.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 3700000,
+  "ownership": "Freehold"
+}
