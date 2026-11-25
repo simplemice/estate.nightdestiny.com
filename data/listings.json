@@ -181,6 +181,7 @@
    "type": "Pool villa",
    "price": 22500000,
    "currency": "THB",
+   "cover": "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-villa-facade.jpg",
    "publishedAt": "2026-11-25",
    "featured": false
   },

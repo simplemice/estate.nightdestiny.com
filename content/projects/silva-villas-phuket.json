@@ -10,11 +10,11 @@
     "Cherng Talay"
   ],
   "locationStatus": "probable",
-  "shortDescription": "Small off-plan collection of four 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang, about 6 km from Bang Tao Beach.",
-  "description": "Silva (listed on FazWaz as Silva Phuket) is a small collection of four three-bedroom villas in Si Sunthon, Thalang, in the quieter inland area behind Bang Tao. Each villa has four bathrooms and about 290 to 350 sqm of built-up space. A sales agent states each home has a private pool; we have not seen the developer's own plans to confirm this.\nCompletion is scheduled for September 2027 and the project is off-plan. Garden space, parking, 24-hour security and CCTV are listed, pets are allowed, and listed common-area fees are THB 25 per sqm per month with a sinking fund of THB 500 per sqm.\nSi Sunthon puts Porto de Phuket and Villa Market Laguna about 3.8 km away and Bang Tao Beach about 6 km away (straight line); the airport is about 18.8 km. Do not confuse it with Silva Residences, a separate four-villa project in Cherng Talay. Listed asking prices run from THB 22.5 million to 25 million.",
-  "cardDescription": "Four off-plan 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang, from THB 22.5 million.",
+  "shortDescription": "Gated boutique collection of four 3-bedroom pool villas of 290-350 sqm near Laguna and Bang Tao, from THB 22.5 million. Completion Sep 2027.",
+  "description": "Silva (listed on FazWaz as Silva Phuket and marketed by phuket.pro as Silva Villas) is a gated boutique collection of four private pool villas in the Cherng Talay and Si Sunthon area behind Laguna Phuket and Bang Tao. Each villa has three bedrooms and four bathrooms, with about 290 to 350 sqm of built-up space (the agent listing gives 290 to 310 sqm) on plots of about 189 to 213 sqm. The renders show a private pool with a waterfall, a double-height open-plan living and dining area, a Western kitchen, a loft bedroom and a landscaped garden terrace, with parking for two cars.\nCompletion is scheduled for September 2027 and the project is off-plan. FazWaz lists 24-hour security and CCTV, pets allowed, and common-area fees of THB 25 per sqm per month with a sinking fund of THB 500 per sqm. Listed asking prices run from THB 22.5 million to 25 million.\nThe agent listing gives drive times: Blue Tree about 3 minutes, Boat Avenue 8, Porto de Phuket and Laguna Phuket 10, Bang Tao Beach 10 to 15, HeadStart International School 10 and the airport about 25 minutes. FazWaz measures Bang Tao Beach at about 6 km and the airport at 18.8 km in a straight line. Do not confuse it with Silva Residences, a separate project.",
+  "cardDescription": "Four gated 3-bedroom private pool villas of 290-350 sqm behind Laguna and Bang Tao, from THB 22.5 million.",
   "seoTitle": "Silva Villas Phuket | Off-Plan Villas in Si Sunthon",
-  "seoDescription": "Silva Villas Phuket: four 3-bedroom villas of 290-350 sqm in Si Sunthon, Thalang. Completion Sep 2027, advertised from THB 22.5M. Sizes and distances.",
+  "seoDescription": "Silva Villas Phuket: four gated 3-bedroom pool villas of 290-350 sqm near Laguna and Bang Tao, from THB 22.5M. Completion Sep 2027. Photos and sizes.",
   "primaryKeyword": "Silva Villas Phuket",
   "secondaryKeywords": [
     "Silva Phuket villas",
@@ -34,8 +34,8 @@
   "bathroomsMin": 4,
   "bathroomsMax": 4,
   "builtUpMin": 290,
-  "builtUpMax": 350,
-  "parking": "Yes",
+  "builtUpMax": 310,
+  "parking": "2 cars",
   "commonAreaFee": "THB 25 per sqm per month",
   "sinkingFund": "THB 500 per sqm",
   "ownership": [],
@@ -50,9 +50,12 @@
     }
   ],
   "facilities": [
-    "Private pool (per agent listing)",
-    "Communal garden area",
-    "Car parking",
+    "Private pool",
+    "Open-plan living and dining area",
+    "Western kitchen",
+    "Landscaped tropical garden",
+    "Private parking for 2 cars",
+    "Gated boutique development",
     "24-hour security",
     "CCTV",
     "Pet-friendly"
@@ -96,6 +99,10 @@
   ],
   "sources": [
     {
+      "label": "Phuket.pro: Silva Villas project and listing",
+      "url": "https://phuket.pro/en/project/silva-villas/"
+    },
+    {
       "label": "FazWaz project page (portal)",
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/si-sunthon/silva-phuket"
     },
@@ -108,11 +115,40 @@
       "url": "https://www.hipflat.com/projects/silva-phuket-luc44n211t249h12c07c7n40thha3t2h"
     }
   ],
-  "researchNotes": "Name ambiguity: user brief says \"Silva Villas Phuket\"; FazWaz/Hipflat/Papaya call it \"Silva\" / \"Silva Phuket\" (Si Sunthon, Thalang). A different project, Silva Residences (Cherngtalay, 4 pool villas, ~290 sqm, THB 22.5-23.5M, DDProperty), is NOT this one. Developer inferred from the Papaya URL path (annara-group); FazWaz does not name one. Private pool from Papaya text only. Ownership not verified. No official website found.",
+  "researchNotes": "Name ambiguity: user brief says \"Silva Villas Phuket\"; FazWaz/Hipflat/Papaya call it \"Silva\" / \"Silva Phuket\" (Si Sunthon, Thalang). A different project, Silva Residences (Cherngtalay, 4 pool villas, ~290 sqm, THB 22.5-23.5M, DDProperty), is NOT this one. Developer inferred from the Papaya URL path (annara-group); FazWaz does not name one. Private pool confirmed by the phuket.pro listing and renders. Ownership not verified. No official website found. | Images 2026-11-25: 11 renders from phuket.pro project page and the private listing 3188 for Silva Villas (a portal/agency site, not the developer). Listing facts: 3 bedrooms, 4 bathrooms, private pool, open-plan living, Western kitchen, parking for 2 cars, gated boutique development of 4 villas, plot 189-213 sqm, built-up 290-310 sqm, from THB 22.5M; 3 min to Blue Tree, 8 min Boat Avenue, 10 min Porto de Phuket and Laguna, 10-15 min Bang Tao Beach, 10 min HeadStart International School, 25 min airport. Images are 960 px wide (not upscaled).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-25",
   "lastVerified": "2026-11-25",
-  "imagesStatus": "unavailable"
+  "imagesStatus": "available",
+  "cover": "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-villa-facade.jpg",
+  "images": [
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-entrance-street-view.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-gated-driveway.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-garden-terrace.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-double-height-living-room.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-living-dining-pool.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-bedroom-waterfall-pool.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-bedroom-garden-view.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-master-bedroom.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-loft-bedroom.jpg",
+    "/assets/images/projects/silva-villas-phuket/silva-villas-phuket-bathroom-garden.jpg"
+  ],
+  "imageCaptions": [
+    "Villa facade, render",
+    "Silva Villas entrance and street, render",
+    "Silva Villas gated driveway, render",
+    "Silva Villas garden terrace, render",
+    "Silva Villas double-height living room, render",
+    "Silva Villas living and dining area with private pool, render",
+    "Silva Villas bedroom beside the pool and waterfall, render",
+    "Silva Villas bedroom with garden view, render",
+    "Silva Villas master bedroom, render",
+    "Silva Villas loft bedroom, render",
+    "Silva Villas bathroom with garden, render"
+  ],
+  "imageCredit": "Marketing renders (artist impressions) published by phuket.pro. Layouts and finishes may differ from the completed project.",
+  "landMin": 189,
+  "landMax": 213
 }
