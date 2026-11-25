@@ -10,31 +10,232 @@
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-23",
-  "shortDescription": "New condominium project by The Title (Rhom Bho Property) in Kamala, Phuket, announced in October 2026 under the line \"Where the stars embrace the sea\".",
-  "description": "Darayana is a new condominium project by The Title, the Phuket brand of Rhom Bho Property PLC, in Kamala on Phuket's west coast. The developer's project page, published on 27 October 2026, lists it as a new project in Kamala with the tagline \"Where the stars embrace the sea\".\nThe developer has not yet published the number of units, unit types and sizes, facilities, prices, ownership terms, payment plan or completion date, so none are shown here. Other The Title projects in Kamala, such as The Title Vivana and Coralina Kamala, are listed in our catalogue for comparison.\nMessage us on WhatsApp and we will send the current details and availability as soon as the developer releases them.",
-  "cardDescription": "New condominium by The Title (Rhom Bho Property) in Kamala, Phuket. Prices and unit details are on request.",
-  "seoTitle": "Darayana Kamala: New Condominium by The Title in Kamala, Phuket",
-  "seoDescription": "Darayana Kamala, a new condominium by The Title (Rhom Bho Property) in Kamala, Phuket. Prices and unit details on request. Enquire on WhatsApp.",
+  "shortDescription": "Large condominium of 841 apartments 150 m from Kamala Beach: 1 to 3 bedrooms from 30 sqm, from THB 5.46M. Sales launch 28 Nov 2026, completion Q2 2029.",
+  "description": "Darayana is a large condominium by The Title, the Phuket brand of Rhom Bho Property PLC, in north Kamala on Phuket's west coast, planned about 150 m from Kamala Beach and 40 m from Cafe del Mar. Brokers describe 841 apartments plus 7 retail units in low-rise buildings (nine buildings in one listing, eleven buildings A to K on a master plan in another) around lagoons and pools, with two car parks. Completion is planned for the second quarter of 2029, and the public sales launch is on 28 November 2026.\nApartments range from one-bedroom homes of about 30 sqm to three-bedroom residences of up to about 139.5 sqm, in eight types plus penthouses of 82 to 139 sqm. One-bedroom units are about 81% of the stock. Published starting prices (price list V.1 of 18 November 2026, buildings C, H and J) are THB 5.46 million for a 1BS, 5.86 million for a 1BM, 7.21 million for a 1BL, 8.37 million for a 1BP, 15.2 million for a 2BM, 19.7 million for a 2BL, 24.1 million for a 3BM and 23.5 million for a penthouse; 3BL units are on request. Final prices depend on floor, view and availability.\nPlanned facilities include the Caribbean Beach wave pool, a 25-metre lap pool, the Atlantic Lagoon hydrotherapy area, a rooftop pool with onsen, a rooftop fitness centre and Sky Pavilion, a yoga room, children's playrooms, an entertainment zone and a lobby with lounges. Buildings C and D are pet-friendly, with a dog garden. Ownership is listed as foreign freehold or leasehold; payment terms and the foreign-buyer structure are to be announced at launch. Distances are the developer's figures: Kamala Beach about 150 m, InterContinental 200 m, FantaSea 750 m, a hospital 1.5 km, supermarkets about 2 km, Patong about 15 minutes and the airport 35 to 40 minutes by car.",
+  "cardDescription": "841 apartments about 150 m from Kamala Beach, 1 to 3 bedrooms from 30 sqm, from THB 5.46M, with wave pool and rooftop onsen.",
+  "seoTitle": "Darayana Kamala Phuket | Condos for Sale by The Title",
+  "seoDescription": "Darayana Kamala by The Title: 841 condos 150 m from Kamala Beach, 1-3 bedrooms from 30 sqm, from THB 5.46M. Sales launch 28 Nov 2026, completion Q2 2029.",
   "primaryKeyword": "Darayana Kamala",
   "secondaryKeywords": [
-    "The Title Darayana",
     "Darayana Phuket",
-    "new condominium Kamala Phuket",
+    "The Title Darayana",
+    "condos for sale Kamala Phuket",
     "Rhom Bho Property Kamala"
   ],
-  "priceStatus": "on-request",
-  "lastVerified": "2026-11-23",
-  "constructionStatus": "Status on request",
-  "unitTypes": [],
-  "facilities": [],
-  "nearby": [],
+  "priceStatus": "advertised",
+  "lastVerified": "2026-11-26",
+  "constructionStatus": "Pre-sale",
+  "unitTypes": [
+    {
+      "name": "1BS 1 Bedroom Small",
+      "bedrooms": 1,
+      "size": "30.10-34.70",
+      "availability": "140 units in the plan",
+      "price": 5459681,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "1BM 1 Bedroom Medium",
+      "bedrooms": 1,
+      "size": "33.30-39.80",
+      "availability": "348 units in the plan",
+      "price": 5855946,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "1BL 1 Bedroom Large",
+      "bedrooms": 1,
+      "size": "40.50-64.00",
+      "availability": "88 units in the plan",
+      "price": 7211258,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "1BP 1 Bedroom Plus",
+      "bedrooms": 1,
+      "size": "46.80-58.40",
+      "availability": "114 units in the plan",
+      "price": 8368437,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "2BM 2 Bedroom Medium",
+      "bedrooms": 2,
+      "size": "63.90-76.00",
+      "availability": "72 units in the plan",
+      "price": 15224089,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "2BL 2 Bedroom Large",
+      "bedrooms": 2,
+      "size": "91.10-105.60",
+      "availability": "35 units in the plan",
+      "price": 19698124,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "3BM 3 Bedroom Medium",
+      "bedrooms": 3,
+      "size": "123.90-125.80",
+      "availability": "12 units in the plan",
+      "price": 24130308,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)"
+    },
+    {
+      "name": "3BL 3 Bedroom Large",
+      "bedrooms": 3,
+      "size": "138.20-139.50",
+      "availability": "18 units in the plan"
+    },
+    {
+      "name": "PH Penthouse",
+      "size": "81.80-139.10",
+      "price": 23525904,
+      "priceType": "From, price list V.1 of 18.11.2026 (buildings C, H, J)",
+      "availability": "14 units in the plan"
+    }
+  ],
+  "facilities": [
+    "Caribbean Beach wave pool",
+    "25-metre lap pool",
+    "Atlantic Lagoon whirlpool and hydrotherapy area",
+    "Rooftop relaxation pool with onsen",
+    "Rooftop fitness centre and Sky Pavilion",
+    "Fitness centre",
+    "Yoga room",
+    "Children's playrooms and Volcano Playground",
+    "Entertainment zone and games room",
+    "Grand arrival lobby and indoor lounges",
+    "Landscaped gardens and walkways",
+    "Pet-friendly buildings C and D with garden area",
+    "Seven planned commercial units",
+    "Dedicated parking buildings",
+    "Pawyager Garden for dogs",
+    "Two car parks (P1 and P2)"
+  ],
+  "nearby": [
+    {
+      "place": "Cafe del Mar Phuket",
+      "distance": "40 m",
+      "mode": "developer figure"
+    },
+    {
+      "place": "333 At The Beach",
+      "distance": "110 m",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Kamala Beach",
+      "distance": "about 150 m",
+      "mode": "developer figure"
+    },
+    {
+      "place": "InterContinental Phuket Resort",
+      "distance": "200 m",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Phuket FantaSea",
+      "distance": "750 m",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Wattanapat Hospital",
+      "distance": "1.5 km",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Tops / Big C",
+      "distance": "2.1 km",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Villa Market",
+      "distance": "2.2 km",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Hyatt Regency Phuket",
+      "distance": "2.6 km",
+      "mode": "developer figure"
+    },
+    {
+      "place": "Patong",
+      "distance": "about 15 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "35-40 minutes",
+      "mode": "driving"
+    }
+  ],
   "sources": [
+    {
+      "label": "Jungle House: Darayana Kamala (price list V.1 of 18.11.2026)",
+      "url": "https://junglehousethai.com/darayana-kamala"
+    },
+    {
+      "label": "InAsia Consulting: Darayana by The Title, Kamala",
+      "url": "https://inasia.consulting/developments/darayana-by-the-title-kamala/"
+    },
     {
       "label": "The Title Residence (developer): Darayana",
       "url": "https://thetitleresidence.com/condominium/darayana/"
     }
   ],
-  "researchNotes": "2026-11-23: renamed from \"The Nayabella Condominium\" at the owner's request; all Nayabella/Nai Yang details (six floors, one-bedroom units, facilities, airport/Bang Tao distances, broker listing) were dropped because they could not be tied to Darayana. Only source found: developer page thetitleresidence.com/condominium/darayana/ (published 2026-10-27): name, Kamala, \"New Project\", tagline \"Where the stars embrace the sea\", price shown as a placeholder (X.XX). No other portal or news page lists the project. Exact site/address, units, sizes, facilities, price, ownership, payment plan and completion are not published; standard payment text is NOT verified. Image: developer teaser banner only (no project renders published).",
-  "cover": "/assets/images/projects/darayana-kamala/darayana-teaser.jpg",
-  "images": []
+  "researchNotes": "2026-11-23: renamed from \"The Nayabella Condominium\" at the owner's request; all Nayabella/Nai Yang details (six floors, one-bedroom units, facilities, airport/Bang Tao distances, broker listing) were dropped because they could not be tied to Darayana. Only source found: developer page thetitleresidence.com/condominium/darayana/ (published 2026-10-27): name, Kamala, \"New Project\", tagline \"Where the stars embrace the sea\", price shown as a placeholder (X.XX). No other portal or news page lists the project. Exact site/address, units, sizes, facilities, price, ownership, payment plan and completion are not published; standard payment text is NOT verified. Image: developer teaser banner only (no project renders published). | 2026-11-26 re-check: developer page still shows only the teaser banner and a register form (no units, sizes, prices, completion or facilities); no FazWaz, Papaya or other portal page for Darayana found. Nothing further to add until the developer publishes details. | 2026-11-26 update from InAsia Consulting (broker site, not the developer): 841 apartments, 9 low-rise buildings of 5 and 7 storeys, ~20 rai, 1-3 bedrooms 30.10-139.50 sqm, foreign freehold / leasehold, pre-sale, sales launch 28 Nov 2026, completion Q2 2029, pet-friendly buildings C and D, 7 commercial units; 14 renders and the unit plan board downloaded from that page. Unit-plan sizes read from the board image. No price, bathrooms or distances published. Developer page itself still shows only the teaser. The unit counts and dates are broker figures, not confirmed by Rhom Bho. | 2026-11-26 prices and distances from Jungle House (broker site) citing developer price list V.1 of 18.11.2026 for buildings C, H, J: from THB 5,459,681 (1BS 140 units), 5,855,946 (1BM 348), 7,211,258 (1BL 88), 8,368,437 (1BP 114), 15,224,089 (2BM 72), 19,698,124 (2BL 35), 24,130,308 (3BM 12), penthouse 23,525,904 (14), 3BL (18) and retail (7) on request; 848 units in total = 841 apartments + 7 retail. Building count conflict: 9 (InAsia, Jungle House table) vs 11 buildings A-K (Jungle House master plan). Distances are developer figures. Prices are broker-published, not seen on the developer page; verify at launch.",
+  "cover": "/assets/images/projects/darayana-kamala/darayana-kamala-entrance-neo-mediterranean-buildings.jpg",
+  "images": [
+    "/assets/images/projects/darayana-kamala/darayana-kamala-aerial-kamala-beach-site.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-caribbean-beach-wave-pool.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-25-metre-pool-gardens.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-atlantic-lagoon-hydrotherapy.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-rooftop-pool-onsen.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-rooftop-fitness-sky-pavilion.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-volcano-playground.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-childrens-playroom.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-arrival-lobby.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-pet-friendly-garden-walkway.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-entertainment-lounge.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-fitness-centre.jpg",
+    "/assets/images/projects/darayana-kamala/darayana-kamala-yoga-studio.jpg"
+  ],
+  "imageCaptions": [
+    "Entrance and Neo-Mediterranean buildings, render",
+    "Kamala Beach and the site setting, aerial render",
+    "Darayana Kamala Caribbean Beach wave pool, render",
+    "Darayana Kamala 25-metre swimming pool in landscaped gardens, render",
+    "Darayana Kamala Atlantic Lagoon whirlpool and hydrotherapy island, render",
+    "Darayana Kamala rooftop relaxation pool and onsen, render",
+    "Darayana Kamala rooftop fitness centre and Sky Pavilion, render",
+    "Darayana Kamala playground and pool area, render",
+    "Darayana Kamala children's themed playroom, render",
+    "Darayana Kamala lobby interior, render",
+    "Darayana Kamala pet-friendly garden walkway by buildings C and D, render",
+    "Darayana Kamala entertainment lounge, render",
+    "Darayana Kamala fitness centre, render",
+    "Darayana Kamala yoga studio, render"
+  ],
+  "imageCredit": "Developer artist renders as published by InAsia Consulting. Layouts, finishes and landscaping may differ from the completed project.",
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/darayana-kamala/darayana-kamala-unit-plan-types.jpg"
+  ],
+  "completionDate": "Q2 2029",
+  "totalUnits": "841 apartments plus 7 retail units",
+  "floors": "9 to 11 low-rise buildings (sources differ)",
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "builtUpMin": 30.1,
+  "builtUpMax": 139.5,
+  "parking": "Dedicated parking buildings",
+  "startingPrice": 5459681,
+  "priceNote": "Starting price from the broker-published developer price list V.1 of 18.11.2026 (buildings C, H and J); the final price depends on floor, view and availability.",
+  "priceSourceUrl": "https://junglehousethai.com/darayana-kamala"
 }
