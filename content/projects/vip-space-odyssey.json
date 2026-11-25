@@ -7,11 +7,11 @@
   "area": "Rawai",
   "neighbourhood": "Between Rawai and Nai Harn",
   "locationStatus": "probable",
-  "shortDescription": "Large off-plan condominium community in southern Rawai with studios to 2-bedroom units, 600 m from Rawai Beach.",
-  "description": "VIP Space Odyssey is a mixed-use development by VIP Property Development Thailand in southern Phuket, between Rawai and Nai Harn and against forested hills. The portal lists 619 units in 5 buildings of up to 8 floors on about 25,600 sqm; other sources describe a smaller first phase with a number of pool villas, so the final scale is not confirmed. Completion is scheduled for December 2028. The developer's page shows monthly construction-progress photos, with piling and foundation works under way between March and August 2026.\nListed unit types include studios of about 29 sqm, one-bedroom units of about 32 sqm and two-bedroom units of about 60 sqm, with a larger two-bedroom type of about 120 sqm. Shared facilities listed are a communal pool, garden, kids' club, gym, parking and 24-hour security. Listed fees are THB 60 per sqm per month for common areas, a sinking fund of THB 400 per sqm and a freehold premium of THB 10,000 per sqm.\nRawai Beach is about 0.6 km away in a straight line, Rawai Park 1.3 km, Yanui Beach 2.0 km and Promthep Cape 2.8 km. Prices are advertised by portals from about THB 4.4 million and change; confirm availability and terms before reserving.",
-  "cardDescription": "A large off-plan condominium community in southern Rawai, 0.6 km from Rawai Beach, with studios to 2-bedroom units.",
+  "shortDescription": "Mixed-use development in southern Rawai with 574 condo units and 23 pool villas, studios to 2 bedrooms from 29 sqm, 0.6 km from Rawai Beach.",
+  "description": "VIP Space Odyssey is a mixed-use development by VIP Property Development Thailand in southern Phuket, between Rawai Beach and Nai Harn Beach and under 3 km from Promthep Cape. The developer describes four condominium buildings of up to 8 floors with 574 condominium units, plus 23 private pool villas, on about 25,600 sqm; it is EIA approved and the architecture takes space exploration as its theme. FazWaz lists 619 units, so the unit total differs by source. Completion is announced for the fourth quarter of 2028, and the developer's page shows construction progress photos with piling works under way in 2026.\nUnit layouts published by the developer: studios of about 29 to 32 sqm (Types A, C and D), one-bedroom units of 32 and 45 sqm (Types E and G), two-bedroom units of 60 and 69 sqm (Types B and F) and private pool villas from about 120 sqm. Renders show a rooftop infinity pool with sea views, a restaurant, a fitness center, a kids club and playgrounds, and the developer also lists a co-working space and a convenience store.\nOwnership: the developer lists freehold and leasehold; FazWaz lists common-area fees of THB 60 per sqm per month, a sinking fund of THB 400 per sqm and a freehold premium of THB 10,000 per sqm. Rawai Beach is about 0.6 km away in a straight line, Rawai Park 1.3 km, Yanui Beach 2.0 km and Promthep Cape 2.8 km. Prices are advertised by portals from about THB 4.4 million and change; confirm availability and terms before reserving.",
+  "cardDescription": "A large mixed-use community in southern Rawai: studios to 2-bedroom condos and pool villas, with rooftop pool, restaurant and kids club.",
   "seoTitle": "VIP Space Odyssey Rawai Phuket | Condos for Sale",
-  "seoDescription": "VIP Space Odyssey in Rawai, Phuket: off-plan studios, 1 and 2-bedroom condos by VIP Thailand, 0.6 km from Rawai Beach. Completion Dec 2028.",
+  "seoDescription": "VIP Space Odyssey in Rawai, Phuket: 574 condos (studio to 2 bedrooms, from 29 sqm) and 23 pool villas by VIP Property Development. Completion Q4 2028.",
   "primaryKeyword": "VIP Space Odyssey Phuket",
   "secondaryKeywords": [
     "VIP Space Odyssey Rawai",
@@ -19,51 +19,92 @@
     "off-plan condos Rawai"
   ],
   "constructionStatus": "Under construction",
-  "completionDate": "Dec 2028",
-  "totalUnits": "619 (portal figure; other sources differ)",
-  "floors": "5 buildings, up to 8 floors",
+  "completionDate": "Q4 2028",
+  "totalUnits": "574 condominium units and 23 pool villas",
+  "floors": "4 condominium buildings, 8 floors",
   "startingPrice": 4400000,
   "priceStatus": "advertised",
   "priceNote": "Portal asking price; unconfirmed with the developer.",
   "priceSourceUrl": "https://www.ddproperty.com/en/project/13893-vip-space-odyssey",
   "bedroomsMin": 0,
   "bedroomsMax": 2,
-  "builtUpMin": 29,
+  "builtUpMin": 29.3,
   "builtUpMax": 120,
   "parking": "Yes",
   "commonAreaFee": "THB 60 per sqm per month",
   "sinkingFund": "THB 400 per sqm",
   "ownership": [
-    "Freehold"
+    "Freehold",
+    "Leasehold"
   ],
   "unitTypes": [
     {
-      "name": "Studio",
+      "name": "Type A Studio",
       "bedrooms": 0,
       "bathrooms": 1,
-      "size": "29"
+      "size": "29.30",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-a-studio-layout.jpg"
     },
     {
-      "name": "1 Bedroom",
+      "name": "Type C Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "29.40",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-c-studio-layout.jpg"
+    },
+    {
+      "name": "Type D Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "31.70",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-d-studio-layout.jpg"
+    },
+    {
+      "name": "Type E 1 Bedroom",
       "bedrooms": 1,
       "bathrooms": 1,
-      "size": "32"
+      "size": "32",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-e-one-bedroom-layout.jpg"
     },
     {
-      "name": "2 Bedroom",
+      "name": "Type G 1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "45",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-g-one-bedroom-layout.jpg"
+    },
+    {
+      "name": "Type B 2 Bedroom",
       "bedrooms": 2,
       "bathrooms": 2,
-      "size": "60-120"
+      "size": "60",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-b-two-bedroom-layout.jpg"
+    },
+    {
+      "name": "Type F 2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "69.30",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-f-two-bedroom-layout.jpg"
+    },
+    {
+      "name": "Private Pool Villa",
+      "size": "120+",
+      "floorPlan": "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-pool-villa-layout.jpg"
     }
   ],
   "facilities": [
-    "Communal swimming pool",
-    "Communal garden",
+    "Swimming pools",
+    "Rooftop infinity pool with sea view",
+    "Fitness center",
     "Kids club",
-    "Fitness / gym",
-    "Car parking",
+    "Playground",
+    "Co-working space",
+    "Restaurant",
+    "Convenience store",
+    "Landscaped gardens",
     "24-hour security",
-    "Co-working space"
+    "Car parking"
   ],
   "nearby": [
     {
@@ -120,24 +161,59 @@
       "url": "https://teletype.in/@thaiga/EngVIPSpaceOdysseyCondominium"
     }
   ],
-  "researchNotes": "No official site verified. Scale conflict: FazWaz 619 units / 5 buildings / 8 floors; other sources 300 units, 19 pool villas, or 4 buildings. FazWaz type: mixed-use. Ownership: portals say freehold (foreign quota 49%) with freehold premium THB 10,000/sqm; leasehold also mentioned. A developer rental guarantee is advertised by agents; deliberately not repeated here. Studio prices not extracted; THB 4.4M is a portal-advertised start (a 2024 article said 4.25M). | Images 2026-11-25: 4 construction progress photos from the developer page vipthailand.com/projects/vip-space-odessey/ (Mar-Aug 2026 updates), cropped to the photo area. Page text: developer VIP Property Development Thailand; EIA approved; mixed-use (condominiums, private villas, retail); multiple pools, fitness, kids club, co-working space; between Rawai Beach and Nai Harn Beach. Site works and piling visible in 2026, so status set to Under construction. | Developer page (2026-11-25): EIA approved, mixed-use with condominiums, private villas and retail, pools, fitness centre, kids club and co-working space; no unit count on the page. Status changed to Under construction from construction photos Mar-Aug 2026.",
+  "researchNotes": "No official site verified. Scale conflict: FazWaz 619 units / 5 buildings / 8 floors; other sources 300 units, 19 pool villas, or 4 buildings. FazWaz type: mixed-use. Ownership: portals say freehold (foreign quota 49%) with freehold premium THB 10,000/sqm; leasehold also mentioned. A developer rental guarantee is advertised by agents; deliberately not repeated here. Studio prices not extracted; THB 4.4M is a portal-advertised start (a 2024 article said 4.25M). | Images 2026-11-25: 4 construction progress photos from the developer page vipthailand.com/projects/vip-space-odessey/ (Mar-Aug 2026 updates), cropped to the photo area. Page text: developer VIP Property Development Thailand; EIA approved; mixed-use (condominiums, private villas, retail); multiple pools, fitness, kids club, co-working space; between Rawai Beach and Nai Harn Beach. Site works and piling visible in 2026, so status set to Under construction. | Developer page (2026-11-25): EIA approved, mixed-use with condominiums, private villas and retail, pools, fitness centre, kids club and co-working space; no unit count on the page. Status changed to Under construction from construction photos Mar-Aug 2026. | Images 2026-11-25: Gallery and unit layouts replaced with the full set from vipthailand.com/projects/vip-space-odessey/ (14 renders, 2 progress photos, 7 unit-type layout boards, 1 pool villa layout). | Developer page factsheet read 2026-11-25: 574 condo units, 4 buildings, 8 floors, 23 pool villas (freehold available), project area ~25,600 sqm, studio/1BR/2BR from 29 to 120+ sqm, freehold and leasehold, completion expected Q4 2028. Unit bathrooms for studio/1BR/2BR assumed 1/1/2 (from FazWaz unit rows).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-25",
   "lastVerified": "2026-11-25",
   "imagesStatus": "available",
-  "cover": "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-aug-2026.jpg",
+  "cover": "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-masterplan-aerial-phases.jpg",
   "images": [
-    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-jul-2026.jpg",
-    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-jun-2026.jpg",
-    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-may-2026.jpg"
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-rooftop-infinity-pool-sea-view.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-rooftop-pool-terrace-dining.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-rooftop-pavilion-sunset.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-rooftop-pool-building-view.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-restaurant-buffet-counter.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-restaurant-buffet-hall.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-restaurant-open-kitchen.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-restaurant-dining-room.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-restaurant-terrace-seating.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-fitness-center.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-kids-club.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-playground-carousel.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-playground-garden-path.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-aug-2026.jpg",
+    "/assets/images/projects/vip-space-odyssey/vip-space-odyssey-construction-progress-jul-2026.jpg"
   ],
   "imageCaptions": [
-    "Construction progress, August 2026 (piling works)",
-    "VIP Space Odyssey construction progress, July 2026",
-    "VIP Space Odyssey construction progress, June 2026",
-    "VIP Space Odyssey construction progress, May 2026"
+    "VIP Space Odyssey aerial view of phase 1 and phase 2, render",
+    "VIP Space Odyssey rooftop infinity pool with sea view, render",
+    "VIP Space Odyssey rooftop terrace and dining area, render",
+    "VIP Space Odyssey rooftop pavilion and sun loungers at sunset, render",
+    "VIP Space Odyssey rooftop pool and building, render",
+    "VIP Space Odyssey restaurant buffet counter, render",
+    "VIP Space Odyssey restaurant and buffet hall, render",
+    "VIP Space Odyssey restaurant open kitchen, render",
+    "VIP Space Odyssey restaurant dining room, render",
+    "VIP Space Odyssey restaurant terrace seating, render",
+    "VIP Space Odyssey fitness center, render",
+    "VIP Space Odyssey kids club, render",
+    "VIP Space Odyssey children's playground, render",
+    "VIP Space Odyssey playground and garden path, render",
+    "VIP Space Odyssey construction progress, August 2026 (piling works)",
+    "VIP Space Odyssey construction progress, July 2026"
   ],
-  "imageCredit": "Construction progress photos published by the developer (cropped from its monthly update graphics, branding frame removed). No renders are available from the developer page."
+  "imageCredit": "Developer marketing renders (artist impressions, with the developer's own \"not final design\" disclaimer) and construction progress photos. Layouts and finishes may differ from the completed project.",
+  "floorPlans": [
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-a-studio-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-c-studio-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-d-studio-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-e-one-bedroom-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-g-one-bedroom-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-b-two-bedroom-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-type-f-two-bedroom-layout.jpg",
+    "/assets/images/floorplans/vip-space-odyssey/vip-space-odyssey-pool-villa-layout.jpg"
+  ],
+  "privatePool": "yes"
 }
