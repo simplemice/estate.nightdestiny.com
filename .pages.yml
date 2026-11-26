@@ -60,7 +60,7 @@ content:
     format: json
     subfolders: false
     filename: "{primary}.json"
-    view: { primary: title, fields: [location, price, availability, published], sort: publishedAt, order: desc }
+    view: { primary: title, fields: [title, location, price, availability, published], search: [title, location], sort: [publishedAt, title, price], default: { sort: publishedAt, order: desc } }
     fields: &property_fields
       - { name: title, label: Title, type: string, required: true, description: "The filename (URL slug) is created from the title and cannot be changed later." }
       - { name: published, label: Published (visible on website), type: boolean, default: true }
@@ -100,7 +100,7 @@ content:
     format: json
     subfolders: false
     filename: "{primary}.json"
-    view: { primary: title, fields: [location, price, ownership, availability, published], sort: publishedAt, order: desc }
+    view: { primary: title, fields: [title, location, price, ownership, availability, published], search: [title, location], sort: [publishedAt, title, price], default: { sort: publishedAt, order: desc } }
     fields:
       - { name: project, label: Linked new project (optional), type: reference, description: "Links this Sale entry to its project page (View Project button). The fields below are shown on the Sale card; any left empty fall back to the project data. Floor plans and unit types are edited under New Projects.", options: { collection: projects, search: name, value: "{path}", label: "{name}" } }
       - { name: title, label: Title, type: string, required: true, description: "The filename (URL slug) is created from the title and cannot be changed later." }
@@ -136,7 +136,7 @@ content:
     format: json
     subfolders: false
     filename: "{primary}.json"
-    view: { primary: name, fields: [location, developer, constructionStatus, published], sort: publishedAt, order: desc }
+    view: { primary: name, fields: [name, location, developer, constructionStatus, published], search: [name, location, developer], sort: [publishedAt, name], default: { sort: publishedAt, order: desc } }
     fields:
       - { name: name, label: Project name, type: string, required: true }
       - { name: published, label: Published (visible on website), type: boolean, default: true }
