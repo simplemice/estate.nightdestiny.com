@@ -111,6 +111,11 @@ const checkImages = (d, list) => list.forEach((p) => { if (p && !exists(p)) err(
 function validateProperty(p, category) {
   const f = p._file;
   if (category === 'rent' && p.project) p.rentProjectSlug = slugify(String(p.project).replace(/^.*\//, '').replace(/\.json$/, '')); // optional: rental option linked to a sale project (photos, pool, facilities come from it)
+  if (p.video && typeof p.video === 'object') {
+    const yu = String(p.video.youtubeUrl || '').trim();
+    if (p.video.enabled === true && yu && !parseYouTube(yu)) console.warn(`WARNING ${f}: video.youtubeUrl is not a supported YouTube link ("${yu}"); the video section is hidden.`);
+    if (p.video.thumbnail && !exists(p.video.thumbnail)) err(f, `image not found: ${p.video.thumbnail}`);
+  }
   if (p.project && category !== 'rent') { // sale entry that points at a project (shown on the SALE page, details live on the project page)
     p.projectSlug = slugify(String(p.project).replace(/^.*\//, '').replace(/\.json$/, ''));
     if (!p.title) err(f, 'missing required field "title"');
@@ -211,6 +216,7 @@ const saleL = saleAll.filter((p) => !p.projectSlug);                       // no
 const saleProjects = saleAll.filter((p) => p.projectSlug && projBySlug.get(p.projectSlug)?.published !== false && lowestPrice(projBySlug.get(p.projectSlug)))
   .map((e) => ({ ...projBySlug.get(e.projectSlug), _saleEntry: e }));      // projects listed on SALE
 const projL = projL0;
+const saleEntryOf = new Map(saleProjects.map((x) => [x.slug, x._saleEntry])); // project slug -> its Sale entry
 console.log(`Content OK: ${rentL.length} rent, ${saleL.length} sale (+${saleProjects.length} linked projects), ${projL.length} projects (${rent.length + sale.length + projectsAll.length - rentL.length - saleAll.length - projL.length} unpublished)`);
 
 /* ---------- formatting ---------- */
@@ -1099,15 +1105,21 @@ function parseYouTube(raw) {
   }
   return id && OK.test(id) ? { id, shorts: /\/shorts\//.test(u.pathname) } : null;
 }
-// Normalised video of a project, or null when disabled / empty / invalid. The legacy "videoUrl" field still works (enabled).
-function videoOf(p) {
-  const v = p.video && typeof p.video === 'object' ? p.video : null;
-  const url = v ? (v.enabled === true ? v.youtubeUrl : '') : p.videoUrl;
-  const y = parseYouTube(url);
+// Normalised video of a project / sale entry, or null when disabled / empty / invalid. For a project listed on Sale, the sale entry's own
+// video wins over the project's; the legacy "videoUrl" field still works (enabled).
+function videoFrom(v) {
+  if (!v || typeof v !== 'object' || v.enabled !== true) return null;
+  const y = parseYouTube(v.youtubeUrl);
   if (!y) return null;
-  const landscape = v ? String(v.orientation || '').toLowerCase() === 'horizontal' : false;
-  const d = v && v.uploadDate && !isNaN(Date.parse(v.uploadDate)) ? new Date(v.uploadDate).toISOString().slice(0, 10) : '';
-  return { id: y.id, landscape, title: String((v && v.title) || '').trim(), description: String((v && v.description) || '').trim(), thumbnail: v && v.thumbnail ? String(v.thumbnail) : '', uploadDate: d };
+  const d = v.uploadDate && !isNaN(Date.parse(v.uploadDate)) ? new Date(v.uploadDate).toISOString().slice(0, 10) : '';
+  return { id: y.id, landscape: String(v.orientation || '').toLowerCase() === 'horizontal', title: String(v.title || '').trim(), description: String(v.description || '').trim(), thumbnail: v.thumbnail ? String(v.thumbnail) : '', uploadDate: d };
+}
+function videoOf(p) {
+  const se = p._saleEntry || saleEntryOf.get(p.slug);
+  const own = videoFrom(se && se.video) || videoFrom(p.video);
+  if (own) return own;
+  const y = !(p.video && typeof p.video === 'object') ? parseYouTube(p.videoUrl) : null;
+  return y ? { id: y.id, landscape: false, title: '', description: '', thumbnail: '', uploadDate: '' } : null;
 }
 function projectVideo(p) {
   const v = videoOf(p);
@@ -1169,6 +1181,7 @@ function propertyPage(p) {
 					<h2 class="sec-h">${T('about_property')}</h2>
 					${cat === 'rent' ? `<ul class="ec-specs ec-rent-specs rent-chips">${rentChips(p)}</ul><p class="rent-lead">${esc(rentLead)}</p>${p._proj ? `<p class="rent-projlink"><a href="${lp(`/projects/${p._proj.slug}/`)}">${esc(T('rental.project_link', { n: p._proj.name }))}</a></p>` : ''}` : ''}
 					<div class="desc">${paras(fld(p, 'description'))}</div>
+					${projectVideo(p)}
 					${p.facilities?.length ? `<h2 class="sec-h sec-sub">${T('facilities')}</h2>${list_(fldArr(p, 'facilities'))}` : ''}
 					${nearby(p)}
 					${mapBlock(p.coordinates, t)}
