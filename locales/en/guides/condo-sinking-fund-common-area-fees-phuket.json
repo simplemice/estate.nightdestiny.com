@@ -55,7 +55,10 @@
       "a": "Yes. Fees are decided by the juristic person and owners under the building’s rules. Ask for the history."
     }
   ],
-  "relatedGuides": [],
+  "relatedGuides": [
+    "property-management-phuket",
+    "buying-villa-vs-condominium"
+  ],
   "related": [
     {
       "href": "/sale/",

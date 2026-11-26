@@ -1,0 +1,150 @@
+{
+  "category": "legal",
+  "published": "2026-11-26",
+  "modified": "2026-11-26",
+  "title": "Property Management in Phuket: Fees & Rental Income",
+  "description": "Learn how property management works in Phuket: typical rental management fees, what a 30% commission covers and extra costs owners should expect.",
+  "h1": "Property Management in Phuket: Rental Fees and Owner Responsibilities",
+  "sub": "What a manager does and what it costs",
+  "intro": "If you do not live in Phuket all year, a management company can look after your condo or villa: find guests or tenants, handle cleaning and repairs and send you the income. Fees vary by company, property and service scope, and the figures below are indicative, not fixed rates or Nightdestiny prices.",
+  "sections": [
+    {
+      "h2": "What a management company does",
+      "ul": [
+        "Marketing and listings on Airbnb, Booking.com and other platforms.",
+        "Reservations, guest communication, check-in and check-out.",
+        "Cleaning, laundry and maintenance coordination.",
+        "Monthly reporting and payment of the owner's share.",
+        "Inspections and a contact point while you are abroad."
+      ]
+    },
+    {
+      "h2": "Indicative fees and how they are charged",
+      "p": [
+        "There is no official rate in Thailand. Published guides show ranges like these, and an individual company may charge more or less:"
+      ],
+      "table": {
+        "head": [
+          "Rental type",
+          "Indicative management fee"
+        ],
+        "rows": [
+          [
+            "Short-term holiday rentals",
+            "15–30%"
+          ],
+          [
+            "Medium-term rentals",
+            "15–20%"
+          ],
+          [
+            "Long-term rentals",
+            "8–15%"
+          ]
+        ]
+      },
+      "p2": [
+        "Companies may charge a percentage of gross revenue, of revenue after booking-platform fees or of revenue after operating costs, or a fixed monthly fee, sometimes plus a one-time tenant placement fee. Short-term lets need more guest service and cleaning, so their rates are typically higher than long-term lets."
+      ]
+    },
+    {
+      "h2": "Example: a 30% commission and other costs",
+      "p": [
+        "Illustration only, assuming the commission is calculated on gross monthly revenue:"
+      ],
+      "table": {
+        "head": [
+          "Item",
+          "Amount"
+        ],
+        "rows": [
+          [
+            "Monthly rental revenue",
+            "THB 100,000"
+          ],
+          [
+            "Management commission (30%)",
+            "THB 30,000"
+          ],
+          [
+            "Remaining before expenses and taxes (70%)",
+            "THB 70,000"
+          ]
+        ]
+      },
+      "p2": [
+        "The remaining THB 70,000 is not your profit. Management commission is separate from the property's own expenses and from taxes: electricity, water and internet; cleaning, laundry and supplies; repairs, air conditioning servicing and, for villas, pool and garden care; condominium common area fees and sinking fund; insurance; and applicable taxes, which depend on your situation. Some of these are paid from rental income and some are billed to you, depending on the agreement."
+      ]
+    },
+    {
+      "h2": "Before you sign",
+      "ul": [
+        "What is the percentage, and what is it calculated on?",
+        "Which services are included, and which cost extra?",
+        "How often are you paid and do you get a monthly report?",
+        "Is there a repair spending limit that needs your approval?",
+        "What are the owner-use conditions, contract length and termination terms?"
+      ]
+    },
+    {
+      "h2": "Short-term rental: legal points",
+      "p": [
+        "Short-term rentals in Thailand can fall under the Hotel Act, which requires a licence, and stays of less than 30 days are generally treated as hotel use. Condominium rules may also restrict short stays. Requirements are changing, so confirm them for your building with a qualified Thai lawyer and your manager."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much does property management cost in Phuket?",
+      "a": "Rates vary by company, property and service scope. Published indicative ranges are about 15–30% for short-term lets and 8–15% for long-term lets. Ask for the percentage, calculation basis and included services in writing."
+    },
+    {
+      "q": "Is rental income guaranteed?",
+      "a": "No. Income depends on the property, season, pricing, management and the rules that apply."
+    }
+  ],
+  "relatedGuides": [
+    "condo-sinking-fund-common-area-fees-phuket",
+    "freehold-leasehold",
+    "buying-villa-vs-condominium"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    },
+    {
+      "href": "/contact/",
+      "label": "Contact Nightdestiny"
+    }
+  ],
+  "projects": [
+    "the-one-naiharn",
+    "botanica-montazure"
+  ],
+  "locations": [
+    "rawai",
+    "kamala"
+  ],
+  "waMsg": "Hello! I am interested in a Phuket property to rent out. Could you tell me about rental management options and costs?",
+  "sources": [
+    {
+      "name": "Phuket101: villa management companies",
+      "url": "https://www.phuket101.net/villa-management-companies-in-phuket/"
+    },
+    {
+      "name": "OneFineBnB: Phuket property manager review",
+      "url": "https://onefinebnb.com/phuket"
+    },
+    {
+      "name": "Nishimura & Asahi: short-term rental legal update (Jan 2026)",
+      "url": "https://www.nishimura.com/en/knowledge/publications/20260115-118456"
+    },
+    {
+      "name": "Tilleke & Gibbins: hotel business regulations",
+      "url": "https://www.tilleke.com/insights/operating-hotel-business-new-regulations-using-certain-types-building/9/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal, tax or financial advice. Fee ranges are indicative market figures from published sources, not Nightdestiny prices or quotes. Confirm each point with a licensed Thai lawyer, a tax adviser and your management company."
+}

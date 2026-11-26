@@ -61,7 +61,10 @@
   "published": "2026-11-23",
   "modified": "2026-11-23",
   "category": "legal",
-  "relatedGuides": [],
+  "relatedGuides": [
+    "property-management-phuket",
+    "buying-villa-vs-condominium"
+  ],
   "faq": [
     {
       "q": "Can a foreigner own a villa in Phuket?",

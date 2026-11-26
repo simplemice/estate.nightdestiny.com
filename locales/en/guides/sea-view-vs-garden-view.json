@@ -1,0 +1,99 @@
+{
+  "category": "legal",
+  "published": "2026-11-26",
+  "modified": "2026-11-26",
+  "title": "Sea View vs Garden View Condos in Phuket",
+  "description": "Sea view or garden view condo in Phuket? Compare price, rental appeal and view obstruction risk, with projects from our catalogue.",
+  "h1": "Sea View vs Garden View Condos in Phuket",
+  "sub": "What the view changes, and what to check",
+  "intro": "In Phuket the view from your balcony affects price, rental appeal and how long you enjoy it. A sea view looks best in a brochure; a garden view can be quieter and cheaper. This guide lists the trade-offs and what to verify before you buy.",
+  "sections": [
+    {
+      "h2": "Main differences",
+      "ul": [
+        "Sea view: open horizon and sunsets on the west coast; often a higher price for the same unit type.",
+        "Garden or pool view: greener and quieter, usually lower priced, and the view is controlled by the project itself.",
+        "Floor and orientation matter as much as the label: a high floor can see over what a low floor cannot."
+      ]
+    },
+    {
+      "h2": "Price and rental appeal",
+      "p": [
+        "Within one project, units with sea views are commonly priced above garden-facing units. Ask for the price list by floor and orientation. Sea views are a strong marketing point for holiday guests, while garden and pool views can still let well if the building and location are good. Neither guarantees rental income."
+      ]
+    },
+    {
+      "h2": "View obstruction: what to check",
+      "ul": [
+        "Ask what can be built in front of the unit: neighbouring plots, later phases, the project master plan.",
+        "Visit at different times of day and check the view from the actual floor, not a lower sample unit.",
+        "Ask whether the developer states in writing that the view is protected, and what that covers.",
+        "Check which side faces the road, hills or construction."
+      ]
+    },
+    {
+      "h2": "Our catalogue side by side",
+      "p": [
+        "The table lists condominiums in our catalogue whose project descriptions mention sea views, next to those mentioning garden, lake or pool views. A mention is not a guarantee: confirm the view of the specific unit."
+      ],
+      "block": "compare",
+      "p2": []
+    },
+    {
+      "h2": "Popular areas and how to decide",
+      "p": [
+        "Sea views are most often sought around Kata, Karon, Kamala and Rawai, while Laguna, Bang Tao and Layan offer more lagoon, garden and golf outlooks. See our area pages for current projects. Decide whether you value the view, the price or the quiet most, and compare units on the same floor."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a sea view always worth the premium?",
+      "a": "Not always. It depends on the floor, how permanent the view is and how you will use the unit. Compare the premium with the price list by orientation."
+    },
+    {
+      "q": "Can a sea view be blocked later?",
+      "a": "It can, if something is built in front. Ask about the master plan and neighbouring plots before you reserve."
+    }
+  ],
+  "compare": {
+    "a": {
+      "label": "Sea view mentioned",
+      "category": "Condominium",
+      "text": "sea[\\s-]?view|ocean[\\s-]?view|seaview|sea views|beachfront|seafront|oceanfront",
+      "textExclude": "garden[\\s-]?view|lake[\\s-]?view|pool[\\s-]?view|lagoon"
+    },
+    "b": {
+      "label": "Garden, lake or pool view mentioned",
+      "category": "Condominium",
+      "text": "garden[\\s-]?view|garden views|lake[\\s-]?view|pool[\\s-]?view|lagoon",
+      "textExclude": "sea[\\s-]?view|ocean[\\s-]?view|seaview|sea views|beachfront|seafront|oceanfront"
+    }
+  },
+  "relatedGuides": [
+    "best-areas-to-buy-property-phuket",
+    "kata-vs-karon",
+    "property-management-phuket"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    },
+    {
+      "href": "/projects/",
+      "label": "New projects in Phuket"
+    }
+  ],
+  "locations": [
+    "kata",
+    "karon",
+    "kamala",
+    "rawai",
+    "laguna"
+  ],
+  "waMsg": "Hello! I am looking for a condo in Phuket with a sea view. Could you suggest projects?",
+  "sources": [],
+  "status": "editorial",
+  "disclaimer": "General information only. View descriptions come from project materials and can change: confirm the view, floor and orientation of the specific unit before you buy."
+}

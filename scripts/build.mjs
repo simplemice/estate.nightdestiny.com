@@ -1325,12 +1325,13 @@ function guideStats(pool) {
   };
 }
 function guideCompare(c) {
-  const col = (d) => projL.filter((p) => (!d.slug || locSlug(areaKey(p)) === d.slug) && (!d.match || new RegExp(d.match, 'i').test(p.location)) && (!d.exclude || !new RegExp(d.exclude, 'i').test(p.location)));
+  const ptext = (p) => [p.name, p.shortDescription, p.description, p.projectType, ...(Array.isArray(p.facilities) ? p.facilities : [])].filter(Boolean).join(' ');
+  const col = (d) => projL.filter((p) => (!d.slug || locSlug(areaKey(p)) === d.slug) && (!d.match || new RegExp(d.match, 'i').test(p.location)) && (!d.exclude || !new RegExp(d.exclude, 'i').test(p.location)) && (!d.category || p.category === d.category) && (!d.text || new RegExp(d.text, 'i').test(ptext(p))) && (!d.textExclude || !new RegExp(d.textExclude, 'i').test(ptext(p))));
   const cols = [c.a, c.b].map((d) => ({ d, pool: col(d), st: guideStats(col(d)) }));
   const na = T('gcmp.none');
   const row = (label, fn) => `<tr><th scope="row">${esc(label)}</th>${cols.map((x) => `<td>${fn(x)}</td>`).join('')}</tr>`;
   return `<div class="table-responsive"><table class="comp-table"><thead><tr><th></th>${cols.map((x) => `<th scope="col">${x.d.link ? `<a href="${lp(x.d.link)}">${esc(x.d.label)}</a>` : esc(x.d.label)}</th>`).join('')}</tr></thead><tbody>
-${row(T('gcmp.projects'), (x) => (x.pool.length ? `${esc(T('count.projects', { n: x.pool.length }))}: ${x.pool.map((p) => `<a href="${url(p)}">${esc(title(p))}</a>`).join(', ')}` : na))}
+${row(T('gcmp.projects'), (x) => (x.pool.length ? (c.countOnly ? esc(T('count.projects', { n: x.pool.length })) : `${esc(T('count.projects', { n: x.pool.length }))}: ${x.pool.map((p) => `<a href="${url(p)}">${esc(title(p))}</a>`).join(', ')}`) : na))}
 ${row(T('gcmp.from'), (x) => (x.st.priced.length ? `${esc(money(x.st.priced[0][1].price, x.st.priced[0][0].currency || 'THB'))} (<a href="${url(x.st.priced[0][0])}">${esc(title(x.st.priced[0][0]))}</a>)` : na))}
 ${row(T('gcmp.types'), (x) => (x.st.types.length ? esc(x.st.types.join(', ')) : na))}
 ${row(T('gcmp.status'), (x) => (x.pool.length ? esc([x.st.done && T('gcmp.done', { n: x.st.done }), x.st.build && T('gcmp.build', { n: x.st.build }), x.st.pre && T('gcmp.pre', { n: x.st.pre })].filter(Boolean).join(', ')) : na))}
@@ -1348,6 +1349,8 @@ function guideFees() {
   const rows = projL.filter((p) => p.commonAreaFee || p.sinkingFund).sort((a, b) => title(a).localeCompare(title(b)));
   return `<div class="table-responsive"><table class="comp-table"><thead><tr><th>${T('gl.project')}</th><th>${T('gl.area')}</th><th>${T('gl.status')}</th><th>${T('gl.fee')}</th><th>${T('gl.sinking')}</th></tr></thead><tbody>${rows.map((p) => `<tr><td><a href="${url(p)}">${esc(title(p))}</a></td><td>${esc(areaName(canonArea(p.location)))}</td><td>${esc(tx(p.constructionStatus, 'status'))}</td><td>${esc(p.commonAreaFee || '-')}</td><td>${esc(p.sinkingFund || '-')}</td></tr>`).join('')}</tbody></table></div><p class="ds-note">${T('gl.fee_note')}</p>`;
 }
+// Static comparison table from the guide JSON (head + rows).
+const guideTable = (t) => `<div class="table-responsive"><table class="comp-table"><thead><tr>${t.head.map((h) => `<th scope="col">${esc(h)}</th>`).join('')}</tr></thead><tbody>${t.rows.map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${esc(c)}</th>` : `<td>${esc(c)}</td>`)).join('')}</tr>`).join('')}</tbody></table></div>`;
 function guidePage(slug, g) {
   const nF = projL.filter((p) => p.ownership.includes('Freehold')).length, nL = projL.filter((p) => p.ownership.includes('Leasehold')).length;
   const fill = (txt) => esc(txt)
@@ -1364,7 +1367,7 @@ function guidePage(slug, g) {
 	<section class="spad-2 guide-page"><div class="container"><div class="row"><div class="col-lg-8 offset-lg-2 about-text">
 		${g.category ? `<p class="ds-note"><a href="${lp('/guides/')}#${esc(g.category)}">${T('guide.cat.' + g.category)}</a>${g.modified ? ` &middot; ${T('guide.updated')}: <time datetime="${esc(g.modified)}">${esc(g.modified)}</time>` : ''}</p>` : ''}
 		<p>${esc(g.intro)}</p>
-		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${fill(x)}</li>`).join('')}</ul>` : ''}${s.ol ? `<ol class="step-list">${s.ol.map((x) => `<li>${fill(x)}</li>`).join('')}</ol>` : ''}${s.block ? block(s.block) : ''}${(s.p2 || []).map((x) => `<p>${fill(x)}</p>`).join('')}`).join('\n\t\t')}
+		${g.sections.map((s) => `<h2 class="sec-h">${esc(s.h2)}</h2>${(s.p || []).map((x) => `<p>${fill(x)}</p>`).join('')}${s.ul ? `<ul class="check-list">${s.ul.map((x) => `<li><i class="fa fa-check"></i> ${fill(x)}</li>`).join('')}</ul>` : ''}${s.ol ? `<ol class="step-list">${s.ol.map((x) => `<li>${fill(x)}</li>`).join('')}</ol>` : ''}${s.table ? guideTable(s.table) : ''}${s.block ? block(s.block) : ''}${(s.p2 || []).map((x) => `<p>${fill(x)}</p>`).join('')}`).join('\n\t\t')}
 		${faq.length ? `<h2 class="sec-h">${T('faq.h')}</h2><div class="faq-list">${faq.map((x) => `<details><summary>${esc(x.q)}</summary><p>${fill(x.a)}</p></details>`).join('')}</div>` : ''}
 		${mentioned.length ? `<h2 class="sec-h">${T('guide.projects')}</h2><ul class="check-list">${mentioned.map((p) => { const f = facts(p); return `<li><i class="fa fa-angle-right"></i> <a href="${url(p)}">${esc(title(p))}</a>, ${esc(areaName(canonArea(p.location)))}${p.constructionStatus && !/on request/i.test(p.constructionStatus) ? `, ${esc(tx(p.constructionStatus, 'status').toLowerCase())}` : ''}${f.price ? `, ${esc(T('from_price', { p: money(f.price, p.currency || 'THB') }))}` : ''}</li>`; }).join('')}</ul>` : ''}
 		${locs.length ? `<p>${T('guide.areas')} ${locs.map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')}</p>` : ''}

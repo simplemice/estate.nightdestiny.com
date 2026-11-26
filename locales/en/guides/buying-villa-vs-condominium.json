@@ -1,0 +1,112 @@
+{
+  "category": "legal",
+  "published": "2026-11-26",
+  "modified": "2026-11-26",
+  "title": "Buying a Private Villa vs Condominium in Phuket",
+  "description": "Villa or condo in Phuket? Compare ownership for foreigners, running costs, rental use and suitable areas, with projects from our catalogue.",
+  "h1": "Buying a Private Villa vs Condominium in Phuket",
+  "sub": "Main differences before you choose",
+  "intro": "Phuket buyers usually choose between a private pool villa and a condominium apartment. They differ in how foreigners can own them, what they cost to run and how easy they are to leave empty or rent out. This guide sets the main points side by side.",
+  "sections": [
+    {
+      "h2": "Main differences",
+      "ul": [
+        "Space and privacy: a villa has its own plot, garden and usually a private pool; a condo shares the building, pool and gym.",
+        "Upkeep: a villa owner arranges pool, garden and repairs; in a condo the juristic person looks after shared areas.",
+        "Security and lock-and-leave: a condo with reception and security is simpler to leave unattended.",
+        "Price: villas are usually larger and cost more in total; condos offer lower entry prices."
+      ]
+    },
+    {
+      "h2": "Our catalogue side by side",
+      "p": [
+        "The table is built from the projects in our catalogue. Open any project for unit types, sizes and prices."
+      ],
+      "block": "compare",
+      "p2": []
+    },
+    {
+      "h2": "Foreign ownership and running costs",
+      "p": [
+        "Foreigners can generally hold a condo unit in freehold within the 49% foreign quota of a building. Land cannot normally be owned in freehold by a foreigner, so villas are often offered as leasehold or through other structures: take legal advice on the exact title. See our freehold vs leasehold guide.",
+        "Condo owners pay a common area fee and a sinking fund; villa owners pay for their own pool, garden and repairs, and some villa projects also charge a community fee. Compare real monthly figures, not only the price."
+      ]
+    },
+    {
+      "h2": "Rental use and areas",
+      "p": [
+        "Villas suit families and groups and can be let at higher nightly rates, with more work and cost per booking. Condos are easier to manage and there is more supply to compare with. Short-term letting is regulated, and many condo buildings restrict it: check before you buy. In general, villa projects are concentrated in areas such as Si Sunthon, Thalang and Layan, and condo projects in Rawai, Karon, Kata and Kamala; see our area pages for what is currently listed."
+      ]
+    },
+    {
+      "h2": "Which suits whom",
+      "ul": [
+        "A condo may suit buyers who want a lower entry price, shared facilities and easy lock-and-leave.",
+        "A villa may suit buyers who want space, privacy and a private pool and accept more upkeep.",
+        "Buyers planning to rent should ask how their chosen property type is allowed to be let."
+      ],
+      "p2": [
+        "Visit both types, ask for the full cost list and take independent legal advice before you reserve."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a foreigner buy a villa in Phuket?",
+      "a": "A foreigner can usually own the building but not the land in freehold, so villas are often leasehold or held through another structure. Take legal advice on the structure before you pay a deposit."
+    },
+    {
+      "q": "Which has lower running costs?",
+      "a": "It depends on the project. Compare the condo common area fee and sinking fund with the cost of pool, garden and repairs for a villa."
+    }
+  ],
+  "compare": {
+    "a": {
+      "label": "Villas",
+      "category": "Villa",
+      "link": "/sale/"
+    },
+    "b": {
+      "label": "Condominiums",
+      "category": "Condominium"
+    },
+    "countOnly": true
+  },
+  "relatedGuides": [
+    "freehold-leasehold",
+    "condo-sinking-fund-common-area-fees-phuket",
+    "property-management-phuket"
+  ],
+  "related": [
+    {
+      "href": "/sale/",
+      "label": "Properties for sale in Phuket"
+    },
+    {
+      "href": "/projects/",
+      "label": "New projects in Phuket"
+    }
+  ],
+  "projects": [
+    "botanica-montazure",
+    "the-one-naiharn"
+  ],
+  "locations": [
+    "rawai",
+    "kamala",
+    "layan"
+  ],
+  "waMsg": "Hello! I am deciding between a villa and a condo in Phuket. Could you suggest projects?",
+  "sources": [
+    {
+      "name": "Thai Land Department",
+      "url": "https://www.dol.go.th/"
+    },
+    {
+      "name": "Office of the Council of State (Thai laws)",
+      "url": "https://www.krisdika.go.th/"
+    }
+  ],
+  "status": "needs-legal-review",
+  "disclaimer": "General information only, not legal or tax advice, and rules and practice can change. Confirm every point with a licensed Thai lawyer and the Land Department before you pay a deposit."
+}

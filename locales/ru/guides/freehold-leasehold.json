@@ -54,5 +54,9 @@
       "url": "https://www.dol.go.th/"
     }
   ],
-  "category": "legal"
+  "category": "legal",
+  "relatedGuides": [
+    "property-management-phuket",
+    "buying-villa-vs-condominium"
+  ]
 }
