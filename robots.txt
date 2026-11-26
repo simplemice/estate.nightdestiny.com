@@ -17,6 +17,7 @@ Disallow: /SEO_AUDIT_REPORT.md
 Disallow: /SEO_SETUP_GUIDE.md
 Disallow: /SEO_AUDIT_AND_IMPLEMENTATION_REPORT.md
 Disallow: /answers_report.md
+Disallow: /PROJECT_VIDEO.md
 # Rental "Request Availability" links (?request=1) only open the booking form on the same page; no separate content
 Disallow: /*?request=
 # Note: /properties/ is intentionally NOT blocked. It is a legacy catalogue (noindex, not in the sitemap),

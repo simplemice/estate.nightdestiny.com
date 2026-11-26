@@ -231,7 +231,24 @@ content:
         fields:
           - { name: question, label: Question, type: string }
           - { name: answer, label: Answer, type: text }
-      - { name: videoUrl, label: YouTube video URL (optional), type: string }
+      - name: video
+        label: Project Video
+        type: object
+        description: "Optional YouTube video (Shorts or regular) shown on this project's page after the overview. Nothing is shown unless the switch below is on and a valid link is entered. The video is not uploaded to the website; it plays from YouTube when a visitor presses play."
+        fields:
+          - { name: enabled, label: Enable Project Video, type: boolean, default: false, description: "Enable or disable the video displayed on this project's detail page. You can switch it off without deleting the link." }
+          - name: youtubeUrl
+            label: YouTube Video URL
+            type: string
+            description: "Paste a YouTube Shorts or regular YouTube video link: youtube.com/shorts/ID, youtube.com/watch?v=ID, youtu.be/ID or youtube.com/embed/ID. Leave empty to remove the video."
+            pattern:
+              regex: "^$|^https?://((www|m)[.])?(youtube[.]com/(shorts|embed)/[A-Za-z0-9_-]{11}|youtube[.]com/watch[?]([^ ]*&)?v=[A-Za-z0-9_-]{11}|youtube-nocookie[.]com/embed/[A-Za-z0-9_-]{11}|youtu[.]be/[A-Za-z0-9_-]{11})([?&#/][^ ]*)?$"
+              message: "Not a valid YouTube link. Use https://www.youtube.com/shorts/VIDEO_ID, https://www.youtube.com/watch?v=VIDEO_ID, https://youtu.be/VIDEO_ID or https://www.youtube.com/embed/VIDEO_ID"
+          - { name: title, label: Video Title, type: string, description: "Heading above the video, e.g. Showroom Tour, Villa Walkthrough, Construction Progress. Empty = Project Video Tour." }
+          - { name: description, label: Video Description, type: text, description: "One or two plain sentences shown above the video, e.g. Explore the project, facilities, architecture and surrounding area. HTML is not allowed (escaped on build)." }
+          - { name: orientation, label: Video format, type: select, default: vertical, options: { values: [vertical, horizontal] }, description: "vertical = 9:16 (YouTube Shorts, default); horizontal = 16:9 regular video." }
+          - { name: thumbnail, label: Video Thumbnail, type: image, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] }, description: "Optional cover image. If empty, the YouTube thumbnail is used." }
+          - { name: uploadDate, label: Video upload date (optional), type: date, options: { format: yyyy-MM-dd }, description: "Only needed for Google video markup (VideoObject). Leave empty if you do not know the real date; no markup is added without it." }
       - { name: nearby, label: Nearby attractions & distances, component: nearby }
       - { name: coordinates, label: Map coordinates, component: coordinates }
 

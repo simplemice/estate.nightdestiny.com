@@ -138,6 +138,11 @@ function validateProject(p) {
   p.sources = Array.isArray(p.sources) ? p.sources : [];
   p.paymentPlan = Array.isArray(p.paymentPlan) ? p.paymentPlan : [];
   p.sources.forEach((x, i) => { if (!/^https?:\/\//.test(x.url || '')) err(f, `sources[${i}].url must be http(s)`); });
+  if (p.video && typeof p.video === 'object') {
+    const yu = String(p.video.youtubeUrl || '').trim();
+    if (p.video.enabled === true && yu && !parseYouTube(yu)) console.warn(`WARNING ${f}: video.youtubeUrl is not a supported YouTube link ("${yu}"); the video section is hidden. Use youtube.com/shorts/ID, youtube.com/watch?v=ID, youtu.be/ID or youtube.com/embed/ID.`);
+    if (p.video.thumbnail && !exists(p.video.thumbnail)) err(f, `image not found: ${p.video.thumbnail}`);
+  }
   p.images = Array.isArray(p.images) ? p.images : [];
   p.floorPlans = Array.isArray(p.floorPlans) ? p.floorPlans : [];
   p.unitTypes = Array.isArray(p.unitTypes) ? p.unitTypes : [];
@@ -1075,10 +1080,55 @@ function gallery(p, alt) {
 </div>`;
 }
 const i0alt = (p, alt, cap) => (p.name && cap ? `${alt}: ${String(cap).trim()}` : alt);
-const youtube = (u) => {
-  const m = String(u || '').match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([\w-]{11})/);
-  return m ? `<h2 class="sec-h sec-sub">${T('video')}</h2><div class="video-wrap"><iframe title="${esc(T('video_title'))}" loading="lazy" src="https://www.youtube-nocookie.com/embed/${m[1]}" allowfullscreen></iframe></div>` : '';
-};
+/* ---------- project video (YouTube, click-to-load; editable in Pages CMS under "Project Video") ---------- */
+// Accepts only YouTube links: /shorts/ID, /watch?v=ID, youtu.be/ID, /embed/ID (also youtube-nocookie.com). The embed URL is always built here from the validated 11-character ID.
+function parseYouTube(raw) {
+  const t = String(raw ?? '').trim();
+  if (!t) return null;
+  let u;
+  try { u = new URL(/^[a-z][a-z0-9+.-]*:/i.test(t) ? t : 'https://' + t); } catch { return null; }
+  if (u.protocol !== 'https:' && u.protocol !== 'http:') return null;
+  const host = u.hostname.toLowerCase().replace(/^(www|m)\./, '');
+  const OK = /^[A-Za-z0-9_-]{11}$/;
+  let id = null;
+  if (host === 'youtu.be') id = u.pathname.split('/')[1];
+  else if (host === 'youtube.com' || host === 'youtube-nocookie.com') {
+    const seg = u.pathname.split('/').filter(Boolean);
+    if (seg[0] === 'shorts' || seg[0] === 'embed') id = seg[1];
+    else if (seg[0] === 'watch') id = u.searchParams.get('v');
+  }
+  return id && OK.test(id) ? { id, shorts: /\/shorts\//.test(u.pathname) } : null;
+}
+// Normalised video of a project, or null when disabled / empty / invalid. The legacy "videoUrl" field still works (enabled).
+function videoOf(p) {
+  const v = p.video && typeof p.video === 'object' ? p.video : null;
+  const url = v ? (v.enabled === true ? v.youtubeUrl : '') : p.videoUrl;
+  const y = parseYouTube(url);
+  if (!y) return null;
+  const landscape = v ? String(v.orientation || '').toLowerCase() === 'horizontal' : false;
+  const d = v && v.uploadDate && !isNaN(Date.parse(v.uploadDate)) ? new Date(v.uploadDate).toISOString().slice(0, 10) : '';
+  return { id: y.id, landscape, title: String((v && v.title) || '').trim(), description: String((v && v.description) || '').trim(), thumbnail: v && v.thumbnail ? String(v.thumbnail) : '', uploadDate: d };
+}
+function projectVideo(p) {
+  const v = videoOf(p);
+  if (!v) return '';
+  const title = v.title || T('video.default_title');
+  const yt = `https://www.youtube.com/watch?v=${v.id}`;
+  const thumb = v.thumbnail && exists(v.thumbnail)
+    ? img(v.thumbnail, title, { sizes: v.landscape ? '(max-width: 991px) 100vw, 720px' : '(max-width: 575px) 90vw, 360px', cls: 'pv-img' })
+    : `<img class="pv-img" src="https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg" data-fb="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="${esc(title)}" width="1280" height="720" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+  return `<h2 class="sec-h sec-sub">${esc(title)}</h2>${v.description ? `<p class="pv-desc">${esc(v.description)}</p>` : ''}
+					<div class="pv ${v.landscape ? 'pv-land' : 'pv-port'}" data-yt="${v.id}" data-title="${esc(title)}"><button type="button" class="pv-play" aria-label="${esc(T('video.play'))}: ${esc(title)}">${thumb}<span class="pv-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28"><path d="M8 5v14l11-7z"/></svg></span></button></div>
+					<noscript><p class="ds-note"><a href="${yt}" target="_blank" rel="noopener">${T('video.watch_yt')}</a></p></noscript>`;
+}
+// VideoObject JSON-LD only when the editor supplied the real upload date (Google requires it); nothing is invented.
+function videoLd(p, pageUrl) {
+  const v = videoOf(p);
+  if (!v || !v.uploadDate) return [];
+  const title = v.title || T('video.default_title');
+  const thumb = v.thumbnail && exists(v.thumbnail) ? SITE + v.thumbnail : `https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`;
+  return [{ '@context': 'https://schema.org', '@type': 'VideoObject', '@id': pageUrl + '#video', name: title, description: v.description || title, thumbnailUrl: [thumb], uploadDate: v.uploadDate, embedUrl: `https://www.youtube-nocookie.com/embed/${v.id}`, inLanguage: LANG_META[LANG].htmlLang, isPartOf: { '@id': pageUrl + '#webpage' } }];
+}
 
 function related(p, pool) {
   const r = pool.filter((x) => x.slug !== p.slug && x.published !== false)
@@ -1197,8 +1247,9 @@ function projectPage(p) {
 					<h2 class="sec-h">${T('overview')}</h2>
 					<div class="desc">${paras(fld(p, 'description'))}</div>
 					${projGlance(p)}
+					${projectVideo(p)}
 					${p.facilities?.length ? `<h2 class="sec-h sec-sub">${T('facilities')}</h2>${list_(fldArr(p, 'facilities'))}` : ''}
-					${units}${plans}${payBlock}${youtube(p.videoUrl)}${near}${mapBlock(p.coordinates, t)}${faqBlock}
+					${units}${plans}${payBlock}${near}${mapBlock(p.coordinates, t)}${faqBlock}
 					${p.googleMapsUrl ? `<p class="map-link"><a href="${esc(p.googleMapsUrl)}" target="_blank" rel="noopener">${T('open_gmaps')}</a></p>` : ''}
 				</div>
 				<div class="col-lg-4">
@@ -1224,7 +1275,7 @@ function projectPage(p) {
 	</section>
 	${related(p, projL)}
 `;
-  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: onSale ? 'sale' : 'projects', body, ogImage: p.ogImage || p.cover, ogImageAlt: LANG === DEFAULT_LANG && !p.ogImage && p.imageCaptions && p.imageCaptions[0] ? `${p.name}: ${p.imageCaptions[0].replace(new RegExp('^' + p.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*'), '')}` : '', ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
+  return layout({ title: projTitle(p), description: desc, pathname: urlN(p), active: onSale ? 'sale' : 'projects', body, ogImage: p.ogImage || p.cover, ogImageAlt: LANG === DEFAULT_LANG && !p.ogImage && p.imageCaptions && p.imageCaptions[0] ? `${p.name}: ${p.imageCaptions[0].replace(new RegExp('^' + p.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*'), '')}` : '', ogTitle: LANG === DEFAULT_LANG ? p.ogTitle : OV(p).ogTitle, ogDescription: LANG === DEFAULT_LANG ? p.ogDescription : OV(p).ogDescription, noindex: p.noindex === true, entities: [ld, ...videoLd(p, pageUrl)], canonicalUrl: p.canonicalUrl || '', lightbox: true, langs: readyLangs(p) });
 }
 
 /* ---------- home / about / contact ---------- */

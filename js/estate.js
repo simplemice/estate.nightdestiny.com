@@ -176,3 +176,32 @@
   while (row.firstChild) row.removeChild(row.firstChild);
   pick.forEach(function (c) { row.appendChild(c.cloneNode(true)); });
 })();
+
+/* Project video: the YouTube iframe is created only after the visitor clicks play (nothing loads from YouTube before that except the thumbnail). */
+(function () {
+  'use strict';
+  var YT = /^[A-Za-z0-9_-]{11}$/;
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('.pv-play');
+    if (!b) return;
+    var w = b.closest('.pv'), id = w && w.getAttribute('data-yt');
+    if (!id || !YT.test(id)) return;
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0';
+    f.title = w.getAttribute('data-title') || 'Video';
+    f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen';
+    f.setAttribute('allowfullscreen', '');
+    f.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+    w.textContent = '';
+    w.classList.add('pv-on');
+    w.appendChild(f);
+    f.focus();
+  });
+  // Thumbnail fallback: maxres -> hq -> plain dark box with the play button.
+  function fallback(img) {
+    var fb = img.getAttribute('data-fb');
+    if (fb && img.src !== fb) { img.removeAttribute('data-fb'); img.src = fb; } else { img.classList.add('pv-nothumb'); }
+  }
+  document.addEventListener('error', function (e) { if (e.target && e.target.classList && e.target.classList.contains('pv-img')) fallback(e.target); }, true);
+  Array.prototype.forEach.call(document.querySelectorAll('.pv-img'), function (img) { if (img.complete && img.naturalWidth === 0) fallback(img); });
+})();
