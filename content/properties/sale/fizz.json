@@ -1,17 +1,24 @@
 {
+  "project": "content/projects/fizz.json",
   "title": "The Title Fizz",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-12",
-  "project": "content/projects/fizz.json",
   "propertyType": "Condo",
   "location": "Kata",
+  "price": 5154707,
   "currency": "THB",
+  "pricePeriod": "month",
+  "ownership": "Freehold",
   "shortDescription": "A pop-inspired, pet-friendly seven-storey condominium of just 135 residences by Rhom Bho Property, in the Kata–Karon area of Phuket.",
   "description": "The Title Fizz is a condominium by Rhom Bho Property, the developer behind The Title brand, in the Kata–Karon area on Phuket's west coast. It is a single seven-storey building with only 135 residences, which the developer presents as a more private, pet-friendly alternative to larger projects nearby.\nThe design concept is called \"tropical pop\": three ideas named Wave, Pop and Bubble bring sand-to-seafoam colours, curved façades and playful arches into the interiors. Residents share a communal pool and a private clubhouse building created for the 135 homes, and the developer advertises a complimentary shuttle to the beach.\nListings show one-bedroom homes of about 32 m², two-bedroom homes of about 58 m² and three-bedroom homes of about 105 m², with further one-bedroom Plus and penthouse types. Units are offered within the Thai foreign quota. The project is at pre-sale stage and the developer has not published a completion date, so ask us for the current price list, floor plans and availability.",
-  "facilities": [],
-  "nearby": [],
-  "availability": "Available",
-  "price": 5154707,
-  "ownership": "Freehold"
+  "video": {
+    "enabled": true,
+    "youtubeUrl": "https://www.youtube.com/shorts/gLQ_1w34wpU",
+    "title": "Showroom Tour",
+    "description": "1 Bedroom 32 sq.m Showroom Tour",
+    "orientation": "vertical",
+    "uploadDate": "2026-11-26"
+  },
+  "availability": "Available"
 }
