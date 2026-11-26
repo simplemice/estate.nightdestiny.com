@@ -43,6 +43,17 @@ const tx = (s, w) => I.tx(s, w);
 const lp = (p) => LANG_META[LANG].prefix + p;           // internal link in the current language: '/rent/' -> '/ru/rent/'
 const lpFor = (l, p) => LANG_META[l].prefix + p;
 const fmtNum = (n) => I.fmtNum(n);
+// Social profiles (PageCMS: Site settings > Social Links). One source for header, off-canvas menu, footer and JSON-LD sameAs.
+// Empty URL = icon hidden. Invalid URLs fail the build (see validation below).
+const SOCIAL_DEFS = [
+  { key: 'instagram', name: 'Instagram', icon: '<i class="fa fa-instagram" aria-hidden="true"></i>', re: /^https:\/\/([a-z0-9-]+\.)*instagram\.com\/\S+$/i },
+  { key: 'youtube', name: 'YouTube', icon: '<i class="fa fa-youtube-play" aria-hidden="true"></i>', re: /^https:\/\/((www|m)\.)?(youtube\.com|youtu\.be)\/\S+$/i },
+  { key: 'x', name: 'X (Twitter)', icon: '<svg class="ico-x" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>', re: /^https:\/\/((www|mobile)\.)?(x\.com|twitter\.com)\/\S+$/i },
+];
+const SOCIAL_SRC = settings.social && typeof settings.social === 'object' ? settings.social : {};
+const SOCIAL = SOCIAL_DEFS.map((d) => ({ ...d, url: String(SOCIAL_SRC[d.key] || '').trim() })).filter((d) => d.url);
+const socialLinks = () => SOCIAL.map((d) => `<a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(d.name)}" title="${esc(d.name)}">${d.icon}</a>`).join('');
+const socialBlock = (cls) => (SOCIAL.length ? `<div class="${cls}">${socialLinks()}</div>` : '');
 const WA = String(settings.whatsappNumber).replace(/\D/g, '');
 const WA_TEL = String(settings.phone || settings.whatsappNumber).replace(/\D/g, '');
 
@@ -90,6 +101,7 @@ const bigSrc = (src) => {
 const errors = [];
 const warn = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);
+SOCIAL_DEFS.forEach((d) => { const u = String(SOCIAL_SRC[d.key] || '').trim(); if (u && !d.re.test(u)) err('content/settings.json', `social.${d.key} is not a valid ${d.name} URL ("${u}")`); });
 
 const AVAIL = ['Available', 'Reserved', 'Rented', 'Sold', 'Limited'];
 function loadDir(dir, kind) {
@@ -357,7 +369,7 @@ const navHtml = (active, cls = '') => `<nav class="mainmenu ${cls}"><ul>${NAV.fi
 const langSwitch = (pathname, cls = '', has = LANGS) => `<nav class="lang-switch ${cls}" aria-label="${esc(T('lang.label'))}">${LANGS.map((l) => { const m = LANG_META[l]; const cur = l === LANG; return `<a href="${lpFor(l, l === LANG || has.includes(l) ? pathname : '/')}" hreflang="${m.hreflang}" lang="${m.htmlLang}" title="${esc(m.name)}"${cur ? ' class="is-active" aria-current="true"' : ''}><img src="/img/flags/${m.flag}.svg" width="18" height="12" alt="" decoding="async"><span>${m.code}</span></a>`; }).join('')}</nav>`;
 
 let CRUMBS = []; // set by pageHead(); turned into BreadcrumbList JSON-LD by layout()
-const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + lp('/'), logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 621, height: 401 }, image: SITE + '/img/logo.png', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: T('ld.area_served') }, sameAs: [settings.instagram].filter(Boolean) });
+const AGENT = () => ({ '@type': 'RealEstateAgent', '@id': SITE + '/#agent', name: settings.siteName, url: SITE + lp('/'), logo: { '@type': 'ImageObject', url: SITE + '/img/logo.png', width: 621, height: 401 }, image: SITE + '/img/logo.png', email: settings.email, telephone: '+' + WA_TEL, address: { '@type': 'PostalAddress', addressLocality: 'Phuket', addressCountry: 'TH' }, areaServed: { '@type': 'AdministrativeArea', name: T('ld.area_served') }, sameAs: SOCIAL.map((d) => d.url) });
 const WEBSITE_ID = () => SITE + lp('/') + '#website';
 function layout({ title: t0, description, pathname, active, body, ogImage, ogImageAlt = '', extraHead = '', scripts = '', lightbox = false, preload = '', noindex = false, home = false, ogTitle = '', ogDescription = '', entities = [], canonicalUrl = '', i18nJs = false, langs = LANGS }) {
   let t = t0;
@@ -423,9 +435,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 		${langSwitch(switchPath, 'lang-switch-m', langs)}
 		${navHtml(active, 'mobile-menu')}
 		<div id="mobile-menu-wrap"></div>
-		<div class="top-social">
-			<a href="${esc(settings.instagram)}" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-		</div>
+		${socialBlock('top-social')}
 		<ul class="top-widget">
 			<li><i class="fa fa-phone"></i> ${telLink()}</li>
 			<li><i class="fa fa-envelope"></i> ${mailLink()}</li>
@@ -444,7 +454,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 					</div>
 					<div class="col-lg-6">
 						<div class="tn-right">
-							<div class="top-social"><a href="${esc(settings.instagram)}" aria-label="Instagram"><i class="fa fa-instagram"></i></a></div>
+							${socialBlock('top-social')}
 							${langSwitch(switchPath, '', langs)}
 							<a href="${esc(waLink(waMsg.general()))}" class="bk-btn" target="_blank" rel="noopener noreferrer">${T('whatsapp_us')}</a>
 						</div>
@@ -474,7 +484,7 @@ ${alternates}	<meta property="og:title" content="${esc(ogTitle || t)}">
 						<div class="ft-about">
 							<div class="logo"><a href="${lp('/')}" class="site-wordmark">${esc(settings.siteName)}</a></div>
 							<p>${T('footer.tagline')}</p>
-							<div class="fa-social"><a href="${esc(settings.instagram)}" aria-label="Instagram"><i class="fa fa-instagram"></i></a></div>
+							${socialBlock('fa-social')}
 						</div>
 					</div>
 					<div class="col-lg-3 offset-lg-1">

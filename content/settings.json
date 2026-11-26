@@ -12,7 +12,11 @@
   "chatWidgetCode": "siq789fbb681f7e363ccc62b2645d135dfdaf349e73cb0e15866964644100fa6c28",
   "address": "Phuket, Thailand, Patong Office",
   "mapUrl": "https://maps.app.goo.gl/7pz8usEDSfAnvkVb8",
-  "instagram": "https://www.instagram.com/simplemice_",
+  "social": {
+    "instagram": "https://www.instagram.com/simplemice_",
+    "youtube": "https://www.youtube.com/@simplemice",
+    "x": "https://x.com/4921780a5b7649"
+  },
   "heroImage": "/img/hero/hero-1.jpg",
   "heroTitle": "Find Your Place in Phuket",
   "heroSubtitle": "Condos and villas to rent, properties for sale and new developments, with direct WhatsApp support.",

@@ -64,7 +64,14 @@ content:
       - { name: chatWidgetCode, label: Zoho SalesIQ chat widget code (empty = no chat), type: string }
       - { name: address, label: Office address (text shown in footer and Contact page), type: string }
       - { name: mapUrl, label: Office map link (Google Maps), type: string, description: "Makes the address a link. Leave empty for plain text." }
-      - { name: instagram, label: Instagram URL, type: string }
+      - name: social
+        label: Social Links
+        type: object
+        description: "Icons shown in the website header and footer. Each link opens in a new tab. Leave a field empty to hide that icon."
+        fields:
+          - { name: instagram, label: Instagram URL, type: string, description: "e.g. https://www.instagram.com/yourname", pattern: { regex: "^$|^https://([a-z0-9-]+[.])*instagram[.]com/[^ ]+$", message: "Must be an https://instagram.com/... link, or empty" } }
+          - { name: youtube, label: YouTube URL, type: string, description: "e.g. https://www.youtube.com/@yourchannel", pattern: { regex: "^$|^https://((www|m)[.])?(youtube[.]com|youtu[.]be)/[^ ]+$", message: "Must be an https://www.youtube.com/... link, or empty" } }
+          - { name: x, label: X (Twitter) URL, type: string, description: "e.g. https://x.com/yourname", pattern: { regex: "^$|^https://((www|mobile)[.])?(x[.]com|twitter[.]com)/[^ ]+$", message: "Must be an https://x.com/... link, or empty" } }
       - { name: heroImage, label: Home hero image, type: image }
       - { name: heroTitle, label: Home hero title, type: string }
       - { name: heroSubtitle, label: Home hero subtitle, type: text }

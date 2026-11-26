@@ -200,3 +200,7 @@ select option { background: var(--ink-2); color: var(--text); }
 .rd-chk { border-color: var(--line-strong); color: var(--text); }
 .rd-chk input { accent-color: var(--accent); }
 .rd-chk:has(input:checked) { border-color: var(--accent); background: rgba(201, 169, 106, .12); }
+
+/* X (Twitter) icon: inline SVG (Font Awesome 4.7 has no X logo); sized/aligned like the fa- icons beside it */
+.ico-x { display: inline-block; width: 1em; height: 1em; vertical-align: -0.125em; }
+.fa-social .ico-x { vertical-align: -0.1em; }
