@@ -1,0 +1,677 @@
+{
+  "seoTitle": "Long-Term Rentals in Phuket: Prices, Areas & Tips",
+  "seoDescription": "Rent a condo or villa in Phuket long term: indicative monthly rental prices by area, the best areas to live, contract and deposit basics, and FAQs.",
+  "intro": {
+    "heading": "Long-term rentals in Phuket",
+    "text": "Phuket has an active long-term rental market alongside its holiday lets. Expats, families with children at international schools, remote workers, retirees and people relocating for work rent condos and villas for six months or longer, mostly in Bang Tao, Rawai, Chalong, Kathu and the areas around Phuket Town.\nMost long-term agreements run for 6 or 12 months. Monthly rents for these contracts are usually much lower than the holiday rates quoted for short stays, and owners often offer a better price for a 12-month commitment. Renting for an extended period also gives you time to get to know an area before you decide whether to buy.",
+    "benefits": [
+      "Lower monthly rent than holiday or month-to-month rates",
+      "Time to test an area before buying",
+      "Furnished homes with utilities set up",
+      "Fixed rent for the contract period"
+    ],
+    "cta": "Find Your Rental Property",
+    "photos": [
+      {
+        "image": "/assets/images/rent/phuket-hillside-villas.jpg",
+        "alt": "Hillside villas with sea views in Karon, Phuket",
+        "author": "Phong Phat G",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Villas_Phuket_Hotel_-_panoramio.jpg"
+      },
+      {
+        "image": "/assets/images/rent/phuket-pool-villas.jpg",
+        "alt": "Pool and low-rise villas in Rawai, Phuket",
+        "author": "Kenzo",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Piman_Resort_Pool_2009_-_panoramio.jpg"
+      },
+      {
+        "image": "/assets/images/rent/phuket-pool-terraces.jpg",
+        "alt": "Pool terraces on a residential-style building in Kata, Phuket",
+        "author": "HutheMeow",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRk_-_Pool_in_balconies.jpg"
+      }
+    ]
+  },
+  "prices": {
+    "heading": "How much does it cost to rent in Phuket?",
+    "intro": "Indicative monthly asking prices for long-term contracts, by area, property type and bedrooms. Ranges show the middle half of the listings we found (25th to 75th percentile), so the cheapest and most luxurious listings are left out.",
+    "disclaimer": "Rental prices are indicative asking-price ranges based on publicly available listings. Actual rental prices depend on location, property condition, furnishings, contract duration, season and availability. Prices may change.",
+    "method": "Based on 1,156 long-term rental listings published on FazWaz (read through its public listing pages) on 28 November 2026. Only listings that state a minimum rental duration of at least one year were used; month-to-month and 3-6 month listings were excluded because they often carry short-stay rates. Each range is the 25th to 75th percentile of the advertised monthly asking prices. A range is shown only when there are at least 5 listings from at least 2 different buildings or estates and the upper value is no more than 2.5 times the lower one; otherwise the cell reads Data unavailable. Areas follow FazWaz location filters: Bang Tao = near Bang Tao Beach (excluding Laguna and Layan), Cherng Talay = the rest of Choeng Thale, Phuket Town = Talat Yai and Talat Nuea. These are asking prices from one portal, not achieved rents: agreed rents are often lower, and DDProperty and PropertyScout could not be included.",
+    "updated": "2026-11-28",
+    "minListings": 5,
+    "rows": [
+      {
+        "area": "Bang Tao",
+        "page": "bang-tao",
+        "type": "condo",
+        "studioMin": 16500,
+        "studioMax": 24000,
+        "studioN": 7,
+        "br1Min": 24500,
+        "br1Max": 39000,
+        "br1N": 23,
+        "br2Min": 43500,
+        "br2Max": 91500,
+        "br2N": 10
+      },
+      {
+        "area": "Bang Tao",
+        "page": "bang-tao",
+        "type": "villa",
+        "br4Min": 312500,
+        "br4Max": 425000,
+        "br4N": 6
+      },
+      {
+        "area": "Laguna",
+        "page": "laguna",
+        "type": "condo",
+        "br1Min": 43000,
+        "br1Max": 75000,
+        "br1N": 27,
+        "br2Min": 70000,
+        "br2Max": 119500,
+        "br2N": 46,
+        "br3Min": 104000,
+        "br3Max": 170000,
+        "br3N": 5
+      },
+      {
+        "area": "Laguna",
+        "page": "laguna",
+        "type": "villa",
+        "br3Min": 87500,
+        "br3Max": 140000,
+        "br3N": 11,
+        "br4Min": 134000,
+        "br4Max": 285000,
+        "br4N": 11
+      },
+      {
+        "area": "Layan",
+        "page": "layan",
+        "type": "condo",
+        "br1Min": 54000,
+        "br1Max": 125000,
+        "br1N": 15,
+        "br2Min": 65000,
+        "br2Max": 87500,
+        "br2N": 19,
+        "br3Min": 97500,
+        "br3Max": 170000,
+        "br3N": 11
+      },
+      {
+        "area": "Layan",
+        "page": "layan",
+        "type": "villa",
+        "br3Min": 137500,
+        "br3Max": 219000,
+        "br3N": 8,
+        "br4Min": 350000,
+        "br4Max": 575000,
+        "br4N": 23
+      },
+      {
+        "area": "Cherng Talay",
+        "page": "cherng-talay",
+        "type": "condo",
+        "br1Min": 30000,
+        "br1Max": 35000,
+        "br1N": 9
+      },
+      {
+        "area": "Cherng Talay",
+        "page": "cherng-talay",
+        "type": "villa",
+        "br4Min": 227500,
+        "br4Max": 327500,
+        "br4N": 6
+      },
+      {
+        "area": "Kamala",
+        "page": "kamala",
+        "type": "condo",
+        "studioMin": 23000,
+        "studioMax": 35000,
+        "studioN": 10,
+        "br1Min": 25000,
+        "br1Max": 30000,
+        "br1N": 63,
+        "br2Min": 41000,
+        "br2Max": 68000,
+        "br2N": 29,
+        "br3Min": 45000,
+        "br3Max": 80000,
+        "br3N": 9
+      },
+      {
+        "area": "Kamala",
+        "page": "kamala",
+        "type": "villa",
+        "br2Min": 35000,
+        "br2Max": 75000,
+        "br2N": 6
+      },
+      {
+        "area": "Patong",
+        "page": "patong",
+        "type": "condo",
+        "studioMin": 25000,
+        "studioMax": 32000,
+        "studioN": 20,
+        "br1Min": 25000,
+        "br1Max": 35500,
+        "br1N": 71,
+        "br2Min": 35000,
+        "br2Max": 55000,
+        "br2N": 13,
+        "br3Min": 80000,
+        "br3Max": 200000,
+        "br3N": 5
+      },
+      {
+        "area": "Patong",
+        "page": "patong",
+        "type": "villa",
+        "br3Min": 44000,
+        "br3Max": 64000,
+        "br3N": 6
+      },
+      {
+        "area": "Rawai",
+        "page": "rawai",
+        "type": "condo",
+        "br1Min": 32500,
+        "br1Max": 41500,
+        "br1N": 11,
+        "br2Min": 40000,
+        "br2Max": 64000,
+        "br2N": 14
+      },
+      {
+        "area": "Rawai",
+        "page": "rawai",
+        "type": "villa",
+        "br3Min": 132500,
+        "br3Max": 245000,
+        "br3N": 7
+      },
+      {
+        "area": "Nai Harn",
+        "page": null,
+        "type": "condo",
+        "studioMin": 27500,
+        "studioMax": 32000,
+        "studioN": 21,
+        "br1Min": 30000,
+        "br1Max": 35000,
+        "br1N": 64,
+        "br2Min": 45000,
+        "br2Max": 71000,
+        "br2N": 14
+      },
+      {
+        "area": "Nai Harn",
+        "page": null,
+        "type": "villa",
+        "br3Min": 95000,
+        "br3Max": 140000,
+        "br3N": 5
+      },
+      {
+        "area": "Kata",
+        "page": "kata",
+        "type": "condo",
+        "studioMin": 18000,
+        "studioMax": 30500,
+        "studioN": 30,
+        "br1Min": 21000,
+        "br1Max": 35000,
+        "br1N": 28,
+        "br2Min": 55000,
+        "br2Max": 120000,
+        "br2N": 29,
+        "br3Min": 103500,
+        "br3Max": 244000,
+        "br3N": 8
+      },
+      {
+        "area": "Kata",
+        "page": "kata",
+        "type": "villa"
+      },
+      {
+        "area": "Karon",
+        "page": "karon",
+        "type": "condo",
+        "br1Min": 30000,
+        "br1Max": 37000,
+        "br1N": 18
+      },
+      {
+        "area": "Karon",
+        "page": "karon",
+        "type": "villa"
+      },
+      {
+        "area": "Chalong",
+        "page": null,
+        "type": "condo",
+        "studioMin": 14000,
+        "studioMax": 19000,
+        "studioN": 13,
+        "br1Min": 20000,
+        "br1Max": 50000,
+        "br1N": 89,
+        "br2Min": 33000,
+        "br2Max": 54500,
+        "br2N": 18
+      },
+      {
+        "area": "Chalong",
+        "page": null,
+        "type": "villa",
+        "br3Min": 60000,
+        "br3Max": 99500,
+        "br3N": 12,
+        "br4Min": 110000,
+        "br4Max": 170000,
+        "br4N": 11
+      },
+      {
+        "area": "Phuket Town",
+        "page": null,
+        "type": "condo",
+        "studioMin": 12000,
+        "studioMax": 16000,
+        "studioN": 34,
+        "br1Min": 16000,
+        "br1Max": 20000,
+        "br1N": 101,
+        "br2Min": 20000,
+        "br2Max": 35000,
+        "br2N": 32
+      },
+      {
+        "area": "Phuket Town",
+        "page": null,
+        "type": "villa",
+        "br3Min": 27000,
+        "br3Max": 35000,
+        "br3N": 11
+      }
+    ]
+  },
+  "areas": {
+    "heading": "Where should you rent?",
+    "cards": [
+      {
+        "name": "Bang Tao",
+        "page": "bang-tao",
+        "description": "A long beach with Boat Avenue, Porto de Phuket, beach clubs and international restaurants.",
+        "rental": "Large supply of modern condos and pool villas; one of the most expensive areas for long-term rent.",
+        "suits": "Families, expats, remote workers",
+        "photo": {
+          "image": "/assets/images/areas/bang-tao/bang-tao-beach.jpg",
+          "alt": "Sun loungers on Bang Tao Beach",
+          "author": "Raita Futo from Tokyo, Japan",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bang_Tao_Beach_(53667853591).jpg"
+        }
+      },
+      {
+        "name": "Laguna",
+        "page": "laguna",
+        "description": "Gated resort community with lagoons, golf and hotel services behind Bang Tao Beach.",
+        "rental": "Managed condos, townhouses and villas with resort facilities; prices above the island average.",
+        "suits": "Families wanting security, golfers",
+        "photo": {
+          "image": "/assets/images/areas/laguna/laguna-golf.jpg",
+          "alt": "Laguna Phuket golf course with the hills behind",
+          "author": "Anton Zelenov",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Laguna_Golf_club_01.jpg"
+        }
+      },
+      {
+        "name": "Layan",
+        "page": "layan",
+        "description": "A quiet beach next to Sirinat National Park, a few minutes north of Bang Tao.",
+        "rental": "Smaller market of resort condos and villas; calmer and greener than Bang Tao.",
+        "suits": "Couples and families who like nature",
+        "photo": {
+          "image": "/assets/images/areas/layan/layan-beach-horses.jpg",
+          "alt": "Horse riding on Layan Beach",
+          "author": "Maleewan1wanpen2thai",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%99.jpg"
+        }
+      },
+      {
+        "name": "Cherng Talay",
+        "page": "cherng-talay",
+        "description": "Inland roads behind Bang Tao and Laguna, close to international schools and supermarkets.",
+        "rental": "Many pool-villa estates and newer condos, usually cheaper than beachfront locations.",
+        "suits": "Families with school-age children",
+        "photo": {
+          "image": "/assets/images/areas/cherng-talay/cherng-talay-road.jpg",
+          "alt": "A residential road in Choeng Thale",
+          "author": "Максим Улитин",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choeng_Thale,_Thalang_District,_Phuket_83110,_Thailand_-_panoramio_(422).jpg"
+        }
+      },
+      {
+        "name": "Kamala",
+        "page": "kamala",
+        "description": "A relaxed beach village between Patong and Surin with a local market and beach restaurants.",
+        "rental": "Condos near the beach and sea-view villas on the hills; quieter than Patong.",
+        "suits": "Couples, families, a slower pace",
+        "photo": {
+          "image": "/assets/images/areas/kamala/kamala-coast-aerial.jpg",
+          "alt": "Kamala coast and headland from the air",
+          "author": "Roma Neus",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket,_Kamala_2014_febr_-_panoramio_(2).jpg"
+        }
+      },
+      {
+        "name": "Patong",
+        "page": "patong",
+        "description": "Phuket's busiest beach town, with nightlife, the Jungceylon mall and everything within walking distance.",
+        "rental": "Mainly studios and one-bedroom condos; noisy near the centre, convenient for car-free living.",
+        "suits": "People who want a lively urban setting",
+        "photo": {
+          "image": "/assets/images/areas/patong/patong-bay.jpg",
+          "alt": "Patong Bay and the hills behind the town",
+          "author": "Arnaud-Victor Monteux",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_Phuket_November_2012.jpg"
+        }
+      },
+      {
+        "name": "Rawai",
+        "page": "rawai",
+        "description": "Phuket's relaxed southern tip with a fishing bay, seafood market and many long-stay residents.",
+        "rental": "Wide choice of condos, houses and pool villas; one of the main long-term rental areas.",
+        "suits": "Long-term residents, retirees, families",
+        "photo": {
+          "image": "/assets/images/areas/rawai/rawai-beach-longtail-boats.jpg",
+          "alt": "Longtail boats moored off Rawai Beach",
+          "author": "ADwarf",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Rawai_Beach_11.jpg"
+        }
+      },
+      {
+        "name": "Nai Harn",
+        "page": null,
+        "description": "A beautiful swimming beach and lake next to Rawai, with cafes, yoga studios and a strong community feel.",
+        "rental": "Popular and quickly let; condos and villas within a short ride of the beach.",
+        "suits": "Active people, families, long stays",
+        "photo": {
+          "image": "/assets/images/rent/nai-harn-beach.jpg",
+          "alt": "Nai Harn Beach and bay",
+          "author": "Wolfgang Holzem",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nai_harn_beach_phuket_(63).jpg"
+        }
+      },
+      {
+        "name": "Kata",
+        "page": "kata",
+        "description": "A compact, family-friendly beach town with Kata and Kata Noi bays and a surf season.",
+        "rental": "Mostly condos close to the beach; long-term supply is smaller than in Rawai.",
+        "suits": "Beach lovers, surfers, couples",
+        "photo": {
+          "image": "/assets/images/areas/kata/kata-beach-from-above.jpg",
+          "alt": "Kata Beach seen from the headland",
+          "author": "ADwarf",
+          "license": "Public domain",
+          "licenseUrl": "",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Kata_Beach_001.jpg"
+        }
+      },
+      {
+        "name": "Karon",
+        "page": "karon",
+        "description": "A long, open beach between Patong and Kata, with hotels along the beach road.",
+        "rental": "Condos and hillside sea-view homes; quieter than Patong at night.",
+        "suits": "Couples, people working in tourism",
+        "photo": {
+          "image": "/assets/images/areas/karon/karon-beach.jpg",
+          "alt": "The long sandy curve of Karon Beach",
+          "author": "กสิณธร ราชโอรส",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karon_Beach,Phuket_(2).jpg"
+        }
+      },
+      {
+        "name": "Chalong",
+        "page": null,
+        "description": "Central-south residential area with Wat Chalong, Chalong Pier, big supermarkets, gyms and Muay Thai camps.",
+        "rental": "Houses and villas with gardens at good value; no swimming beach, a central base for the south.",
+        "suits": "Families, budget-conscious long stays",
+        "photo": {
+          "image": "/assets/images/rent/wat-chalong.jpg",
+          "alt": "Wat Chalong temple in Chalong",
+          "author": "CEphoto, Uwe Aranas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Thailand_Wat-Chalong-02.jpg"
+        }
+      },
+      {
+        "name": "Phuket Town",
+        "page": null,
+        "description": "The island's commercial and cultural centre, with the Old Town, hospitals, schools and local markets.",
+        "rental": "Apartments, townhouses and houses, generally the lowest rents on the island; beaches are 20-30 minutes away.",
+        "suits": "People working in town, local life lovers",
+        "photo": {
+          "image": "/assets/images/rent/phuket-old-town.jpg",
+          "alt": "Sino-Portuguese shophouses in Phuket Old Town",
+          "author": "Ryomaandres",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Old_Town_3.jpg"
+        }
+      }
+    ]
+  },
+  "guide": {
+    "heading": "What you need to know before renting",
+    "note": "General information, not legal advice. Items marked \"Law\" are legal requirements; \"Common practice\" describes what is usual but negotiable. Check anything important with a lawyer before signing.",
+    "sections": [
+      {
+        "title": "Rental contract",
+        "items": [
+          {
+            "kind": "practice",
+            "title": "Contract length",
+            "text": "Most long-term agreements are for 6 or 12 months; shorter terms usually cost more per month."
+          },
+          {
+            "kind": "law",
+            "title": "Written agreement",
+            "text": "Under the Civil and Commercial Code a lease of immovable property needs written evidence signed by the party liable to be enforceable in court; a lease longer than 3 years must be in writing and registered to be enforceable beyond 3 years. Keep a signed copy."
+          },
+          {
+            "kind": "practice",
+            "title": "Key terms to check",
+            "text": "Rent and payment date, what is included (common fees, internet, cleaning, garden and pool care), utilities rates, deposit amount and return conditions, pet rules, maximum occupants and who pays for repairs."
+          },
+          {
+            "kind": "practice",
+            "title": "Renewal and notice",
+            "text": "Renewal terms and rent increases should be written into the contract. A 30-day written notice before the end of the term is a common arrangement, but it is not a fixed legal rule for every lease."
+          },
+          {
+            "kind": "verify",
+            "title": "Early termination",
+            "text": "If you leave before the end of the term, many contracts allow the owner to keep part or all of the deposit. Landlords renting out 5 or more units are subject to a government notification on residential leases (2018, revised 2019) with additional rules; most private condo or villa owners are not covered. Agree on early-exit terms in writing and have them checked."
+          }
+        ]
+      },
+      {
+        "title": "Security deposit",
+        "items": [
+          {
+            "kind": "practice",
+            "title": "Usual arrangement",
+            "text": "For long-term rentals a security deposit of one to two months' rent plus the first month's rent in advance is common, paid when the contract is signed."
+          },
+          {
+            "kind": "verify",
+            "title": "Professional landlords",
+            "text": "For operators renting 5 or more units, the residential lease notification limits deposits and requires their return at the end of the lease, with permitted deductions. Ask whether the landlord is covered and check the current rules with a lawyer."
+          },
+          {
+            "kind": "practice",
+            "title": "Refund and deductions",
+            "text": "Deposits are normally returned after the final inspection, once utility bills are settled. Deductions are made for unpaid bills and damage beyond normal wear and tear, which is why photos at check-in matter."
+          }
+        ]
+      },
+      {
+        "title": "Electricity and water",
+        "items": [
+          {
+            "kind": "practice",
+            "title": "How they are charged",
+            "text": "In most long-term rentals electricity and water are paid by the tenant on top of the rent, based on meter readings. Some owners charge the official utility rate and others a higher fixed rate per unit, so ask for the rate before signing."
+          },
+          {
+            "kind": "verify",
+            "title": "Rates for professional landlords",
+            "text": "For landlords covered by the residential lease notification, utility charges may not exceed the rates set by the authorities. Ask how the rate is calculated."
+          },
+          {
+            "kind": "practice",
+            "title": "Avoiding surprises",
+            "text": "Record the meter readings with photos on move-in day, ask for the previous months' bills, and remember that air-conditioning and pool pumps drive most of the cost in a villa."
+          }
+        ]
+      },
+      {
+        "title": "Internet",
+        "items": [
+          {
+            "kind": "practice",
+            "title": "Included or not",
+            "text": "Many condos and villas include a home internet connection in the rent; others leave it to the tenant. Check the speed and the provider before signing, especially if you work from home."
+          },
+          {
+            "kind": "practice",
+            "title": "Installation",
+            "text": "If you need a new line, installation is often free or low cost with a 12-month package, but it may require a contract in your name; agree who pays for it."
+          }
+        ]
+      },
+      {
+        "title": "Maintenance",
+        "items": [
+          {
+            "kind": "practice",
+            "title": "Owner responsibilities",
+            "text": "Owners usually pay for structural repairs, broken appliances supplied with the property (unless damaged by the tenant) and major problems such as leaks."
+          },
+          {
+            "kind": "practice",
+            "title": "Tenant responsibilities",
+            "text": "Tenants usually pay for minor items such as light bulbs and day-to-day care. In villas the contract should say who pays for pool and garden maintenance."
+          },
+          {
+            "kind": "practice",
+            "title": "Air conditioning",
+            "text": "Air-conditioners should be cleaned regularly (often every 3 to 6 months in Phuket's humidity); agree in the contract who arranges and pays for it."
+          },
+          {
+            "kind": "practice",
+            "title": "Reporting damage",
+            "text": "Report problems in writing (a message is enough) with photos, so there is a record of when the issue started."
+          }
+        ]
+      },
+      {
+        "title": "Immigration (TM30)",
+        "items": [
+          {
+            "kind": "law",
+            "title": "Residence notification",
+            "text": "The owner or landlord must report a foreign tenant's place of residence to Immigration within 24 hours (Form TM30, Immigration Act section 38). Ask the landlord to confirm it has been filed; you may need the receipt for visa extensions and 90-day reports."
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Check every air-conditioner",
+      "Check water pressure and hot water",
+      "Test the appliances",
+      "Check doors, windows and locks",
+      "Photograph existing damage",
+      "Record electricity and water meter readings",
+      "Confirm internet speed and provider",
+      "Review the furniture inventory",
+      "Confirm parking arrangements",
+      "Keep a signed copy of the rental agreement"
+    ]
+  },
+  "faq": [
+    {
+      "question": "How much does it cost to rent a property in Phuket?",
+      "answer": "It depends mostly on the area and size. In our November 2026 research, typical asking rents for a 1-bedroom condo on a 12-month contract ran from about THB 16,000-20,000 a month in Phuket Town to THB 43,000-75,000 in Laguna, and 3-bedroom villas from about THB 60,000-100,000 in Chalong. See the [price table](/rent/#rental-prices) for every area."
+    },
+    {
+      "question": "What is the minimum rental period in Phuket?",
+      "answer": "There is no general legal minimum. Long-term rentals are usually agreed for 6 or 12 months; shorter monthly stays are possible but are typically priced closer to holiday rates."
+    },
+    {
+      "question": "Is it cheaper to rent a property for 12 months?",
+      "answer": "Usually, yes. Owners prefer a fixed 12-month tenant and often accept a lower monthly rent than for 1-6 month stays, which carry high-season pricing. Our price table only uses listings that require a contract of at least one year."
+    },
+    {
+      "question": "How much deposit do I need to rent a property in Thailand?",
+      "answer": "For long-term rentals a deposit of one to two months' rent plus the first month in advance is common practice. Landlords renting out 5 or more units fall under special government rules on deposits; check your contract and ask a lawyer if in doubt."
+    },
+    {
+      "question": "Are electricity and water included in the rental price?",
+      "answer": "Usually not. In most long-term rentals the tenant pays electricity and water on top of the rent according to the meters, at a rate set by the owner or the official utility rate. Ask for the rate before you sign and record the meter readings on move-in day."
+    },
+    {
+      "question": "Can foreigners rent property in Phuket?",
+      "answer": "Yes. Foreigners can rent condos, houses and villas in their own name with a passport. The landlord must report your address to Immigration (form TM30) within 24 hours, and you may need that receipt for visa extensions."
+    },
+    {
+      "question": "Which area in Phuket is best for long-term living?",
+      "answer": "It depends on your priorities: [Rawai](/locations/rawai/) and Nai Harn for a relaxed residential life in the south, [Bang Tao](/locations/bang-tao/) and [Cherng Talay](/locations/cherng-talay/) for families near international schools, [Kamala](/locations/kamala/) for a calmer beach village, and Phuket Town for the lowest rents and local life. See [Where should you rent?](/rent/#where-to-rent)."
+    },
+    {
+      "question": "Can I rent a villa or condominium with pets?",
+      "answer": "Some owners and many villa estates accept pets, while many condominium buildings do not allow them under their building rules. Tell us about your pet early so we only suggest suitable properties, and make sure the permission is written into the contract."
+    },
+    {
+      "question": "What happens if I want to terminate my rental contract early?",
+      "answer": "It depends on the contract. Many long-term agreements allow the owner to keep part or all of the deposit if you leave early, while some allow early exit with notice after a minimum period. Agree on early-termination terms in writing before signing."
+    },
+    {
+      "question": "What is the best time of year to find long-term rental accommodation in Phuket?",
+      "answer": "Choice is usually widest and owners most flexible on price in the low season, roughly May to October. From November to April more properties are taken by holiday guests, especially in beach areas."
+    }
+  ]
+}

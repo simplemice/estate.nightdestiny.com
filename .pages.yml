@@ -262,6 +262,115 @@ content:
       - { name: nearby, label: Nearby attractions & distances, component: nearby }
       - { name: coordinates, label: Map coordinates, component: coordinates }
 
+  - name: rentGuide
+    label: "Rent page: long-term guide (/rent/)"
+    type: file
+    path: content/rent-guide.json
+    format: json
+    description: "Sections shown under the rental listings on /rent/. The listings themselves are managed in the Rent collection. Empty price cells show 'Data unavailable'."
+    fields:
+      - { name: seoTitle, label: "SEO title of /rent/ (about 50-60 characters)", type: string }
+      - { name: seoDescription, label: "Meta description of /rent/ (about 140-160 characters)", type: text }
+      - name: intro
+        label: "1. Long-term rentals: introduction"
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: text, label: "Text (short paragraphs; links like [Rawai](/locations/rawai/))", type: text }
+          - { name: benefits, label: "Benefits (short bullet points)", type: string, list: true }
+          - { name: cta, label: "Button text (opens the existing rental request form)", type: string }
+          - name: photos
+            label: "Photos (2-3, villas and condos; only photos you may publish)"
+            type: object
+            list: { max: 3, collapsible: { collapsed: true, summary: "{alt}" } }
+            fields:
+              - { name: image, label: Photo, type: image, options: { path: assets/images/rent, extensions: [jpg, jpeg, png, webp] } }
+              - { name: alt, label: "Alt text (describe the photo)", type: string, required: true }
+              - { name: author, label: "Author (credit)", type: string }
+              - { name: license, label: Licence, type: string }
+              - { name: licenseUrl, label: Licence link, type: string }
+              - { name: sourceUrl, label: Source page, type: string }
+      - name: prices
+        label: "2. Rental price table"
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: updated, label: "Research date (shown under the table)", type: date, options: { format: yyyy-MM-dd } }
+          - { name: method, label: "How the ranges were calculated (sources, filters)", type: text }
+          - { name: disclaimer, label: Disclaimer, type: text }
+          - name: rows
+            label: "Rows (one per area and property type; monthly asking prices in THB for contracts of 6+ months)"
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{area} - {type}" } }
+            fields:
+              - { name: area, label: Area name, type: string, required: true }
+              - { name: page, label: "Area page file name (e.g. rawai); empty if there is no area page", type: string }
+              - { name: type, label: Property type, type: select, required: true, options: { values: [condo, villa] } }
+              - { name: studioMin, label: "Studio: from (THB / month)", type: number }
+              - { name: studioMax, label: "Studio: to (THB / month)", type: number }
+              - { name: br1Min, label: "1 bedroom: from (THB / month)", type: number }
+              - { name: br1Max, label: "1 bedroom: to (THB / month)", type: number }
+              - { name: br2Min, label: "2 bedrooms: from (THB / month)", type: number }
+              - { name: br2Max, label: "2 bedrooms: to (THB / month)", type: number }
+              - { name: br3Min, label: "3 bedrooms: from (THB / month)", type: number }
+              - { name: br3Max, label: "3 bedrooms: to (THB / month)", type: number }
+              - { name: br4Min, label: "4+ bedrooms: from (THB / month)", type: number }
+              - { name: br4Max, label: "4+ bedrooms: to (THB / month)", type: number }
+      - name: areas
+        label: "3. Where should you rent? (area cards)"
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - name: cards
+            label: Area cards
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{name}" } }
+            fields:
+              - { name: name, label: Area name, type: string, required: true }
+              - { name: page, label: "Area page file name (e.g. kamala); empty = no link", type: string }
+              - { name: description, label: "Short description (1 sentence)", type: text }
+              - { name: rental, label: Typical rentals, type: text }
+              - { name: suits, label: Suits, type: string }
+              - name: photo
+                label: "Photo of the area"
+                type: object
+                fields:
+                  - { name: image, label: Photo, type: image, options: { path: assets/images/rent, extensions: [jpg, jpeg, png, webp] } }
+                  - { name: alt, label: Alt text, type: string }
+                  - { name: author, label: Author, type: string }
+                  - { name: license, label: Licence, type: string }
+                  - { name: licenseUrl, label: Licence link, type: string }
+                  - { name: sourceUrl, label: Source page, type: string }
+      - name: guide
+        label: "4. What you need to know before renting"
+        type: object
+        fields:
+          - { name: heading, label: Heading, type: string }
+          - { name: note, label: "Note (general information, not legal advice)", type: text }
+          - name: sections
+            label: Sections (expandable)
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{title}" } }
+            fields:
+              - { name: title, label: Section title, type: string }
+              - name: items
+                label: Items
+                type: object
+                list: { collapsible: { collapsed: true, summary: "{title}" } }
+                fields:
+                  - { name: title, label: Title, type: string }
+                  - { name: kind, label: "Label: law = legal requirement, practice = common practice, verify = check with a lawyer", type: select, options: { values: [law, practice, verify] } }
+                  - { name: text, label: Text, type: text }
+          - { name: checklist, label: Move-in checklist, type: string, list: true }
+      - name: faq
+        label: "5. FAQ (8-10 questions; links like [Bang Tao](/locations/bang-tao/))"
+        type: object
+        list: { max: 12, collapsible: { collapsed: true, summary: "{question}" } }
+        fields:
+          - { name: question, label: Question, type: string, required: true }
+          - { name: answer, label: Answer, type: text, required: true }
+
   - name: locations
     label: Area pages (Phuket locations)
     type: collection
