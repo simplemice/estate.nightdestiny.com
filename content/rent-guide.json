@@ -66,7 +66,8 @@
       {
         "area": "Kamala / Surin",
         "pages": [
-          "kamala"
+          "kamala",
+          "surin"
         ],
         "note": "Quieter beaches between Patong and Bang Tao; Surin is the more upmarket end",
         "c1Min": 25000,
@@ -96,7 +97,8 @@
       {
         "area": "Rawai / Nai Harn",
         "pages": [
-          "rawai"
+          "rawai",
+          "nai-harn"
         ],
         "note": "The relaxed south, popular with long-stay residents and families",
         "c1Min": 28000,
@@ -110,7 +112,9 @@
       },
       {
         "area": "Chalong",
-        "pages": [],
+        "pages": [
+          "chalong"
+        ],
         "note": "Central south with good value, houses with gardens; no swimming beach",
         "c1Min": 18000,
         "c1Max": 45000,
@@ -123,7 +127,9 @@
       },
       {
         "area": "Phuket Town",
-        "pages": [],
+        "pages": [
+          "phuket-town"
+        ],
         "note": "The island's entry budget; city life, schools and hospitals, beaches 20-30 minutes away",
         "c1Min": 15000,
         "c1Max": 20000,
@@ -235,6 +241,21 @@
         }
       },
       {
+        "name": "Surin",
+        "page": "surin",
+        "description": "A small, upmarket beach between Kamala and Bang Tao, with luxury resorts and villas along the coast.",
+        "rental": "Limited, mostly high-end condos and villas; one of the pricier areas for long stays.",
+        "suits": "Couples and families wanting a quieter, upscale beach",
+        "photo": {
+          "image": "/assets/images/areas/surin/surin-beach.jpg",
+          "alt": "Surin Beach and its rocky headland",
+          "author": "Jpatokal",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surin_Beach.JPG"
+        }
+      },
+      {
         "name": "Patong",
         "page": "patong",
         "description": "Phuket's busiest beach town, with nightlife, the Jungceylon mall and everything within walking distance.",
@@ -266,7 +287,7 @@
       },
       {
         "name": "Nai Harn",
-        "page": null,
+        "page": "nai-harn",
         "description": "A beautiful swimming beach and lake next to Rawai, with cafes, yoga studios and a strong community feel.",
         "rental": "Popular and quickly let; condos and villas within a short ride of the beach.",
         "suits": "Active people, families, long stays",
@@ -311,7 +332,7 @@
       },
       {
         "name": "Chalong",
-        "page": null,
+        "page": "chalong",
         "description": "Central-south residential area with Wat Chalong, Chalong Pier, big supermarkets, gyms and Muay Thai camps.",
         "rental": "Houses and villas with gardens at good value; no swimming beach, a central base for the south.",
         "suits": "Families, budget-conscious long stays",
@@ -326,7 +347,7 @@
       },
       {
         "name": "Phuket Town",
-        "page": null,
+        "page": "phuket-town",
         "description": "The island's commercial and cultural centre, with the Old Town, hospitals, schools and local markets.",
         "rental": "Apartments, townhouses and houses, generally the lowest rents on the island; beaches are 20-30 minutes away.",
         "suits": "People working in town, local life lovers",

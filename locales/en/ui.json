@@ -636,5 +636,9 @@
   "rg.col.c1": "Studio or 1-bedroom condo",
   "rg.col.c23": "Condo, 2-3 bedrooms",
   "rg.col.v23": "Villa or house, 2-3 bedrooms",
-  "rg.col.v4": "Villa, 4+ bedrooms"
+  "rg.col.v4": "Villa, 4+ bedrooms",
+  "loc.h1_guide": "Living in {nm}, Phuket: Area Guide",
+  "loc.title_guide": "{nm}, Phuket: Area Guide, Rents & Property",
+  "loc.intro_none": "Our catalogue has no development projects in {nm} at the moment; this page is a guide to living and renting in the area.",
+  "area.no_projects": "We do not list development projects in {nm} at the moment. Ask us about resale and rental options, or see nearby areas:"
 }

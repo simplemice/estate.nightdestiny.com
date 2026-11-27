@@ -4,10 +4,10 @@
   "category": "Condominium",
   "projectType": "Hotel-managed condominium",
   "location": "Nai Harn / Rawai",
-  "area": "Rawai",
+  "area": "Nai Harn",
   "neighbourhood": "Nai Harn",
   "nearbyAreas": [
-    "Nai Harn"
+    "Rawai"
   ],
   "locationStatus": "probable",
   "shortDescription": "Completed hotel-managed condominium of 196 studios, one-bedroom and two-bedroom apartments in the Rawai and Nai Harn area, with a pool, kids club and gym.",
@@ -154,7 +154,7 @@
   "priceNote": "Lowest advertised price.",
   "lastVerified": "2026-11-22",
   "floorPlans": [],
-  "researchNotes": "New project added 2026-11-22. Unit count: 196 (portal) vs 218 (another portal). Original completion expected 2023; portal now Mar 2026. Freehold premium THB 10,000/sqm (portal), not published. Payment plan on portal for completed project not published. Prices are a mix of developer-stock and resale listings. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://theonenaiharn.com/). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
+  "researchNotes": "New project added 2026-11-22. Unit count: 196 (portal) vs 218 (another portal). Original completion expected 2023; portal now Mar 2026. Freehold premium THB 10,000/sqm (portal), not published. Payment plan on portal for completed project not published. Prices are a mix of developer-stock and resale listings. All figures are advertised/third-party and not confirmed by the developer unless noted. Images added 2026-11-22 from the developer website (https://theonenaiharn.com/). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced. 2026-11-28: area changed from Rawai to Nai Harn (new Nai Harn area page); Rawai kept as nearby area.",
   "images": [
     "/assets/images/projects/the-one-naiharn/rooftop-pool.jpg",
     "/assets/images/projects/the-one-naiharn/pool-access.jpg",

@@ -2,7 +2,9 @@
   "name": "Ko Kaeo",
   "intro": "Ko Kaeo is a residential subdistrict on Phuket's east side, between Phuket Town and Thalang. It is home to marinas, large housing estates, international schools and a mainly Thai and long-stay community, away from the tourist beaches.",
   "overview": "Ko Kaeo is on the eastern side of Mueang Phuket district, away from the west-coast beaches. Project descriptions point to the Boat Lagoon marina area, schools such as the British International School and Finnway, and hospitals as the main nearby destinations; one villa development states that it is not within walking distance of a beach.\nOur three projects here are villas and townhouses, with a mix of off-plan and completed developments.",
-  "nearbyAreas": [],
+  "nearbyAreas": [
+    "phuket-town"
+  ],
   "suitableFor": [
     "Families with children at nearby international schools",
     "Boat owners",

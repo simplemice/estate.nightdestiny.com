@@ -939,7 +939,10 @@ const LOC_MIN = 2; // a location page needs at least this many projects, otherwi
 const locGroups = new Map();
 projL.forEach((p) => { const k = locSlug(areaKey(p)); (locGroups.get(k) || locGroups.set(k, { slug: k, name: areaKey(p), projects: [] }).get(k)).projects.push(p); });
 // Existing public area URLs are never dropped, even if corrections leave them with fewer projects; new areas still need LOC_MIN.
-const LOC_KEEP = new Set(['bang-tao', 'laguna', 'cherng-talay', 'si-sunthon', 'rawai', 'naiyang', 'kamala', 'layan', 'thalang', 'ko-kaeo', 'kata', 'patong', 'karon', 'mai-khao']);
+const LOC_KEEP = new Set(['bang-tao', 'laguna', 'cherng-talay', 'si-sunthon', 'rawai', 'naiyang', 'kamala', 'layan', 'thalang', 'ko-kaeo', 'kata', 'patong', 'karon', 'mai-khao', 'surin', 'nai-harn', 'chalong', 'phuket-town']);
+// Area guides that exist even without (enough) projects: create their group so the page is built.
+const LOC_FORCE = { 'nai-harn': 'Nai Harn', chalong: 'Chalong', 'phuket-town': 'Phuket Town', surin: 'Surin' };
+Object.entries(LOC_FORCE).forEach(([k, name]) => { if (!locGroups.has(k)) locGroups.set(k, { slug: k, name, projects: [] }); });
 const LOCS = [...locGroups.values()].filter((g) => g.projects.length >= LOC_MIN || LOC_KEEP.has(g.slug)).sort((a, b) => b.projects.length - a.projects.length || a.name.localeCompare(b.name));
 LOCS.forEach((g) => { g.url = `/locations/${g.slug}/`; try { g.ed = readJson(path.join(ROOT, `content/locations/${g.slug}.json`)); } catch { g.ed = {}; } });
 const locPageFor = (p) => LOCS.find((g) => g.slug === locSlug(areaKey(p)));
@@ -1023,7 +1026,7 @@ function catalogIntro(key, list) {
 function locStats(g, ed) {
   const ps = g.projects, N = ps.length, out = [];
   const tc = ['Condominium', 'Villa', 'Townhouse'].map((k) => [k, ps.filter((p) => p.category === k).length]).filter(([, c]) => c);
-  out.push({ label: T('st.projects'), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
+  if (N) out.push({ label: T('st.projects'), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
   const priced = ps.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b);
   if (priced.length) out.push({ label: T('st.from'), value: money(priced[0]), thb: priced[0], note: T('st.from_note', { k: priced.length, N }) });
   // Median advertised THB per m2 for condo unit types with one exact size and one price (ranges are skipped, so the figure is not skewed).
@@ -1094,8 +1097,8 @@ function locationPage(g) {
   const typeNames = cnt.slice().sort((a, b) => b[1] - a[1]).map(([k]) => T(`loc.tn.${k}`));
   const joinTypes = (arr) => (arr.length < 2 ? arr[0] : arr.slice(0, -1).join(', ') + T('and_amp') + arr[arr.length - 1]);
   const types2 = joinTypes(typeNames.slice(0, 2)), typesAll = joinTypes(typeNames);
-  const h1 = T('loc.h1_t', { nm, in: inn, types: typesAll });
-  const dataIntro = `${T('loc.intro', { np: T('loc.np', { n: N }), nm, types: typesTxt })}${prices.length ? ' ' + T('loc.prices', { from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N }) : ' ' + T('loc.prices_none')}${own.length ? ' ' + T('loc.own', { own: own.map((o) => T(`own_lc.${o}`)).join(T('and')) }) : ''}`;
+  const h1 = N ? T('loc.h1_t', { nm, in: inn, types: typesAll }) : T('loc.h1_guide', { nm, in: inn });
+  const dataIntro = !N ? T('loc.intro_none', { nm, in: inn }) : `${T('loc.intro', { np: T('loc.np', { n: N }), nm, types: typesTxt })}${prices.length ? ' ' + T('loc.prices', { from: money(prices[0]), to: money(prices[prices.length - 1]), k: prices.length, N }) : ' ' + T('loc.prices_none')}${own.length ? ' ' + T('loc.own', { own: own.map((o) => T(`own_lc.${o}`)).join(T('and')) }) : ''}`;
   const pricedPs = ps.filter((p) => facts(p).price), dPs = pricedPs.length ? pricedPs : ps;
   const dCnt = ['Villa', 'Townhouse', 'Condominium'].map((k) => [k, dPs.filter((p) => p.category === k).length]).filter(([, c]) => c);
   const dTypesTxt = dCnt.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ');
@@ -1117,7 +1120,7 @@ function locationPage(g) {
     ownTxt ? [T('loc.faq.q_own', { nm, in: inn }), T('loc.faq.a_own', { x: ownTxt })] : null,
     [T('loc.faq.q_status', { nm, in: inn }), T('loc.faq.a_status', { early: stc('Pre-sale') + stc('Under construction'), done: stc('Completed'), N })],
   ].filter(Boolean);
-  const faq = (faqEd.length ? [...faqEd, faqData[0]] : faqData).filter(Boolean).slice(0, 8);
+  const faq = (faqEd.length ? [...faqEd, N ? faqData[0] : null] : N ? faqData : []).filter(Boolean).slice(0, 8);
   const faqHtml = `<h2 class="sec-h" id="faq">${T('area.faq_h', { nm: esc(nm) })}</h2><div class="faq-list">${faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
   const catLinks = cnt.map(([k]) => { const c = CATALOGS.find((x) => x.lock === k); return `<a href="${lp(c.path)}">${esc(T(`cat.${c.key}.h1`))}</a>`; }).join(' &middot; ');
   const SHOW = 9;
@@ -1142,10 +1145,10 @@ function locationPage(g) {
 		${ed.lifestyle || ed.beaches ? `<div class="row">${ed.lifestyle ? `<div class="col-md-6"><h2 class="sec-h">${T('area.lifestyle')}</h2><div class="desc">${paras(ed.lifestyle)}</div></div>` : ''}${ed.beaches ? `<div class="col-md-6"><h2 class="sec-h">${T('area.beaches')}</h2><div class="desc">${paras(ed.beaches)}</div></div>` : ''}</div>` : ''}
 		${nb.length ? `<details class="area-nearby"><summary>${T('area.nearby_sum', { nm: esc(nm) })}</summary><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div></details>` : ''}
 		<h2 class="sec-h" id="projects">${T('area.projects_h', { nm: esc(nm), n: N })}</h2>
-		<div class="row loc-projects" data-show="${SHOW}">${cards}</div>
+		${N ? `<div class="row loc-projects" data-show="${SHOW}">${cards}</div>` : `<p>${T('area.no_projects', { nm: esc(nm), in: esc(inn) })} ${nbLine.length ? nbLine.join(' &middot; ') : `<a href="${lp('/projects/')}">${T('nav.projects')}</a>`}</p>`}
 		${N > SHOW ? `<p class="text-center loc-more-wrap"><button type="button" class="primary-btn loc-more-btn" hidden>${T('area.show_all', { n: N })}</button></p>` : ''}
 		${nearHtml}
-		<p class="ds-note">${T('loc.cat_links', { links: catLinks })} <a href="${lp('/sale/')}?location=${encodeURIComponent(g.name)}" rel="nofollow">${T('loc.filter', { nm: esc(nm) })}</a></p>
+		${N ? `<p class="ds-note">${T('loc.cat_links', { links: catLinks })} <a href="${lp('/sale/')}?location=${encodeURIComponent(g.name)}" rel="nofollow">${T('loc.filter', { nm: esc(nm) })}</a></p>` : ''}
 		${ed.rentalMarket ? `<h2 class="sec-h">${T('area.rental_h', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.rentalMarket)}</div>${accordion(ed.rentalDetails)}<p class="ds-note">${T('area.rental_note')}</p>` : ''}
 		<h2 class="sec-h" id="yield-calculator">${T('area.invest_h', { nm: esc(nm) })}</h2>
 		<div class="row"><div class="col-lg-5">${ed.investment ? `<div class="desc">${paras(ed.investment)}</div>${accordion(ed.investmentDetails)}` : `<p>${T('area.invest_generic')}</p>`}
@@ -1159,7 +1162,7 @@ function locationPage(g) {
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, numberOfItems: N, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, ...(ed.photos || []).filter((x) => x && x.image).length ? { image: (ed.photos || []).filter((x) => x && x.image).map((x) => SITE + x.image) } : {}, about: { '@type': 'Place', name: `${nm}, ${T('phuket')}`, ...(ed.map && num(ed.map.lat) !== null ? { geo: { '@type': 'GeoCoordinates', latitude: num(ed.map.lat), longitude: num(ed.map.lng) } } : {}), containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}
 	${faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }) : ''}`;
-  return layout({ title: ed.seoTitle ? `${ed.seoTitle}` : fitTitle(T('loc.title_t', { types: types2, nm, in: inn }), T('loc.title_t1', { types: typeNames[0], nm, in: inn }), T('loc.title_b', { nm, in: inn, site: settings.siteName })), description: desc, pathname: g.url, active: 'locations', body, ogImage: (ed.photos || []).find((x) => x && x.image)?.image || ps.find((p) => p.cover)?.cover, ogImageAlt: (ed.photos || []).find((x) => x && x.image)?.alt || '', scripts: `<script src="/js/yield-calc.js?v=${JS_V.yieldCalc}" defer></script>` });
+  return layout({ title: ed.seoTitle ? `${ed.seoTitle}` : !N ? T('loc.title_guide', { nm, in: inn }) : fitTitle(T('loc.title_t', { types: types2, nm, in: inn }), T('loc.title_t1', { types: typeNames[0], nm, in: inn }), T('loc.title_b', { nm, in: inn, site: settings.siteName })), description: desc, pathname: g.url, active: 'locations', body, ogImage: (ed.photos || []).find((x) => x && x.image)?.image || ps.find((p) => p.cover)?.cover, ogImageAlt: (ed.photos || []).find((x) => x && x.image)?.alt || '', scripts: `<script src="/js/yield-calc.js?v=${JS_V.yieldCalc}" defer></script>` });
 }
 // Areas that have projects but fewer than LOC_MIN, so no area page: shown on the hub with direct links to their projects (no new URL).
 const OTHER_LOCS = [...locGroups.values()].filter((g) => !LOCS.includes(g)).sort((x, y) => x.name.localeCompare(y.name));
@@ -1683,7 +1686,7 @@ const xesc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '
 const dOf = (p) => dateFmt(p.lastVerified) || dateFmt(p.publishedAt) || today;
 const latest = (arr) => arr.map(dOf).sort().pop() || today;
 const today = new Date().toISOString().slice(0, 10);
-const locMod = (g) => latest(g.projects); // content dates only: file mtimes differ between local and CI checkouts and caused sitemap.xml conflicts
+const locMod = (g) => (g.projects.length ? latest(g.projects) : (LOCALES[DEFAULT_LANG].over.locations[g.slug] || {}).updated || '2026-11-28'); // content dates only: file mtimes differ between local and CI checkouts and caused sitemap.xml conflicts
 const allListings = rentL.concat(saleL, projL);
 const guideMod = (g) => LANGS.map((l) => (LOCALES[l].over.guides[g] || {}).modified).filter(Boolean).sort().pop() || today;
 const imgsOf = (p) => [p.cover, ...(p.images || [])].filter(Boolean).filter((v, i, a) => a.indexOf(v) === i).slice(0, 9);
