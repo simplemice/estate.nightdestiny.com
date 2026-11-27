@@ -1,6 +1,119 @@
 {
+  "name": "Rawai",
+  "intro": "Rawai is the relaxed southern tip of Phuket: a working fishing bay with a pier, seafood market and longtail boats, surrounded by residential streets where many long-stay residents live. It is less about swimming beaches on its own doorstep and more about everyday living, with Nai Harn and Ya Nui beaches a short drive away.",
   "overview": "Rawai is at the southern end of Phuket, in Mueang Phuket district, between Nai Harn and Chalong. It has the widest mix in our catalogue: boutique and hotel-managed condominiums (Babylon Sky Garden and Babylon Sky Garden 2, The One Naiharn, The Title Adora and Cielo Rawai, Next Point), pool villas, and townhouses including Aileen Rawai Townhouses and Villa Sumalee. About half are completed, with advertised starting prices from roughly THB 3.7 million for condominiums.\nThe project data lists Rawai Beach and its pier, the Nai Harn and Ya Nui beaches, Wat Sawang Arom, the international schools and hospitals; the airport is about 45-48 km away (around an hour by car), the longest run of any area we list, so check travel times before you decide.",
   "nearbyAreas": [
     "kata"
-  ]
+  ],
+  "suitableFor": [
+    "Permanent residents and retirees",
+    "Families who want international schools within reach",
+    "Buyers looking for long-term rental demand",
+    "Remote workers who prefer a quieter base"
+  ],
+  "highlights": [
+    "Large year-round community of long-stay residents",
+    "Nai Harn, Ya Nui and Rawai beaches nearby",
+    "Wide choice of condos, pool villas and townhouses",
+    "Boat trips to the southern islands from Rawai pier"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/rawai/rawai-beach-longtail-boats.jpg",
+      "alt": "Longtail boats moored off Rawai Beach",
+      "author": "ADwarf",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Rawai_Beach_11.jpg"
+    },
+    {
+      "image": "/assets/images/areas/rawai/rawai-bay-boats.jpg",
+      "alt": "Boats in Rawai Bay with the islands offshore",
+      "author": "ADwarf",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Rawai_Beach_02.jpg"
+    },
+    {
+      "image": "/assets/images/areas/rawai/rawai-pier.jpg",
+      "alt": "Rawai pier reaching into the bay",
+      "author": "ADwarf",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Rawai_Beach_06.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.7703,
+    "lng": 98.3193,
+    "zoom": 14
+  },
+  "lifestyle": "Daily life revolves around local cafes, gyms, Muay Thai camps, markets and international supermarkets along the Rawai and Chalong roads. Evenings are quiet compared with the west-coast resort towns, and most services are reachable within a few minutes by car or scooter.",
+  "beaches": "Rawai Beach itself is shallow and used by fishing and tour boats, so it is better for the seafood restaurants and the pier than for swimming. Nai Harn Beach, a few kilometres west, is the main swimming beach of the south (calmest from November to April), with Ya Nui and Promthep Cape close by.",
+  "rentalMarket": "Rawai is known above all for long-term rentals. Demand comes from families, retirees, remote workers and people who live in Phuket for several months a year, and it continues through the low season. Short-term holiday letting also exists, especially near Nai Harn, but it is more seasonal.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Holiday demand peaks from about November to April. Properties near Nai Harn Beach or with sea views are the easiest to let for short stays; inland units depend more on price and facilities."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Six- and twelve-month leases are common. Tenants look for practical layouts, parking, good internet and reasonable common fees rather than resort extras."
+    },
+    {
+      "title": "Typical tenants",
+      "text": "Long-stay foreigners, families with children at nearby international schools, retirees and remote workers."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "One- and two-bedroom condos for singles and couples; two- to four-bedroom pool villas and townhouses for families."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: steadier year-round occupancy than purely holiday-driven areas. Limitations: about an hour from the airport, and Rawai Beach is not a swimming beach, which matters to short-stay guests."
+    }
+  ],
+  "investment": "Buyers consider Rawai mainly for lifestyle and long-term rental use. The mix of completed and new projects gives a wide price range, and a resident community means rental demand does not rely only on tourist arrivals.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Owner-occupiers who rent out while away; buyers seeking long-term tenants; families buying a home near schools."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "A growing supply of new condos competes for the same tenants; check the developer track record and the realistic rent for comparable completed units."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common area fees and a sinking fund for condos, maintenance for villas, management fees if you use an agent, insurance and periods without a tenant."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Rawai a good place to live in Phuket?",
+      "answer": "Rawai suits people who want a calm, residential base with a large international community, local markets and services. It is quieter than Patong or Kata and has many long-stay residents."
+    },
+    {
+      "question": "Can you swim at Rawai Beach?",
+      "answer": "Rawai Beach is shallow and used by boats, so most people swim at Nai Harn Beach or Ya Nui Beach a few kilometres away. Nai Harn is calmest from about November to April."
+    },
+    {
+      "question": "How far is Rawai from Phuket airport?",
+      "answer": "Our project data puts Rawai projects about 42 to 52 km from Phuket International Airport, typically around an hour by car depending on traffic."
+    },
+    {
+      "question": "Is there long-term rental demand in Rawai?",
+      "answer": "Yes, Rawai is one of the main long-term rental areas in Phuket, with demand from families, retirees and remote workers. Actual rent and occupancy depend on the property, price and management."
+    },
+    {
+      "question": "Which international schools are near Rawai?",
+      "answer": "Several international schools and kindergartens are within a short drive; the nearby-places lists on our project pages give distances for specific schools."
+    },
+    {
+      "question": "What is the difference between Rawai and Nai Harn?",
+      "answer": "They are neighbours. Rawai is the bay with the pier and seafood market; Nai Harn is the swimming beach and lake to the west. See our Rawai vs Nai Harn guide for details."
+    }
+  ],
+  "seoDescription": "Rawai, Phuket: condos, pool villas and townhouses in the south, near Nai Harn Beach. Area guide, prices, long-term rental demand and yield calculator."
 }

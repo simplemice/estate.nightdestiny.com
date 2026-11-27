@@ -1,0 +1,104 @@
+{
+  "name": "Surin",
+  "intro": "Surin is a small, upmarket beach between Kamala and Bang Tao, known for its luxury resorts and the exclusive coastal strip often called \"Millionaire's Mile\". Property here is limited and generally high-end.",
+  "overview": "Surin is a small, upmarket beach area between Kamala and Bang Tao on Phuket's west coast. Projects in our catalogue here are condominiums close to Surin Beach, with Bang Tao and the Laguna area a few minutes north.",
+  "nearbyAreas": [
+    "bang-tao",
+    "kamala",
+    "laguna"
+  ],
+  "suitableFor": [
+    "Luxury home buyers",
+    "Second-home owners",
+    "Holidaymakers who want a smaller, upscale beach"
+  ],
+  "highlights": [
+    "Compact, attractive beach with rocky headlands",
+    "Luxury resorts and villas along the coast",
+    "Close to Bang Tao, Laguna and Kamala",
+    "Limited supply of new projects"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/surin/surin-beach.jpg",
+      "alt": "Surin Beach and its rocky headland",
+      "author": "Jpatokal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surin_Beach.JPG"
+    },
+    {
+      "image": "/assets/images/areas/surin/surin-beach-surfing.jpg",
+      "alt": "Surfing at Surin Beach in the monsoon season",
+      "author": "Swdreaming",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surfing-surin-beach.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.976,
+    "lng": 98.2784,
+    "zoom": 15
+  },
+  "lifestyle": "Surin offers beach restaurants, upscale resorts and easy access to the shops and restaurants of Bang Tao and Laguna. It is quiet in the evenings.",
+  "beaches": "Surin Beach is a short, steep beach that is beautiful in the dry season but can have strong waves and currents from about May to October; surfers use it in the monsoon season.",
+  "rentalMarket": "Surin's rental market is small and upmarket, aimed at guests who value a quieter, more exclusive beach. Demand is seasonal and depends on quality and management.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "High-end condos and villas let to couples and families who want a smaller beach; the dry season is the main period."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Limited, mainly well-off long-stay residents."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Premium condos and luxury villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: scarce supply and an upmarket reputation. Limitations: high prices, a small market and seasonality."
+    }
+  ],
+  "investment": "Surin is a lifestyle-led luxury location. Buyers usually prioritise personal use and long-term value of a scarce location over high rental income.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Luxury second-home owners and buyers of premium condos."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "A small buyer and tenant pool at the top end of the market; resale can take time."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Higher common fees in premium buildings, villa maintenance, management and insurance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Surin Beach good for swimming?",
+      "answer": "From about November to April Surin is good for swimming; in the monsoon months the beach is steep and the waves can be dangerous, so check the flags."
+    },
+    {
+      "question": "What is \"Millionaire's Mile\" in Phuket?",
+      "answer": "It is the stretch of coast between Kamala and Surin known for exclusive private villas."
+    },
+    {
+      "question": "How far is Surin from the airport?",
+      "answer": "Our project data gives about 23 km to Phuket International Airport, usually around 30 to 40 minutes by car."
+    },
+    {
+      "question": "Is Surin close to Bang Tao and Laguna?",
+      "answer": "Yes, Bang Tao and the Laguna Phuket area are just north of Surin, a few minutes by car."
+    },
+    {
+      "question": "Are there many new projects in Surin?",
+      "answer": "Supply is limited compared with Bang Tao or Cherng Talay; our catalogue lists only a small number of projects here."
+    }
+  ],
+  "seoDescription": "Surin, Phuket: condos by an upmarket beach between Kamala and Bang Tao. Area guide with advertised prices, rental market, FAQ and yield calculator."
+}

@@ -1,8 +1,116 @@
 {
+  "name": "Patong",
+  "intro": "Patong is Phuket's busiest beach town and its main nightlife and shopping centre, with Bangla Road, the Jungceylon mall and a long beach in a wide bay. It is the most tourist-driven property market on the island.",
   "overview": "Patong is the main resort town on Phuket's west coast, in Kathu district. The project data places BRISA Patong by Sansiri directly behind the Jungceylon shopping mall, with Walking Street about ten minutes on foot and Patong Beach roughly 900 m away.\nThe completed condominiums in neighbouring Kathu, Dcondo Reef Kathu and The Origin Kathu-Patong, are listed on the Kathu page: the developer of The Origin places it between Patong Beach and the Old Town, and Dcondo Reef Kathu is about 7 km from Patong Beach.",
   "nearbyAreas": [
     "karon",
     "kamala",
     "kathu"
-  ]
+  ],
+  "suitableFor": [
+    "Short-term rental investors",
+    "Buyers who want nightlife, shopping and restaurants on foot",
+    "People working in Patong's tourism industry"
+  ],
+  "highlights": [
+    "Phuket's best-known beach and entertainment district",
+    "Jungceylon shopping mall and Patong Hospital",
+    "Everything within walking distance",
+    "Strong tourist footfall year-round"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/patong/patong-bay.jpg",
+      "alt": "Patong Bay and the hills behind the town",
+      "author": "Arnaud-Victor Monteux",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_Phuket_November_2012.jpg"
+    },
+    {
+      "image": "/assets/images/areas/patong/patong-beach.jpg",
+      "alt": "Swimmers at Patong Beach",
+      "author": "Wolfgang Holzem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_(2).jpg"
+    },
+    {
+      "image": "/assets/images/areas/patong/patong-bay-rocks.jpg",
+      "alt": "Rocks at the end of Patong Bay",
+      "author": "Wolfgang Holzem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patong_Beach_(1).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.8966,
+    "lng": 98.2954,
+    "zoom": 14
+  },
+  "lifestyle": "Patong is lively day and night: beach clubs, restaurants, markets, the Bangla Road entertainment strip and large malls. Traffic and noise are part of daily life, especially near the centre.",
+  "beaches": "Patong Beach is about 3 km long, busy with swimmers, jet skis and parasailing. Quieter bays such as Tri Trang and Kalim are at either end of Patong.",
+  "rentalMarket": "Patong has the deepest short-term rental market on Phuket, with visitors in every season. Long-term demand comes mostly from people working in Patong's hotels, bars and shops.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Demand is high and less seasonal than elsewhere, but so is competition from hotels and other condos. Location near the beach or Jungceylon matters most."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Tenants are mainly tourism and service workers, so small, affordable units let best."
+    },
+    {
+      "title": "Typical tenants",
+      "text": "Holidaymakers, young travellers, workers in local businesses."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Studios and one-bedroom condos close to the centre."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: constant tourist footfall. Limitations: noise, traffic, heavy competition and building-specific rules on short-term letting."
+    }
+  ],
+  "investment": "Patong appeals to buyers focused on rental demand rather than tranquillity. Small condos near the centre are the usual investment product; check how the building handles short-term rentals and management.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Buy-to-let investors in studios and one-bedroom units; hotel-managed condo buyers."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "High competition, wear and tear from frequent guests, and the condition and management of older buildings."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, management commission, cleaning, furniture replacement and insurance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Patong a good place to buy a rental property?",
+      "answer": "Patong has the most consistent tourist demand on Phuket, but also the most competition. Small units close to the beach or Jungceylon are the most popular with guests."
+    },
+    {
+      "question": "Is Patong too noisy to live in?",
+      "answer": "The centre around Bangla Road is loud late at night. Hillside streets and the northern and southern ends of the bay are quieter."
+    },
+    {
+      "question": "How far is Patong from the airport?",
+      "answer": "Patong is roughly an hour from Phuket International Airport by car, depending on traffic over the hills."
+    },
+    {
+      "question": "Is there a hospital in Patong?",
+      "answer": "Yes, Patong Hospital is in the town, and larger private hospitals are in Phuket Town and Kathu."
+    },
+    {
+      "question": "Which beaches are near Patong?",
+      "answer": "Patong Beach itself, plus the quieter Kalim and Tri Trang bays at either end; Karon and Kamala are a short drive away."
+    }
+  ],
+  "seoDescription": "Patong, Phuket: condos in the island's busiest beach and nightlife town. Area guide with prices, short-term rental market, FAQ and yield calculator."
 }

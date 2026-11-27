@@ -1,9 +1,113 @@
 {
+  "name": "Cherng Talay",
+  "intro": "Cherng Talay (Choeng Thale) is the subdistrict behind Bang Tao, Laguna and Layan. Its inland roads are home to many villa estates and condos that are a short drive from the beach but cost less than beachfront locations.",
   "overview": "Cherng Talay (Choeng Thale) is a subdistrict of Thalang district that stretches from the west-coast beaches inland. In everyday use the name also covers the residential streets behind Bang Tao, Laguna and Layan, which is why several of our beach-area pages are neighbours of this one.\nProjects listed here carry Cherng Talay as their primary location: villas and condominiums. International schools and Boat Avenue appear in the project data; distances are measured from the named project.",
   "nearbyAreas": [
     "bang-tao",
     "laguna",
     "layan",
     "si-sunthon"
-  ]
+  ],
+  "suitableFor": [
+    "Families and permanent residents",
+    "Buyers seeking value close to Bang Tao",
+    "Long-term rental investors"
+  ],
+  "highlights": [
+    "Within a short drive of Bang Tao, Laguna and Layan",
+    "Many villa estates and new condos",
+    "Schools, supermarkets and clinics nearby",
+    "Generally lower prices than beachfront areas"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/cherng-talay/cherng-talay-road.jpg",
+      "alt": "A residential road in Choeng Thale",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choeng_Thale,_Thalang_District,_Phuket_83110,_Thailand_-_panoramio_(422).jpg"
+    },
+    {
+      "image": "/assets/images/areas/cherng-talay/cherng-talay-coast.jpg",
+      "alt": "The Choeng Thale coast",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choeng_Thale,_Thalang_District,_Phuket_83110,_Thailand_-_panoramio_(301).jpg"
+    },
+    {
+      "image": "/assets/images/areas/cherng-talay/cherng-talay-sunset.jpg",
+      "alt": "Sunset on the Choeng Thale coast",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choeng_Thale,_Thalang_District,_Phuket_83110,_Thailand_-_panoramio_(286).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.0048,
+    "lng": 98.3083,
+    "zoom": 13
+  },
+  "lifestyle": "Cherng Talay is residential, with local markets, supermarkets, international schools, gyms and attractions such as Blue Tree within easy reach. Most residents drive to the beaches and Boat Avenue.",
+  "beaches": "The closest beaches are Bang Tao and Layan, typically 1 to 5 km from projects in our catalogue. Surin and Kamala are further south.",
+  "rentalMarket": "Cherng Talay is mainly a long-term rental market for families and residents who work or study nearby, with some holiday demand for pool villas.",
+  "rentalDetails": [
+    {
+      "title": "Long-term rentals",
+      "text": "Families, teachers and professionals look for villas and condos near schools and the Bang Tao amenities."
+    },
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Pool villas with good facilities can let to holiday groups, but inland locations depend on price and quality."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Two- to four-bedroom pool villas and practical condos."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: value and space close to the west coast. Limitations: no beach on foot; heavy new-build supply."
+    }
+  ],
+  "investment": "Buyers consider Cherng Talay for more space and lower prices than the beachfront while staying close to Bang Tao and Laguna. It is well suited to family homes and long-term letting.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Families buying a home, buyers of villas for long-term rental."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Many similar villa estates; check build quality, land title and the developer's completed projects."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Villa maintenance, pool and garden care, common fees in managed estates, insurance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Cherng Talay in Phuket?",
+      "answer": "Cherng Talay (Choeng Thale) is a subdistrict in Thalang district on the west coast. It includes the Bang Tao, Laguna, Layan and Surin areas and the inland roads behind them."
+    },
+    {
+      "question": "Is Cherng Talay close to the beach?",
+      "answer": "Projects in our catalogue are typically 1 to 5 km from Bang Tao or Layan Beach."
+    },
+    {
+      "question": "Is Cherng Talay good for families?",
+      "answer": "Yes, it is popular with families because of the international schools, supermarkets and clinics nearby and the space of villa estates."
+    },
+    {
+      "question": "How far is Cherng Talay from the airport?",
+      "answer": "Our project data puts projects about 13 to 21 km from Phuket International Airport."
+    },
+    {
+      "question": "Are villas cheaper in Cherng Talay than in Bang Tao?",
+      "answer": "Inland villas in Cherng Talay generally have lower starting prices than beachfront or Laguna properties; compare the advertised prices on this page."
+    }
+  ],
+  "seoDescription": "Cherng Talay, Phuket: villas and condos behind Bang Tao and Layan, popular with families. Area facts, advertised prices, rental market and FAQ."
 }

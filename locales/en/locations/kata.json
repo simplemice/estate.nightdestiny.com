@@ -1,7 +1,116 @@
 {
+  "name": "Kata",
+  "intro": "Kata is a compact beach town on Phuket's south-west coast, built around two attractive bays: Kata (Kata Yai) and the smaller Kata Noi. It combines a lively but family-friendly centre with hillside homes that look over the sea.",
   "overview": "Kata is a west-coast beach area in Mueang Phuket district, south of Karon and north of Nai Harn. Our catalogue lists three condominium projects here, all still in pre-sale or under construction, with developers including Origin Property and Rhom Bho Property.\nThe portals we reviewed disagree on whether some of these projects belong to Kata or to neighbouring Karon (Kata and Karon share a subdistrict), so confirm the exact address with us before you rely on the location.",
   "nearbyAreas": [
     "karon",
     "rawai"
-  ]
+  ],
+  "suitableFor": [
+    "Holidaymakers and second-home owners",
+    "Families who want a swimmable beach",
+    "Short-term rental investors",
+    "Surfers (in the monsoon season)"
+  ],
+  "highlights": [
+    "Two sandy bays: Kata and Kata Noi",
+    "Restaurants, shops and nightlife without Patong's intensity",
+    "Hillside plots with sea views",
+    "Surf season from about May to October"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/kata/kata-beach-from-above.jpg",
+      "alt": "Kata Beach seen from the headland",
+      "author": "ADwarf",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Kata_Beach_001.jpg"
+    },
+    {
+      "image": "/assets/images/areas/kata/kata-beach-longtails.jpg",
+      "alt": "Longtail boats on the water at Kata Beach",
+      "author": "Radek Kucharski",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_Beach1.jpg"
+    },
+    {
+      "image": "/assets/images/areas/kata/kata-beach-morning.jpg",
+      "alt": "Kata Beach in the morning with Koh Pu offshore",
+      "author": "HutheMeow",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kata_beach_morning_2.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.819,
+    "lng": 98.2985,
+    "zoom": 15
+  },
+  "lifestyle": "Kata has a walkable centre with restaurants, cafes, bars, yoga studios and surf schools. It is busy in high season and quieter in the low season, and Karon and Patong are a short drive north.",
+  "beaches": "Kata Beach is one of the island's most popular swimming beaches, with Koh Pu island offshore. Kata Noi, over the headland, is quieter. From about May to October the west coast gets waves and red-flag days; that is when Kata becomes a surf spot.",
+  "rentalMarket": "Kata is primarily a holiday-rental market. Demand is strongest in the dry season (roughly November to April) and comes from families and couples who want to walk to the beach. Long-term rentals exist but are a smaller share than in Rawai or Chalong.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Walking distance to Kata Beach and sea views are the main drivers. High season is strong; the monsoon months are slower, apart from surfers and budget travellers."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Smaller market, mainly people working in local tourism or long-stay visitors who want a beach lifestyle."
+    },
+    {
+      "title": "Typical tenants",
+      "text": "Holiday families and couples, surfers in the low season, some long-stay foreigners."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Condos with pools and resort facilities within walking distance of the beach; sea-view villas for groups and families."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: well-known beach name and steady tourist demand. Limitations: strong seasonality, hilly roads, and around 47 km to the airport."
+    }
+  ],
+  "investment": "Kata attracts buyers who want a holiday home they can rent out when they are away. Its appeal rests on the beach and the town; returns depend heavily on the season, management quality and how close a unit is to the sand.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Second-home owners who rent out part of the year; buyers of small condos for holiday letting."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Seasonal income, competition from hotels, and licensing rules for short-term rentals; ask about the building's rental arrangements."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees and sinking fund, management commission (often higher for short-term letting), cleaning, utilities and furniture replacement."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Kata Beach good for families?",
+      "answer": "Yes, Kata Beach is one of Phuket's more family-friendly beaches, with a gently shelving bay and plenty of restaurants. Watch for red flags during the monsoon season (about May to October)."
+    },
+    {
+      "question": "What is the difference between Kata and Karon?",
+      "answer": "Kata is smaller with two bays and a compact town; Karon has a much longer beach and more large hotels. Our Kata vs Karon guide compares them in detail."
+    },
+    {
+      "question": "When is the best time to rent out a property in Kata?",
+      "answer": "Holiday demand is highest from about November to April. The monsoon months are quieter, although surfers visit Kata from about May to October."
+    },
+    {
+      "question": "How far is Kata from Phuket airport?",
+      "answer": "Our project data puts Kata projects about 47 km from the airport, usually around an hour by car."
+    },
+    {
+      "question": "Can you surf in Kata?",
+      "answer": "Yes, Kata is one of Phuket's main surf spots during the south-west monsoon, roughly May to October, with surf schools on the beach."
+    }
+  ],
+  "seoDescription": "Kata, Phuket: condos near Kata Beach and Kata Noi, a family-friendly holiday area. Area guide, advertised prices, rental demand and yield calculator."
 }

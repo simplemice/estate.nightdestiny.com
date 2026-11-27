@@ -23,7 +23,7 @@ function* strings(v) {
 }
 
 const refs = new Set();
-for (const f of walk(path.join(ROOT, 'content'))) for (const s of strings(JSON.parse(fs.readFileSync(f, 'utf8')))) if (IMG_RE.test(s)) refs.add(s);
+for (const f of ['content', 'locales'].flatMap((d) => [...walk(path.join(ROOT, d))])) for (const s of strings(JSON.parse(fs.readFileSync(f, 'utf8')))) if (IMG_RE.test(s)) refs.add(s);
 
 let made = 0;
 const dims = {};

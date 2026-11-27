@@ -1,8 +1,121 @@
 {
+  "name": "Bang Tao",
+  "intro": "Bang Tao is a long west-coast beach and one of Phuket's fastest-growing residential areas. It combines beach clubs, international restaurants and the Boat Avenue and Porto de Phuket shopping areas with a large international community.",
   "overview": "Bang Tao is a long beach on Phuket's west coast, in the Choeng Thale (Cherng Talay) subdistrict of Thalang district. Laguna Phuket, the resort community on Bang Tao Bay, has its own page in this catalogue; projects that sit inside Laguna Phuket are listed there rather than here, so no project is counted twice.\nThe projects on this page are in the Bang Tao beach area itself and span the whole range: affordable condominiums from about THB 2.9 million (The Title Sierra, The Zero Bang Tao, The Modeva), completed and pre-sale condominiums such as The Title Legendary and Heritage and PURITA, and high-end pool-villa communities (Mono Oxygen, Redwood Lakeside, Sri Panwa Lagoon). Bang Tao Beach is 1.9 km from The Zero Bang Tao in the project data, and Boat Avenue, Porto de Phuket and international schools appear in the nearby places below; the airport is about 23 km (39 minutes) away.",
   "nearbyAreas": [
     "laguna",
     "layan",
     "cherng-talay"
-  ]
+  ],
+  "suitableFor": [
+    "Families and permanent residents",
+    "Second-home owners",
+    "Investors targeting both holiday and long-term tenants",
+    "Remote workers"
+  ],
+  "highlights": [
+    "One of Phuket's longest beaches",
+    "Boat Avenue, Porto de Phuket and beach clubs",
+    "International schools and clinics nearby",
+    "Next to the Laguna Phuket resort area"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/bang-tao/bang-tao-beach.jpg",
+      "alt": "Sun loungers on Bang Tao Beach",
+      "author": "Raita Futo from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bang_Tao_Beach_(53667853591).jpg"
+    },
+    {
+      "image": "/assets/images/areas/bang-tao/bang-tao-beach-boat.jpg",
+      "alt": "Old boat on the sand at Bang Tao Beach",
+      "author": "Raita Futo from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bang_Tao_Beach_(53668069638).jpg"
+    },
+    {
+      "image": "/assets/images/areas/bang-tao/bang-tao-sunset.jpg",
+      "alt": "Sunset over the rocks at Bang Tao Beach",
+      "author": "Anton Zelenov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Bang_Tao_beach_-_02.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.9919,
+    "lng": 98.2979,
+    "zoom": 14
+  },
+  "lifestyle": "Bang Tao has a cosmopolitan feel, with cafes, restaurants, gyms, co-working spaces and international supermarkets. It is busy in high season but remains more residential than Patong.",
+  "beaches": "Bang Tao Beach runs for several kilometres, with resorts, beach clubs and quieter sections. It is calm for swimming in the dry season and gets waves during the monsoon.",
+  "rentalMarket": "Bang Tao has both a strong holiday-rental market and solid long-term demand from families and remote workers. The amount of new supply is high, so differentiation matters.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Units within walking distance of the beach or Boat Avenue let best; high season is roughly November to April."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Steady demand from families with children at nearby international schools and from long-stay professionals."
+    },
+    {
+      "title": "Typical tenants",
+      "text": "Families, couples, remote workers and holidaymakers."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "One- and two-bedroom condos with resort facilities; three- and four-bedroom pool villas for families."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: demand from both tourists and residents. Limitations: many new condos compete for the same tenants; traffic on the main roads in high season."
+    }
+  ],
+  "investment": "Bang Tao is one of Phuket's main areas for new-build condos and villas. Buyers like the mix of beach lifestyle, schools and services; the key question is how a specific project stands out from nearby supply.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Buyers of off-plan condos, families buying villas, holiday-home owners who rent out part of the year."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Large pipeline of new projects, construction delays and differences in management quality between buildings."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, sinking fund, management commission, utilities between tenants and maintenance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Bang Tao a good area to buy property in Phuket?",
+      "answer": "Bang Tao is popular with families and investors because of its beach, international community, schools and services. Supply of new projects is high, so compare location, developer and management carefully."
+    },
+    {
+      "question": "How long is Bang Tao Beach?",
+      "answer": "Bang Tao Beach is one of the longest on Phuket's west coast, several kilometres from Surin to Layan."
+    },
+    {
+      "question": "What is the difference between Bang Tao and Laguna?",
+      "answer": "Laguna Phuket is a gated integrated resort with hotels, golf and lagoons inside the wider Bang Tao area. Our Bang Tao vs Laguna guide explains it."
+    },
+    {
+      "question": "How far is Bang Tao from the airport?",
+      "answer": "Our project data puts Bang Tao projects about 16 to 23 km from Phuket International Airport, usually 25 to 35 minutes by car."
+    },
+    {
+      "question": "Are there international schools near Bang Tao?",
+      "answer": "Yes, several international schools and kindergartens are within a short drive; our project pages list distances to specific schools."
+    },
+    {
+      "question": "Is there long-term rental demand in Bang Tao?",
+      "answer": "Yes, from families, remote workers and long-stay residents, as well as seasonal holiday demand. Actual results depend on the unit, price and management."
+    }
+  ],
+  "seoDescription": "Property for sale in Bang Tao, Phuket: condos and villas near the beach, Boat Avenue and Laguna. Area guide, prices, rental demand and yield calculator."
 }

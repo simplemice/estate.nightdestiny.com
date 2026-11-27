@@ -263,17 +263,81 @@ content:
       - { name: coordinates, label: Map coordinates, component: coordinates }
 
   - name: locations
-    label: Location pages (SEO text)
+    label: Area pages (Phuket locations)
     type: collection
-    path: content/locations
+    path: locales/en/locations
     format: json
     subfolders: false
     filename: "{primary}.json"
+    description: "English content of the area pages (/locations/<file name>/). The file name must match the URL slug, e.g. bang-tao. Projects are NOT listed here: a project appears on an area page automatically from its own Location / area field. Statistics (number of projects, prices, price per m2, nearest beach, airport distance) are calculated from the project data on every build. Russian pages keep their own texts in locales/ru/locations and inherit photos, map and calculator defaults from this file."
     view:
       fields: [ name ]
       primary: name
     fields:
-      - { name: name, label: "Location name (for your reference; filename must match the URL slug, e.g. bang-tao)", type: string }
-      - { name: overview, label: "Area overview (verified, original text)", type: text }
-      - { name: market, label: "Property market overview (verified)", type: text }
-      - { name: transport, label: "Transport and airport access (verified)", type: text }
+      - { name: name, label: "Area name (for your reference)", type: string }
+      - { name: seoTitle, label: "SEO title (optional; leave empty for the automatic title)", type: string }
+      - { name: seoDescription, label: "Meta description (optional, about 140-160 characters; empty = automatic)", type: text }
+      - { name: intro, label: "Introduction (2-4 sentences: character, atmosphere, who it suits)", type: text }
+      - { name: suitableFor, label: "Suits (short labels, e.g. Families, Investors)", type: string, list: true }
+      - name: photos
+        label: "Area photos (2-3 authentic photos of the area, with credit)"
+        type: object
+        list: { max: 3, collapsible: { collapsed: true, summary: "{alt}" } }
+        fields:
+          - { name: image, label: Photo, type: image, options: { path: assets/images/areas, extensions: [jpg, jpeg, png, webp] } }
+          - { name: alt, label: "Alt text (describe the photo)", type: string, required: true }
+          - { name: author, label: "Photographer / author (credit shown on the page)", type: string }
+          - { name: license, label: "Licence (e.g. CC BY-SA 4.0); only use photos you may publish", type: string }
+          - { name: licenseUrl, label: Licence link, type: string, pattern: { regex: "^$|^https?://", message: "Must be a link" } }
+          - { name: sourceUrl, label: Source page of the photo, type: string, pattern: { regex: "^$|^https?://", message: "Must be a link" } }
+      - name: stats
+        label: "Extra quick facts (optional; shown after the automatic ones, max 6 facts in total). Only verified facts."
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{label}: {value}" } }
+        fields:
+          - { name: label, label: "Label (e.g. Phuket Town)", type: string }
+          - { name: value, label: "Value (e.g. 35 min by car)", type: string }
+          - { name: note, label: "Note / source (e.g. Google Maps, typical traffic)", type: string }
+      - { name: overview, label: "About the area (verified, original text)", type: text }
+      - { name: highlights, label: "Main advantages (short bullet points)", type: string, list: true }
+      - { name: nearbyAreas, label: "Neighbouring area pages (file names, e.g. kata)", type: string, list: true }
+      - name: map
+        label: "Map centre of the area"
+        type: object
+        fields:
+          - { name: lat, label: Latitude, type: number, description: "e.g. 7.7703" }
+          - { name: lng, label: Longitude, type: number, description: "e.g. 98.3193" }
+          - { name: zoom, label: "Zoom for the 'larger map' link (12-16)", type: number, default: 14 }
+      - { name: lifestyle, label: "Lifestyle and local amenities", type: text }
+      - { name: beaches, label: "Beaches and surroundings", type: text }
+      - { name: rentalMarket, label: "Rental demand summary (no promised income or occupancy)", type: text }
+      - name: rentalDetails
+        label: "Rental market details (expandable items)"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: title, label: "Title (e.g. Long-term rentals)", type: string }
+          - { name: text, label: Text, type: text }
+      - { name: investment, label: "Investment information (neutral, no return promises)", type: text }
+      - name: investmentDetails
+        label: "Investment details (expandable items: profiles, risks, costs)"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{title}" } }
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - name: calculator
+        label: "Calculator example values (optional; shown as editable assumptions)"
+        type: object
+        fields:
+          - { name: price, label: "Purchase price (THB)", type: number }
+          - { name: rent, label: "Monthly rent (THB)", type: number }
+          - { name: mgmt, label: "Management commission (%)", type: number }
+          - { name: other, label: "Other annual expenses (THB)", type: number }
+      - name: faq
+        label: "FAQ for this area (5-8 questions; a price question from the project data is added automatically)"
+        type: object
+        list: { max: 8, collapsible: { collapsed: true, summary: "{question}" } }
+        fields:
+          - { name: question, label: Question, type: string, required: true }
+          - { name: answer, label: Answer, type: text, required: true }

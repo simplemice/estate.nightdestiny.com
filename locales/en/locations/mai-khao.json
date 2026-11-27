@@ -1,6 +1,110 @@
 {
+  "name": "Mai Khao",
+  "intro": "Mai Khao is Phuket's longest and most natural beach, stretching along the north-west coast inside Sirinat National Park. It is home to large resorts and a few residential projects, with the airport at its southern end.",
   "overview": "Mai Khao is the northernmost of the areas in our catalogue, on Phuket's north-west coast in Thalang district, beyond Nai Yang. We list two projects here: a condominium (Maviston Mai Khao) and a private pool villa development near Mai Khao Beach.\nOur project data has no distances for this area yet, so ask us for travel times to the beach and the airport.",
   "nearbyAreas": [
     "naiyang"
-  ]
+  ],
+  "suitableFor": [
+    "Buyers who want privacy and nature",
+    "Resort-managed holiday homes",
+    "Travellers who value airport access"
+  ],
+  "highlights": [
+    "Phuket's longest beach",
+    "Protected sea-turtle nesting area",
+    "Close to the airport",
+    "Resort-style, very quiet surroundings"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/mai-khao/mai-khao-beach.jpg",
+      "alt": "The long, quiet sand of Mai Khao Beach",
+      "author": "Xatab86",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mai_Khao.jpg"
+    },
+    {
+      "image": "/assets/images/areas/mai-khao/mai-khao-plane.jpg",
+      "alt": "A plane landing over Mai Khao Beach",
+      "author": "Ben Reeves from Phuket, Thailand",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mai_Khao_Banner.jpg"
+    },
+    {
+      "image": "/assets/images/areas/mai-khao/mai-khao-coast.jpg",
+      "alt": "Mai Khao coastline",
+      "author": "::::=UT=::::",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unnamed_Road,_Tambon_Mai_Khao,_Amphoe_Thalang,_Chang_Wat_Phuket_83110,_Thailand_-_panoramio.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.1456,
+    "lng": 98.2972,
+    "zoom": 13
+  },
+  "lifestyle": "Mai Khao is very quiet, with resort restaurants, a small local village and the Turtle Village shopping area. Most daily needs are a drive away.",
+  "beaches": "Mai Khao Beach runs for many kilometres with few buildings. Its southern end is famous for planes landing just overhead. The beach is a nesting site for sea turtles, and waves can be strong during the monsoon.",
+  "rentalMarket": "Rentals in Mai Khao are mostly resort-managed holiday stays. The market is small and focused on guests who want a quiet, natural beach.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Resort and condotel units let to holiday guests, mainly in the dry season."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Limited, because daily amenities are far away."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Resort-managed condos and villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: unique, uncrowded beach. Limitations: few services, distance to the rest of the island and a small tenant pool."
+    }
+  ],
+  "investment": "Mai Khao suits buyers who prioritise nature and privacy, often with resort management. Rental income is typically seasonal and depends on the operator.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Holiday-home owners using resort management."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Small market, reliance on the resort operator and national park restrictions."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Resort fees, management commission and maintenance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Mai Khao the longest beach in Phuket?",
+      "answer": "Yes, Mai Khao is generally described as Phuket's longest beach, running along the north-west coast inside Sirinat National Park."
+    },
+    {
+      "question": "Can you watch planes at Mai Khao Beach?",
+      "answer": "Yes, the southern end of the beach is close to the runway and planes land just overhead."
+    },
+    {
+      "question": "Is Mai Khao good for swimming?",
+      "answer": "In the dry season, yes; from about May to October the waves and currents can be strong."
+    },
+    {
+      "question": "How far is Mai Khao from the airport?",
+      "answer": "Our project data gives about 10 to 17 km to Phuket International Airport."
+    },
+    {
+      "question": "Are there shops and restaurants in Mai Khao?",
+      "answer": "There are resort restaurants and the Turtle Village shopping area, but larger amenities are a drive away."
+    }
+  ],
+  "seoDescription": "Mai Khao, Phuket: resort property on the island's longest beach, close to the airport. Area guide, advertised prices, rental market and FAQ."
 }

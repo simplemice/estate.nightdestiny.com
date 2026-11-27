@@ -1,6 +1,107 @@
 {
+  "name": "Kamala",
+  "intro": "Kamala is a mid-sized beach village between Patong and Surin, quieter than Patong but with its own shops, restaurants and the Phuket FantaSea show park. The hills above the bay hold many of Phuket's luxury villas.",
   "overview": "Kamala is a west-coast area in Kathu district, between Surin and Patong. Kamala Beach, a hospital and several shops are listed in the project data; one project here is about 300 m from the beach according to its description.\nThe catalogue holds villas and condominiums in Kamala, including an Italian-coastal-style condominium with a shuttle to the beach and three condominiums by The Title (Rhom Bho Property): Vivana, Coralina Kamala and the newly announced Darayana Kamala, whose units, prices and completion date the developer has not yet published.",
   "nearbyAreas": [
     "patong"
-  ]
+  ],
+  "suitableFor": [
+    "Families and couples who want a calmer beach",
+    "Second-home owners",
+    "Luxury villa buyers",
+    "Holiday rental investors"
+  ],
+  "highlights": [
+    "Kamala Beach with a relaxed village behind it",
+    "Hillside luxury villas along the coast road",
+    "Phuket FantaSea entertainment park",
+    "Patong about 15 minutes away"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/kamala/kamala-coast-aerial.jpg",
+      "alt": "Kamala coast and headland from the air",
+      "author": "Roma Neus",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket,_Kamala_2014_febr_-_panoramio_(2).jpg"
+    },
+    {
+      "image": "/assets/images/areas/kamala/kamala-beach.jpg",
+      "alt": "Kamala Beach",
+      "author": "govertvissers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamala_beach.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.9501,
+    "lng": 98.279,
+    "zoom": 14
+  },
+  "lifestyle": "Kamala has a local village centre, a fresh market, beach restaurants and beach clubs. It is quieter than Patong at night, with easy access to Patong's shopping and to the Surin and Bang Tao beach clubs.",
+  "beaches": "Kamala Beach is a long, gently curving bay that is good for swimming in the dry season. Small coves lie along the coast road towards Surin.",
+  "rentalMarket": "Kamala combines holiday rentals with a growing long-stay market. Holiday demand is seasonal but steady thanks to the beach and the village atmosphere; luxury villas let to groups and families.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Condos near the beach and sea-view villas perform best. Demand is highest from about November to April."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Moderate demand from families and long-stay visitors who want a quieter base than Patong."
+    },
+    {
+      "title": "Typical tenants",
+      "text": "Families, couples, groups renting villas, some long-stay residents."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Resort condos within walking distance of the beach; sea-view pool villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: attractive beach and village with good access to Patong and Surin. Limitations: seasonality and hillside access on some villa estates."
+    }
+  ],
+  "investment": "Kamala is chosen by buyers who want a beach village with a quieter rhythm and strong lifestyle appeal. Luxury villas on the hills and condos near the beach are the main property types.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Holiday-home owners, luxury villa buyers, buy-to-let investors in resort condos."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Seasonal demand, the quality of villa management and steep access roads on some hillside estates."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, villa maintenance, pool and garden care, management commission and insurance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Kamala quieter than Patong?",
+      "answer": "Yes. Kamala has restaurants and beach clubs, but its nights are much calmer than Patong, which is about 15 minutes away by car."
+    },
+    {
+      "question": "Is Kamala Beach good for swimming?",
+      "answer": "Kamala Beach is good for swimming from about November to April; during the monsoon months check the flags for waves and currents."
+    },
+    {
+      "question": "How far is Kamala from Phuket airport?",
+      "answer": "Our project data puts Kamala projects about 24 to 28 km from Phuket International Airport, typically 35 to 45 minutes by car."
+    },
+    {
+      "question": "What is there to do in Kamala?",
+      "answer": "Beach life, local markets and restaurants, beach clubs, and the Phuket FantaSea cultural show park."
+    },
+    {
+      "question": "Are there luxury villas in Kamala?",
+      "answer": "Yes, the hills between Kamala and Surin are one of Phuket's main locations for luxury sea-view villas."
+    }
+  ],
+  "seoDescription": "Kamala, Phuket: condos near Kamala Beach and luxury sea-view villas between Patong and Surin. Area guide, prices, rental demand and calculator."
 }

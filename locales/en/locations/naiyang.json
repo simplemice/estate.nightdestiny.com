@@ -1,7 +1,111 @@
 {
+  "name": "Naiyang",
+  "intro": "Nai Yang is a relaxed beach village inside Sirinat National Park, a few minutes from Phuket International Airport. It is known for its casuarina-lined beach, beachfront seafood restaurants and planes landing overhead.",
   "overview": "Nai Yang is in the north-west of Phuket, in Thalang district, next to Nai Yang Beach and Sirinat National Park. The airport is only a short drive away: the project data gives about 2 km (7 minutes) for Botanica Skyport and descriptions of the condominiums put it at five to ten minutes, which is the main practical difference from the southern and central west-coast areas.\nMost projects here are condominiums, mainly from Rhom Bho Property (The Title) plus The Balcony, The Olive and one project by The Zero, and several are pre-sale or under construction with units listed under the foreign quota. Botanica Skyport is a pool-villa project for buyers who want a house near the airport; the area is also close to Blue Canyon Golf Club and Mai Khao.",
   "nearbyAreas": [
     "mai-khao",
     "layan"
-  ]
+  ],
+  "suitableFor": [
+    "Frequent travellers who value airport access",
+    "Buyers who want a quiet, natural beach",
+    "Holiday rental investors"
+  ],
+  "highlights": [
+    "About 2 km from the airport",
+    "National park beach with shade trees",
+    "Low-rise, village atmosphere",
+    "Nai Thon and Mai Khao beaches nearby"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/naiyang/nai-yang-longtails.jpg",
+      "alt": "Longtail boats at anchor off Nai Yang Beach",
+      "author": "Wolfgang Holzem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nai_Yang_Beach_(37).jpg"
+    },
+    {
+      "image": "/assets/images/areas/naiyang/nai-yang-beach.jpg",
+      "alt": "Nai Yang Beach lined with casuarina trees",
+      "author": "Wolfgang Holzem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nai_Yang_Beach_(29).jpg"
+    },
+    {
+      "image": "/assets/images/areas/naiyang/nai-yang-boat.jpg",
+      "alt": "Longtail boat on the shore at Nai Yang",
+      "author": "Wolfgang Holzem",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nai_Yang_Beach_(36).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.0904,
+    "lng": 98.2977,
+    "zoom": 14
+  },
+  "lifestyle": "Nai Yang has beach restaurants, small shops and a local market. It is calm in the evenings; larger shopping centres are a drive away.",
+  "beaches": "Nai Yang Beach is protected by an offshore reef, which makes it calmer than many west-coast beaches. Casuarina trees give shade, and the national park limits large-scale development along the sand.",
+  "rentalMarket": "Nai Yang rentals benefit from airport proximity: short stays at the start or end of a holiday and guests who want a quiet beach. Long-term demand comes from airport and hospitality staff.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Demand from travellers who want a quiet beach near the airport; strongest in the dry season."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Airport and hotel staff and long-stay visitors."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Condos with resort facilities and small villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: unique airport access and a protected beach. Limitations: aircraft noise in some locations and fewer amenities."
+    }
+  ],
+  "investment": "Nai Yang appeals to buyers who value convenience and calm over nightlife. Check flight paths and noise for specific projects before buying.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Holiday-home owners and buyers of condos for short stays."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Aircraft noise, national park building rules and seasonal demand."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, sinking fund, management commission and maintenance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "How close is Nai Yang to Phuket airport?",
+      "answer": "Our project data puts Nai Yang projects about 2 km from Phuket International Airport, often under 10 minutes by car."
+    },
+    {
+      "question": "Is there aircraft noise in Nai Yang?",
+      "answer": "Planes approach over the coast here, so noise depends on the exact location. Visit the site at different times before buying."
+    },
+    {
+      "question": "Is Nai Yang Beach good for swimming?",
+      "answer": "Yes, the offshore reef keeps it calmer than many west-coast beaches, especially in the dry season."
+    },
+    {
+      "question": "Is Nai Yang part of a national park?",
+      "answer": "Nai Yang Beach is within Sirinat National Park, which limits development along the beach."
+    },
+    {
+      "question": "Is Nai Yang a good place to live?",
+      "answer": "It suits people who want a quiet beach village and quick airport access; larger shopping and nightlife areas are further south."
+    }
+  ],
+  "seoDescription": "Nai Yang, Phuket: condos by a reef-protected national park beach about 2 km from the airport. Area guide, prices, rental demand and calculator."
 }

@@ -1,7 +1,111 @@
 {
+  "name": "Thalang",
+  "intro": "Thalang is Phuket's historic heartland in the north of the island, with the Heroines Monument, the Thalang National Museum and temples such as Wat Phra Thong. Its quiet inland villages and new villa estates are close to the airport and the north-west beaches.",
   "overview": "Thalang is the district that covers most of northern Phuket, including Cherng Talay, Si Sunthon, Nai Yang and Mai Khao. This page lists projects whose records give Thalang (or the Thep Krasattri and Pru Jampa subdistricts) as the location without a more specific beach area.\nMost are villa developments set inland - The Harmony by Wallaya, MONO Champaca, Sinara Pool Villas, The Manour and Botanica Verdant - plus the Kahli Terraces townhouses. Botanica Verdant is described by its developer as being in Pru Jampa, about 13 minutes from the airport, 12 minutes from Nai Yang Beach and 10 minutes from Thalang Hospital; other projects' nearby-places data lists Bang Tao and Layan beaches, UWC and HEI schools and Thalang Hospital.",
   "nearbyAreas": [
     "si-sunthon",
     "cherng-talay"
-  ]
+  ],
+  "suitableFor": [
+    "Families and permanent residents",
+    "Buyers looking for larger villas at lower prices",
+    "People who need easy airport access"
+  ],
+  "highlights": [
+    "Historic sites and local Thai towns",
+    "Close to the airport and north-west beaches",
+    "Khao Phra Thaeo forest and waterfalls",
+    "Large plots and new villa estates"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/thalang/wat-phra-thong.jpg",
+      "alt": "Wat Phra Thong temple in Thalang",
+      "author": "กสิณธร ราชโอรส",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(33).jpg"
+    },
+    {
+      "image": "/assets/images/areas/thalang/wat-phra-thong-hall.jpg",
+      "alt": "Ordination hall at Wat Phra Thong, Thalang",
+      "author": "กสิณธร ราชโอรส",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:(2024)_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%AD%E0%B8%87_%E0%B8%AD.%E0%B8%96%E0%B8%A5%E0%B8%B2%E0%B8%87_%E0%B8%88.%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%95_(2).jpg"
+    },
+    {
+      "image": "/assets/images/areas/thalang/thalang-national-museum.jpg",
+      "alt": "Thalang National Museum",
+      "author": "Roma Neus",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thalang_National_Museum_2010_-_panoramio_(1).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.0294,
+    "lng": 98.3332,
+    "zoom": 13
+  },
+  "lifestyle": "Thalang is local and green, with fresh markets, Thai restaurants, supermarkets and international schools in the wider area. It feels more like everyday Thailand than the resort towns.",
+  "beaches": "Thalang district covers several beaches, including Nai Thon, Nai Yang and Layan. Projects in our catalogue are mostly inland, typically 5 to 10 km from the nearest beach.",
+  "rentalMarket": "Thalang is mainly a long-term rental market. Tenants include families, people working at the airport and in the north of the island, and residents who want more space for their budget.",
+  "rentalDetails": [
+    {
+      "title": "Long-term rentals",
+      "text": "Families and workers look for practical villas with gardens and parking."
+    },
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Possible for pool villas, but demand is lower than in beach towns."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Three- and four-bedroom pool villas and family homes."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: space and value, near the airport. Limitations: you need a car, and holiday demand is limited."
+    }
+  ],
+  "investment": "Thalang is chosen for larger villas, land and value. It suits owner-occupiers and long-term letting more than holiday rentals.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Families buying a home, villa buyers who rent long term."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Lower holiday demand and many villa estates being built; check the developer and land title."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Villa maintenance, pool and garden care, insurance and estate fees."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Thalang in Phuket?",
+      "answer": "Thalang is the northern district of Phuket, covering the area around the airport, the historic town of Thalang and the north-west beaches."
+    },
+    {
+      "question": "Is Thalang good for families?",
+      "answer": "Yes, many families choose Thalang for larger homes, local markets and quick access to schools, the airport and the beaches."
+    },
+    {
+      "question": "How far is Thalang from the beach?",
+      "answer": "Projects in our catalogue are mostly inland, typically 5 to 10 km from beaches such as Nai Thon, Nai Yang or Bang Tao."
+    },
+    {
+      "question": "How far is Thalang from Phuket airport?",
+      "answer": "Our project data gives roughly 7 to 26 km depending on the location within the district."
+    },
+    {
+      "question": "What is there to see in Thalang?",
+      "answer": "The Heroines Monument, the Thalang National Museum, Wat Phra Thong and the Khao Phra Thaeo forest with its waterfalls."
+    }
+  ],
+  "seoDescription": "Thalang, Phuket: family villas in the historic north, close to the airport and north-west beaches. Area guide, prices, rental market and FAQ."
 }

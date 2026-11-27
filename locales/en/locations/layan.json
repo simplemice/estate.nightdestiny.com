@@ -1,7 +1,112 @@
 {
+  "name": "Layan",
+  "intro": "Layan is a quiet beach at the northern end of Bang Tao Bay, bordering Sirinat National Park. It offers a more natural, low-density setting while staying within minutes of Laguna, Bang Tao and the airport road.",
   "overview": "Layan is the beach area on Phuket's west coast north of Bang Tao, in Choeng Thale, Thalang district; Layan Beach borders a national park. Projects listed here are described as located on or very close to Layan Beach or Layan Bay: pool-villa communities (Aileen Villas Layan, Pavara Vhana Collection), the branded beachfront condominium Kiara Reserve Residences next to the Anantara Layan resort, and the sea-view Ayana Heights, about 1.4 km (2 minutes by car) from Layan Beach in the project data.\nThis is the premium end of our catalogue, with advertised starting prices from about THB 4.5 million for Ayana Heights up to THB 98 million. Projects that are only near Layan Beach, such as Layan Green Park, are listed under their primary location (Cherng Talay) and mention Layan as a nearby area.",
   "nearbyAreas": [
     "bang-tao",
     "naiyang"
-  ]
+  ],
+  "suitableFor": [
+    "Buyers who want a quieter beach",
+    "Families and permanent residents",
+    "Luxury villa buyers",
+    "Holiday-home owners"
+  ],
+  "highlights": [
+    "Unspoilt beach next to a national park",
+    "Low-density surroundings",
+    "Close to Bang Tao, Laguna and the airport",
+    "Mix of resort condos and luxury villas"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/layan/layan-beach-horses.jpg",
+      "alt": "Horse riding on Layan Beach",
+      "author": "Maleewan1wanpen2thai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%99.jpg"
+    },
+    {
+      "image": "/assets/images/areas/layan/layan-beach-dusk.jpg",
+      "alt": "Layan Beach at dusk",
+      "author": "Maleewan1wanpen2thai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B8%9E%E0%B8%A5%E0%B8%9A%E0%B8%84%E0%B9%88%E0%B8%B3.jpg"
+    },
+    {
+      "image": "/assets/images/areas/layan/layan-beach-vines.jpg",
+      "alt": "Beach morning glory on the dunes at Layan Beach",
+      "author": "Maleewan1wanpen2thai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%95%E0%B8%A2%E0%B9%8C%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.0346,
+    "lng": 98.2843,
+    "zoom": 14
+  },
+  "lifestyle": "Layan is calm, with a few beach restaurants and resorts. Daily shopping and dining are in nearby Bang Tao, Laguna and Boat Avenue.",
+  "beaches": "Layan Beach is a peaceful, partly tree-lined beach next to Sirinat National Park, known for sunsets and horse riding on the sand. It is good for swimming in the dry season.",
+  "rentalMarket": "Layan appeals to holiday guests who want quiet surroundings and to long-stay residents who still want Bang Tao services nearby. It is a smaller, more niche market than Bang Tao.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Guests looking for nature and calm; demand follows the dry season."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Families and professionals who want space and quiet within reach of schools and shops."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Resort condos with good facilities; pool villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: natural setting and limited development near the national park. Limitations: fewer local amenities on foot; you need a car or scooter."
+    }
+  ],
+  "investment": "Buyers choose Layan for its quiet, natural setting close to the services of Bang Tao. New large-scale projects are adding supply, so look at location within Layan and the distance to the beach.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Lifestyle buyers, villa owners and condo buyers in resort-style projects."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Large new projects competing for tenants; long construction schedules for phased developments."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, sinking fund, management, maintenance and insurance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Layan Beach?",
+      "answer": "Layan Beach is at the northern end of Bang Tao Bay on Phuket's west coast, next to Sirinat National Park."
+    },
+    {
+      "question": "Is Layan quieter than Bang Tao?",
+      "answer": "Yes. Layan has far fewer bars and restaurants on the beach, while Bang Tao's services are a few minutes away by car."
+    },
+    {
+      "question": "How far is Layan from Phuket airport?",
+      "answer": "Our project data gives about 15 km to Phuket International Airport, usually 20 to 25 minutes by car."
+    },
+    {
+      "question": "Is Layan good for families?",
+      "answer": "Layan suits families who want a calm beach and space, with schools and shopping in nearby Bang Tao and Laguna."
+    },
+    {
+      "question": "Can you swim at Layan Beach?",
+      "answer": "Yes, in the dry season. As elsewhere on the west coast, check the flags from about May to October."
+    }
+  ],
+  "seoDescription": "Layan, Phuket: condos and villas by a quiet beach next to Sirinat National Park, near Bang Tao. Area guide, prices, rental demand and calculator."
 }

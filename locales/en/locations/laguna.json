@@ -1,7 +1,116 @@
 {
+  "name": "Laguna",
+  "intro": "Laguna Phuket is an integrated resort community built around lagoons behind Bang Tao Beach, with several hotels, an 18-hole golf course, shops and restaurants. Residences here benefit from resort-style management and services.",
   "overview": "Laguna Phuket is a large integrated resort community on Bang Tao Bay, in Choeng Thale, Thalang district. According to Banyan Group's own descriptions it spans more than 1,000 acres of parkland, lagoons and about five kilometres of coastline, with a golf course, spas, restaurants and a beach club.\nThis page lists projects located inside Laguna Phuket or in its immediate residential estates such as Laguna Lakelands and Laguna Park. Because Laguna sits within the wider Bang Tao area, each project appears on one of the two pages only.",
   "nearbyAreas": [
     "bang-tao",
     "cherng-talay"
-  ]
+  ],
+  "suitableFor": [
+    "Second-home owners who want managed property",
+    "Golfers",
+    "Families wanting a secure, landscaped setting",
+    "Investors preferring branded or resort-managed rentals"
+  ],
+  "highlights": [
+    "Lagoons, landscaped grounds and a resort atmosphere",
+    "Laguna Golf Phuket 18-hole course",
+    "Branded residences and resort management",
+    "Walking or shuttle access to Bang Tao Beach"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/laguna/laguna-golf.jpg",
+      "alt": "Laguna Phuket golf course with the hills behind",
+      "author": "Anton Zelenov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Laguna_Golf_club_01.jpg"
+    },
+    {
+      "image": "/assets/images/areas/laguna/laguna-golf-lagoon.jpg",
+      "alt": "Lagoon on the Laguna Phuket golf course",
+      "author": "Anton Zelenov",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_Laguna_Golf_club_02.jpg"
+    },
+    {
+      "image": "/assets/images/areas/laguna/laguna-lagoon-resort.jpg",
+      "alt": "Resort buildings on a Laguna Phuket lagoon at dusk",
+      "author": "Banyantree2014",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angsana_Laguna_Phuket.jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 8.0079,
+    "lng": 98.2996,
+    "zoom": 14
+  },
+  "lifestyle": "Life in Laguna centres on the resort: golf, spas, restaurants, a shuttle around the lagoons and Boat Avenue just outside the main gate. It is calm, green and well maintained.",
+  "beaches": "Laguna faces Bang Tao Beach, with beach clubs and hotel restaurants along the sand. The lagoons inside the resort are used for boat rides and walks rather than swimming.",
+  "rentalMarket": "Laguna's rental market is closely tied to its hotels and resort brand. Many residences are rented through managed programmes, attracting families and couples who want resort services.",
+  "rentalDetails": [
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Guests are drawn by the resort facilities and brands; demand follows the high season."
+    },
+    {
+      "title": "Long-term rentals",
+      "text": "Families and professionals who want a secure, green setting close to schools and Bang Tao services."
+    },
+    {
+      "title": "Rental programmes",
+      "text": "Some projects offer hotel or managed rental programmes; read the terms carefully and do not treat advertised returns as market results."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Resort condos, townhouses and branded villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: professional management and a strong brand. Limitations: higher prices and fees than nearby non-resort areas."
+    }
+  ],
+  "investment": "Buyers choose Laguna for managed, low-effort ownership in a well-known resort setting. Prices and fees are higher than in surrounding areas, and returns depend on the rental programme and costs.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Holiday-home owners who want professional management; branded residence buyers."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Programme fees and owner-use restrictions; read the management agreement before buying."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Higher common fees, resort charges, management commission and maintenance."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Laguna Phuket?",
+      "answer": "Laguna Phuket is an integrated resort on the west coast with several hotels, villas, residences, an 18-hole golf course and lagoons behind Bang Tao Beach."
+    },
+    {
+      "question": "Can foreigners buy property in Laguna Phuket?",
+      "answer": "Yes, subject to Thai rules: condo units within the foreign quota can be freehold, while villas are usually leasehold. Confirm the title for each unit."
+    },
+    {
+      "question": "Is Laguna close to the beach?",
+      "answer": "Laguna borders Bang Tao Beach, and the resort shuttle and walkways connect the residences to the sand and Boat Avenue."
+    },
+    {
+      "question": "How far is Laguna from Phuket airport?",
+      "answer": "Our project data gives about 12 to 17 km to the airport, usually around 25 minutes by car."
+    },
+    {
+      "question": "Do Laguna properties have rental programmes?",
+      "answer": "Some projects offer managed or hotel rental programmes. Terms vary, so read them carefully; advertised returns are not guaranteed market results."
+    }
+  ],
+  "seoDescription": "Laguna Phuket: resort condos, townhouses and branded homes by Bang Tao Beach and the golf course. Area guide, prices, rental programmes and FAQ."
 }

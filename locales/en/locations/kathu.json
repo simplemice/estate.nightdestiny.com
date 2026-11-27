@@ -1,7 +1,112 @@
 {
+  "name": "Kathu",
+  "intro": "Kathu is an inland district between Patong and Phuket Town, set in green hills with golf courses and the Kathu waterfall. It offers lower prices than the beach towns while keeping Patong just over the hill.",
   "overview": "Kathu is the district of Phuket that lies between Patong on the west coast and Phuket Town, so it is inland rather than on the beach; Patong Beach is the nearest sea. We list two completed condominium projects here, Dcondo Reef Kathu and The Origin Kathu-Patong, with advertised starting prices from about THB 2.3 million.\nFor Dcondo Reef the developer's site gives about 2.6 km to the Phuket campus of Prince of Songkla University, about 3.5 km to Central Phuket, about 7 km to Patong Beach, and 5-10 minutes to Bangkok Hospital Phuket; the airport is about 32 km (40 minutes) by car. The Origin Kathu-Patong is placed by its developer between Patong Beach and the Old Town; its own distances are not published yet, so ask us for travel times.",
   "nearbyAreas": [
     "patong",
     "kamala"
-  ]
+  ],
+  "suitableFor": [
+    "People working in Patong or Phuket Town",
+    "Golfers",
+    "Long-term rental investors",
+    "Buyers on a smaller budget"
+  ],
+  "highlights": [
+    "Patong about 15 minutes over the hill",
+    "Loch Palm and Red Mountain golf courses",
+    "Kathu waterfall and green hills",
+    "Lower prices than beach areas"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/kathu/kathu-waterfall.jpg",
+      "alt": "Kathu Waterfall in the forest above Kathu",
+      "author": "Nicolas Voitot",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kathu_Waterfall_(60083096).jpeg"
+    },
+    {
+      "image": "/assets/images/areas/kathu/kathu-town-gate.jpg",
+      "alt": "The road into Kathu town",
+      "author": "กิตติ เลขะกุล",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kathu,_Kathu_District,_Phuket,_Thailand_-_panoramio_(4).jpg"
+    },
+    {
+      "image": "/assets/images/areas/kathu/kathu-town.jpg",
+      "alt": "Kathu town centre",
+      "author": "กิตติ เลขะกุล",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kathu,_Kathu_District,_Phuket,_Thailand_-_panoramio_(5).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.9099,
+    "lng": 98.3421,
+    "zoom": 14
+  },
+  "lifestyle": "Kathu is a local town with markets, schools and restaurants, plus golf courses and quiet residential lanes. Phuket Town and Patong are both within a short drive.",
+  "beaches": "Kathu has no beach of its own; Patong Beach is the nearest, about 7 km away according to our project data.",
+  "rentalMarket": "Kathu is mainly a long-term rental market. Tenants include people working in Patong and Phuket Town and families who prefer a quieter inland location.",
+  "rentalDetails": [
+    {
+      "title": "Long-term rentals",
+      "text": "Workers and families look for affordable condos and houses with easy access to Patong and Phuket Town."
+    },
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Limited, mainly golfers and budget travellers."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Affordable condos, townhouses and houses."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: affordable, central location. Limitations: no beach and little holiday demand."
+    }
+  ],
+  "investment": "Kathu attracts buyers looking for affordable property and long-term rental near Patong and Phuket Town.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Long-term rental investors and owner-occupiers."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "Lower rents than tourist areas; limited holiday demand."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Common fees, maintenance and periods between tenants."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Kathu in Phuket?",
+      "answer": "Kathu is an inland district between Patong and Phuket Town; Patong itself is part of Kathu district."
+    },
+    {
+      "question": "How far is Kathu from Patong Beach?",
+      "answer": "Our project data puts Kathu projects about 7 km from Patong Beach, roughly 15 minutes by car over the hill."
+    },
+    {
+      "question": "Are there golf courses in Kathu?",
+      "answer": "Yes, Loch Palm and Red Mountain golf courses are in Kathu."
+    },
+    {
+      "question": "Is Kathu a good place to rent out property?",
+      "answer": "Kathu is mainly a long-term rental market for people working in Patong and Phuket Town; holiday demand is limited."
+    },
+    {
+      "question": "How far is Kathu from the airport?",
+      "answer": "Our project data gives about 32 to 33 km to Phuket International Airport."
+    }
+  ],
+  "seoDescription": "Kathu, Phuket: affordable condos between Patong and Phuket Town, near golf courses and Kathu waterfall. Area guide, prices and rental market."
 }

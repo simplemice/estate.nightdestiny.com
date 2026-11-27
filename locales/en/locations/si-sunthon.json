@@ -1,7 +1,111 @@
 {
+  "name": "Si Sunthon",
+  "intro": "Si Sunthon is an inland subdistrict of Thalang between the airport road and Bang Tao, including the Bang Jo area. It is one of the main locations for new villa estates, offering more space for the money a short drive from the west-coast beaches.",
   "overview": "Si Sunthon is an inland subdistrict of Thalang district, north-east of the Cherng Talay beach area; the Bang Jo area belongs to it. Our projects here are mostly pool-villa communities, some on hillsides and lakeside plots, plus one condominium.\nSeveral listings are described as being a short drive from Bang Tao Beach, Boat Avenue and international schools such as HeadStart; the nearby-places section gives the distances reported for each named project.",
   "nearbyAreas": [
     "cherng-talay",
     "thalang"
-  ]
+  ],
+  "suitableFor": [
+    "Families who want a villa with a garden",
+    "Permanent residents",
+    "Long-term rental investors"
+  ],
+  "highlights": [
+    "Many new pool-villa estates",
+    "About 3-7 km from Bang Tao Beach",
+    "Local markets and supermarkets",
+    "Easy access to the airport road"
+  ],
+  "photos": [
+    {
+      "image": "/assets/images/areas/si-sunthon/si-sunthon-street.jpg",
+      "alt": "Shophouses on the main road in Si Sunthon",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Si_Sunthon,_Thalang_District,_Phuket,_Thailand_-_panoramio_(14).jpg"
+    },
+    {
+      "image": "/assets/images/areas/si-sunthon/si-sunthon-road.jpg",
+      "alt": "Everyday street scene in Si Sunthon",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Si_Sunthon,_Thalang_District,_Phuket,_Thailand_-_panoramio_(6).jpg"
+    },
+    {
+      "image": "/assets/images/areas/si-sunthon/si-sunthon-town.jpg",
+      "alt": "Local businesses along the road in Si Sunthon",
+      "author": "Максим Улитин",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Si_Sunthon,_Thalang_District,_Phuket,_Thailand_-_panoramio_(11).jpg"
+    }
+  ],
+  "stats": [],
+  "map": {
+    "lat": 7.9818,
+    "lng": 98.3515,
+    "zoom": 13
+  },
+  "lifestyle": "Si Sunthon is residential and local, with Thai markets, small shops and restaurants along the main roads, and Bang Tao's cafes and beach clubs a short drive away.",
+  "beaches": "The nearest beach is Bang Tao, which projects in our catalogue list at about 3 to 7 km.",
+  "rentalMarket": "Si Sunthon is mainly a long-term rental market for families and residents working in the north and west of Phuket. Pool villas can also attract holiday groups.",
+  "rentalDetails": [
+    {
+      "title": "Long-term rentals",
+      "text": "Families and professionals look for pool villas with gardens near schools and the Bang Tao amenities."
+    },
+    {
+      "title": "Short-term holiday rentals",
+      "text": "Possible for well-equipped pool villas, but location and quality matter."
+    },
+    {
+      "title": "Suitable property types",
+      "text": "Three- and four-bedroom pool villas."
+    },
+    {
+      "title": "Advantages and limitations",
+      "text": "Advantage: more villa for the budget. Limitations: inland location; many similar estates compete for tenants."
+    }
+  ],
+  "investment": "Si Sunthon is chosen for value and space close to Bang Tao. It suits family homes and long-term rentals more than nightly holiday letting.",
+  "investmentDetails": [
+    {
+      "title": "Typical investor profiles",
+      "text": "Families and long-term rental buyers of pool villas."
+    },
+    {
+      "title": "Risks to consider",
+      "text": "High competition between new villa estates; check build quality and land title."
+    },
+    {
+      "title": "Ownership costs",
+      "text": "Villa maintenance, pool and garden care, insurance and estate fees."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Si Sunthon?",
+      "answer": "Si Sunthon is an inland subdistrict of Thalang between the airport road and the west coast, including the Bang Jo area."
+    },
+    {
+      "question": "How far is Si Sunthon from Bang Tao Beach?",
+      "answer": "Projects in our catalogue list Bang Tao Beach about 3 to 7 km away."
+    },
+    {
+      "question": "Is Si Sunthon good for families?",
+      "answer": "Yes, it is popular with families looking for pool villas with gardens at prices below beachfront areas."
+    },
+    {
+      "question": "How far is Si Sunthon from the airport?",
+      "answer": "Our project data gives about 19 to 33 km depending on the location."
+    },
+    {
+      "question": "Can I rent out a villa in Si Sunthon?",
+      "answer": "Long-term rental to families is the main market; holiday letting is possible for well-equipped pool villas. Results depend on location, price and management."
+    }
+  ],
+  "seoDescription": "Si Sunthon, Phuket: pool villas a short drive from Bang Tao Beach, popular with families. Area guide with prices, rental market, FAQ and calculator."
 }
