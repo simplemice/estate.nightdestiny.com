@@ -90,13 +90,13 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/banyan-tree-grand-residences-seaview-residences",
-  "researchNotes": "Added 2026-11-27. The official project page mixes in text from Banyan Tree Beach Residences Sirena (separate project), so only the Jan 2025 news item and Keller Henson are used. Units: 24 (Keller Henson) vs 5 buildings x 8 units on thailand-property (that listing appears to be Sirena), not combined. Completion 2026 Q1 (Keller Henson, July 2026), not confirmed. Prices THB 82.2-137.4M (Keller Henson, July 2026). Ownership: foreign freehold quota (Keller Henson); a DDProperty resale listing says leasehold. Not the same as Banyan Tree Beach Residences Nerea or Varuna (already on the site). No images.",
+  "researchNotes": "Added 2026-11-27. The official project page mixes in text from Banyan Tree Beach Residences Sirena (separate project), so only the Jan 2025 news item and Keller Henson are used. Units: 24 (Keller Henson) vs 5 buildings x 8 units on thailand-property (that listing appears to be Sirena), not combined. Completion 2026 Q1 (Keller Henson, July 2026), not confirmed. Prices THB 82.2-137.4M (Keller Henson, July 2026). Ownership: foreign freehold quota (Keller Henson); a DDProperty resale listing says leasehold. Not the same as Banyan Tree Beach Residences Nerea or Varuna (already on the site). No images. 2026-11-27: 6 images and 0 plans added from https://www.banyangroupresidences.com/thailand/phuket/banyan-tree-grand-residences-seaview-residences (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
@@ -104,5 +104,22 @@
     "banyan-tree-beach-residences-nerea",
     "banyan-tree-beach-residences-varuna",
     "residences-at-garrya-phuket"
-  ]
+  ],
+  "cover": "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-beachfront.jpg",
+  "images": [
+    "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-rooftop-pool-sunset.jpg",
+    "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-rooftop-terrace.jpg",
+    "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-private-pool.jpg",
+    "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-living-area.jpg",
+    "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-bang-tao-aerial.jpg"
+  ],
+  "imageCaptions": [
+    "Seaview Residences by the beach, aerial render",
+    "Penthouse rooftop pool at sunset, render",
+    "Rooftop terrace and pool, render",
+    "Residence private pool and deck, render",
+    "Type A living area with sea view, render",
+    "Bang Tao Beach and Laguna Phuket, aerial render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

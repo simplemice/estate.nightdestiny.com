@@ -57,18 +57,33 @@
     }
   ],
   "priceSourceUrl": "https://papayaproperty.com/t-h-group-phuket-co-ltd/ayana-commons",
-  "researchNotes": "Added 2026-11-27 for the brief item \"AYANA Commons Phase 2\". No source found for a Phase 2 (Papaya pages, ayanaphuket.com navigation, web search); one page mentions \"two communities\", not phases. Page covers AYANA Commons as a whole. Status conflict: complex page \"under construction\", unit page \"completed\", so status on request. Developer from Papaya only. No distances published. Installment wording on Papaya is internally inconsistent (30% vs THB 2.632M = 70%), not used. No images.",
+  "researchNotes": "Added 2026-11-27 for the brief item \"AYANA Commons Phase 2\". No source found for a Phase 2 (Papaya pages, ayanaphuket.com navigation, web search); one page mentions \"two communities\", not phases. Page covers AYANA Commons as a whole. Status conflict: complex page \"under construction\", unit page \"completed\", so status on request. Developer from Papaya only. No distances published. Installment wording on Papaya is internally inconsistent (30% vs THB 2.632M = 70%), not used. No images. 2026-11-27: 4 images and 1 plans added from https://ayanaphuket.com/ayana-commons (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/ayana-commons/ayana-commons-site-layout.jpg"
+  ],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "ayana-heights",
     "ayana-soluna-villas"
-  ]
+  ],
+  "cover": "/assets/images/projects/ayana-commons/ayana-commons-building.jpg",
+  "images": [
+    "/assets/images/projects/ayana-commons/ayana-commons-living-area.jpg",
+    "/assets/images/projects/ayana-commons/ayana-commons-living-kitchen.jpg",
+    "/assets/images/projects/ayana-commons/ayana-commons-bedroom.jpg"
+  ],
+  "imageCaptions": [
+    "AYANA Commons building with street-level shops, render",
+    "1-bedroom living area, render",
+    "Living area and kitchenette, render",
+    "Bedroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

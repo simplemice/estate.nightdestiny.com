@@ -103,14 +103,37 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/vista-del-mar-phuket",
-  "researchNotes": "Added 2026-11-27. Units conflict: 18 (Keller Henson), 22 (FazWaz header), 6 (FazWaz overview), not shown. Status conflict: \"15 months made to order\" vs \"completed Jan 2025\" (FazWaz) vs completion 2024 Q4 (Keller Henson); shown as pre-sale / built to order. Bedrooms 2-4 on FazWaz (a 2-bed variant), 3-4 on Keller Henson; 3-4 shown. Prices: KH THB 29.4-59.8M (July 2026); FazWaz from THB 32M, listings up to 115M (custom). Developer from FazWaz. No images.",
+  "researchNotes": "Added 2026-11-27. Units conflict: 18 (Keller Henson), 22 (FazWaz header), 6 (FazWaz overview), not shown. Status conflict: \"15 months made to order\" vs \"completed Jan 2025\" (FazWaz) vs completion 2024 Q4 (Keller Henson); shown as pre-sale / built to order. Bedrooms 2-4 on FazWaz (a 2-bed variant), 3-4 on Keller Henson; 3-4 shown. Prices: KH THB 29.4-59.8M (July 2026); FazWaz from THB 32M, listings up to 115M (custom). Developer from FazWaz. No images. 2026-11-27: 9 images and 0 plans added from https://kellerhenson.com/project/vista-del-mar-phuket (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
-  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "cover": "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lb-exterior.jpg",
+  "images": [
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lb-pool.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lm-exterior.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lm-2.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-vx-exterior.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-vx-2.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lb-3.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lm-3.jpg",
+    "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-vx-3.jpg"
+  ],
+  "imageCaptions": [
+    "Type LB villa on the hillside",
+    "Infinity pool, Type LB",
+    "Type LM villa exterior",
+    "Villa and pool, Type LM",
+    "Villa entrance, Type VX",
+    "Infinity pool at sunset, Type VX",
+    "Living room with sea view, Type LB",
+    "Terrace and infinity pool, Type LM",
+    "Living room and kitchen, Type VX"
+  ],
+  "imageCredit": "Images published by the sales agent for this project: villa photos and renders by villa type."
 }

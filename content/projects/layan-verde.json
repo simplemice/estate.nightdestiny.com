@@ -136,18 +136,49 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/layan-verde",
-  "researchNotes": "Added 2026-11-27. Completion conflict: Keller Henson 2028 Q3 (its own text says 2026-2027), FazWaz Dec 2028, VillaCarte 12.2028; shown as 2028 (phased). Floors: 7 (Keller Henson, building list) vs \"15 floors\" in FazWaz header. Beach 0.7 km (FazWaz FAQ) vs 1.0 km vs 800 m (VillaCarte). Site 77,280 sqm (FazWaz); VillaCarte says over 108,000 sqm of site (unclear). VillaCarte says hotel management by Dusit International; not confirmed elsewhere, not shown. Guaranteed/projected returns (5-7%) not shown. Prices Keller Henson Nov 2026: THB 6.5-128.4M. No images.",
+  "researchNotes": "Added 2026-11-27. Completion conflict: Keller Henson 2028 Q3 (its own text says 2026-2027), FazWaz Dec 2028, VillaCarte 12.2028; shown as 2028 (phased). Floors: 7 (Keller Henson, building list) vs \"15 floors\" in FazWaz header. Beach 0.7 km (FazWaz FAQ) vs 1.0 km vs 800 m (VillaCarte). Site 77,280 sqm (FazWaz); VillaCarte says over 108,000 sqm of site (unclear). VillaCarte says hotel management by Dusit International; not confirmed elsewhere, not shown. Guaranteed/projected returns (5-7%) not shown. Prices Keller Henson Nov 2026: THB 6.5-128.4M. No images. 2026-11-27: 11 images and 3 plans added from https://papayaproperty.com/villa-carte-group/layan-verde (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/layan-verde/layan-verde-one-bedroom-56sqm-plan.jpg",
+    "/assets/images/floorplans/layan-verde/layan-verde-one-bedroom-61sqm-plan.jpg",
+    "/assets/images/floorplans/layan-verde/layan-verde-three-bedroom-152sqm-plan.jpg"
+  ],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "layan-green-park-phase-2",
     "kiara-reserve-residences"
-  ]
+  ],
+  "cover": "/assets/images/projects/layan-verde/layan-verde-aerial.jpg",
+  "images": [
+    "/assets/images/projects/layan-verde/layan-verde-aerial-layan-bay.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-buildings.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-evening.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-building-gardens.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-walkway.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-private-pool-terrace.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-terrace.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-bedroom.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-co-working.jpg",
+    "/assets/images/projects/layan-verde/layan-verde-gym.jpg"
+  ],
+  "imageCaptions": [
+    "Layan Verde on the hillside, aerial render",
+    "Site and Layan Bay, aerial render",
+    "Terraced buildings, render",
+    "Buildings in the evening, render",
+    "Building with planted terraces, render",
+    "Garden walkway, render",
+    "Residence terrace with private pool, render",
+    "Terrace with sea view, render",
+    "Bedroom, render",
+    "Co-working lounge, render",
+    "Fitness centre, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

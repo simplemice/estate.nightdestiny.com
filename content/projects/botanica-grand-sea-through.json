@@ -107,18 +107,44 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/grand-sea-through-luxury-villas",
-  "researchNotes": "Added 2026-11-27. Name: portals use \"Grand Sea Through\" / \"The Grand Sea Through Villas Rawai\"; brief name kept. Developer conflict: Papaya and FazWaz name Botanica Luxury Phuket; Keller Henson names AAP Architecture Properties & Development (FazWaz text says developed by AAP in 2018). Status conflict: Papaya \"completed / made to order 12 months\", FazWaz \"off plan, 0%\", Keller Henson completion 2026 Q3, so status set to \"Status on request\". Ownership: Papaya says freehold, Keller Henson leasehold for foreigners (freehold for Thai), shown as Leasehold. Price THB 28.8-30.9M for 4-bed (Keller Henson, July 2026); a 5-bed 350 sqm / 738 sqm plot listing at THB 42M appears only on FazWaz and is not used. Rawai Beach 3.2 km (FazWaz FAQ) vs 4.2 km drive. Keller Henson sinking fund figure (THB 150,000 \"per sqm\") looks like an error, not used. No images.",
+  "researchNotes": "Added 2026-11-27. Name: portals use \"Grand Sea Through\" / \"The Grand Sea Through Villas Rawai\"; brief name kept. Developer conflict: Papaya and FazWaz name Botanica Luxury Phuket; Keller Henson names AAP Architecture Properties & Development (FazWaz text says developed by AAP in 2018). Status conflict: Papaya \"completed / made to order 12 months\", FazWaz \"off plan, 0%\", Keller Henson completion 2026 Q3, so status set to \"Status on request\". Ownership: Papaya says freehold, Keller Henson leasehold for foreigners (freehold for Thai), shown as Leasehold. Price THB 28.8-30.9M for 4-bed (Keller Henson, July 2026); a 5-bed 350 sqm / 738 sqm plot listing at THB 42M appears only on FazWaz and is not used. Rawai Beach 3.2 km (FazWaz FAQ) vs 4.2 km drive. Keller Henson sinking fund figure (THB 150,000 \"per sqm\") looks like an error, not used. No images. 2026-11-27: 9 images and 2 plans added from https://www.botanicaluxuryvilla.com/projects/grand-sea-through-luxury-villas/ (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/botanica-grand-sea-through/botanica-grand-sea-through-master-plan.jpg",
+    "/assets/images/floorplans/botanica-grand-sea-through/botanica-grand-sea-through-floor-plan.jpg"
+  ],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "botanica-modern-sea-karon",
     "botanica-montazure"
-  ]
+  ],
+  "cover": "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-exterior.jpg",
+  "images": [
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-exterior-rear.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-street-front.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-side-view.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-double-height-living.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-dining-kitchen.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-master-bedroom.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-bedroom.jpg",
+    "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-master-bathroom.jpg"
+  ],
+  "imageCaptions": [
+    "Villa exterior with garden, render",
+    "Villa rear facade and lawn, render",
+    "Street front with carport, render",
+    "Side view of the villa, render",
+    "Double-height living area, render",
+    "Dining area and kitchen, render",
+    "Master bedroom, render",
+    "Bedroom with garden view, render",
+    "Master bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas."
 }

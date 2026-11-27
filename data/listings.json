@@ -128,6 +128,7 @@
    "type": "Mixed-use low-rise condominium",
    "price": 3760000,
    "currency": "THB",
+   "cover": "/assets/images/projects/ayana-commons/ayana-commons-building.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -140,6 +141,7 @@
    "type": "Branded low-rise residences",
    "price": 82200000,
    "currency": "THB",
+   "cover": "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-beachfront.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -152,6 +154,7 @@
    "type": "Pool villa",
    "price": 28800000,
    "currency": "THB",
+   "cover": "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-exterior.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -176,6 +179,7 @@
    "type": "Sea-view pool villa",
    "price": 30910000,
    "currency": "THB",
+   "cover": "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-aerial-hillside.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -200,6 +204,7 @@
    "type": "Resort condominium",
    "price": 6500000,
    "currency": "THB",
+   "cover": "/assets/images/projects/layan-verde/layan-verde-aerial.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -212,6 +217,7 @@
    "type": "Pool villa",
    "price": 29900000,
    "currency": "THB",
+   "cover": "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-pool-terrace.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -224,6 +230,7 @@
    "type": "Low-rise resort condominium",
    "price": 5000000,
    "currency": "THB",
+   "cover": "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-entrance.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -236,6 +243,7 @@
    "type": "Beachfront hotel residences",
    "price": 15400000,
    "currency": "THB",
+   "cover": "/assets/images/projects/residences-at-garrya-phuket/residences-at-garrya-phuket-aerial.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -248,6 +256,7 @@
    "type": "Low-rise condominium",
    "price": 13353590,
    "currency": "THB",
+   "cover": "/assets/images/projects/sudara-residences/sudara-residences-balcony-pool-view.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -272,6 +281,7 @@
    "type": "Lake-view condominium",
    "price": 3200000,
    "currency": "THB",
+   "cover": "/assets/images/projects/vega-condominium/vega-condominium-exterior.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -284,6 +294,7 @@
    "type": "Sea-view pool villa",
    "price": 29400000,
    "currency": "THB",
+   "cover": "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lb-exterior.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -296,6 +307,7 @@
    "type": "Low-rise condominium",
    "price": 4500000,
    "currency": "THB",
+   "cover": "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-aerial-pool.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },

@@ -109,17 +109,42 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/wilawan-luna-vista-phuket",
-  "researchNotes": "Added 2026-11-27. Location: FazWaz Thep Krasattri; Keller Henson Naiyang, Thalang. Prices THB 29.9-36.9M (Keller Henson, Aug 2026; FazWaz 4-bed up to 37.08M). Sinking fund THB 100,000 (fixed vs \"per sqm\" conflict), not shown. Payment plan conflicts within Keller Henson, not shown. Freehold for Thai buyers per Keller Henson. Separate from Wilawan Luxury Villas (not on site). No images.",
+  "researchNotes": "Added 2026-11-27. Location: FazWaz Thep Krasattri; Keller Henson Naiyang, Thalang. Prices THB 29.9-36.9M (Keller Henson, Aug 2026; FazWaz 4-bed up to 37.08M). Sinking fund THB 100,000 (fixed vs \"per sqm\" conflict), not shown. Payment plan conflicts within Keller Henson, not shown. Freehold for Thai buyers per Keller Henson. Separate from Wilawan Luxury Villas (not on site). No images. 2026-11-27: 10 images and 0 plans added from https://kellerhenson.com/project/wilawan-luna-vista-phuket (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "anchan-emerald"
-  ]
+  ],
+  "cover": "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-pool-terrace.jpg",
+  "images": [
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-pool-garden.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-outdoor-lounge.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-bathtub-view.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-living-room.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-living-dining.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-kitchen.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-master-bedroom.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-garden-terrace.jpg",
+    "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-pool-night.jpg"
+  ],
+  "imageCaptions": [
+    "Pool and terrace, photo",
+    "Pool and garden, photo",
+    "Outdoor lounge by the pool, photo",
+    "Bathtub with pool view, photo",
+    "Living room, photo",
+    "Dining area, photo",
+    "Kitchen, photo",
+    "Master bedroom, photo",
+    "Covered terrace and garden, photo",
+    "Pool at night, photo"
+  ],
+  "imageCredit": "Photos published by the sales agent for this project; they may show a show villa or a completed sister villa."
 }

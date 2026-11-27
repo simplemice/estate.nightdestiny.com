@@ -118,18 +118,38 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/origin-residences-phuket-bangtao",
-  "researchNotes": "Added 2026-11-27. Distinct from So Origin Bangtao Beach (545 units); Papaya page mixes the names and quotes ~545 residences, so its unit count is not used. Status conflict: Papaya \"under construction\", Keller Henson \"construction to start Q2 2027\"; shown as pre-sale. Completion Q3 2028 (both); Papaya overview also says 2026. Prices: Keller Henson THB 5.0-10.7M (Aug 2026), Papaya THB 5.41-12.15M. Ownership conflicts across pages; Keller Henson leasehold for foreigners used. Beach 400 m (Keller Henson) vs 900 m (Papaya). Rental-yield claims not shown. No images.",
+  "researchNotes": "Added 2026-11-27. Distinct from So Origin Bangtao Beach (545 units); Papaya page mixes the names and quotes ~545 residences, so its unit count is not used. Status conflict: Papaya \"under construction\", Keller Henson \"construction to start Q2 2027\"; shown as pre-sale. Completion Q3 2028 (both); Papaya overview also says 2026. Prices: Keller Henson THB 5.0-10.7M (Aug 2026), Papaya THB 5.41-12.15M. Ownership conflicts across pages; Keller Henson leasehold for foreigners used. Beach 400 m (Keller Henson) vs 900 m (Papaya). Rental-yield claims not shown. No images. 2026-11-27: 5 images and 4 plans added from https://papayaproperty.com/origin-property/origin-residences (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-site-plan-1st-floor.jpg",
+    "/assets/images/floorplans/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-one-bedroom-plan.jpg",
+    "/assets/images/floorplans/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-two-bedroom-suite-plan.jpg",
+    "/assets/images/floorplans/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-two-bedroom-penthouse-plan.jpg"
+  ],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "so-origin-kata-phuket",
     "the-origin-kathu-patong"
-  ]
+  ],
+  "cover": "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-entrance.jpg",
+  "images": [
+    "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-two-bedroom-sea-view.jpg",
+    "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-one-bedroom.jpg",
+    "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-gym.jpg",
+    "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-spa-pool.jpg"
+  ],
+  "imageCaptions": [
+    "Entrance and drop-off, render",
+    "2-bedroom suite with sea view, render",
+    "1-bedroom residence, render",
+    "Gym, render",
+    "Spa pool, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

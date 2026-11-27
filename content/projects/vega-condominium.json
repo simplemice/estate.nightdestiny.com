@@ -92,14 +92,41 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/vega-condominium",
-  "researchNotes": "Added 2026-11-27. Brief name \"Vega Condo\". Only Keller Henson (Aug 2026) read; FazWaz blocked and its mirror URL showed a different project (Sun Hills Lake Side), not used. Developer named Metrix Ideal Group (Keller Henson); a snippet named Metrics Development Thailand. Units 146 (Keller Henson) vs 147 (FazWaz snippet). Completion 2026 Q3 (Keller Henson) vs Aug 2026 (FazWaz snippet); status unconfirmed. Price THB 3.2-6.5M (header) vs 3.23-5.72M (FAQ). No images.",
+  "researchNotes": "Added 2026-11-27. Brief name \"Vega Condo\". Only Keller Henson (Aug 2026) read; FazWaz blocked and its mirror URL showed a different project (Sun Hills Lake Side), not used. Developer named Metrix Ideal Group (Keller Henson); a snippet named Metrics Development Thailand. Units 146 (Keller Henson) vs 147 (FazWaz snippet). Completion 2026 Q3 (Keller Henson) vs Aug 2026 (FazWaz snippet); status unconfirmed. Price THB 3.2-6.5M (header) vs 3.23-5.72M (FAQ). No images. 2026-11-27: 11 images and 0 plans added from https://kellerhenson.com/project/vega-condominium (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
-  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "cover": "/assets/images/projects/vega-condominium/vega-condominium-exterior.jpg",
+  "images": [
+    "/assets/images/projects/vega-condominium/vega-condominium-facade.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-rooftop-terrace.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-aerial.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-pool.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-lobby.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-gym.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-one-bedroom-living.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-bathroom.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-studio.jpg",
+    "/assets/images/projects/vega-condominium/vega-condominium-studio-2.jpg"
+  ],
+  "imageCaptions": [
+    "Building exterior, render",
+    "Building facade and gardens, render",
+    "Rooftop terrace and pool, render",
+    "Building among the trees, aerial render",
+    "Swimming pool, render",
+    "Lobby, render",
+    "Fitness centre, render",
+    "1-bedroom living area, render",
+    "Bathroom, render",
+    "Studio, render",
+    "Studio sleeping area, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

@@ -80,7 +80,8 @@
   ],
   "status": "Status on request",
   "completionDate": null,
-  "imageCount": 1,
+  "cover": "/assets/images/projects/ayana-commons/ayana-commons-building.jpg",
+  "imageCount": 4,
   "lastVerified": "2026-11-27"
  },
  {
@@ -108,7 +109,8 @@
   ],
   "status": "Status on request",
   "completionDate": "Q1 2026 (agent figure, handover not confirmed)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/banyan-tree-grand-residences-seaview/banyan-tree-grand-residences-seaview-beachfront.jpg",
+  "imageCount": 6,
   "lastVerified": "2026-11-27"
  },
  {
@@ -136,7 +138,8 @@
   ],
   "status": "Status on request",
   "completionDate": "Q3 2026 (agent figure, not confirmed)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/botanica-grand-sea-through/botanica-grand-sea-through-exterior.jpg",
+  "imageCount": 9,
   "lastVerified": "2026-11-27"
  },
  {
@@ -192,7 +195,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Q1 2026 target (agent figure; check current stage)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-aerial-hillside.jpg",
+  "imageCount": 7,
   "lastVerified": "2026-11-27"
  },
  {
@@ -248,7 +252,8 @@
   ],
   "status": "Under construction",
   "completionDate": "2028 (phased)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/layan-verde/layan-verde-aerial.jpg",
+  "imageCount": 11,
   "lastVerified": "2026-11-27"
  },
  {
@@ -276,7 +281,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Q4 2027",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/luna-vista-by-wilawan/luna-vista-by-wilawan-pool-terrace.jpg",
+  "imageCount": 10,
   "lastVerified": "2026-11-27"
  },
  {
@@ -304,7 +310,8 @@
   ],
   "status": "Pre-sale",
   "completionDate": "Q3 2028",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/origin-residences-phuket-bangtao/origin-residences-phuket-bangtao-entrance.jpg",
+  "imageCount": 5,
   "lastVerified": "2026-11-27"
  },
  {
@@ -332,7 +339,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Q3 2026 (agent figure)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/residences-at-garrya-phuket/residences-at-garrya-phuket-aerial.jpg",
+  "imageCount": 7,
   "lastVerified": "2026-11-27"
  },
  {
@@ -360,7 +368,8 @@
   ],
   "status": "Under construction",
   "completionDate": "Q3 2027",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/sudara-residences/sudara-residences-balcony-pool-view.jpg",
+  "imageCount": 2,
   "lastVerified": "2026-11-27"
  },
  {
@@ -416,7 +425,8 @@
   ],
   "status": "Status on request",
   "completionDate": "Q3 2026 (agent figure)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/vega-condominium/vega-condominium-exterior.jpg",
+  "imageCount": 11,
   "lastVerified": "2026-11-27"
  },
  {
@@ -444,7 +454,8 @@
   ],
   "status": "Pre-sale",
   "completionDate": "Built to order (about 12-15 months)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/vista-del-mar-phuket/vista-del-mar-phuket-type-lb-exterior.jpg",
+  "imageCount": 9,
   "lastVerified": "2026-11-27"
  },
  {
@@ -472,7 +483,8 @@
   ],
   "status": "Pre-sale",
   "completionDate": "Dec 2027 (phase 1)",
-  "imageCount": 1,
+  "cover": "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-aerial-pool.jpg",
+  "imageCount": 6,
   "lastVerified": "2026-11-27"
  },
  {

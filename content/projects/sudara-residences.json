@@ -85,14 +85,26 @@
     }
   ],
   "priceSourceUrl": "https://papayaproperty.com/princess-villa-ltd/sudara-residences-1",
-  "researchNotes": "Added 2026-11-27. Sizes: Papaya description says 52-144 sqm, layouts 52-110 (layouts used). Prices from Papaya (undated, 2026): THB 13.35-26.29M. Investment-return claims (10%) from press not shown. PropertyGuru award 2024 not shown (not verified on read page). No images.",
+  "researchNotes": "Added 2026-11-27. Sizes: Papaya description says 52-144 sqm, layouts 52-110 (layouts used). Prices from Papaya (undated, 2026): THB 13.35-26.29M. Investment-return claims (10%) from press not shown. PropertyGuru award 2024 not shown (not verified on read page). No images. 2026-11-27: 2 images and 2 plans added from https://papayaproperty.com/princess-villa-ltd/sudara-residences-1 (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/sudara-residences/sudara-residences-pool-unit-plan.jpg",
+    "/assets/images/floorplans/sudara-residences/sudara-residences-three-bedroom-plan.jpg"
+  ],
   "priceStatus": "advertised",
-  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "cover": "/assets/images/projects/sudara-residences/sudara-residences-balcony-pool-view.jpg",
+  "images": [
+    "/assets/images/projects/sudara-residences/sudara-residences-living-dining.jpg"
+  ],
+  "imageCaptions": [
+    "Balcony view over the pools and gardens, render",
+    "Living and dining room, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

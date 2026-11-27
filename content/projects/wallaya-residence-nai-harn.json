@@ -99,17 +99,38 @@
     }
   ],
   "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/wallaya-residence-nai-harn",
-  "researchNotes": "Added 2026-11-27. Separate from The Harmony by Wallaya Villas (Thalang, already on site). Buildings conflict: 3 (thailand-property, FazWaz overview) vs 4 (FazWaz header), not shown. Completion Dec 2027 for phase 1 (VillaCarte); FazWaz \"off plan\". Prices THB 4.5-14.57M (FazWaz mirror); freehold premium THB 10,000/sqm. Sinking fund basis conflicts (THB 1,000 per sqm vs fixed), not shown. Rawai Beach 1.6 km is a district figure, not used. No images.",
+  "researchNotes": "Added 2026-11-27. Separate from The Harmony by Wallaya Villas (Thalang, already on site). Buildings conflict: 3 (thailand-property, FazWaz overview) vs 4 (FazWaz header), not shown. Completion Dec 2027 for phase 1 (VillaCarte); FazWaz \"off plan\". Prices THB 4.5-14.57M (FazWaz mirror); freehold premium THB 10,000/sqm. Sinking fund basis conflicts (THB 1,000 per sqm vs fixed), not shown. Rawai Beach 1.6 km is a district figure, not used. No images. 2026-11-27: 6 images and 3 plans added from https://papayaproperty.com/wallaya-villas-development-co-ltd/wallaya-residence-nai-harn-1 (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": [],
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/wallaya-residence-nai-harn/wallaya-residence-nai-harn-ground-floor-plan.jpg",
+    "/assets/images/floorplans/wallaya-residence-nai-harn/wallaya-residence-nai-harn-first-floor-plan.jpg",
+    "/assets/images/floorplans/wallaya-residence-nai-harn/wallaya-residence-nai-harn-typical-floor-plan.jpg"
+  ],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "the-harmony-by-wallaya-villas"
-  ]
+  ],
+  "cover": "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-aerial-pool.jpg",
+  "images": [
+    "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-pool-deck.jpg",
+    "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-courtyard.jpg",
+    "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-pool-loungers.jpg",
+    "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-garden-view.jpg",
+    "/assets/images/projects/wallaya-residence-nai-harn/wallaya-residence-nai-harn-facade.jpg"
+  ],
+  "imageCaptions": [
+    "Buildings around the main pool, aerial render",
+    "Pool deck between the buildings, render",
+    "Courtyard and lagoon pool, render",
+    "Pool with sun loungers, render",
+    "Buildings seen from the garden, render",
+    "Facade and pool, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
 }

@@ -112,14 +112,33 @@
     }
   ],
   "priceSourceUrl": "https://kellerhenson.com/project/hightone-seaview-villas-garden",
-  "researchNotes": "Added 2026-11-27. Name: developer \"HighTone Seaview Villas & Garden\"; Keller Henson \"Karon Seaview Villas & Garden\". Area: developer district field says Rawai (its head office); project is near Karon Beach (both sources), area Karon. Sizes: developer \"from 515 sqm\" built / \"from 450 sqm\" land vs Keller Henson unit figures 530-590 / 446-570 (unit figures used). Completion 2026 Q1 (Keller Henson, July 2026) vs developer \"under construction\". Price THB 30.91-35.4M (Keller Henson, July 2026). Payment plan and booking fee conflict within Keller Henson, not shown. Rental-return projections (5-10%) not shown. Sinking fund \"THB 58,717 per sqm\" looks wrong, not shown. No images.",
+  "researchNotes": "Added 2026-11-27. Name: developer \"HighTone Seaview Villas & Garden\"; Keller Henson \"Karon Seaview Villas & Garden\". Area: developer district field says Rawai (its head office); project is near Karon Beach (both sources), area Karon. Sizes: developer \"from 515 sqm\" built / \"from 450 sqm\" land vs Keller Henson unit figures 530-590 / 446-570 (unit figures used). Completion 2026 Q1 (Keller Henson, July 2026) vs developer \"under construction\". Price THB 30.91-35.4M (Keller Henson, July 2026). Payment plan and booking fee conflict within Keller Henson, not shown. Rental-return projections (5-10%) not shown. Sinking fund \"THB 58,717 per sqm\" looks wrong, not shown. No images. 2026-11-27: 7 images and 0 plans added from https://phuket9.com/projects/hightone (see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
-  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "cover": "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-aerial-hillside.jpg",
+  "images": [
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-villas-garden.jpg",
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-street.jpg",
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-living-kitchen.jpg",
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-dining.jpg",
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-bedroom.jpg",
+    "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-bathroom.jpg"
+  ],
+  "imageCaptions": [
+    "The villas on the Karon hillside, aerial render",
+    "Villas and gardens, render",
+    "Estate road between the villas, render",
+    "Living room and kitchen, render",
+    "Dining area, render",
+    "Bedroom, render",
+    "Bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas."
 }
