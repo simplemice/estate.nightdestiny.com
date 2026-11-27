@@ -869,11 +869,14 @@ function listingPage(category, list, extra = []) {
   const h1 = T(rentC ? 'rent.h1' : 'sale.h1');
   const desc = T(rentC ? 'rent.desc' : 'sale.desc');
   const rg = rentC ? rentGuide() : null; // /rent/: long-term guide first, the rental listings below it
-  const body = `${pageHead(h1, T(rentC ? 'rent.sub' : 'sale.sub'), [['/', T('nav.home')], ['', T(rentC ? 'nav.rent' : 'nav.sale')]])}${rg ? rg.html : ''}
+  const body = `${pageHead(h1, T(rentC ? 'rent.sub' : 'sale.sub'), [['/', T('nav.home')], ['', T(rentC ? 'nav.rent' : 'nav.sale')]])}${rentC ? `
+	<section class="spad-2 rent-top"><div class="container">
+		<p class="rent-notice"><i class="fa fa-calendar-check-o"></i> ${esc(T('rental.notice'))}</p>
+		${filterForm(list.concat(extra), category)}
+	</div></section>${rg ? rg.html : ''}` : ''}
 	<section class="rooms-section spad estate-listing" data-listing="${category}" id="${rentC ? 'rentals' : 'listings'}">
 		<div class="container">
-			${category === 'sale' ? typeTabs(list.concat(extra)) : `<p class="rent-notice"><i class="fa fa-calendar-check-o"></i> ${esc(T('rental.notice'))}</p>`}
-			${filterForm(list.concat(extra), category)}
+			${category === 'sale' ? `${typeTabs(list.concat(extra))}${filterForm(list.concat(extra), category)}` : ''}
 			<p class="result-count" id="result-count" aria-live="polite">${countLine(total, 'listing')}</p>
 			<div class="row" id="listing" data-page-size="${rentC ? 100 : 6}">
 				${list.map((p) => propCard(p, { filterable: true })).concat(extra.map(projSaleCard)).join('\n')}

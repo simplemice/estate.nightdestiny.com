@@ -13,28 +13,28 @@
     "cta": "Find Your Rental Property",
     "photos": [
       {
-        "image": "/assets/images/rent/phuket-hillside-villas.jpg",
-        "alt": "Hillside villas with sea views in Karon, Phuket",
-        "author": "Phong Phat G",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centara_Villas_Phuket_Hotel_-_panoramio.jpg"
+        "image": "/assets/images/areas/kata/kata-beach-from-above.jpg",
+        "alt": "Kata Beach seen from the headland",
+        "author": "ADwarf",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Kata_Beach_001.jpg"
       },
       {
-        "image": "/assets/images/rent/phuket-pool-villas.jpg",
-        "alt": "Pool and low-rise villas in Rawai, Phuket",
-        "author": "Kenzo",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Piman_Resort_Pool_2009_-_panoramio.jpg"
+        "image": "/assets/images/areas/rawai/rawai-beach-longtail-boats.jpg",
+        "alt": "Longtail boats moored off Rawai Beach",
+        "author": "ADwarf",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Rawai_Beach_11.jpg"
       },
       {
-        "image": "/assets/images/rent/phuket-pool-terraces.jpg",
-        "alt": "Pool terraces on a residential-style building in Kata, Phuket",
-        "author": "HutheMeow",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRk_-_Pool_in_balconies.jpg"
+        "image": "/assets/images/areas/nai-harn/nai-harn-sunset.jpg",
+        "alt": "Sunset over Nai Harn Beach",
+        "author": "ADwarf",
+        "license": "Public domain",
+        "licenseUrl": "",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Nai_Harn_Beach_019.jpg"
       }
     ],
     "short": {
