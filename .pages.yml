@@ -302,7 +302,7 @@ content:
       - { name: highlights, label: "Main advantages (short bullet points)", type: string, list: true }
       - { name: nearbyAreas, label: "Neighbouring area pages (file names, e.g. kata)", type: string, list: true }
       - name: map
-        label: "Map centre of the area"
+        label: "Area centre coordinates (used only in search-engine structured data; no map is shown)"
         type: object
         fields:
           - { name: lat, label: Latitude, type: number, description: "e.g. 7.7703" }

@@ -970,7 +970,12 @@ const statGrid = (items) => `<div class="area-stats">${items.map((s) => `<div cl
 const areaPhotos = (photos, nm) => {
   const ok = (photos || []).filter((x) => x && x.image).slice(0, 3);
   if (!ok.length) return '';
-  return `<div class="area-photos n${ok.length}">${ok.map((x, i) => `<figure>${img(x.image, x.alt || nm, { sizes: i ? '(min-width: 992px) 25vw, 50vw' : '(min-width: 992px) 50vw, 100vw', lazy: i > 0, priority: i === 0 })}<figcaption>${x.author ? `${T('area.photo')} ${esc(x.author)}` : ''}${x.license ? `, ${x.licenseUrl ? `<a href="${esc(x.licenseUrl)}" target="_blank" rel="noopener nofollow">${esc(x.license)}</a>` : esc(x.license)}` : ''}${x.sourceUrl ? `, <a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener nofollow">${T('area.photo_src')}</a>` : ''}</figcaption></figure>`).join('')}</div>`;
+  return `<div class="area-photos n${ok.length}">${ok.map((x, i) => `<figure>${img(x.image, x.alt || nm, { sizes: i ? '(min-width: 992px) 25vw, 50vw' : '(min-width: 992px) 50vw, 100vw', lazy: i > 0, priority: i === 0 })}</figure>`).join('')}</div>`;
+};
+// Attribution for licensed photos (CC BY / CC BY-SA require it): one collapsed line at the end of the page instead of captions.
+const photoCredits = (photos) => {
+  const ok = (photos || []).filter((x) => x && x.image && x.author && !/public domain|cc0/i.test(x.license || '')).slice(0, 3);
+  return ok.length ? `<details class="photo-credits"><summary>${T('area.credits')}</summary><p>${ok.map((x) => `${esc(x.alt || '')}: ${esc(x.author)}, ${x.licenseUrl ? `<a href="${esc(x.licenseUrl)}" target="_blank" rel="noopener nofollow">${esc(x.license)}</a>` : esc(x.license || '')}${x.sourceUrl ? `, <a href="${esc(x.sourceUrl)}" target="_blank" rel="noopener nofollow">${T('area.photo_src')}</a>` : ''}`).join('<br>')}</p></details>` : '';
 };
 const accordion = (items) => `<div class="faq-list area-acc">${(items || []).filter((x) => x && x.title && x.text).map((x) => `<details><summary>${esc(x.title)}</summary><p>${esc(x.text)}</p></details>`).join('')}</div>`;
 // Rental yield calculator: plain HTML inputs (THB), results filled by js/yield-calc.js; USD equivalents via js/fx.js.
@@ -1040,7 +1045,6 @@ function locationPage(g) {
   const catLinks = cnt.map(([k]) => { const c = CATALOGS.find((x) => x.lock === k); return `<a href="${lp(c.path)}">${esc(T(`cat.${c.key}.h1`))}</a>`; }).join(' &middot; ');
   const SHOW = 9;
   const cards = ps.map((p, i) => { const c = projCard(p); return i < SHOW ? c : c.replace('class="', 'class="loc-more '); }).join('\n');
-  const map = ed.map && num(ed.map.lat) !== null && num(ed.map.lng) !== null ? (() => { const lat = num(ed.map.lat), lng = num(ed.map.lng), d = 0.03; const bbox = [lng - d, lat - d * 0.7, lng + d, lat + d * 0.7].join('%2C'); return `<div class="map-wrap"><iframe title="${esc(T('map_title', { label: nm }))}" loading="lazy" referrerpolicy="no-referrer" src="https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&amp;layer=mapnik&amp;marker=${lat}%2C${lng}"></iframe></div><p class="map-link"><a href="https://www.openstreetmap.org/?mlat=${lat}&amp;mlon=${lng}#map=${num(ed.map.zoom) || 14}/${lat}/${lng}" target="_blank" rel="noopener">${T('open_larger_map')}</a></p>`; })() : '';
   const list = (arr, icon = 'fa-check') => (arr || []).filter(Boolean).length ? `<ul class="check-list">${arr.filter(Boolean).map((x) => `<li><i class="fa ${icon}"></i> ${esc(x)}</li>`).join('')}</ul>` : '';
   const guides = Object.entries(I.over.guides);
   const body = `${pageHead(h1, T('loc.sub', { n: N, nm }), [['/', T('nav.home')], ['/locations/', T('nav.locations')], ['', nm]])}
@@ -1053,12 +1057,10 @@ function locationPage(g) {
 		<h2 class="sec-h">${T('area.stats_h', { nm: esc(nm) })}</h2>
 		${statGrid(locStats(g, ed))}
 		${ed.intro ? `<p class="ds-note">${esc(dataIntro)}</p>` : ''}
-		<div class="row mt-4"><div class="col-lg-7">
+		<div class="row mt-4"><div class="col-12">
 			${ed.overview ? `<h2 class="sec-h">${T('loc.about', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.overview)}</div>` : ''}
 			${(ed.highlights || []).length ? `<h3 class="sec-h h5">${T('area.highlights', { nm: esc(nm) })}</h3>${list(ed.highlights)}` : ''}
 			${nbLine.length ? `<p class="ds-note">${T('loc.nearby_areas')} ${nbLine.join(' &middot; ')}</p>` : ''}
-		</div><div class="col-lg-5">
-			${map ? `<h2 class="sec-h">${T('area.map_h')}</h2>${map}` : ''}
 		</div></div>
 		${ed.lifestyle || ed.beaches ? `<div class="row">${ed.lifestyle ? `<div class="col-md-6"><h2 class="sec-h">${T('area.lifestyle')}</h2><div class="desc">${paras(ed.lifestyle)}</div></div>` : ''}${ed.beaches ? `<div class="col-md-6"><h2 class="sec-h">${T('area.beaches')}</h2><div class="desc">${paras(ed.beaches)}</div></div>` : ''}</div>` : ''}
 		${nb.length ? `<details class="area-nearby"><summary>${T('area.nearby_sum', { nm: esc(nm) })}</summary><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div></details>` : ''}
@@ -1075,6 +1077,7 @@ function locationPage(g) {
 		${faqHtml}
 		<p class="price-disclaimer" data-usd-note>${T('loc.disclaimer')}</p>
 		${guides.length ? `<p class="mt-3">${T('loc.guides')} ${guides.map(([k, x]) => `<a href="${lp(`/guides/${k}/`)}">${esc(x.h1)}</a>`).join(' &middot; ')}</p>` : ''}
+		${photoCredits(ed.photos)}
 		<p class="mt-3">${T('loc.browse_more')} ${LOCS.filter((x) => x.slug !== g.slug).slice(0, 6).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')} &middot; <a href="${lp('/locations/')}">${T('loc.all')}</a></p>
 	</div></section>
 	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, numberOfItems: N, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, ...(ed.photos || []).filter((x) => x && x.image).length ? { image: (ed.photos || []).filter((x) => x && x.image).map((x) => SITE + x.image) } : {}, about: { '@type': 'Place', name: `${nm}, ${T('phuket')}`, ...(ed.map && num(ed.map.lat) !== null ? { geo: { '@type': 'GeoCoordinates', latitude: num(ed.map.lat), longitude: num(ed.map.lng) } } : {}), containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}
@@ -1498,7 +1501,6 @@ function guidePage(slug, g) {
 		${mentioned.length ? `<h2 class="sec-h">${T('guide.projects')}</h2><ul class="check-list">${mentioned.map((p) => { const f = facts(p); return `<li><i class="fa fa-angle-right"></i> <a href="${url(p)}">${esc(title(p))}</a>, ${esc(areaName(canonArea(p.location)))}${p.constructionStatus && !/on request/i.test(p.constructionStatus) ? `, ${esc(tx(p.constructionStatus, 'status').toLowerCase())}` : ''}${f.price ? `, ${esc(T('from_price', { p: money(f.price, p.currency || 'THB') }))}` : ''}</li>`; }).join('')}</ul>` : ''}
 		${locs.length ? `<p>${T('guide.areas')} ${locs.map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')}</p>` : ''}
 		<p class="ds-note">${esc(g.disclaimer || '')}</p>
-		${g.sources && g.sources.length ? `<p class="ds-note">${T('guide.sources')}: ${g.sources.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener nofollow">${esc(x.name)}</a>`).join(', ')}</p>` : ''}
 		${related.length || relG.length ? `<h2 class="sec-h">${T('guide.related')}</h2><ul class="check-list">${relG.map((k) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(`/guides/${k}/`)}">${esc(I.over.guides[k].h1)}</a></li>`).join('')}${related.map((r) => `<li><i class="fa fa-angle-right"></i> <a href="${lp(r.href)}">${esc(r.label)}</a></li>`).join('')}</ul>` : ''}
 		<p class="mt-4">${waBtn(g.waMsg || T('wa.guide'), 'wa-btn', T('guide.ask'))}</p>
 		<p class="mt-3"><a class="primary-btn" href="${lp('/projects/')}">${T('nav.projects')}</a> &nbsp; <a class="primary-btn" href="${lp('/sale/')}">${T('nav.sale')}</a></p>

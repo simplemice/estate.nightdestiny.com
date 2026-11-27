@@ -250,3 +250,6 @@ select option { background: var(--ink-2); color: var(--text); }
 .yc-out.yc-key strong { color: var(--accent); font-family: "Lora", serif; font-size: 1.35rem; }
 .yc-out strong.yc-neg { color: #e08a7c; }
 .yc-results .sec-h.h5:not(:first-child) { margin-top: 16px; }
+.photo-credits { margin-top: 18px; font-size: 0.75rem; color: var(--muted); }
+.photo-credits summary { cursor: pointer; color: var(--muted); }
+.photo-credits a { color: var(--muted); text-decoration: underline; }

@@ -598,5 +598,6 @@
   "calc.disclaimer": "This is an estimate, not a guaranteed return. Vacancy periods, taxes, acquisition and transfer costs, financing, furniture, repairs and other operating expenses can change actual returns. Gross and net yields are calculated on the purchase price only.",
   "calc.err_price": "Enter a purchase price greater than zero.",
   "calc.err_neg": "Values cannot be negative.",
-  "calc.err_pct": "Commission must be between 0 and 100%."
+  "calc.err_pct": "Commission must be between 0 and 100%.",
+  "area.credits": "Photo credits"
 }
