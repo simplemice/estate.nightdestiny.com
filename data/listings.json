@@ -116,6 +116,7 @@
    "type": "Pool villa",
    "price": 27700000,
    "currency": "THB",
+   "cover": "/assets/images/projects/anchan-emerald/anchan-emerald-aerial.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -269,6 +270,7 @@
    "type": "Sea-view villa",
    "price": null,
    "currency": "THB",
+   "cover": "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-cape-yamu-aerial.jpg",
    "publishedAt": "2026-11-27",
    "featured": false
   },

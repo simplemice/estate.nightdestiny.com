@@ -76,12 +76,37 @@
       "url": "https://thailand-property.com/house/22990/the-headland-cape-yamu"
     }
   ],
-  "researchNotes": "Added 2026-11-27. Area set to Thalang (Pa Khlok is a Thalang subdistrict; no Pa Khlok location page). Units 8 (FazWaz, thailand-property) vs 7 (Juwai snippet). Built-up and plot sizes not published (a Juwai snippet gives 2,200 sqm indoor for one villa; unverified). No units listed for sale, no price, no Sale entry. Ownership not stated. Beach distance 0.1 km (FAQ) vs 0.7 km (neighbourhood block). No images.",
+  "researchNotes": "Added 2026-11-27. Area set to Thalang (Pa Khlok is a Thalang subdistrict; no Pa Khlok location page). Units 8 (FazWaz, thailand-property) vs 7 (Juwai snippet). Built-up and plot sizes not published (a Juwai snippet gives 2,200 sqm indoor for one villa; unverified). No units listed for sale, no price, no Sale entry. Ownership not stated. Beach distance 0.1 km (FAQ) vs 0.7 km (neighbourhood block). No images. 2026-11-27: 10 images added from https://capeyamuheadland.com/the-project (link supplied by the site owner; see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
-  "floorPlans": []
+  "imagesStatus": "available",
+  "floorPlans": [],
+  "cover": "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-cape-yamu-aerial.jpg",
+  "images": [
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-villa-dusk.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-infinity-pool-sunset.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-pool-deck.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-pool-loungers.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-pool-terrace.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-cape-dusk.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-coastline.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-phang-nga-bay.jpg",
+    "/assets/images/projects/the-headland-cape-yamu/the-headland-cape-yamu-sunrise.jpg"
+  ],
+  "imageCaptions": [
+    "Cape Yamu headland, aerial photo",
+    "Villa and infinity pool at dusk, photo",
+    "Infinity pool at sunset, photo",
+    "Pool deck with sea view, photo",
+    "Pool loungers over Phang Nga Bay, photo",
+    "Pool terrace, photo",
+    "Cape Yamu at dusk, photo",
+    "Cape Yamu coastline, photo",
+    "View towards the Phang Nga Bay islands, photo",
+    "Sunrise over Phang Nga Bay, photo"
+  ],
+  "imageCredit": "Photos from the project website: the villas, their pools and views from Cape Yamu."
 }

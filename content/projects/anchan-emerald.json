@@ -85,17 +85,34 @@
     }
   ],
   "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/thalang/thep-krasattri/anchan-emerald",
-  "researchNotes": "Added 2026-11-27. Brief name \"Anchan Emerald Pool Villa\"; project name is Anchan Emerald (villas with private pools). Not the older Anchan Villas (Choeng Thale) project. Size conflict: 354 sqm (FazWaz) vs 264 sqm single-storey (Papaya). Price THB 27.7M (FazWaz) vs 30.8M (Papaya). Units 44 (FazWaz) vs 46 in a search snippet. Completion 2028 in a search snippet only, not shown. Developer awards (self-reported) not shown. No images.",
+  "researchNotes": "Added 2026-11-27. Brief name \"Anchan Emerald Pool Villa\"; project name is Anchan Emerald (villas with private pools). Not the older Anchan Villas (Choeng Thale) project. Size conflict: 354 sqm (FazWaz) vs 264 sqm single-storey (Papaya). Price THB 27.7M (FazWaz) vs 30.8M (Papaya). Units 44 (FazWaz) vs 46 in a search snippet. Completion 2028 in a search snippet only, not shown. Developer awards (self-reported) not shown. No images. 2026-11-27: 6 images added from https://anchanvillas.com/project/anchan-emerald-new-project/ (link supplied by the site owner; see IMAGE_SOURCES_AND_LICENSES.md).",
   "currency": "THB",
   "published": true,
   "featured": false,
   "publishedAt": "2026-11-27",
   "lastVerified": "2026-11-27",
-  "imagesStatus": "unavailable",
+  "imagesStatus": "available",
   "floorPlans": [],
   "priceStatus": "advertised",
   "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
   "relatedProjects": [
     "luna-vista-by-wilawan"
-  ]
+  ],
+  "cover": "/assets/images/projects/anchan-emerald/anchan-emerald-aerial.jpg",
+  "images": [
+    "/assets/images/projects/anchan-emerald/anchan-emerald-type-3a-1p.jpg",
+    "/assets/images/projects/anchan-emerald/anchan-emerald-type-3a-1v.jpg",
+    "/assets/images/projects/anchan-emerald/anchan-emerald-type-3a-3.jpg",
+    "/assets/images/projects/anchan-emerald/anchan-emerald-type-3b.jpg",
+    "/assets/images/projects/anchan-emerald/anchan-emerald-estate-road.jpg"
+  ],
+  "imageCaptions": [
+    "Anchan Emerald estate in the green hills of Thalang, aerial render",
+    "Villa type 3A-1P with private pool, render",
+    "Villa type 3A-1V, render",
+    "Villa type 3A-3, render",
+    "Villa type 3B, render",
+    "Estate road and landscaping, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas."
 }
