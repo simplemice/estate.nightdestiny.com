@@ -295,3 +295,12 @@ a.ra-tile:hover, a.ra-tile:focus { border-color: var(--accent); color: var(--tex
 .rg-short h3 { margin: 0 0 4px; }
 .rg-short p { margin: 0; }
 @media (max-width: 767px) { .rent-table thead th { min-width: 110px; } .rent-table tbody th { min-width: 150px; } }
+
+/* /rent/: compact vertical rhythm between the guide sections */
+.rent-top, .rent-guide, .rent-prices, .rent-areas, .rent-howto, .rent-faq { padding-top: 14px; padding-bottom: 14px; }
+.rent-top { padding-top: 26px; }
+.rent-top .rent-notice { margin-bottom: 12px; }
+.rent-top .filters { margin-bottom: 0; }
+.rent-guide .sec-h:first-child, .rent-prices .container > .sec-h:first-child, .rent-areas .container > .sec-h:first-child, .rent-howto .container > .sec-h:first-child, .rent-faq .container > .sec-h:first-child { margin-top: 0; }
+.rent-guide .area-photos.n3 figure:first-child img { min-height: 260px; }
+.estate-listing[data-listing="rent"] { padding-top: 20px; }
