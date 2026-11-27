@@ -1,0 +1,87 @@
+{
+  "name": "Aileen Villas Rawai",
+  "developer": "Trinity Property Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Pool villa (built to order)",
+  "location": "Rawai",
+  "area": "Rawai",
+  "shortDescription": "Two built-to-order 4-bedroom villas by Trinity Property on a 1,600 sqm site in Rawai, close to Wat Sawang Arom and Rawai Beach.",
+  "description": "Aileen Villas Rawai is a very small project by Trinity Property, the developer of the Aileen Villas communities in Layan and Sakhu and of Aileen Rawai Townhouses. It consists of two four-bedroom, four-bathroom villas on a site of about 1,600 sqm, built to order with a construction period of about 10 months.\nThe site is in central Rawai, a few minutes' walk from Wat Sawang Arom, a Lotus supermarket and local cafes, and about 400 m from Rawai Beach. Each villa has two parking spaces, and the plot is covered by 24-hour security and CCTV.\nPayments follow construction: a THB 200,000 reservation, 30% on contract, then stages for the foundation, structure, walls, finishing and 5% on handover. No asking price is published and the developer has listed the project as sold out, so please ask us whether a plot is still available.",
+  "cardDescription": "Two built-to-order 4-bedroom villas by Trinity Property in central Rawai.",
+  "seoTitle": "Aileen Villas Rawai | Built-to-Order 4-Bedroom Villas",
+  "seoDescription": "Aileen Villas Rawai by Trinity Property: two built-to-order 4-bedroom, 4-bathroom villas on a 1,600 sqm site, about 400 m from Rawai Beach, Phuket.",
+  "primaryKeyword": "Aileen Villas Rawai",
+  "secondaryKeywords": [
+    "villas for sale Rawai",
+    "Trinity Property Rawai villas",
+    "Aileen Villas Phuket"
+  ],
+  "constructionStatus": "Status on request",
+  "completionDate": "Built to order (about 10 months)",
+  "totalUnits": "2",
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "unitTypes": [
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4
+    }
+  ],
+  "facilities": [
+    "Two parking spaces per villa",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "paymentPlan": [
+    "Reservation deposit THB 200,000",
+    "30% on contract signing",
+    "20% on foundation posts",
+    "20% on concrete structure",
+    "15% on walls and door frames",
+    "10% on floor finishing, painting, doors and windows",
+    "5% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "0.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Wat Sawang Arom",
+      "distance": "0.4 km / 1 minute",
+      "mode": "driving"
+    },
+    {
+      "place": "Lotus Rawai",
+      "distance": "770 m / 10 minutes walk",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "46.5 km / about 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/aileen-villas-rawai"
+    }
+  ],
+  "researchNotes": "Added 2026-11-27. Separate from Aileen Villas Layan and Aileen Rawai Townhouses (both on site). Source: FazWaz mirror only (FazWaz blocked). Built-up and plot sizes, floors, ownership and price not published. A developer-reliability site (asterofasia, Russian) says the developer lists it as sold out; stated as such. No images and no Sale entry (no price).",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "relatedProjects": [
+    "aileen-rawai-townhouses",
+    "aileen-villas-layan"
+  ]
+}

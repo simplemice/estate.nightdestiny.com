@@ -189,6 +189,7 @@ content:
       - { name: canonicalUrl, label: Canonical URL override (only when needed), type: string, description: "Leave EMPTY normally: the page canonical is automatic. Must start with https://estate.nightdestiny.com/ or it is ignored." }
       - { name: breadcrumbLabel, label: Breadcrumb label, type: string, description: "Empty = project name." }
       - { name: noindex, label: Hide from search engines (noindex, also removed from sitemap), type: boolean, default: false }
+      - { name: relatedProjects, label: Related projects (shown first under "Related projects"), type: string, list: true, description: "Optional. File names of sibling projects without .json, e.g. ayana-heights. Phases, same developer or same estate." }
       - { name: researchNotes, label: Internal research notes (not shown on the website), type: text }
       - { name: category, label: Category, type: select, required: true, default: Condominium, options: { values: [Villa, Townhouse, Condominium] } }
       - { name: priceStatus, label: Price status, type: select, options: { values: [advertised, on-request] } }

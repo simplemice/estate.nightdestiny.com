@@ -64,7 +64,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz"
     }
   ],
-  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz. Images replaced 2026-11-21 at the owner request (previous gallery files were text banners): sources thetitlekuartz.com/images/hero.jpg, thetitleresidence.com (interior), phuket-realestate.com (2 interior renders). Old files g1-g4 kept on disk, no longer referenced. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
+  "researchNotes": "Phase 4 (2026-11-19) a property portal fields filled where empty: floors. a property portal is a portal; values not confirmed by the developer. | Phase 4 (2026-11-19) portal unit listings (a sample, may not cover every unit type) used for: bedrooms, bathrooms, built-up area. FazWaz audit 2026-11-21: filled unitTypes (+6). Source https://www.fazwaz.com/projects/thailand/phuket/phuket-town/karon/the-kuartz. Images replaced 2026-11-21 at the owner request (previous gallery files were text banners): sources thetitlekuartz.com/images/hero.jpg, thetitleresidence.com (interior), phuket-realestate.com (2 interior renders). Old files g1-g4 kept on disk, no longer referenced. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23 from the FazWaz project page (drive distances). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced. 2026-11-27 SEO audit: title/meta description updated.",
   "bedroomsMin": 1,
   "bedroomsMax": 2,
   "bathroomsMin": 1,
@@ -139,5 +139,7 @@
       "distance": "6.4 km",
       "mode": "straight line"
     }
-  ]
+  ],
+  "seoTitle": "The Title Kuartz Karon | 1-2 Bedroom Condos near the Beach",
+  "seoDescription": "The Kuartz by The Title (Rhom Bho Property): 198 one- and two-bedroom condos and penthouses of 32-97 sqm near Karon Beach, Phuket. Pre-sale from THB 5.8M."
 }

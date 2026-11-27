@@ -1,0 +1,125 @@
+{
+  "name": "Luna Vista by Wilawan",
+  "developer": "Wilawan Greenplace Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Thep Krasattri (Thalang, towards Nai Yang)",
+  "area": "Thalang",
+  "shortDescription": "Gated estate of 19 two-storey 3- and 4-bedroom pool villas of 500 to 615 sqm in Thalang, near Nai Yang and the airport.",
+  "description": "Luna Vista by Wilawan is a gated estate of 19 villas on about 11.5 rai in Thalang, inland from Nai Yang and Nai Thon beaches and about 10 to 15 minutes from Phuket airport. It was launched in January 2025 by Wilawan Greenplace, with completion scheduled for Q4 2027.\nThere are two villa types. The three-bedroom Dara (about 501 sqm on a 624 sqm plot) has a 3.8 x 9 m pool with jacuzzi and a rooftop garden; the four-bedroom Luna (about 503 to 613 sqm on plots of 756 to 767 sqm) has a 4 x 10 m pool. Villas are two storeys, with EV charging points and solar power in the estate, and a furniture package is offered separately.\nUWC Thailand is about 3.5 km away and Thalang Hospital about 4 km. Foreign buyers take a registered lease of up to 30 years with renewal options; the common fee is a fixed amount per villa.",
+  "cardDescription": "19 two-storey 3-4 bedroom pool villas in Thalang, close to Nai Yang and the airport.",
+  "seoTitle": "Luna Vista by Wilawan | Pool Villas in Thalang, Phuket",
+  "seoDescription": "Luna Vista by Wilawan: 19 two-storey 3-4 bedroom pool villas of 501-613 sqm in Thalang, near Nai Yang Beach and the airport. Due Q4 2027, from THB 29.9M.",
+  "primaryKeyword": "Luna Vista by Wilawan",
+  "secondaryKeywords": [
+    "Wilawan Luna Vista",
+    "pool villas for sale Thalang",
+    "villas near Nai Yang Beach"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Q4 2027",
+  "totalUnits": "19",
+  "floors": "2",
+  "startingPrice": 29900000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 6,
+  "builtUpMin": 501,
+  "builtUpMax": 613.45,
+  "landMin": 624,
+  "landMax": 767,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Dara 3 Bedroom Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "501",
+      "landSqm": "624",
+      "price": 29900000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Luna 4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "503.45",
+      "landSqm": "756-767",
+      "price": 33300000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Luna 4 Bedroom Pool Villa (large plot)",
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "size": "613.45",
+      "landSqm": "756-767",
+      "price": 36900000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool with jacuzzi in every villa",
+    "Rooftop garden (Dara)",
+    "EV charging points",
+    "Solar power system",
+    "Landscaped gardens",
+    "Covered parking",
+    "24/7 security and CCTV"
+  ],
+  "commonAreaFee": "THB 12,000 per month (fixed)",
+  "nearby": [
+    {
+      "place": "Nai Yang and Nai Thon beaches",
+      "distance": "about 10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Nai Thon Beach",
+      "distance": "7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "UWC Thailand",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "7.5 km / 13 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/wilawan-luna-vista-phuket"
+    },
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/thalang/thep-krasattri/luna-vista-by-wilawan"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/wilawan-luna-vista-phuket",
+  "researchNotes": "Added 2026-11-27. Location: FazWaz Thep Krasattri; Keller Henson Naiyang, Thalang. Prices THB 29.9-36.9M (Keller Henson, Aug 2026; FazWaz 4-bed up to 37.08M). Sinking fund THB 100,000 (fixed vs \"per sqm\" conflict), not shown. Payment plan conflicts within Keller Henson, not shown. Freehold for Thai buyers per Keller Henson. Separate from Wilawan Luxury Villas (not on site). No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "anchan-emerald"
+  ]
+}

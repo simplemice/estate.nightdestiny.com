@@ -1,0 +1,98 @@
+{
+  "name": "Sudara Residences",
+  "developer": "Princess Villa Ltd. (Lan Kwai Fong Group and Paradise Group joint venture)",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Bang Tao (Cherng Talay)",
+  "area": "Bang Tao",
+  "shortDescription": "Low-rise condominium of 220 one- to three-bedroom residences about 500 m from Bang Tao Beach, by the team behind Andara Resort.",
+  "description": "Sudara Residences is a seven-storey, low-density condominium about 500 m from Bang Tao Beach. Phase 1 has 220 residences of one to three bedrooms, about 52 to 110 sqm, with some ground-floor units having private gardens and pools. It is developed by Princess Villa Ltd., a joint venture of Hong Kong's Lan Kwai Fong Group and Phuket's Paradise Group; rental and concierge services are run by the team that manages Andara Resort & Villas in Kamala.\nThe shared facilities centre on a clubhouse pavilion with a fitness centre and yoga room, pools, co-working space, a kids' club and a residents' rooftop lounge. Parking is underground, with EV charging, and the building uses rooftop solar panels and rainwater recycling. Boat Avenue and the Laguna area are a short drive away.\nThe project is under construction with completion planned for Q3 2027. Units are offered freehold within the foreign quota, with leasehold also available.",
+  "cardDescription": "Low-rise 220-unit condominium 500 m from Bang Tao Beach, run by the Andara Resort team.",
+  "seoTitle": "Sudara Residences Bang Tao | Low-Rise Condos near the Beach",
+  "seoDescription": "Sudara Residences, Bang Tao: low-rise condominium of 220 one- to three-bedroom units, 52-110 sqm, 500 m from Bang Tao Beach. Completion Q3 2027.",
+  "primaryKeyword": "Sudara Residences",
+  "secondaryKeywords": [
+    "Sudara Residences Phuket",
+    "condos for sale Bang Tao Beach",
+    "Lan Kwai Fong Phuket condo"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Q3 2027",
+  "totalUnits": "220 (phase 1)",
+  "floors": "7",
+  "startingPrice": 13353590,
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 52,
+  "builtUpMax": 110,
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "52",
+      "price": 13353590,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "80",
+      "price": 21824649,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "110",
+      "price": 26292500,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Swimming pools",
+    "Fitness centre and yoga room",
+    "Co-working space",
+    "Kids' club",
+    "Residents' rooftop lounge",
+    "Underground parking with EV charging",
+    "Rooftop solar panels and rainwater recycling",
+    "Rental and concierge services"
+  ],
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "500 m",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Lan Kwai Fong Group feature (28 Jul 2024)",
+      "url": "https://lankwaifong.com/blogs/features/sudara-residences-ushering-in-a-new-era-of-exclusive-boutique-living-in-phuket"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/princess-villa-ltd/sudara-residences-1"
+    }
+  ],
+  "priceSourceUrl": "https://papayaproperty.com/princess-villa-ltd/sudara-residences-1",
+  "researchNotes": "Added 2026-11-27. Sizes: Papaya description says 52-144 sqm, layouts 52-110 (layouts used). Prices from Papaya (undated, 2026): THB 13.35-26.29M. Investment-return claims (10%) from press not shown. PropertyGuru award 2024 not shown (not verified on read page). No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

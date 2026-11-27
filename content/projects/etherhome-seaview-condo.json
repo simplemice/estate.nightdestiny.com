@@ -1,0 +1,104 @@
+{
+  "name": "Etherhome Seaview Condo",
+  "developer": "Eden Home Development (Thailand) Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Boutique sea-view condominium",
+  "location": "Rawai",
+  "area": "Rawai",
+  "shortDescription": "Boutique 40-unit condominium in two six-storey buildings in Rawai, with 1- to 3-bedroom sea-view apartments and a rooftop level.",
+  "description": "Etherhome Seaview Condo is a small condominium of 40 apartments in two six-storey buildings in Rawai, at the southern tip of Phuket. It was designed by the Phuket architecture firm Dreamscape and is developed by Eden Home Development, the company behind Eden Rise. The low unit count means only a handful of apartments per floor.\nApartments come in five layouts, from a one-bedroom of about 51 sqm to three-bedroom units of about 182 sqm, plus a top-floor three-bedroom with a large private terrace. Shared facilities include a pool, gym, lobby, garden, two lifts per building, 24-hour security, and concierge, housekeeping and laundry services. Pets are not allowed.\nRawai, Nai Harn and Ya Nui beaches are a few minutes' drive away and Chalong Pier about 2.3 km. The portal lists the building as completed in June 2026; no current asking prices are published, so contact us for availability.",
+  "cardDescription": "Boutique 40-unit sea-view condominium in Rawai with 1-3 bedroom apartments.",
+  "seoTitle": "Etherhome Seaview Condo Rawai | Boutique Sea-View Condos",
+  "seoDescription": "Etherhome Seaview Condo, Rawai: boutique 40-unit condominium in two 6-storey buildings with 1-3 bedroom sea-view apartments of about 51-182 sqm.",
+  "primaryKeyword": "Etherhome Seaview Condo",
+  "secondaryKeywords": [
+    "sea view condo Rawai",
+    "Etherhome Rawai",
+    "condos for sale Rawai Phuket"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Jun 2026 (portal)",
+  "totalUnits": "40",
+  "floors": "6",
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 51,
+  "builtUpMax": 182.2,
+  "unitTypes": [
+    {
+      "name": "Type A 1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "51"
+    },
+    {
+      "name": "Type B 2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "102"
+    },
+    {
+      "name": "Type C 2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "128.5"
+    },
+    {
+      "name": "Type D 3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "182.2"
+    },
+    {
+      "name": "Type E 3 Bedroom with private terrace",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "610.35 (incl. terrace)"
+    }
+  ],
+  "facilities": [
+    "Swimming pool",
+    "Gym",
+    "Reception / lobby",
+    "Garden",
+    "Two lifts per building",
+    "Car parking",
+    "Laundry and housekeeping",
+    "Concierge",
+    "24-hour security and CCTV"
+  ],
+  "commonAreaFee": "THB 80 per sqm per month",
+  "sinkingFund": "THB 800 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "5-10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Chalong Pier",
+      "distance": "2.3 km",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Thaiger (sponsored article, 27 Aug 2024)",
+      "url": "https://thethaiger.com/thai-life/property/inside-etherhome-the-40-unit-luxury-seaview-condo-in-rawai-phuket"
+    },
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/etherhome-seaview-condo"
+    }
+  ],
+  "researchNotes": "Added 2026-11-27. Sizes from a sponsored article (2024); Type E 610.35 sqm is stated as the largest unit with private terrace and is shown as including terrace. Status \"Completed, Jun 2026\" from FazWaz mirror; no units listed there, so no price shown and no Sale entry. Search snippets mention prices from about THB 7.4M (not verified on a read page). Ownership not stated. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": []
+}

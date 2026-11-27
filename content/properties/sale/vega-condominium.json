@@ -1,0 +1,17 @@
+{
+  "title": "VEGA Condominium",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "project": "content/projects/vega-condominium.json",
+  "propertyType": "Condo",
+  "location": "Cherng Talay",
+  "currency": "THB",
+  "shortDescription": "Seven-storey Cherng Talay condominium of lake-view studios and one-bedroom units from THB 3.2M.",
+  "description": "Seven-storey condominium of about 146 studios and one-bedroom apartments of 34 to 52 sqm with lake and garden views in Cherng Talay.",
+  "facilities": [],
+  "nearby": [],
+  "images": [],
+  "availability": "Available",
+  "price": 3200000
+}

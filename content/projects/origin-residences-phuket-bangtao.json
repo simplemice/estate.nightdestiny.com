@@ -1,0 +1,135 @@
+{
+  "name": "Origin Residences Phuket Bangtao",
+  "developer": "Origin Property PCL",
+  "category": "Condominium",
+  "projectType": "Low-rise resort condominium",
+  "location": "Bang Tao (Soi Bang Tao 42, Cherng Talay)",
+  "area": "Bang Tao",
+  "shortDescription": "Low-rise Origin Property condominium of 294 one- and two-bedroom units in three seven-storey buildings, about 400 m from Bang Tao Beach.",
+  "description": "Origin Residences Phuket Bangtao is a low-rise condominium by Origin Property, a Bangkok-listed developer, on Soi Bang Tao 42 behind Andaman Riviera, about 400 m from Bang Tao Beach. It has 294 units in three seven-storey buildings over a basement, on about 4 rai of land. It is a separate project from Origin's larger So Origin Bangtao Beach.\nThe layouts are simple: one-bedroom residences of about 40 sqm, two-bedroom suites of about 60 sqm and two-bedroom penthouses of about 86 sqm. Facilities include a sky pool and pool bar, a spa zone with heated and cold pools, sauna and steam room, a gym, co-working space, a pet lounge and a shuttle service. Agents note that parking covers only about 45% of units.\nBoat Avenue is about 2.6 km away and Laguna Golf about 5 km. Completion is planned for Q3 2028. Foreign buyers are offered leasehold, with freehold for Thai buyers.",
+  "cardDescription": "Low-rise 294-unit Origin Property condominium about 400 m from Bang Tao Beach.",
+  "seoTitle": "Origin Residences Phuket Bangtao | Condos near Bang Tao Beach",
+  "seoDescription": "Origin Residences Phuket Bangtao: low-rise condominium of 294 one- and two-bedroom units, 40-86 sqm, about 400 m from Bang Tao Beach. Completion Q3 2028.",
+  "primaryKeyword": "Origin Residences Phuket Bangtao",
+  "secondaryKeywords": [
+    "Origin Residences Bangtao",
+    "Origin Property Phuket condo",
+    "condos for sale Bang Tao Beach"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Q3 2028",
+  "totalUnits": "294",
+  "floors": "7 + basement",
+  "startingPrice": 5000000,
+  "bedroomsMin": 1,
+  "bedroomsMax": 2,
+  "bathroomsMin": 1,
+  "bathroomsMax": 2,
+  "builtUpMin": 40.2,
+  "builtUpMax": 85.85,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom Residence",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "40.2",
+      "price": 5000000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "2 Bedroom Suite",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "60.4",
+      "price": 6900000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "2 Bedroom Penthouse",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "85.85",
+      "price": 10700000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Sky pool and pool bar",
+    "Spa zone with heated and cold pools",
+    "Sauna and steam room",
+    "Gym",
+    "Co-working space",
+    "Pet lounge",
+    "Shuttle service",
+    "Garden",
+    "Covered parking (about 45% of units)",
+    "24/7 security and CCTV"
+  ],
+  "commonAreaFee": "THB 92 per sqm per month",
+  "sinkingFund": "THB 800 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "400 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Boat Avenue",
+      "distance": "2.6 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Surin Beach",
+      "distance": "2.9 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Blue Tree Phuket",
+      "distance": "3.8 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "5.1 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Wattanapat Hospital Phuket",
+      "distance": "4.4 km",
+      "mode": "straight-line"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "18 km",
+      "mode": "straight-line"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/origin-residences-phuket-bangtao"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/origin-property/origin-residences"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/origin-residences-phuket-bangtao",
+  "researchNotes": "Added 2026-11-27. Distinct from So Origin Bangtao Beach (545 units); Papaya page mixes the names and quotes ~545 residences, so its unit count is not used. Status conflict: Papaya \"under construction\", Keller Henson \"construction to start Q2 2027\"; shown as pre-sale. Completion Q3 2028 (both); Papaya overview also says 2026. Prices: Keller Henson THB 5.0-10.7M (Aug 2026), Papaya THB 5.41-12.15M. Ownership conflicts across pages; Keller Henson leasehold for foreigners used. Beach 400 m (Keller Henson) vs 900 m (Papaya). Rental-yield claims not shown. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "so-origin-kata-phuket",
+    "the-origin-kathu-patong"
+  ]
+}

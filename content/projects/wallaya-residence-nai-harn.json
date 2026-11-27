@@ -1,0 +1,115 @@
+{
+  "name": "Wallaya Residence Nai Harn",
+  "developer": "Wallaya Villas",
+  "category": "Condominium",
+  "projectType": "Low-rise condominium",
+  "location": "Nai Harn (Rawai)",
+  "area": "Rawai",
+  "shortDescription": "Off-plan low-rise condominium of 285 studio to 3-bedroom apartments in seven-storey buildings near Nai Harn Beach, by Wallaya Villas.",
+  "description": "Wallaya Residence Nai Harn is the first condominium by Wallaya Villas, a developer better known for pool-villa estates such as The Harmony by Wallaya Villas in Thalang. It is planned as a group of seven-storey buildings with 285 apartments, about 2 km from Nai Harn Beach and close to Rawai.\nUnits are compact and priced evenly, at about THB 125,000 per sqm: studios of 36 sqm, one-bedrooms of 54 sqm, two-bedrooms of 90 sqm and three-bedrooms of 94 sqm. The shared facilities are generous for the size of the units: a pool and children's pool, gym, spa, co-working room, kids' club, restaurant and rooftop areas.\nThe project is off plan with completion of the first phase planned for December 2027. Advertised units are mostly leasehold, with freehold available at a premium within the foreign quota.",
+  "cardDescription": "Off-plan 285-unit low-rise condominium near Nai Harn Beach, studios to 3 bedrooms.",
+  "seoTitle": "Wallaya Residence Nai Harn | Condos near Nai Harn Beach",
+  "seoDescription": "Wallaya Residence Nai Harn: off-plan low-rise condominium of 285 studio to 3-bedroom units, 36-94 sqm, about 2 km from Nai Harn Beach. From THB 4.5M.",
+  "primaryKeyword": "Wallaya Residence Nai Harn",
+  "secondaryKeywords": [
+    "condos for sale Nai Harn",
+    "Wallaya Residence Rawai",
+    "Nai Harn condominium off plan"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Dec 2027 (phase 1)",
+  "totalUnits": "285",
+  "floors": "7",
+  "startingPrice": 4500000,
+  "bedroomsMin": 0,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 36,
+  "builtUpMax": 94,
+  "ownership": [
+    "Leasehold",
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "36",
+      "price": 4500000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "54",
+      "price": 6750000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "90",
+      "price": 11250000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "94",
+      "price": 11750000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Swimming pool and children's pool",
+    "Gym",
+    "Spa",
+    "Co-working and meeting room",
+    "Kids' club",
+    "Restaurant",
+    "Rooftop areas",
+    "Lifts",
+    "24-hour security and CCTV"
+  ],
+  "commonAreaFee": "THB 80 per sqm per month",
+  "nearby": [
+    {
+      "place": "Nai Harn Beach",
+      "distance": "2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/wallaya-residence-nai-harn"
+    },
+    {
+      "label": "VillaCarte project page",
+      "url": "https://villacarte.com/en/sale/phuket/wallaya-residence"
+    },
+    {
+      "label": "Thailand-Property project page",
+      "url": "https://www.thailand-property.com/condo/48834/wallaya-residence-nai-harn"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/wallaya-residence-nai-harn",
+  "researchNotes": "Added 2026-11-27. Separate from The Harmony by Wallaya Villas (Thalang, already on site). Buildings conflict: 3 (thailand-property, FazWaz overview) vs 4 (FazWaz header), not shown. Completion Dec 2027 for phase 1 (VillaCarte); FazWaz \"off plan\". Prices THB 4.5-14.57M (FazWaz mirror); freehold premium THB 10,000/sqm. Sinking fund basis conflicts (THB 1,000 per sqm vs fixed), not shown. Rawai Beach 1.6 km is a district figure, not used. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "the-harmony-by-wallaya-villas"
+  ]
+}

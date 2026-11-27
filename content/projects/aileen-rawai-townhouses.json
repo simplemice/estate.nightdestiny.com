@@ -171,5 +171,9 @@
     "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-a.jpg",
     "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-b.jpg",
     "/assets/images/projects/aileen-rawai-townhouses/bedroom-type-b-2.jpg"
+  ],
+  "relatedProjects": [
+    "aileen-villas-rawai",
+    "aileen-villas-layan"
   ]
 }

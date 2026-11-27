@@ -1,5 +1,481 @@
 [
  {
+  "id": "aileen-villas-rawai",
+  "name": "Aileen Villas Rawai",
+  "url": "/projects/aileen-villas-rawai/",
+  "category": "Villa",
+  "propertyType": "Pool villa (built to order)",
+  "developer": "Trinity Property Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Status on request",
+  "completionDate": "Built to order (about 10 months)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "anchan-emerald",
+  "name": "Anchan Emerald",
+  "url": "/projects/anchan-emerald/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Pearl Island Property Co., Ltd. (Anchan Villas)",
+  "location": "Pru Jampa (Thep Krasattri, Thalang)",
+  "startingPrice": 27700000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   354,
+   354
+  ],
+  "status": "Under construction",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "ayana-commons",
+  "name": "AYANA Commons",
+  "url": "/projects/ayana-commons/",
+  "category": "Condominium",
+  "propertyType": "Mixed-use low-rise condominium",
+  "developer": "T.H. Group Phuket Co., Ltd.",
+  "location": "Bang Tao (Cherng Talay)",
+  "startingPrice": 3760000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   1
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   32,
+   32
+  ],
+  "status": "Status on request",
+  "completionDate": null,
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "banyan-tree-grand-residences-seaview",
+  "name": "Banyan Tree Grand Residences Seaview",
+  "url": "/projects/banyan-tree-grand-residences-seaview/",
+  "category": "Condominium",
+  "propertyType": "Branded low-rise residences",
+  "developer": "Banyan Group (Laguna Property)",
+  "location": "Laguna Phuket (Bang Tao Beach)",
+  "startingPrice": 82200000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   3
+  ],
+  "bathrooms": [
+   3,
+   3
+  ],
+  "builtUpArea": [
+   354,
+   498
+  ],
+  "status": "Status on request",
+  "completionDate": "Q1 2026 (agent figure, handover not confirmed)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "botanica-grand-sea-through",
+  "name": "Botanica Grand Sea Through",
+  "url": "/projects/botanica-grand-sea-through/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Rawai (between Chalong and Nai Harn)",
+  "startingPrice": 28800000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   401.69,
+   401.69
+  ],
+  "status": "Status on request",
+  "completionDate": "Q3 2026 (agent figure, not confirmed)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "etherhome-seaview-condo",
+  "name": "Etherhome Seaview Condo",
+  "url": "/projects/etherhome-seaview-condo/",
+  "category": "Condominium",
+  "propertyType": "Boutique sea-view condominium",
+  "developer": "Eden Home Development (Thailand) Co., Ltd.",
+  "location": "Rawai",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   51,
+   182.2
+  ],
+  "status": "Completed",
+  "completionDate": "Jun 2026 (portal)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "hightone-seaview-villas",
+  "name": "HighTone Seaview Villas & Garden",
+  "url": "/projects/hightone-seaview-villas/",
+  "category": "Villa",
+  "propertyType": "Sea-view pool villa",
+  "developer": "Phuket9 Real Estate Development Co., Ltd.",
+  "location": "Karon",
+  "startingPrice": 30910000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   5
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   530,
+   590
+  ],
+  "status": "Under construction",
+  "completionDate": "Q1 2026 target (agent figure; check current stage)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "intercontinental-residences-kamala",
+  "name": "The Residences at InterContinental Phuket Resort",
+  "url": "/projects/intercontinental-residences-kamala/",
+  "category": "Condominium",
+  "propertyType": "Hotel-branded residences",
+  "developer": "Proud Real Estate PCL (with IHG Hotels & Resorts)",
+  "location": "Kamala",
+  "startingPrice": 13600000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   5
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   58.86,
+   100.66
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Sep 2027",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "layan-verde",
+  "name": "Layan Verde",
+  "url": "/projects/layan-verde/",
+  "category": "Condominium",
+  "propertyType": "Resort condominium",
+  "developer": "VillaCarte Group",
+  "location": "Layan (Cherng Talay)",
+  "startingPrice": 6500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   5
+  ],
+  "bathrooms": [
+   1,
+   5
+  ],
+  "builtUpArea": [
+   38.8,
+   629.3
+  ],
+  "status": "Under construction",
+  "completionDate": "2028 (phased)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "luna-vista-by-wilawan",
+  "name": "Luna Vista by Wilawan",
+  "url": "/projects/luna-vista-by-wilawan/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Wilawan Greenplace Co., Ltd.",
+  "location": "Thep Krasattri (Thalang, towards Nai Yang)",
+  "startingPrice": 29900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   6
+  ],
+  "builtUpArea": [
+   501,
+   613.45
+  ],
+  "status": "Under construction",
+  "completionDate": "Q4 2027",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "origin-residences-phuket-bangtao",
+  "name": "Origin Residences Phuket Bangtao",
+  "url": "/projects/origin-residences-phuket-bangtao/",
+  "category": "Condominium",
+  "propertyType": "Low-rise resort condominium",
+  "developer": "Origin Property PCL",
+  "location": "Bang Tao (Soi Bang Tao 42, Cherng Talay)",
+  "startingPrice": 5000000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   2
+  ],
+  "bathrooms": [
+   1,
+   2
+  ],
+  "builtUpArea": [
+   40.2,
+   85.85
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Q3 2028",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "residences-at-garrya-phuket",
+  "name": "Residences at Garrya Phuket",
+  "url": "/projects/residences-at-garrya-phuket/",
+  "category": "Condominium",
+  "propertyType": "Beachfront hotel residences",
+  "developer": "Banyan Group (Laguna Property)",
+  "location": "Laguna Phuket (Bang Tao Beach)",
+  "startingPrice": 15400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   57,
+   220
+  ],
+  "status": "Under construction",
+  "completionDate": "Q3 2026 (agent figure)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "sudara-residences",
+  "name": "Sudara Residences",
+  "url": "/projects/sudara-residences/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Princess Villa Ltd. (Lan Kwai Fong Group and Paradise Group joint venture)",
+  "location": "Bang Tao (Cherng Talay)",
+  "startingPrice": 13353590,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   52,
+   110
+  ],
+  "status": "Under construction",
+  "completionDate": "Q3 2027",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "the-headland-cape-yamu",
+  "name": "The Headland Cape Yamu",
+  "url": "/projects/the-headland-cape-yamu/",
+  "category": "Villa",
+  "propertyType": "Sea-view villa",
+  "developer": "P3 Estates Management Co., Ltd.",
+  "location": "Cape Yamu (Pa Khlok, Thalang)",
+  "startingPrice": null,
+  "currency": "THB",
+  "priceStatus": "on-request",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   4,
+   4
+  ],
+  "builtUpArea": [
+   null,
+   null
+  ],
+  "status": "Completed",
+  "completionDate": "Dec 2023",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "vega-condominium",
+  "name": "VEGA Condominium",
+  "url": "/projects/vega-condominium/",
+  "category": "Condominium",
+  "propertyType": "Lake-view condominium",
+  "developer": "Metrix Ideal Group",
+  "location": "Cherng Talay (Bang Tao)",
+  "startingPrice": 3200000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   1
+  ],
+  "bathrooms": [
+   1,
+   1
+  ],
+  "builtUpArea": [
+   34,
+   52
+  ],
+  "status": "Status on request",
+  "completionDate": "Q3 2026 (agent figure)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "vista-del-mar-phuket",
+  "name": "Vista Del Mar Phuket",
+  "url": "/projects/vista-del-mar-phuket/",
+  "category": "Villa",
+  "propertyType": "Sea-view pool villa",
+  "developer": "United Developers Corporation Co., Ltd.",
+  "location": "Nai Thon (Sakhu, Thalang)",
+  "startingPrice": 29400000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   300,
+   700
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Built to order (about 12-15 months)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
+  "id": "wallaya-residence-nai-harn",
+  "name": "Wallaya Residence Nai Harn",
+  "url": "/projects/wallaya-residence-nai-harn/",
+  "category": "Condominium",
+  "propertyType": "Low-rise condominium",
+  "developer": "Wallaya Villas",
+  "location": "Nai Harn (Rawai)",
+  "startingPrice": 4500000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   36,
+   94
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Dec 2027 (phase 1)",
+  "imageCount": 1,
+  "lastVerified": "2026-11-27"
+ },
+ {
   "id": "aura-condominium",
   "name": "Aura Condominium",
   "url": "/projects/aura-condominium/",

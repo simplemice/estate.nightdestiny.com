@@ -25,6 +25,13 @@
   ]
  },
  {
+  "name": "Bang Tao (Cherng Talay)",
+  "projects": [
+   "ayana-commons",
+   "sudara-residences"
+  ]
+ },
+ {
   "name": "Bang Tao (Cherngtalay)",
   "projects": [
    "purita-phuket-bangtao"
@@ -37,9 +44,21 @@
   ]
  },
  {
+  "name": "Bang Tao (Soi Bang Tao 42, Cherng Talay)",
+  "projects": [
+   "origin-residences-phuket-bangtao"
+  ]
+ },
+ {
   "name": "Bang Tao / Choeng Thale (Laguna Phuket)",
   "projects": [
    "bellaguna-golf-residences-hibiscus"
+  ]
+ },
+ {
+  "name": "Cape Yamu (Pa Khlok, Thalang)",
+  "projects": [
+   "the-headland-cape-yamu"
   ]
  },
  {
@@ -52,6 +71,12 @@
    "naturale-cherng-talay",
    "sunrise-valley",
    "villa-kirara"
+  ]
+ },
+ {
+  "name": "Cherng Talay (Bang Tao)",
+  "projects": [
+   "vega-condominium"
   ]
  },
  {
@@ -87,6 +112,7 @@
  {
   "name": "Kamala",
   "projects": [
+   "intercontinental-residences-kamala",
    "botanica-montazure",
    "rosewood-residences-kamala",
    "darayana-kamala",
@@ -100,6 +126,7 @@
  {
   "name": "Karon",
   "projects": [
+   "hightone-seaview-villas",
    "botanica-modern-sea-karon",
    "vibe-karon",
    "ever-prime-residences",
@@ -153,6 +180,8 @@
  {
   "name": "Laguna Phuket (Bang Tao Beach)",
   "projects": [
+   "banyan-tree-grand-residences-seaview",
+   "residences-at-garrya-phuket",
    "banyan-tree-beach-residences-nerea"
   ]
  },
@@ -183,6 +212,12 @@
   ]
  },
  {
+  "name": "Layan (Cherng Talay)",
+  "projects": [
+   "layan-verde"
+  ]
+ },
+ {
   "name": "Layan / Bang Tao",
   "projects": [
    "ayana-heights"
@@ -208,9 +243,21 @@
   ]
  },
  {
+  "name": "Nai Harn (Rawai)",
+  "projects": [
+   "wallaya-residence-nai-harn"
+  ]
+ },
+ {
   "name": "Nai Harn / Rawai",
   "projects": [
    "the-one-naiharn"
+  ]
+ },
+ {
+  "name": "Nai Thon (Sakhu, Thalang)",
+  "projects": [
+   "vista-del-mar-phuket"
   ]
  },
  {
@@ -254,8 +301,16 @@
   ]
  },
  {
+  "name": "Pru Jampa (Thep Krasattri, Thalang)",
+  "projects": [
+   "anchan-emerald"
+  ]
+ },
+ {
   "name": "Rawai",
   "projects": [
+   "aileen-villas-rawai",
+   "etherhome-seaview-condo",
    "vip-space-odyssey",
    "aileen-rawai-townhouses",
    "babylon-sky-garden-2",
@@ -266,6 +321,12 @@
    "adora-rawai",
    "the-title-cielo-rawai",
    "villa-sumalee"
+  ]
+ },
+ {
+  "name": "Rawai (between Chalong and Nai Harn)",
+  "projects": [
+   "botanica-grand-sea-through"
   ]
  },
  {
@@ -306,6 +367,12 @@
   "name": "Thalang (Thep Krasattri)",
   "projects": [
    "the-manour"
+  ]
+ },
+ {
+  "name": "Thep Krasattri (Thalang, towards Nai Yang)",
+  "projects": [
+   "luna-vista-by-wilawan"
   ]
  }
 ]

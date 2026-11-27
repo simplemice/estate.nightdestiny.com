@@ -1,0 +1,153 @@
+{
+  "name": "Layan Verde",
+  "developer": "VillaCarte Group",
+  "category": "Condominium",
+  "projectType": "Resort condominium",
+  "location": "Layan (Cherng Talay)",
+  "area": "Layan",
+  "shortDescription": "Large phased resort condominium of 776 units by VillaCarte near Layan Beach, from studios to five-bedroom pool residences.",
+  "description": "Layan Verde is one of the largest new residential schemes on Phuket's west coast: 776 units in seven-storey buildings on a site of about 7.7 hectares, roughly 700 m to 1 km inland from Layan Beach. The developer, VillaCarte Group, is building it in phases with completion planned for 2028.\nThe unit range is unusually wide. It starts with studios of about 39 sqm and one- to three-bedroom apartments, and goes up to \"luxury\" units with private pools and four- and five-bedroom residences of 400 to 630 sqm. Over 40% of the land is kept for landscaping and shared facilities, which include several pools, a fitness centre, spa, restaurants and a cafe, co-working space, a kids' area and a sky garden.\nThe Laguna golf course and Boat Avenue are about 10 minutes away and the airport about 20 minutes. Some units are sold in the foreign freehold quota and others on leasehold, so check the title of each unit. Rental-return programmes advertised for this project are not shown here.",
+  "cardDescription": "Phased 776-unit resort condominium near Layan Beach, from studios to 5-bedroom pool residences.",
+  "seoTitle": "Layan Verde Phuket | Condos near Layan Beach by VillaCarte",
+  "seoDescription": "Layan Verde, Layan: phased resort condominium of 776 units by VillaCarte, from studios to 5-bedroom pool residences, about 700 m from Layan Beach.",
+  "primaryKeyword": "Layan Verde",
+  "secondaryKeywords": [
+    "condos for sale Layan Beach",
+    "Layan Verde VillaCarte",
+    "Layan Verde condominium"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "2028 (phased)",
+  "totalUnits": "776",
+  "floors": "7",
+  "startingPrice": 6500000,
+  "bedroomsMin": 0,
+  "bedroomsMax": 5,
+  "bathroomsMin": 1,
+  "bathroomsMax": 5,
+  "builtUpMin": 38.8,
+  "builtUpMax": 629.3,
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio Premium",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "38.8",
+      "price": 6500000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "1 Bedroom Premium",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "53.7",
+      "price": 9700000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "2 Bedroom Premium",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "88.5",
+      "price": 14800000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "3 Bedroom Premium",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "146.4",
+      "price": 22800000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "3 Bedroom Luxury with private pool",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "174.9",
+      "price": 28000000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "5 Bedroom Luxury with private pool",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "629.3",
+      "price": 128400000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Several swimming pools",
+    "Fitness centre",
+    "Spa",
+    "Restaurants, bar and cafe",
+    "Co-working space",
+    "Kids' area",
+    "Sky garden",
+    "Parking",
+    "24-hour security and CCTV"
+  ],
+  "commonAreaFee": "THB 65 per sqm per month",
+  "sinkingFund": "THB 500 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Layan Beach",
+      "distance": "0.7-1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "about 10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Bangkok Hospital Clinic Bangtao",
+      "distance": "4.6 km / 9 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "4.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "14.6 km / 25 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/layan-verde"
+    },
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/thalang/choeng-thale/layan-verde"
+    },
+    {
+      "label": "VillaCarte project page",
+      "url": "https://villacarte.com/en/sale/phuket/layan-verde"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/layan-verde",
+  "researchNotes": "Added 2026-11-27. Completion conflict: Keller Henson 2028 Q3 (its own text says 2026-2027), FazWaz Dec 2028, VillaCarte 12.2028; shown as 2028 (phased). Floors: 7 (Keller Henson, building list) vs \"15 floors\" in FazWaz header. Beach 0.7 km (FazWaz FAQ) vs 1.0 km vs 800 m (VillaCarte). Site 77,280 sqm (FazWaz); VillaCarte says over 108,000 sqm of site (unclear). VillaCarte says hotel management by Dusit International; not confirmed elsewhere, not shown. Guaranteed/projected returns (5-7%) not shown. Prices Keller Henson Nov 2026: THB 6.5-128.4M. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "layan-green-park-phase-2",
+    "kiara-reserve-residences"
+  ]
+}

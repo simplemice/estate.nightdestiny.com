@@ -1,0 +1,129 @@
+{
+  "name": "Residences at Garrya Phuket",
+  "developer": "Banyan Group (Laguna Property)",
+  "category": "Condominium",
+  "projectType": "Beachfront hotel residences",
+  "location": "Laguna Phuket (Bang Tao Beach)",
+  "area": "Laguna",
+  "shortDescription": "Beachfront hotel residences at the Garrya Phuket hotel in Laguna, with 1- and 2-bedroom apartments and penthouses with rooftop pools.",
+  "description": "Residences at Garrya Phuket are apartments within the new Garrya hotel on Bang Tao Beach, part of the Laguna Phuket resort run by Banyan Group. The four-storey building has only two to three units per floor: two-bedroom apartments of about 113 to 115 sqm and two- and three-bedroom penthouses of about 215 to 220 sqm with private rooftop pools. A small number of east-facing one-bedroom apartments of about 57 sqm are sold separately from the hotel programme.\nThe concept is wellness-led. Facilities include a hydrotherapy zone with hot and cold baths, sauna and steam rooms, a beach club with a lap pool and a party pool, and jungle pools. Owners can put their unit into the hotel inventory or rent it through Banyan Living, and join the Sanctuary Club and the Laguna Advantage programme (golf, school-fee and healthcare benefits).\nBanyan Group released the final phase of penthouses in November 2025. Agents give completion as Q3 2026; ask us for the current handover schedule.",
+  "cardDescription": "Beachfront Garrya hotel residences on Bang Tao Beach, Laguna, with rooftop-pool penthouses.",
+  "seoTitle": "Residences at Garrya Phuket | Beachfront Laguna Residences",
+  "seoDescription": "Residences at Garrya Phuket: beachfront hotel residences on Bang Tao Beach, Laguna, with 1-2 bedroom apartments and rooftop-pool penthouses by Banyan Group.",
+  "primaryKeyword": "Garrya Residences Phuket",
+  "secondaryKeywords": [
+    "Residences at Garrya Phuket",
+    "beachfront condos Bang Tao",
+    "Banyan Group residences Laguna"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Q3 2026 (agent figure)",
+  "totalUnits": "38 (agent figure)",
+  "floors": "4",
+  "startingPrice": 15400000,
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 57,
+  "builtUpMax": 220,
+  "unitTypes": [
+    {
+      "name": "1 Bedroom (outside hotel inventory)",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "57",
+      "price": 15400000,
+      "priceType": "Developer price (Nov 2025)"
+    },
+    {
+      "name": "2 Bedroom Type A / B",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "113-115",
+      "price": 33700000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Penthouse with rooftop pool",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "215-220",
+      "price": 67300000,
+      "priceType": "Developer price (Nov 2025)"
+    }
+  ],
+  "facilities": [
+    "Direct beach access",
+    "Beach club with lap pool and party pool",
+    "Jungle pools and reflection ponds",
+    "Hydrotherapy, sauna and steam rooms",
+    "Fitness centre",
+    "Lobby and lounge",
+    "Covered parking",
+    "24/7 security and CCTV",
+    "Community: Laguna Golf Phuket, Sanctuary Club"
+  ],
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 100 per sqm",
+  "nearby": [
+    {
+      "place": "Bang Tao Beach",
+      "distance": "beachfront",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Laguna Golf Phuket",
+      "distance": "0.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "SAii Laguna Phuket",
+      "distance": "2.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "5.0 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 30 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Banyan Group Residences project page",
+      "url": "https://www.banyangroupresidences.com/thailand/phuket/residences-at-garrya-phuket"
+    },
+    {
+      "label": "Banyan Group: final phase release (HospitalityNet, 25 Nov 2025)",
+      "url": "https://www.hospitalitynet.org/announcement/41013664.html"
+    },
+    {
+      "label": "Banyan Group launch release (22 Mar 2024)",
+      "url": "https://www.banyangroupresidences.com/news/banyan-group-launches-garrya-residences-phuket-new-beachfront-wellness-living-concept"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/garrya-residences-phuket"
+    }
+  ],
+  "priceSourceUrl": "https://www.hospitalitynet.org/announcement/41013664.html",
+  "researchNotes": "Added 2026-11-27. Prices: developer Nov 2025 release THB 15.4M (1-bed) and from about THB 67.3M (penthouses); 2-bed THB 33.7M from Keller Henson (July 2026). 2024 launch price (THB 34M) superseded. Three-bedroom penthouses only in the Nov 2025 release; Keller Henson lists 2-bed penthouses. Units 38, 4 floors and completion 2026 Q3 from Keller Henson only. Ownership: Keller Henson says leasehold for foreigners; not shown. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "banyan-tree-grand-residences-seaview",
+    "laguna-beach-residences-bayside"
+  ]
+}

@@ -177,6 +177,7 @@ for (const [name, list] of [['rent', rent], ['sale', sale], ['projects', project
   const seen = new Set();
   list.forEach((p) => { if (seen.has(p.slug)) err(p._file, `duplicate slug "${p.slug}"`); seen.add(p.slug); });
 }
+{ const known = new Set(projectsAll.map((x) => x.slug)); projectsAll.forEach((p) => (Array.isArray(p.relatedProjects) ? p.relatedProjects : []).forEach((v) => { const k = slugify(String(v).replace(/^.*\//, '').replace(/\.json$/, '')); if (!known.has(k)) err(p._file, `relatedProjects: unknown project "${v}"`); })); }
 if (!/^\d{8,15}$/.test(WA)) err('content/settings.json', 'whatsappNumber must be digits only with country code, no "+"');
 
 if (errors.length) {
@@ -1153,8 +1154,9 @@ function videoLd(p, pageUrl) {
 }
 
 function related(p, pool) {
+  const pin = (Array.isArray(p.relatedProjects) ? p.relatedProjects : []).map((v) => slugify(String(v).replace(/^.*\//, '').replace(/\.json$/, ''))); // editor-chosen sibling projects come first
   const r = pool.filter((x) => x.slug !== p.slug && x.published !== false)
-    .map((x) => ({ x, s: (x.location === p.location ? 2 : 0) + (x.propertyType === p.propertyType || x.projectType === p.projectType ? 1 : 0) + (p._kind === 'project' && x.category === p.category ? 2 : 0) }))
+    .map((x) => ({ x, s: (pin.includes(x.slug) ? 100 - pin.indexOf(x.slug) : 0) + (x.location === p.location ? 2 : 0) + (x.propertyType === p.propertyType || x.projectType === p.projectType ? 1 : 0) + (p._kind === 'project' && x.category === p.category ? 2 : 0) }))
     .sort((a, b) => b.s - a.s).slice(0, 3).map((o) => o.x);
   if (!r.length) return '';
   return `<section class="spad-2 related"><div class="container"><div class="section-title"><span>${T('related.eyebrow')}</span><h2>${T(p._kind === 'project' ? 'related.projects' : 'related.listings')}</h2></div><div class="row">${r.map((x) => (x._kind === 'project' ? projCard(x) : propCard(x))).join('')}</div></div></section>`;

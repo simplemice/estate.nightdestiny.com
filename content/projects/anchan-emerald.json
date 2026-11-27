@@ -1,0 +1,101 @@
+{
+  "name": "Anchan Emerald",
+  "developer": "Pearl Island Property Co., Ltd. (Anchan Villas)",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Pru Jampa (Thep Krasattri, Thalang)",
+  "area": "Thalang",
+  "shortDescription": "Off-plan estate of 44 three-bedroom private-pool villas by Anchan Villas in Pru Jampa, Thalang, on a 3.7-hectare site.",
+  "description": "Anchan Emerald is the latest villa estate from Pearl Island Property, the developer of the Anchan Villas brand, which has built pool-villa communities in Phuket since 2007. The project is in Pru Jampa (Thep Krasattri), in the green interior of Thalang, and has 44 villas on about 36,800 sqm of land.\nAll villas have three bedrooms and three bathrooms with a private pool and garden, on plots of roughly 475 to 555 sqm; the main built area is quoted at about 354 sqm, while one agent lists a smaller 264 sqm single-storey layout. The style is modern tropical, with teak and stone finishes. Shared features are a communal garden, parking and 24-hour security; pets are allowed.\nThe nearest beach, Nai Thon, is about 9 km away, and the airport about 16 minutes by car. The payment plan follows construction stages from a 2% reservation to 10% on handover. Foreign buyers hold the land on a registered lease.",
+  "cardDescription": "44 three-bedroom private-pool villas by Anchan Villas in green Pru Jampa, Thalang.",
+  "seoTitle": "Anchan Emerald Thalang | 3-Bedroom Pool Villas for Sale",
+  "seoDescription": "Anchan Emerald, Pru Jampa (Thalang): off-plan estate of 44 three-bedroom private-pool villas by Anchan Villas, plots of 475-555 sqm. From THB 27.7M.",
+  "primaryKeyword": "Anchan Emerald",
+  "secondaryKeywords": [
+    "Anchan Emerald pool villa",
+    "pool villas for sale Thalang",
+    "Anchan Villas new project"
+  ],
+  "constructionStatus": "Under construction",
+  "totalUnits": "44",
+  "startingPrice": 27700000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 3,
+  "bathroomsMin": 3,
+  "bathroomsMax": 3,
+  "builtUpMin": 354,
+  "builtUpMax": 354,
+  "landMin": 475,
+  "landMax": 555,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "354",
+      "landSqm": "475-555",
+      "price": 27700000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool and garden in every villa",
+    "Communal garden",
+    "Car parking",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "paymentPlan": [
+    "Reservation 2%",
+    "28% on contract signing",
+    "15% on foundation completion",
+    "15% on concrete structure",
+    "15% on walls and roof tiles",
+    "15% on floor and wall tiles and interior",
+    "10% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Nai Thon Beach",
+      "distance": "9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Victory Monument",
+      "distance": "5.4 km / 11 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "9.6 km / 16 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/thalang/thep-krasattri/anchan-emerald"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/pearl-island-property-co-ltd/anchan-emerald"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/thalang/thep-krasattri/anchan-emerald",
+  "researchNotes": "Added 2026-11-27. Brief name \"Anchan Emerald Pool Villa\"; project name is Anchan Emerald (villas with private pools). Not the older Anchan Villas (Choeng Thale) project. Size conflict: 354 sqm (FazWaz) vs 264 sqm single-storey (Papaya). Price THB 27.7M (FazWaz) vs 30.8M (Papaya). Units 44 (FazWaz) vs 46 in a search snippet. Completion 2028 in a search snippet only, not shown. Developer awards (self-reported) not shown. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "luna-vista-by-wilawan"
+  ]
+}

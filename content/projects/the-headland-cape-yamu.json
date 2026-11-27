@@ -1,0 +1,87 @@
+{
+  "name": "The Headland Cape Yamu",
+  "developer": "P3 Estates Management Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Sea-view villa",
+  "location": "Cape Yamu (Pa Khlok, Thalang)",
+  "area": "Thalang",
+  "shortDescription": "Completed estate of eight two-storey 4-bedroom villas on the tip of Cape Yamu on Phuket's east coast, next to COMO Point Yamu.",
+  "description": "The Headland is a small estate of eight villas at the tip of Cape Yamu, the narrow headland in Pa Khlok on Phuket's quieter east coast, beside the COMO Point Yamu resort. The site covers about 5,846 sqm and looks out over Phang Nga Bay. Construction was completed in December 2023.\nThe villas are two storeys with four bedrooms and four bathrooms. Residents share a pool and gym, with parking, 24-hour security and CCTV; pets are allowed. The common fee is THB 40 per sqm of plot per month. Restaurants on the cape, including The Mermaid, are within a five-minute walk, and the beach at Cape Yamu is a short walk downhill.\nCape Yamu is about 33 minutes from the airport and about 25 minutes from Phuket Town, which suits owners looking for privacy rather than a west-coast beach scene. No current asking prices are published, so contact us for resale availability.",
+  "cardDescription": "Eight completed 4-bedroom sea-view villas at the tip of Cape Yamu, next to COMO Point Yamu.",
+  "seoTitle": "The Headland Cape Yamu | Sea-View Villas in Pa Khlok, Phuket",
+  "seoDescription": "The Headland, Cape Yamu: completed estate of eight two-storey 4-bedroom sea-view villas at the tip of Cape Yamu, Pa Khlok, next to COMO Point Yamu.",
+  "primaryKeyword": "The Headland Cape Yamu",
+  "secondaryKeywords": [
+    "Cape Yamu villas for sale",
+    "sea view villa Pa Khlok",
+    "east coast Phuket villas"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Dec 2023",
+  "totalUnits": "8",
+  "floors": "2",
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "unitTypes": [
+    {
+      "name": "4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4
+    }
+  ],
+  "facilities": [
+    "Communal pool",
+    "Communal gym",
+    "Car parking",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "commonAreaFee": "THB 40 per sqm of plot per month",
+  "nearby": [
+    {
+      "place": "Cape Yamu beach",
+      "distance": "0.1-0.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "The Mermaid restaurant",
+      "distance": "300 m / 4 minutes walk",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Ban Ao Yamu School",
+      "distance": "1.4 km / 4 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "7-Eleven Ban Pa Khlok",
+      "distance": "4.3 km / 8 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "26.2 km / 33 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/thalang/pa-khlok/the-headland-cape-yamu"
+    },
+    {
+      "label": "Thailand-Property project page",
+      "url": "https://thailand-property.com/house/22990/the-headland-cape-yamu"
+    }
+  ],
+  "researchNotes": "Added 2026-11-27. Area set to Thalang (Pa Khlok is a Thalang subdistrict; no Pa Khlok location page). Units 8 (FazWaz, thailand-property) vs 7 (Juwai snippet). Built-up and plot sizes not published (a Juwai snippet gives 2,200 sqm indoor for one villa; unverified). No units listed for sale, no price, no Sale entry. Ownership not stated. Beach distance 0.1 km (FAQ) vs 0.7 km (neighbourhood block). No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": []
+}

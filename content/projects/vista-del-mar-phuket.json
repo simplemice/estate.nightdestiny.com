@@ -1,0 +1,116 @@
+{
+  "name": "Vista Del Mar Phuket",
+  "developer": "United Developers Corporation Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Sea-view pool villa",
+  "location": "Nai Thon (Sakhu, Thalang)",
+  "area": "Thalang",
+  "shortDescription": "Built-to-order two-storey pool villas of about 300 to 700 sqm on a green hillside above Nai Thon Beach, ten minutes from the airport.",
+  "description": "Vista Del Mar is a hillside villa estate in Sakhu, above Nai Thon Beach on the quieter north-west coast of Phuket. The villas are two storeys with private pools and sundecks, and come in named layouts from the three-bedroom Victoria (about 300 sqm) to the four-bedroom Monte and Grande (about 590 to 700 sqm); buyers can also order a custom design. Villas are built to order, with about 12 to 15 months of construction.\nNai Thon Beach is about 600 m away and the estate runs a shuttle to it. Shared services include a gym, restaurant, spa and beach club, with housekeeping, gardening and an in-villa chef on request. Phuket International Airport is roughly a 10-minute drive, which makes the location practical for owners who fly in and out often.\nThe published unit count varies between portals (from 18 to 22), so we do not state one. Foreign buyers take the land on a 30-year lease renewable twice.",
+  "cardDescription": "Built-to-order sea-view pool villas of 300-700 sqm on the hill above Nai Thon Beach.",
+  "seoTitle": "Vista Del Mar Phuket | Pool Villas near Nai Thon Beach",
+  "seoDescription": "Vista Del Mar, Nai Thon: built-to-order 3-4 bedroom sea-view pool villas of 300-700 sqm, 600 m from Nai Thon Beach and 10 minutes from Phuket airport.",
+  "primaryKeyword": "Vista Del Mar Phuket",
+  "secondaryKeywords": [
+    "villas for sale Nai Thon",
+    "Vista Del Mar Nai Thon",
+    "sea view pool villa Phuket airport"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Built to order (about 12-15 months)",
+  "floors": "2",
+  "startingPrice": 29400000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 300,
+  "builtUpMax": 700,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Type Victoria 3 Bedroom Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "330",
+      "price": 29400000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Type Monte 4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "560",
+      "price": 52800000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Type Grande 4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "700",
+      "price": 59800000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool and sundeck in every villa",
+    "Shuttle to Nai Thon Beach",
+    "Beach club",
+    "Gym",
+    "Restaurant",
+    "Spa",
+    "Housekeeping and gardening service",
+    "24-hour security and CCTV"
+  ],
+  "nearby": [
+    {
+      "place": "Nai Thon Beach",
+      "distance": "600 m",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "about 10 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Mingle Mall, Nai Yang",
+      "distance": "3.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Thalang Hospital",
+      "distance": "7.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "UWC Thailand",
+      "distance": "7.7 km",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/vista-del-mar-phuket"
+    },
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/thalang/sakhu/vista-del-mar-phuket"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/vista-del-mar-phuket",
+  "researchNotes": "Added 2026-11-27. Units conflict: 18 (Keller Henson), 22 (FazWaz header), 6 (FazWaz overview), not shown. Status conflict: \"15 months made to order\" vs \"completed Jan 2025\" (FazWaz) vs completion 2024 Q4 (Keller Henson); shown as pre-sale / built to order. Bedrooms 2-4 on FazWaz (a 2-bed variant), 3-4 on Keller Henson; 3-4 shown. Prices: KH THB 29.4-59.8M (July 2026); FazWaz from THB 32M, listings up to 115M (custom). Developer from FazWaz. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

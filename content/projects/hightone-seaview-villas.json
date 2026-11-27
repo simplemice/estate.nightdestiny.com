@@ -1,0 +1,125 @@
+{
+  "name": "HighTone Seaview Villas & Garden",
+  "developer": "Phuket9 Real Estate Development Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Sea-view pool villa",
+  "location": "Karon",
+  "area": "Karon",
+  "shortDescription": "Eleven three-storey 4- and 5-bedroom sea-view pool villas of 530 to 590 sqm on the hillside about 1 km from Karon Beach.",
+  "description": "HighTone Seaview Villas & Garden is a gated estate of 11 pool villas by the Rawai-based developer Phuket9, on the hillside above Karon about 1 km from Karon Beach. The villas are three storeys high and face west over the Andaman Sea, with four or five bedrooms, built-up areas of about 530 to 590 sqm and plots of about 446 to 570 sqm.\nEach villa has its own pool and a roof terrace, and the estate has shared landscaped gardens, a gym, covered parking and round-the-clock security. Owners can place their villa in a hotel-managed rental programme. Patong and the Jungceylon mall are about 10 minutes away by car; Patong Hospital is about 5 km away.\nForeign buyers take the land on a 30-year lease renewable twice. The developer lists the project as under construction; the completion date published by agents (Q1 2026) has passed, so check the build stage with us before booking.",
+  "cardDescription": "Eleven 4-5 bedroom sea-view pool villas of 530-590 sqm, about 1 km from Karon Beach.",
+  "seoTitle": "HighTone Seaview Villas Karon | 4-5 Bedroom Pool Villas",
+  "seoDescription": "HighTone Seaview Villas & Garden: 11 sea-view pool villas with 4-5 bedrooms and 530-590 sqm, about 1 km from Karon Beach, Phuket. From THB 30.9M.",
+  "primaryKeyword": "HighTone Seaview Villas",
+  "secondaryKeywords": [
+    "sea view villas for sale in Karon",
+    "HighTone Karon villas",
+    "Phuket9 villas Karon"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Q1 2026 target (agent figure; check current stage)",
+  "totalUnits": "11",
+  "floors": "3",
+  "startingPrice": 30910000,
+  "bedroomsMin": 4,
+  "bedroomsMax": 5,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 530,
+  "builtUpMax": 590,
+  "landMin": 446,
+  "landMax": 570,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "C2 4 Bedroom Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "530",
+      "landSqm": "446",
+      "price": 30910000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "G1 4 Bedroom Hillside Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "535",
+      "landSqm": "484",
+      "price": 33800000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "F2 5 Bedroom Pool Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "570",
+      "landSqm": "527",
+      "price": 33800000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "B2 5 Bedroom Ocean View Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "size": "580-590",
+      "landSqm": "570",
+      "price": 35400000,
+      "priceType": "Advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool in every villa",
+    "Roof terrace",
+    "Landscaped gardens",
+    "Fitness room",
+    "Covered parking",
+    "24-hour security and concierge",
+    "Hotel-managed rental programme (optional)"
+  ],
+  "nearby": [
+    {
+      "place": "Karon Beach",
+      "distance": "1 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Dino Park Mini Golf",
+      "distance": "2.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Jungceylon, Patong",
+      "distance": "4.7 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Patong Hospital",
+      "distance": "5.0 km",
+      "mode": "unspecified"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer project page (Phuket9)",
+      "url": "https://phuket9.com/projects/hightone"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/hightone-seaview-villas-garden"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/hightone-seaview-villas-garden",
+  "researchNotes": "Added 2026-11-27. Name: developer \"HighTone Seaview Villas & Garden\"; Keller Henson \"Karon Seaview Villas & Garden\". Area: developer district field says Rawai (its head office); project is near Karon Beach (both sources), area Karon. Sizes: developer \"from 515 sqm\" built / \"from 450 sqm\" land vs Keller Henson unit figures 530-590 / 446-570 (unit figures used). Completion 2026 Q1 (Keller Henson, July 2026) vs developer \"under construction\". Price THB 30.91-35.4M (Keller Henson, July 2026). Payment plan and booking fee conflict within Keller Henson, not shown. Rental-return projections (5-10%) not shown. Sinking fund \"THB 58,717 per sqm\" looks wrong, not shown. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

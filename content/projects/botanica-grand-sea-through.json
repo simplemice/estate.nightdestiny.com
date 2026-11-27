@@ -1,0 +1,124 @@
+{
+  "name": "Botanica Grand Sea Through",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Rawai (between Chalong and Nai Harn)",
+  "area": "Rawai",
+  "shortDescription": "A gated group of four 4-bedroom pool villas of about 400 sqm on plots of 419 to 515 sqm in the Rawai hills, marketed by Botanica.",
+  "description": "Botanica Grand Sea Through is one of the smallest projects in the Botanica range: four two-storey villas on a hillside in Rawai, above the Chalong ring road and between Chalong and Nai Harn. Each villa has four bedrooms and four bathrooms, a private pool and about 402 sqm of total area (roughly 220 sqm indoors and 182 sqm of terraces), on plots of 419 to 515 sqm.\nThe site is inland, so it suits buyers who want a quiet residential street rather than a beachfront address. Rawai Beach is about 3 km away and Nai Harn Beach about 4 km; Chalong Pier, the Rawai seafood market and the shops around Chalong are within a short drive. The International School of Phuket is about 2.6 km away.\nFor foreign buyers the land is offered on a registered lease (30 years, renewable twice), with freehold available to Thai nationals and Thai companies. Portal listings disagree on the build stage and completion date, so ask us for the current status of each villa.",
+  "cardDescription": "Four 4-bedroom private-pool villas of about 400 sqm on a quiet Rawai hillside.",
+  "seoTitle": "Botanica Grand Sea Through Rawai | 4-Bedroom Pool Villas",
+  "seoDescription": "Botanica Grand Sea Through, Rawai: four 4-bedroom pool villas of about 400 sqm on 419-515 sqm plots near Nai Harn and Chalong. Advertised from THB 28.8M.",
+  "primaryKeyword": "Botanica Grand Sea Through",
+  "secondaryKeywords": [
+    "pool villas for sale in Rawai",
+    "Grand Sea Through villas Rawai",
+    "Botanica villas Rawai"
+  ],
+  "constructionStatus": "Status on request",
+  "completionDate": "Q3 2026 (agent figure, not confirmed)",
+  "totalUnits": "4",
+  "floors": "2",
+  "startingPrice": 28800000,
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 4,
+  "builtUpMin": 401.69,
+  "builtUpMax": 401.69,
+  "landMin": 419,
+  "landMax": 515,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "size": "401.69",
+      "landSqm": "419-515",
+      "price": 28800000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool in every villa",
+    "Covered parking",
+    "Landscaped garden",
+    "BBQ area",
+    "24-hour security and CCTV"
+  ],
+  "nearby": [
+    {
+      "place": "Rawai Beach",
+      "distance": "3.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Nai Harn Beach",
+      "distance": "4.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Rawai seafood market",
+      "distance": "3.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Chalong Pier",
+      "distance": "4.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Promthep Cape",
+      "distance": "6.2 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "International School of Phuket",
+      "distance": "2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "9.3 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "46.3 km / about 1 hour",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/botanica-luxury-phuket-co-ltd/the-grand-sea-through-villas-rawai"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/grand-sea-through-luxury-villas"
+    },
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/rawai/grand-sea-through"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/grand-sea-through-luxury-villas",
+  "researchNotes": "Added 2026-11-27. Name: portals use \"Grand Sea Through\" / \"The Grand Sea Through Villas Rawai\"; brief name kept. Developer conflict: Papaya and FazWaz name Botanica Luxury Phuket; Keller Henson names AAP Architecture Properties & Development (FazWaz text says developed by AAP in 2018). Status conflict: Papaya \"completed / made to order 12 months\", FazWaz \"off plan, 0%\", Keller Henson completion 2026 Q3, so status set to \"Status on request\". Ownership: Papaya says freehold, Keller Henson leasehold for foreigners (freehold for Thai), shown as Leasehold. Price THB 28.8-30.9M for 4-bed (Keller Henson, July 2026); a 5-bed 350 sqm / 738 sqm plot listing at THB 42M appears only on FazWaz and is not used. Rawai Beach 3.2 km (FazWaz FAQ) vs 4.2 km drive. Keller Henson sinking fund figure (THB 150,000 \"per sqm\") looks like an error, not used. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "botanica-modern-sea-karon",
+    "botanica-montazure"
+  ]
+}

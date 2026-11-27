@@ -174,5 +174,9 @@
   "floors": "4 buildings, 7 storeys each",
   "completionDate": "Apr 2028",
   "priceNote": "Lowest advertised price.",
-  "seoDescription": "Laguna Lake Residences Aster in Laguna Phuket by Laguna Property: 1-3 bedroom condos under construction from THB 10.5M. Enquire on WhatsApp."
+  "seoDescription": "Laguna Lake Residences Aster in Laguna Phuket by Laguna Property: 1-3 bedroom condos under construction from THB 10.5M. Enquire on WhatsApp.",
+  "relatedProjects": [
+    "laguna-lakeside-residences",
+    "skypark-elara-lakelands"
+  ]
 }

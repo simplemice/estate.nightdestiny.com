@@ -1,0 +1,74 @@
+{
+  "name": "AYANA Commons",
+  "developer": "T.H. Group Phuket Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Mixed-use low-rise condominium",
+  "location": "Bang Tao (Cherng Talay)",
+  "area": "Bang Tao",
+  "shortDescription": "Low-rise mixed-use project by T.H. Group in Bang Tao with 39 apartments above eight community retail units, linked to AYANA Heights.",
+  "description": "AYANA Commons is the small mixed-use part of T.H. Group's AYANA development in Bang Tao. It combines 39 residential units with eight retail spaces for shops and services at street level, in low-rise pavilion-style buildings set around courtyards. The developer is the same company behind the much larger AYANA Heights Seaview Residence on the hillside nearby.\nThe smallest advertised unit is a one-bedroom apartment of 32 sqm, listed freehold at THB 3.76 million, which makes it one of the lower entry points into new-build ownership in Bang Tao. Shared facilities include a swimming pool, a wellness studio and surface and underground parking; residents are also offered the AYANA lifestyle card.\nThe brief refers to a \"Phase 2\". We could not find a published second phase of AYANA Commons, and listings disagree on whether construction is finished, so please ask us which units and phase are currently on sale.",
+  "cardDescription": "Low-rise Bang Tao project of 39 apartments and eight retail units, by the AYANA Heights developer.",
+  "seoTitle": "AYANA Commons Bang Tao | Low-Rise Condos by T.H. Group",
+  "seoDescription": "AYANA Commons, Bang Tao: low-rise mixed-use project with 39 apartments and 8 retail units by T.H. Group, linked to AYANA Heights. 1-bedroom from THB 3.76M.",
+  "primaryKeyword": "AYANA Commons",
+  "secondaryKeywords": [
+    "AYANA Commons Bang Tao",
+    "condos for sale Bang Tao",
+    "AYANA Commons phase 2"
+  ],
+  "constructionStatus": "Status on request",
+  "totalUnits": "39 residential + 8 retail",
+  "startingPrice": 3760000,
+  "bedroomsMin": 1,
+  "bedroomsMax": 1,
+  "bathroomsMin": 1,
+  "bathroomsMax": 1,
+  "builtUpMin": 32,
+  "builtUpMax": 32,
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "32",
+      "price": 3760000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Swimming pool",
+    "Wellness studio",
+    "Courtyard gardens",
+    "Eight community retail units",
+    "Surface and underground parking"
+  ],
+  "nearby": [],
+  "sources": [
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/t-h-group-phuket-co-ltd/ayana-commons"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/t-h-group-phuket-co-ltd/ayana-commons/1br-ayana-commons"
+    }
+  ],
+  "priceSourceUrl": "https://papayaproperty.com/t-h-group-phuket-co-ltd/ayana-commons",
+  "researchNotes": "Added 2026-11-27 for the brief item \"AYANA Commons Phase 2\". No source found for a Phase 2 (Papaya pages, ayanaphuket.com navigation, web search); one page mentions \"two communities\", not phases. Page covers AYANA Commons as a whole. Status conflict: complex page \"under construction\", unit page \"completed\", so status on request. Developer from Papaya only. No distances published. Installment wording on Papaya is internally inconsistent (30% vs THB 2.632M = 70%), not used. No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list.",
+  "relatedProjects": [
+    "ayana-heights",
+    "ayana-soluna-villas"
+  ]
+}

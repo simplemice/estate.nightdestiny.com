@@ -56,6 +56,8 @@
  {
   "name": "Banyan Group (Laguna Property)",
   "projects": [
+   "banyan-tree-grand-residences-seaview",
+   "residences-at-garrya-phuket",
    "laguna-beach-residences-bayside"
   ]
  },
@@ -88,6 +90,7 @@
  {
   "name": "Botanica Luxury Phuket Co., Ltd.",
   "projects": [
+   "botanica-grand-sea-through",
    "botanica-modern-sea-karon",
    "botanica-montazure",
    "botanica-skyport",
@@ -116,6 +119,12 @@
   "name": "ESM Development",
   "projects": [
    "vibe-karon"
+  ]
+ },
+ {
+  "name": "Eden Home Development (Thailand) Co., Ltd.",
+  "projects": [
+   "etherhome-seaview-condo"
   ]
  },
  {
@@ -156,6 +165,12 @@
   ]
  },
  {
+  "name": "Metrix Ideal Group",
+  "projects": [
+   "vega-condominium"
+  ]
+ },
+ {
   "name": "Minor International",
   "projects": [
    "kiara-reserve-residences"
@@ -176,6 +191,7 @@
  {
   "name": "Origin Property PCL",
   "projects": [
+   "origin-residences-phuket-bangtao",
    "so-origin-kata-phuket"
   ]
  },
@@ -186,9 +202,39 @@
   ]
  },
  {
+  "name": "P3 Estates Management Co., Ltd.",
+  "projects": [
+   "the-headland-cape-yamu"
+  ]
+ },
+ {
   "name": "Pavara Development Co., Ltd",
   "projects": [
    "pavara-vhana-collection"
+  ]
+ },
+ {
+  "name": "Pearl Island Property Co., Ltd. (Anchan Villas)",
+  "projects": [
+   "anchan-emerald"
+  ]
+ },
+ {
+  "name": "Phuket9 Real Estate Development Co., Ltd.",
+  "projects": [
+   "hightone-seaview-villas"
+  ]
+ },
+ {
+  "name": "Princess Villa Ltd. (Lan Kwai Fong Group and Paradise Group joint venture)",
+  "projects": [
+   "sudara-residences"
+  ]
+ },
+ {
+  "name": "Proud Real Estate PCL (with IHG Hotels & Resorts)",
+  "projects": [
+   "intercontinental-residences-kamala"
   ]
  },
  {
@@ -267,6 +313,7 @@
  {
   "name": "T.H. Group Phuket Co., Ltd.",
   "projects": [
+   "ayana-commons",
    "ayana-heights",
    "ayana-soluna-villas"
   ]
@@ -305,8 +352,15 @@
  {
   "name": "Trinity Property Co., Ltd.",
   "projects": [
+   "aileen-villas-rawai",
    "aileen-rawai-townhouses",
    "aileen-villas-layan"
+  ]
+ },
+ {
+  "name": "United Developers Corporation Co., Ltd.",
+  "projects": [
+   "vista-del-mar-phuket"
   ]
  },
  {
@@ -324,13 +378,21 @@
  {
   "name": "VillaCarte Group",
   "projects": [
+   "layan-verde",
    "layan-green-park-phase-2"
   ]
  },
  {
   "name": "Wallaya Villas",
   "projects": [
+   "wallaya-residence-nai-harn",
    "the-harmony-by-wallaya-villas"
+  ]
+ },
+ {
+  "name": "Wilawan Greenplace Co., Ltd.",
+  "projects": [
+   "luna-vista-by-wilawan"
   ]
  },
  {

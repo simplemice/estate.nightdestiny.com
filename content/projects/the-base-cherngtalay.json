@@ -144,7 +144,7 @@
       "url": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-base-cherngtalay"
     }
   ],
-  "researchNotes": "Developer Sansiri confirmed by source page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the source's URL slug). Distances are travel times from the source page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced.",
+  "researchNotes": "Developer Sansiri confirmed by source page and search summaries. Unit count 341 (two sources) vs 83 on one Hipflat resale ad; 341 used. Exact address, coordinates, fees, official Sansiri page not found/verified. Some resale listings suggest completion mid-2026 (possibly completed by now); status not confirmed. Phase: no phase distinction found ('The Base Cherngtalay 1' is only the source's URL slug). Distances are travel times from the source page. | Single listed unit (2 bed, 60 sqm, 1st floor). a property portal/Hipflat resale listings vary; not reconciled. | Phase 4 (2026-11-19) a property portal fields filled where empty: completionDate. a property portal is a portal; values not confirmed by the developer. Property portal audit 2026-11-21: starting price, units advertised, completion, floors/buildings and unit table taken from the portal project and listing pages (unit table replaced). Nearby places refreshed 2026-11-23: beaches, hospitals, big stores (Tesco Lotus, Big C, Makro), markets, schools and kindergartens added from OpenStreetMap as straight-line distances from the FazWaz project coordinates (not road distance). Where a category already had a distance from the developer or a portal, it was kept and not replaced. 2026-11-27 SEO audit: title/meta description updated.",
   "cover": "/assets/images/projects/the-base-cherngtalay/photo-1.jpg",
   "imageCaptions": [
     "The Base Cherngtalay gallery 1",
@@ -162,5 +162,7 @@
   "imagesStatus": "available",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-base-cherngtalay",
   "completionDate": "Jun 2026",
-  "priceNote": "Lowest advertised price."
+  "priceNote": "Lowest advertised price.",
+  "seoTitle": "The Base Cherngtalay by Sansiri | Condos in Cherng Talay",
+  "seoDescription": "The Base Cherngtalay by Sansiri: completed low-rise condominium of 341 one- and two-bedroom units, 27-62 sqm, in Cherng Talay, Phuket. From THB 3.72M."
 }

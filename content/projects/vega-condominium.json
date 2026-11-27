@@ -1,0 +1,105 @@
+{
+  "name": "VEGA Condominium",
+  "developer": "Metrix Ideal Group",
+  "category": "Condominium",
+  "projectType": "Lake-view condominium",
+  "location": "Cherng Talay (Bang Tao)",
+  "area": "Cherng Talay",
+  "shortDescription": "Seven-storey condominium of about 146 studios and one-bedroom apartments of 34 to 52 sqm with lake and garden views in Cherng Talay.",
+  "description": "VEGA Condominium is a seven-storey building of about 146 compact apartments in Cherng Talay, inland from Bang Tao and Layan beaches. The units are studios of about 34 sqm and one-bedroom apartments of 34 to 52 sqm, many facing a lake or gardens, which keeps entry prices among the lowest for new condominiums in the Bang Tao area.\nThe shared facilities are large for a building of this size: a fitness centre of about 900 sqm, an Italian restaurant, a sky lounge, a pool, sauna and spa room, co-working space, a mini theatre, a kids' area and a shuttle service. Thalang Hospital is about 3 to 4 km away and the airport about 23 minutes by car.\nUnits are sold within the 49% foreign freehold quota. Agents published a completion date of Q3 2026; ask us for the current status before booking.",
+  "cardDescription": "Seven-storey Cherng Talay condominium of lake-view studios and one-bedroom units from THB 3.2M.",
+  "seoTitle": "VEGA Condominium Cherng Talay | Studios & 1-Bed Condos",
+  "seoDescription": "VEGA Condominium, Cherng Talay: seven-storey building of about 146 lake-view studios and one-bedroom condos of 34-52 sqm near Bang Tao. From THB 3.2M.",
+  "primaryKeyword": "VEGA Condominium",
+  "secondaryKeywords": [
+    "Vega Condo Phuket",
+    "studio condo for sale Bang Tao",
+    "cheap condos Cherng Talay"
+  ],
+  "constructionStatus": "Status on request",
+  "completionDate": "Q3 2026 (agent figure)",
+  "totalUnits": "146-147",
+  "floors": "7",
+  "startingPrice": 3200000,
+  "bedroomsMin": 0,
+  "bedroomsMax": 1,
+  "bathroomsMin": 1,
+  "bathroomsMax": 1,
+  "builtUpMin": 34,
+  "builtUpMax": 52,
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Studio",
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "size": "34",
+      "price": 3200000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "34-52",
+      "price": 4300000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Swimming pool",
+    "Fitness centre (about 900 sqm)",
+    "Restaurant",
+    "Sky lounge",
+    "Sauna and spa room",
+    "Co-working space",
+    "Mini theatre",
+    "Kids' area",
+    "Shuttle service",
+    "Covered parking",
+    "24/7 security and CCTV"
+  ],
+  "commonAreaFee": "THB 75 per sqm per month",
+  "sinkingFund": "THB 700 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Thalang Hospital",
+      "distance": "2.9 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "KAHLI Tennis Academy",
+      "distance": "2.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Padel Phuket @ Blue Tree",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "13.4 km / 23 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/vega-condominium"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/vega-condominium",
+  "researchNotes": "Added 2026-11-27. Brief name \"Vega Condo\". Only Keller Henson (Aug 2026) read; FazWaz blocked and its mirror URL showed a different project (Sun Hills Lake Side), not used. Developer named Metrix Ideal Group (Keller Henson); a snippet named Metrics Development Thailand. Units 146 (Keller Henson) vs 147 (FazWaz snippet). Completion 2026 Q3 (Keller Henson) vs Aug 2026 (FazWaz snippet); status unconfirmed. Price THB 3.2-6.5M (header) vs 3.23-5.72M (FAQ). No images.",
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-27",
+  "lastVerified": "2026-11-27",
+  "imagesStatus": "unavailable",
+  "floorPlans": [],
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}
