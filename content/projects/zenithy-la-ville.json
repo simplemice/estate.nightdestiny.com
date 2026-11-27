@@ -161,5 +161,8 @@
   "imageCredit": "Marketing images, mostly artist renders. Layouts and finishes may differ from the final product.",
   "completionDate": "Jan 2029",
   "priceNote": "Lowest advertised price.",
-  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/zenithy-la-ville"
+  "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/zenithy-la-ville",
+  "nearbyAreas": [
+    "Phuket Town"
+  ]
 }

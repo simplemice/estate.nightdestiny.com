@@ -1027,7 +1027,7 @@ function catalogIntro(key, list) {
 function locStats(g, ed) {
   const ps = g.projects, N = ps.length, out = [];
   const tc = ['Condominium', 'Villa', 'Townhouse'].map((k) => [k, ps.filter((p) => p.category === k).length]).filter(([, c]) => c);
-  if (N) out.push({ label: T(g.nearby ? 'st.projects_near' : 'st.projects'), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
+  if (N) out.push({ label: T(g.nearby === 'inNear' ? 'st.projects_in_near' : g.nearby ? 'st.projects_near' : 'st.projects', { nm: g.nm || '' }), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
   const priced = ps.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b);
   if (priced.length) out.push({ label: T('st.from'), value: money(priced[0]), thb: priced[0], note: T('st.from_note', { k: priced.length, N }) });
   // Median advertised THB per m2 for condo unit types with one exact size and one price (ranges are skipped, so the figure is not skewed).
@@ -1135,7 +1135,7 @@ function locationPage(g) {
 			${(ed.suitableFor || []).length ? `<p class="area-suits"><strong>${T('area.suits', { nm: esc(nm) })}</strong> ${(ed.suitableFor || []).map((x) => `<span class="area-chip">${esc(x)}</span>`).join('')}</p>` : ''}
 		</div><div class="col-lg-4 mt-3 mt-lg-0">${waBtn(T('wa.area', { nm }), 'wa-btn wa-block', T('loc.ask', { nm: esc(nm) }))}<p class="ds-note"><a href="#projects">${T('area.jump_projects', { n: N })}</a> &middot; <a href="#yield-calculator">${T('area.jump_calc')}</a></p></div></div>
 		${areaPhotos(ed.photos, nm)}
-		${(() => { const st = locStats(N || !alsoNear.length ? g : { ...g, projects: alsoNear, nearby: true }, ed); return st.length ? `<h2 class="sec-h">${T('area.stats_h', { nm: esc(nm) })}</h2>${statGrid(st)}` : ''; })()}
+		${(() => { const st = locStats(N >= 3 || !alsoNear.length ? g : { ...g, projects: [...ps, ...alsoNear], nearby: N ? 'inNear' : 'near', nm }, ed); return st.length ? `<h2 class="sec-h">${T('area.stats_h', { nm: esc(nm) })}</h2>${statGrid(st)}` : ''; })()}
 		${ed.intro ? `<p class="ds-note">${esc(dataIntro)}</p>` : ''}
 		<div class="row mt-4"><div class="col-12">
 			${ed.overview ? `<h2 class="sec-h">${T('loc.about', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.overview)}</div>` : ''}
@@ -1145,9 +1145,9 @@ function locationPage(g) {
 		${ed.lifestyle || ed.beaches ? `<div class="row">${ed.lifestyle ? `<div class="col-md-6"><h2 class="sec-h">${T('area.lifestyle')}</h2><div class="desc">${paras(ed.lifestyle)}</div></div>` : ''}${ed.beaches ? `<div class="col-md-6"><h2 class="sec-h">${T('area.beaches')}</h2><div class="desc">${paras(ed.beaches)}</div></div>` : ''}</div>` : ''}
 		${nb.length ? `<details class="area-nearby"><summary>${T('area.nearby_sum', { nm: esc(nm) })}</summary><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div></details>` : ''}
 		<h2 class="sec-h" id="projects">${T('area.projects_h', { nm: esc(nm), n: N })}</h2>
-		${N ? `<div class="row loc-projects" data-show="${SHOW}">${cards}</div>` : `<p>${T('area.no_projects', { nm: esc(nm), in: esc(inn) })} ${nbLine.length ? nbLine.join(' &middot; ') : `<a href="${lp('/projects/')}">${T('nav.projects')}</a>`}</p>${alsoNear.length ? `<h3 class="sec-h h5">${T('area.projects_near', { nm: esc(nm) })}</h3><div class="row loc-projects">${alsoNear.map((p) => projCard(p)).join('')}</div>` : ''}`}
+		${N ? `<div class="row loc-projects" data-show="${SHOW}">${cards}</div>${N < 3 && alsoNear.length ? `<h3 class="sec-h h5">${T('area.projects_near', { nm: esc(nm) })}</h3><div class="row loc-projects">${alsoNear.map((p) => projCard(p)).join('')}</div>` : ''}` : `<p>${T('area.no_projects', { nm: esc(nm), in: esc(inn) })} ${nbLine.length ? nbLine.join(' &middot; ') : `<a href="${lp('/projects/')}">${T('nav.projects')}</a>`}</p>${alsoNear.length ? `<h3 class="sec-h h5">${T('area.projects_near', { nm: esc(nm) })}</h3><div class="row loc-projects">${alsoNear.map((p) => projCard(p)).join('')}</div>` : ''}`}
 		${N > SHOW ? `<p class="text-center loc-more-wrap"><button type="button" class="primary-btn loc-more-btn" hidden>${T('area.show_all', { n: N })}</button></p>` : ''}
-		${N ? nearHtml : ''}
+		${N >= 3 ? nearHtml : ''}
 		${N ? `<p class="ds-note">${T('loc.cat_links', { links: catLinks })} <a href="${lp('/sale/')}?location=${encodeURIComponent(g.name)}" rel="nofollow">${T('loc.filter', { nm: esc(nm) })}</a></p>` : ''}
 		${ed.rentalMarket ? `<h2 class="sec-h">${T('area.rental_h', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.rentalMarket)}</div>${accordion(ed.rentalDetails)}<p class="ds-note">${T('area.rental_note')}</p>` : ''}
 		<h2 class="sec-h" id="yield-calculator">${T('area.invest_h', { nm: esc(nm) })}</h2>

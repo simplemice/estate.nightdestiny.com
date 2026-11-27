@@ -693,5 +693,6 @@
   "st.projects_near": "Проекты рядом",
   "area.projects_near": "Проекты рядом с районом {nm}",
   "rg.sale": "Продажа:",
-  "rg.from": "от {price}"
+  "rg.from": "от {price}",
+  "st.projects_in_near": "Проекты в районе и рядом"
 }

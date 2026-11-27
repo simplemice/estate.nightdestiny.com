@@ -130,5 +130,8 @@
   "builtUpMax": 170,
   "priceNote": "Lowest advertised price.",
   "priceSourceUrl": "https://www.fazwaz.com/projects/thailand/phuket/phuket-town/ko-kaeo/the-passion-residence-lagoon",
-  "cover": "/assets/images/projects/the-passion-residence-lagoon/exterior.jpg"
+  "cover": "/assets/images/projects/the-passion-residence-lagoon/exterior.jpg",
+  "nearbyAreas": [
+    "Phuket Town"
+  ]
 }
