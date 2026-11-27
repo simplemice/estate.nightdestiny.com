@@ -1,33 +1,5 @@
 [
  {
-  "id": "aileen-villas-rawai",
-  "name": "Aileen Villas Rawai",
-  "url": "/projects/aileen-villas-rawai/",
-  "category": "Villa",
-  "propertyType": "Pool villa (built to order)",
-  "developer": "Trinity Property Co., Ltd.",
-  "location": "Rawai",
-  "startingPrice": null,
-  "currency": "THB",
-  "priceStatus": "on-request",
-  "bedrooms": [
-   4,
-   4
-  ],
-  "bathrooms": [
-   4,
-   4
-  ],
-  "builtUpArea": [
-   null,
-   null
-  ],
-  "status": "Status on request",
-  "completionDate": "Built to order (about 10 months)",
-  "imageCount": 1,
-  "lastVerified": "2026-11-27"
- },
- {
   "id": "anchan-emerald",
   "name": "Anchan Emerald",
   "url": "/projects/anchan-emerald/",
@@ -144,34 +116,6 @@
   "lastVerified": "2026-11-27"
  },
  {
-  "id": "etherhome-seaview-condo",
-  "name": "Etherhome Seaview Condo",
-  "url": "/projects/etherhome-seaview-condo/",
-  "category": "Condominium",
-  "propertyType": "Boutique sea-view condominium",
-  "developer": "Eden Home Development (Thailand) Co., Ltd.",
-  "location": "Rawai",
-  "startingPrice": null,
-  "currency": "THB",
-  "priceStatus": "on-request",
-  "bedrooms": [
-   1,
-   3
-  ],
-  "bathrooms": [
-   1,
-   3
-  ],
-  "builtUpArea": [
-   51,
-   182.2
-  ],
-  "status": "Completed",
-  "completionDate": "Jun 2026 (portal)",
-  "imageCount": 1,
-  "lastVerified": "2026-11-27"
- },
- {
   "id": "hightone-seaview-villas",
   "name": "HighTone Seaview Villas & Garden",
   "url": "/projects/hightone-seaview-villas/",
@@ -198,34 +142,6 @@
   "completionDate": "Q1 2026 target (agent figure; check current stage)",
   "cover": "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-aerial-hillside.jpg",
   "imageCount": 7,
-  "lastVerified": "2026-11-27"
- },
- {
-  "id": "intercontinental-residences-kamala",
-  "name": "The Residences at InterContinental Phuket Resort",
-  "url": "/projects/intercontinental-residences-kamala/",
-  "category": "Condominium",
-  "propertyType": "Hotel-branded residences",
-  "developer": "Proud Real Estate PCL (with IHG Hotels & Resorts)",
-  "location": "Kamala",
-  "startingPrice": 13600000,
-  "currency": "THB",
-  "priceStatus": "advertised",
-  "bedrooms": [
-   1,
-   5
-  ],
-  "bathrooms": [
-   1,
-   2
-  ],
-  "builtUpArea": [
-   58.86,
-   100.66
-  ],
-  "status": "Pre-sale",
-  "completionDate": "Sep 2027",
-  "imageCount": 1,
   "lastVerified": "2026-11-27"
  },
  {
@@ -632,34 +548,6 @@
   "completionDate": "Mar 2027 (portal; sources differ)",
   "cover": "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-hillside-aerial.jpg",
   "imageCount": 5,
-  "lastVerified": "2026-11-25"
- },
- {
-  "id": "rosewood-residences-kamala",
-  "name": "Rosewood Residences Kamala",
-  "url": "/projects/rosewood-residences-kamala/",
-  "category": "Villa",
-  "propertyType": "Branded pool villas",
-  "developer": "Raimon Land Public Company Limited (branded by Rosewood Hotels & Resorts)",
-  "location": "Kamala",
-  "startingPrice": null,
-  "currency": "THB",
-  "priceStatus": "on-request",
-  "bedrooms": [
-   4,
-   6
-  ],
-  "bathrooms": [
-   null,
-   null
-  ],
-  "builtUpArea": [
-   null,
-   null
-  ],
-  "status": "Status on request",
-  "completionDate": null,
-  "imageCount": 1,
   "lastVerified": "2026-11-25"
  },
  {

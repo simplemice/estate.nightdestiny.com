@@ -96,18 +96,6 @@
  "sale": [],
  "projects": [
   {
-   "slug": "aileen-villas-rawai",
-   "url": "/projects/aileen-villas-rawai/",
-   "kind": "project",
-   "title": "Aileen Villas Rawai",
-   "location": "Rawai",
-   "type": "Pool villa (built to order)",
-   "price": null,
-   "currency": "THB",
-   "publishedAt": "2026-11-27",
-   "featured": false
-  },
-  {
    "slug": "anchan-emerald",
    "url": "/projects/anchan-emerald/",
    "kind": "project",
@@ -160,18 +148,6 @@
    "featured": false
   },
   {
-   "slug": "etherhome-seaview-condo",
-   "url": "/projects/etherhome-seaview-condo/",
-   "kind": "project",
-   "title": "Etherhome Seaview Condo",
-   "location": "Rawai",
-   "type": "Boutique sea-view condominium",
-   "price": null,
-   "currency": "THB",
-   "publishedAt": "2026-11-27",
-   "featured": false
-  },
-  {
    "slug": "hightone-seaview-villas",
    "url": "/projects/hightone-seaview-villas/",
    "kind": "project",
@@ -181,18 +157,6 @@
    "price": 30910000,
    "currency": "THB",
    "cover": "/assets/images/projects/hightone-seaview-villas/hightone-seaview-villas-aerial-hillside.jpg",
-   "publishedAt": "2026-11-27",
-   "featured": false
-  },
-  {
-   "slug": "intercontinental-residences-kamala",
-   "url": "/projects/intercontinental-residences-kamala/",
-   "kind": "project",
-   "title": "The Residences at InterContinental Phuket Resort",
-   "location": "Kamala",
-   "type": "Hotel-branded residences",
-   "price": 13600000,
-   "currency": "THB",
    "publishedAt": "2026-11-27",
    "featured": false
   },
@@ -375,18 +339,6 @@
    "price": 11000000,
    "currency": "THB",
    "cover": "/assets/images/projects/panorama-kata-ocean-view-villas/panorama-kata-ocean-view-villas-hillside-aerial.jpg",
-   "publishedAt": "2026-11-25",
-   "featured": false
-  },
-  {
-   "slug": "rosewood-residences-kamala",
-   "url": "/projects/rosewood-residences-kamala/",
-   "kind": "project",
-   "title": "Rosewood Residences Kamala",
-   "location": "Kamala",
-   "type": "Branded pool villas",
-   "price": null,
-   "currency": "THB",
    "publishedAt": "2026-11-25",
    "featured": false
   },
