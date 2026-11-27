@@ -48,18 +48,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buildings_in_Old_Phuket_Town.jpg"
     }
   ],
-  "stats": [
-    {
-      "label": "Rent: studio or 1-bedroom condo",
-      "value": "฿15,000–20,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    },
-    {
-      "label": "Rent: condo, 2-3 bedrooms",
-      "value": "฿20,000–35,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    }
-  ],
+  "stats": [],
   "map": {
     "lat": 7.8846,
     "lng": 98.3921,
@@ -111,8 +100,8 @@
       "answer": "No. The nearest beaches on the west and south coasts are about 20 to 30 minutes away by car."
     },
     {
-      "question": "How much does it cost to rent in Phuket Town?",
-      "answer": "In our November 2026 research, typical asking rents on 12-month contracts were about THB 15,000-20,000 a month for a studio or 1-bedroom condo and THB 20,000-35,000 for a 2-3 bedroom condo, the lowest on the island."
+      "question": "Can foreigners buy property in Phuket Town?",
+      "answer": "Yes, within Thai rules: condominium units can be owned freehold within a building's 49% foreign quota, while townhouses, houses and land are usually bought on a registered lease or through other legal structures. Check the title with a lawyer."
     },
     {
       "question": "What is the Phuket Old Town?",

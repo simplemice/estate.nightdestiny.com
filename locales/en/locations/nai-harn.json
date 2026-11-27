@@ -48,18 +48,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phuket_-_Nai_Harn_Beach_019.jpg"
     }
   ],
-  "stats": [
-    {
-      "label": "Rent: 1-bedroom condo",
-      "value": "฿30,000–35,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    },
-    {
-      "label": "Rent: 2-bedroom condo",
-      "value": "฿45,000–71,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    }
-  ],
+  "stats": [],
   "map": {
     "lat": 7.7757,
     "lng": 98.3058,
@@ -115,8 +104,8 @@
       "answer": "Yes, many families live in and around Nai Harn because of the beach, the lake park and the international schools in the south of the island."
     },
     {
-      "question": "How much does it cost to rent in Nai Harn?",
-      "answer": "In our November 2026 research, typical asking rents for a 1-bedroom condo on a 12-month contract were about THB 30,000-35,000 a month. Prices depend on the property and the distance to the beach."
+      "question": "Can foreigners buy property in Nai Harn?",
+      "answer": "Yes, within Thai rules: foreigners can own condominium units freehold within a building's 49% foreign quota, while villas and land are usually bought on a registered lease. Check the title of each unit with a lawyer before buying."
     },
     {
       "question": "How far is Nai Harn from the airport?",

@@ -156,5 +156,8 @@
     "Aura Condominium bathroom, render",
     "Aura Condominium site location above Chalong, aerial with landmarks"
   ],
-  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project."
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project.",
+  "nearbyAreas": [
+    "Chalong"
+  ]
 }

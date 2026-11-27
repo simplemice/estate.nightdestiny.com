@@ -268,16 +268,16 @@ select option { background: var(--ink-2); color: var(--text); }
   .rent-table th, .rent-table td { padding: 8px 10px; }
   .rent-prices .table-responsive { border: 1px solid var(--line); border-radius: 4px; }
 }
-.rent-area-card { border: 1px solid var(--line); border-radius: 4px; background: var(--ink-2); margin-bottom: 24px; overflow: hidden; height: calc(100% - 24px); display: flex; flex-direction: column; }
-.rent-area-card .ra-img { aspect-ratio: 16 / 9; overflow: hidden; }
-.rent-area-card .ra-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.rent-area-card .ra-body { padding: 14px 16px; display: flex; flex-direction: column; flex: 1; }
-.rent-area-card h3 { margin-bottom: 6px; }
-.rent-area-card h3 a { color: var(--text); }
-.rent-area-card p { margin-bottom: 6px; font-size: 0.9rem; }
-.rent-area-card .ra-meta { color: var(--muted); font-size: 0.85rem; }
-.rent-area-card .ra-meta strong { color: var(--text); font-weight: 600; }
-.rent-area-card .ra-link { margin-top: auto; color: var(--accent); font-size: 0.9rem; }
+.ra-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+@media (min-width: 576px) { .ra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 992px) { .ra-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ra-tile { display: flex; flex-direction: column; gap: 4px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 4px; background: var(--ink-2); color: var(--text); transition: border-color 0.2s; }
+a.ra-tile:hover, a.ra-tile:focus { border-color: var(--accent); color: var(--text); text-decoration: none; }
+.ra-tile .ra-name { font-family: "Lora", serif; font-size: 1.05rem; color: var(--accent); }
+.ra-tile .ra-desc { font-size: 0.85rem; line-height: 1.45; color: var(--text); }
+.ra-tile .ra-meta { font-size: 0.8rem; line-height: 1.4; color: var(--muted); }
+.ra-tile .ra-meta b { color: var(--text); font-weight: 600; }
+.ra-tile .ra-go { margin-top: auto; padding-top: 4px; font-size: 0.8rem; color: var(--accent); }
 .rg-items { padding: 4px 16px 12px; }
 .rg-item { padding: 8px 0; border-bottom: 1px solid var(--line); }
 .rg-item:last-child { border-bottom: 0; }

@@ -840,9 +840,10 @@ function rentGuide() {
   // 3. area cards (photos reuse the area pages; link to the existing area page when there is one)
   const cards = ((G.areas || {}).cards || []).filter((c) => c && c.name);
   const oc = (O.areas || {}).cards || [];
+  const saleLine = (c) => { const g = pagesBy(c.page); const pr = g ? g.projects.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b) : []; return g && g.projects.length ? `${T('count.projects', { n: g.projects.length })}${pr.length ? `, ${T('rg.from', { price: money(pr[0]) })}` : ''}` : T('rg.by_request'); };
   const areaCards = cards.length ? `<section class="spad-2 rent-areas" id="where-to-rent"><div class="container">
 		<h2 class="sec-h">${T('rg.h_areas')}</h2>
-		<div class="row">${cards.map((c, i) => { const pg = pagesBy(c.page); const t = en ? c : { ...c, ...(oc[i] || {}) }; const show = en || oc[i]; const nm = pg ? areaName(pg.name) : (en ? c.name : (oc[i] || {}).name || areaName(c.name)); return `<div class="col-lg-4 col-md-6"><div class="rent-area-card">${c.photo && c.photo.image ? `<div class="ra-img">${img(c.photo.image, c.photo.alt || nm, { sizes: '(min-width: 992px) 33vw, (min-width: 768px) 50vw, 100vw' })}</div>` : ''}<div class="ra-body"><h3 class="h5">${pg ? `<a href="${lp(pg.url)}">${esc(nm)}</a>` : esc(nm)}</h3>${show && t.description ? `<p>${esc(t.description)}</p>` : ''}${show && t.rental ? `<p class="ra-meta"><strong>${T('rg.rental')}</strong> ${esc(t.rental)}</p>` : ''}${show && t.suits ? `<p class="ra-meta"><strong>${T('rg.suits')}</strong> ${esc(t.suits)}</p>` : ''}${pg ? `<a class="ra-link" href="${lp(pg.url)}">${T('rg.area_link', { nm: esc(nm) })} <i class="fa fa-angle-right"></i></a>` : ''}</div></div></div>`; }).join('')}</div>
+		<div class="ra-grid">${cards.map((c, i) => { const pg = pagesBy(c.page); const t = en ? c : { ...c, ...(oc[i] || {}) }; const show = en || oc[i]; const nm = pg ? areaName(pg.name) : (en ? c.name : (oc[i] || {}).name || areaName(c.name)); const inner = `<strong class="ra-name">${esc(nm)}</strong>${show && t.description ? `<span class="ra-desc">${esc(t.description)}</span>` : ''}<span class="ra-meta"><b>${T('rg.sale')}</b> ${esc(saleLine(c))}</span>${show && t.rental ? `<span class="ra-meta"><b>${T('rg.rental')}</b> ${esc(t.rental)}</span>` : ''}${show && t.suits ? `<span class="ra-meta"><b>${T('rg.suits')}</b> ${esc(t.suits)}</span>` : ''}`; return pg ? `<a class="ra-tile" href="${lp(pg.url)}">${inner}<span class="ra-go">${T('rg.area_link', { nm: esc(nm) })} <i class="fa fa-angle-right"></i></span></a>` : `<div class="ra-tile">${inner}</div>`; }).join('')}</div>
 	</div></section>` : '';
   // 4. renting guide (accordions; each item labelled law / common practice / verify)
   const GD = G.guide || {};
@@ -858,7 +859,7 @@ function rentGuide() {
   // 5. FAQ
   const faq = (en ? G.faq || [] : O.faq || []).filter((x) => x && x.question && x.answer);
   const faqHtml = faq.length ? `<section class="spad-2 rent-faq" id="rent-faq"><div class="container"><h2 class="sec-h">${T('rg.h_faq')}</h2><div class="faq-list">${faq.map((x) => `<details><summary>${esc(x.question)}</summary><p>${richText(x.answer)}</p></details>`).join('')}</div><p class="mt-3">${cta}</p></div></section>` : '';
-  const credits = [...photos, ...cards.map((c) => c.photo).filter(Boolean)].filter((x, i, a) => x && x.image && a.findIndex((y) => y && y.image === x.image) === i);
+  const credits = [...photos].filter((x, i, a) => x && x.image && a.findIndex((y) => y && y.image === x.image) === i);
   return { html: intro + priceTable + areaCards + guide + faqHtml + `<div class="container">${photoCredits(credits, 20)}</div>`, faq, credits };
 }
 
@@ -1026,7 +1027,7 @@ function catalogIntro(key, list) {
 function locStats(g, ed) {
   const ps = g.projects, N = ps.length, out = [];
   const tc = ['Condominium', 'Villa', 'Townhouse'].map((k) => [k, ps.filter((p) => p.category === k).length]).filter(([, c]) => c);
-  if (N) out.push({ label: T('st.projects'), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
+  if (N) out.push({ label: T(g.nearby ? 'st.projects_near' : 'st.projects'), value: String(N), note: tc.map(([k, c]) => T(`loc.type.${k}`, { n: c })).join(', ') });
   const priced = ps.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b);
   if (priced.length) out.push({ label: T('st.from'), value: money(priced[0]), thb: priced[0], note: T('st.from_note', { k: priced.length, N }) });
   // Median advertised THB per m2 for condo unit types with one exact size and one price (ranges are skipped, so the figure is not skewed).
@@ -1134,8 +1135,7 @@ function locationPage(g) {
 			${(ed.suitableFor || []).length ? `<p class="area-suits"><strong>${T('area.suits', { nm: esc(nm) })}</strong> ${(ed.suitableFor || []).map((x) => `<span class="area-chip">${esc(x)}</span>`).join('')}</p>` : ''}
 		</div><div class="col-lg-4 mt-3 mt-lg-0">${waBtn(T('wa.area', { nm }), 'wa-btn wa-block', T('loc.ask', { nm: esc(nm) }))}<p class="ds-note"><a href="#projects">${T('area.jump_projects', { n: N })}</a> &middot; <a href="#yield-calculator">${T('area.jump_calc')}</a></p></div></div>
 		${areaPhotos(ed.photos, nm)}
-		<h2 class="sec-h">${T('area.stats_h', { nm: esc(nm) })}</h2>
-		${statGrid(locStats(g, ed))}
+		${(() => { const st = locStats(N || !alsoNear.length ? g : { ...g, projects: alsoNear, nearby: true }, ed); return st.length ? `<h2 class="sec-h">${T('area.stats_h', { nm: esc(nm) })}</h2>${statGrid(st)}` : ''; })()}
 		${ed.intro ? `<p class="ds-note">${esc(dataIntro)}</p>` : ''}
 		<div class="row mt-4"><div class="col-12">
 			${ed.overview ? `<h2 class="sec-h">${T('loc.about', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.overview)}</div>` : ''}
@@ -1145,9 +1145,9 @@ function locationPage(g) {
 		${ed.lifestyle || ed.beaches ? `<div class="row">${ed.lifestyle ? `<div class="col-md-6"><h2 class="sec-h">${T('area.lifestyle')}</h2><div class="desc">${paras(ed.lifestyle)}</div></div>` : ''}${ed.beaches ? `<div class="col-md-6"><h2 class="sec-h">${T('area.beaches')}</h2><div class="desc">${paras(ed.beaches)}</div></div>` : ''}</div>` : ''}
 		${nb.length ? `<details class="area-nearby"><summary>${T('area.nearby_sum', { nm: esc(nm) })}</summary><p class="ds-note">${T('loc.nearby_note', { nm: esc(nm) })}</p><div class="row">${nb.map((b) => `<div class="col-md-6"><h3 class="sec-h h5">${esc(T(`nearg.${b.label}`))}</h3><ul class="nearby-list">${b.items.map((n) => nearItem(n, ` <small>(${esc(T('from_project', { name: n.from }))})</small>`)).join('')}</ul></div>`).join('')}</div></details>` : ''}
 		<h2 class="sec-h" id="projects">${T('area.projects_h', { nm: esc(nm), n: N })}</h2>
-		${N ? `<div class="row loc-projects" data-show="${SHOW}">${cards}</div>` : `<p>${T('area.no_projects', { nm: esc(nm), in: esc(inn) })} ${nbLine.length ? nbLine.join(' &middot; ') : `<a href="${lp('/projects/')}">${T('nav.projects')}</a>`}</p>`}
+		${N ? `<div class="row loc-projects" data-show="${SHOW}">${cards}</div>` : `<p>${T('area.no_projects', { nm: esc(nm), in: esc(inn) })} ${nbLine.length ? nbLine.join(' &middot; ') : `<a href="${lp('/projects/')}">${T('nav.projects')}</a>`}</p>${alsoNear.length ? `<h3 class="sec-h h5">${T('area.projects_near', { nm: esc(nm) })}</h3><div class="row loc-projects">${alsoNear.map((p) => projCard(p)).join('')}</div>` : ''}`}
 		${N > SHOW ? `<p class="text-center loc-more-wrap"><button type="button" class="primary-btn loc-more-btn" hidden>${T('area.show_all', { n: N })}</button></p>` : ''}
-		${nearHtml}
+		${N ? nearHtml : ''}
 		${N ? `<p class="ds-note">${T('loc.cat_links', { links: catLinks })} <a href="${lp('/sale/')}?location=${encodeURIComponent(g.name)}" rel="nofollow">${T('loc.filter', { nm: esc(nm) })}</a></p>` : ''}
 		${ed.rentalMarket ? `<h2 class="sec-h">${T('area.rental_h', { nm: esc(nm) })}</h2><div class="desc">${paras(ed.rentalMarket)}</div>${accordion(ed.rentalDetails)}<p class="ds-note">${T('area.rental_note')}</p>` : ''}
 		<h2 class="sec-h" id="yield-calculator">${T('area.invest_h', { nm: esc(nm) })}</h2>

@@ -640,5 +640,9 @@
   "loc.h1_guide": "Living in {nm}, Phuket: Area Guide",
   "loc.title_guide": "{nm}, Phuket: Area Guide, Rents & Property",
   "loc.intro_none": "Our catalogue has no development projects in {nm} at the moment; this page is a guide to living and renting in the area.",
-  "area.no_projects": "We do not list development projects in {nm} at the moment. Ask us about resale and rental options, or see nearby areas:"
+  "area.no_projects": "We do not list development projects in {nm} at the moment. Ask us about resale and rental options, or see nearby areas:",
+  "st.projects_near": "Projects near the area",
+  "area.projects_near": "Projects close to {nm}",
+  "rg.sale": "Sale:",
+  "rg.from": "from {price}"
 }

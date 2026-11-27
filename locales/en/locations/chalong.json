@@ -49,23 +49,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalong,_Mueang_Phuket_District,_Phuket,_Thailand_-_panoramio_(53).jpg"
     }
   ],
-  "stats": [
-    {
-      "label": "Rent: studio or 1-bedroom condo",
-      "value": "฿18,000–45,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    },
-    {
-      "label": "Rent: villa or house, 2-3 bedrooms",
-      "value": "฿35,000–85,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    },
-    {
-      "label": "Rent: villa, 4+ bedrooms",
-      "value": "฿110,000–170,000 / month",
-      "note": "Typical long-term asking rent, 12-month contracts (our research, Nov 2026)"
-    }
-  ],
+  "stats": [],
   "map": {
     "lat": 7.848,
     "lng": 98.3401,
@@ -121,8 +105,8 @@
       "answer": "Chalong Pier is the main departure point for boat and dive trips to the islands south of Phuket."
     },
     {
-      "question": "How much does it cost to rent in Chalong?",
-      "answer": "In our November 2026 research, typical asking rents on 12-month contracts were about THB 18,000-45,000 a month for a studio or 1-bedroom condo and THB 35,000-85,000 for a 2-3 bedroom villa or house."
+      "question": "Can I buy property in Chalong?",
+      "answer": "Yes. Our catalogue currently lists projects on the edge of Chalong rather than in it, such as Aura Condominium and Botanica Grand Sea Through in neighbouring Rawai. Ask us about resale condos, houses and villas in Chalong itself."
     },
     {
       "question": "Is Chalong good for families?",

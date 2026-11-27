@@ -146,5 +146,8 @@
     "Bedroom with garden view, render",
     "Master bathroom, render"
   ],
-  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas."
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas.",
+  "nearbyAreas": [
+    "Chalong"
+  ]
 }
