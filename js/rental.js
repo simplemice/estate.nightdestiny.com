@@ -65,6 +65,8 @@
     state.typeLabel = src.getAttribute('data-type-label') || state.type;
     state.maxGuests = parseInt(src.getAttribute('data-max-guests'), 10) || 0;
     f.property.value = src.getAttribute('data-property') || '';
+    var per = src.getAttribute('data-period'); // e.g. "month" for the long-term rental CTA on /rent/
+    if (per && f.per.querySelector('option[value="' + per + '"]')) f.per.value = per;
     var guess = slugify(src.getAttribute('data-location'));
     boxes().forEach(function (b) { b.checked = b.value === guess && guess !== 'other' && !!(cfg.locEn && cfg.locEn[guess]); });
     toggleOther();
