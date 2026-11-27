@@ -1,14 +1,14 @@
 {
-  "seoTitle": "Long-Term Rentals in Phuket: Prices, Areas & Tips",
-  "seoDescription": "Rent a condo or villa in Phuket long term: indicative monthly rental prices by area, the best areas to live, contract and deposit basics, and FAQs.",
+  "seoTitle": "Short & Long-Term Rentals in Phuket: Prices & Areas",
+  "seoDescription": "Rent a condo or villa in Phuket for a few nights or a whole year: monthly rental prices by area, where to stay, short-stay options, renting tips and FAQ.",
   "intro": {
-    "heading": "Long-term rentals in Phuket",
-    "text": "Phuket has an active long-term rental market alongside its holiday lets. Expats, families with children at international schools, remote workers, retirees and people relocating for work rent condos and villas for six months or longer, mostly in Bang Tao, Rawai, Chalong, Kathu and the areas around Phuket Town.\nMost long-term agreements run for 6 or 12 months. Monthly rents for these contracts are usually much lower than the holiday rates quoted for short stays, and owners often offer a better price for a 12-month commitment. Renting for an extended period also gives you time to get to know an area before you decide whether to buy.",
+    "heading": "Short-term and long-term rentals in Phuket",
+    "text": "Phuket has two rental markets. Short-term stays start from about 3 nights and are typically booked for a week, 10 days, two weeks or a month; they are priced per night or per week and change with the season, with the highest rates over Christmas, New Year and the dry season from about November to April.\nLong-term rentals run for 6 or 12 months and are priced per month. Expats, families with children at international schools, remote workers, retirees and people relocating for work rent condos and villas this way, and owners usually give a better monthly price for a 12-month commitment. A longer stay also gives you time to get to know an area before you decide whether to buy.",
     "benefits": [
-      "Lower monthly rent than holiday or month-to-month rates",
-      "Time to test an area before buying",
-      "Furnished homes with utilities set up",
-      "Fixed rent for the contract period"
+      "Short stays from 3 nights: weekly, 10-day, 2-week and monthly options",
+      "Long-term contracts of 6 or 12 months at lower monthly rates",
+      "Furnished condos and pool villas across the island",
+      "Time to test an area before buying"
     ],
     "cta": "Find Your Rental Property",
     "photos": [
@@ -36,276 +36,123 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:BRk_-_Pool_in_balconies.jpg"
       }
-    ]
+    ],
+    "short": {
+      "heading": "Short stays",
+      "text": "Short stays from 3 nights are priced per night or week and depend on the season, the property and the length of stay. Tell us your dates and we will send current options and prices. You can also see our [available rentals](/rent/#rentals) below."
+    }
   },
   "prices": {
     "heading": "How much does it cost to rent in Phuket?",
-    "intro": "Indicative monthly asking prices for long-term contracts, by area, property type and bedrooms. Ranges show the middle half of the prices we researched (25th to 75th percentile), so the cheapest and most luxurious properties are left out. Where a range is not shown, ask us for current prices.",
+    "intro": "Typical monthly asking prices for long-term contracts (12 months), by area and property type. Ranges show the middle half of the prices we researched, so the cheapest and most luxurious properties are left out. Short stays are priced per night or week: ask us for current rates.",
     "disclaimer": "Rental prices are indicative asking-price ranges based on publicly available listings. Actual rental prices depend on location, property condition, furnishings, contract duration, season and availability. Prices may change.",
-    "method": "Based on our research of long-term rental asking prices across Phuket in November 2026. Only properties offered on contracts of at least 12 months are included, so holiday and month-to-month rates are left out. Each range is the middle half (25th to 75th percentile) of the monthly asking prices for that area, property type and size. Where there are not enough comparable properties, the price is available by request. These are asking prices, not agreed rents: the final rent is often lower and depends on the property and the contract.",
+    "method": "Based on our research of long-term rental asking prices across Phuket in November 2026. Only properties offered on contracts of at least 12 months are included, so holiday and month-to-month rates are left out. Each range is the middle half (25th to 75th percentile) of the monthly asking prices for that area and property type. Where there are not enough comparable properties, the price is available by request. These are asking prices, not agreed rents: the final rent is often lower and depends on the property and the contract.",
     "updated": "2026-11-28",
     "minListings": 5,
     "rows": [
       {
-        "area": "Bang Tao",
-        "page": "bang-tao",
-        "type": "condo",
-        "studioMin": 16500,
-        "studioMax": 24000,
-        "studioN": 7,
-        "br1Min": 24500,
-        "br1Max": 39000,
-        "br1N": 23,
-        "br2Min": 43500,
-        "br2Max": 91500,
-        "br2N": 10
+        "area": "Patong / Kata / Karon",
+        "pages": [
+          "patong",
+          "kata",
+          "karon"
+        ],
+        "note": "Walking distance to the beach, shops and restaurants; the main holiday strip",
+        "c1Min": 23000,
+        "c1Max": 35000,
+        "v23Min": 55000,
+        "v23Max": 75000
       },
       {
-        "area": "Bang Tao",
-        "page": "bang-tao",
-        "type": "villa",
-        "br4Min": 312500,
-        "br4Max": 425000,
-        "br4N": 6
+        "area": "Kamala / Surin",
+        "pages": [
+          "kamala"
+        ],
+        "note": "Quieter beaches between Patong and Bang Tao; Surin is the more upmarket end",
+        "c1Min": 25000,
+        "c1Max": 37000,
+        "c23Min": 48000,
+        "c23Max": 90000,
+        "v23Min": 55000,
+        "v23Max": 120000
       },
       {
-        "area": "Laguna",
-        "page": "laguna",
-        "type": "condo",
-        "br1Min": 43000,
-        "br1Max": 75000,
-        "br1N": 27,
-        "br2Min": 70000,
-        "br2Max": 119500,
-        "br2N": 46,
-        "br3Min": 104000,
-        "br3Max": 170000,
-        "br3N": 5
+        "area": "Bang Tao / Layan / Laguna",
+        "pages": [
+          "bang-tao",
+          "layan",
+          "laguna"
+        ],
+        "note": "Premium segment, often new or near the beach; beachfront and Laguna sit at the top of the range, inland Cherng Talay is usually cheaper",
+        "c1Min": 30000,
+        "c1Max": 70000,
+        "c23Min": 70000,
+        "c23Max": 120000,
+        "v23Min": 94000,
+        "v23Max": 195000,
+        "v4Min": 250000,
+        "v4Max": 450000
       },
       {
-        "area": "Laguna",
-        "page": "laguna",
-        "type": "villa",
-        "br3Min": 87500,
-        "br3Max": 140000,
-        "br3N": 11,
-        "br4Min": 134000,
-        "br4Max": 285000,
-        "br4N": 11
-      },
-      {
-        "area": "Layan",
-        "page": "layan",
-        "type": "condo",
-        "br1Min": 54000,
-        "br1Max": 125000,
-        "br1N": 15,
-        "br2Min": 65000,
-        "br2Max": 87500,
-        "br2N": 19,
-        "br3Min": 97500,
-        "br3Max": 170000,
-        "br3N": 11
-      },
-      {
-        "area": "Layan",
-        "page": "layan",
-        "type": "villa",
-        "br3Min": 137500,
-        "br3Max": 219000,
-        "br3N": 8,
-        "br4Min": 350000,
-        "br4Max": 575000,
-        "br4N": 23
-      },
-      {
-        "area": "Cherng Talay",
-        "page": "cherng-talay",
-        "type": "condo",
-        "br1Min": 30000,
-        "br1Max": 35000,
-        "br1N": 9
-      },
-      {
-        "area": "Cherng Talay",
-        "page": "cherng-talay",
-        "type": "villa",
-        "br4Min": 227500,
-        "br4Max": 327500,
-        "br4N": 6
-      },
-      {
-        "area": "Kamala",
-        "page": "kamala",
-        "type": "condo",
-        "studioMin": 23000,
-        "studioMax": 35000,
-        "studioN": 10,
-        "br1Min": 25000,
-        "br1Max": 30000,
-        "br1N": 63,
-        "br2Min": 41000,
-        "br2Max": 68000,
-        "br2N": 29,
-        "br3Min": 45000,
-        "br3Max": 80000,
-        "br3N": 9
-      },
-      {
-        "area": "Kamala",
-        "page": "kamala",
-        "type": "villa",
-        "br2Min": 35000,
-        "br2Max": 75000,
-        "br2N": 6
-      },
-      {
-        "area": "Patong",
-        "page": "patong",
-        "type": "condo",
-        "studioMin": 25000,
-        "studioMax": 32000,
-        "studioN": 20,
-        "br1Min": 25000,
-        "br1Max": 35500,
-        "br1N": 71,
-        "br2Min": 35000,
-        "br2Max": 55000,
-        "br2N": 13,
-        "br3Min": 80000,
-        "br3Max": 200000,
-        "br3N": 5
-      },
-      {
-        "area": "Patong",
-        "page": "patong",
-        "type": "villa",
-        "br3Min": 44000,
-        "br3Max": 64000,
-        "br3N": 6
-      },
-      {
-        "area": "Rawai",
-        "page": "rawai",
-        "type": "condo",
-        "br1Min": 32500,
-        "br1Max": 41500,
-        "br1N": 11,
-        "br2Min": 40000,
-        "br2Max": 64000,
-        "br2N": 14
-      },
-      {
-        "area": "Rawai",
-        "page": "rawai",
-        "type": "villa",
-        "br3Min": 132500,
-        "br3Max": 245000,
-        "br3N": 7
-      },
-      {
-        "area": "Nai Harn",
-        "page": null,
-        "type": "condo",
-        "studioMin": 27500,
-        "studioMax": 32000,
-        "studioN": 21,
-        "br1Min": 30000,
-        "br1Max": 35000,
-        "br1N": 64,
-        "br2Min": 45000,
-        "br2Max": 71000,
-        "br2N": 14
-      },
-      {
-        "area": "Nai Harn",
-        "page": null,
-        "type": "villa",
-        "br3Min": 95000,
-        "br3Max": 140000,
-        "br3N": 5
-      },
-      {
-        "area": "Kata",
-        "page": "kata",
-        "type": "condo",
-        "studioMin": 18000,
-        "studioMax": 30500,
-        "studioN": 30,
-        "br1Min": 21000,
-        "br1Max": 35000,
-        "br1N": 28,
-        "br2Min": 55000,
-        "br2Max": 120000,
-        "br2N": 29,
-        "br3Min": 103500,
-        "br3Max": 244000,
-        "br3N": 8
-      },
-      {
-        "area": "Kata",
-        "page": "kata",
-        "type": "villa"
-      },
-      {
-        "area": "Karon",
-        "page": "karon",
-        "type": "condo",
-        "br1Min": 30000,
-        "br1Max": 37000,
-        "br1N": 18
-      },
-      {
-        "area": "Karon",
-        "page": "karon",
-        "type": "villa"
+        "area": "Rawai / Nai Harn",
+        "pages": [
+          "rawai"
+        ],
+        "note": "The relaxed south, popular with long-stay residents and families",
+        "c1Min": 28000,
+        "c1Max": 35000,
+        "c23Min": 42000,
+        "c23Max": 68000,
+        "v23Min": 81000,
+        "v23Max": 160000,
+        "v4Min": 150000,
+        "v4Max": 269000
       },
       {
         "area": "Chalong",
-        "page": null,
-        "type": "condo",
-        "studioMin": 14000,
-        "studioMax": 19000,
-        "studioN": 13,
-        "br1Min": 20000,
-        "br1Max": 50000,
-        "br1N": 89,
-        "br2Min": 33000,
-        "br2Max": 54500,
-        "br2N": 18
-      },
-      {
-        "area": "Chalong",
-        "page": null,
-        "type": "villa",
-        "br3Min": 60000,
-        "br3Max": 99500,
-        "br3N": 12,
-        "br4Min": 110000,
-        "br4Max": 170000,
-        "br4N": 11
+        "pages": [],
+        "note": "Central south with good value, houses with gardens; no swimming beach",
+        "c1Min": 18000,
+        "c1Max": 45000,
+        "c23Min": 34000,
+        "c23Max": 59000,
+        "v23Min": 35000,
+        "v23Max": 85000,
+        "v4Min": 110000,
+        "v4Max": 170000
       },
       {
         "area": "Phuket Town",
-        "page": null,
-        "type": "condo",
-        "studioMin": 12000,
-        "studioMax": 16000,
-        "studioN": 34,
-        "br1Min": 16000,
-        "br1Max": 20000,
-        "br1N": 101,
-        "br2Min": 20000,
-        "br2Max": 35000,
-        "br2N": 32
+        "pages": [],
+        "note": "The island's entry budget; city life, schools and hospitals, beaches 20-30 minutes away",
+        "c1Min": 15000,
+        "c1Max": 20000,
+        "c23Min": 20000,
+        "c23Max": 35000,
+        "v23Min": 27000,
+        "v23Max": 38000
+      }
+    ],
+    "columns": [
+      {
+        "key": "c1",
+        "label": "Studio or 1-bedroom condo",
+        "note": "For one person or a couple"
       },
       {
-        "area": "Phuket Town",
-        "page": null,
-        "type": "villa",
-        "br3Min": 27000,
-        "br3Max": 35000,
-        "br3N": 11
+        "key": "c23",
+        "label": "Condo, 2-3 bedrooms",
+        "note": "The standard for a couple or a small family"
+      },
+      {
+        "key": "v23",
+        "label": "Villa or house, 2-3 bedrooms",
+        "note": "Garden or private pool, usually outside the busiest streets"
+      },
+      {
+        "key": "v4",
+        "label": "Villa, 4+ bedrooms",
+        "note": "Large families and groups; mostly pool villas"
       }
     ]
   },
@@ -507,6 +354,11 @@
             "text": "Most long-term agreements are for 6 or 12 months; shorter terms usually cost more per month."
           },
           {
+            "kind": "verify",
+            "title": "Short stays under 30 days",
+            "text": "Thai hotel licensing rules can apply when a home is rented for less than 30 days at a time. For short stays, ask how the property is operated, and check the house rules of condominium buildings, some of which do not allow daily or weekly rentals."
+          },
+          {
             "kind": "law",
             "title": "Written agreement",
             "text": "Under the Civil and Commercial Code a lease of immovable property needs written evidence signed by the party liable to be enforceable in court; a lease longer than 3 years must be in writing and registered to be enforceable beyond 3 years. Keep a signed copy."
@@ -635,11 +487,15 @@
   "faq": [
     {
       "question": "How much does it cost to rent a property in Phuket?",
-      "answer": "It depends mostly on the area and size. In our November 2026 research, typical asking rents for a 1-bedroom condo on a 12-month contract ran from about THB 16,000-20,000 a month in Phuket Town to THB 43,000-75,000 in Laguna, and 3-bedroom villas from about THB 60,000-100,000 in Chalong. See the [price table](/rent/#rental-prices) for every area."
+      "answer": "It depends mostly on the area and size. In our November 2026 research, typical asking rents on a 12-month contract for a studio or 1-bedroom condo ran from about THB 15,000-20,000 a month in Phuket Town to THB 30,000-70,000 in Bang Tao, Layan and Laguna. Short stays are priced per night or week. See the [price table](/rent/#rental-prices) for every area."
     },
     {
       "question": "What is the minimum rental period in Phuket?",
-      "answer": "There is no general legal minimum. Long-term rentals are usually agreed for 6 or 12 months; shorter monthly stays are possible but are typically priced closer to holiday rates."
+      "answer": "Short stays usually start from about 3 nights, and many guests book a week, 10 days, two weeks or a month. Long-term rentals are agreed for 6 or 12 months and are priced per month. Over Christmas and New Year some owners ask for a longer minimum stay."
+    },
+    {
+      "question": "Can I rent a property in Phuket for a few days or weeks?",
+      "answer": "Yes. Short stays from about 3 nights are possible, and weekly, 10-day and two-week stays are common. Prices are per night or week and depend on the season. Send us your dates through the request form and we will check availability."
     },
     {
       "question": "Is it cheaper to rent a property for 12 months?",

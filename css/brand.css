@@ -287,3 +287,11 @@ select option { background: var(--ink-2); color: var(--text); }
 .rg-kind.rg-law { border-color: var(--accent); color: var(--accent); }
 .rg-kind.rg-verify { border-color: #d08a5a; color: #e0a07a; }
 .rg-checklist { border: 1px solid var(--line); border-radius: 4px; background: var(--ink-2); padding: 14px 16px; }
+.rent-table thead th { white-space: normal; min-width: 130px; vertical-align: bottom; }
+.rent-table tbody th { white-space: normal; min-width: 190px; max-width: 260px; }
+.rent-table .rt-note { display: block; margin-top: 3px; font-size: 0.72rem; font-weight: 400; line-height: 1.35; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.rent-table thead th .rt-note { text-align: right; }
+.rg-short { margin-top: 14px; padding: 12px 14px; border-left: 3px solid var(--accent); background: var(--ink-2); }
+.rg-short h3 { margin: 0 0 4px; }
+.rg-short p { margin: 0; }
+@media (max-width: 767px) { .rent-table thead th { min-width: 110px; } .rent-table tbody th { min-width: 150px; } }

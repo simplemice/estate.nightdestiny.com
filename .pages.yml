@@ -272,13 +272,19 @@ content:
       - { name: seoTitle, label: "SEO title of /rent/ (about 50-60 characters)", type: string }
       - { name: seoDescription, label: "Meta description of /rent/ (about 140-160 characters)", type: text }
       - name: intro
-        label: "1. Long-term rentals: introduction"
+        label: "1. Short-term and long-term rentals: introduction"
         type: object
         fields:
           - { name: heading, label: Heading, type: string }
           - { name: text, label: "Text (short paragraphs; links like [Rawai](/locations/rawai/))", type: text }
           - { name: benefits, label: "Benefits (short bullet points)", type: string, list: true }
           - { name: cta, label: "Button text (opens the existing rental request form)", type: string }
+          - name: short
+            label: "Short stays box"
+            type: object
+            fields:
+              - { name: heading, label: Heading, type: string }
+              - { name: text, label: "Text (links like [available rentals](/rent/#rentals))", type: text }
           - name: photos
             label: "Photos (2-3, villas and condos; only photos you may publish)"
             type: object
@@ -299,24 +305,30 @@ content:
           - { name: updated, label: "Research date (shown under the table)", type: date, options: { format: yyyy-MM-dd } }
           - { name: method, label: "How the ranges were calculated (sources, filters)", type: text }
           - { name: disclaimer, label: Disclaimer, type: text }
-          - name: rows
-            label: "Rows (one per area and property type; monthly asking prices in THB for contracts of 6+ months)"
+          - name: columns
+            label: "Columns (property groups; keys c1, c23, v23, v4 must stay as they are)"
             type: object
-            list: { collapsible: { collapsed: true, summary: "{area} - {type}" } }
+            list: { collapsible: { collapsed: true, summary: "{label}" } }
             fields:
-              - { name: area, label: Area name, type: string, required: true }
-              - { name: page, label: "Area page file name (e.g. rawai); empty if there is no area page", type: string }
-              - { name: type, label: Property type, type: select, required: true, options: { values: [condo, villa] } }
-              - { name: studioMin, label: "Studio: from (THB / month)", type: number }
-              - { name: studioMax, label: "Studio: to (THB / month)", type: number }
-              - { name: br1Min, label: "1 bedroom: from (THB / month)", type: number }
-              - { name: br1Max, label: "1 bedroom: to (THB / month)", type: number }
-              - { name: br2Min, label: "2 bedrooms: from (THB / month)", type: number }
-              - { name: br2Max, label: "2 bedrooms: to (THB / month)", type: number }
-              - { name: br3Min, label: "3 bedrooms: from (THB / month)", type: number }
-              - { name: br3Max, label: "3 bedrooms: to (THB / month)", type: number }
-              - { name: br4Min, label: "4+ bedrooms: from (THB / month)", type: number }
-              - { name: br4Max, label: "4+ bedrooms: to (THB / month)", type: number }
+              - { name: key, label: "Key (do not change)", type: string }
+              - { name: label, label: Column title, type: string }
+              - { name: note, label: "Short comment under the title", type: string }
+          - name: rows
+            label: "Rows (area groups; long-term monthly asking prices in THB; an empty price shows 'By request')"
+            type: object
+            list: { collapsible: { collapsed: true, summary: "{area}" } }
+            fields:
+              - { name: area, label: "Area group, e.g. Patong / Kata / Karon", type: string, required: true }
+              - { name: pages, label: "Area pages to link (file names, e.g. patong, kata)", type: string, list: true }
+              - { name: note, label: "Short comment, e.g. Premium segment, often beachfront", type: string }
+              - { name: c1Min, label: "Studio or 1-bed condo: from (THB / month)", type: number }
+              - { name: c1Max, label: "Studio or 1-bed condo: to (THB / month)", type: number }
+              - { name: c23Min, label: "Condo 2-3 bed: from (THB / month)", type: number }
+              - { name: c23Max, label: "Condo 2-3 bed: to (THB / month)", type: number }
+              - { name: v23Min, label: "Villa/house 2-3 bed: from (THB / month)", type: number }
+              - { name: v23Max, label: "Villa/house 2-3 bed: to (THB / month)", type: number }
+              - { name: v4Min, label: "Villa 4+ bed: from (THB / month)", type: number }
+              - { name: v4Max, label: "Villa 4+ bed: to (THB / month)", type: number }
       - name: areas
         label: "3. Where should you rent? (area cards)"
         type: object
