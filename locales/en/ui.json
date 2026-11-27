@@ -620,7 +620,7 @@
   "rg.unavailable": "Data unavailable",
   "rg.per_month": "Prices in Thai baht (THB) per month, for contracts of 6 months or longer.",
   "rg.updated": "Research date: {d}.",
-  "rg.method": "How these ranges were calculated",
+  "rg.method": "About these prices",
   "rg.disclaimer": "Rental prices are indicative asking-price ranges based on publicly available listings. Actual rental prices depend on location, property condition, furnishings, contract duration, season and availability. Prices may change.",
   "rg.h_areas": "Where should you rent?",
   "rg.rental": "Rentals:",
@@ -631,5 +631,6 @@
   "rg.kind_practice": "Common practice",
   "rg.kind_verify": "Verify with a lawyer",
   "rg.h_checklist": "Move-in checklist",
-  "rg.h_faq": "Long-term rental FAQ"
+  "rg.h_faq": "Long-term rental FAQ",
+  "rg.by_request": "By request"
 }

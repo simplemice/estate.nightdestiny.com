@@ -833,7 +833,7 @@ function rentGuide() {
 		<div class="table-responsive"><table class="table unit-table rent-table">
 			<caption class="sr-only">${T('rg.caption')}</caption>
 			<thead><tr><th scope="col">${T('rg.area')}</th><th scope="col">${T('rg.type')}</th>${RENT_BEDS.map((b) => `<th scope="col" class="num">${T(`rg.${b}`)}</th>`).join('')}</tr></thead>
-			<tbody>${rows.map((r) => { const pg = pagesBy(r.page); const a = areaLabel(r); return `<tr data-area="${esc(a)}" data-type="${esc(r.type)}"><th scope="row">${pg ? `<a href="${lp(pg.url)}">${esc(a)}</a>` : esc(a)}</th><td data-label="${T('rg.type')}">${esc(typeName(r.type))}</td>${RENT_BEDS.map((b) => { const c = cell(r, b); return `<td class="num${c ? '' : ' rp-na'}" data-label="${T(`rg.${b}`)}">${c || (r.type === 'villa' && b === 'studio' ? T('rg.na') : T('rg.unavailable'))}</td>`; }).join('')}</tr>`; }).join('')}</tbody>
+			<tbody>${rows.map((r) => { const pg = pagesBy(r.page); const a = areaLabel(r); return `<tr data-area="${esc(a)}" data-type="${esc(r.type)}"><th scope="row">${pg ? `<a href="${lp(pg.url)}">${esc(a)}</a>` : esc(a)}</th><td data-label="${T('rg.type')}">${esc(typeName(r.type))}</td>${RENT_BEDS.map((b) => { const c = cell(r, b); return `<td class="num${c ? '' : ' rp-na'}" data-label="${T(`rg.${b}`)}">${c || T('rg.by_request')}</td>`; }).join('')}</tr>`; }).join('')}</tbody>
 		</table></div>
 		<p class="ds-note">${T('rg.per_month')}${P.updated ? ` ${T('rg.updated', { d: esc(P.updated) })}` : ''}</p>
 		${en && P.method ? `<details class="area-nearby"><summary>${T('rg.method')}</summary><p class="ds-note">${richText(P.method)}</p></details>` : ''}
@@ -869,8 +869,9 @@ function listingPage(category, list, extra = []) {
   const total = list.length + extra.length;
   const h1 = T(rentC ? 'rent.h1' : 'sale.h1');
   const desc = T(rentC ? 'rent.desc' : 'sale.desc');
-  const body = `${pageHead(h1, T(rentC ? 'rent.sub' : 'sale.sub'), [['/', T('nav.home')], ['', T(rentC ? 'nav.rent' : 'nav.sale')]])}
-	<section class="rooms-section spad estate-listing" data-listing="${category}">
+  const rg = rentC ? rentGuide() : null; // /rent/: long-term guide first, the rental listings below it
+  const body = `${pageHead(h1, T(rentC ? 'rent.sub' : 'sale.sub'), [['/', T('nav.home')], ['', T(rentC ? 'nav.rent' : 'nav.sale')]])}${rg ? rg.html : ''}
+	<section class="rooms-section spad estate-listing" data-listing="${category}" id="${rentC ? 'rentals' : 'listings'}">
 		<div class="container">
 			${category === 'sale' ? typeTabs(list.concat(extra)) : `<p class="rent-notice"><i class="fa fa-calendar-check-o"></i> ${esc(T('rental.notice'))}</p>`}
 			${filterForm(list.concat(extra), category)}
@@ -882,7 +883,7 @@ function listingPage(category, list, extra = []) {
 			<p class="no-results" id="no-results" hidden>${T('no_match_props')} <a href="#" id="f-reset-2">${T('reset_filters')}</a></p>
 			${total === 0 ? `<p class="no-results">${T('no_listings')} ${waBtn(waMsg.general(), 'wa-btn', T('ask_whatsapp'))}</p>` : ''}
 		</div>
-	</section>${rentC ? (() => { const rg = rentGuide(); return rg.html + (rg.faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: rg.faq.map((x) => ({ '@type': 'Question', name: x.question, acceptedAnswer: { '@type': 'Answer', text: plainText(x.answer) } })) }) : ''); })() : ''}`;
+	</section>${rg ? (() => { return (rg.faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: rg.faq.map((x) => ({ '@type': 'Question', name: x.question, acceptedAnswer: { '@type': 'Answer', text: plainText(x.answer) } })) }) : ''); })() : ''}`;
   const rgSeo = rentC && LANG === DEFAULT_LANG && RENT_GUIDE ? RENT_GUIDE : {};
   return layout({ title: rgSeo.seoTitle || T(rentC ? 'rent.title' : 'sale.title', { site: settings.siteName }), description: rgSeo.seoDescription || desc, pathname: `/${category}/`, active: category, body: rentC ? body + rentalDialog().html : body, scripts: rentC ? rentalDialog().scripts + `<script src="/js/rent-guide.js?v=${JS_V.rentGuide}" defer></script>` : '', ogImage: (list[0] || extra[0])?.cover, i18nJs: true, entities: [{ '@type': 'ItemList', name: h1, itemListElement: list.concat(extra).slice(0, 50).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(x), name: x.name || title(x) })) }] });
 }
