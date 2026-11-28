@@ -36,6 +36,12 @@
   ]
  },
  {
+  "name": "Arthouse",
+  "projects": [
+   "9-nile-residence"
+  ]
+ },
+ {
   "name": "Ashiyana Estates",
   "projects": [
    "ashiyana-heights"
@@ -90,6 +96,7 @@
  {
   "name": "Botanica Luxury Phuket Co., Ltd.",
   "projects": [
+   "botanica-chalong-bay",
    "botanica-grand-sea-through",
    "botanica-modern-sea-karon",
    "botanica-montazure",
@@ -119,6 +126,18 @@
   "name": "ESM Development",
   "projects": [
    "vibe-karon"
+  ]
+ },
+ {
+  "name": "Fabulous Real Estate",
+  "projects": [
+   "andaman-bay-view-residences"
+  ]
+ },
+ {
+  "name": "Fantasea Plus Co., Ltd.",
+  "projects": [
+   "wyndham-fantasea-condo-chalong"
   ]
  },
  {
@@ -168,6 +187,12 @@
   "name": "Minor International",
   "projects": [
    "kiara-reserve-residences"
+  ]
+ },
+ {
+  "name": "Mira Unique Naiharn Co., Ltd.",
+  "projects": [
+   "unique-eco-viva"
   ]
  },
  {

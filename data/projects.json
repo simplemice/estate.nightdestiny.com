@@ -1,5 +1,150 @@
 [
  {
+  "id": "9-nile-residence",
+  "name": "9 Nile Residence",
+  "url": "/projects/9-nile-residence/",
+  "category": "Villa",
+  "propertyType": "Houses and pool villas",
+  "developer": "Arthouse",
+  "location": "Chalong (Palai side)",
+  "startingPrice": 12950000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   3,
+   4
+  ],
+  "builtUpArea": [
+   210,
+   210
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Dec 2027",
+  "cover": "/assets/images/projects/9-nile-residence/9-nile-residence-pool-villa.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-28"
+ },
+ {
+  "id": "andaman-bay-view-residences",
+  "name": "Andaman Bay View Residences",
+  "url": "/projects/andaman-bay-view-residences/",
+  "category": "Condominium",
+  "propertyType": "Boutique condominium",
+  "developer": "Fabulous Real Estate",
+  "location": "Chalong (Soi Chao Fa 46)",
+  "startingPrice": 6900000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   4
+  ],
+  "bathrooms": [
+   1,
+   4
+  ],
+  "builtUpArea": [
+   47,
+   194
+  ],
+  "status": "Completed",
+  "completionDate": "Mar 2025",
+  "cover": "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-building.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-28"
+ },
+ {
+  "id": "botanica-chalong-bay",
+  "name": "Botanica Chalong Bay",
+  "url": "/projects/botanica-chalong-bay/",
+  "category": "Villa",
+  "propertyType": "Pool villa",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "location": "Chalong (Soi Pa Lai 2)",
+  "startingPrice": 37639000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   4,
+   4
+  ],
+  "bathrooms": [
+   5,
+   5
+  ],
+  "builtUpArea": [
+   380,
+   431
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-pool.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-28"
+ },
+ {
+  "id": "unique-eco-viva",
+  "name": "Unique Eco Viva",
+  "url": "/projects/unique-eco-viva/",
+  "category": "Villa",
+  "propertyType": "Eco pool villa",
+  "developer": "Mira Unique Naiharn Co., Ltd.",
+  "location": "Chalong",
+  "startingPrice": 20300000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   3,
+   4
+  ],
+  "bathrooms": [
+   4,
+   5
+  ],
+  "builtUpArea": [
+   330,
+   449
+  ],
+  "status": "Pre-sale",
+  "completionDate": "Built to order (about 14 months); 2028 Q1 per agent",
+  "cover": "/assets/images/projects/unique-eco-viva/unique-eco-viva-villa-type-a.jpg",
+  "imageCount": 9,
+  "lastVerified": "2026-11-28"
+ },
+ {
+  "id": "wyndham-fantasea-condo-chalong",
+  "name": "Wyndham Fantasea Condo Chalong",
+  "url": "/projects/wyndham-fantasea-condo-chalong/",
+  "category": "Condominium",
+  "propertyType": "Branded condominium",
+  "developer": "Fantasea Plus Co., Ltd.",
+  "location": "Chalong",
+  "startingPrice": 2636000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   1,
+   3
+  ],
+  "bathrooms": [
+   1,
+   3
+  ],
+  "builtUpArea": [
+   28,
+   92
+  ],
+  "status": "Under construction",
+  "completionDate": "Apr 2027 (sources give Q4 2026 to Apr 2027)",
+  "cover": "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-building.jpg",
+  "imageCount": 10,
+  "lastVerified": "2026-11-28"
+ },
+ {
   "id": "anchan-emerald",
   "name": "Anchan Emerald",
   "url": "/projects/anchan-emerald/",

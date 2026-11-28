@@ -146,3 +146,85 @@ Research source order: official developer pages where found, FazWaz project page
 - Nearest beach/landmarks (straight line): Surin Beach 0.8 km; Haad Laem Sing 1.6 km; Cafe Del Mar Phuket 3.3 km; Kamala Beach 3.9 km; Phuket FantaSea 4.8 km; Boat Avenue Cherngtalay 4.8 km
 - Sources: FazWaz project page (portal) <https://www.fazwaz.com/projects/thailand/phuket/thalang/choeng-thale/the-petit-tycoon>; Keller Henson project page <https://kellerhenson.com/project/the-petit-tycoon>; Hipflat project page <https://www.hipflat.co.th/en/projects/-ll73l84c18cnl30eu28c2huc3291e2u9> (checked 2026-11-25)
 - Missing / conflicting: No official developer site verified. Units: FazWaz 101 / 2 buildings / 6 floors; other sources 22, 77, 125 units and 4-5 floors. Completion Aug 2026 (FazWaz; some listings still say scheduled). Price start ~THB 10.6M from portal summary; FazWaz max 48.75M, other sources up to 55.9M. Freehold under the 49% foreign quota per portal text. Bathroom counts per type vary between listings.
+
+
+---
+
+# Batch 2026-11-28: five Chalong projects
+
+Source order: developer sites (Botanica official project page returned 404 on 2026-11-28; no official sites found for the other four), FazWaz data read through its public mirror samuitimes.com (fazwaz.com blocks automated access), Keller Henson, Papaya Property, Thailand-Property. Facts rewritten, not copied. Conflicts recorded per project.
+
+## Wyndham Fantasea Condo Chalong
+- URL: https://estate.nightdestiny.com/projects/wyndham-fantasea-condo-chalong/
+- Identity: Wyndham Fantasea Condo Chalong (Branded condominium), Chalong, Phuket
+- Developer: Fantasea Plus Co., Ltd.
+- Status / completion: Under construction / Apr 2027 (sources give Q4 2026 to Apr 2027)
+- Buildings / floors / units: 3 / 8 / 398
+- Bedrooms: 1-3; bathrooms: 1-3; built-up: 28-92 sqm; land: n/a sqm
+- Price (advertised): from THB 2,636,000
+- Ownership: Freehold / Leasehold
+- Facilities: Large communal pool; Fitness centre; Cafe; Lobby and reception; Co-working space and meeting room; Communal garden; Car parking (200% of units); 24-hour security and CCTV; Wyndham brand and reservation system
+- Nearby: Robinson Lifestyle Chalong short walk; Phuket Zoo 1.3 km / 3 minutes; Chalong Pier 3.5 km; Phuket International Airport 39.1 km / 56 minutes
+- Floor plans: wyndham-fantasea-condo-chalong-master-plan.jpg
+- Sources: https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/wyndham-fantasea-condo-chalong ; https://papayaproperty.com/fantasea-plus/fantasea-condo-chalong ; https://kellerhenson.com/project/wyndham-fantasea-condo-chalong (read 2026-11-28)
+- Missing / conflicts: Separate from Wyndham Fantasea Condo Rawai. Status: FazWaz mirror "Off Plan" (construction start 01/11/2024), Papaya "under construction"; shown Under construction. Completion Apr 2027 (FazWaz) vs Q4 2026 (Papaya). Prices FazWaz mirror listings THB 2.636-10.304M (header "from THB 2.62M"); Papaya 1BR THB 2.856M, 3BR THB 9.996M with 3 baths (FazWaz 2 baths). Freehold premium THB 300,000. Pets not allowed. Unit plan boards on FazWaz carry a FazWaz watermark and were not used; master plan used.
+
+## Andaman Bay View Residences
+- URL: https://estate.nightdestiny.com/projects/andaman-bay-view-residences/
+- Identity: Andaman Bay View Residences (Boutique condominium), Chalong (Soi Chao Fa 46), Phuket
+- Developer: Fabulous Real Estate
+- Status / completion: Completed / Mar 2025
+- Buildings / floors / units: 1 / 6 / 57
+- Bedrooms: 1-4; bathrooms: 1-4; built-up: 47-194 sqm; land: n/a sqm
+- Price (advertised): from THB 6,900,000
+- Ownership: Freehold
+- Facilities: Rooftop swimming pool; Rooftop garden; Residents' bar; Gym (5th floor); Lobby and cafe; Key-card access; Two lifts; Car parking; 24-hour security and CCTV
+- Nearby: Wat Chalong 1.4 km / 3 minutes; Phuket International Airport 39.2 km / 54 minutes
+- Floor plans: none usable (portal plans watermarked)
+- Sources: https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/andaman-bay-view-residences ; https://www.thailand-property.com/condo/25648/andaman-bay-view-residences (read 2026-11-28)
+- Missing / conflicts: Developer Fabulous Real Estate (FazWaz text); no official site found. Completed Mar 2025 (FazWaz), "2025" (thailand-property). Units 57 (FazWaz); other listings say 50. Price from THB 6.9M (2 listings: 1BR 55 sqm 6.9M, 3BR 117 sqm 13.92M); FazWaz header THB 6.87M. Bathroom counts on the plan list include half-baths; rounded down. Wat Chalong 0.6 km (FAQ) vs 1.4 km drive. FazWaz-made unit plan images carry a FazWaz watermark: not used. Pets not allowed.
+
+## 9 Nile Residence
+- URL: https://estate.nightdestiny.com/projects/9-nile-residence/
+- Identity: 9 Nile Residence (Houses and pool villas), Chalong (Palai side), Phuket
+- Developer: Arthouse
+- Status / completion: Pre-sale / Dec 2027
+- Buildings / floors / units: n/a / 2 / 58
+- Bedrooms: 4; bathrooms: 3-4; built-up: 210 sqm; land: 250 sqm
+- Price (advertised): from THB 12,950,000
+- Ownership: not verified
+- Facilities: Clubhouse; Communal swimming pool; Gym; Car parking; 24-hour security and CCTV; Pets allowed
+- Nearby: Chalong Pier 5.5 km; Phuket International Airport 40.7 km / 58 minutes
+- Floor plans: 9-nile-residence-master-plan.jpg, 9-nile-residence-four-bedroom-house-plan.jpg, 9-nile-residence-four-bedroom-pool-villa-plan.jpg
+- Sources: https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/9-nile-residence ; https://www.thailand-property.com/house/48635/9-nile-residence (read 2026-11-28)
+- Missing / conflicts: Brief name "Nile Residence by Arthouse"; portal name "9 Nile Residence" (also "9Nile"). Units 58 (FazWaz, thailand-property); one Russian portal says 248 villas of 232-383 sqm (not used). Completion Dec 2027 (FazWaz); one portal Q4 2028. Prices THB 12.95-27.32M (FazWaz). Pool villa sizes not published in text. Ownership not project-specific (not shown). No official developer site found.
+
+## Botanica Chalong Bay
+- URL: https://estate.nightdestiny.com/projects/botanica-chalong-bay/
+- Identity: Botanica Chalong Bay (Pool villa), Chalong (Soi Pa Lai 2), Phuket
+- Developer: Botanica Luxury Phuket Co., Ltd.
+- Status / completion: Pre-sale / not published
+- Buildings / floors / units: n/a / 2 / 28
+- Bedrooms: 4; bathrooms: 5; built-up: 380-431 sqm; land: 468-540 sqm
+- Price (advertised): from THB 37,639,000
+- Ownership: not verified
+- Facilities: Private pool in every villa; Landscaped common gardens; Car parking; 24-hour security and CCTV; Pets allowed
+- Nearby: JW Marriott Phuket Resort & Spa Chalong Bay 5 minutes; Ruamrudee International School Phuket 9 minutes; Phuket Deep Sea Port 13 minutes; Robinson Lifestyle Chalong 14 minutes; Chalong Pier 3.5 km; Bangkok Hospital Phuket 40 minutes; Phuket International Airport 55 minutes
+- Floor plans: botanica-chalong-bay-master-plan.jpg, botanica-chalong-bay-type-4b-ground-floor.jpg, botanica-chalong-bay-type-4b-first-floor.jpg, botanica-chalong-bay-type-c1a-ground-floor.jpg, botanica-chalong-bay-type-c1a-first-floor.jpg, botanica-chalong-bay-type-c1b-ground-floor.jpg, botanica-chalong-bay-type-c1b-first-floor.jpg
+- Sources: https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/botanica-chalong-bay ; https://www.botanicaluxuryvilla.com/ (read 2026-11-28)
+- Missing / conflicts: Official project page (botanicaluxuryvilla.com/projects/botanica-chalong-bay/) returned 404 on 2026-11-28; listed on the developer's home page. Facts from FazWaz mirror. Private pool: renders and brochure plans show a pool for each villa; not stated in portal text. Starting price conflict: banner "from THB 37.5M", header THB 37.639M (used), one summary THB 43.2M; top THB 91.07M. Built-up vs land per listing not labelled (larger figure assumed land). Completion date not published. Sinking fund basis conflicts, not shown. Photos of a completed Botanica project in the gallery (possibly another estate) were not used.
+
+## Unique Eco Viva
+- URL: https://estate.nightdestiny.com/projects/unique-eco-viva/
+- Identity: Unique Eco Viva (Eco pool villa), Chalong, Phuket
+- Developer: Mira Unique Naiharn Co., Ltd.
+- Status / completion: Pre-sale / Built to order (about 14 months); 2028 Q1 per agent
+- Buildings / floors / units: n/a / 2 / 10
+- Bedrooms: 3-4; bathrooms: 4-5; built-up: 330-449 sqm; land: 280-476 sqm
+- Price (advertised): from THB 20,300,000
+- Ownership: Leasehold
+- Facilities: Private pool and sala in every villa; 5 kW solar panels per villa; EV charger per villa; Smart-home system; Underground rainwater tank; Two parking spaces per villa; 24-hour security and CCTV; Pets allowed
+- Nearby: Kata Beach 3.4 km; Dreamax International Kindergarten & School 1.2 km / 3 minutes; Lighthouse Chalong International Kindergarten & School 5.6 km / 13 minutes; Dibuk Hospital 5.6 km; Bangkok Hospital Phuket 9.6 km; Phuket International Airport 41.7 km / 59 minutes
+- Floor plans: unique-eco-viva-master-plan.jpg, unique-eco-viva-villa-type-a-plan.jpg, unique-eco-viva-villa-type-b-plan.jpg
+- Sources: https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/unique-eco-viva ; https://kellerhenson.com/project/unique-eco-viva (read 2026-11-28)
+- Missing / conflicts: Brief name "Unique Eco Viva Villas". Developer Mira Unique Naiharn Co., Ltd. (FazWaz); "Unique" (Keller Henson). Status "made to order, 14 months" (FazWaz) vs 2028 Q1 (Keller Henson). Prices THB 20.3-28.3M (FazWaz), 20.3-22.9M (KH). Type A/B labels conflict between sources; plans labelled as in the developer drawings. Common fee THB 45/sqm (FazWaz) vs THB 8,000 (KH); sinking fund THB 65,000 "per sqm" (KH) looks wrong, not shown. Freehold for Thai buyers, leasehold 30+30+30 for foreigners (KH).

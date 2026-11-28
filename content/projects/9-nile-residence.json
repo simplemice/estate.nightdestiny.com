@@ -1,0 +1,130 @@
+{
+  "name": "9 Nile Residence",
+  "developer": "Arthouse",
+  "category": "Villa",
+  "projectType": "Houses and pool villas",
+  "location": "Chalong (Palai side)",
+  "area": "Chalong",
+  "shortDescription": "Off-plan estate of 58 four-bedroom houses and pool villas by Arthouse in Chalong, with a clubhouse, communal pool and gym, due December 2027.",
+  "description": "9 Nile Residence is a gated estate of 58 homes by Arthouse on the Palai side of Chalong, in the south-east of Phuket. It offers two products: compact two-storey four-bedroom houses of about 210 sqm on plots of about 250 sqm, and larger four-bedroom pool villas, both in a Mediterranean style with arched windows and warm render.\nThe estate has a clubhouse, a communal pool, a gym, parking and 24-hour security, and pets are allowed. Chalong Pier is about 5.5 km away and the airport about 58 minutes by car; the south-coast beaches of Rawai and Nai Harn and the shops of Chalong are a short drive.\nThe project is off plan with completion scheduled for December 2027. The payment plan follows construction stages from a THB 300,000 deposit to handover.",
+  "cardDescription": "58 four-bedroom houses and pool villas by Arthouse in Chalong, from THB 12.95M.",
+  "seoTitle": "9 Nile Residence Chalong | 4-Bedroom Houses & Pool Villas",
+  "seoDescription": "9 Nile Residence by Arthouse, Chalong: off-plan estate of 58 four-bedroom houses and pool villas with clubhouse and pool, due Dec 2027. From THB 12.95M.",
+  "primaryKeyword": "9 Nile Residence",
+  "secondaryKeywords": [
+    "Nile Residence Arthouse",
+    "pool villas for sale Chalong",
+    "4 bedroom house Chalong"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Dec 2027",
+  "totalUnits": "58",
+  "floors": "2",
+  "startingPrice": 12950000,
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 3,
+  "bathroomsMax": 4,
+  "builtUpMin": 210,
+  "landMin": 250,
+  "unitTypes": [
+    {
+      "name": "4 Bedroom House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "size": "210",
+      "landSqm": "250",
+      "price": 12950000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 4
+    }
+  ],
+  "facilities": [
+    "Clubhouse",
+    "Communal swimming pool",
+    "Gym",
+    "Car parking",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "paymentPlan": [
+    "Deposit THB 300,000",
+    "35% on contract signing",
+    "10% on land preparation and start of construction",
+    "15% on structure completion",
+    "15% on walls and partitions",
+    "15% on flooring",
+    "5% on completion",
+    "5% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "Chalong Pier",
+      "distance": "5.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "40.7 km / 58 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/9-nile-residence"
+    },
+    {
+      "label": "Thailand-Property project page",
+      "url": "https://www.thailand-property.com/house/48635/9-nile-residence"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/9-nile-residence",
+  "relatedProjects": [
+    "botanica-chalong-bay",
+    "unique-eco-viva"
+  ],
+  "researchNotes": "Added 2026-11-28. Brief name \"Nile Residence by Arthouse\"; portal name \"9 Nile Residence\" (also \"9Nile\"). Units 58 (FazWaz, thailand-property); one Russian portal says 248 villas of 232-383 sqm (not used). Completion Dec 2027 (FazWaz); one portal Q4 2028. Prices THB 12.95-27.32M (FazWaz). Pool villa sizes not published in text. Ownership not project-specific (not shown). No official developer site found.",
+  "cover": "/assets/images/projects/9-nile-residence/9-nile-residence-pool-villa.jpg",
+  "images": [
+    "/assets/images/projects/9-nile-residence/9-nile-residence-villa-garden.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-house-carport.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-pool-aerial.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-living-room.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-dining.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-kitchen.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-master-bedroom.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-bathroom.jpg",
+    "/assets/images/projects/9-nile-residence/9-nile-residence-bedroom.jpg"
+  ],
+  "imageCaptions": [
+    "4-bedroom pool villa with garden, render",
+    "Villa and garden, render",
+    "4-bedroom house with carport, render",
+    "Villa pool from above, render",
+    "Living room, render",
+    "Dining room, render",
+    "Kitchen and living area, render",
+    "Master bedroom, render",
+    "Master bathroom, render",
+    "Bedroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed homes.",
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/9-nile-residence/9-nile-residence-master-plan.jpg",
+    "/assets/images/floorplans/9-nile-residence/9-nile-residence-four-bedroom-house-plan.jpg",
+    "/assets/images/floorplans/9-nile-residence/9-nile-residence-four-bedroom-pool-villa-plan.jpg"
+  ],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

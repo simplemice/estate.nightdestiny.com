@@ -1,0 +1,161 @@
+{
+  "name": "Botanica Chalong Bay",
+  "developer": "Botanica Luxury Phuket Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Pool villa",
+  "location": "Chalong (Soi Pa Lai 2)",
+  "area": "Chalong",
+  "shortDescription": "Off-plan estate of 28 four-bedroom pool villas by Botanica on Soi Pa Lai 2 in Chalong, on a 2.4-hectare site near the JW Marriott Chalong Bay.",
+  "description": "Botanica Chalong Bay is a new estate by Botanica Luxury Phuket, the developer of Botanica Grand Avenue and Botanica Hythe, on Soi Pa Lai 2 on the east side of Chalong. It has 28 two-storey, four-bedroom villas on a site of about 24,000 sqm, in several contemporary designs (types A to E, 4B, C1A and C1B) with large glass walls, timber ceilings and private pools.\nAdvertised villas range from about 380 to 430 sqm of built area on plots of roughly 470 to 540 sqm, with five bathrooms. The estate has landscaped common gardens, parking and 24-hour security; pets are allowed.\nThe JW Marriott Chalong Bay is about 5 minutes away, Ruamrudee International School about 9 minutes and Robinson Lifestyle Chalong about 14 minutes; Chalong Pier is about 3.5 km away. The project is off plan, with payments linked to construction stages.",
+  "cardDescription": "28 two-storey 4-bedroom pool villas by Botanica in Chalong, from about THB 37.6M.",
+  "seoTitle": "Botanica Chalong Bay | 4-Bedroom Pool Villas in Chalong",
+  "seoDescription": "Botanica Chalong Bay: off-plan estate of 28 two-storey 4-bedroom pool villas of 380-430 sqm on Soi Pa Lai 2, Chalong, by Botanica. From about THB 37.6M.",
+  "primaryKeyword": "Botanica Chalong Bay",
+  "secondaryKeywords": [
+    "pool villas for sale Chalong",
+    "Botanica villas Phuket",
+    "Chalong Bay villas"
+  ],
+  "constructionStatus": "Pre-sale",
+  "totalUnits": "28",
+  "floors": "2",
+  "startingPrice": 37639000,
+  "bedroomsMin": 4,
+  "bedroomsMax": 4,
+  "bathroomsMin": 5,
+  "bathroomsMax": 5,
+  "builtUpMin": 380,
+  "builtUpMax": 431,
+  "landMin": 468,
+  "landMax": 540,
+  "unitTypes": [
+    {
+      "name": "4 Bedroom Pool Villa (430.9 sqm)",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "430.9",
+      "landSqm": "468",
+      "price": 37639000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "4 Bedroom Pool Villa (380 sqm)",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "380",
+      "landSqm": "520-540",
+      "price": 40312000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool in every villa",
+    "Landscaped common gardens",
+    "Car parking",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "commonAreaFee": "THB 20 per sqm per month",
+  "paymentPlan": [
+    "Reservation deposit 2%",
+    "28% within 30 days of reservation",
+    "20% on foundation posts",
+    "15% on concrete and roof structure",
+    "15% on walls",
+    "10% on floors, paint, windows and door frames",
+    "10% on handover"
+  ],
+  "nearby": [
+    {
+      "place": "JW Marriott Phuket Resort & Spa Chalong Bay",
+      "distance": "5 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Ruamrudee International School Phuket",
+      "distance": "9 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket Deep Sea Port",
+      "distance": "13 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Robinson Lifestyle Chalong",
+      "distance": "14 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Chalong Pier",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "40 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "55 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/botanica-chalong-bay"
+    },
+    {
+      "label": "Botanica Luxury Phuket project list",
+      "url": "https://www.botanicaluxuryvilla.com/"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/botanica-chalong-bay",
+  "relatedProjects": [
+    "botanica-grand-sea-through",
+    "9-nile-residence"
+  ],
+  "researchNotes": "Added 2026-11-28. Official project page (botanicaluxuryvilla.com/projects/botanica-chalong-bay/) returned 404 on 2026-11-28; listed on the developer's home page. Facts from FazWaz mirror. Private pool: renders and brochure plans show a pool for each villa; not stated in portal text. Starting price conflict: banner \"from THB 37.5M\", header THB 37.639M (used), one summary THB 43.2M; top THB 91.07M. Built-up vs land per listing not labelled (larger figure assumed land). Completion date not published. Sinking fund basis conflicts, not shown. Photos of a completed Botanica project in the gallery (possibly another estate) were not used.",
+  "cover": "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-pool.jpg",
+  "images": [
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-pool-terrace.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-front.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-garden.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-evening.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-villa-c1b.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-living-dining.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-living-room.jpg",
+    "/assets/images/projects/botanica-chalong-bay/botanica-chalong-bay-outdoor-living.jpg"
+  ],
+  "imageCaptions": [
+    "Two-storey pool villa, render",
+    "Pool terrace and garden, render",
+    "Villa front with carport, render",
+    "Villa from the garden, render",
+    "Villa exterior, render",
+    "Villa type C1B, render",
+    "Double-height living and dining area, render",
+    "Living room, render",
+    "Outdoor living and pool deck, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions) and brochure plans. Layouts and finishes may differ from the completed villas.",
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-master-plan.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-4b-ground-floor.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-4b-first-floor.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-c1a-ground-floor.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-c1a-first-floor.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-c1b-ground-floor.jpg",
+    "/assets/images/floorplans/botanica-chalong-bay/botanica-chalong-bay-type-c1b-first-floor.jpg"
+  ],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

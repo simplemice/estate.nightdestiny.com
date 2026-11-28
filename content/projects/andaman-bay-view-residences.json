@@ -1,0 +1,135 @@
+{
+  "name": "Andaman Bay View Residences",
+  "developer": "Fabulous Real Estate",
+  "category": "Condominium",
+  "projectType": "Boutique condominium",
+  "location": "Chalong (Soi Chao Fa 46)",
+  "area": "Chalong",
+  "shortDescription": "Completed boutique condominium of 57 apartments on six floors near Wat Chalong, with a rooftop pool and units from 1 to 4 bedrooms.",
+  "description": "Andaman Bay View Residences is a small condominium of 57 apartments in a single six-storey building on Soi Chao Fa 46 in Chalong, a short drive from Wat Chalong. The building was completed in 2025 and is distinguished by curved, planted balconies and interiors that use Thai textiles.\nApartments range from about 47 to 194 sqm, from one-bedroom suites to three-bedroom duplexes and a four-bedroom unit; recent listings show a 55 sqm one-bedroom and a 117 sqm three-bedroom. Residents have a rooftop pool and garden, a residents' bar, a gym on the fifth floor, a lobby with a cafe, key-card access, two lifts and 24-hour security.\nUnits are sold freehold within the foreign quota. Chalong's supermarkets, schools and the roads to Rawai, Kata and Phuket Town are within easy reach; the airport is about 54 minutes by car.",
+  "cardDescription": "Completed 57-unit boutique condo near Wat Chalong with a rooftop pool, from THB 6.9M.",
+  "seoTitle": "Andaman Bay View Residences | Boutique Condos in Chalong",
+  "seoDescription": "Andaman Bay View Residences, Chalong: completed boutique condominium of 57 apartments of 47-194 sqm with a rooftop pool near Wat Chalong. From THB 6.9M.",
+  "primaryKeyword": "Andaman Bay View Residences",
+  "secondaryKeywords": [
+    "condo for sale Chalong",
+    "Andaman Bay View Chalong",
+    "rooftop pool condo Phuket"
+  ],
+  "constructionStatus": "Completed",
+  "completionDate": "Mar 2025",
+  "totalUnits": "57",
+  "floors": "6",
+  "buildings": "1",
+  "startingPrice": 6900000,
+  "bedroomsMin": 1,
+  "bedroomsMax": 4,
+  "bathroomsMin": 1,
+  "bathroomsMax": 4,
+  "builtUpMin": 47,
+  "builtUpMax": 194,
+  "ownership": [
+    "Freehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Phangkaew Suite 1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "55",
+      "price": 6900000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Suanpleung Haven 2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2
+    },
+    {
+      "name": "3 Bedroom (Lamrangsa Duplex, Ratna Retreat, Oasis Lagoon, Phara Nakhon)",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "size": "117",
+      "price": 13920000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Phangkaew Duo 4 Bedroom",
+      "bedrooms": 4,
+      "bathrooms": 3
+    }
+  ],
+  "facilities": [
+    "Rooftop swimming pool",
+    "Rooftop garden",
+    "Residents' bar",
+    "Gym (5th floor)",
+    "Lobby and cafe",
+    "Key-card access",
+    "Two lifts",
+    "Car parking",
+    "24-hour security and CCTV"
+  ],
+  "nearby": [
+    {
+      "place": "Wat Chalong",
+      "distance": "1.4 km / 3 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "39.2 km / 54 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/andaman-bay-view-residences"
+    },
+    {
+      "label": "Thailand-Property project page",
+      "url": "https://www.thailand-property.com/condo/25648/andaman-bay-view-residences"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/andaman-bay-view-residences",
+  "relatedProjects": [
+    "wyndham-fantasea-condo-chalong",
+    "aura-condominium"
+  ],
+  "researchNotes": "Added 2026-11-28. Developer Fabulous Real Estate (FazWaz text); no official site found. Completed Mar 2025 (FazWaz), \"2025\" (thailand-property). Units 57 (FazWaz); other listings say 50. Price from THB 6.9M (2 listings: 1BR 55 sqm 6.9M, 3BR 117 sqm 13.92M); FazWaz header THB 6.87M. Bathroom counts on the plan list include half-baths; rounded down. Wat Chalong 0.6 km (FAQ) vs 1.4 km drive. FazWaz-made unit plan images carry a FazWaz watermark: not used. Pets not allowed.",
+  "cover": "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-building.jpg",
+  "images": [
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-facade.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-rooftop-pool.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-rooftop-pool-terrace.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-living-room.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-dining.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-bedroom.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-living-dining.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-lounge.jpg",
+    "/assets/images/projects/andaman-bay-view-residences/andaman-bay-view-residences-bedroom-2.jpg"
+  ],
+  "imageCaptions": [
+    "The building with its curved balconies, render",
+    "Facade and planted balconies, render",
+    "Rooftop pool, render",
+    "Rooftop pool terrace, render",
+    "Living room, render",
+    "Dining area and kitchen, render",
+    "Bedroom with mountain view, render",
+    "Living and dining room, render",
+    "Lounge area, render",
+    "Bedroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions); the building was completed in 2025.",
+  "imagesStatus": "available",
+  "floorPlans": [],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

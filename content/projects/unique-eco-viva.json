@@ -1,0 +1,158 @@
+{
+  "name": "Unique Eco Viva",
+  "developer": "Mira Unique Naiharn Co., Ltd.",
+  "category": "Villa",
+  "projectType": "Eco pool villa",
+  "location": "Chalong",
+  "area": "Chalong",
+  "shortDescription": "Ten energy-efficient 3- and 4-bedroom pool villas of 330-450 sqm in Chalong, with solar panels, EV chargers and smart-home systems.",
+  "description": "Unique Eco Viva is a small estate of 10 two-storey pool villas in Chalong, at the foot of a forested hill, by the developer of Unique Villa Naiharn. The concept is energy efficiency: each villa has a 5 kW solar system, inverter air-conditioning, a heat-pump water heater, insulated walls and roof, UV-reflective glazing, an underground rainwater tank, a smart-home system and an EV charger.\nThere are three- and four-bedroom designs of about 330 to 450 sqm on plots of about 280 to 475 sqm, each with a private pool and a covered sala. The estate has 24-hour security, two parking spaces per villa, and pets are allowed.\nKata Beach is about 3.4 km away, with Rawai and Nai Harn a short drive further; international kindergartens and schools are within a few kilometres. Villas are built to order in about 14 months; foreign buyers hold the land on a registered lease.",
+  "cardDescription": "Ten energy-efficient 3-4 bedroom pool villas in Chalong with solar power, from THB 20.3M.",
+  "seoTitle": "Unique Eco Viva Chalong | Eco Pool Villas with Solar Power",
+  "seoDescription": "Unique Eco Viva, Chalong: 10 energy-efficient 3-4 bedroom pool villas of 330-450 sqm with solar panels, EV charging and smart home. From THB 20.3M.",
+  "primaryKeyword": "Unique Eco Viva",
+  "secondaryKeywords": [
+    "eco villas Phuket",
+    "pool villas for sale Chalong",
+    "solar pool villa Phuket"
+  ],
+  "constructionStatus": "Pre-sale",
+  "completionDate": "Built to order (about 14 months); 2028 Q1 per agent",
+  "totalUnits": "10",
+  "floors": "2",
+  "startingPrice": 20300000,
+  "bedroomsMin": 3,
+  "bedroomsMax": 4,
+  "bathroomsMin": 4,
+  "bathroomsMax": 5,
+  "builtUpMin": 330,
+  "builtUpMax": 449,
+  "landMin": 280,
+  "landMax": 476,
+  "ownership": [
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "3 Bedroom Pool Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "size": "330",
+      "price": 20300000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "4 Bedroom Pool Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "size": "430",
+      "price": 22900000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Private pool and sala in every villa",
+    "5 kW solar panels per villa",
+    "EV charger per villa",
+    "Smart-home system",
+    "Underground rainwater tank",
+    "Two parking spaces per villa",
+    "24-hour security and CCTV",
+    "Pets allowed"
+  ],
+  "commonAreaFee": "THB 45 per sqm per month",
+  "paymentPlan": [
+    "Reservation deposit THB 200,000",
+    "35% on contract signing",
+    "20% after foundation",
+    "15% after concrete structure",
+    "10% after roof and walls",
+    "10% after floors",
+    "5% after doors and windows",
+    "5% on transfer"
+  ],
+  "nearby": [
+    {
+      "place": "Kata Beach",
+      "distance": "3.4 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Dreamax International Kindergarten & School",
+      "distance": "1.2 km / 3 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Lighthouse Chalong International Kindergarten & School",
+      "distance": "5.6 km / 13 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Dibuk Hospital",
+      "distance": "5.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Bangkok Hospital Phuket",
+      "distance": "9.6 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "41.7 km / 59 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/unique-eco-viva"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/unique-eco-viva"
+    }
+  ],
+  "priceSourceUrl": "https://kellerhenson.com/project/unique-eco-viva",
+  "relatedProjects": [
+    "9-nile-residence",
+    "botanica-chalong-bay"
+  ],
+  "researchNotes": "Added 2026-11-28. Brief name \"Unique Eco Viva Villas\". Developer Mira Unique Naiharn Co., Ltd. (FazWaz); \"Unique\" (Keller Henson). Status \"made to order, 14 months\" (FazWaz) vs 2028 Q1 (Keller Henson). Prices THB 20.3-28.3M (FazWaz), 20.3-22.9M (KH). Type A/B labels conflict between sources; plans labelled as in the developer drawings. Common fee THB 45/sqm (FazWaz) vs THB 8,000 (KH); sinking fund THB 65,000 \"per sqm\" (KH) looks wrong, not shown. Freehold for Thai buyers, leasehold 30+30+30 for foreigners (KH).",
+  "cover": "/assets/images/projects/unique-eco-viva/unique-eco-viva-villa-type-a.jpg",
+  "images": [
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-villa-front.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-villa-pool.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-villa-street.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-entrance.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-living-room.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-kitchen-dining.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-master-bedroom.jpg",
+    "/assets/images/projects/unique-eco-viva/unique-eco-viva-bathroom.jpg"
+  ],
+  "imageCaptions": [
+    "Villa type A with pool and shade sail, render",
+    "Villa front and carport, render",
+    "Villa and pool, render",
+    "Villas from the street, render",
+    "Estate entrance, render",
+    "Living room, render",
+    "Kitchen and dining area, render",
+    "Master bedroom, render",
+    "Bathroom, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed villas.",
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/unique-eco-viva/unique-eco-viva-master-plan.jpg",
+    "/assets/images/floorplans/unique-eco-viva/unique-eco-viva-villa-type-a-plan.jpg",
+    "/assets/images/floorplans/unique-eco-viva/unique-eco-viva-villa-type-b-plan.jpg"
+  ],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}

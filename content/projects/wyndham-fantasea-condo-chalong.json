@@ -1,0 +1,152 @@
+{
+  "name": "Wyndham Fantasea Condo Chalong",
+  "developer": "Fantasea Plus Co., Ltd.",
+  "category": "Condominium",
+  "projectType": "Branded condominium",
+  "location": "Chalong",
+  "area": "Chalong",
+  "shortDescription": "Wyndham-branded condominium of 398 units in three 8-storey buildings in Chalong, near Robinson Lifestyle, from compact 1-bedroom to 3-bedroom units.",
+  "description": "Wyndham Fantasea Condo Chalong is a branded condominium by Fantasea Plus, a Phuket developer that also builds Wyndham Fantasea Condo Rawai and Fantasea Condo Kamala. The project has 398 apartments in three eight-storey buildings set around a large central pool, on a site of about 7,420 sqm in Chalong. Wyndham provides the brand and its reservation system for owners who want to rent out their unit.\nUnits range from compact one-bedroom apartments of 28 sqm to two-bedroom units of 56 sqm and three-bedroom units of 92 sqm, sold either within the foreign freehold quota or on leasehold. Shared facilities include the pool courtyard, a gym, a cafe, a lobby, co-working space and a meeting room, with 24-hour security and parking for every unit.\nRobinson Lifestyle Chalong, the Chalong Muay Thai street and the international schools of the south are close by; Chalong Pier is about 3.5 km away and the airport about 56 minutes by car. Sources give completion dates between Q4 2026 and April 2027.",
+  "cardDescription": "Wyndham-branded 398-unit condominium in Chalong with a large pool courtyard, from THB 2.6M.",
+  "seoTitle": "Wyndham Fantasea Condo Chalong | Branded Condos, Phuket",
+  "seoDescription": "Wyndham Fantasea Condo Chalong by Fantasea Plus: 398 branded condos of 28-92 sqm in three 8-storey buildings in Chalong, Phuket. From about THB 2.6M.",
+  "primaryKeyword": "Wyndham Fantasea Condo Chalong",
+  "secondaryKeywords": [
+    "condos for sale Chalong",
+    "Wyndham condo Phuket",
+    "Fantasea Plus Chalong"
+  ],
+  "constructionStatus": "Under construction",
+  "completionDate": "Apr 2027 (sources give Q4 2026 to Apr 2027)",
+  "totalUnits": "398",
+  "floors": "8",
+  "buildings": "3",
+  "startingPrice": 2636000,
+  "bedroomsMin": 1,
+  "bedroomsMax": 3,
+  "bathroomsMin": 1,
+  "bathroomsMax": 3,
+  "builtUpMin": 28,
+  "builtUpMax": 92,
+  "ownership": [
+    "Freehold",
+    "Leasehold"
+  ],
+  "unitTypes": [
+    {
+      "name": "Type A 1 Bedroom",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "size": "28",
+      "price": 2636000,
+      "priceType": "Lowest advertised price"
+    },
+    {
+      "name": "Type B / C 2 Bedroom",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "size": "56",
+      "price": 5992000,
+      "priceType": "Advertised price"
+    },
+    {
+      "name": "Type D 3 Bedroom",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "size": "92",
+      "price": 9844000,
+      "priceType": "Lowest advertised price"
+    }
+  ],
+  "facilities": [
+    "Large communal pool",
+    "Fitness centre",
+    "Cafe",
+    "Lobby and reception",
+    "Co-working space and meeting room",
+    "Communal garden",
+    "Car parking (200% of units)",
+    "24-hour security and CCTV",
+    "Wyndham brand and reservation system"
+  ],
+  "commonAreaFee": "THB 60 per sqm per month",
+  "sinkingFund": "THB 600 per sqm, one-time",
+  "nearby": [
+    {
+      "place": "Robinson Lifestyle Chalong",
+      "distance": "short walk",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket Zoo",
+      "distance": "1.3 km / 3 minutes",
+      "mode": "driving"
+    },
+    {
+      "place": "Chalong Pier",
+      "distance": "3.5 km",
+      "mode": "unspecified"
+    },
+    {
+      "place": "Phuket International Airport",
+      "distance": "39.1 km / 56 minutes",
+      "mode": "driving"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Portal project page (FazWaz data, mirror)",
+      "url": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/wyndham-fantasea-condo-chalong"
+    },
+    {
+      "label": "Papaya Property project page",
+      "url": "https://papayaproperty.com/fantasea-plus/fantasea-condo-chalong"
+    },
+    {
+      "label": "Keller Henson project page",
+      "url": "https://kellerhenson.com/project/wyndham-fantasea-condo-chalong"
+    }
+  ],
+  "priceSourceUrl": "https://samuitimes.com/projects/thailand/phuket/phuket-town/chalong/wyndham-fantasea-condo-chalong",
+  "relatedProjects": [
+    "andaman-bay-view-residences",
+    "aura-condominium"
+  ],
+  "researchNotes": "Added 2026-11-28. Separate from Wyndham Fantasea Condo Rawai. Status: FazWaz mirror \"Off Plan\" (construction start 01/11/2024), Papaya \"under construction\"; shown Under construction. Completion Apr 2027 (FazWaz) vs Q4 2026 (Papaya). Prices FazWaz mirror listings THB 2.636-10.304M (header \"from THB 2.62M\"); Papaya 1BR THB 2.856M, 3BR THB 9.996M with 3 baths (FazWaz 2 baths). Freehold premium THB 300,000. Pets not allowed. Unit plan boards on FazWaz carry a FazWaz watermark and were not used; master plan used.",
+  "cover": "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-building.jpg",
+  "images": [
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-pool-courtyard.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-pool-aerial.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-pool-deck.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-lobby.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-cafe.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-co-kitchen.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-fitness.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-two-bedroom-living.jpg",
+    "/assets/images/projects/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-living-dining.jpg"
+  ],
+  "imageCaptions": [
+    "Building exterior with the Wyndham entrance, render",
+    "Pool courtyard between the buildings, render",
+    "Main pool from above, render",
+    "Pool deck and loungers, render",
+    "Lobby, render",
+    "Cafe, render",
+    "Shared kitchen and co-working area, render",
+    "Fitness centre, render",
+    "2-bedroom living and dining area, render",
+    "Living and dining room, render"
+  ],
+  "imageCredit": "Developer marketing renders (artist impressions). Layouts and finishes may differ from the completed project.",
+  "imagesStatus": "available",
+  "floorPlans": [
+    "/assets/images/floorplans/wyndham-fantasea-condo-chalong/wyndham-fantasea-condo-chalong-master-plan.jpg"
+  ],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Advertised price from the source named below; may change. Ask us for the current price list."
+}
