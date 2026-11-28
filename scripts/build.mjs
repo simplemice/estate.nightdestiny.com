@@ -385,7 +385,7 @@ function layout({ title: t0, description, pathname, active, body, ogImage, ogIma
   const switchPath = errorPage ? '/' : pathname;
   const crumbs = CRUMBS; CRUMBS = [];
   const graph = [];
-  if (home) graph.push(AGENT(), { '@type': 'WebSite', '@id': WEBSITE_ID(), url: SITE + lp('/'), name: settings.siteName, ...(settings.alternateName ? { alternateName: settings.alternateName } : {}), inLanguage: LANG_META[LANG].htmlLang, publisher: { '@id': SITE + '/#agent' } });
+  if (!errorPage) graph.push(AGENT(), { '@type': 'WebSite', '@id': WEBSITE_ID(), url: SITE + lp('/'), name: settings.siteName, ...(settings.alternateName ? { alternateName: settings.alternateName } : {}), inLanguage: LANG_META[LANG].htmlLang, publisher: { '@id': SITE + '/#agent' } });
   if (crumbs.length > 1) graph.push({ '@type': 'BreadcrumbList', '@id': canonical + '#breadcrumb', itemListElement: crumbs.map(([h, l], i) => ({ '@type': 'ListItem', position: i + 1, name: l, ...(h ? { item: SITE + lp(h) } : { item: canonical }) })) });
   entities.forEach((e) => { const { '@context': _c, ...rest } = e; graph.push(rest); });
   const ldAll = graph.length ? jsonLd({ '@context': 'https://schema.org', '@graph': graph }) : '';
@@ -979,6 +979,21 @@ const nameList = (arr) => arr.join(', ');
 const linkP = (x) => `<a href="${url(x)}">${esc(x.name)}</a>`;
 const bedsText = (f) => { const r = bedRng(f.bedMin, f.bedMax); if (!r) return ''; const n = f.bedMax ?? f.bedMin; return LANG === DEFAULT_LANG ? `${r} ${n === 1 ? 'bedroom' : 'bedrooms'}` : `${r} ${I.plural(n, ['спальня', 'спальни', 'спален'])}`; };
 // Key facts for a project, built only from its own catalogue data (no invented content), plus other projects by the same developer.
+// Structured facts for the project entity: only values that are also shown on the page (catalogue data), never invented.
+function projLdFacts(p) {
+  const f = facts(p), cur = p.currency || 'THB', pv = (name, value) => (value !== undefined && value !== null && value !== '' ? { '@type': 'PropertyValue', name, value: String(value) } : null);
+  const g = locPageFor(p);
+  const units = num(String(p.totalUnits || '').replace(/[^\d.].*$/, ''));
+  const props = [pv('Developer', p.developer), pv('Property type', p.projectType), pv('Construction status', p.constructionStatus !== 'Status on request' ? p.constructionStatus : ''), pv('Completion', p.completionDate),
+    pv('Total units', p.totalUnits), pv('Floors', p.floors), pv('Bedrooms', bedRng(f.bedMin, f.bedMax)), pv('Built-up area (sqm)', rng(f.sizeMin, f.sizeMax)), pv('Land plot (sqm)', rng(p.landMin, p.landMax)),
+    pv('Ownership', (p.ownership || []).join(' / ')), pv('Starting price (advertised)', f.price ? `${f.price} ${cur}` : ''), (() => { const b = nearestBeach(p); return b ? pv('Nearest beach', `${b.place} (${b.distance})`) : null; })()].filter(Boolean);
+  return {
+    ...(p.category === 'Condominium' && units > 0 ? { numberOfAccommodationUnits: units } : {}),
+    ...(props.length ? { additionalProperty: props } : {}),
+    ...((p.facilities || []).length ? { amenityFeature: p.facilities.slice(0, 20).map((x) => ({ '@type': 'LocationFeatureSpecification', name: String(x), value: true })) } : {}),
+    ...(g ? { containedInPlace: { '@id': SITE + lp(g.url) + '#place' } } : {}),
+  };
+}
 function projGlance(p) {
   const f = facts(p), cur = p.currency || 'THB';
   const where = LANG === DEFAULT_LANG ? `in ${placeOf(p)}` : whereRu(areaKey(p));
@@ -1163,7 +1178,7 @@ function locationPage(g) {
 		${photoCredits(ed.photos)}
 		<p class="mt-3">${T('loc.browse_more')} ${LOCS.filter((x) => x.slug !== g.slug).slice(0, 6).map((x) => `<a href="${lp(x.url)}">${esc(areaName(x.name))}</a>`).join(' &middot; ')} &middot; <a href="${lp('/locations/')}">${T('loc.all')}</a></p>
 	</div></section>
-	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, numberOfItems: N, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, ...(ed.photos || []).filter((x) => x && x.image).length ? { image: (ed.photos || []).filter((x) => x && x.image).map((x) => SITE + x.image) } : {}, about: { '@type': 'Place', name: `${nm}, ${T('phuket')}`, ...(ed.map && num(ed.map.lat) !== null ? { geo: { '@type': 'GeoCoordinates', latitude: num(ed.map.lat), longitude: num(ed.map.lng) } } : {}), containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}
+	${jsonLd({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, numberOfItems: N, url: SITE + lp(g.url), inLanguage: LANG_META[LANG].htmlLang, description: desc, ...(ed.photos || []).filter((x) => x && x.image).length ? { image: (ed.photos || []).filter((x) => x && x.image).map((x) => SITE + x.image) } : {}, about: { '@type': 'Place', '@id': SITE + lp(g.url) + '#place', name: `${nm}, ${T('phuket')}`, ...(ed.map && num(ed.map.lat) !== null ? { geo: { '@type': 'GeoCoordinates', latitude: num(ed.map.lat), longitude: num(ed.map.lng) } } : {}), containedInPlace: { '@type': 'AdministrativeArea', name: T('ld.area_served') } }, mainEntity: { '@type': 'ItemList', itemListElement: ps.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(p), name: p.name })) } })}
 	${faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }) : ''}`;
   return layout({ title: ed.seoTitle ? `${ed.seoTitle}` : !N ? T('loc.title_guide', { nm, in: inn }) : fitTitle(T('loc.title_t', { types: types2, nm, in: inn }), T('loc.title_t1', { types: typeNames[0], nm, in: inn }), T('loc.title_b', { nm, in: inn, site: settings.siteName })), description: desc, pathname: g.url, active: 'locations', body, ogImage: (ed.photos || []).find((x) => x && x.image)?.image || ps.find((p) => p.cover)?.cover, ogImageAlt: (ed.photos || []).find((x) => x && x.image)?.alt || '', scripts: `<script src="/js/yield-calc.js?v=${JS_V.yieldCalc}" defer></script>` });
 }
@@ -1388,7 +1403,8 @@ function projectPage(p) {
     ...(p.ownership.length ? [[T('faq.q_own', { t }), T('faq.a_own', { own: p.ownership.map((o) => (LANG === DEFAULT_LANG ? o.toLowerCase() : ownName(o))).join(T('and')) })]] : []),
     [T('faq.q_ready', { t }), T('faq.a_ready', { status: status.toLowerCase(), done: p.completionDate ? T('faq.done', { d: tx(p.completionDate, 'completionDate') }) : '' })],
   ];
-  const faqBlock = `<h2 class="sec-h sec-sub">${T('faq.h')}</h2><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>`;
+  const faqLd = jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', '@id': SITE + url(p) + '#faq', inLanguage: LANG_META[LANG].htmlLang, mainEntity: faqItems.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) });
+  const faqBlock = `<h2 class="sec-h sec-sub">${T('faq.h')}</h2><div class="faq-list">${faqItems.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</div>${faqLd}`;
   const priceBlock = f.price
     ? `<div class="ds-price"><small>${T('starting_from')}</small><br>${money(f.price, cur)}${usd(f.price, cur, true)}</div><p class="ds-note" data-usd-note>${p.priceNote ? esc(fld(p, 'priceNote')) + ' ' : ''}${p.priceType ? esc(T('price_type_start', { x: tx(p.priceType, 'priceType') })) : T('adv_start')}${(verified ? T('price_checked', { date: verified }) : '').replace(/\.$/, '')}. ${T('confirm_avail')}</p>`
     : `<div class="ds-price"><small>${T('price_on_request')}</small></div><p class="ds-note">${T('no_public_price')}</p>`;
@@ -1396,7 +1412,7 @@ function projectPage(p) {
   const pageUrl = SITE + url(p);
   const ld = { '@context': 'https://schema.org', '@type': 'WebPage', '@id': pageUrl + '#webpage', url: pageUrl, name: projTitle(p), description: desc, inLanguage: LANG_META[LANG].htmlLang, isPartOf: { '@id': WEBSITE_ID() }, breadcrumb: { '@id': pageUrl + '#breadcrumb' },
     ...(p.cover ? { primaryImageOfPage: { '@type': 'ImageObject', url: SITE + p.cover } } : {}),
-    mainEntity: { '@type': p.category === 'Condominium' ? 'ApartmentComplex' : 'Residence', '@id': pageUrl + '#project', name: t, url: pageUrl, ...([p.cover, ...p.images].filter(Boolean).length ? { image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i) } : {}), address: { '@type': 'PostalAddress', addressLocality: areaName(areaOf(p.location)), addressRegion: T('phuket'), addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}) } };
+    mainEntity: { '@type': p.category === 'Condominium' ? 'ApartmentComplex' : 'Residence', '@id': pageUrl + '#project', name: t, url: pageUrl, ...([p.cover, ...p.images].filter(Boolean).length ? { image: [p.cover, ...p.images].filter(Boolean).map((i) => SITE + i) } : {}), address: { '@type': 'PostalAddress', addressLocality: areaName(areaOf(p.location)), addressRegion: T('phuket'), addressCountry: 'TH' }, ...(p.coordinates?.lat ? { geo: { '@type': 'GeoCoordinates', latitude: p.coordinates.lat, longitude: p.coordinates.lng } } : {}), ...projLdFacts(p) } };
   const lpg = locPageFor(p);
   const body = `${pageHead(t, T('sub.type_in', { type: cat, loc }), crumbs)}
 	<section class="spad-2 detail-section">
@@ -1709,6 +1725,39 @@ const urls = [
   ...projL.filter((x) => x.noindex !== true).map((x) => [urlN(x), dOf(x), 'weekly', '0.8', x]),
 ];
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(([u, lm, cf, pr, p, only]) => entry(u, lm, cf, pr, p, only)).join('\n')}\n</urlset>\n`);
+
+// /llms.txt (llmstxt.org): a short Markdown map of the site for AI search tools, generated from the same data as the pages.
+{
+  const L = [], A = (x = '') => L.push(x), U = (pth) => SITE + pth;
+  const thb = (n) => `THB ${Number(n).toLocaleString('en-US')}`;
+  const priced = (arr) => arr.map((p) => facts(p).price).filter(Boolean).sort((a, b) => a - b);
+  A(`# ${settings.siteName}`); A();
+  A(`> ${settings.siteName} (${SITE.replace(/^https?:\/\//, '')}) is a Phuket, Thailand real estate agency site: new development projects, condominiums and villas for sale, rentals, Phuket area guides and buyer guides. Prices are developers' or owners' advertised prices and change; every project page lists its sources and the date the data was last checked.`); A();
+  A(`Contact: WhatsApp / phone +${WA_TEL}${settings.email ? `, email ${settings.email}` : ''}. Office: ${settings.address || 'Phuket, Thailand'}. Languages: English (main), Russian (/ru/).`); A();
+  A('## Main pages'); A();
+  A(`- [Property for sale in Phuket](${U('/sale/')}): condos, villas and new projects with a published price`);
+  A(`- [New development projects](${U('/projects/')}): projects without a public price`);
+  A(`- [Rentals in Phuket](${U('/rent/')}): short- and long-term rentals, monthly rent ranges by area, renting tips`);
+  A(`- [Phuket areas](${U('/locations/')}): guides to ${LOCS.length} areas with their projects, prices and FAQs`);
+  A(`- [Buyer guides](${U('/guides/')})`);
+  A(`- [About](${U('/about/')}) and [Contact](${U('/contact/')})`); A();
+  A('## Phuket areas'); A();
+  LOCS.forEach((g) => { const pr = priced(g.projects); A(`- [${g.name}](${U(g.url)}): ${g.projects.length} project${g.projects.length === 1 ? '' : 's'}${pr.length ? `, from ${thb(pr[0])}` : ''}`); });
+  A();
+  const guides = Object.entries(LOCALES[DEFAULT_LANG].over.guides || {});
+  if (guides.length) { A('## Buyer guides'); A(); guides.forEach(([k, x]) => A(`- [${x.h1 || x.title || k}](${U(`/guides/${k}/`)})${x.description ? `: ${String(x.description).replace(/\s+/g, ' ')}` : ''}`)); A(); }
+  A('## Development projects by area'); A();
+  const byArea = new Map(); projL.forEach((p) => { const k = areaKey(p); (byArea.get(k) || byArea.set(k, []).get(k)).push(p); });
+  [...byArea.entries()].sort((a, b) => a[0].localeCompare(b[0])).forEach(([area, ps]) => {
+    A(`### ${area}`); A();
+    ps.sort((a, b) => a.name.localeCompare(b.name)).forEach((p) => { const f = facts(p); const bits = [p.projectType || p.category, p.developer ? `by ${p.developer}` : '', p.constructionStatus && p.constructionStatus !== 'Status on request' ? p.constructionStatus.toLowerCase() : '', p.completionDate ? `completion ${p.completionDate}` : '', bedRng(f.bedMin, f.bedMax) ? `${bedRng(f.bedMin, f.bedMax)} bedrooms` : '', f.price ? `from ${thb(f.price)}` : 'price on request'].filter(Boolean); A(`- [${p.name}](${U(url(p))}): ${bits.join(', ')}`); });
+    A();
+  });
+  A('## Optional'); A();
+  A(`- [XML sitemap](${U('/sitemap.xml')})`);
+  A(`- [Russian version](${U('/ru/')})`);
+  write('llms.txt', L.join('\n') + '\n');
+}
 
 // Translation coverage: English text that was shown on a non-English page because no translation exists yet.
 const gaps = LANGS.filter((l) => l !== DEFAULT_LANG).map((l) => [l, LOCALES[l].missing]).filter(([, m]) => m.size);

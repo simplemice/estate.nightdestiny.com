@@ -23,6 +23,12 @@ PAGES_CMS_IMPLEMENTATION_REPORT.md
 *_REPORT.md
 IMAGE_SOURCES_AND_LICENSES.md
 *_LICENSES.md
+NEW_PROJECTS_*.md
+PROJECTS_*.md
+*_RESEARCH.md
+answers_report.md
+PROJECT_VIDEO.md
+GEO_*.md
 
 # template source archives (zips) - the site uses the compiled files in css/ js/ fonts/
 Source/
