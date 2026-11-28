@@ -860,7 +860,7 @@ function rentGuide() {
   const faq = (en ? G.faq || [] : O.faq || []).filter((x) => x && x.question && x.answer);
   const faqHtml = faq.length ? `<section class="spad-2 rent-faq" id="rent-faq"><div class="container"><h2 class="sec-h">${T('rg.h_faq')}</h2><div class="faq-list">${faq.map((x) => `<details><summary>${esc(x.question)}</summary><p>${richText(x.answer)}</p></details>`).join('')}</div><p class="mt-3">${cta}</p></div></section>` : '';
   const credits = [...photos].filter((x, i, a) => x && x.image && a.findIndex((y) => y && y.image === x.image) === i);
-  return { html: intro + priceTable + areaCards + guide + faqHtml + `<div class="container">${photoCredits(credits, 20)}</div>`, faq, credits };
+  return { html: intro + priceTable + areaCards + guide, faqHtml: faqHtml + `<div class="container">${photoCredits(credits, 20)}</div>`, faq, credits };
 }
 
 function listingPage(category, list, extra = []) {
@@ -885,7 +885,7 @@ function listingPage(category, list, extra = []) {
 			<p class="no-results" id="no-results" hidden>${T('no_match_props')} <a href="#" id="f-reset-2">${T('reset_filters')}</a></p>
 			${total === 0 ? `<p class="no-results">${T('no_listings')} ${waBtn(waMsg.general(), 'wa-btn', T('ask_whatsapp'))}</p>` : ''}
 		</div>
-	</section>${rg ? (() => { return (rg.faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: rg.faq.map((x) => ({ '@type': 'Question', name: x.question, acceptedAnswer: { '@type': 'Answer', text: plainText(x.answer) } })) }) : ''); })() : ''}`;
+	</section>${rg ? rg.faqHtml : ''}${rg ? (() => { return (rg.faq.length ? jsonLd({ '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: LANG_META[LANG].htmlLang, mainEntity: rg.faq.map((x) => ({ '@type': 'Question', name: x.question, acceptedAnswer: { '@type': 'Answer', text: plainText(x.answer) } })) }) : ''); })() : ''}`;
   const rgSeo = rentC && LANG === DEFAULT_LANG && RENT_GUIDE ? RENT_GUIDE : {};
   return layout({ title: rgSeo.seoTitle || T(rentC ? 'rent.title' : 'sale.title', { site: settings.siteName }), description: rgSeo.seoDescription || desc, pathname: `/${category}/`, active: category, body: rentC ? body + rentalDialog().html : body, scripts: rentC ? rentalDialog().scripts : '', ogImage: (list[0] || extra[0])?.cover, i18nJs: true, entities: [{ '@type': 'ItemList', name: h1, itemListElement: list.concat(extra).slice(0, 50).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE + url(x), name: x.name || title(x) })) }] });
 }
