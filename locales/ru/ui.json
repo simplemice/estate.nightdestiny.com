@@ -694,5 +694,14 @@
   "area.projects_near": "Проекты рядом с районом {nm}",
   "rg.sale": "Продажа:",
   "rg.from": "от {price}",
-  "st.projects_in_near": "Проекты в районе и рядом"
+  "st.projects_in_near": "Проекты в районе и рядом",
+  "units.h_zoned": "Прайс-лист по зонам",
+  "units.zone": "Зона {z} ({n} юнитов)",
+  "units.zone_from": "от {price}",
+  "units.unit": "Юнит",
+  "units.offer": "Категория",
+  "units.indoor": "Внутри",
+  "units.outdoor": "Снаружи",
+  "units.total_area": "Общая площадь",
+  "units.wa_unit": "юнит {u} (зона {z})"
 }

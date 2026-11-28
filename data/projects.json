@@ -87,6 +87,35 @@
   "lastVerified": "2026-11-28"
  },
  {
+  "id": "the-terrace-by-ayana",
+  "name": "The Terrace by AYANA",
+  "url": "/projects/the-terrace-by-ayana/",
+  "category": "Condominium",
+  "propertyType": "Hillside terraced condominium",
+  "developer": "AYANA Phuket (T.H. Group Phuket Co., Ltd.)",
+  "location": "Layan (Choeng Thale, Thalang)",
+  "startingPrice": 3300000,
+  "currency": "THB",
+  "priceStatus": "advertised",
+  "bedrooms": [
+   null,
+   null
+  ],
+  "bathrooms": [
+   null,
+   null
+  ],
+  "builtUpArea": [
+   32,
+   48
+  ],
+  "status": "Pre-sale",
+  "completionDate": null,
+  "cover": "/assets/images/projects/the-terrace-by-ayana/the-terrace-by-ayana-official-teaser-artwork.jpg",
+  "imageCount": 1,
+  "lastVerified": "2026-11-28"
+ },
+ {
   "id": "unique-eco-viva",
   "name": "Unique Eco Viva",
   "url": "/projects/unique-eco-viva/",

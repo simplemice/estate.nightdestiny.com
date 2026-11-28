@@ -1,0 +1,581 @@
+{
+  "name": "The Terrace by AYANA",
+  "developer": "AYANA Phuket (T.H. Group Phuket Co., Ltd.)",
+  "category": "Condominium",
+  "projectType": "Hillside terraced condominium",
+  "location": "Layan (Choeng Thale, Thalang)",
+  "area": "Layan",
+  "shortDescription": "New hillside condominium by AYANA Phuket in Layan, Phuket, with tiered terraces facing the sea, forest or hills. First launch: 50 units of 32-48 sqm in Zones B and C from THB 3.3 million.",
+  "description": "The Terrace by AYANA is a new condominium development in Layan, in the Choeng Thale subdistrict of Thalang on Phuket's north-west coast, by AYANA Phuket, the brand of T.H. Group Phuket, which also develops AYANA Heights, AYANA Soluna Villas and AYANA Commons. The developer describes it as a hillside residence built in tiers: each level steps back from the one below so that every residence looks out over the sea, the forest or the hills, with terrace-level pools.\nThe first launch price lists, dated 27 November 2026 and marked subject to release confirmation, cover 50 units: 14 in Zone B and 36 in Zone C. They are compact units of 32 to 48 sqm indoors, from the ground floor to the sixth floor, priced from THB 3,300,000 to THB 6,899,904. Several ground-floor units have a private garden of 5 to 34 sqm, and some Zone B units have direct pool access.\nAgents report a total of about 604 units in three low-rise blocks, studio to two-bedroom layouts of up to about 96 sqm, and facilities such as an infinity pool, a gym, a padel court and a rooftop bar. The developer has not yet published these details, the construction timeline, ownership terms or fees, so we show them as indicative only. Ask us for the official price list and the latest availability.",
+  "cardDescription": "New hillside condo by AYANA in Layan; launch units of 32-48 sqm from THB 3.3M.",
+  "seoTitle": "The Terrace by AYANA, Layan | New Condo Prices from THB 3.3M",
+  "seoDescription": "The Terrace by AYANA: new hillside condominium in Layan, Phuket, by AYANA Phuket. Launch price list: 50 units of 32-48 sqm in Zones B and C from THB 3.3M.",
+  "primaryKeyword": "The Terrace by AYANA",
+  "secondaryKeywords": [
+    "The Terrace by AYANA Layan",
+    "AYANA Terrace Phuket",
+    "new condominiums in Layan Phuket",
+    "condos for sale in Layan"
+  ],
+  "constructionStatus": "Pre-sale",
+  "totalUnits": "About 604 (reported by agents; not yet confirmed by the developer)",
+  "floors": "Up to 6 in the launch price lists",
+  "startingPrice": 3300000,
+  "priceType": "Developer price",
+  "builtUpMin": 32,
+  "builtUpMax": 48,
+  "priceListNote": "Source: developer launch price lists for Zone B (14 units) and Zone C (36 units), dated 27 November 2026, marked \"subject to release confirmation\". Total price = indoor area x reference price per sqm; total area includes any separately listed garden or terrace. Floors follow the first digit of the unit number. The lists do not state bedrooms, availability, payment terms or fees: ask us to confirm before booking.",
+  "unitTypes": [
+    {
+      "name": "B-102",
+      "zone": "B",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "35",
+      "outdoorSqm": 34,
+      "price": 4187154,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-105",
+      "zone": "B",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "35",
+      "outdoorSqm": 13,
+      "price": 4762063,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-107",
+      "zone": "B",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "35",
+      "outdoorSqm": 13,
+      "price": 4762063,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-118",
+      "zone": "B",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "40",
+      "outdoorSqm": 17,
+      "price": 5396464,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-203",
+      "zone": "B",
+      "floor": "2",
+      "offer": "Entry Price",
+      "size": "35",
+      "price": 3450176,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-217",
+      "zone": "B",
+      "floor": "2",
+      "offer": "Entry Price",
+      "size": "35",
+      "price": 3450176,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-322",
+      "zone": "B",
+      "floor": "3",
+      "offer": "Pool Access",
+      "size": "32",
+      "outdoorSqm": 10,
+      "price": 5205420,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-323",
+      "zone": "B",
+      "floor": "3",
+      "offer": "Pool Access",
+      "size": "32",
+      "outdoorSqm": 10,
+      "price": 5205420,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-403",
+      "zone": "B",
+      "floor": "4",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 3905123,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-404",
+      "zone": "B",
+      "floor": "4",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4110656,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-406",
+      "zone": "B",
+      "floor": "4",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4412733,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-408",
+      "zone": "B",
+      "floor": "4",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4321152,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-418",
+      "zone": "B",
+      "floor": "4",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4412733,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "B-511",
+      "zone": "B",
+      "floor": "5",
+      "offer": "Pool Access",
+      "size": "32",
+      "outdoorSqm": 8,
+      "price": 6899904,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-101",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3460280,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-102",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3460280,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-103",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3460280,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-109",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "32",
+      "outdoorSqm": 5,
+      "price": 4137505,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-110",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "32",
+      "outdoorSqm": 6,
+      "price": 3996233,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-122",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "32",
+      "outdoorSqm": 6,
+      "price": 3996233,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-129",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3390375,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-130",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3390375,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-131",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3390375,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-132",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3390375,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-133",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Entry Price",
+      "size": "32",
+      "price": 3300000,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-140",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "32",
+      "outdoorSqm": 6,
+      "price": 3996233,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-145",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "38",
+      "outdoorSqm": 25,
+      "price": 4998719,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-151",
+      "zone": "C",
+      "floor": "1",
+      "offer": "Ground-Floor Garden",
+      "size": "38",
+      "outdoorSqm": 16,
+      "price": 4851704,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-207",
+      "zone": "C",
+      "floor": "2",
+      "offer": "Standard",
+      "size": "36",
+      "price": 4487747,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-226",
+      "zone": "C",
+      "floor": "2",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 3789653,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-248",
+      "zone": "C",
+      "floor": "2",
+      "offer": "Special Offer",
+      "size": "38",
+      "price": 4500213,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-301",
+      "zone": "C",
+      "floor": "3",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4112665,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-314",
+      "zone": "C",
+      "floor": "3",
+      "offer": "Special Offer",
+      "size": "48",
+      "price": 5860548,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-326",
+      "zone": "C",
+      "floor": "3",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 3907032,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-344",
+      "zone": "C",
+      "floor": "3",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 3907032,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-348",
+      "zone": "C",
+      "floor": "3",
+      "offer": "Special Offer",
+      "size": "38",
+      "price": 4639602,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-414",
+      "zone": "C",
+      "floor": "4",
+      "offer": "Special Offer",
+      "size": "48",
+      "price": 6036616,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-426",
+      "zone": "C",
+      "floor": "4",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 4024411,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-440",
+      "zone": "C",
+      "floor": "4",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4236222,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-444",
+      "zone": "C",
+      "floor": "4",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 4024411,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-514",
+      "zone": "C",
+      "floor": "5",
+      "offer": "Special Offer",
+      "size": "48",
+      "price": 6388751,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-526",
+      "zone": "C",
+      "floor": "5",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 4259168,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-540",
+      "zone": "C",
+      "floor": "5",
+      "offer": "Standard",
+      "size": "32",
+      "price": 4483335,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-544",
+      "zone": "C",
+      "floor": "5",
+      "offer": "Special Offer",
+      "size": "32",
+      "price": 4259168,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-548",
+      "zone": "C",
+      "floor": "5",
+      "offer": "Special Offer",
+      "size": "38",
+      "price": 5057760,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-615",
+      "zone": "C",
+      "floor": "6",
+      "offer": "Sixth Floor",
+      "size": "36",
+      "price": 5726670,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-616",
+      "zone": "C",
+      "floor": "6",
+      "offer": "Sixth Floor",
+      "size": "36",
+      "price": 5695307,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-617",
+      "zone": "C",
+      "floor": "6",
+      "offer": "Sixth Floor",
+      "size": "36",
+      "price": 5695307,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-618",
+      "zone": "C",
+      "floor": "6",
+      "offer": "Sixth Floor",
+      "size": "36",
+      "price": 5695307,
+      "priceType": "Developer price"
+    },
+    {
+      "name": "C-619",
+      "zone": "C",
+      "floor": "6",
+      "offer": "Sixth Floor",
+      "size": "36",
+      "price": 5714909,
+      "priceType": "Developer price"
+    }
+  ],
+  "facilities": [
+    "Terrace-level swimming pools (developer)",
+    "Private gardens for selected ground-floor units (price list)",
+    "Direct pool access for selected Zone B units (price list)"
+  ],
+  "paymentPlan": [
+    "The developer has not yet published the payment schedule, ownership terms or fees. Ask us for the current launch terms."
+  ],
+  "nearby": [
+    {
+      "place": "Layan Beach (agent figure)",
+      "distance": "about 1.2 km",
+      "mode": "unspecified"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is The Terrace by AYANA?",
+      "answer": "The Terrace by AYANA is a new hillside condominium in Layan, Phuket, by AYANA Phuket (T.H. Group Phuket). It is built in tiers so that each residence faces the sea, the forest or the hills."
+    },
+    {
+      "question": "Where is The Terrace by AYANA located?",
+      "answer": "On a hillside in Layan, in the Choeng Thale subdistrict of Thalang on Phuket's north-west coast, near Layan and Bang Tao beaches. Agents give about 1.2 km to Layan Beach; the developer has not published an exact address."
+    },
+    {
+      "question": "How much do units at The Terrace by AYANA cost?",
+      "answer": "The developer launch price lists of 27 November 2026 range from THB 3,300,000 (unit C-133, 32 sqm) to THB 6,899,904 (unit B-511, 32 sqm plus 8 sqm outdoor, pool access). Prices are subject to release confirmation."
+    },
+    {
+      "question": "What unit sizes are available?",
+      "answer": "The launch units are 32 to 48 sqm indoors, and some ground-floor units add a private garden of 5 to 34 sqm. The price lists do not state bedrooms; agents describe studio, one-bedroom and two-bedroom formats of up to about 96 sqm for the whole project."
+    },
+    {
+      "question": "Which zones are on sale?",
+      "answer": "The first launch covers Zone B (14 units) and Zone C (36 units), 50 units in total. Information on other zones has not been published."
+    },
+    {
+      "question": "When will The Terrace by AYANA be completed?",
+      "answer": "The developer has not yet announced the construction start or completion date."
+    },
+    {
+      "question": "Can foreigners buy at The Terrace by AYANA?",
+      "answer": "Ownership terms and the foreign quota have not yet been published by the developer. In Thailand, foreigners can usually own condominium units freehold within a building's 49% foreign quota; ask us to confirm the terms for a specific unit."
+    },
+    {
+      "question": "How can I get the latest price list?",
+      "answer": "Send us a WhatsApp message with the unit number or zone you are interested in and we will send the current price list and availability."
+    }
+  ],
+  "cover": "/assets/images/projects/the-terrace-by-ayana/the-terrace-by-ayana-official-teaser-artwork.jpg",
+  "images": [],
+  "imageCaptions": [
+    "Official teaser artwork by AYANA Phuket (an illustration, not a render of the buildings)"
+  ],
+  "imageCredit": "Official teaser artwork from the developer. Architectural renders and floor plans have not been published by the developer yet.",
+  "imagesStatus": "available",
+  "floorPlans": [],
+  "sources": [
+    {
+      "label": "AYANA Phuket: The Terrace by AYANA (official page)",
+      "url": "https://ayanaphuket.com/the-terrace"
+    },
+    {
+      "label": "AYANA Phuket news (T.H. Group Phuket)",
+      "url": "https://ayanaphuket.com/ayana-news/th-group-phuket-celebrated-chinese-new-year"
+    },
+    {
+      "label": "BURO: first 50 units launch (agency, 28 Nov 2026)",
+      "url": "https://buro.co.th/news/buro-terrace-first-50-2026-11"
+    },
+    {
+      "label": "LumiThai project page (agency)",
+      "url": "https://lumithai.com/en/properties/the-terrace-by-ayana"
+    }
+  ],
+  "relatedProjects": [
+    "ayana-heights",
+    "ayana-soluna-villas",
+    "ayana-commons"
+  ],
+  "currency": "THB",
+  "published": true,
+  "featured": false,
+  "publishedAt": "2026-11-28",
+  "lastVerified": "2026-11-28",
+  "priceStatus": "advertised",
+  "priceNote": "Developer launch price list, 27 November 2026, subject to release confirmation.",
+  "researchNotes": "Added 2026-11-28. Prices and units: developer PDFs \"The Terrace By Ayana Zone B Price list.pdf\" and \"Zone C Price list.pdf\" (27 Nov 2026, kept unmodified outside the repo). 50 rows checked: no duplicates; combined = indoor + outdoor; ref THB/sqm = total / indoor area for every row. No bedrooms, availability, payment terms or fees in the PDFs. Official page confirms name, brand, Layan, tiered design and terrace-level pools only. Indicative (agents only): 604 units, three low-rise blocks, studio-2BR up to 96 sqm, infinity pool ~95 m above sea level, padel, sky bar, gym/sauna, coworking, cinema, Green Town Property rental programme, Layan Beach 1.2 km. Third-party prices (LumiThai from THB 3.88M) not used. Official images are impressionist teaser paintings; only the text-free seascape is used, captioned as artwork. BURO-hosted exterior renders (dev-ext-*.webp) and plans not used: agency site, no permission."
+}

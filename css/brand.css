@@ -304,3 +304,6 @@ a.ra-tile:hover, a.ra-tile:focus { border-color: var(--accent); color: var(--tex
 .rent-guide .sec-h:first-child, .rent-prices .container > .sec-h:first-child, .rent-areas .container > .sec-h:first-child, .rent-howto .container > .sec-h:first-child, .rent-faq .container > .sec-h:first-child { margin-top: 0; }
 .rent-guide .area-photos.n3 figure:first-child img { min-height: 260px; }
 .estate-listing[data-listing="rent"] { padding-top: 20px; }
+
+/* zoned developer price lists: keep unit numbers and prices on one line */
+.zone-table td:first-child, .zone-table td:nth-child(7) { white-space: nowrap; }

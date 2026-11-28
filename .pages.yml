@@ -236,6 +236,7 @@ content:
       - { name: cover, label: Cover image (leave empty if you have no rights-cleared photos), type: image, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
       - { name: images, label: Gallery images (drag to reorder), type: image, list: true, options: { path: assets/images/projects, extensions: [jpg, jpeg, png, webp] } }
       - { name: floorPlans, label: Floor plans, type: image, list: true, options: { path: assets/images/floorplans, extensions: [jpg, jpeg, png, webp] } }
+      - { name: priceListNote, label: "Price list note (optional; shown above zoned price tables, e.g. source, date, conditions)", type: text }
       - name: unitTypes
         label: Available unit types
         type: object
@@ -248,6 +249,9 @@ content:
           - { name: bathrooms, label: Bathrooms, type: number }
           - { name: price, label: Starting price, type: number }
           - { name: floor, label: Floor / level (condos, e.g. 3-5), type: string }
+          - { name: zone, label: "Zone / building (optional; e.g. B. Units with a zone are shown as one price table per zone)", type: string }
+          - { name: offer, label: "Offer category from the price list (optional; e.g. Entry Price, Pool Access)", type: string }
+          - { name: outdoorSqm, label: "Outdoor area, sqm (optional; garden, terrace)", type: number }
           - { name: priceType, label: Unit price type, type: select, options: { values: [Developer price, Agent advertised price, Resale price] } }
           - { name: availability, label: Availability, type: select, options: { values: [Available, Limited, Sold] } }
           - { name: floorPlan, label: Floor plan, type: image, options: { path: assets/images/floorplans } }
@@ -396,6 +400,7 @@ content:
       primary: name
     fields:
       - { name: name, label: "Area name (for your reference)", type: string }
+      - { name: updated, label: "Text last updated (sets the sitemap date of this area page; change it when you edit the texts)", type: date, options: { format: yyyy-MM-dd } }
       - { name: seoTitle, label: "SEO title (optional; leave empty for the automatic title)", type: string }
       - { name: seoDescription, label: "Meta description (optional, about 140-160 characters; empty = automatic)", type: text }
       - { name: intro, label: "Introduction (2-4 sentences: character, atmosphere, who it suits)", type: text }

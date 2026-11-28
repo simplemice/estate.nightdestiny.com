@@ -645,5 +645,14 @@
   "area.projects_near": "Projects close to {nm}",
   "rg.sale": "Sale:",
   "rg.from": "from {price}",
-  "st.projects_in_near": "Projects in and near {nm}"
+  "st.projects_in_near": "Projects in and near {nm}",
+  "units.h_zoned": "Price list by zone",
+  "units.zone": "Zone {z} ({n} units)",
+  "units.zone_from": "from {price}",
+  "units.unit": "Unit",
+  "units.offer": "Offer",
+  "units.indoor": "Indoor",
+  "units.outdoor": "Outdoor",
+  "units.total_area": "Total area",
+  "units.wa_unit": "unit {u} (Zone {z})"
 }

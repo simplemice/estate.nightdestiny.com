@@ -135,6 +135,19 @@
    "featured": false
   },
   {
+   "slug": "the-terrace-by-ayana",
+   "url": "/projects/the-terrace-by-ayana/",
+   "kind": "project",
+   "title": "The Terrace by AYANA",
+   "location": "Layan (Choeng Thale, Thalang)",
+   "type": "Hillside terraced condominium",
+   "price": 3300000,
+   "currency": "THB",
+   "cover": "/assets/images/projects/the-terrace-by-ayana/the-terrace-by-ayana-official-teaser-artwork.jpg",
+   "publishedAt": "2026-11-28",
+   "featured": false
+  },
+  {
    "slug": "unique-eco-viva",
    "url": "/projects/unique-eco-viva/",
    "kind": "project",

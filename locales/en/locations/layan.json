@@ -1,7 +1,7 @@
 {
   "name": "Layan",
   "intro": "Layan is a quiet beach at the northern end of Bang Tao Bay, bordering Sirinat National Park. It offers a more natural, low-density setting while staying within minutes of Laguna, Bang Tao and the airport road.",
-  "overview": "Layan is the beach area on Phuket's west coast north of Bang Tao, in Choeng Thale, Thalang district; Layan Beach borders a national park. Projects listed here are described as located on or very close to Layan Beach or Layan Bay: pool-villa communities (Aileen Villas Layan, Pavara Vhana Collection), the branded beachfront condominium Kiara Reserve Residences next to the Anantara Layan resort, and the sea-view Ayana Heights, about 1.4 km (2 minutes by car) from Layan Beach in the project data.\nThis is the premium end of our catalogue, with advertised starting prices from about THB 4.5 million for Ayana Heights up to THB 98 million. Projects that are only near Layan Beach, such as Layan Green Park, are listed under their primary location (Cherng Talay) and mention Layan as a nearby area.",
+  "overview": "Layan is the beach area on Phuket's west coast north of Bang Tao, in Choeng Thale, Thalang district; Layan Beach borders Sirinat National Park. Our catalogue lists six projects here: the branded beachfront condominium Kiara Reserve Residences next to the Anantara Layan resort, the hillside condominiums Ayana Heights and The Terrace by AYANA by AYANA Phuket, the large phased Layan Verde by VillaCarte, and the pool-villa communities Aileen Villas Layan and Pavara Vhana Collection.\nAdvertised starting prices run from THB 3.3 million (a 32 sqm unit at The Terrace by AYANA, launch price list of November 2026) to about THB 98 million for the largest villas, making Layan both an entry point to new condos near the beach and the premium end of our catalogue. Projects that are only near Layan Beach, such as Layan Green Park, are listed under their primary location (Cherng Talay) and mention Layan as a nearby area.",
   "nearbyAreas": [
     "bang-tao",
     "naiyang"
@@ -92,6 +92,10 @@
       "answer": "Layan Beach is at the northern end of Bang Tao Bay on Phuket's west coast, next to Sirinat National Park."
     },
     {
+      "question": "Which new condominiums are being built in Layan?",
+      "answer": "Our catalogue lists The Terrace by AYANA (launched November 2026, units from THB 3.3 million), Ayana Heights (completion planned for 2027) and the phased Layan Verde (completion planned for 2028), plus the completed beachfront Kiara Reserve Residences."
+    },
+    {
       "question": "Is Layan quieter than Bang Tao?",
       "answer": "Yes. Layan has far fewer bars and restaurants on the beach, while Bang Tao's services are a few minutes away by car."
     },
@@ -108,5 +112,6 @@
       "answer": "Yes, in the dry season. As elsewhere on the west coast, check the flags from about May to October."
     }
   ],
-  "seoDescription": "Layan, Phuket: condos and villas by a quiet beach next to Sirinat National Park, near Bang Tao. Area guide, prices, rental demand and calculator."
+  "seoDescription": "Layan, Phuket: condos and villas by a quiet beach next to Sirinat National Park, near Bang Tao. Area guide, prices, rental demand and calculator.",
+  "updated": "2026-11-28"
 }
