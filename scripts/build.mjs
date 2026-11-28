@@ -1485,11 +1485,11 @@ function homePage() {
     const f = all.filter((x) => (x._saleEntry || x).featured);
     return (f.length ? f : all).slice(0, 3);
   };
-  // Featured sale cards: the HTML ships the usual 3 (stable for crawlers); js/estate.js swaps them for 3 random ones on every page load, taken from this pool (3 + 9 sampled at build time, so each build also changes the pool).
+  // Featured sale cards: the HTML ships the usual 3 (stable for crawlers); js/estate.js swaps them for 3 random ones on every page load, taken from this pool: everything listed on /sale/.
   const featSaleSection = () => {
     const card = (x) => (x._saleEntry ? projSaleCard(x) : propCard(x));
     const first = featSale();
-    const rest = [...saleL, ...saleProjects].filter((x) => !first.includes(x)).map((x) => [[...String(x.slug || x.name)].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7), x]).sort((m, n) => m[0] - n[0]).slice(0, 9).map(([, x]) => x);
+    const rest = [...saleL, ...saleProjects].filter((x) => !first.includes(x)); // every /sale/ item (future ones too) is in the random pool
     const base = section(T('home.featured_sale'), T('for_sale_cap'), first.map(card), lp('/sale/'), T('home.view_sale'));
     if (!base || !rest.length) return base;
     return base.replace('<div class="row">', '<div class="row" id="home-featured-sale">').replace('</section>', `<template id="home-featured-pool">${first.concat(rest).map(card).join('')}</template></section>`);
